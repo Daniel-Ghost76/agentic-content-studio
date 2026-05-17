@@ -1,0 +1,80 @@
+{
+  "num": 85,
+  "title": "Unlock the Full Power of Your n8n Agents (new instance MCP)",
+  "date": "05/12/25",
+  "word_count": 3426,
+  "char_count": 17863,
+  "chunks": 1,
+  "extracted": {
+    "hook": "NN&amp;N's new instance level MCP is truly a gamecher and in today's video I'm going to talk about why that is how easy it is to use and how to connect it to things like chatbt claude or lovable",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "so this is where MCP really started",
+      "But with NADN instance level MCP, it's not just limited to these workflows or tools that we assign.",
+      "So anyways, you're going to go to your settings in your NIN and right here you should see MCP access.",
+      "Now, if it's your first time doing this, you will have to basically just copy in your server URL and give it to Claude.",
+      "And so now, if I go to the tools right here",
+      "So there are two important things that you need to know about making workflows actually from MCP clients."
+    ],
+    "cta": "\"if you enjoyed, please give it a like. It definitely helps me out a ton\"",
+    "vocabulary": [
+      "gamecher",
+      "native connector",
+      "web hook",
+      "AI agent",
+      "ClickUp",
+      "Gmail search",
+      "OOTH authentication",
+      "single sign on"
+    ],
+    "analogies": [
+      "\"think of it like\"",
+      "\"imagine\"",
+      "\"it's basically an AI agent but it can see all of the different workflows in your instance. It knows what they do. It knows what to send it and it knows when to call each one.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [
+        "05/12/25"
+      ],
+      "named_tools": [
+        "Claude",
+        "ClickUp",
+        "NIN",
+        "LOVABLE"
+      ]
+    },
+    "vulnerability": "\"I don't think it's working for anyone right now\"",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "when explaining the process of connecting to different clients like Claude or Lovable"
+      ],
+      "slow": [
+        "during detailed explanations of workflows and their configurations"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

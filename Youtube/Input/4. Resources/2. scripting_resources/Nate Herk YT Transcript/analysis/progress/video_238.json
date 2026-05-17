@@ -1,0 +1,79 @@
+{
+  "num": 238,
+  "title": "*LIVE BUILD* Personalized Outreach AI Agent in n8n (No Code)",
+  "date": "26/09/24",
+  "word_count": 4627,
+  "char_count": 23240,
+  "chunks": 2,
+  "extracted": {
+    "hook": "okay so today I'm going to be doing a live build of an AI agent this agent is going to qualify leads and going to generate a personal message for each lead",
+    "hook_type": "Demonstration",
+    "credential_drop": "NOT FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the workflow setup and node connections"
+      ],
+      "slows": [
+        "explaining the steps in detail, such as setting up credentials for nodes"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "please let me know what else you guys want to see and if you sort of like these live builds or step by steps let me know too and yeah that's all so thanks guys",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"let me hit you with\"",
+      "\"literally insane\""
+    ],
+    "transitions": [
+      "so the agent will call this tool in order to start the process of moving it through this logic",
+      "now let's move on to the next step",
+      "so we're done with this one now we're going to add another message",
+      "next step here is we need to add another sheets node so that this information actually goes back into Google Sheets",
+      "so let's say we got an error with the personal message tool",
+      "that's going to do it for this one"
+    ],
+    "vocabulary": [
+      "live build",
+      "lead database",
+      "Google Sheets",
+      "Google form",
+      "qualification status",
+      "personal message",
+      "open AI",
+      "API key",
+      "merge node",
+      "data transformation",
+      "personalized outreach",
+      "AI agent",
+      "n8n",
+      "executions",
+      "workflows"
+    ],
+    "analogies": [
+      "\"it's pretty much we're getting we're getting the information from the database we're doing something to get some sort of answer to put back onto the row and then we're actually putting it back onto the row\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\"",
+      "\"you guys\""
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

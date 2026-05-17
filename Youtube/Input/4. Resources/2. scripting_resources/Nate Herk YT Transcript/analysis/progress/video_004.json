@@ -1,0 +1,80 @@
+{
+  "num": 4,
+  "title": "Claude Code + Playwright Automates Literally Anything",
+  "date": "25/04/26",
+  "word_count": 4505,
+  "char_count": 23320,
+  "chunks": 2,
+  "extracted": {
+    "hook": "So, when you give a tool as powerful as Claude code, access to literally control a browser, if you think about it, you can actually automate anything.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "\"So, today I walk through three use cases that you can use when you connect Playwright CLI to Claude code to control your browser.\""
+      ],
+      "slow": [
+        "\"And one reason for that, while we're letting this load, is that if I do {slash} context in here, you can see that the Chrome dev tools MCP takes up so many tokens because there's so many different tools and each tool has a description. So, that's how I was like, \"Hmm, maybe I don't want to use the MCP server. Let me just go ahead and try this Playwright CLI.\"\"",
+        "\"Okay, so the plan is done.\""
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "If you enjoyed the video, you learned something new, please give it a like. It definitely helps me out a ton.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys make it to the end\"",
+      "\"I'll see you on the next one\""
+    ],
+    "transitions": [
+      "So, today I walk through three use cases that you can use when you connect Playwright CLI to Claude code to control your browser.",
+      "All right, so I am in a fresh Claude code project as you can see.",
+      "And one reason for that, while we're letting this load, is that if I do {slash} context in here, you can see that the Chrome dev tools MCP takes up so many tokens because there's so many different tools and each tool has a description. So, that's how I was like, \"Hmm, maybe I don't want to use the MCP server. Let me just go ahead and try this Playwright CLI.\"",
+      "Okay, so the plan is done.",
+      "All right, so you can see that it is done.",
+      "So, now that we have this initial stuff set up, I'm just going to go ahead and do a {slash} init to basically just initialize the environment and give us a claw.md file.",
+      "But that is going to do it for the video."
+    ],
+    "vocabulary": [
+      "automate",
+      "browser automation",
+      "QA",
+      "stressed testing",
+      "downloading reports",
+      "playing games",
+      "sessions",
+      "logged in",
+      "tokens",
+      "automation",
+      "script",
+      "mistakes",
+      "testing"
+    ],
+    "analogies": [
+      "\"So, today I walk through three use cases that you can use when you connect Playwright CLI to Claude code to control your browser.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"you guys\"",
+      "\"I appreciate you guys\""
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

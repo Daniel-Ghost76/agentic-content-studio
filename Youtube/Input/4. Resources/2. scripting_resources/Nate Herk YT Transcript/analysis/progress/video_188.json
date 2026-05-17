@@ -1,0 +1,110 @@
+{
+  "num": 188,
+  "title": "Your AI Agent Prompts Are Wrong - Here's The Fix",
+  "date": "26/02/25",
+  "word_count": 6472,
+  "char_count": 33147,
+  "chunks": 2,
+  "extracted": {
+    "hook": "building AI agents and hooking up different tools is fun and all but the quality and consistency of the performance of your agents directly ties back to the quality of the system prompt that you put in there",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "if you guys don't know me my name is Nate I've been building agents for a while now and I also run a school Community that's all about building AI agents with NN we've got different Deep dive Topics in there like building AI agents Vector databases apis and HTTP requests and also doing step-by-step builds of all the videos shown on my channel",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "\"building AI agents and hooking up different tools is fun and all but the quality and consistency of the performance of your agents directly ties back to the quality of the system prompt that you put in there\"",
+        "\"I'm going to be going over the most important thing that I've learned while building out agents and prompting them that I don't think a lot of people are doing so let's not waste any time and get straight into this one\""
+      ],
+      "slow": [
+        "\"if you guys don't know me my name is Nate I've been building agents for a while now and I also run a school Community that's all about building AI agents with NN we've got different Deep dive Topics in there like building AI agents Vector databases apis and HTTP requests and also doing step-by-step builds of all the videos shown on my channel\""
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "\"as always really appreciate you guys making it to the end of this video if you learn something new or if you enjoyed it please leave a like it definitely helps me out a ton\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "anyways today what we're going to be talking about is",
+      "So within our agents we're giving them a system prompt and this is basically just coding them on how to act but don't be scared of the word code because we're just using natural language instead of something like python or JavaScript",
+      "now let's get into the biggest lesson that I've learned while prompting AI agents which is",
+      "if it still isn't clicking yet let's look at a real world example",
+      "so let's take a look at some examples of reactive prompting that I've done in my ultimate assistant workflow",
+      "now that we've got through that document let's hop into Ed end and we'll just do some really quick examples of some reactive live prompting",
+      "let's do something else let's say in Gmail we want to be able to label an email and in order to label an email as you can see add label to a message we need a message ID and we need a label name or an ID for that label"
+    ],
+    "vocabulary": [
+      "reactive prompting",
+      "proactive prompting",
+      "system prompt",
+      "tools",
+      "prompting examples",
+      "ultimate assistant workflow",
+      "personal assistant",
+      "reactive prompting",
+      "tool test",
+      "system prompt",
+      "memory and context management",
+      "error handling",
+      "use case",
+      "agent",
+      "connected chat trigger node",
+      "Google Calendar tool",
+      "send email tool"
+    ],
+    "analogies": [
+      "\"imagine you're teaching a kid to ride a bike if you took a proactive approach you'd be trying to correct the child's behavior before you know what he or she is going to do so if you're telling the kid to keep your back straight lean forward you know don't tilt a certain way that's going to be confusing because now the kid is trying to adjust to all these things\"",
+      "\"but if you're taking a reactive approach and obviously maybe this wasn't the best example CU you don't want your kid to fall but you let them ride you see what they're doing you know if they're leaning too much to the left you're going to say okay well maybe you need to lean a little more to the right to center yourself up um and only correct what they actually need to have corrected this is going to be more effective fewer unnecessary instructions and just more simple and less overwhelming\"",
+      "\"it's basically that you're just adding a tool to the agent\"",
+      "\"imagine we have this agent and it's like a robot helper\""
+    ],
+    "curiosity_gaps": [
+      "\"I'm going to be going over the most important thing that I've learned while building out agents and prompting them that I don't think a lot of people are doing so let's not waste any time and get straight into this one\"",
+      "\"So within our agents we're giving them a system prompt and this is basically just coding them on how to act but don't be scared of the word code because we're just using natural language instead of something like python or JavaScript\"",
+      "\"now let's look at some examples of reactive prompting that I've done in my ultimate assistant workflow as you can see right here I'm sure you guys have seen that video by now if you haven't I'll link it right up here but I did a ton of reactive prompting in here because I have one main agent calling four different agents and then within those sub agents they all have different tools that they need to call so this was very very reactive when I was prompting this workflow or this system of Agents\"",
+      "\"so let's take a look at some examples of reactive prompting that I've done in my ultimate assistant workflow as you can see right here I'm sure you guys have seen that video by now if you haven't I'll link it right up here but I did a ton of reactive prompting in here because I have one main agent calling four different agents and then within those sub agents they all have different tools that they need to call so this was very very reactive when I was prompting this workflow or this system of Agents\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": [
+      "\"I've been building agents for a while now\"",
+      "\"we've got different Deep dive Topics in there like building AI agents Vector databases apis and HTTP requests and also doing step-by-step builds of all the videos shown on my channel\"",
+      "\"if you haven't I'll link it right up here but I did a ton of reactive prompting in here because I have one main agent calling four different agents and then within those sub agents they all have different tools that they need to call so this was very very reactive when I was prompting this workflow or this system of Agents\"",
+      "\"I've seen some of my demos we're able to get like six tools hooked up have no prompt in there and the agent's still working pretty well at that point we're able to start adding more lines to make the system more robust\""
+    ],
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if it still isn't clicking yet let's look at a real world example\"",
+      "\"so let's take a look at some examples of reactive prompting that I've done in my ultimate assistant workflow as you can see right here I'm sure you guys have seen that video by now if you haven't I'll link it right up here but I did a ton of reactive prompting in here because I have one main agent calling four different agents and then within those sub agents they all have different tools that they need to call so this was very very reactive when I was prompting this workflow or this system of Agents\"",
+      "\"so let's take a look at some examples of reactive prompting that I've done in my ultimate assistant workflow as you can see right here I'm sure you guys have seen that video by now if you haven't I'll link it right up here but I did a ton of reactive prompting in here because I have one main agent calling four different agents and then within those sub agents they all have different tools that they need to call so this was very very reactive when I was prompting this workflow or this system of Agents\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"What is prompting make sure you stick around for this one because once we get through this doc we're going to hop into NN and do some live prompting examples So within our agents we're giving them a system prompt and this is basically just coding them on how to act but don't be scared of the word code because we're just using natural language instead of something like python or JavaScript\"",
+      "\"the key role here is to keep the prompts clear simple and actionable you don't want to leave any room for misinterpretation um and also less is more sometimes I'll see people just throw in a novel and that's just obviously going to be more expensive for you and also just more room to confuse the agent so less is more\"",
+      "\"the benefits here of reactive prompting are pretty clear the first one is easier debugging you know exactly what bro the agent whether that's I added this sentence and then the automation broke all I have to do is take out that sentence or I added this tool and I didn't prompt the tool yet so that's what cause the automation to break so I'm just going to add a sentence in right here about the tool\"",
+      "\"finally we have the benefit that it prevents over complicated prompts that are hard to modify later if you have a whole novel in there and you're getting errors you're not going to know where to start you're going to be overwhelmed so taking it step by step starting with nothing and adding on things slowly is the way to go\"",
+      "\"so let's take a look at some examples of reactive prompting that I've done in my ultimate assistant workflow as you can see right here I'm sure you guys have seen that video by now if you haven't I'll link it right up here but I did a ton of reactive prompting in here because I have one main agent calling four different agents and then within those sub agents they all have different tools that they need to call so this was very very reactive when I was prompting this workflow or this system of Agents\"",
+      "\"so let's take a look at some examples of reactive prompting that I've done in my ultimate assistant workflow as you can see right here I'm sure you guys have seen that video by now if you haven't I'll link it right up here but I did a ton of reactive prompting in here because I have one main agent calling four different agents and then within those sub agents they all have different tools that they need to call so this was very very reactive when I was prompting this workflow or this system of Agents\""
+    ]
+  }
+}

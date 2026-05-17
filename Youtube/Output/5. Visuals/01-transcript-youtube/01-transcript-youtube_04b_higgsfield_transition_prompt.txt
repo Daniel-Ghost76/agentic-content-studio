@@ -1,0 +1,24 @@
+Create a 3-second cinematic HUD transition using 00-start-background.png as the start image, 04-youtube-to-transcripts.png as the middle reference, and 04b-is-this-actually-useful.png as the final reference.
+
+The animation should feel like one continuous thought: first showing the workflow, then pulling back into the question of whether this is actually useful.
+
+Start frame:
+Begin with 00-start-background.png only. The background is a soft dark teal HUD environment with faint blurred panels and empty center space. No workflow elements or question text are visible at frame 0.
+
+Middle beat:
+From 0.2s to 1.4s, build toward 04-youtube-to-transcripts.png. The YouTube/video library panel slides in from the left, the processing node appears in the center, and the transcript/data panel resolves on the right. Thin teal connector lines draw between them with tiny data particles moving left to right. Keep this motion smooth, soft, and readable.
+
+Transition beat:
+From 1.4s to 2.1s, the workflow visual begins to simplify and recede. The connector lines and panels gently blur and fade backward into the background, like the interface is zooming out from the technical system into the bigger question. Do not make the elements explode, glitch, shatter, or spin. Keep the transition premium and calm.
+
+Final beat:
+From 2.1s to 3.0s, transition into 04b-is-this-actually-useful.png. The central question-marker HUD shape forms first with a soft scale-in and muted teal glow. The surrounding small HUD fragments/cards appear around it with subtle parallax. The text "IS THIS ACTUALLY USEFUL?" fades in cleanly and becomes fully readable by the final frame.
+
+By the final frame, match 04b-is-this-actually-useful.png: soft dark teal background with blurred UI/code/dashboard panels, central question HUD layout, visible dotted texture, and large readable "IS THIS ACTUALLY USEFUL?" text.
+
+Style:
+Soft premium AI-tech HUD, low-to-medium contrast, frosted glass, muted teal glow, visible dotted texture, cinematic blur, smooth parallax, same visual world throughout.
+
+Do not add extra text, logos, humans, real objects, floor, horizon, reflections, explosions, glitches, harsh neon, or bright white blowout.
+
+Duration: 3 seconds. Aspect ratio: 16:9.

@@ -1,0 +1,93 @@
+{
+  "num": 80,
+  "title": "I built an AI Agent in 2 hours (and got paid $2600)",
+  "date": "17/12/25",
+  "word_count": 7729,
+  "char_count": 40487,
+  "chunks": 2,
+  "extracted": {
+    "hook": "So, I built another AI agent in just 2 hours, and someone actually paid me $2,600 for this one.",
+    "hook_type": "Result-First",
+    "credential_drop": "\"Not $1,200, $2,600. And it really wasn't anything too complex or advanced. In fact, I actually built this with very little experience in n8n.\" (early)",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "discussing the payment and complexity of the project"
+      ],
+      "slow": [
+        "explaining each step in detail"
+      ]
+    },
+    "vulnerability": "\"Honestly, if I rebuild it today, it probably take me 30 minutes max.\" (early)",
+    "cta": "\"So, if we open this up, you can see it says, \"New client onboarded. Here's their name, here's their business name and size, here's their goal, and that a welcome email has been sent with next steps. And you can see the variables pop through over here with all of that real information. So, I'm going to go ahead and shoot that off.\"\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "\"So, in this video, I'm not only going to build it in front of you guys, but I'm also going to walk you through what the agent does, why someone paid me for it, what this means for anyone trying to get started, and how I'd sell my first AI agent if I was starting today from zero.\"",
+      "\"Anyways, we know that the first flow is going to be triggered when the student submits a payment. So, for that, what I did in the actual build is we used a webhook, and we basically just had the payment processor send a notification to this n8n webhook, so it would trigger the workflow when someone had paid.\"",
+      "\"All right. Now, the second phase is we need to do our follow-up. So, we know that this goes off every single day, so I'm going to go ahead and add a scheduled trigger, and I'm going to have this run every single day in the afternoon, let's just call it 2:00 p.m.\"",
+      "\"The third one is very similar to the second one right here. So, I'm actually just going to copy that trigger down here, and we're going to give that a quick run.\"",
+      "\"All right, so that's finished up. We can see that we have subject, \"",
+      "\"So, I'm going to go ahead and once again send a message in Gmail. You can see now it's super easy for us to drag in the subject right there,\"",
+      "\"And now, hopefully you can see why I wanted to add those quickly lines. It just helps keep each of these messages a little bit more separated. But, that is basically it.\""
+    ],
+    "vocabulary": [
+      "wireframe",
+      "CRM entry",
+      "follow-up",
+      "AI agent",
+      "n8n",
+      "\"account creation\"",
+      "\"onboarding\"",
+      "\"CRM\"",
+      "\"webhook\"",
+      "\"N to N\""
+    ],
+    "analogies": [
+      "\"And what's crazy is I'm pretty sure that all of you guys could build something just like this, too.\" (hook_type: Curiosity-Gap)",
+      "\"it's basically making friends with people who were interested in AI automation\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "\"So, why did this business owner pay me $2,600 for a 2-hour job?\"",
+      "\"And that's just in direct time costs. That doesn't even include the indirect ROI or what some would call intangible benefits, which could be happier clients, faster onboarding, better experience, fewer mistakes.\"",
+      "\"So, if I told you right now, \"Hey, give me $1,000 right [music] now, and I will give you back $10,000 in a month,\"\"",
+      "\"It's not super easy to go talk to people and win their trust and have them hand you over money. I remember back in the day when I started hopping on discovery calls, I probably hopped on something like 25 before I even got the first person to entertain the idea of giving me money.\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"So, the first piece is to create the CRM entry. So, this gets triggered when the student would make a payment, they would automatically get a welcome email with a link to go create their account.\"",
+      "\"Now, flow number three is pretty similar, but this one is for a human escalation. So, every single day this would go off, it would check the CRM to see if anybody had already received one follow-up, and if they have, go ahead and warn the team internally on Slack to say, 'Hey, this person, it's been 5 days, they haven't made their account, please go follow up with them manually.'\"",
+      "\"And then the final flow down here for number four was the actual personalized kickoff. And what you'll notice is that this is actually the only time in this entire system that we're using AI.\"",
+      "\"Step one is I would identify the problem. I would talk to friends, family members, business owners, and I would do research.\"",
+      "\"Step two is I would pick the right tools. Personally, I'd use N to N.\"",
+      "\"Step three is to prototype fast. Don't overthink it. Your goal isn't to build a perfect system right away. It's just to show that you know what you're doing.\""
+    ]
+  }
+}

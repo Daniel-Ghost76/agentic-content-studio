@@ -1,0 +1,75 @@
+{
+  "num": 149,
+  "title": "8 Simple Hacks for Smarter AI Agents in 8 Mins",
+  "date": "15/06/25",
+  "word_count": 2015,
+  "char_count": 10545,
+  "chunks": 1,
+  "extracted": {
+    "hook": "I've never talked about these settings before, and most people don't even know they exist.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "Okay, so the first one is frequency penalty.",
+      "And by the way, if you want to download this doc where I have articles about each of these settings and a summary table, when to use them, that sort of stuff. You can get this in my free school community."
+    ],
+    "cta": "\"that's going to do it for this one. Hopefully you guys enjoyed and learned something new. If you did, please give it a like. Definitely helps me out a ton.\"",
+    "vocabulary": [
+      "settings",
+      "AI agent",
+      "frequency penalty",
+      "maximum number of tokens",
+      "response format",
+      "presence penalty",
+      "sampling temperature",
+      "timeout",
+      "max retries",
+      "top P"
+    ],
+    "analogies": "\"it's basically nucleus sampling\"",
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [
+        "360,000 milliseconds",
+        "360 seconds",
+        "6 minutes"
+      ],
+      "named_tools": [
+        "Open Router"
+      ]
+    },
+    "vulnerability": "\"NONE FOUND\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the different settings and their effects"
+      ],
+      "slows": [
+        "explaining each setting in detail"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": [
+      "\"So, we're going to be talking about open router today. And let's just get started with the first one, which is frequency penalty.\""
+    ]
+  }
+}

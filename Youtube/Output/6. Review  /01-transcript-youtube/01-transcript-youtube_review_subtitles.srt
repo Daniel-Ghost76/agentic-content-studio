@@ -1,0 +1,1664 @@
+1
+00:00:00,000 --> 00:00:01,633
+I'm building an AI business from scratch
+
+2
+00:00:01,633 --> 00:00:03,133
+and I'm putting every single step of it
+
+3
+00:00:03,133 --> 00:00:04,266
+on this channel the good
+
+4
+00:00:04,266 --> 00:00:05,300
+the bad the ugly
+
+5
+00:00:05,300 --> 00:00:06,933
+this is day one and in this video
+
+6
+00:00:06,933 --> 00:00:09,100
+I'm basically gonna be breaking down my first AI
+
+7
+00:00:09,100 --> 00:00:11,400
+workflow that can take any YouTube channel
+
+8
+00:00:11,400 --> 00:00:14,233
+and turn every video into clean transcript data
+
+9
+00:00:14,233 --> 00:00:15,500
+before I show you how it works
+
+10
+00:00:15,500 --> 00:00:17,700
+here's why transcript data is actually useful
+
+11
+00:00:17,700 --> 00:00:18,466
+in the first place
+
+12
+00:00:18,466 --> 00:00:20,666
+the first obvious use case is um
+
+13
+00:00:20,666 --> 00:00:21,500
+market research
+
+14
+00:00:21,500 --> 00:00:23,200
+if your customers are already watching YouTube
+
+15
+00:00:23,200 --> 00:00:24,266
+to learn about your space
+
+16
+00:00:24,266 --> 00:00:26,300
+those videos are already basically full of language
+
+17
+00:00:26,300 --> 00:00:27,266
+they already understand problems
+
+18
+00:00:27,733 --> 00:00:29,033
+objections examples
+
+19
+00:00:29,033 --> 00:00:30,233
+promises mistakes
+
+20
+00:00:30,233 --> 00:00:30,833
+questions
+
+21
+00:00:30,833 --> 00:00:32,400
+and that can all be used to feed
+
+22
+00:00:32,400 --> 00:00:33,866
+your offers your landing pages
+
+23
+00:00:33,866 --> 00:00:35,233
+sales scripts ads
+
+24
+00:00:35,366 --> 00:00:35,866
+Faqs
+
+25
+00:00:35,866 --> 00:00:36,266
+all of it
+
+26
+00:00:36,266 --> 00:00:38,433
+the second use case is turning a company's
+
+27
+00:00:38,433 --> 00:00:41,400
+own videos into assets so if you've got webinars
+
+28
+00:00:41,400 --> 00:00:42,400
+tutorials demo
+
+29
+00:00:42,400 --> 00:00:44,133
+training videos or interviews
+
+30
+00:00:44,133 --> 00:00:44,766
+transcripts
+
+31
+00:00:44,766 --> 00:00:46,766
+can let you turn that into something like a
+
+32
+00:00:46,766 --> 00:00:47,866
+searchable knowledge base
+
+33
+00:00:47,866 --> 00:00:48,100
+like support docs
+
+34
+00:00:48,933 --> 00:00:51,000
+email sequences internal SOP's
+
+35
+00:00:51,000 --> 00:00:52,133
+or even something like context for an AI assistant
+
+36
+00:00:53,633 --> 00:00:55,600
+in my use case it's a version of the first one
+
+37
+00:00:55,600 --> 00:00:58,066
+I'm using it to study what's already working in AI
+
+38
+00:00:58,066 --> 00:00:58,566
+content
+
+39
+00:00:58,600 --> 00:00:58,900
+see what people keep repeating
+
+40
+00:01:00,200 --> 00:01:01,666
+and what nobody's really showing
+
+41
+00:01:01,666 --> 00:01:03,733
+and that's basically how I landed
+
+42
+00:01:03,733 --> 00:01:05,166
+on the angle for the channel
+
+43
+00:01:05,200 --> 00:01:06,666
+uh showing the whole process
+
+44
+00:01:06,666 --> 00:01:08,166
+of building the business from scratch
+
+45
+00:01:08,400 --> 00:01:08,933
+alright so
+
+46
+00:01:08,933 --> 00:01:10,266
+I'm gonna give you a quick overview
+
+47
+00:01:10,266 --> 00:01:11,600
+of the tools that we need to use
+
+48
+00:01:11,600 --> 00:01:13,833
+and how the transcript system works
+
+49
+00:01:13,833 --> 00:01:15,566
+and we'll jump right into it
+
+50
+00:01:15,566 --> 00:01:17,066
+so you're gonna go to YouTube
+
+51
+00:01:17,166 --> 00:01:18,833
+select all the videos from any YouTube channel
+
+52
+00:01:18,833 --> 00:01:19,866
+that you wanna transcribe
+
+53
+00:01:19,866 --> 00:01:22,133
+and then you're gonna paste them into a Google sheet
+
+54
+00:01:22,133 --> 00:01:23,833
+which will then have to uh
+
+55
+00:01:23,833 --> 00:01:25,600
+make sure we get a clean list of URLs
+
+56
+00:01:25,600 --> 00:01:26,666
+because it's gonna be a bit messy
+
+57
+00:01:26,666 --> 00:01:27,733
+and we're gonna have to sort it out
+
+58
+00:01:27,733 --> 00:01:28,833
+we're gonna then
+
+59
+00:01:28,833 --> 00:01:30,333
+proceed to download a tool from a Github
+
+60
+00:01:32,233 --> 00:01:33,800
+that helps us transcribe everything
+
+61
+00:01:33,800 --> 00:01:34,766
+the way YouTube works it it has auto captions
+
+62
+00:01:35,866 --> 00:01:36,466
+every video has already been transcribed
+
+63
+00:01:37,366 --> 00:01:38,833
+and this tool just lets you download
+
+64
+00:01:38,833 --> 00:01:39,600
+all those transcriptions
+
+65
+00:01:39,800 --> 00:01:41,066
+we're gonna run in our terminal
+
+66
+00:01:41,066 --> 00:01:42,766
+we're gonna have to create a pipe and code
+
+67
+00:01:42,766 --> 00:01:43,666
+we're gonna use the Chat GPT desktop app to help us
+
+68
+00:01:45,800 --> 00:01:47,333
+it's just literally one click away at any time
+
+69
+00:01:48,033 --> 00:01:49,100
+you can take a screenshot
+
+70
+00:01:49,100 --> 00:01:49,433
+you can
+
+71
+00:01:49,466 --> 00:01:51,033
+bump it into the chat and just say hey
+
+72
+00:01:51,633 --> 00:01:52,833
+I'm stuck
+
+73
+00:01:52,833 --> 00:01:54,566
+you know and it will help you
+
+74
+00:01:54,566 --> 00:01:56,400
+you can also just do it in the web version
+
+75
+00:01:56,933 --> 00:01:57,666
+it's just gonna be more annoying
+
+76
+00:01:58,066 --> 00:01:58,800
+but you can definitely do it
+
+77
+00:01:58,800 --> 00:01:59,333
+in terms of what the output will look like
+
+78
+00:02:00,333 --> 00:02:02,000
+we'll get a text file with um
+
+79
+00:02:02,000 --> 00:02:03,200
+all the video transcriptions
+
+80
+00:02:03,200 --> 00:02:04,100
+and we can also get a few like
+
+81
+00:02:04,866 --> 00:02:05,866
+stats and metrics about the video if we want to
+
+82
+00:02:07,333 --> 00:02:08,533
+the output will look something like this
+
+83
+00:02:08,533 --> 00:02:09,466
+we'll have the creator's name
+
+84
+00:02:09,466 --> 00:02:11,366
+and then we have some information about the video
+
+85
+00:02:11,366 --> 00:02:12,266
+we have some stats we have the URL
+
+86
+00:02:12,966 --> 00:02:14,033
+video duration views
+
+87
+00:02:14,033 --> 00:02:14,866
+likes and pretty much any data that this uh
+
+88
+00:02:16,666 --> 00:02:18,933
+YT DLP tool can pull out
+
+89
+00:02:18,933 --> 00:02:21,033
+um you can download it from Github
+
+90
+00:02:21,033 --> 00:02:23,066
+but you can also just run a command in your terminal
+
+91
+00:02:23,066 --> 00:02:23,833
+get it downloaded
+
+92
+00:02:23,966 --> 00:02:25,000
+have it run the
+
+93
+00:02:25,000 --> 00:02:25,900
+um Python code
+
+94
+00:02:25,900 --> 00:02:26,566
+that would then
+
+95
+00:02:26,600 --> 00:02:28,633
+transcribe all the YouTube videos and get them in a
+
+96
+00:02:28,766 --> 00:02:30,033
+nice text file for us
+
+97
+00:02:30,200 --> 00:02:31,733
+uh we're gonna run most of the stuff locally
+
+98
+00:02:31,733 --> 00:02:32,466
+so we're gonna try
+
+99
+00:02:32,466 --> 00:02:34,466
+we're gonna create a transcript system folder
+
+100
+00:02:34,466 --> 00:02:35,233
+and then inside that folder
+
+101
+00:02:36,000 --> 00:02:36,466
+we're gonna have three other folders
+
+102
+00:02:37,233 --> 00:02:38,166
+an input folder
+
+103
+00:02:38,166 --> 00:02:39,866
+an output folder and a tools folder
+
+104
+00:02:39,866 --> 00:02:40,800
+in the input folder
+
+105
+00:02:40,800 --> 00:02:43,033
+this is where we're gonna add our CSV
+
+106
+00:02:43,033 --> 00:02:44,900
+with the URLs that we take from YouTube
+
+107
+00:02:45,266 --> 00:02:47,666
+and we're just gonna name it like Alex Mosey dot CSV
+
+108
+00:02:47,866 --> 00:02:49,333
+um we'll just take him as an example
+
+109
+00:02:49,333 --> 00:02:50,166
+everybody knows him
+
+110
+00:02:50,166 --> 00:02:51,166
+he's just a legend so output folder
+
+111
+00:02:51,833 --> 00:02:53,866
+this is where we get the actual text file
+
+112
+00:02:53,866 --> 00:02:55,400
+we don't need to add anything inside this folder
+
+113
+00:02:55,400 --> 00:02:57,366
+and tools this is where we download that y
+
+114
+00:02:57,633 --> 00:02:57,933
+t d
+
+115
+00:02:57,933 --> 00:02:58,333
+L P
+
+116
+00:02:58,366 --> 00:02:59,066
+tool from Github
+
+117
+00:02:59,066 --> 00:03:00,766
+with that said let's jump into it
+
+118
+00:03:01,833 --> 00:03:03,133
+alright so let's go to YouTube
+
+119
+00:03:03,466 --> 00:03:04,266
+Alex
+
+120
+00:03:04,800 --> 00:03:05,700
+go to his videos
+
+121
+00:03:05,700 --> 00:03:07,466
+and we're just gonna select all his videos
+
+122
+00:03:07,466 --> 00:03:08,366
+by the way you can do this with any YouTube channel
+
+123
+00:03:09,566 --> 00:03:10,566
+and you can do it with like 10:20 all at once
+
+124
+00:03:12,000 --> 00:03:12,400
+if you want
+
+125
+00:03:12,400 --> 00:03:13,666
+once you have the system in place
+
+126
+00:03:13,666 --> 00:03:13,900
+it's pretty easy to
+
+127
+00:03:14,466 --> 00:03:15,366
+transcribe anything you want
+
+128
+00:03:15,366 --> 00:03:17,000
+you're gonna copy this now when you paste this
+
+129
+00:03:17,000 --> 00:03:17,966
+this will be a bit messy
+
+130
+00:03:17,966 --> 00:03:19,066
+we're gonna open a Google sheet
+
+131
+00:03:19,066 --> 00:03:19,566
+and paste it in column A
+
+132
+00:03:21,033 --> 00:03:21,733
+well as you can see
+
+133
+00:03:21,733 --> 00:03:23,400
+this is a bit messy so we wanna clean this up
+
+134
+00:03:23,433 --> 00:03:26,033
+um you can go to extension and go to app script
+
+135
+00:03:26,033 --> 00:03:27,133
+and then we're gonna ask Chat
+
+136
+00:03:27,133 --> 00:03:27,666
+GPT to give us a code that would actually like
+
+137
+00:03:29,333 --> 00:03:30,466
+clean this up for us
+
+138
+00:03:30,466 --> 00:03:31,933
+we're gonna delete the placeholder here
+
+139
+00:03:31,966 --> 00:03:32,866
+and we're just gonna open chat
+
+140
+00:03:32,866 --> 00:03:33,400
+I'm gonna say
+
+141
+00:03:33,400 --> 00:03:35,466
+hey chat can you please help me put together an app
+
+142
+00:03:35,466 --> 00:03:36,600
+script code that will clean up all the URLs
+
+143
+00:03:38,133 --> 00:03:39,100
+in column A
+
+144
+00:03:39,100 --> 00:03:41,600
+everything that's in there now is um hyperlinks
+
+145
+00:03:41,600 --> 00:03:44,466
+so I want to pull out the actual link from the text
+
+146
+00:03:44,466 --> 00:03:46,000
+and have it nice and clean
+
+147
+00:03:46,000 --> 00:03:46,566
+in column a
+
+148
+00:03:46,566 --> 00:03:48,300
+everything that is not a URL
+
+149
+00:03:48,300 --> 00:03:48,900
+delete it
+
+150
+00:03:48,900 --> 00:03:50,833
+keep it all the same size all the same colour
+
+151
+00:03:51,266 --> 00:03:52,233
+and um
+
+152
+00:03:52,233 --> 00:03:52,466
+just make it neat also
+
+153
+00:03:53,433 --> 00:03:54,466
+add a action button that will let me render this code
+
+154
+00:03:55,933 --> 00:03:56,833
+anytime I want to in my menu
+
+155
+00:03:57,366 --> 00:03:58,266
+I'm gonna send that off to chat
+
+156
+00:03:58,733 --> 00:03:59,966
+and it's gonna give us a code
+
+157
+00:03:59,966 --> 00:04:00,333
+there we go
+
+158
+00:04:00,333 --> 00:04:01,600
+the fact that it's so quick
+
+159
+00:04:01,600 --> 00:04:02,933
+like it just blows my mind every time
+
+160
+00:04:03,000 --> 00:04:04,033
+we're gonna copy that code
+
+161
+00:04:04,033 --> 00:04:05,100
+we're gonna paste in here
+
+162
+00:04:05,100 --> 00:04:06,266
+and we're gonna hit save
+
+163
+00:04:06,266 --> 00:04:08,566
+now it might not work perfectly the first time
+
+164
+00:04:08,666 --> 00:04:09,633
+you just take a screenshot
+
+165
+00:04:09,633 --> 00:04:10,666
+you paste the code you ask it
+
+166
+00:04:10,666 --> 00:04:11,300
+what's the problem
+
+167
+00:04:11,300 --> 00:04:12,200
+and I'll usually tell you how to fix it
+
+168
+00:04:13,300 --> 00:04:13,800
+it might take one or two iterations
+
+169
+00:04:14,733 --> 00:04:15,000
+and then you have the code running
+
+170
+00:04:15,900 --> 00:04:16,433
+you hit run
+
+171
+00:04:16,433 --> 00:04:16,966
+you then have to review permission
+
+172
+00:04:18,366 --> 00:04:18,866
+and then you hit continue
+
+173
+00:04:19,433 --> 00:04:21,733
+and you can see now you have a tools button right
+
+174
+00:04:21,733 --> 00:04:22,533
+that wasn't here before so you hit this tools button
+
+175
+00:04:23,733 --> 00:04:24,233
+and you hit clean URL in column a
+
+176
+00:04:25,733 --> 00:04:26,933
+you see the script is running
+
+177
+00:04:26,933 --> 00:04:28,400
+you already hit URLs here
+
+178
+00:04:28,400 --> 00:04:30,033
+see now this is not what we wanted
+
+179
+00:04:30,366 --> 00:04:31,333
+it deleted all of them
+
+180
+00:04:31,333 --> 00:04:32,033
+so I think it couldn't identify that those text
+
+181
+00:04:33,833 --> 00:04:34,266
+um that we had there were actual URLs
+
+182
+00:04:36,100 --> 00:04:37,133
+so we're gonna just gonna say hey chat
+
+183
+00:04:37,633 --> 00:04:38,933
+you just deleted everything
+
+184
+00:04:38,966 --> 00:04:41,133
+make sure you actually pull out the link from those
+
+185
+00:04:41,133 --> 00:04:41,733
+texts
+
+186
+00:04:41,733 --> 00:04:44,266
+this hyperlinks attached to those texts in column a
+
+187
+00:04:44,266 --> 00:04:44,933
+so please don't delete everything
+
+188
+00:04:45,866 --> 00:04:46,500
+pull those and fix your code
+
+189
+00:04:47,400 --> 00:04:47,900
+thanks
+
+190
+00:04:47,900 --> 00:04:49,066
+I'm just gonna paste it in there
+
+191
+00:04:49,066 --> 00:04:51,566
+and we're gonna save it and then we're gonna hit run
+
+192
+00:04:51,600 --> 00:04:52,466
+there we go see
+
+193
+00:04:52,466 --> 00:04:54,333
+every single link is now nice and clean
+
+194
+00:04:54,333 --> 00:04:55,066
+let's see how many we have
+
+195
+00:04:55,066 --> 00:04:56,266
+we got 502 videos
+
+196
+00:04:56,266 --> 00:04:57,400
+now we're gonna hit file
+
+197
+00:04:57,400 --> 00:04:57,966
+download CSV and then you're gonna name it Alex Amazon
+
+198
+00:05:01,600 --> 00:05:02,033
+now we need to set up the folder structure
+
+199
+00:05:03,933 --> 00:05:05,800
+everything we'll do will be on our desktop
+
+200
+00:05:05,800 --> 00:05:07,033
+we're gonna run it in our terminal
+
+201
+00:05:07,033 --> 00:05:08,100
+we're gonna create a new folder and we're gonna name it
+
+202
+00:05:09,166 --> 00:05:09,600
+uh
+
+203
+00:05:09,600 --> 00:05:10,566
+transcribe system
+
+204
+00:05:11,400 --> 00:05:12,466
+beside this transcribe folder
+
+205
+00:05:12,466 --> 00:05:13,533
+we're gonna add three folders
+
+206
+00:05:13,533 --> 00:05:14,600
+an input folder
+
+207
+00:05:14,900 --> 00:05:15,500
+we're gonna have an output folder
+
+208
+00:05:17,000 --> 00:05:17,833
+this is where our actual transcripts will be added to
+
+209
+00:05:20,633 --> 00:05:21,800
+this is where they will populate
+
+210
+00:05:21,800 --> 00:05:23,066
+and then we'll have a tools folder
+
+211
+00:05:23,900 --> 00:05:26,400
+this is where we download the Github tool that I
+
+212
+00:05:26,400 --> 00:05:26,833
+told you about so now what you're gonna do
+
+213
+00:05:27,800 --> 00:05:29,066
+you're gonna right click this folder
+
+214
+00:05:29,066 --> 00:05:29,733
+and you're gonna hit new terminal
+
+215
+00:05:30,466 --> 00:05:31,666
+this will open up a new terminal
+
+216
+00:05:31,666 --> 00:05:32,333
+and you're gonna go to chat
+
+217
+00:05:33,533 --> 00:05:34,200
+and just say
+
+218
+00:05:34,200 --> 00:05:36,433
+hey chat thanks for the abstract code that worked
+
+219
+00:05:36,433 --> 00:05:37,466
+can you now please
+
+220
+00:05:37,466 --> 00:05:38,733
+help me install the Github tool called
+
+221
+00:05:39,900 --> 00:05:40,600
+y t d
+
+222
+00:05:40,600 --> 00:05:41,000
+L P
+
+223
+00:05:41,000 --> 00:05:41,666
+just give me the
+
+224
+00:05:41,666 --> 00:05:43,000
+command that I need to run in my terminal
+
+225
+00:05:43,000 --> 00:05:43,366
+thanks
+
+226
+00:05:45,366 --> 00:05:46,933
+so you see it will give you a command
+
+227
+00:05:46,933 --> 00:05:48,566
+and then I come on to check if it's working
+
+228
+00:05:48,866 --> 00:05:49,666
+you're gonna hit that and you can see it's downloading
+
+229
+00:05:51,233 --> 00:05:53,000
+and boom should be downloaded
+
+230
+00:05:53,000 --> 00:05:53,733
+and now we're gonna check if it's downloaded properly
+
+231
+00:05:54,900 --> 00:05:56,233
+by just hitting the next command
+
+232
+00:05:56,233 --> 00:05:56,366
+and
+
+233
+00:05:56,366 --> 00:05:58,166
+it should tell us which version has been downloaded
+
+234
+00:05:58,166 --> 00:05:58,900
+it might take a couple seconds
+
+235
+00:05:58,900 --> 00:05:59,333
+there you go 20
+
+236
+00:05:59,333 --> 00:06:00,833
+26 0 3 17
+
+237
+00:06:00,833 --> 00:06:01,600
+it should be downloaded
+
+238
+00:06:01,600 --> 00:06:02,833
+we can also check the folder here and you can see y
+
+239
+00:06:04,000 --> 00:06:04,266
+t d
+
+240
+00:06:04,266 --> 00:06:04,666
+L P
+
+241
+00:06:04,666 --> 00:06:05,400
+this is the tool that we just downloaded
+
+242
+00:06:06,466 --> 00:06:07,200
+now that that's done
+
+243
+00:06:07,200 --> 00:06:07,933
+you're gonna ask Chat GPT to generate a Python file
+
+244
+00:06:10,933 --> 00:06:13,133
+so first thing you're gonna wanna create the file
+
+245
+00:06:13,133 --> 00:06:15,166
+then you're gonna paste the code inside it
+
+246
+00:06:15,166 --> 00:06:15,833
+open the terminal and you're gonna say
+
+247
+00:06:16,733 --> 00:06:18,133
+hey chat can you please
+
+248
+00:06:18,133 --> 00:06:21,333
+give me a command that will create a Python file
+
+249
+00:06:21,466 --> 00:06:22,133
+inside my terminal
+
+250
+00:06:22,133 --> 00:06:24,466
+I want it to be a text edit file
+
+251
+00:06:24,466 --> 00:06:26,733
+so then I can save it and add my Python
+
+252
+00:06:26,733 --> 00:06:28,000
+code to run the system
+
+253
+00:06:28,000 --> 00:06:29,333
+there you go so we gave you this code
+
+254
+00:06:29,333 --> 00:06:30,800
+you just gonna run it inside the terminal
+
+255
+00:06:33,100 --> 00:06:35,100
+and boom it just open up a text edit file
+
+256
+00:06:36,133 --> 00:06:36,966
+where we can drop the code
+
+257
+00:06:36,966 --> 00:06:38,066
+now we're gonna generate the code
+
+258
+00:06:38,066 --> 00:06:38,600
+that will do all of this for us
+
+259
+00:06:39,466 --> 00:06:40,333
+we generate it once
+
+260
+00:06:40,333 --> 00:06:40,966
+and then it can run forever with a very simple command
+
+261
+00:06:42,733 --> 00:06:43,533
+so we're gonna ask chat
+
+262
+00:06:43,533 --> 00:06:45,000
+hey chat can you now help me generate the Python code
+
+263
+00:06:46,266 --> 00:06:47,233
+for my YouTube transcript system
+
+264
+00:06:47,966 --> 00:06:49,400
+the folder structure goes like this
+
+265
+00:06:49,400 --> 00:06:50,633
+there's an input folder
+
+266
+00:06:50,633 --> 00:06:53,333
+where the CSV file goes from every YouTube creator
+
+267
+00:06:53,333 --> 00:06:54,266
+there's an output photo
+
+268
+00:06:54,266 --> 00:06:54,800
+where I want my text files to populate
+
+269
+00:06:56,133 --> 00:06:57,833
+I want them to be named after the creator
+
+270
+00:06:57,833 --> 00:06:58,933
+name underscore transcript
+
+271
+00:06:59,433 --> 00:07:01,066
+and I want you to make sure that if the YouTube
+
+272
+00:07:01,900 --> 00:07:02,566
+captions are inaccurate
+
+273
+00:07:03,633 --> 00:07:04,033
+where there's a lot of duplicates
+
+274
+00:07:05,066 --> 00:07:05,733
+or a lot of phrases that have been repeated
+
+275
+00:07:07,500 --> 00:07:09,133
+or haven't been downloaded properly
+
+276
+00:07:09,133 --> 00:07:11,366
+check that text make sure it's all nice and clean
+
+277
+00:07:11,366 --> 00:07:12,333
+so what this tool does
+
+278
+00:07:12,333 --> 00:07:14,166
+if you don't really tell it to check those transcripts
+
+279
+00:07:14,833 --> 00:07:15,533
+it would uh
+
+280
+00:07:15,533 --> 00:07:16,600
+just run a lot of duplicates
+
+281
+00:07:16,600 --> 00:07:18,000
+cause that's what it downloaded from YouTube
+
+282
+00:07:18,000 --> 00:07:18,366
+um
+
+283
+00:07:18,366 --> 00:07:20,333
+and there will be sentences that have been said twice
+
+284
+00:07:20,333 --> 00:07:21,233
+or three times in a row
+
+285
+00:07:21,233 --> 00:07:22,433
+and then you move to the next one
+
+286
+00:07:22,433 --> 00:07:23,333
+it's just cause there's a
+
+287
+00:07:23,333 --> 00:07:24,433
+like a glitch when you download it
+
+288
+00:07:24,433 --> 00:07:25,100
+so you have to
+
+289
+00:07:25,100 --> 00:07:27,600
+tell the code to check for those duplicate sentences
+
+290
+00:07:27,600 --> 00:07:27,833
+and it'll do it for you now
+
+291
+00:07:28,533 --> 00:07:29,800
+you're gonna copy that code
+
+292
+00:07:29,800 --> 00:07:31,133
+and you're just gonna paste it in here and uh
+
+293
+00:07:31,800 --> 00:07:32,333
+hit save
+
+294
+00:07:32,333 --> 00:07:33,800
+so hit command s to save it and then close this
+
+295
+00:07:35,066 --> 00:07:36,866
+now what you should see in your toast folder
+
+296
+00:07:36,866 --> 00:07:38,100
+now you also have a Python file
+
+297
+00:07:39,066 --> 00:07:39,733
+which we can now run anytime we wanna run the system
+
+298
+00:07:41,500 --> 00:07:43,733
+so now that's all set up let's test how this works
+
+299
+00:07:43,733 --> 00:07:45,766
+we're now gonna take the CSV file that we downloaded
+
+300
+00:07:45,766 --> 00:07:46,466
+and we're gonna add it to the input folder
+
+301
+00:07:47,633 --> 00:07:48,733
+Alex and Ozzy CSB
+
+302
+00:07:48,733 --> 00:07:49,566
+and um
+
+303
+00:07:49,566 --> 00:07:50,000
+now what we're gonna do is open it
+
+304
+00:07:51,466 --> 00:07:51,833
+terminal and then you're gonna paste it here
+
+305
+00:07:54,000 --> 00:07:55,400
+alright so right now uh
+
+306
+00:07:55,666 --> 00:07:58,166
+it's saying no CSV file found
+
+307
+00:07:58,166 --> 00:07:59,666
+so you'll bump into stuff like this
+
+308
+00:07:59,666 --> 00:08:01,633
+but when you do you just tell chat
+
+309
+00:08:01,666 --> 00:08:02,633
+hey chat um
+
+310
+00:08:02,633 --> 00:08:04,766
+I'm getting an error inside the terminal that says
+
+311
+00:08:04,766 --> 00:08:06,300
+no CSV file found
+
+312
+00:08:06,300 --> 00:08:07,400
+I'm not sure why that is
+
+313
+00:08:07,400 --> 00:08:09,633
+because my file is already inside the input folder
+
+314
+00:08:10,066 --> 00:08:11,566
+is there any reason in particular
+
+315
+00:08:11,566 --> 00:08:12,233
+did I miss any file name did I spell incorrectly
+
+316
+00:08:14,466 --> 00:08:16,000
+or what do you think the reasons could be
+
+317
+00:08:16,000 --> 00:08:16,866
+also a cool thing
+
+318
+00:08:16,866 --> 00:08:19,100
+you can always give it access to your terminal
+
+319
+00:08:19,100 --> 00:08:19,866
+and then you'll see what the error is
+
+320
+00:08:20,766 --> 00:08:21,800
+alright so you see
+
+321
+00:08:21,800 --> 00:08:23,700
+saying I have a similar folder
+
+322
+00:08:23,700 --> 00:08:25,800
+that might be spelled slightly differently
+
+323
+00:08:25,800 --> 00:08:27,200
+so we're gonna I think it's
+
+324
+00:08:27,200 --> 00:08:28,900
+I might have a space at the end or something
+
+325
+00:08:28,900 --> 00:08:29,266
+let's check rename
+
+326
+00:08:31,233 --> 00:08:33,100
+I think we have a little space here you see
+
+327
+00:08:34,266 --> 00:08:34,566
+alright
+
+328
+00:08:34,566 --> 00:08:34,933
+so let's try run it again so we're gonna scroll up
+
+329
+00:08:36,400 --> 00:08:37,366
+and we're gonna copy and we're gonna run it again
+
+330
+00:08:39,066 --> 00:08:40,733
+processing one of 501
+
+331
+00:08:40,733 --> 00:08:41,400
+this um
+
+332
+00:08:41,400 --> 00:08:42,866
+is probably gonna take a few minutes
+
+333
+00:08:42,866 --> 00:08:44,166
+but you can let it run in the background
+
+334
+00:08:44,166 --> 00:08:45,300
+and the cool thing is you just
+
+335
+00:08:45,300 --> 00:08:47,166
+you can just come back and it will be transcribed
+
+336
+00:08:47,300 --> 00:08:48,633
+another thing to note
+
+337
+00:08:48,633 --> 00:08:49,800
+you can add as many as you'd like
+
+338
+00:08:50,666 --> 00:08:51,633
+inside the input folder
+
+339
+00:08:51,633 --> 00:08:52,000
+you don't need to run this command
+
+340
+00:08:53,100 --> 00:08:54,133
+again for each single one
+
+341
+00:08:54,133 --> 00:08:55,066
+if you have 10 here
+
+342
+00:08:55,066 --> 00:08:56,433
+this command that you just ran now
+
+343
+00:08:56,433 --> 00:08:56,766
+will transcribe all of them
+
+344
+00:08:57,833 --> 00:08:58,366
+so you can go to YouTube
+
+345
+00:08:59,533 --> 00:09:01,133
+and you can search whatever creator
+
+346
+00:09:01,133 --> 00:09:01,566
+you'd like
+
+347
+00:09:01,600 --> 00:09:02,000
+hey Jack
+
+348
+00:09:02,000 --> 00:09:04,300
+can you give me 10 URLs of uh
+
+349
+00:09:04,333 --> 00:09:04,700
+the best AI creators
+
+350
+00:09:05,666 --> 00:09:08,133
+and then you can just open these up and then look at
+
+351
+00:09:08,600 --> 00:09:10,300
+look at what's working look at what's not
+
+352
+00:09:10,300 --> 00:09:11,666
+and take what's good and avoid what's bad
+
+353
+00:09:12,433 --> 00:09:12,833
+you can analyze hooks you can do
+
+354
+00:09:14,200 --> 00:09:15,566
+whatever you want with that content
+
+355
+00:09:15,566 --> 00:09:16,900
+there are people that have figured out
+
+356
+00:09:16,900 --> 00:09:17,633
+what you wanna do
+
+357
+00:09:17,633 --> 00:09:18,466
+and so why don't you just learn from them
+
+358
+00:09:19,000 --> 00:09:19,833
+learn from their mistakes
+
+359
+00:09:19,833 --> 00:09:20,266
+so obviously you're not gonna take it to like
+
+360
+00:09:21,700 --> 00:09:23,233
+absolutely copycat them
+
+361
+00:09:23,266 --> 00:09:24,066
+um because you can't you
+
+362
+00:09:24,100 --> 00:09:25,400
+you will never beat anybody at being them
+
+363
+00:09:26,000 --> 00:09:26,500
+you only beat them at being you
+
+364
+00:09:27,400 --> 00:09:28,566
+you use them for reference
+
+365
+00:09:28,566 --> 00:09:29,900
+because these people that are ahead of you
+
+366
+00:09:29,900 --> 00:09:30,666
+you look at okay
+
+367
+00:09:30,666 --> 00:09:32,600
+this guy's doing this he's his hook is like this
+
+368
+00:09:32,600 --> 00:09:32,800
+he's
+
+369
+00:09:32,800 --> 00:09:33,233
+and then you can take that info
+
+370
+00:09:34,400 --> 00:09:34,833
+and well do what you will
+
+371
+00:09:36,066 --> 00:09:37,033
+um but this is how you run the system
+
+372
+00:09:37,666 --> 00:09:38,766
+alright so it's now finished
+
+373
+00:09:38,766 --> 00:09:40,866
+it's been probably more than 60 minutes now
+
+374
+00:09:40,866 --> 00:09:41,166
+I'm halfway through editing the
+
+375
+00:09:42,266 --> 00:09:43,600
+the video we just we just made
+
+376
+00:09:43,600 --> 00:09:44,900
+but that's a good thing about it
+
+377
+00:09:44,900 --> 00:09:46,166
+you can let it run in the background
+
+378
+00:09:46,166 --> 00:09:47,166
+you get back to it and 500 transcripts done
+
+379
+00:09:48,333 --> 00:09:49,600
+now let's take a look at the output
+
+380
+00:09:49,600 --> 00:09:50,866
+we're gonna go to our folder
+
+381
+00:09:50,900 --> 00:09:51,900
+in the output folder
+
+382
+00:09:51,900 --> 00:09:54,066
+and then you can see Alexa Mosey transcript
+
+383
+00:09:54,066 --> 00:09:55,366
+this was the saved file
+
+384
+00:09:55,366 --> 00:09:56,166
+now we're gonna open up and this is what it looks like
+
+385
+00:09:57,533 --> 00:09:58,000
+we got video one
+
+386
+00:09:58,566 --> 00:10:00,066
+you got the date you got the title
+
+387
+00:10:00,066 --> 00:10:00,966
+the URL
+
+388
+00:10:00,966 --> 00:10:02,666
+duration of the video 36 minutes um 47,000 views
+
+389
+00:10:04,466 --> 00:10:05,733
+1,600 likes
+
+390
+00:10:05,733 --> 00:10:06,800
+you just go for it
+
+391
+00:10:06,800 --> 00:10:09,466
+and you see the entire video transcript
+
+392
+00:10:09,466 --> 00:10:09,933
+now
+
+393
+00:10:09,933 --> 00:10:10,500
+I haven't read for it word for word
+
+394
+00:10:11,700 --> 00:10:13,966
+but I think it's about 80 to 90% accurate
+
+395
+00:10:13,966 --> 00:10:15,600
+you can check everything if you want
+
+396
+00:10:15,600 --> 00:10:16,500
+I personally didn't go through all of it
+
+397
+00:10:17,266 --> 00:10:18,800
+you can go ahead and check if you like
+
+398
+00:10:18,800 --> 00:10:20,500
+and one more thing to mention is that
+
+399
+00:10:20,500 --> 00:10:21,700
+once you have your Python code
+
+400
+00:10:21,700 --> 00:10:23,100
+you don't need to redo this every single time you do it
+
+401
+00:10:24,133 --> 00:10:25,533
+the only command that you ran is um
+
+402
+00:10:26,233 --> 00:10:27,933
+is actually the the very short one
+
+403
+00:10:27,933 --> 00:10:28,666
+this command here in your terminal
+
+404
+00:10:29,400 --> 00:10:30,466
+and this will just
+
+405
+00:10:30,466 --> 00:10:32,066
+go through and run that code
+
+406
+00:10:32,066 --> 00:10:33,200
+that is saved in that file
+
+407
+00:10:33,200 --> 00:10:35,800
+every time a new CSV file is detected inside this
+
+408
+00:10:35,800 --> 00:10:36,500
+input folder
+
+409
+00:10:36,500 --> 00:10:37,333
+it would um
+
+410
+00:10:37,333 --> 00:10:38,000
+transcribe it and
+
+411
+00:10:38,433 --> 00:10:39,033
+it would skip
+
+412
+00:10:39,033 --> 00:10:40,533
+the ones that has already been transcribed
+
+413
+00:10:40,533 --> 00:10:42,066
+but make sure you mention that when you build a code
+
+414
+00:10:42,066 --> 00:10:42,866
+that's how it works
+
+415
+00:10:42,866 --> 00:10:43,433
+and
+
+416
+00:10:43,433 --> 00:10:44,900
+I hope you found it helpful
+

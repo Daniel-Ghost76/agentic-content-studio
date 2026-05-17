@@ -1,0 +1,67 @@
+{
+  "num": 73,
+  "title": "Easiest Way to Migrate n8n Workflows Between Accounts (cloud to self-hosted)",
+  "date": "14/01/26",
+  "word_count": 2844,
+  "char_count": 14350,
+  "chunks": 1,
+  "extracted": {
+    "hook": "Today I'm going to be showing you guys a really easy and safe way to migrate hundreds of workflows between two NIDN instances.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So let's get into it.",
+      "All right, so this is the workflow.",
+      "And now, let's talk about what's going on down here.",
+      "But before I show you how this loop works, let's talk about this node here."
+    ],
+    "cta": "\"if you enjoyed, you learned something new, then please give it a like. It definitely helps me out a ton.\"",
+    "vocabulary": [
+      "workflows",
+      "API key",
+      "Google sheet",
+      "NIDN",
+      "cloud to self-hosted"
+    ],
+    "analogies": "\"think of it like\"",
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [
+        "14/01/26"
+      ],
+      "named_tools": [
+        "Google sheet"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the workflow process and its steps"
+      ],
+      "slows": [
+        "explaining each step in detail"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

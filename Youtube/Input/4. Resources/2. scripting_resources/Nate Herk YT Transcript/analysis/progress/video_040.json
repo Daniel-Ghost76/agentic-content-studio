@@ -1,0 +1,77 @@
+{
+  "num": 40,
+  "title": "Generate Content for 9 Socials on Autopilot with Claude Code",
+  "date": "17/03/26",
+  "word_count": 4322,
+  "char_count": 22485,
+  "chunks": 2,
+  "extracted": {
+    "hook": "You can see right here, all I said was, \"Hey Claude, I want you to take this YouTube video and repurpose it into a LinkedIn X and Instagram post.\"",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NOT FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "pace_accelerates": [
+        "And now what we want to do is just basically close out of the welcome thing.",
+        "Now, before I start going through this flow of answering questions, I wanted to explain what is a skill because you'll notice I asked it to create a new skill."
+      ],
+      "pace_slows": [
+        "So, today I'm going to be showing you guys how you can basically 9x your content game using a combination of Cloud Code and Blot.",
+        "And now we're going to come back into Cloud Code and answer the clarifying questions."
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "And as always, I appreciate you guys making it to the end of the video. I'll see you on the next one.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"I'd love to see you guys in this community\"",
+      "\"please give it a like\"",
+      "\"as always, I appreciate you guys making it to the end of the video\""
+    ],
+    "transitions": [
+      "So, today I'm going to be showing you guys how you can basically 9x your content game using a combination of Cloud Code and Blot.",
+      "And now what we need to do is just basically close out of the welcome thing.",
+      "Now, before I start going through this flow of answering questions, I wanted to explain what is a skill because you'll notice I asked it to create a new skill."
+    ],
+    "vocabulary": [
+      "9x",
+      "repurpose",
+      "visuals",
+      "drafts",
+      "API key",
+      "cloud code",
+      "Blotato",
+      "Cloud Code",
+      "paid community",
+      "AI Automation Society Plus",
+      "building businesses with AI",
+      "every single day"
+    ],
+    "analogies": [
+      "\"So, that exact workflow right there took me from having one long form YouTube video to having a finished LinkedIn post, a finished Instagram post, and a finished expost. And if I wanted to ask it to generate posts for six other social platforms, it could because it can use all of them and understands how they all work.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\"",
+      "\"I appreciate you guys making it to the end of the video\""
+    ],
+    "frameworks": [
+      "\"The way that I like to use cloud code is within an IDE called Visual Studio Code.\""
+    ]
+  }
+}

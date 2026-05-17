@@ -1,0 +1,74 @@
+{
+  "num": 15,
+  "title": "How to Build 24?7 Claude Agents. Easy.",
+  "date": "14/04/26",
+  "word_count": 3970,
+  "char_count": 20860,
+  "chunks": 1,
+  "extracted": {
+    "hook": "CloudCode has finally brought us routines, which basically means you can inject a prompt into CloudCode, but it can be running on the web.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, today, April 14th, Claude tweeted",
+      "What I tried to do is I did another one, which I wanted it to be able to use the YouTube Data API in order to grab some YouTube comments for me and give me a little analysis in, you know, ClickUp or whatever.",
+      "Now, the other thing to be aware of is you do have limits."
+    ],
+    "cta": "\"if you enjoyed the video or you learned something new, please give it a like. It helps me out a ton.\"",
+    "vocabulary": [
+      "CloudCode",
+      "routines",
+      "GitHub repository",
+      "API key",
+      "ClickUp",
+      "automation",
+      "web-based",
+      "prompt"
+    ],
+    "analogies": [
+      "\"think of it like you basically typing in a prompt, and then someone coming in to your laptop and typing it in for you. So, it's the exact same type of interaction as you talking to CloudCode.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [
+        "April 14th"
+      ],
+      "named_tools": [
+        "CloudCode",
+        "GitHub",
+        "ClickUp"
+      ]
+    },
+    "vulnerability": "\"I've already been playing around with it. I've been migrating my automations over there.\"",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "discussing the benefits of routines and their comparison to existing features"
+      ],
+      "slow": [
+        "explaining the setup process for a new routine"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

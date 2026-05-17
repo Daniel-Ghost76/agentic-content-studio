@@ -1,0 +1,17 @@
+Create a 3-second cinematic HUD motion graphic using 00-start-background.png as the start image and 01-ai-business.png as the final reference.
+
+The animation starts from the blank soft teal HUD background only. No central panel is visible at frame 0. The blurred background UI panels are already present and drift very subtly with soft parallax.
+
+The AI BUSINESS panel should begin completely off-screen to the left. During the first second, the frosted-glass panel slides into frame with smooth motion blur and slight parallax, as if it is entering a digital interface layer. The panel should not be visible at the very beginning.
+
+As the panel moves into the center, the dotted texture, muted cyan-teal border, and soft inner glow become clearer. The AI BUSINESS text fades in during the slide and becomes fully readable only as the panel settles.
+
+The panel lands softly in the center around 2 seconds with a subtle ease-out, no hard bounce. After landing, add a gentle push-in camera move and a soft teal glow pulse across the panel. Keep it premium and restrained.
+
+By the final frame, match 01-ai-business.png: soft dark teal AI-tech background, blurred HUD panels, wide frosted-glass rounded rectangle in the center, visible dotted texture inside the panel, muted cyan-teal border glow, and centered AI BUSINESS text.
+
+Style: soft premium AI-tech HUD, low-to-medium contrast, frosted glass, muted cyan glow, visible dotted grid texture, cinematic blur, no harsh neon, no dramatic lighting, no bright white blowout.
+
+Do not add extra text, logos, humans, real objects, explosions, glitch effects, or edge-only highlight animations. The main motion should be the full AI BUSINESS panel entering from off-screen left and settling into the final composition.
+
+Duration: 3 seconds. Aspect ratio: 16:9.

@@ -1,0 +1,112 @@
+{
+  "num": 173,
+  "title": "3 AI Workflows Step-by-Step (Beginner's Guide to n8n)",
+  "date": "07/04/25",
+  "word_count": 11094,
+  "char_count": 54859,
+  "chunks": 4,
+  "extracted": {
+    "hook": "today we're going to be looking at three simple AI workflows that you can build right now to get started learning naden we're going to walk through everything step by step including all of the credentials and the setups so let's take a look at the three workflows we're going to be building today",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NOT FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the first workflow and its components (rag Pipeline, chatbot, vector database)"
+      ],
+      "slows": [
+        "explaining what a vector database is"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "\"if you learned something new or you appreciated it please give it a like definitely helps me out a ton\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"let's not waste any time\"",
+      "\"literally insane\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let's not waste any time\"",
+      "\"literally insane\"",
+      "\"honestly\""
+    ],
+    "transitions": [
+      "so let's take a look at the three workflows we're going to be building today",
+      "so now that we understand that let's actually start building this workflow",
+      "now for the sake of this video I'm in my Google Drive and I'm going to create a new folder",
+      "so I'm going to click on begin setup we have to name our index so you can call this whatever you want",
+      "once you create your index it'll show up right here but we're not done yet you're going to click into that index and so I already obviously have stuff in my Vector database you won't have this what I'm going to do real quick is just delete this information out of it okay",
+      "we have our API key copied we're going to add a new node after the download file and we're going to type in Pine Cone and we're going to grab a pine cone Vector store then we're going to select add documents to a vector store and we need to set up our credential so up here you won't have these and you're going to click on create new credential and all we need to do here is just an API key",
+      "now I'm going to click out of this node so you can see the next thing that we need to do is connect an embeddings model and a document loader so let's start with the embeddings model I'm going to click on the plus and I'm going to click on embeddings open Ai and actually this is one thing I left out of the excal draw is that we also will need to go get an open AI key so as you can see when we need to connect a credential you'll click on create new credential and we just need to get an API key",
+      "so then what's really important to remember is when we set up our pine cone index we use the embedding model text embedding three small from open AI so that's why we have to make sure this matches right here or this automation is going to break okay",
+      "from here is we're going to connect a Google sheet so I'm going to grab a Google sheet node",
+      "now that we have the post that we want all we have to do is send it back into our Google sheet and update that it was actually made"
+    ],
+    "vocabulary": [
+      "workflows",
+      "credentials",
+      "vector database",
+      "pine cone",
+      "Google Drive",
+      "open router",
+      "NAD 's documents",
+      "Google Cloud account",
+      "apis and services",
+      "OAuth consent screen",
+      "vector",
+      "embedding",
+      "namespace",
+      "document loader",
+      "text splitter",
+      "workflows",
+      "LinkedIn posts",
+      "Google Sheets API",
+      "API key",
+      "HTTP request"
+    ],
+    "analogies": [
+      "\"think of it like\"",
+      "\"imagine\"",
+      "\"it's basically X but Y\"",
+      "\"it's basically what we did with the embeddings model but now we need to connect it to our document loader\"",
+      "\"so that's really awesome and now we can sort of break down what's going on\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "\"I'll come back to this\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\"",
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\""
+    ],
+    "frameworks": [
+      "\"so the first thing want to talk about is actually what is a vector database\"",
+      "\"so now that we understand that let's actually start building this workflow\"",
+      "\"now for the sake of this video I'm in my Google Drive and I'm going to create a new folder\"",
+      "\"which is a vector database provider you can get started for free and what we're going to do is sign up okay so I just got logged in and once you get signed up you should see a page similar to this it's a get started page\"",
+      "\"so the first step with an AI agent is we need to give it a brain so we need to give it some sort of AI model to use so we're going to click on the plus right below chat model and what we could do now is we could set up an open AI chat model because we already have our API key from open AI but what I want to do is click on open router because this is going to allow us to choose from all different chat models not just open AIS so we could do Claude we could do Google we could do perplexity we have all these different models in here which is going to be really cool and in order to get an open router account all you have to do is go sign up and get a API key so you'll click on create new credential and you can see we need an API key so you'll head over to open router. \""
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "num": 25,
+  "title": "Ollama + Claude Code = 99% CHEAPER",
+  "date": "04/04/26",
+  "word_count": 6096,
+  "char_count": 31604,
+  "chunks": 2,
+  "extracted": {
+    "hook": "Today, I'm going to be showing you guys two different ways that we can run Claude code for free.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "discussing the car and engine analogy"
+      ],
+      "slow": [
+        "explaining the differences between open-source and closed-source models"
+      ]
+    },
+    "vulnerability": "\"NONE FOUND\"",
+    "cta": "\"Appreciate making it to the end of the video. See you in the next one.\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "All right, so before we get into the tutorials of the two methods",
+      "Now, once you get here",
+      "So, if I go back into the Ollama here",
+      "So, now that that payment went through",
+      "So, if I say, \"Hey Claude Code\"",
+      "So, there's a few things going on here",
+      "So, what if we wanted to do a model from Ollama that was in the cloud",
+      "So, now that we have this set up",
+      "Now, I'll show you how this works",
+      "Because if you remember",
+      "So, can you go ahead and search the web and do some research on Google's new model Gemma 4"
+    ],
+    "vocabulary": [
+      "open-source",
+      "closed-source",
+      "models",
+      "API",
+      "context window",
+      "token limit",
+      "local model",
+      "free",
+      "environment variables",
+      "permissions",
+      "Anthropic",
+      "Open Router",
+      "API key",
+      "free models",
+      "rate limits",
+      "settings.local.json",
+      "tool calls",
+      "paid models"
+    ],
+    "analogies": [
+      "\"Think of it like a car and the engine\"",
+      "\"it's basically routing you to whichever model is like the most available at that moment\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"I was very confused. Because whenever it was doing little tool calls or doing little file searches, it was using Haiku instead of using the free models that I had installed it to use\"",
+      "\"So, can you go ahead and search the web and do some research on Google's new model Gemma 4\"",
+      "\"it now might not natively have the web search ability\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\""
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

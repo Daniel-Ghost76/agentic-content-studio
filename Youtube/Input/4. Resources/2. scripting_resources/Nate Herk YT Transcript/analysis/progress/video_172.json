@@ -1,0 +1,71 @@
+{
+  "num": 172,
+  "title": "n8n's Native MCP Integration (without the hype)",
+  "date": "10/04/25",
+  "word_count": 3638,
+  "char_count": 18931,
+  "chunks": 1,
+  "extracted": {
+    "hook": "So, Naden just released their native integration for MCP servers.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, today we're going to break down what these two new nodes actually do and what that means for us and kind of the limitations and what's next.",
+      "Okay, so before we actually get into the breakdown, um, if you don't really understand MCP or model context protocol, then definitely watch this video."
+    ],
+    "cta": "\"if you enjoyed it, you learned something new, please give it a like. Definitely helps me out a ton.\"",
+    "vocabulary": [
+      "native integration",
+      "MCP server trigger",
+      "MCP client tool",
+      "SSC URL",
+      "server sent event endpoint",
+      "Naden tools",
+      "multi-step dynamic tool calling ability"
+    ],
+    "analogies": "\"think of it like\"",
+    "curiosity_gaps": [
+      "\"So, this is the run where we asked our main agent, hey, can you help us create a LinkedIn post for image generation with AI? what it sent over was it already tried to create one before it did any research or hit this workflow. So, it sent over a LinkedIn post.\"",
+      "\"And so earlier when I alluded to some of the limitations with prompting, we'll see what happens here\"",
+      "\"So that's still like you don't have full control over the prompting\""
+    ],
+    "specificity": {
+      "dollars": [],
+      "percentages": [],
+      "subscribers": [],
+      "times": [
+        "10/04/25",
+        "3 p.m."
+      ],
+      "tools": [
+        "Naden",
+        "Claude Desktop",
+        "Cursor"
+      ]
+    },
+    "vulnerability": "\"So, this is the run where we asked our main agent, hey, can you help us create a LinkedIn post for image generation with AI? what it sent over was it already tried to create one before it did any research or hit this workflow. So, it sent over a LinkedIn post.\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the limitations and future possibilities of the integration"
+      ],
+      "slows": [
+        "explaining the current setup and how to set up Claude Desktop"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

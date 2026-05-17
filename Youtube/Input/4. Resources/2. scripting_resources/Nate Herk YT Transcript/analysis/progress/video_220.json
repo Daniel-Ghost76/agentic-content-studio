@@ -1,0 +1,88 @@
+{
+  "num": 220,
+  "title": "Step by Step: RAG AI Agents Got Even Better",
+  "date": "24/11/24",
+  "word_count": 7674,
+  "char_count": 38662,
+  "chunks": 2,
+  "extracted": {
+    "hook": "in this video I'll be walking through step by step how to build out this rag AI agent system that uses postgress and super base what we're building today is a little bit more improved version of other rag Builds on this channel",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "\"so we have collect feedback samples we have Sarah doing that we have metrics which will be John it's giving us due dates as well and then it's basically just summarizing everything that's going to be going on within this project and sort of the timeline going on with it um\"",
+        "\"we can go into subbase real quick and obviously here's the quick vectorization of the project mountain and then we also have our post Cress memory in here where we can see the human asked what are the action items for the project Mountain who part is involved and then we can see the AI responded with this information so that's sort of how this is going to work\"",
+        "\"we're about to get into the step-by-step so if you want to skip this part feel free but I'm just going to break down the difference between postgress window buffer memory pine cone super base at a really high level\""
+      ],
+      "slow": [
+        "\"in this video I'll be walking through step by step how to build out this rag AI agent system that uses postgress and super base what we're building today is a little bit more improved version of other rag Builds on this channel\"",
+        "\"but before we do that let's just hop into a quick demonstration\""
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "\"thanks for watching this one that's all I've got um hope you guys found this one valuable\"",
+    "signature_phrases": [
+      "\"you guys\" stick around to the end of this one because I'm going to go over some tricks in setting up the workflow so that anytime a new file is created it's automatically going into your super base\"",
+      "\"here we go\" so we have memory obviously we talked about the difference between um window buffer memory and then postgress",
+      "\"let me hit you with\" so first of all why is postgress going to be better than window but for memory the first thing is about data safety and persistence",
+      "\"literally insane\" it's going to handle large data sets more efficiently and you're going to be able to search through them using powerful tools like indexing um which is obviously very important for rag workflows especially once you get more documents and more things um to chat with",
+      "\"let's not waste any time\"",
+      "\"here we go\"",
+      "\"literally insane\"",
+      "\"what's really cool\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "but before we do that let's just hop into a quick demonstration",
+      "now that we understand that um I hope that makes sense as far as you know future use cases when you're trying to figure out what to use here and there what to plug in but now let's get into that step-by-step build all right",
+      "so let's test this and then we should go back into our table",
+      "now every time something's updated it's going to delete those old ones so that we can download the new file and then put the new file into superbase so that we're only interacting with ual accurate information",
+      "one thing I wanted to mention is you know ideally you would also have some sort of you know a node down at the bottom which is"
+    ],
+    "vocabulary": [
+      "improved",
+      "production ready",
+      "tricks",
+      "automatically",
+      "relevant",
+      "upto-date",
+      "self-hosted",
+      "manag service",
+      "SASS",
+      "relational",
+      "projects",
+      "file ID",
+      "metadata",
+      "vectorization",
+      "embedding",
+      "Google Drive",
+      "Super Base",
+      "RAG Agent"
+    ],
+    "analogies": [
+      "\"it's as simple as the agent here's our question it has to go out somewhere to retrieve that information then it takes that information back generates an answer and then gives us that nice clean answer\"",
+      "\"imagine\""
+    ],
+    "curiosity_gaps": [
+      "\"so we have collect feedback samples we have Sarah doing that we have metrics which will be John it's giving us due dates as well and then it's basically just summarizing everything that's going to be going on within this project and sort of the timeline going on with it um\"",
+      "\"we can go into subbase real quick and obviously here's the quick vectorization of the project mountain and then we also have our post Cress memory in here where we can see the human asked what are the action items for the project Mountain who part is involved and then we can see the AI responded with this information so that's sort of how this is going to work\"",
+      "\"we're about to get into the step-by-step so if you want to skip this part feel free but I'm just going to break down the difference between postgress window buffer memory pine cone super base at a really high level\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\"",
+      "\"you guys\""
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

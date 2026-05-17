@@ -1,0 +1,25 @@
+Create a 3-second cinematic HUD motion graphic using 00-start-background.png as the start image and 06-transcripts-to-business-assets.png as the final reference.
+
+The animation starts from the blank soft teal HUD background only. No transcript node, branches, or asset labels are visible at frame 0.
+
+The central transcript document node appears first on the center-left with a soft scale-in and slight slide from the left. The document lines inside it resolve gently, and the dotted texture becomes visible.
+
+Then animate a branching data-tree effect. Thin glowing teal branch lines grow outward from the transcript node toward the right side. The lines should feel organic and elegant, like a digital mind map, not a rigid chart.
+
+As each branch completes, the business asset nodes appear one by one with a soft fade/scale-in:
+
+OFFERS appears first.
+LANDING PAGES appears second.
+SALES SCRIPTS appears third.
+ADS appears fourth.
+FAQs appears fifth.
+
+Tiny teal data particles should travel along the branch lines as the labels appear. Keep the labels large, clean, and readable. Keep the movement smooth and premium, with no hard bounce.
+
+By the final frame, match 06-transcripts-to-business-assets.png: TRANSCRIPTS source node branching into OFFERS, LANDING PAGES, SALES SCRIPTS, ADS, and FAQs, all in the soft teal HUD style with visible dotted texture.
+
+Style: soft premium AI-tech HUD, low-to-medium contrast, lighter dark teal background, frosted glass, muted glow, cinematic blur, readable labels, no dramatic lighting.
+
+Do not add extra text, logos, humans, real objects, floor, horizon, reflections, explosions, or glitch effects.
+
+Duration: 3 seconds. Aspect ratio: 16:9.

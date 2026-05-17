@@ -1,0 +1,97 @@
+{
+  "num": 159,
+  "title": "25 Hidden n8n Features That Save Hours of Work",
+  "date": "13/05/25",
+  "word_count": 4174,
+  "char_count": 21318,
+  "chunks": 1,
+  "extracted": {
+    "hook": "All right, here are 25 Naden hacks that I wish I knew when I started building with Naden last year.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NOT FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "All right, starting off with number one.",
+      "Okay, number two is the ability to pin data.",
+      "Number three is mock data.",
+      "And then we're able to use all of this data over here to continuously map out the different variables for the rest of the workflow.",
+      "Okay, number four is the ability to move between nodes.",
+      "All right, number five is being able to deactivate nodes.",
+      "Number six is organization.",
+      "All right, number eight is just another quick keyboard shortcut.",
+      "And by the way, did you guys see how quick I activated all those nodes earlier?",
+      "Anyways, number 10 is current date and time.",
+      "Okay, number 12 is error workflows."
+    ],
+    "cta": "\"if you enjoyed this one or you learned something new, leave a like. It definitely helps me out a ton.\"",
+    "vocabulary": [
+      "hacks",
+      "workflow",
+      "nodes",
+      "API",
+      "subworkflow"
+    ],
+    "analogies": [
+      "\"All right, starting off with number one. Hopefully, we all know the difference between a fixed value and an expression value.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [
+        "last year"
+      ],
+      "named_tools": [
+        "Naden",
+        "Perplexity",
+        "Tavi",
+        "OpenAI"
+      ]
+    },
+    "vulnerability": "\"I don't want to go copy that API key every time I was setting up this HTTP request\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "discussing keyboard shortcuts and their benefits"
+      ],
+      "slow": [
+        "explaining the organization feature with sticky notes"
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": [
+      "\"All right, starting off with number one.\"",
+      "\"Okay, number two is the ability to pin data.\"",
+      "\"Number three is mock data.\"",
+      "\"And then we're able to use all of this data over here to continuously map out the different variables for the rest of the workflow.\"",
+      "\"All right, number four is the ability to move between nodes.\"",
+      "\"Okay, number five is being able to deactivate nodes.\"",
+      "\"Number six is organization.\"",
+      "\"All right, number eight is just another quick keyboard shortcut.\"",
+      "\"And by the way, did you guys see how quick I activated all those nodes earlier?\"",
+      "\"Anyways, number 10 is current date and time.\"",
+      "\"Okay, number 12 is error workflows.\""
+    ]
+  }
+}

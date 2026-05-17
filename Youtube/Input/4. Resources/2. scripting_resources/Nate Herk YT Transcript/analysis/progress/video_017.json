@@ -1,0 +1,78 @@
+{
+  "num": 17,
+  "title": "This One Plugin Just 10x�d Claude Code",
+  "date": "12/04/26",
+  "word_count": 3766,
+  "char_count": 20033,
+  "chunks": 1,
+  "extracted": {
+    "hook": "So, this one plugin has genuinely 10xed my cloud code over the past couple months as I've been playing around with it.",
+    "hook_type": "Result-First",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So the plugin that we're looking at today is called superpowers and it very much does give cloud code superpowers.",
+      "Now keep in mind this feature is still new and it can be token intensive. I'm going to talk a lot more about tokens later, but I think that it's really cool."
+    ],
+    "cta": "\"if you guys enjoyed the video or you learned something new, please give it a like. It helps me out a ton.\"",
+    "vocabulary": [
+      "superpowers",
+      "agentic skills framework",
+      "software development methodology",
+      "orchestrator",
+      "brainstorming",
+      "plan",
+      "verify",
+      "sub aent-driven development",
+      "quality gates",
+      "testdriven development"
+    ],
+    "analogies": [
+      "\"think of this like hiring a developer who does proper discovery before touching anything and building anything versus one who just takes your request and just starts writing code immediately.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [
+        "9%",
+        "14%"
+      ],
+      "time_references": [
+        "couple months",
+        "a few hours"
+      ],
+      "named_tools": [
+        "VS Code"
+      ]
+    },
+    "vulnerability": "\"this does look a little bit cheap. So, I might come back into here and say yes, this overall looks good\"",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the phases of superpowers (clarify, design, plan, code, verify)"
+      ],
+      "slows": [
+        "explaining each phase in detail"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": [
+      "\"The phases are basically clarify, design, plan, code, and then verify.\""
+    ]
+  }
+}

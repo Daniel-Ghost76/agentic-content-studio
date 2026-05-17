@@ -1,0 +1,63 @@
+{
+  "num": 231,
+  "title": "Step-By-Step: Add 100+ Files to Pinecone for RAG AI Agent with n8n",
+  "date": "18/10/24",
+  "word_count": 3288,
+  "char_count": 16641,
+  "chunks": 1,
+  "extracted": {
+    "hook": "a few weeks ago I made a video about an RG AI agent where we pushed a PDF into a vector database and then we were able to chat with the agent to get answers from the PDF so after that video a lot of people started asking me well what if we have hundreds of PDFs or hundreds of different documents that we want to push into a vector database and have that database keep growing and we don't want to have to manually you know test workflow every time in order to send it through into pine cone every single time so in this video that's what we're going to be doing",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\" the amount of support and feedback I've been getting from you all has been overwhelming and I've been super happy to hear that you guys are learning from my content and enjoying the content",
+      "\"here we go\" now that you've got all your information that you want in your database into a single folder let's hop into naden",
+      "\"let me hit you with\" so for the purpose of this video I'm going to be pretending that I own a restaurant and I have all this information that I want to use for an internal sort of agent where my staff can ask questions about our current reviews current menu changes promotions uh policies stuff like that could also be great for training but what we have here is all the information",
+      "\"literally insane\" so just keep that in mind this is binary data",
+      "\"let's not waste any time\"",
+      "\"honestly\" I haven't tested with hundreds but you definitely could do that I've done that in the past where you don't Loop and it's fine",
+      "\"crazy\" if you did have hundreds and hundreds I don't know if you'd be able to just take all 14 and put them straight into pine cone"
+    ],
+    "transitions": [
+      "so for the purpose of this video I'm going to be pretending that I own a restaurant",
+      "now that we're ready to start building the workflow we have to add the first step which is always going to be a trigger so we're going to do trigger manually here just so we can hit it test workflow and then it will you know search the folder grab the files put them into pine cone for us but in the future once you already have your original database set up and all you need to do is add more information to it you could have this trigger be like a Gmail folder trigger that way every time you add a file to that folder that it's pulling from then it will run through and just put it in the database for you automatically so you don't have to come back here and test it manually but that's um you know in the future",
+      "so we've got our trigger now we want to go and grab a Google Drive node to be able to actually um find the folder that we're searching through"
+    ],
+    "cta": "please hop into the school Community the link will be down in the description it's 100% free it's really nice to get to interact with you guys",
+    "vocabulary": [
+      "RG AI agent",
+      "vector database",
+      "pine cone",
+      "Google Drive",
+      "n8n"
+    ],
+    "analogies": [],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\" so just keep that in mind this is binary data"
+    ],
+    "specificity": {
+      "dollars": "",
+      "percentages": "",
+      "subscribers": "",
+      "time_references": "a few weeks ago, a lot of people started asking me",
+      "named_tools": "n8n, pine cone"
+    },
+    "vulnerability": "\"NONE FOUND\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "so just keep that in mind this is binary data so now what we want to do is we want to add a loop and we're doing it this way because you know I have 14 files but if you did have hundreds and hundreds I don't know if you'd be able to just take all 14 and put them straight into pine cone",
+        "so for the purpose of this video I'm going to be pretending that I own a restaurant"
+      ],
+      "slows": [
+        "so we've got our trigger now we want to go and grab a Google Drive node to be able to actually um find the folder that we're searching through so we're going to grab search files and folders I know it's a little confusing because you see like download file you see these folder actions but we're going to be searching files and folders to find the folder"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": [
+      "Step-By-Step: Add 100+ Files to Pinecone for RAG AI Agent with n8n"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "num": 133,
+  "title": "Beginner�s Guide to Metadata: Make Your RAG Agents Smarter",
+  "date": "23/07/25",
+  "word_count": 3643,
+  "char_count": 19026,
+  "chunks": 1,
+  "extracted": {
+    "hook": "Today I'm going to be talking about the different ways you can use metadata to make your rag agents much more intelligent.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So I don't want to waste any time.",
+      "Okay, so we just saw the chat functionality where we're talking with Subbase.",
+      "Now let's look at the actual transcripts pipeline of how we're getting data into our Superbase vector store with metadata."
+    ],
+    "cta": "\"if you guys want to get a better feel for it and download this workflow\"",
+    "vocabulary": [
+      "metadata",
+      "rag agents",
+      "vector database",
+      "transcript",
+      "chunks"
+    ],
+    "analogies": [
+      "\"imagine having a team of\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [
+        "23/07/25"
+      ],
+      "named_tools": [
+        "Subbase",
+        "Apify"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "when explaining the importance of metadata"
+      ],
+      "slows": [
+        "during detailed explanations of processes"
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": [
+      "\"So, in this subbase vector store node, we have a metadata filter. And this is where we're saying only pull back chunks if video title equals this dynamic input, which in our case is whatever we entered in that form submission.\""
+    ]
+  }
+}

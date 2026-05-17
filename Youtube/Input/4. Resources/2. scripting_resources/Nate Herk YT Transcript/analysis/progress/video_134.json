@@ -1,0 +1,109 @@
+{
+  "num": 134,
+  "title": "From Zero to RAG Agent: Full Beginner's Course (no code)",
+  "date": "21/07/25",
+  "word_count": 5740,
+  "char_count": 29513,
+  "chunks": 2,
+  "extracted": {
+    "hook": "By the end of this video, you'll have built your very own Rag AI agent, even if you're starting at the complete beginning, without having to write a single line of code.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "The pace seems to accelerate when explaining the RAG process and the setup steps."
+      ],
+      "slow": [
+        "The pace slows down during detailed explanations of each step in the pipeline and agent creation."
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "\"If you enjoyed the video or you learned something new, please give it a like. Definitely helps me out a ton.\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, I'm going to explain it as simply as I can.",
+      "And by the end, I think you're going to be really shocked at how much simpler this all is than you initially thought.",
+      "Let's not waste any time and get straight into it.",
+      "So, just wanted to start off with a quick definition of RAG since it's probably a term that you've been hearing but may not completely understand.",
+      "And in order to do that, we need to set up two different things for this vector rag.",
+      "So the first part of what we're doing here is the rag pipeline and it's really simple.",
+      "So, I said we're going to be setting up a vector database for our AI agent.",
+      "And now the second part of the system once our data is actually in that vector database is we have to build an agent that can talk to it.",
+      "So now that we've validated that the AI agent can look through the Superbase vector database, we have one issue, which is it has no memory.",
+      "The way we're going to set up that memory is we are going to use Postgress because we've already set up our whole soup base thing.",
+      "So now if I'm talking to my agent and I say, \"Hello, my name is Nate.\" We're going to send that off.",
+      "And so now if I was to come into the AI agent and say, \"What's my name?\"",
+      "Okay, so you've officially just built your first rag pipeline where you got data into a vector database and you built a rag agent that can talk to the data in there as well."
+    ],
+    "vocabulary": [
+      "RAG",
+      "vector database",
+      "rag agent",
+      "embedding model",
+      "Superbase",
+      "NITN",
+      "Google Drive",
+      "binary data",
+      "chunking",
+      "embedding",
+      "practice rules in golf",
+      "vector database",
+      "Postgress",
+      "context window",
+      "session ID"
+    ],
+    "analogies": [
+      "\"So if someone asks you how many feet are in a mile and you don't know, you'd probably Google it. You'd retrieve that answer and then you'd respond to them.\"",
+      "\"it's going to store these messages with a session ID and that's how it looks it up\""
+    ],
+    "curiosity_gaps": [
+      "\"There's different providers for vector databases, and they all kind of have their strengths and weaknesses\"",
+      "\"So, I'll show you guys all of this. Let's go over to nitn and get set up.\"",
+      "\"And now that we've connected here, we just have to do two more things. we have to chunk and then embed so that we can actually vectorize.\"",
+      "\"I'll come back to this\""
+    ],
+    "specificity": [
+      "\"21/07/25\"",
+      "\"22page PDF\"",
+      "\"Google Drive\"",
+      "\"Superbase\"",
+      "\"NITN\"",
+      "\"OpenAI\"",
+      "\"GPT4.1 mini\"",
+      "\"Subbase\"",
+      "\"documents\"",
+      "\"4\""
+    ],
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"So, I'm going to explain it as simply as I can.\"",
+      "\"And by the end, I think you're going to be really shocked at how much simpler this all is than you initially thought.\"",
+      "\"Let's not waste any time and get straight into it.\""
+    ]
+  }
+}

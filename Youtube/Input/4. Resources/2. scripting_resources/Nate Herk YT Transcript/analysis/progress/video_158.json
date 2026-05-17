@@ -1,0 +1,88 @@
+{
+  "num": 158,
+  "title": "The Simplest Way to Automate Scraping Anything with No Code (Apify + n8n tutorial)",
+  "date": "16/05/25",
+  "word_count": 2189,
+  "char_count": 10792,
+  "chunks": 1,
+  "extracted": {
+    "hook": "So, Apify is like a marketplace for actors, which essentially let us scrape anything on the internet.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, let's walk through a live setup.",
+      "And now that you have these 50 leads,",
+      "But anyways, that's the hard part is getting the leads into end."
+    ],
+    "cta": "If you appreciated the video, if you learned something new, definitely give it a like. It helps me out a ton.",
+    "vocabulary": [
+      "actor",
+      "virtual assistant",
+      "Tik Tok virtual assistant",
+      "LinkedIn job scraper",
+      "Google Maps actor",
+      "Instagram comments",
+      "Facebook posts",
+      "Appify console",
+      "API key",
+      "HTTP request"
+    ],
+    "analogies": [
+      "\"So, Apify is like a marketplace for actors\"",
+      "\"imagine you're saying, 'Hey, I want you to use the Tik Tok virtual assistant and I want you to scrape videos that have the hashtag of AI content.'\"",
+      "\"You could even tap into Apollo's database of leads and just get a ton. So today, I'm just going to show you guys in Naden the easiest way to set up this Apify actor where you're going to start the actor and then you're going to just grab those results.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [
+        "30%"
+      ],
+      "subscriber_counts": [],
+      "time_references": [
+        "19 seconds",
+        "22 seconds"
+      ],
+      "named_tools": [
+        "Apify",
+        "n8n"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "\"So, Apify is like a marketplace for actors\"",
+        "\"And now that you have these 50 leads\""
+      ],
+      "slow": [
+        "\"So, what we're going to want to do is head over to Apify using the link in the description and then use code 30 Nate Herk to get 30% off. Okay\"",
+        "\"And so this is basically just us putting in the actor's phone number. And so we're giving it a call.\""
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\""
+    ],
+    "frameworks": [
+      "\"So, let me show you what that looks like. What I'm going to do is hit test workflow and this is going to start the Google Maps actor.\"",
+      "\"So once you're in your Appify console, you click on the Appify store and this is where you can see all the different actors.\""
+    ]
+  }
+}

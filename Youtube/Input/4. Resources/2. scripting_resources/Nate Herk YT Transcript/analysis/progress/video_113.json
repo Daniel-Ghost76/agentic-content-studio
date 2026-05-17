@@ -1,0 +1,73 @@
+{
+  "num": 113,
+  "title": "This Vapi + n8n Voice Agent Won $5,000 in Just 21 Days",
+  "date": "17/09/25",
+  "word_count": 4170,
+  "char_count": 22188,
+  "chunks": 2,
+  "extracted": {
+    "hook": "Today we have a really exciting one. We're going to be going over the winning submission from our first community hackathon that took home $5,000.",
+    "hook_type": "Result-First",
+    "credential_drop": "NOT FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "\"So, I'll hand it over to you real quick if you want to give a quick intro, talk about the tech stack you used, and what the voice agent does, and then we'll just dive into a demo.\""
+      ],
+      "slow": [
+        "\"So, with NAN and voice agents, I got started around 6 months ago. I had pretty much no prior technical experience. I just learned my way through courses and YouTube videos like yours. I still remember two months ago I was just sitting and watching your videos and bold on you was something that was pretty much new to me.\""
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "If you enjoyed the video or you found it helpful, don't forget to leave a like. It definitely helps me out a ton. And as always, I appreciate you guys making it to the end of the video. See you on the next one.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"honestly\""
+    ],
+    "transitions": [
+      "So, I'll hand it over to you real quick if you want to give a quick intro, talk about the tech stack you used, and what the voice agent does, and then we'll just dive into a demo.",
+      "Okay, cool. So, I think let's hop over to the web app. Let's take a look at how it works and then just kind of dive in."
+    ],
+    "vocabulary": [
+      "voice agent",
+      "web app",
+      "AI Automation Society Plus",
+      "Nate's channel",
+      "YouTube",
+      "Vapi",
+      "n8n Voice Agent",
+      "$5,000",
+      "21 Days"
+    ],
+    "analogies": [
+      "\"it's basically a mental health web app\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\"",
+      "don't forget to leave a like",
+      "I appreciate you guys making it to the end of the video"
+    ],
+    "frameworks": [
+      "\"So, here I am inside my N workspace. As you can see here, these were nine N workflows and also the nine biggest pains of my life. But I'm glad that I sorted them out. So first, why don't we just start with the onboarding form web hook and see how your data was logged.\""
+    ]
+  }
+}

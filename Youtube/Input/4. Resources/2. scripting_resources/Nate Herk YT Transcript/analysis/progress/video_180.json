@@ -1,0 +1,97 @@
+{
+  "num": 180,
+  "title": "How I Built JARVIS with No Code (Tutorial w? Lovable, ElevenLabs, n8n)",
+  "date": "23/03/25",
+  "word_count": 8599,
+  "char_count": 44164,
+  "chunks": 3,
+  "extracted": {
+    "hook": "Oh great. What do you want? Hey, Jarvis. Great to see you, too. Likewise, sir, though I can't technically see.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NOT FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "discussing the initial prompt with Lovable"
+      ],
+      "slow": [
+        "explaining the process of refining the interface design"
+      ]
+    },
+    "vulnerability": "\"I multiple times had to come back and say, 'Hey, like, can you change this? Can you change this?'\"",
+    "cta": "And I will see you guys in the next one. Thanks so much.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"let me hit you with\"",
+      "\"literally insane\""
+    ],
+    "transitions": [
+      "Okay, now that you've seen that awesome demo, we're going to be diving into how I was able to build this Jarvis AI assistant using absolutely no code.",
+      "So let's actually just take a look at this real quick.",
+      "And if I click into here and I click restore, it's going to go back to exactly what it did on the very first time",
+      "Um, I asked it to make it bigger and it did make it bigger. So that was great.",
+      "Back in nitn, we're setting up a web hook trigger.",
+      "Now for the N&amp;N portion of this whole build is you've got this workflow which is the Jarvis main assistant and then you have these four other assistants to do."
+    ],
+    "vocabulary": [
+      "web app",
+      "assistant",
+      "voice agent",
+      "11 Labs",
+      "NAN",
+      "prompt",
+      "interface",
+      "dynamic pulsing elements",
+      "sleek animations",
+      "minimalistic yet futuristic UI",
+      "web hook",
+      "voice agent",
+      "Nen",
+      "Tavly API key",
+      "open API key",
+      "ultimate personal assistant",
+      "end of this one",
+      "tutorial",
+      "No Code",
+      "Lovable, ElevenLabs, n8n"
+    ],
+    "analogies": [
+      "\"So, this is what I will send. You know, this will be wrapped up in my free school community if you want to look at it.\"",
+      "\"think of it like\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\"",
+      "\"you guys\"",
+      "\"those of you\""
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

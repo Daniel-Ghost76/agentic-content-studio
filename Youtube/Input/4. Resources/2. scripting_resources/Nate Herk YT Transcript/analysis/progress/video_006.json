@@ -1,0 +1,130 @@
+{
+  "num": 6,
+  "title": "Claude Video Editing Just Became Unrecognizable",
+  "date": "23/04/26",
+  "word_count": 6955,
+  "char_count": 35295,
+  "chunks": 2,
+  "extracted": {
+    "hook": "Claude is now editing my videos end to end. All I have to do is drop in a raw file and it is trimming out the mistakes and the dead space.",
+    "hook_type": "Result-First",
+    "credential_drop": "NOT FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "NONE FOUND"
+      ],
+      "slow": [
+        "NONE FOUND"
+      ]
+    },
+    "vulnerability": "\"I always tell people to think about it like you're teaching a kid to ride a bike\"",
+    "cta": "\"if you enjoyed the video, please give it a like. It helps me out a ton.\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So yeah, I was able to take this, you know, 50-second clip, drop it into Claude, and then it basically cut out all of the mistakes, all of the filler words, and now we have a 27 second clip with all of the motion graphics that you guys just saw.",
+      "But not only that, you can see we also have this timeline editor, which has all of the actual elements down here, all of the different motion graphics.",
+      "So if I wanted to, I could delete these, I could move them around, and I could change the timing because obviously what's super important about motion graphics is the timing.",
+      "So now we have this actual interface within our Hyperframes dashboard to make some really quick iterations.",
+      "All right, so before we get into it, let's talk about the way that this actually works and sort of the tech stack that we're using.",
+      "And then if I wanted to add any animations, I would be doing that manually.",
+      "So today I'm going to show you guys step by step setting up a fresh Cloud project.",
+      "We're going to get everything we need to get installed installed and by the end you're going to know exactly how to edit videos just like you saw in the intro.",
+      "So, this planning stage is very important.",
+      "Okay, so we got a plan back,",
+      "So, let's go to the actual timeline.",
+      "Now, if you come into the top right of the desktop app and you click on preview,",
+      "Okay, so it looks like we're at a spot where this has come back with a version for us to look at."
+    ],
+    "vocabulary": [
+      "Claude",
+      "Hyperframes",
+      "video use",
+      "motion graphics",
+      "trimming",
+      "animations",
+      "rendering",
+      "raw file",
+      "Cloud project",
+      "script",
+      "motion graphics",
+      "hyperframes",
+      "clawed session limit",
+      "GitHub repo",
+      "color palette",
+      "liquid glass card",
+      "karaoke run",
+      "facecam full screen",
+      "vertical crop with rounded edges and a drop shadow",
+      "dark mode modern looking background"
+    ],
+    "analogies": [
+      "\"So, I was doing this manually and I was doing this manually. And then if I wanted to add any animations, I would be doing that manually.\"",
+      "\"it's basically showing us what word is the anchor. So, what word is going to trigger the scene to basically start\"",
+      "\"In my real project, I have video projects, right? So, if I open this up, you can see how many different videos I've made\"",
+      "\"So, let's say I make five different lessons. Now, I can basically say, 'Okay, cool. build a lesson design markdown philosophy file, which means every time I build a lesson, just use that.'\"",
+      "\"And that's where you truly get to the point of dropping in a raw file and having it edited end to end once you've kind of established a style for that type of video.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll show you guys a few other examples of what's possible\"",
+      "\"Here is Remotion\"",
+      "\"So it has a nice little background\"",
+      "\"It's got my face in the lower right corner\"",
+      "\"It has these motion graphics coming in\"",
+      "\"But I just like the hyperframes animations a little bit more\"",
+      "\"Real quick, I'll just show you guys a few other examples of what's possible\"",
+      "\"Here is Remotion\"",
+      "\"So it has a nice little background\"",
+      "\"It's got my face in the lower right corner\"",
+      "\"It has these motion graphics coming in\"",
+      "\"But I just like the hyperframes animations a little bit more\"",
+      "\"And all of that is obviously baked into our pipeline right here\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": [
+      "\"50-second clip\"",
+      "\"27 second clip\"",
+      "\"32 seconds long\"",
+      "\"Hyperframes\"",
+      "\"video use\"",
+      "\"11 Labs API\"",
+      "\"50 millisecond leads\""
+    ],
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\"",
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\""
+    ],
+    "frameworks": [
+      "\"So, today I'm going to show you guys step by step setting up a fresh Cloud project.\"",
+      "\"We're going to get everything we need to get installed installed and by the end you're going to know exactly how to edit videos just like you saw in the intro.\""
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "num": 123,
+  "title": "I Built the Ultimate Army of Media Agents in n8n (free template)",
+  "date": "15/08/25",
+  "word_count": 7382,
+  "char_count": 38099,
+  "chunks": 2,
+  "extracted": {
+    "hook": "Today, I'm super excited to share with you guys the ultimate media agent.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "pace_accelerates": [
+        "All right, look at that.",
+        "Real quick, wanted to update you guys."
+      ],
+      "pace_slows": [
+        "So, I'm going to give you guys this entire system for free so that you can get hooked up and start using this thing just like I am. So, stick around to the end of the video and I'll show you how to set everything up."
+      ]
+    },
+    "vulnerability": "\"I'm not too confident how good this one will be\"",
+    "cta": "\"if you enjoyed the video or you learned something new, please give it a like\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, I don't want to waste any time. Let's start seeing how this thing works.",
+      "All right, look at that.",
+      "Real quick, wanted to update you guys.",
+      "And now this one is just text to video.",
+      "So, I know this may seem kind of intimidating, but hopefully you can understand the patterns here",
+      "Now, we have everything that we need to do in this workflow.",
+      "And then when it comes to these posting flows, these are all very, very identical.",
+      "Okay. Next, let me explain what's going on down here in the social media agent."
+    ],
+    "vocabulary": [
+      "ultimate",
+      "media agent",
+      "Google Drive",
+      "Telegram",
+      "X, Tik Tok, or Instagram",
+      "creative side of things",
+      "image",
+      "video",
+      "post any of the media that you create",
+      "workflow",
+      "prompting",
+      "automation",
+      "media agents",
+      "AI image video prompt generator"
+    ],
+    "analogies": [
+      "\"it's going to hit its creative agent right here. And this is the one that has access to that tool called edit image\"",
+      "\"As you can see, we basically tell this main creative agent, this is its full system prompt instructions. Image prompts should be detailed and stylized. Video prompts should be concise, energetic, and should be one seamless video with no cuts. Explain the sounds in the video or any dialogue.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": [
+      "\"So, first of all, we have the cost breakdown. Your first cost to be thinking about is your chat models, your token usage there.\"",
+      "\"And then when it comes to these posting flows, these are all very, very identical. There's just one thing switched\"",
+      "\"First of all, if you do want to get this set up, you're going to go to my free school community\"",
+      "\"So, first of all, we have the cost breakdown. Your first cost to be thinking about is your chat models, your token usage there.\""
+    ]
+  }
+}

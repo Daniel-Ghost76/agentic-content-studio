@@ -1,0 +1,86 @@
+{
+  "num": 3,
+  "title": "32 Tricks to Level Up Claude Code in 16 Mins",
+  "date": "27/04/26",
+  "word_count": 4066,
+  "char_count": 22348,
+  "chunks": 2,
+  "extracted": {
+    "hook": "If you're working in the terminal, you can type /status line and tell Cloudcode what you want to see.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NOT FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "\"Cloud will spin up isolated sub-agents\"",
+        "\"Specifically, if you need a sub-agent to go scrape a ton of different articles\""
+      ],
+      "slow": [
+        "\"So it's like having a team of developers instead of just having one\"",
+        "\"Because everything in there is going to eat up at your context window\"",
+        "\"So next time that you start it up, it already knows all of this\""
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "But, that's going to do it for this one. So, if you guys enjoyed or you learned something new, please give it a like.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"let me hit you with\"",
+      "\"literally insane\""
+    ],
+    "transitions": [
+      "All right, so starting off with our beginner hacks",
+      "Now let's step it up a little bit",
+      "At the end of the day, it is AI",
+      "Okay, hack number 23 is to run parallel sessions with Git work trees",
+      "Hack number 24 is to use API endpoints instead of MCP servers"
+    ],
+    "vocabulary": [
+      "Cloudcode hacks",
+      "mass producing workflows",
+      "real time",
+      "context window",
+      "token bloat",
+      "completely free",
+      "free school community",
+      "end of the video"
+    ],
+    "analogies": [
+      "\"think of it like a mini dashboard for your session\""
+    ],
+    "curiosity_gaps": [
+      "\"All right, so starting off with our beginner hacks\"",
+      "\"Now I can just talk and words will appear anywhere\"",
+      "\"So you're now baking quality checks directly into the execution plan\"",
+      "\"And if you do this right, it can really keep your costs down without sacrificing quality where it matters\"",
+      "\"But here's the catch\"",
+      "\"Hack number 23 is to run parallel sessions with Git work trees\"",
+      "\"All right, hack number 24 is to use API endpoints instead of MCP servers\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\"",
+      "\"OGs\"",
+      "\"you guys\"",
+      "\"I appreciate you guys making it to the end of the video\""
+    ],
+    "frameworks": [
+      "\"These are the Cloudcode hacks that took me from a complete beginner to mass producing workflows and building websites, apps, and AI agents in real time\"",
+      "\"All right, so starting off with our beginner hacks\"",
+      "\"Now let's step it up a little bit\"",
+      "\"Okay, hack number 23 is to run parallel sessions with Git work trees\"",
+      "\"Hack number 24 is to use API endpoints instead of MCP servers\""
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "num": 117,
+  "title": "I Built a Photoshop AI Agent in n8n with no code (NanoBanana)",
+  "date": "05/09/25",
+  "word_count": 4273,
+  "char_count": 21831,
+  "chunks": 1,
+  "extracted": {
+    "hook": "Today I'm super excited to share with you guys this Photoshop AI agent that I built in Nen with no code.",
+    "hook_type": "Curiosity-Gap",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "All right. So here is the master Photoshop agent.",
+      "Okay, so you can see that our workflow is listening to us.",
+      "And then for the instructions, I only ended up giving it one instruction, which was if the user submits a photo, ask what they want to name it by saying, \"What would you like me to name that photo in your Google Drive?\"",
+      "Okay, so shooting off this message that says to call that picture granola.",
+      "All right, so it just told us it was done."
+    ],
+    "cta": "\"if you enjoyed or you learned something new, please give it a like. It definitely helps me out a ton.\"",
+    "vocabulary": [
+      "NanoBanana",
+      "Telegram",
+      "Google Drive",
+      "image generation model",
+      "ad creatives"
+    ],
+    "analogies": "\"it's basically using its combined image tool, and it's going to use nano banana to make it look like I'm holding the granola on a mountain\"",
+    "curiosity_gaps": [
+      "\"And then real quick, just to hit on what's on over here before we dive into the tools is we're using GBT 5.1\"",
+      "\"So that's how we can create these really modular systems because now if I ever want to create another agent that can combine images, I can just plug it into this workflow right here\"",
+      "\"And then once it gets that result back, it basically gives us a URL\"",
+      "\"Real quick, just wanted to touch on some of the pricing for this system.\""
+    ],
+    "specificity": {
+      "dollars": [
+        "$4 per image"
+      ],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [],
+      "named_tools": [
+        "n8n",
+        "Telegram",
+        "Google Drive",
+        "nano banana",
+        "FAL AI",
+        "imageBB",
+        "Open Router"
+      ]
+    },
+    "vulnerability": "\"two things, the first thing is that in the RAW files, this is a pretty low quality image. So, like I can't even read what that says right there\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the workflow and tools"
+      ],
+      "slows": [
+        "explaining the system prompt in detail"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

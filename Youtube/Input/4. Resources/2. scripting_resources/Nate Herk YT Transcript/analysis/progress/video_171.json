@@ -1,0 +1,83 @@
+{
+  "num": 171,
+  "title": "Turn Any Website Into LLM Ready Data in Seconds with n8n & Firecrawl",
+  "date": "13/04/25",
+  "word_count": 3730,
+  "char_count": 18259,
+  "chunks": 1,
+  "extracted": {
+    "hook": "so fir craw is going to allow us to turn any website into llm ready data in a matter of seconds",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "so for the sake of this video",
+      "all right so what we're doing here is",
+      "okay cool but what we want to do is",
+      "now let's look at how we actually set this up",
+      "real quick before we test this out"
+    ],
+    "cta": "\"let me know if you guys want to see that type of stuff\"",
+    "vocabulary": [
+      "extract",
+      "playground",
+      "URL",
+      "quotes",
+      "web scrape",
+      "LLM",
+      "HTTP request",
+      "JSON response",
+      "API key",
+      "credential"
+    ],
+    "analogies": [
+      "\"it's going to be a really good place to understand the difference between these different endpoints\"",
+      "\"we're going to plug it into nadn all right\""
+    ],
+    "curiosity_gaps": [
+      "\"I'm just going to copy that URL of this website and we're going to go into NN we're going to open up a new node which is going to be an HTTP request\"",
+      "\"so now what we need to do next is pull this idid back to see if our request has been fulfilled yet\""
+    ],
+    "specificity": {
+      "dollars": [
+        "code herk 10 to get 10% off the first 12 months on your fir crawl plan"
+      ],
+      "percentages": [],
+      "time_references": [],
+      "named_tools": [
+        "fir craw",
+        "naden",
+        "Ed end",
+        "Nend",
+        "chat GPT"
+      ]
+    },
+    "vulnerability": "\"I made the mistake of putting this in as json. ID which doesn't exist\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "discussing how to set up authorization and body request"
+      ],
+      "slows": [
+        "explaining the process step-by-step"
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\""
+    ],
+    "frameworks": []
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "num": 170,
+  "title": "n8n Just Leveled Up AI Agents (Anthropic's Think Method)",
+  "date": "17/04/25",
+  "word_count": 5124,
+  "char_count": 26777,
+  "chunks": 2,
+  "extracted": {
+    "hook": "All right, so here is our beautiful ultimate assistant with the new GPT 4.1 chat model as well as the new think tool.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "discussing the think tool's capabilities and benefits"
+      ],
+      "slow": [
+        "explaining the thought process of the assistant in detail"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "If you did, please give it a like. Definitely helps me out a ton.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, let's click into the Ultimate Assistant and we'll look at its logs because this lets us see exactly how it thought about what it needed to do and what actions it took.",
+      "Okay, so here is our think agent.",
+      "So in this case, if it came to the conclusion that, hey, I actually need to do something still. It would probably go back and call those tools.",
+      "And now you can see if I was to go back into the quotot and we take away this edit fields and we plug in the actual quotot."
+    ],
+    "vocabulary": [
+      "ultimate assistant",
+      "GPT 4.1 chat model",
+      "think tool",
+      "contact agent",
+      "email agent",
+      "calendar agent",
+      "tool calling",
+      "system prompt",
+      "model reasoning",
+      "agentic systems",
+      "Just Leveled Up",
+      "Anthropic's Think Method",
+      "fake tools",
+      "quoter",
+      "availability",
+      "LLM",
+      "node",
+      "workflow",
+      "call another end workflow",
+      "tool called quotot"
+    ],
+    "analogies": [
+      "\"imagine you were trying to work through some sort of complex math problem, but you had no scratch paper and just nowhere to write down your thoughts and sort of reason\"",
+      "\"it's basically just a tool like a notepad for the agent to write things down while it's trying to solve through problems and call different tools\"",
+      "\"it's basically an agent where I hooked up these two fake tools\""
+    ],
+    "curiosity_gaps": [
+      "\"So, if at this point it realized, okay, I wrote down what I did and what the user wanted. Oh, I actually do have more things I need to do. I'm going to go back and call those tools until I'm ready to go\"",
+      "\"So, I'm super excited to continue to experiment with this kind of stuff\"",
+      "\"when you pair a really nice model with the ability to basically write down its thoughts and reason\"",
+      "\"I think that this is going to be huge for creating agentic systems\"",
+      "I'll come back to this",
+      "stay till the end",
+      "here's where it gets interesting"
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"So, what we're talking about today is this think tool. It just got released in N8N version 1.88.\"",
+      "\"What's really cool is that all I did was I said, 'Hey, you know, you're going to get a number of guests and a date and you just need to provide a fake quote.' So I said, the quote should be $500 per person per day. And then the exact same thing with the availability tool. All I did is I'm feeding in the query that's going to get passed through. I said, you know, provide availability. Assume all dates are currently available. So like I said, just for testing.\""
+    ]
+  }
+}

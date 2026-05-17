@@ -1,0 +1,86 @@
+{
+  "num": 201,
+  "title": "How to Actually Build Agents with DeepSeek R1 in n8n (Without OpenRouter)",
+  "date": "24/01/25",
+  "word_count": 2807,
+  "char_count": 14210,
+  "chunks": 1,
+  "extracted": {
+    "hook": "so we're going to send off this three-part message to our deep seek planning agent it's going to be taking that input right now it's going to be constructing a step-by-step plan of instructions to hand off to the tools agent",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So lately there's been a ton of hype around deep seeks new reasoning model",
+      "the first issue like I said you guys may be experiencing is calling it through open router where we are setting up a credential with the base URL of open router.",
+      "if we want to connect to deep seek like this what you're going to do is go to deep seek.com",
+      "back in N end looking at the credentials this is where you're going to put that API key you just generated this is where you're going to put that base URL that we just looked at in um deep seek docs and then finally the model right here will type in deep seek D Reasoner to access R1",
+      "let's give this thing a try I'm going to say I want to create a few calendar events"
+    ],
+    "cta": "\"if you're looking to take your nidn and a automation skills a little bit farther and you'd like a more Hands-On approach then please check out my paid Community the link for that's also down in the description\"",
+    "vocabulary": [
+      "DeepSeek",
+      "R1",
+      "tools agent",
+      "prompt",
+      "step-by-step plan of instructions",
+      "calendar event",
+      "email"
+    ],
+    "analogies": "\"think of this reasoning model as a really good planner\"",
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [
+        "2 bucks",
+        "880,000 tokens",
+        "14,000 tokens",
+        "3 cents"
+      ],
+      "percentages": [
+        "96% cheaper than using open AI a one reasoning model as well as being able to perform just as well as it or even better"
+      ],
+      "time_references": [
+        "15 20 minutes",
+        "this morning",
+        "January 25th at 12:00 p.m. local time",
+        "30 minutes before"
+      ],
+      "named_tools": [
+        "open router",
+        "n8n"
+      ]
+    },
+    "vulnerability": "\"what I've been seeing is that this is just spinning and taking way way too long\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "the first issue like I said you guys may be experiencing is calling it through open router where we are setting up a credential with the base URL of open router.",
+        "if we want to connect to deep seek like this what you're going to do is go to deep seek.com"
+      ],
+      "slow": [
+        "So lately there's been a ton of hype around deep seeks new reasoning model deep seek R1 and this is because of the cost and performance which it's pretty much 96% cheaper than using open AI a one reasoning model as well as being able to perform just as well as it or even better"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": [
+      "\"So the first issue like I said you guys may be experiencing is calling it through open router where we are setting up a credential with the base URL of open router. aapi V1 we enter in the model name that's given to us in open router and we actually go to chat to this thing\"",
+      "\"if we want to connect to deep seek like this what you're going to do is go to deep seek.com\"",
+      "\"back in N end looking at the credentials this is where you're going to put that API key you just generated this is where you're going to put that base URL that we just looked at in um deep seek docs and then finally the model right here will type in deep seek D Reasoner to access R1\""
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "num": 21,
+  "title": "I Tested Claude's New Managed Agents... What You Need To Know",
+  "date": "08/04/26",
+  "word_count": 4185,
+  "char_count": 22084,
+  "chunks": 2,
+  "extracted": {
+    "hook": "4 days ago, Claude came out and said, \"Hey, you're no longer allowed to use your subscription inside of third party harnesses like OpenClaw.\" And people were upset because now they're paying a lot more for AI unless they're using something local.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "\"And now we have to create the environment which is a our which is our cloud container that Anthropic hosts and it has pre-installed packages. So we're basically just giving this agent its own little computer in the web.\""
+      ],
+      "slow": [
+        "\"So, if you head into the cloud console,\""
+      ]
+    },
+    "vulnerability": "\"I would just way rather use trigger.dev dev than use this managed agent environment. Because if I wanted this exact type of agent, which I've actually done before and I've made a video on it, I would just use trigger.dev.\"",
+    "cta": "And I'll see you in the next one.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"let me hit you with\"",
+      "\"what's really cool\""
+    ],
+    "transitions": [
+      "So if you head into the cloud console,",
+      "Now, the good news is you don't actually need a subscription.",
+      "And now we have to create the environment which is a our which is our cloud container that Anthropic hosts and it has pre-installed packages."
+    ],
+    "vocabulary": [
+      "managed agents",
+      "quick start",
+      "API key",
+      "cloud sandbox environment",
+      "MCP server",
+      "ClickUp",
+      "vault",
+      "session",
+      "competitor intelligence",
+      "system prompt",
+      "end of the video",
+      "appreciate",
+      "next one"
+    ],
+    "analogies": [
+      "\"This is basically just them saying, 'Hey, we're now allowing you to host an agent on our cloud in our own infrastructure, so you don't have to spend all that time actually setting all that up.'\"",
+      "\"And it's literally just a five-step process. You can see we just finished step one, which was to create the actual agent.\"",
+      "\"This is essentially the, you know, cla code, you know, the agent SDK, but it just has a nice wrapper around it.\""
+    ],
+    "curiosity_gaps": [
+      "So, now I'm giving it a little bit more context about our actual business and it's going to help us change the way that this agent is prompted.",
+      "And then we have the ability to use this ask cla button, which means that we could chat with Claude to understand how this is set up or what we're looking at or what we need to do to make changes."
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you that might not have a cloud code subscription\"",
+      "\"you guys\"",
+      "\"those of you\""
+    ],
+    "frameworks": [
+      "\"And now I'm going to do a quick breakdown on how they actually work, what they cost, when you should use them, and just kind of my honest thoughts and why it's a little bit disappointing to me.\""
+    ]
+  }
+}

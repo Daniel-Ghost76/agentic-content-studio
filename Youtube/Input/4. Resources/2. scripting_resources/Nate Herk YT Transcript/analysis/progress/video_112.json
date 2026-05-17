@@ -1,0 +1,67 @@
+{
+  "num": 112,
+  "title": "The NEW Easiest Way to Build RAG Agents in Minutes (no code)",
+  "date": "19/09/25",
+  "word_count": 3969,
+  "char_count": 20343,
+  "chunks": 1,
+  "extracted": {
+    "hook": "So, this rag agent took me less than 5 minutes to set up. This is the easiest method I've ever tried.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, now that you've seen that quick demo",
+      "Okay. So, feel free to open up your computer and follow along with what I'm doing.",
+      "but also the entire template that you'll see today will be available for download for free."
+    ],
+    "cta": "\"All you have to do is join my free school community. That way you can just plug and play and test it out for yourself.\"",
+    "vocabulary": [
+      "assistant",
+      "pine cone tool",
+      "earnings reports",
+      "vector store",
+      "metadata tagging"
+    ],
+    "analogies": "\"it's a vector store, but in here you can see that we have a section right over here called assistant\"",
+    "curiosity_gaps": [
+      "\"So the power of this comes through the actual API that we can use to talk to this Pine Cone Assistant.\"",
+      "\"And like I said, don't worry if this seems confusing. I'm going to show you guys exactly what we have to do. And it's actually super easy.\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [
+        "5 minutes",
+        "13% decrease in total deliveries year-over-year"
+      ],
+      "named_tools": [
+        "Pine Cone Assistant"
+      ]
+    },
+    "vulnerability": "\"I'm not going to try to get too technical here\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the ease of setting up the agent"
+      ],
+      "slows": [
+        "explaining the API documentation and request setup"
+      ]
+    },
+    "audience_language": "\"those of you that have built rag agents before\"",
+    "frameworks": []
+  }
+}

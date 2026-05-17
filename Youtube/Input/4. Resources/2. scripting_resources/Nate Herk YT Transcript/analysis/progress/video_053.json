@@ -1,0 +1,103 @@
+{
+  "num": 53,
+  "title": "Master 95% of Claude Code Skills in 28 Minutes",
+  "date": "27/02/26",
+  "word_count": 6780,
+  "char_count": 35742,
+  "chunks": 2,
+  "extracted": {
+    "hook": "I have genuinely never been as productive as I am right now because of Claude's skills.",
+    "hook_type": "Result-First",
+    "credential_drop": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "discussing the benefits of skills and how they can save time"
+      ],
+      "slow": [
+        "explaining the anatomy of a skill"
+      ]
+    },
+    "vulnerability": "\"NONE FOUND\"",
+    "cta": "If you learned something new, please give it a like. It definitely helps me out a ton.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, in this video, I'm going to be breaking down what skills are, how they work, and how you can build really, really good ones, even if you've never heard of the concept or built a single skill ever before.",
+      "All right, so here we are in Claude Code in my Herk 2 project, which is kind of just like my personal assistant.",
+      "So what you're looking at right now is four different agents running in parallel doing things for me.",
+      "Okay, so now that you guys have seen an actual demo, and hopefully you're a little bit excited to learn about Cloud Skills if you haven't used them yet,",
+      "Now the interesting thing about skills is that sometimes you need way more data.",
+      "So here we have a skill called idea mining and so what happens in here is basically used when someone asks for content ideas video ideas what to make next or to run idea mining",
+      "So, number one is the name and the trigger.",
+      "Cool. So, as you can see, that got set up.",
+      "Now, after that, you're going to click on this top left button",
+      "Okay, so here we are in Visual Studio Code, which is where I like to use Cloud Code.",
+      "So now it's asking about brand guidelines."
+    ],
+    "vocabulary": [
+      "productive",
+      "leverage",
+      "skills",
+      "agent",
+      "context",
+      "automation",
+      "SOPs",
+      "monetization",
+      "skill",
+      "trigger",
+      "reference files",
+      "rules",
+      "self-improvement loop",
+      "Cloud Code",
+      "Visual Studio Code",
+      "Nano Banana",
+      "API call",
+      "infographic"
+    ],
+    "analogies": [
+      "\"it's not morning right now, but I'm going to run this so you can see how it works\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": [
+      "\"So, in this video, I'm going to be breaking down what skills are, how they work, and how you can build really, really good ones, even if you've never heard of the concept or built a single skill ever before.\"",
+      "number one is the name and the trigger.",
+      "So, number two is the goal."
+    ]
+  }
+}

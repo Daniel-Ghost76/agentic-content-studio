@@ -1,0 +1,21 @@
+Create a 3-second cinematic HUD motion graphic using 00-start-background.png as the start image and 04-youtube-to-transcripts.png as the final reference.
+
+The animation starts from the blank soft teal HUD background only. No workflow elements are visible at frame 0. Background HUD panels stay blurred, soft, and secondary.
+
+Animate a left-to-right transformation:
+
+First, the video/channel library panel slides in from off-screen left and settles on the left side. It should have a soft frosted-glass look, subtle dotted texture, and muted teal line details.
+
+Second, thin glowing teal connector lines extend from the video panel toward the center processing node. Tiny teal data particles travel along the connector line.
+
+Third, the center AI/process node appears with a soft scale-in and a very subtle rotating HUD ring. Keep the motion clean and restrained, not dramatic.
+
+Fourth, the connector line continues from the center node to the transcript/data panel on the right. The transcript panel resolves into place with neat text lines and structured rows appearing softly.
+
+By the final frame, match 04-youtube-to-transcripts.png: video library on the left, processing node in the middle, clean transcript/data panel on the right, connected by thin glowing teal arrows/lines.
+
+Style: soft premium AI-tech HUD, lighter dark teal background, low-to-medium contrast, frosted glass, visible dotted texture, muted teal glow, cinematic blur, no harsh black, no bright white blowout.
+
+Do not add logos, humans, real objects, extra text, dramatic lighting, floor, horizon, reflections, or glitch effects.
+
+Duration: 3 seconds. Aspect ratio: 16:9.

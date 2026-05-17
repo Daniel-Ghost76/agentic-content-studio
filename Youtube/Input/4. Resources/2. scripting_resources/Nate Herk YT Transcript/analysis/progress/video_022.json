@@ -1,0 +1,77 @@
+{
+  "num": 22,
+  "title": "Claude�s New AI Just Changed the Internet Forever",
+  "date": "07/04/26",
+  "word_count": 1737,
+  "char_count": 9626,
+  "chunks": 1,
+  "extracted": {
+    "hook": "So, Enthropic just built an AI model that found more security bugs in a few weeks than most security researchers find in their entire career.",
+    "hook_type": "Result-First",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"let me explain\"",
+      "\"so, let's not waste any time\"",
+      "\"what's really cool\"",
+      "\"here we go\"",
+      "\"literally insane\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, what is Claude Mythus?",
+      "Here's the dilemma.",
+      "And this is where Project Glass Wing comes in."
+    ],
+    "cta": "The link for that is down in the description and I'll see you guys on the next one. Thanks everyone.",
+    "vocabulary": [
+      "AI",
+      "bugs",
+      "security flaws",
+      "code",
+      "benchmarks",
+      "patching",
+      "exploits",
+      "super intelligence"
+    ],
+    "analogies": [
+      "\"It's like training someone to be the world's best locksmith. You don't teach them to break into houses, but now that they understand locks so well, they easily could go break into almost any house.\""
+    ],
+    "curiosity_gaps": [
+      "I'll come back to this",
+      "stay till the end",
+      "here's where it gets interesting"
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [
+        "80.8%",
+        "93.9%",
+        "66.6%",
+        "83.1%"
+      ],
+      "time_references": [
+        "27 years",
+        "16 years",
+        "12 to 24 months"
+      ],
+      "named_tools": [
+        "SWE bench"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "when discussing the capabilities of Mythus"
+      ],
+      "slows": [
+        "during explanations and examples"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

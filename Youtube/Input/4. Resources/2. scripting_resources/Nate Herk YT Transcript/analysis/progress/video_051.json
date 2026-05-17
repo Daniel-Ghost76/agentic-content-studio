@@ -1,0 +1,78 @@
+{
+  "num": 51,
+  "title": "The NEW Nano Banana 2 + Claude Code = $10k Websites",
+  "date": "03/03/26",
+  "word_count": 5154,
+  "char_count": 26658,
+  "chunks": 2,
+  "extracted": {
+    "hook": "So, you know how on Apple's site we've got the product, we've got quotes come in, we've got dynamic elements like this. We can see sort of like the deconstruction of the product itself, and all of these features on the website give it a super professional and branded feel.",
+    "hook_type": "Demonstration",
+    "credential_drop": "\"I'm sure that some of you guys have realized by now, but this website is not Apple. This is one that I built with Cloud Code using this new skill in like 30 minutes.\" (late)",
+    "script_type": "LOOSE",
+    "energy_notes": "Pace accelerates when explaining the process and building the website. Slows down during explanations of tools and steps.",
+    "vulnerability": "\"NONE FOUND\"",
+    "cta": "If you enjoyed the video or you learned something new, please give it a like. It definitely helps me out a ton.",
+    "signature_phrases": [
+      "\"you know\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "\"So, I'm going to show you guys today the exact process to build sites just like this that are super professional, that have these really nice animations going on, and they just feel awesome.\"",
+      "\"And then once you understand that, hop right back over here.\"",
+      "So I told it to update those changes, make another push.",
+      "And then in Verscell if I go to deployments you can see that we had two.",
+      "And now the site is actually ready to go."
+    ],
+    "vocabulary": [
+      "Nano Banana",
+      "Cloud Code",
+      "Vanta one",
+      "3D",
+      "front-end design skill",
+      "video to website skill",
+      "frames",
+      "commit",
+      "deploy",
+      "Blender website",
+      "cloud code",
+      "demo site",
+      "web design agency",
+      "hosting",
+      "maintenance"
+    ],
+    "analogies": [
+      "\"So, all of these animations that you're seeing on the site and all the other ones that I've shown, they're just videos. And so, all I did here was had Nano Banana generate two different images for me and then turn it into a video.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "And just to prove to you guys that this really is on the cloud, you can see on my phone we have the Blender website with the animations."
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"So, I'm going to walk you guys through this process step by step, so you can see exactly what I did to create these really cool animations.\""
+    ]
+  }
+}

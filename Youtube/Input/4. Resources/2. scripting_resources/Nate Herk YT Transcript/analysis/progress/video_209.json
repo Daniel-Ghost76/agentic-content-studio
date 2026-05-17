@@ -1,0 +1,80 @@
+{
+  "num": 209,
+  "title": "Build AI Agents for $0.014 with DeepSeek V3 in n8n",
+  "date": "10/01/25",
+  "word_count": 2412,
+  "char_count": 11859,
+  "chunks": 1,
+  "extracted": {
+    "hook": "today we're going to be walking through how to use deep seek V3 in n8n for a fraction of what it costs to use something like gbt 40 or clae 35 Sonet",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "so let's get into nadn",
+      "so this was using 40",
+      "now we'll come up here and we'll pretty much do that same thing",
+      "okay so let's hop into deep seek and set everything up okay"
+    ],
+    "cta": "\"as always if you found this one helpful please give it a like definitely helps me out great to be back\"",
+    "vocabulary": [
+      "open source model",
+      "fine-tuning",
+      "training",
+      "tokens",
+      "context length",
+      "sub models",
+      "mixture of experts model",
+      "API key",
+      "HTTP request",
+      "post request"
+    ],
+    "analogies": "\"it's basically outperforming all of them in these six metrics\"",
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [
+        "$2",
+        "$2"
+      ],
+      "time_references": [
+        "10/01/25"
+      ],
+      "named_tools": [
+        "n8n"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "\"so as you can see right here in the blue\"",
+        "\"as you can see here in the green\""
+      ],
+      "slow": [
+        "\"but of course you should be careful with the data that you're putting into something like deep SE Q3 but um I just kind of wanted to bring you the facts of what I know and um how to actually plug it into nadn and just get in there and play around with it a little bit\""
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": []
+  }
+}

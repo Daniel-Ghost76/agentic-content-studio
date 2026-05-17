@@ -1,0 +1,84 @@
+{
+  "num": 26,
+  "title": "18 Claude Code Token Hacks in 18 Minutes",
+  "date": "02/04/26",
+  "word_count": 4251,
+  "char_count": 23096,
+  "chunks": 2,
+  "extracted": {
+    "hook": "In the past week or so, so many people have been complaining about hitting their Claude code limit insanely fast.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "So anyways, I've been playing around a ton, trying different doing research, and I have 18 token management hacks for you guys that I've organized from tier one all the way up to tier three, so they get more advanced as we go."
+      ],
+      "slow": [
+        "This means as you're having a conversation with Claude, your cost is compounding, not just adding. It's exponentially growing.",
+        "One developer actually tracked a 100-plus message chat and found that 98.5% of all the tokens were just spent rereading the old chat history in the session."
+      ]
+    },
+    "vulnerability": "\"I've been playing around a ton, trying different doing research\"",
+    "cta": "If you guys enjoyed or you learned something new, please give it a like, it helps me out a ton.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"let's not waste any time\"",
+      "\"literally insane\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"that is going to do it for this one\"",
+      "\"as always, I appreciate you guys making it to the end of the video\""
+    ],
+    "transitions": [
+      "So anyways, I've been playing around a ton, trying different doing research, and I have 18 token management hacks for you guys that I've organized from tier one all the way up to tier three, so they get more advanced as we go.",
+      "We're going to start here with tier one hacks. These are the ones that are going to be super easy to implement and everyone should be able to understand.",
+      "Okay, number two is to disconnect MCP servers.",
+      "All right, number three, batch prompts into one message.",
+      "Number four is to use plan mode before any real task.",
+      "So, if you actually think about this strategically, maybe you want to make sure that you're running big refactors or multi-agent sessions or big projects during off-peak hours only.",
+      "So, I wanted to kind of leave you guys with one, maybe two messages."
+    ],
+    "vocabulary": [
+      "token",
+      "hack",
+      "session",
+      "claude.md",
+      "context",
+      "batch",
+      "multi-step instructions",
+      "messages",
+      "heavy sessions",
+      "off-peak hours",
+      "quality and cost",
+      "balance",
+      "higher quality",
+      "cost you more money",
+      "context hygiene problem"
+    ],
+    "analogies": [
+      "\"because once you realize how Claude uses tokens, it makes it very clear how you should actually reverse engineer the way that you work in order to use less tokens.\"",
+      "\"This means as you're having a conversation with Claude, your cost is compounding, not just adding. It's exponentially growing.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\"",
+      "\"as always, I appreciate you guys making it to the end of the video\""
+    ],
+    "frameworks": [
+      "\"So as I've been optimizing my own token management, I think that what's really important to realize first is how tokens actually work. Because once you realize how Claude uses tokens, it makes it very clear how you should actually reverse engineer the way that you work in order to use less tokens.\""
+    ]
+  }
+}

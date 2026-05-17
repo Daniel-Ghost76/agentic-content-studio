@@ -1,0 +1,86 @@
+{
+  "num": 82,
+  "title": "How I'd Learn n8n if I had to Start Over in 2026",
+  "date": "10/12/25",
+  "word_count": 3843,
+  "char_count": 21167,
+  "chunks": 1,
+  "extracted": {
+    "hook": "When I first started learning NAND, I brute forced my way through the learning process.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NOT FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, if I was starting from zero right now, the first thing that I would drill into my head is this.",
+      "But AI automations are then the next step up because you still have those predictable workflows, but now you can sprinkle in some intelligence and some decision-making.",
+      "Then finally we have our AI agents which are the top layer."
+    ],
+    "cta": "\"If you enjoyed, you learned something new, please give it a like. Definitely helps me out a ton.\"",
+    "vocabulary": [
+      "workflows",
+      "automation",
+      "agents",
+      "JSON",
+      "APIs",
+      "HTTP requests",
+      "web hooks",
+      "logic and error handling",
+      "LLMs",
+      "prompt engineering"
+    ],
+    "analogies": [
+      "\"A system prompt for an AI is like studying the night before an exam. It helps the model understand the rules, the tone, and the structure and maybe some base knowledge. But good context is like having a cheat sheet during the exam. It gives you the exact details at the exact moment that you need them.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [
+        "30% to 200%",
+        "25% to 40%"
+      ],
+      "subscriber_counts": [],
+      "time_references": [
+        "12 months",
+        "a year"
+      ],
+      "named_tools": [
+        "Naden",
+        "Gmail",
+        "Perplexity",
+        "Slack",
+        "HubSpot"
+      ]
+    },
+    "vulnerability": "\"I know I did\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "When you start the first time and you go to look at JSON or setting up an HTTP request or trying to prompt your agent, you're probably going to feel overwhelmed. I know I did."
+      ],
+      "slow": [
+        "So if I could teach every beginner one mindset, it would be this. Your first version will break. And that's completely normal."
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": [
+      "\"Do not start with AI. Start with workflows.\"",
+      "\"You've got workflows. Those are rule-based, they're predictable, and they're boring, but in the best way possible.\"",
+      "\"Everything in NDN comes down to data coming in and then going out.\""
+    ]
+  }
+}

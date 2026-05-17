@@ -1,0 +1,82 @@
+{
+  "num": 152,
+  "title": "I Built the Ultimate Browser Agent with No Code (n8n + Airtop)",
+  "date": "08/06/25",
+  "word_count": 4433,
+  "char_count": 22755,
+  "chunks": 2,
+  "extracted": {
+    "hook": "This AI agent can use a computer just like a human would.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the start browser tool and its execution"
+      ],
+      "slows": [
+        "explaining the tools in detail"
+      ]
+    },
+    "vulnerability": "\"I'm running into some issues where it was timing out\"",
+    "cta": "If you enjoyed this style video, then definitely check out my paid community. The link for that is down in the description as well.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"definitely check out my paid community\"",
+      "\"I'd love to see you guys in those calls or in the community\"",
+      "\"please give it a like\"",
+      "\"So, I'd love to see you guys\"",
+      "\"We've got two full courses\""
+    ],
+    "transitions": [
+      "So, the whole point of this agent is to take web actions with completely natural language.",
+      "So, now that that browser has started, we got the link and it's going to load up that session and then we're going to be able to watch the agent actually do things.",
+      "First thing I'm going to do is just click into the system prompt and show you guys how simple this is.",
+      "All right so let's get back to the video."
+    ],
+    "vocabulary": [
+      "browser agent",
+      "Airtop",
+      "nodes",
+      "session ID",
+      "window ID",
+      "tool",
+      "workflow",
+      "query",
+      "click",
+      "type",
+      "paid community",
+      "like-minded people",
+      "Agent Zero",
+      "10 hours to 10 seconds",
+      "full courses"
+    ],
+    "analogies": [
+      "\"it's going through this flow to start that browser\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\"",
+      "\"I'd love to see you guys\"",
+      "\"please give it a like\"",
+      "\"We've got two full courses\"",
+      "\"So, I'd love to see you guys in those calls or in the community\""
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "num": 189,
+  "title": "Make Your Agents Communicate Better in n8n (Feedback, Specifying Inputs, Agent Logs)",
+  "date": "24/02/25",
+  "word_count": 4474,
+  "char_count": 22792,
+  "chunks": 2,
+  "extracted": {
+    "hook": "today we're going to be talking about how you can make your AI agents communicate with each other much more effectively the whole point of building out these multi-agentic autonomous systems is that we can trigger the workflow something will happen in that black box of the agents that we built and then the output that we get is something that we're happy with this is unlike something like Chach BT where we're constantly doing back and forth asking it to make small tweaks and adjustments until we're finally happy with what we got so by giving these agents a channel to communicate with each other they're able to understand the mistakes fix the mistakes and just ultimately become a smarter team of Agents",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NOT FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "\"so by giving these agents a channel to communicate with each other they're able to understand the mistakes fix the mistakes and just ultimately become a smarter team of Agents\"",
+        "\"as you can see right now the parent agent decided to hit the story agent and now I got a response back so we have this story which is called Bob sweet ride Bob a whirlwind of restless energy barely contained within a 20-year-old frame lived in breed skateboarding anyways we could read the rest of the story if you want um pretty much ends off with him getting a scoop of double chocolate fudge ice cream but anyways let's take a look at how this actually worked first let's take a look at what's going on within the parent agent\"",
+        "\"on the right we see the output which is what we got from the story agent but on the left is the query that's sent into the story agent and all we can see here is that we had to give a description to this tool which is call this tool to create a story about a person and then we had basically had to choose where are we sending this data so the way we connect this tool is we click on the plus for Tool and we click on call NN workflow tool so this means that we're able to call another workflow um and send data over so in this case we're calling over this child agent and we're able to do so because this workflow starts with a trigger that is when executed by another workflow\"",
+        "\"if you don't believe me you could even click on view sub execution which will take you right to the execution of this sub child agent that we just called and as you can see it's going to be exactly what we were just looking at which is the query coming in Bob is a 20-year-old man okay cool now let's change it up a little bit what I'm going to do now is we're going to look at story agent number two\"",
+        "\"on the right hand side we have the actual details coming through okay but now we want to see what happens if we don't give all the parameters and something thing goes down this path let's go back to the parent agent and we will chat with the agent once again but this time I'm going to copy this query back in but I'm going to get rid of the adventure so I'm just going to say he's a 20-year-old man who lives in Florida and we'll send that off we'll see it's still going to hit the story agent but now it says I need to know the adventure to write the story can you please tell me the adventure\""
+      ],
+      "slow": [
+        "\"today we're going to be talking about how you can make your AI agents communicate with each other much more effectively the whole point of building out these multi-agentic autonomous systems is that we can trigger the workflow something will happen in that black box of the agents that we built and then the output that we get is something that we're happy with this is unlike something like Chach BT where we're constantly doing back and forth asking it to make small tweaks and adjustments until we're finally happy with what we got so by giving these agents a channel to communicate with each other they're able to understand the mistakes fix the mistakes and just ultimately become a smarter team of Agents\"",
+        "\"so let's get back to the video okay so this is our parent agent for today we're going to be communicating with it through a chat message that's just going to be right here in NN and it's going to be sending information to a story agent and in this case the first story agent we're going to look at just looks like this all it is is a simple when executed by another workflow trigger it's going to take details from that first main agent it's going to create a story and then it's going to send that story back to the main agent essentially that's what I'm going to be talking about today but how to make it a little more robust and understanding what's really going on in that data transfer between workflows\"",
+        "\"as you can see right now the parent agent decided to hit the story agent and now I got a response back so we have this story which is called Bob sweet ride Bob a whirlwind of restless energy barely contained within a 20-year-old frame lived in breed skateboarding anyways we could read the rest of the story if you want um pretty much ends off with him getting a scoop of double chocolate fudge ice cream but anyways let's take a look at how this actually worked first let's take a look at what's going on within the parent agent\"",
+        "\"on the right hand side we have the actual details coming through okay but now we want to see what happens if we don't give all the parameters and something thing goes down this path let's go back to the parent agent and we will chat with the agent once again but this time I'm going to copy this query back in but I'm going to get rid of the adventure so I'm just going to say he's a 20-year-old man who lives in Florida and we'll send that off we'll see it's still going to hit the story agent but now it says I need to know the adventure to write the story can you please tell me the adventure\""
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "\"hope it was helpful hope you learned something new if you did please give it a like definitely helps me out a ton\"",
+    "signature_phrases": [
+      "\"let's not waste any time\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "so let's get back to the video okay",
+      "back into the parent agent we click into here and we can see that first of all there's a user message and there's a system message so with the user message this is going to be the information that we're feeding into the parent agent every single time it's going to be different it's going to be the The Prompt of you know this is the information to do something with this is what's triggering you",
+      "as you can see right now the parent agent decided to hit the story agent and now I got a response back so we have this story which is called Bob sweet ride Bob a whirlwind of restless energy barely contained within a 20-year-old frame lived in breed skateboarding anyways we could read the rest of the story if you want um pretty much ends off with him getting a scoop of double chocolate fudge ice cream but anyways let's take a look at how this actually worked first let's take a look at what's going on within the parent agent",
+      "on the right we see the output which is what we got from the story agent but on the left is the query that's sent into the story agent and all we can see here is that we had to give a description to this tool which is call this tool to create a story about a person and then we had basically had to choose where are we sending this data so the way we connect this tool is we click on the plus for Tool and we click on call NN workflow tool so this means that we're able to call another workflow um and send data over so in this case we're calling over this child agent and we're able to do so because this workflow starts with a trigger that is when executed by another workflow",
+      "if you don't believe me you could even click on view sub execution which will take you right to the execution of this sub child agent that we just called and as you can see it's going to be exactly what we were just looking at which is the query coming in Bob is a 20-year-old man okay cool now let's change it up a little bit what I'm going to do now is we're going to look at story agent number two",
+      "moving on to our last example",
+      "in this case um I just wanted to show how you can have sort of continuous checks throughout the the process",
+      "now one thing to keep in mind here is you know this is not perfect because let's say it was an API key issue right here"
+    ],
+    "vocabulary": [
+      "agents",
+      "workflow",
+      "trigger",
+      "black box",
+      "mistakes",
+      "tweaks",
+      "adjustments",
+      "channels",
+      "prompt",
+      "output",
+      "workflow",
+      "agent",
+      "prompt",
+      "query",
+      "branch",
+      "ticker",
+      "chart"
+    ],
+    "analogies": [
+      "\"imagine\"",
+      "\"imagine\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"so let's get back to the video okay so this is our parent agent for today we're going to be communicating with it through a chat message that's just going to be right here in NN and it's going to be sending information to a story agent\"",
+      "\"on the right hand side we have the actual details coming through okay but now we want to see what happens if we don't give all the parameters and something thing goes down this path let's go back to the parent agent and we will chat with the agent once again but this time I'm going to copy this query back in but I'm going to get rid of the adventure so I'm just going to say he's a 20-year-old man who lives in Florida and we'll send that off we'll see it's still going to hit the story agent but now it says I need to know the adventure to write the story can you please tell me the adventure\""
+    ]
+  }
+}

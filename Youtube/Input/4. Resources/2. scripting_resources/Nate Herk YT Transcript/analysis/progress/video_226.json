@@ -1,0 +1,119 @@
+{
+  "num": 226,
+  "title": "AI Personal Assistant 2.0 | This Agent Calls Other Agents (No Code) in n8n",
+  "date": "06/11/24",
+  "word_count": 6347,
+  "char_count": 32404,
+  "chunks": 2,
+  "extracted": {
+    "hook": "so I said can you schedule a meeting for tomorrow with Michael Scott at noon and then can you email him to confirm if that works so we're going to fire that off we'll see it take place real quick",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "\"so I said can you schedule a meeting for tomorrow with Michael Scott at noon and then can you email him to confirm if that works so we're going to fire that off we'll see it take place real quick\"",
+        "\"looks like the email just got sent looks like the calendar event just got made and now it's going to respond to us the meeting with Michael Scott has been successfully scheduled for tomorrow at noon additionally an email has been sent to him to confirm if that time works\"",
+        "\"so we're going to hit test workflow on this main agent so that the telegram trigger is listening for a telegram message I'm going to pull up telegram paste in this message real quick that says you create a calendar event with Michael Scott for tomorrow at 600 p.m. for dinner we'll fire this off\"",
+        "\"so let's check our calendar as you can see right here tomorrow 600 p.m. we have dinner with Michael Scott and if we click into here we can see that he and fact was invited Michael Scott was one of my emails so this is the email that it sent off to so that's the proof that this agent is working let's go back into the agent click on the execution and make sure that it actually did do exactly what we said\"",
+        "\"so I wanted to hop into the editor real quick and explain this dollar sign from AI thing in more detail so that for the rest of the nodes and the Agents that we're testing out it's all going to make more sense\""
+      ],
+      "slow": [
+        "\"so I said can you schedule a meeting for tomorrow with Michael Scott at noon and then can you email him to confirm if that works so we're going to fire that off we'll see it take place real quick it just got Michael Scott's email information from the contact database now it's going to go back to the agent and then the agent is going to figure out which agent to send it to as you can see it's hitting the calendar agent as well as the email agent looks like the email just got sent looks like the calendar event just got made\"",
+        "\"now switching over to the new version instead of giving the agent access to tools we gave this agent access to four different agents it has email agent which has actions within email calendar agent which has actions within calendar and the same thing for a research agent and a projects agent this is a lot more powerful and a lot more scalable because once the agent gets the incoming message from our telegram trigger rather than it figuring out which tool it needs to go to and passing a ton of information between each step it's just going to be figuring out okay if I need to do email I'm just going to send it to the email agent and the agent's going to take care of it same thing with the other agents\"",
+        "\"so let's check our calendar as you can see right here tomorrow 600 p.m. we have dinner with Michael Scott and if we click into here we can see that he and fact was invited Michael Scott was one of my emails so this is the email that it sent off to so that's the proof that this agent is working let's go back into the agent click on the execution and make sure that it actually did do exactly what we said\""
+      ]
+    },
+    "vulnerability": "\"I saw a video from AI Workshop subar hey if you're seeing this keep up the great work but he showcased these new tools that you can give agents that are much much stronger than they used to be\"",
+    "cta": "\"I know that these four agents weren't super complex as far as the tools that they had access to but you can tell that they're very efficient at sort of delegating out the tasks to the specific tool but the point to take away here is how easy it is to connect an agent to another agent and you know sort of give the bigger agent multiple agents to run through I would say the best rule of thumb is to never give an agent more than like 10 tools would probably be too many as far as it's going to get confused with the prompting and with the flow of how it should be operating but those were the four main agents that we gave this personal assistant\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "so I said",
+      "looks like the email just got sent looks like the calendar event just got made and now it's going to respond to us",
+      "now switching over to the new version instead of giving the agent access to tools we gave this agent access to four different agents",
+      "let's hop into a first live example where we'll be using the calendar agent so real quick I'll open up the calendar agent workflow as you can see this agent is being called by the larger agent so the trigger is when called by another workflow this agent all it has to do is understand the incoming query and then figure out which of the three tools it needs to use",
+      "so we're going to hit test workflow on this main agent so that the telegram trigger is listening for a telegram message I'm going to pull up telegram paste in this message real quick that says you create a calendar event with Michael Scott for tomorrow at 600 p.m. for dinner we'll fire this off",
+      "so let's check our calendar as you can see right here tomorrow 600 p.m. we have dinner with Michael Scott and if we click into here we can see that he and fact was invited Michael Scott was one of my emails so this is the email that it sent off to so that's the proof that this agent is working let's go back into the agent click on the execution and make sure that it actually did do exactly what we said",
+      "so I wanted to hop into the editor real quick and explain this dollar sign from AI thing in more detail so that for the rest of the nodes and the Agents that we're testing out it's all going to make more sense",
+      "same format in the sense that it's getting called by the agent so it's triggered like that",
+      "for the first one let's try just saying can you find out some recent news about open AI",
+      "let me show you real quick I used this one in a in the previous video with my personal AI assistant but let's say you had a ton of projects in here and you had notes and you had different statuses you could also do this with something um you know in something like air table or another sort of database system but just using sheets for the sake of the video",
+      "let me type in a few things and we can see how it's coming through all right so I just hit test workflow the telegram trigger is waiting for us to talk to it"
+    ],
+    "vocabulary": [
+      "personal assistant",
+      "AI agent",
+      "telegram trigger",
+      "calendar event",
+      "email agent",
+      "projects agent",
+      "research agent",
+      "personal AI assistant",
+      "agent calls other agents",
+      "no code",
+      "calendar agent",
+      "email agent",
+      "research agent",
+      "projects agent",
+      "knowledge base"
+    ],
+    "analogies": [
+      "\"it's a lot lot smarter than it used to be\"",
+      "\"it's super cool that you can sort of bake in like an open AI node within each parameter it's super cool\"",
+      "\"let me hit you with this one is going to be the email agent so let's hop into this workflow real quick same thing we're calling this agent from another agent so that's why the trigger is here and in this case we're only giving it send email and get email messages\"",
+      "\"it's going to figure out okay from that query we're going to find the email address and then that's how we're going to fill in the two we're going to we're going to figure out what the message is going to say and then we're going to make a subject and put it here and then finally we're going to actually make the email message and put it in right here email body which is the body message of the email\"",
+      "\"let's go check our email and see what that one looks like okay that email just came through the subject is project status update hi Nate I hope this message finds you well I wanted to check in and see how the project is coming along could you please provide an update at your earliest convenience thank you best regards Nate\"",
+      "\"super cool way to get emails quickly summarized from a specific person all right moving on to the third agent that this personal assistant has access to is the research agent let's take a look at what this one is doing same format in the sense that it's getting called by the agent so it's triggered like that the research agent we gave it a very brief prompt basically just saying your research agent you have Wikipedia Hacker News and Sur API to answer the question first search Wikipedia if you can't find it there then look through Hacker News and then if you can't find it there use Sur API so that's just sort of the flow that we wanted to go through\"",
+      "\"let's see which tool that this one end up using hopefully Sur API but maybe even just Wikipedia again okay so this one actually used a combination of Wikipedia and Hacker News so super cool that it's not going to be blowing through your credits with ins Ser API cuz that can get a little pricey but as of now I just asked three questions and it only used the other two tools so that's super encouraging and cool to see that it is able to figure out how to get your questions answered\"",
+      "\"let me type in a few things and we can see how it's coming through all right so I just hit test workflow the telegram trigger is waiting for us to talk to it I'm asking what is our policy on health and safety and data privacy so we'll send that off it's going to hit the knowledge base and then it will return us a nice clean answer um let's actually just pull up the document real quick and then we just got our answer from telegram\"",
+      "\"as you can see our payment terms are that all payments are due upon completion of services we accept cash credit cards blah blah blah for an oral change we charge 35 for standard and 65 for synthetic so as you can see 35 and 65 and then payment terms cash credit and approved financing options um yeah so that seems to be feeding through correctly\"",
+      "\"8 times um 451 and see what we get there it should be oh I didn't test it we'll test it so now it's going to be running that prompt it will hit the calculator and it's going to say the result of 8 * 451 is 368 so um that's obviously just how the calculator tool works but that's in case you had a prompt where um you wanted to do a calculation within maybe sending a query so that's why we always include the calculator\"",
+      "\"honestly that's not even true I haven't even fully updated this prompt and it's still working really well\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\"",
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": [
+      "\"the point to take away here is how easy it is to connect an agent to another agent and you know sort of give the bigger agent multiple agents to run through I would say the best rule of thumb is to never give an agent more than like 10 tools would probably be too many as far as it's going to get confused with the prompting and with the flow of how it should be operating but those were the four main agents that we gave this personal assistant\"",
+      "\"let me type in a few things and we can see how it's coming through all right so I just hit test workflow the telegram trigger is waiting for us to talk to it I'm asking what is our policy on health and safety and data privacy so we'll send that off it's going to hit the knowledge base and then it will return us a nice clean answer um let's actually just pull up the document real quick and then we just got our answer from telegram\"",
+      "\"as you can see our payment terms are that all payments are due upon completion of services we accept cash credit cards blah blah blah for an oral change we charge 35 for standard and 65 for synthetic so as you can see 35 and 65 and then payment terms cash credit and approved financing options um yeah so that seems to be feeding through correctly\"",
+      "\"8 times um 451 and see what we get there it should be oh I didn't test it we'll test it so now it's going to be running that prompt it will hit the calculator and it's going to say the result of 8 * 451 is 368 so um that's obviously just how the calculator tool works but that's in case you had a prompt where um you wanted to do a calculation within maybe sending a query so that's why we always include the calculator\"",
+      "\"honestly that's not even true I haven't even fully updated this prompt and it's still working really well\""
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "num": 179,
+  "title": "Understand ANY Document with Mistral OCR in n8n (Step-by-Step)",
+  "date": "25/03/25",
+  "word_count": 3538,
+  "char_count": 17315,
+  "chunks": 1,
+  "extracted": {
+    "hook": "today I'm going to be showing you guys how to set up mystal ocr's API within nadn to understand any of the documents you may have",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "\"okay so real quick demo before we get into the step-by-step tutorial\"",
+      "\"so let's get into the breakdown of setting up each of these requests\"",
+      "\"now that we've uploaded it to mistel\"",
+      "\"the next step is now that we've uploaded it to mistl\"",
+      "\"let's set up a another step which is going to be um actually getting the OCR results back\""
+    ],
+    "cta": "\"if you enjoyed please leave a like it definitely helps me out a ton and I'll see you guys in the next one thanks so much everyone\"",
+    "vocabulary": [
+      "mystal",
+      "OCR",
+      "n8n",
+      "API key",
+      "form submission",
+      "binary file",
+      "HTTP request",
+      "document understanding",
+      "free school Community",
+      "Google Gemini"
+    ],
+    "analogies": "\"it's basically a three-step approach\"",
+    "curiosity_gaps": [
+      "\"I'll link this in the description if you want to take a look but I just wanted to show you some of these really impressive results\"",
+      "\"so let's dive into how you actually set that up okay\"",
+      "\"real quick demo before we get into the step-by-step tutorial\"",
+      "\"let me hit you with\"",
+      "\"it may seem a little confusing but we're going to walk through it step by step\"",
+      "\"if you just created your mistel account and you just got your API key it may error because it may take like 5 to 10 minutes to warm up\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [
+        "\"25/03/25\"",
+        "\"today\"",
+        "\"real quick demo before we get into the step-by-step tutorial\"",
+        "\"let's not waste any time\"",
+        "\"so let's dive into how you actually set that up okay\"",
+        "\"real quick demo before we get into the step-by-step tutorial\"",
+        "\"it may seem a little confusing but we're going to walk through it step by step\"",
+        "\"if you just created your mistel account and you just got your API key it may error because it may take like 5 to 10 minutes to warm up\""
+      ],
+      "named_tools": [
+        "mystal OCR",
+        "n8n",
+        "Google Gemini"
+      ]
+    },
+    "vulnerability": "\"all we're actually pulling back are sort of the field names\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "\"today I'm going to be showing you guys how to set up mystal ocr's API within nadn to understand any of the documents you may have\"",
+        "\"so let's dive into how you actually set that up okay\""
+      ],
+      "slow": [
+        "\"okay so real quick demo before we get into the step-by-step tutorial\"",
+        "\"now that we've uploaded it to mistel\"",
+        "\"the next step is now that we've uploaded it to mistl\"",
+        "\"let's set up a another step which is going to be um actually getting the OCR results back\""
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": [
+      "\"so let's dive into how you actually set that up okay so real quick demo before we get into the step-by-step tutorial also this template is available in the free school Community if you want to download that to follow along with this video but what's going on here is we have three steps and I'm going to walk through what they do\"",
+      "\"so let's dive into how you actually set that up okay so real quick demo before we get into the step-by-step tutorial also this template is available in the free school Community if you want to download that to follow along with this video but what's going on here is we have three steps and I'm going to walk through what they do\"",
+      "\"so let's dive into how you actually set that up okay so real quick demo before we get into the step-by-step tutorial also this template is available in the free school Community if you want to download that to follow along with this video but what's going on here is we have three steps and I'm going to walk through what they do\""
+    ]
+  }
+}

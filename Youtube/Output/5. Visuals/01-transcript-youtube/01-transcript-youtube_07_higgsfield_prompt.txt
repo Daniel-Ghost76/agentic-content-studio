@@ -1,0 +1,25 @@
+Create a 3-second cinematic HUD motion graphic using 00-start-background.png as the start image and 07-company-videos-to-assets.png as the final reference.
+
+The animation starts from the blank soft teal HUD background only. No video tiles or asset nodes are visible at frame 0.
+
+First, a small cluster of frosted-glass video tiles slides in from the left and settles on the left third of the frame. The motion should be smooth and soft, with light motion blur and a tiny ease-out.
+
+Next, several curved teal data streams grow from the video cluster toward the right. Add tiny teal particles moving along the streams to imply the videos are being converted into reusable company assets.
+
+Then reveal the output asset nodes one by one across the right side in a loose radial/file-system layout:
+
+KNOWLEDGE BASE appears first.
+SUPPORT DOCS appears second.
+EMAILS appears third.
+SOPs appears fourth.
+AI ASSISTANT appears fifth.
+
+Each node should fade/scale in softly, with its icon and dotted HUD texture resolving as it appears. Keep labels readable and do not add extra words.
+
+By the final frame, match 07-company-videos-to-assets.png: video library on the left, elegant data streams, and five organized business asset nodes on the right.
+
+Style: soft premium AI-tech HUD, low-to-medium contrast, lighter dark teal background, frosted glass, visible dotted texture, muted teal glow, clean and aesthetic.
+
+Do not add logos, humans, real objects, floor, horizon, reflections, explosions, or glitch effects.
+
+Duration: 3 seconds. Aspect ratio: 16:9.

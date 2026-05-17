@@ -1,0 +1,89 @@
+{
+  "num": 57,
+  "title": "The EASIEST Way to Host Your Claude Code Agents",
+  "date": "20/02/26",
+  "word_count": 5267,
+  "char_count": 26957,
+  "chunks": 2,
+  "extracted": {
+    "hook": "So, I've been using Cloud Code for a while now, and I opened up trigger.dev for the first time, I'm not kidding you, like an hour and a half ago, and I've already got a couple really nice automations and agents set up.",
+    "hook_type": "Time-Bound",
+    "credential_drop": "NOT FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "pace_accelerates": [
+        "So by the end of this video, you will understand exactly how you can build workflows and agents in cloud code, put them on trigger.dev, and automate pretty much anything."
+      ],
+      "pace_slows": [
+        "And so I spun this up in like 10 minutes, but really it's not that impressive.",
+        "So by the end of this video, you will understand exactly how you can build workflows and agents in cloud code, put them on trigger.dev, and automate pretty much anything."
+      ]
+    },
+    "vulnerability": "\"I'm going to cheat a little bit because in the past, it's already used my ClickUp.\"",
+    "cta": "\"if there's one thing that I want you to take away from this video, it's the fact that AI is still very much a blackbox. These models are insanely smart. you can see what they do. But you also saw in this video how I had to talk so much to it and I had to like just be very clear. It's just the whole idea of you no longer having to write code, but you having to be the person that assures the quality and make sure that it's on track.\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, the first thing I tried was just building a workflow to scrape Nate B. Jones YouTube videos.",
+      "But then I thought to myself, because of the way that trigger.dev works, I want to put an agent in the cloud.",
+      "All right. So I'm in my ClickUp and what I'm going to do is add a new task and I'm just going to go ahead and say Nvidia and I'm going to save that.",
+      "Okay, now hopping into cloud code.",
+      "Now, if for some reason this isn't working or you don't want to take the GitHub route, you can always manually deploy this kind of stuff and you can just tell Cloud Code to look at this and it will help you push this into the production environment.",
+      "Okay, so you can see that those just got pushed through into production."
+    ],
+    "vocabulary": [
+      "automations",
+      "agents",
+      "automation",
+      "ClickUp",
+      "YouTube",
+      "API",
+      "tasks",
+      "research",
+      "web",
+      "tools",
+      "GitHub",
+      "production environment",
+      "master branch",
+      "ClickUp",
+      "leads"
+    ],
+    "analogies": [
+      "\"it's basically a project and that's like a file\"",
+      "\"it's basically going to search ClickUp before creating\""
+    ],
+    "curiosity_gaps": [
+      "\"So, the first thing I tried was just building a workflow to scrape Nate B. Jones YouTube videos.\"",
+      "\"And so this is what the result looks like with minimal prompting.\"",
+      "\"But then I thought to myself, because of the way that trigger.dev works, I want to put an agent in the cloud.\"",
+      "\"I'll come back to this\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"you guys\""
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

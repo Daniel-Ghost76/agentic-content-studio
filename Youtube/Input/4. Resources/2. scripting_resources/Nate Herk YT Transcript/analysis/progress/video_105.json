@@ -1,0 +1,98 @@
+{
+  "num": 105,
+  "title": "I Tested OpenAI's AgentKit Against n8n: What You Need to Know",
+  "date": "07/10/25",
+  "word_count": 5165,
+  "char_count": 27279,
+  "chunks": 2,
+  "extracted": {
+    "hook": "OpenAI just killed Naden. Or did they really? Because they just dropped their agent kit.",
+    "hook_type": "Contrarian",
+    "credential_drop": "NOT FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the ease of use between Agent Kit and Naden"
+      ],
+      "slows": [
+        "explaining the differences in model support between the two platforms"
+      ]
+    },
+    "vulnerability": "\"I don't think it's going to at all\"",
+    "cta": "\"If you enjoyed you learned something new, please give it a like. It definitely helps me out a ton.\"",
+    "signature_phrases": [
+      "\"you guys already know what Naden is\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, to start off with a quick overview of each of these tools",
+      "To answer the question is Agent Kit going to kill NAND?",
+      "Now, let's move on to the next category which is triggers",
+      "All right, moving on to agent tools",
+      "Now, this one's really interesting",
+      "Hopefully, I've done all this math right. Let me know if I have not.",
+      "And now to talk about our final section",
+      "But in my mind,",
+      "So anyways,",
+      "As you can see here,",
+      "The last thing I wanted to hit on here was community support.",
+      "Now, Naden, they definitely were targeting more of the developers."
+    ],
+    "vocabulary": [
+      "agent builder",
+      "AI automation",
+      "web search",
+      "chat model",
+      "API key",
+      "MCP servers",
+      "subworkflows",
+      "Open Router",
+      "LLM",
+      "front end",
+      "OpenAI agent kit environment",
+      "input output parsed",
+      "evaluation capabilities with data sets",
+      "trace grading",
+      "prompt optimization",
+      "community support",
+      "Agent Kit",
+      "Naden"
+    ],
+    "analogies": [
+      "\"Agent Builder is like Canva for building agents\"",
+      "\"imagine\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\""
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

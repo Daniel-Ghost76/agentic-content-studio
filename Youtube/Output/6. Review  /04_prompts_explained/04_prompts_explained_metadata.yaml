@@ -1,0 +1,34 @@
+title: "I Transcribed 502 YouTube Videos on Day 1 of Building My AI Business"
+
+description: |
+  Day 1 of building an AI business from scratch — and the first tool I built transcribes any YouTube channel's entire video library automatically.
+
+  In this video you'll see exactly how to build a YouTube transcript system using yt-dlp, Python, and ChatGPT — no coding experience needed. I pulled 502 Alex Hormozi videos into clean text files in under 60 minutes, and showed every error I hit along the way.
+
+  TOOLS USED:
+  - yt-dlp: github.com/yt-dlp/yt-dlp
+  - Python (runs locally — no cloud needed)
+  - ChatGPT (desktop app or web)
+  - Google Sheets + Apps Script
+
+  TIMESTAMPS:
+  0:00 – Day 1: building an AI business from scratch
+  0:15 – Why transcript data is actually useful
+  0:20 – Use case 1: market research
+  0:38 – Use case 2: turning company videos into assets
+  0:53 – Why I built this (my use case)
+  1:08 – How the system works (overview)
+  3:01 – Demo: pulling URLs from YouTube
+  3:23 – Cleaning URLs in Google Sheets with ChatGPT
+  5:01 – Setting up the folder structure
+  5:33 – Installing yt-dlp from GitHub
+  6:07 – Generating the Python code with ChatGPT
+  7:41 – Running the system
+  7:54 – Debugging errors (and how ChatGPT fixes them)
+  9:37 – Results: 500 transcripts done
+  9:48 – Viewing the output
+
+  #AI #AIBusiness #BuildInPublic #YouTubeTranscription #ytdlp #Python #ChatGPT #AIAutomation #AITools #AIWorkflow #MarketResearch #BusinessAutomation
+
+category_id: "28"
+made_for_kids: false

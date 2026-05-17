@@ -1,0 +1,74 @@
+{
+  "num": 128,
+  "title": "Why 99% of AI Automations Fail in Production",
+  "date": "07/08/25",
+  "word_count": 4167,
+  "char_count": 21619,
+  "chunks": 1,
+  "extracted": {
+    "hook": "Today I'm going to be talking about five error handling techniques that you need to master if you want to push your workflows into production.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "Okay, so real quick before we jump into the actual examples I have for you guys here.",
+      "So let's just move on right here to the first type of error handling that we're going to talk about, which is kind of like the lowest hanging fruit and the easiest one to set up."
+    ],
+    "cta": "\"if you enjoyed or if you learned something new, please give it a like. Definitely helps me out a ton.\"",
+    "vocabulary": [
+      "error handling techniques",
+      "production ready",
+      "active workflow",
+      "guard rails",
+      "retry and fallback logic"
+    ],
+    "analogies": "\"it's basically for the peace of mind\"",
+    "curiosity_gaps": [
+      "\"So, because we have a system where we're able to log all of our errors and full visibility hopefully into the executions, that's where we can sort of identify, okay, when we get results that are bad, why was that?\"",
+      "\"I'll come back to this\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [
+        "over 2,000 members"
+      ],
+      "time_references": [
+        "07/08/25",
+        "every single day"
+      ],
+      "named_tools": [
+        "Naden",
+        "Air Table",
+        "Tavali",
+        "PI API",
+        "WhatsApp"
+      ]
+    },
+    "vulnerability": "\"NONE FOUND\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "discussing the importance of error handling techniques in production workflows."
+      ],
+      "slow": [
+        "explaining what an active workflow means"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": [
+      "\"Today I'm going to be talking about five error handling techniques that you need to master if you want to push your workflows into production.\""
+    ]
+  }
+}

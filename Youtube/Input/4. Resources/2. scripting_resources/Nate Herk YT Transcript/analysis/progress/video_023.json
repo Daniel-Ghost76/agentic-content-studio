@@ -1,0 +1,84 @@
+{
+  "num": 23,
+  "title": "Planning In Claude Code Just Got a Huge Upgrade",
+  "date": "06/04/26",
+  "word_count": 3843,
+  "char_count": 19833,
+  "chunks": 1,
+  "extracted": {
+    "hook": "So, right here I have regular Claude code building me a plan, and it's been running for almost 4 minutes now.",
+    "hook_type": "Time-Bound",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, right here I have regular Claude code building me a plan, and it's been running for almost 4 minutes now.",
+      "And when I go to that web session, we can see the actual plan.",
+      "Now, I'm not saying that speed is always the most important thing, but if you're getting speed and higher quality, then that is a good combination.",
+      "This is useful when you want a richer review surface than what the terminal offers as far as targeted feedback, because you can comment on individual sections."
+    ],
+    "cta": "If you guys enjoyed the video or learned something new, please give it a like, it helps me out a ton. And as always, I appreciate you guys making it to the end of the video.",
+    "vocabulary": [
+      "ultra plan",
+      "plan in the cloud",
+      "agents",
+      "prompting guide",
+      "skills"
+    ],
+    "analogies": [
+      "\"Give me 6 hours to chop down a tree, and I will spend the first four sharpening the axe.\" So, that's basically our planning."
+    ],
+    "curiosity_gaps": [
+      "Okay, so now let's talk about what is actually happening because we're sending it to the cloud and it only works in the cloud.",
+      "Um when I was testing it out, I did run into a few issues where I was getting this authentication error. I'm not sure if that was something internal or something I did wrong, but it just seemed to pop up randomly and then I'd run it again and it'd be fine."
+    ],
+    "specificity": {
+      "dollars": [],
+      "percentages": [],
+      "subscribers": [],
+      "time_references": [
+        "4 minutes",
+        "1 minute",
+        "2 minutes in",
+        "14-minute mark",
+        "15-minute mark",
+        "26, 27-minute mark"
+      ],
+      "named_tools": [
+        "Git",
+        "GitHub",
+        "VS Code",
+        "Excalidraw",
+        "Nano Banana"
+      ]
+    },
+    "vulnerability": "\"I'm not sure what was going on, but this thing on the right side, we did ultra plan, the plan finished in like five, and then it executed everything and built everything in, you know, like another 5 minutes, so about 10 to 15 minutes total over here.\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "And when I go to that web session, we can see the actual plan.",
+        "Now, I'm not saying that speed is always the most important thing, but if you're getting speed and higher quality, then that is a good combination."
+      ],
+      "slow": [
+        "So, right here I have regular Claude code building me a plan, and it's been running for almost 4 minutes now.",
+        "And in this terminal, I have it doing the exact same plan, but now it's doing it with ultra plan mode."
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "those of you",
+      "OGs"
+    ],
+    "frameworks": []
+  }
+}

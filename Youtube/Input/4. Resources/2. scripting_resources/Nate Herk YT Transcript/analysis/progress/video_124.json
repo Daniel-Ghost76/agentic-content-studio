@@ -1,0 +1,75 @@
+{
+  "num": 124,
+  "title": "This Workflow Auto-Posts to 9 Different Socials (free template)",
+  "date": "13/08/25",
+  "word_count": 2595,
+  "char_count": 13227,
+  "chunks": 1,
+  "extracted": {
+    "hook": "Today, I'm going to show you guys exactly how I built this system so that I can auto post content on nine different social channels.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, I don't want to waste any time here.",
+      "Anyways, once you're here",
+      "And then from there",
+      "Now that that's set up",
+      "In order to actually set all of this up for yourself"
+    ],
+    "cta": "\"if you enjoyed the video or you learned something new, please give it a like. It definitely helps me out a ton.\"",
+    "vocabulary": [
+      "automate",
+      "automation",
+      "nodes",
+      "Blotato",
+      "API key",
+      "community node"
+    ],
+    "analogies": "\"it's kind of weird the way you get it\"",
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [
+        "30% off for 6 months"
+      ],
+      "subscriber_counts": [],
+      "time_references": [
+        "every morning",
+        "like every 5 minutes at like 6:00 a.m."
+      ],
+      "named_tools": [
+        "Blotato"
+      ]
+    },
+    "vulnerability": "\"I've used Botato before, but I used it before they dropped this verified community node. So, now it's a lot easier\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the auto-posting process and workflow setup"
+      ],
+      "slows": [
+        "explaining the old HTTP request method vs. native node method"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": [
+      "\"The first thing we need to do before we can actually post is we need to create a Blot API key.\"",
+      "\"And then from there, what happens is Botato basically says, 'Okay, I see your video and I turn it into my own video. I don't add like a watermark or anything. I'm literally just copying it over so I can access it and then I'm going to post it on Instagram and Tik Tok for you.'\"",
+      "\"And here's another example where we automated not only the posting, but the content creation.\""
+    ]
+  }
+}

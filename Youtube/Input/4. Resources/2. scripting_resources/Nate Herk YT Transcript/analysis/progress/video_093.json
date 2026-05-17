@@ -1,0 +1,81 @@
+{
+  "num": 93,
+  "title": "The Cheapest & Easiest Way to Self-Host n8n (Beginner's Guide)",
+  "date": "13/11/25",
+  "word_count": 3909,
+  "char_count": 20455,
+  "chunks": 1,
+  "extracted": {
+    "hook": "As a non- techie or someone with not really a formal DevOps background, the thought of self-hosting NADN was always a little bit intimidating to me.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "And so, in this video, I'm going to show you guys the best and easiest way to self-host your NAND",
+      "Now, what I think is huge is we have a one-click installation.",
+      "So, I'm going to walk you guys through step by step in this video how that all works.",
+      "And then after that, we're going to come back real quick and I'm just going to talk a little bit more about self-hosting versus cloud hosting and which one might be right for you."
+    ],
+    "cta": "But that's going to do it for today. So, once again, if you enjoyed or you learned something new, please give it a like. It definitely helps me out a ton.",
+    "vocabulary": [
+      "one-click installation",
+      "hosting or VPS",
+      "AI VPS assistant",
+      "Black Friday sale",
+      "KVM2",
+      "nitn cloud starter plan",
+      "Perplexity",
+      "daily automated backups",
+      "NITEN",
+      "cloud admin dashboard panel"
+    ],
+    "analogies": "NONE FOUND",
+    "curiosity_gaps": [
+      "\"And so, in this video, I'm going to show you guys the best and easiest way to self-host your NAND, which will save you money and you won't have to worry about all the hardware requirements. But real quick, why should you self-host your NAND?\"",
+      "\"But if those really aren't resonating with you, I'm just going to boil it down to three or I guess four words, which would be cheaper, safer, and more powerful.\"",
+      "\"And this honestly may be a bit conservative, but you can save up to four times your expenses compared to if you host it on Nitnen Cloud. And if you follow along with the rest of this video, I'll show you guys how you can save even more and get 10% off.\""
+    ],
+    "specificity": {
+      "dollar_amounts": [
+        "$6",
+        "$25",
+        "$4"
+      ],
+      "percentages": [
+        "10%"
+      ],
+      "time_references": [],
+      "named_tools": [
+        "Hostinger",
+        "Perplexity"
+      ]
+    },
+    "vulnerability": "\"I did work with Hostinger to do this video and to bring you guys a discount code, but this is actually where I'm hosting my Nitin myself and I definitely believe in what they're doing here, which is why I'm kind of recommending that you guys take this approach as well.\"",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "\"And so, if that's how you're feeling right now, just stick with me for the rest of this video because I'm going to show you guys the best and easiest way to self-host your NAND\"",
+        "\"Now, what I think is huge is we have a one-click installation. So, I'm going to walk you guys through step by step in this video how that all works.\""
+      ],
+      "slow": [
+        "\"And so, if that's how you're feeling right now, just stick with me for the rest of this video because I'm going to show you guys the best and easiest way to self-host your NAND\"",
+        "\"But real quick, why should you self-host your NAND? Well, just to list off a few of these bullet points here, you get full control over your data, no limits on workflows or executions, cost effectiveness at high usage, unlimited customization, compliance with strict data regulations, and the ability to deeply integrate with local or private AI models.\""
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": [
+      "NONE FOUND"
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "num": 151,
+  "title": "Multi-Agent Systems Have NEVER Been EASIER to Build (n8n, no code)",
+  "date": "10/06/25",
+  "word_count": 5028,
+  "char_count": 25887,
+  "chunks": 2,
+  "extracted": {
+    "hook": "So, a multi- aent system is one where we have multiple autonomous AI agents working together in order to get the job done and they're able to talk to each other and they're able to use the tools that they have access to.",
+    "hook_type": "Definition",
+    "credential_drop": "NOT FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the benefits of multi-agent systems and their components"
+      ],
+      "slows": [
+        "explaining the orchestrator agent's role in understanding user intent"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "If you enjoyed the video or learned something new, please give it a like. Definitely helps me out a ton.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, in this case",
+      "And then we did is we said",
+      "And now that we have built out you know an email agent whenever I'm building another agent ever and I realize okay maybe it would be nice for this agent to have a couple email functions",
+      "All right. So, what we're going to be doing here is we're going to build an orchestrator agent",
+      "Okay, there we go.",
+      "So, at this point, it would be okay.",
+      "The formatting is a little off. We can fix that within the the tool for the email agent."
+    ],
+    "vocabulary": [
+      "orchestrator",
+      "subagents",
+      "tools",
+      "prompting",
+      "reusable components",
+      "model flexibility",
+      "debugging and maintenance",
+      "sub agent",
+      "orchestrator agent",
+      "email address",
+      "project name",
+      "contact database",
+      "GPT4.1 mini model brain"
+    ],
+    "analogies": [
+      "\"So, in this ultimate assistant prompt, it's pretty short, right? All I had to say was, 'You're the ultimate assistant. Your job is to send the user's query to the correct tool. You should never be writing emails or ever creating summaries or doing anything. You just need to delegate the task.'\"",
+      "\"And then what we did is we said, 'Okay, you have these six tools. Here's what they're called. Here's when you use them.' And it's just super super clear and concise. There's almost no room for ambiguity. We gave it a few rules, an example output, and basically that's it.\"",
+      "\"it's basically one to get through, let me shoot off one more example\"",
+      "\"get pretty good at reading these agent logs\""
+    ],
+    "curiosity_gaps": [
+      "\"And then we'll go build out that actual subworkflow agent\"",
+      "\"So in this case, if I'm saying to the agent, can you please write me a quick blog post about dogs and send that to Dexter Morgan, and can you also create a dinner event for tonight at 6 p.m. with Michael Scott? And thank you. Cool. So, this is a pretty loaded task, right?\"",
+      "\"So now we're going to try, please send an email to nateample.com asking him how the project is coming along. We'll shoot that off and everything should go through this time.\"",
+      "NOT FOUND"
+    ],
+    "specificity": [
+      "\"15 or however many tools\"",
+      "\"6 p.m. with Michael Scott\"",
+      "\"cloud 3.7\"",
+      "\"Flash\"",
+      "\"4.1 mini\""
+    ],
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"And basically what that means is that we have one agent up here. I call it the parent agent and then I call these child agents\"",
+      "\"So, in this case, if I'm saying to the agent, can you please write me a quick blog post about dogs and send that to Dexter Morgan, and can you also create a dinner event for tonight at 6 p.m. with Michael Scott? And thank you. Cool. So, this is a pretty loaded task, right?\"",
+      "\"And then we did is we said, 'Okay, you have these six tools. Here's what they're called. Here's when you use them.' And it's just super super clear and concise. There's almost no room for ambiguity. We gave it a few rules, an example output, and basically that's it.\""
+    ]
+  }
+}

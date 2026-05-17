@@ -1,0 +1,76 @@
+{
+  "num": 156,
+  "title": "Create Your No Code AI Clone (HeyGen + n8n Full Guide)",
+  "date": "20/05/25",
+  "word_count": 4343,
+  "char_count": 21909,
+  "chunks": 1,
+  "extracted": {
+    "hook": "Hey guys, in this video I'm going to be showing you how to set up your own Hey Gen avatar so you can automate content creation.",
+    "hook_type": "Personal-Moment",
+    "credential_drop": "NOT FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "All right, so we're just going to jump right into it and I'm going to walk you guys through every single step.",
+      "Okay, so it says that our avatar is ready. I'm just going to go ahead and name this Nate Herk and confirm that we are good to go here.",
+      "And now we can access this avatar over API, which is going to be pretty cool."
+    ],
+    "cta": "\"if you enjoyed this video and you enjoyed this teaching style, then definitely check out my paid community.\"",
+    "vocabulary": [
+      "automation",
+      "content creation",
+      "avatar",
+      "voice clone",
+      "Naden",
+      "Hey Genen"
+    ],
+    "analogies": "\"it's going to be super cool and not too hard at all\"",
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [
+        "44%"
+      ],
+      "subscriber_counts": [
+        "1.8,000 members"
+      ],
+      "time_references": [
+        "7:00 a.m.",
+        "30 seconds",
+        "5 seconds",
+        "10 seconds"
+      ],
+      "named_tools": [
+        "Apify",
+        "Naden"
+      ]
+    },
+    "vulnerability": "\"I'm an AI clone of Nate\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "when explaining the process of creating an avatar and voice clone"
+      ],
+      "slow": [
+        "during detailed explanations of API requests and steps in Naden"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

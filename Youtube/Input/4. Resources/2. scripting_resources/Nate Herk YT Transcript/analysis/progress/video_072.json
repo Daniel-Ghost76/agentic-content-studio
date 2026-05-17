@@ -1,0 +1,140 @@
+{
+  "num": 72,
+  "title": "Build ANYTHING with Claude Code & n8n (Beginner's Guide)",
+  "date": "16/01/26",
+  "word_count": 9962,
+  "char_count": 50752,
+  "chunks": 3,
+  "extracted": {
+    "hook": "All right. So, a lot of us have been building editin workflows for a while now.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NOT FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "All right. So, a lot of us have been building editin workflows for a while now."
+      ],
+      "slow": [
+        "So real quick before we get into that, I just want to do a quick demo of the final product of this that took me basically 40 minutes."
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "\"So please let me know what include code is confusing you guys, what else you want to see, what type of use cases as we get into more and more automation building in cloud code that's not actually built on nadn. But that's going to do it for today's video because I know that was a lot, but I hope that you enjoyed or I hope that you learned something new.\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "Otherwise, it just sounds like a bunch of gibberish.",
+      "So real quick, just wanted to put these side by side so you can actually see what it did.",
+      "And you guys know that my job is to make complex or intimidating things as simple as possible.",
+      "So, real quick before we get into that, I just want to do a quick demo of the final product of this that took me basically 40 minutes.",
+      "All right. Hopefully I'm not losing you already.",
+      "So, we're going to go back into cloud code.",
+      "And I'm going to hit refresh, and we should now see that the workflow is changed, and it should be ready to go for our web app.",
+      "All right, so back in Claude, what I'm going to do now is I'm going to clear out this context once again, and I'm going to go back into plan mode, and we're going to talk about what we want this actual web app to look like.",
+      "First of all, what we did is we connected Cloud Code to the Enidin MCP server to look through how Enidin works and to be able to go into our instance, get workflows, create them, edit them, publish them, all that kind of stuff.",
+      "After that we were able to have cloud code optimize the workflows to be ready for a front-end deployment."
+    ],
+    "vocabulary": [
+      "web app",
+      "workflow",
+      "form submission",
+      "UGC ad",
+      "HTTP requests",
+      "cloud code",
+      "Niten MCP",
+      "end skills",
+      "front-end developer skills",
+      "GitHub",
+      "web app",
+      "workflow",
+      "Cloud Code",
+      "fitness coach",
+      "front end",
+      "to-do list",
+      "JSON body",
+      "memor",
+      "system prompt",
+      "n8n",
+      "Claude Code",
+      "security review function",
+      "hard-coded ended web hook",
+      "MCP file",
+      "cloud code",
+      "Verscell",
+      "front-end designer skill",
+      "GitHub MCP",
+      "NEvent app"
+    ],
+    "analogies": [
+      "\"So, first of all, it switched out the form submission trigger to be a web hook. Not too hard, but that's what it did\"",
+      "\"it's going to walk through its steps\"",
+      "\"And then by default when you deploy something on Verscell, it'll have the domain that ends inversel.app. And so you will want to buy a domain somewhere else or just buy one right here in Verscell and connect it.\""
+    ],
+    "curiosity_gaps": [
+      "\"And I need you guys to believe me when I said I was seriously impressed when I saw this\"",
+      "\"I'm going to make complex or intimidating things as simple as possible\"",
+      "\"So, real quick before we get into that, I just want to do a quick demo of the final product of this that took me basically 40 minutes\"",
+      "\"And you guys know that my job is to make complex or intimidating things as simple as possible\"",
+      "\"So, real quick before we get into that, I just want to do a quick demo of the final product of this that took me basically 40 minutes\"",
+      "\"I'm just going to go ahead and auto accept those changes. And of course, what it's going to do is set up a to-do list, as you can see right here.\"",
+      "\"So, the plan for the Fit Coach AI web app is done\"",
+      "\"All right, so there we go. The to-do list has been completed and Fit Coach AI is ready\"",
+      "\"Now what I'm going to do is I'm going to take the actual URL up at the top in my browser and copy that\"",
+      "\"So if I gave you guys this URL, you could access this and you could talk to like my instance and all that kind of stuff.\"",
+      "\"I know there's going to be tons of comments about this is the Claude plan\"",
+      "\"And now that you're already in this project called NEvent app or whatever you called yours, if you wanted to, you could just do another workflow in this project because you already have the cloud MD file. You already have your MCP server set up. You already have your skills set up globally. You have this folder right here, which is all the stuff you need for this app.\""
+    ],
+    "specificity": [
+      "\"40 minutes\"",
+      "\"one of the raw inputs it gets was a photo\"",
+      "\"it has to convert that\"",
+      "\"we're sending back a message whether it was successful or not\"",
+      "\"and we're sending over the URL so it can be embedded in the actual landing page\"",
+      "\"And another cool thing to realize is that when it changes the actual source of the input data, it had to change the variables everywhere else\"",
+      "\"So, if you don't understand all of those changes that I just explained and like why that's important\""
+    ],
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"The first piece is going to look at my workflows in Nitn to make sure that they're ready to go as far as having the right intake of data and output of data so that if it's a web app, when the app sends data to NN, it can properly receive it\"",
+      "\"And then also when NN sends a response back to the front end, it's properly displayed just like we saw here in this example\"",
+      "\"I wanted to make sure that when NN sent the response back to the app, it could be displayed as an embedded video\"",
+      "\"And I also wanted to make sure that when we sent over a JPEG file to NN, it could receive it properly\"",
+      "\"So, the plan for the Fit Coach AI web app is done. There's tons of stuff in here with structure, text stack, key features, all this kind of stuff.\"",
+      "\"First of all, what we did is we connected Cloud Code to the Enidin MCP server to look through how Enidin works and to be able to go into our instance, get workflows, create them, edit them, publish them, all that kind of stuff.\""
+    ]
+  }
+}

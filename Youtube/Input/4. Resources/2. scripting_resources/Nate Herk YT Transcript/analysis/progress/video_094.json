@@ -1,0 +1,58 @@
+{
+  "num": 94,
+  "title": "n8n JUST Leveled Up AI Agents With Guardrails: Here's How It Works",
+  "date": "11/11/25",
+  "word_count": 3464,
+  "char_count": 17918,
+  "chunks": 1,
+  "extracted": {
+    "hook": "Nad just dropped their new native guardrails, which is huge.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So today, I'm going to be diving into what these two new nodes are and how they work.",
+      "But before we do that, I just have two quick slides for you guys just so we're all on the same page about what they do and why they're valuable."
+    ],
+    "cta": "\"if you enjoyed the video or you learned something new, please give it a like. It definitely helps me out a ton.\"",
+    "vocabulary": [
+      "guardrails",
+      "nodes",
+      "AI",
+      "workflows",
+      "prompts"
+    ],
+    "analogies": "NOT FOUND",
+    "curiosity_gaps": "\"I'll come back to this\"",
+    "specificity": {
+      "dollar_amounts": "NOT FOUND",
+      "percentages": "NOT FOUND",
+      "subscriber_counts": "200 members",
+      "time_references": "11/11/25",
+      "named_tools": "open router"
+    },
+    "vulnerability": "\"Not correct.\"",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "discussing jailbreak guardrail examples"
+      ],
+      "slows": [
+        "explaining the purpose of different guardrails"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": "NOT FOUND"
+  }
+}

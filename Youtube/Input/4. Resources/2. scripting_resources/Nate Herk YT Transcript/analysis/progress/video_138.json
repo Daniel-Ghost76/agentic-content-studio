@@ -1,0 +1,93 @@
+{
+  "num": 138,
+  "title": "Use Parallelization to Make n8n Workflows Faster & Scalable",
+  "date": "09/07/25",
+  "word_count": 2884,
+  "char_count": 15136,
+  "chunks": 1,
+  "extracted": {
+    "hook": "Today I'm going to be talking about an automation technique that I hardly see anyone talking about on YouTube and I've actually never covered it on this channel either.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So in this video we're going to be talking about what that is.",
+      "But before we do that, let's real quick hop into an Excel draw so I can explain what parallelization really is.",
+      "And so if I click into this, you can see that it's passing in the name of the tool, which is pretty cool.",
+      "So to make this actually run in parallel we want all four items to run as four individual executions and we want them all to run at the same time.",
+      "Okay, so that's drawbacks and considerations of parallelization."
+    ],
+    "cta": "\"if any of this intrigues you and you want to be surrounded by over 2,000 like-minded individuals, then definitely check out the community.\"",
+    "vocabulary": [
+      "automation",
+      "parallelization",
+      "subworkflows",
+      "Perplexity's API",
+      "cook time",
+      "turkey",
+      "execution",
+      "rate limits"
+    ],
+    "analogies": [
+      "\"So, what parallelization is, besides a mouthful, is that you're running multiple tasks at the same time instead of one after another.\"",
+      "\"And just in case it hasn't quite stuck yet, pretend that we want to cook these three turkeys and they each will take 30 minutes to cook. But we only have one oven to use.\""
+    ],
+    "curiosity_gaps": [
+      "\"So, what parallelization is, besides a mouthful, is that you're running multiple tasks at the same time instead of one after another.\"",
+      "\"And just in case it hasn't quite stuck yet, pretend that we want to cook these three turkeys and they each will take 30 minutes to cook. But we only have one oven to use.\""
+    ],
+    "specificity": {
+      "dollars": [],
+      "percentages": [],
+      "subscribers": [],
+      "time_references": [
+        "\"25\"",
+        "\"90 minutes\"",
+        "\"30 seconds\"",
+        "\"22 seconds\"",
+        "\"51 seconds\""
+      ],
+      "named_tools": [
+        "Perplexity's API",
+        "Nen",
+        "Nitn",
+        "Google sheet",
+        "Plexity research",
+        "AI agent",
+        "Excaladraw",
+        "Loom",
+        "Napkin"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "\"So to make this actually run in parallel we want all four items to run as four individual executions and we want them all to run at the same time.\""
+      ],
+      "slow": [
+        "\"And just in case it hasn't quite stuck yet, pretend that we want to cook these three turkeys and they each will take 30 minutes to cook. But we only have one oven to use.\""
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\""
+    ],
+    "frameworks": [
+      "\"So, what parallelization is, besides a mouthful, is that you're running multiple tasks at the same time instead of one after another.\"",
+      "\"And this really doesn't natively happen within Nen. We get pretty lucky here because Perplexity's API takes all four items and it basically on their server does research about all four at the same time.\""
+    ]
+  }
+}

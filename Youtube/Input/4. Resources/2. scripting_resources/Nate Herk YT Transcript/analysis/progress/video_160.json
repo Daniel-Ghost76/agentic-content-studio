@@ -1,0 +1,106 @@
+{
+  "num": 160,
+  "title": "This AI System Creates & Posts Faceless Shorts 24?7 (free n8n template)",
+  "date": "11/05/25",
+  "word_count": 7453,
+  "char_count": 38599,
+  "chunks": 2,
+  "extracted": {
+    "hook": "So, this YouTube channel right here got over 680,000 subscribers and almost 221 million views.",
+    "hook_type": "Result-First",
+    "credential_drop": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "\"So, I decided to build a workflow that can handle 100% of this process\"",
+        "\"And as you can see, these are prompts that I started with just to show you guys how this works\"",
+        "\"But if you really want to get in here and customize this template to your needs, I would highly recommend playing with the prompts\""
+      ],
+      "slow": [
+        "\"So, what we're going to do is a live run. I'm going to walk through the different parts of this workflow and explain what's going on within each step\"",
+        "\"And as you can see, for item one, we have our ape image, we have our lion image\"",
+        "\"For the second scene, we have an ape versus a Siberian tiger\"",
+        "\"And this is going to go all the way down until we get to our last item\""
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "If you enjoyed this walkthrough and this is the kind of stuff you're interested in, then definitely check out my paid community. The link for that's down in the description.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, I decided to build a workflow that can handle 100% of this process as far as creating all of the elements, rendering it all together, and posting on Instagram, Tik Tok, and YouTube.",
+      "Okay, so you can already see there's kind of like five main blocks",
+      "And now if we flip over to my Google sheet content machine that's linked up to this workflow.",
+      "So, what we're going to do is a live run. I'm going to walk through the different parts of this workflow and explain what's going on within each step.",
+      "So once again, we're going to wait for 90 seconds and then we're going to go ahead and do the same thing where we check back in on the video.",
+      "And as you can see right here, it did.",
+      "Anyways, now that we have this on all three of our socials, let's just watch the final video real quick to see how it turned out."
+    ],
+    "vocabulary": [
+      "workflow",
+      "Google sheet",
+      "Naden",
+      "AI agent",
+      "prompt",
+      "API",
+      "Flux",
+      "PI API",
+      "template",
+      "Creatmate",
+      "API key",
+      "Blotato",
+      "Instagram",
+      "Tik Tok",
+      "YouTube",
+      "Google Sheets"
+    ],
+    "analogies": [
+      "\"And this was super interesting to me. So, I decided to build a workflow that can handle 100% of this process as far as creating all of the elements, rendering it all together, and posting on Instagram, Tik Tok, and YouTube.\"",
+      "\"So, there's a lot of ways to optimize these types of flows and do some really cool things as far as like creating completely automated AI generated content. What you could do is have some sort of story where you create an image and then you feed that image into an AI image generator and you say, 'Hey, look at this image and look at this next scene and then create the next scene based on it to keep consistency.' And so, that would be a little bit more of complex flow, but it would definitely provide some really high quality outputs. If you guys are interested in seeing that sort of like storytime type of content automated, let me know. I'd love to make a video on that and show you guys how that works.\""
+    ],
+    "curiosity_gaps": [
+      "\"So, what we're going to do is a live run. I'm going to walk through the different parts of this workflow and explain what's going on within each step\"",
+      "\"And as you can see, these are prompts that I started with just to show you guys how this works\"",
+      "\"But if you really want to get in here and customize this template to your needs, I would highly recommend playing with the prompts\"",
+      "\"Anyways, back to the workflow. Now, what we had to do here was a little bit of data transformation\"",
+      "\"And as you can see, for item one, we have our ape image, we have our lion image\"",
+      "\"For the second scene, we have an ape versus a Siberian tiger\"",
+      "\"And this is going to go all the way down until we get to our last item\"",
+      "\"So, what happens is we send over that request and PI API basically responds to us and says okay we're working on that right now\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"So, I'm sure there's a few things you guys may have noticed as far as maybe not perfect consistency between the close-up and the actual fighting image. And that's obviously because the image generator doesn't have the first close-up as context.\""
+    ]
+  }
+}

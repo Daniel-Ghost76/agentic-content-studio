@@ -1,0 +1,81 @@
+{
+  "num": 225,
+  "title": "The Best Way to Give AI Agents Tools in n8n",
+  "date": "09/11/24",
+  "word_count": 4293,
+  "char_count": 21490,
+  "chunks": 1,
+  "extracted": {
+    "hook": "so today I wanted to come in here and talk about the most powerful AI agent Tools in nadn",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NOT FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "so here's the old method",
+      "so this new method like I said",
+      "so now we're in the Gmail node that actually sends the email as you can see",
+      "so let's get into just setting up this function this shouldn't take too long it's really really simple if you have used Excel before it's pretty much the same way you sort of do an Excel formula a simple Excel formula not something like a crazy V lookup but so there's different parameters in the from Ai node um",
+      "so we're going to be creating an event first um sync up the calendar and now we have start time end time obviously we need that information for a calendar event and then we just want to add um a summary because that's going to be be the title that comes through in in Google Calendar so if you guys watch my personal assistant video personal assistant 2.0 you probably noticed that I used some of these tools to help the calendar agent or the email agent",
+      "so let's turn green Perfect all right"
+    ],
+    "cta": "\"that is all for now so thanks guys\"",
+    "vocabulary": [
+      "AI agents",
+      "workflows",
+      "node",
+      "parameters",
+      "query",
+      "automation",
+      "function",
+      "tool",
+      "email",
+      "send email"
+    ],
+    "analogies": "\"think of it like you're asking Siri could you send a text to Mom saying hi I miss you um that way Siri knows who mom is Siri knows what the text is going to say all that kind of stuff\"",
+    "curiosity_gaps": [
+      "\"so now we just have the a AI smart enough to figure out what needs to go where so we'll chat with this guy and make sure it's working let's say can you create an event from 2: p.m. to 400 p.m. called or not called\"",
+      "\"let's see if we just leave it as CC um and see if it understands if I just say can you copy blank so test out the email tool\"",
+      "\"so yeah hopefully you guys can see already how quick that was and how easy that was to set up a tool that does something um very intelligently I guess is a good word to say\""
+    ],
+    "specificity": {
+      "dollars": "NOT FOUND",
+      "percentages": "NOT FOUND",
+      "subscriber_counts": "1,000 members",
+      "time_references": "09/11/24",
+      "named_tools": [
+        "nadn",
+        "Gmail",
+        "Airtable",
+        "Telegram",
+        "Outlook",
+        "Slack"
+      ]
+    },
+    "vulnerability": "\"NONE FOUND\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": "discussing the new method and its benefits, around 1:30-2:00",
+      "slow": "explaining the old method in detail, around 0:45-1:00"
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\""
+    ],
+    "frameworks": [
+      "\"so here's the old method let's say for example we're having this AI agent send emails for us as we talk to it so we talk to it and then the agent figures out what it needs to do and then it's going to send off the query to the send email tool which is actually a workflow that we've built within nadn\"",
+      "\"so now we have this new method where the agent can just send it to one tool it doesn't leave it it doesn't go to a different workflow it stays in this workflow and this node right here is able to figure out who it's going to the subject and um what the message is going to say\""
+    ]
+  }
+}

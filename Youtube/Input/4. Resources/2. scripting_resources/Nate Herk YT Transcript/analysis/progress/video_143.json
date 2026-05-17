@@ -1,0 +1,77 @@
+{
+  "num": 143,
+  "title": "How to Trigger n8n AI Agents from ChatGPT (no code)",
+  "date": "26/06/25",
+  "word_count": 2279,
+  "char_count": 11325,
+  "chunks": 1,
+  "extracted": {
+    "hook": "On the left we have chatbt. On the right we have my n&N assistant.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, let's get into it.",
+      "Okay. So, how the system works is",
+      "So I'm going to have this GBT linked in the description.",
+      "And now that we just created this GPT let's try to drop in an invoice and test it out."
+    ],
+    "cta": "\"if any of that sounds interesting to you, definitely check out the community.\"",
+    "vocabulary": [
+      "custom GPTs",
+      "web hook",
+      "OCR",
+      "invoice",
+      "Google sheet"
+    ],
+    "analogies": [
+      "\"it's basically going to try to talk to our end cloud\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [
+        "26/06/25"
+      ],
+      "named_tools": [
+        "chatbt",
+        "naden",
+        "end"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "\"So, let's get into it. Okay. So, how the system works is\"",
+        "\"And now that we just created this GPT let's try to drop in an invoice and test it out.\""
+      ],
+      "slows": [
+        "\"So I'm going to have this GBT linked in the description. Click on that and then follow along what I'm about to do here.\""
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": []
+  }
+}

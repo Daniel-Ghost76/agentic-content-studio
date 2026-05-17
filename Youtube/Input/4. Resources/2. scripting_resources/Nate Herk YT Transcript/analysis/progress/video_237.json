@@ -1,0 +1,83 @@
+{
+  "num": 237,
+  "title": "*LIVE BUILD* Inbox Management AI Agent with n8n (NO CODE, Step-by-Step Tutorial)",
+  "date": "02/10/24",
+  "word_count": 3098,
+  "char_count": 15658,
+  "chunks": 1,
+  "extracted": {
+    "hook": "all right today we're going to be building a inbox management agent by the end of this video you'll have a workflow up and running that is going to be able to categorize and label your emails as they come in based on how you tell the agent to do so",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NOT FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "so the first thing we need to do as always is add a first step which is something that triggers the workflow to actually run",
+      "the next node we're going to add is the actual agent it's going to be a text classifier so when we're in here the first thing that we need to set up is what text is this node classifying",
+      "branching off the high priority let's click on the plus and we're going to grab a Gmail node again this one is going to be right here at the top add label to message"
+    ],
+    "cta": "\"if you enjoyed definitely leave a like and let me know what else you want to see but other than that thanks so much guys\"",
+    "vocabulary": [
+      "inbox management",
+      "Gmail trigger",
+      "credential",
+      "API key",
+      "text classifier",
+      "labels",
+      "node",
+      "workflow"
+    ],
+    "analogies": "\"think of it like\"",
+    "curiosity_gaps": [
+      "I'll come back to this",
+      "stay till the end",
+      "here's where it gets interesting"
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [
+        "every minute",
+        "25 seconds"
+      ],
+      "named_tools": [
+        "n8n",
+        "Google Cloud",
+        "Gmail API",
+        "OAuth consent screen"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "\"so the first thing we need to do as always is add a first step which is something that triggers the workflow to actually run\"",
+        "\"the next node we're going to add is the actual agent it's going to be a text classifier so when we're in here the first thing that we need to set up is what text is this node classifying\""
+      ],
+      "slows": [
+        "\"so let's real quick send an email that would be a high priority message\"",
+        "\"let me just move this over and as you can see we've got a high priority email\""
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": [
+      "\"so the first thing we need to do as always is add a first step which is something that triggers the workflow to actually run\"",
+      "\"the next node we're going to add is the actual agent it's going to be a text classifier so when we're in here the first thing that we need to set up is what text is this node classifying\"",
+      "\"branching off the high priority let's click on the plus and we're going to grab a Gmail node again this one is going to be right here at the top add label to message\""
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "num": 239,
+  "title": "Build your first NO CODE AI Agent in n8n (for beginners)",
+  "date": "25/09/24",
+  "word_count": 3736,
+  "char_count": 18453,
+  "chunks": 1,
+  "extracted": {
+    "hook": "today I'm going to be walking through step by step how to build this AI agent in Ann no prior coding experience is needed you'll be able to get this agent up and running within 15 minutes so by the end of it you'll have a great idea of how to build Tools in NN and how to have agents call different Tools in order to be as effective as possible",
+    "hook_type": "Demonstration",
+    "credential_drop": "NOT FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "so the workflows we're going to be building today just two of them",
+      "now let's go and get into actually building this thing",
+      "okay so back to nadn okay so we're going to add a new workflow",
+      "let's actually not prompt this one because I want to show you guys what it does when we just leave it as helpful assistant"
+    ],
+    "cta": "\"if you enjoy this type of cont content please let me know\"",
+    "vocabulary": [
+      "walk through",
+      "step by step",
+      "prior coding experience",
+      "up and running",
+      "great idea",
+      "effective",
+      "API key",
+      "workflow"
+    ],
+    "analogies": "\"think of it like\"",
+    "curiosity_gaps": [
+      "I'll come back to this",
+      "stay till the end",
+      "here's where it gets interesting"
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [
+        "15 minutes"
+      ],
+      "named_tools": [
+        "open weather map",
+        "open AI API"
+      ]
+    },
+    "vulnerability": "\"I'm going to disable this one after the video because I'm exposed now\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "pace_accelerates": [
+        "so let's ask it what is the capital of Florida we get the capital of the US state of Florida is Tallahassee if you need any information about Tah has or anything else feel free to ask"
+      ],
+      "pace_slows": [
+        "so the workflows we're going to be building today just two of them",
+        "now let's go and get into actually building this thing so the resources needed here are going to be nadn the weather API and open AI API"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": [
+      "the first one is the tool the git current weather tool and then we'll be giving the agent access to that tool and so the second workflow is the AI agent"
+    ]
+  }
+}

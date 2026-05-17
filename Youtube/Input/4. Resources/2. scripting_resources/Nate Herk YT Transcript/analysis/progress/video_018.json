@@ -1,0 +1,95 @@
+{
+  "num": 18,
+  "title": "Seedance 2.0 + Claude Code Creates $10k Websites in Minutes",
+  "date": "11/04/26",
+  "word_count": 5887,
+  "char_count": 30104,
+  "chunks": 2,
+  "extracted": {
+    "hook": "Today, I'm going to show you guys how to build sites just like this that feel super luxury, super super professional, and very modern.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "when explaining the process of creating a video prompt and using SeaDance"
+      ],
+      "slows": [
+        "during detailed explanations of setting up Claude Code infrastructure"
+      ]
+    },
+    "vulnerability": "\"NONE FOUND\"",
+    "cta": "And now, if you want to take your website building skills even further, then definitely check out this video right here where I go over some other hacks. Hopefully, I'll see you guys over there, but if not, please leave a like if you enjoyed or you learned something new, and I'll see you in the next one.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, that is my plan. I'm going to shoot that off.",
+      "Because if you guys remember, the only reason we put this blueprint image in here was so that Claude had more context to help us write the prompt.",
+      "And now all we'd have to do is we'd start to make some changes and iterations on the copy, and maybe we wanted some more videos down here or some more dynamic elements, things like that.",
+      "So, I did the same process. I went to Nano Banana, got an image generated of an engine, and then I went to SeeDances and said, \"Hey, can you animate this a little bit? Make it look like it is revving. Have some flames coming out. Make it look cool.\"",
+      "And then I took that video to Claude Code and said, \"Hey, can please put this video under this text and above these stats, and just make it a little smaller. I don't want it to be full screen.\" And boom, there we go.",
+      "And some other things that you can do that's really, really cool is you could go to something like Dribbble or Awwwards with three W's or there's tons of sites for design, right?",
+      "Okay, cool. So, this one. I feel like it matches the feel of ours just a little bit.",
+      "And now, this has been completely redesigned to match that reference.",
+      "Now, how do we do that? Because right now, this just lives locally on our machine.",
+      "So, what I'm going to do is I'm going to push one to a private GitHub that only I can see, and then I'm going to have Vercel sync to that GitHub."
+    ],
+    "vocabulary": [
+      "super luxury",
+      "super super professional",
+      "very modern",
+      "engaging",
+      "automation space",
+      "AirPods Maxes",
+      "Apple style",
+      "input photo",
+      "prompt",
+      "video generator",
+      "iterations",
+      "dynamic elements",
+      "Nano Banana",
+      "SeeDances",
+      "Claude Code",
+      "GitHub",
+      "Vercel",
+      "cloud.md",
+      "init",
+      "deploy"
+    ],
+    "analogies": [
+      "\"It's basically just like an open router for different models when it comes to video, image, and music.\"",
+      "\"Think of it more like a a shared drive or a Google Drive. You can work on a Word doc on your computer, but if you wanted to open it on a different computer, you wouldn't have it unless you email it to yourself or something.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll talk a little bit more about SeaDance in a second\"",
+      "\"if you guys want this settings.local.json, then join my free school\"",
+      "NOT FOUND"
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\"",
+      "\"those of you\"",
+      "if you've been with me"
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

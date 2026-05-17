@@ -1,0 +1,85 @@
+{
+  "num": 71,
+  "title": "I Built an AI System That Automates My Proposals (n8n + Gamma)",
+  "date": "19/01/26",
+  "word_count": 5064,
+  "char_count": 26267,
+  "chunks": 2,
+  "extracted": {
+    "hook": "All right, imagine you just hopped off a call and now you have to send out some sort of deliverable, whether that's meeting minutes or a proposal or something like that, which is actually a big part of my job when I was still working full-time.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "\"And so that's why I had to add the weight here. So basically when the transcript is done and if we make that request right away to Fireflies, we don't have the AI summary stuff\"",
+        "\"So now the proposal agent is working its magic.\""
+      ],
+      "slows": [
+        "\"And then after that, we log it back into the Google sheet where we basically just update that row. As you can see, we're no longer doing an append function. We're doing an update function. And we're just changing the status here to generated.\""
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "\"if you enjoyed or you learned something new, please give it a like. It definitely helps me out a ton.\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, let's go ahead and run this first workflow.",
+      "And then the second workflow gets triggered when there's a new row added to that Google sheet.",
+      "Okay, so we basically have two parts of the automation.",
+      "So in practicality here, what we're standardizing is the transcript and the meeting ID because we need the transcript for the AI agent and we need the meeting ID later to update that status again in our Google sheet."
+    ],
+    "vocabulary": [
+      "web hook",
+      "Fireflies",
+      "Google sheet",
+      "meeting ID",
+      "AI generated summaries",
+      "standardizing",
+      "inputs",
+      "automation",
+      "nodes",
+      "transcript",
+      "meeting ID",
+      "AI agent",
+      "Google sheet"
+    ],
+    "analogies": [
+      "\"So, this workflow has two parts. The first part up here is just logging the meeting once the meeting actually ends and it logs it in a Google sheet which we'll be looking at which is going to look like this that has the date, the title, the attendees, the gist of the meeting, the ID and then a status.\"",
+      "\"it's basically A or B\""
+    ],
+    "curiosity_gaps": [
+      "\"And so that's why I had to add the weight here. So basically when the transcript is done and if we make that request right away to Fireflies, we don't have the AI summary stuff. So let me just show you what that looks like.\"",
+      "\"So now the proposal agent is working its magic. And I'm not going to read this entire um system prompt. You guys will of course as always be able to download this exact workflow for free by grabbing it in my free school community.\"",
+      "\"So in practicality here, what we're standardizing is the transcript and the meeting ID because we need the transcript for the AI agent and we need the meeting ID later to update that status again in our Google sheet. So in the proposal agent when we give it the transcript, we're able to say, 'Hey, just go grab JSON.transcript, which is coming from right here.'\"",
+      "\"And so that's why this is able to be super dynamic and then feed in those variables to the rest of the flow.\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\"",
+      "\"you guys\"",
+      "\"those of you\""
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

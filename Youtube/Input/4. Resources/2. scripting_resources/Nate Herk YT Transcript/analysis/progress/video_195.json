@@ -1,0 +1,68 @@
+{
+  "num": 195,
+  "title": "4 Agentic Frameworks for More Efficient Workflows in n8n",
+  "date": "10/02/25",
+  "word_count": 4319,
+  "char_count": 22740,
+  "chunks": 2,
+  "extracted": {
+    "hook": "so in my ultimate assistant video we utilize an agentic framework called parent agent so as you can see we have a parent agent right here which is the ultimate assistant that's able to send tasks to its four child agents down here which are different workflows that we built out within naden",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "\"so in my ultimate assistant video we utilize an agentic framework called parent agent\"",
+        "\"so today I'm going to be going over four different agentic Frameworks that you can use in your NN workflows\""
+      ],
+      "slow": [
+        "\"so the ultimate assistant could get a query from the human and decide that it needs to send that query to the email agent which looks like this\"",
+        "\"finally we've got easier debugging and optimization because it's linear we can see where things are going wrong\""
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "NOT FOUND",
+    "signature_phrases": [
+      "\"you'll come in here click on YouTube resources\"",
+      "\"let me hit you with\"",
+      "\"what's really cool\"",
+      "\"here we go\"",
+      "\"literally insane\""
+    ],
+    "transitions": [
+      "so today I'm going to be going over four different agentic Frameworks that you can use in your NN workflows",
+      "back to the video here the first one we're going to be talking about is prompt chaining",
+      "finally it's going to be more scalable and reusable as we're able to plug in different agents wherever we need them okay so what we have to do here is we're just going to enter in a keyword a topic for this um blog"
+    ],
+    "vocabulary": [
+      "ultimate assistant",
+      "parent agent",
+      "child agents",
+      "workflow",
+      "prompt chaining",
+      "routing",
+      "parallelization",
+      "evaluator Optimizer"
+    ],
+    "analogies": [
+      "\"think of it like passing the output into the input and then taking that output and passing it into the next input\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": [
+      "\"so the first one we're going to be talking about is prompt chaining\"",
+      "\"now we're going to talk about the routing framework\"",
+      "\"third one is parallelization and the fourth one is evaluator Optimizer so we're going to break down how they all work what they're good at\""
+    ]
+  }
+}

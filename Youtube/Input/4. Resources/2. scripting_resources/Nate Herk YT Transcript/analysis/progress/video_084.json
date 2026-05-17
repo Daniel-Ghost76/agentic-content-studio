@@ -1,0 +1,92 @@
+{
+  "num": 84,
+  "title": "I Built an AI Voice Receptionist with Vapi and n8n MCP (free template)",
+  "date": "07/12/25",
+  "word_count": 8187,
+  "char_count": 42404,
+  "chunks": 2,
+  "extracted": {
+    "hook": "I just built this AI voice receptionist that can do pretty much anything.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NOT FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "All right, so on the lefthand side we have Vappy.",
+        "And then I'm going to call back and I'm going to ask if I can change that appointment."
+      ],
+      "slows": [
+        "So let's hop into a live demo and then let's walk through the build."
+      ]
+    },
+    "vulnerability": "\"I'm not saying that this is the optimal flow for like an AI receptionist\"",
+    "cta": "\"So in our wireframe, we've seen all of this. We've seen the different paths. We've seen pretty much all of these different options for booking appointments and the CRM tool. But what we haven't yet seen is transferring calls and the knowledge base. So, let's first do this and then we'll go ahead and take a look at this.\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you can see\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "All right, so on the lefthand side we have Vappy.",
+      "And then I'm going to call back and I'm going to ask if I can change that appointment.",
+      "So, let's go ahead and do another example and we're going to book an appointment and then I'll walk through how all of that worked.",
+      "Now, after that, what happened in Vappy is we looked to book an appointment.",
+      "And so orchestrating all of these different AI systems together, it's all about context.",
+      "Okay. So the final thing that we have yet to look at is the knowledge base and the ability for Kylie to just answer general questions."
+    ],
+    "vocabulary": [
+      "voice agent",
+      "CRM tool",
+      "web hook",
+      "MCP server",
+      "Naden",
+      "appointments",
+      "CRM",
+      "Vappy",
+      "MCP server",
+      "handoff",
+      "webhook",
+      "call logs",
+      "outlook"
+    ],
+    "analogies": [
+      "\"think of it like\"",
+      "\"it's basically NADN but with all these workflows\"",
+      "\"think of like an actual call center where humans are making the calls, they typically have a a script with all this conditional logic of what to say and when. And that's really what we're doing here.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": [
+      "\"All right, so in a voice agent, there's really two main pieces\"",
+      "\"And it all starts with some sort of wireframe or flowchart\""
+    ]
+  }
+}

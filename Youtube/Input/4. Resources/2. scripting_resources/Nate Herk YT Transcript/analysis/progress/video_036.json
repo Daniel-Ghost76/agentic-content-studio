@@ -1,0 +1,83 @@
+{
+  "num": 36,
+  "title": "Claude Code Just Dropped Memory 2.0",
+  "date": "24/03/26",
+  "word_count": 2080,
+  "char_count": 11283,
+  "chunks": 1,
+  "extracted": {
+    "hook": "So, Enthropic just silently released this feature called AutoDream.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "And then I basically go down and I enter it to view the tasks.",
+      "Now, when you open this up, this will be off.",
+      "So in this other session,",
+      "And now if I go over to my Herk 2 project, which I've never turned on the Autodream feature,",
+      "And of course, the memory files are different because in here I've got all these different files."
+    ],
+    "cta": "If you guys enjoyed the video or learned something new, please give a like. Helps me out a ton.",
+    "vocabulary": [
+      "sub agent",
+      "consolidates Claude's memory files",
+      "long-term storage",
+      "dream prompt",
+      "stream consolidation",
+      "pruning and making that file better and better",
+      "fresh",
+      "cloud memories",
+      "automatically compacting and pruning"
+    ],
+    "analogies": [
+      "\"So, the way that it actually works is step one, once it's activated, it will gather session info. After that, it will read the current existing memory files and then it will load it into a sub agent which does the actual dream prompt.\"",
+      "\"You are performing a dream, a reflective pass over your memory files. Synthesize what you've learned recently into durable, wellorganized memories so future sessions can orient quickly.\""
+    ],
+    "curiosity_gaps": [
+      "I haven't had time to really really test it and see if it's worth it or not.",
+      "So based on what I'm seeing, I definitely think it is."
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [
+        "\"it has been running now for over 6 minutes\"",
+        "\"this one actually only took 8 minutes\"",
+        "\"even though it had to look through way more sessions, 285 compared to about 13\""
+      ],
+      "named_tools": [
+        "\"AutoDream\"",
+        "\"automemory\"",
+        "\"memory.mmd\"",
+        "\"/dream\"",
+        "\"/memory\"",
+        "\"/memory\"",
+        "\"Herk 2 project\""
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the AutoDream feature and its benefits"
+      ],
+      "slows": [
+        "explaining the process of how AutoDream works"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

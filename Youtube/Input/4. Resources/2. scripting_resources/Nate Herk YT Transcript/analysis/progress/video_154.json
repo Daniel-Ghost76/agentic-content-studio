@@ -1,0 +1,85 @@
+{
+  "num": 154,
+  "title": "The Easiest Way to Use Community Nodes in n8n",
+  "date": "01/06/25",
+  "word_count": 2338,
+  "char_count": 11804,
+  "chunks": 1,
+  "extracted": {
+    "hook": "If you're tired of setting up manual HTTP requests, then this is the video for you because today I'm going to show you guys how to connect to community nodes.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "And as you can see down here, they're starting with just 25 nodes that are some of the most used community-built packages and partner supported integrations.",
+      "Now, they talk a little bit more about why they're investing in the ecosystem.",
+      "community nodes have been extremely successful over the past couple months and then it's going to spotlight a few of the community nodes that will be available on cloud like tavly pdfge browser flow we've got 11 labs we've got ser api so let's get into our end cloud and check it out",
+      "All right, so here is an article that Naden released last week that says community nodes are now available on Naden cloud, which is great because previously you had to be self-hosting the community version of NAND if you wanted to use these nodes.",
+      "And then we have to hit save changes."
+    ],
+    "cta": "\"Anyways, as always, I appreciate you guys making it to the end of the video and I'll see you in the next one. Thanks everyone.\"",
+    "vocabulary": [
+      "community nodes",
+      "HTTP request",
+      "Naden cloud",
+      "self-hosted",
+      "verified nodes",
+      "native node",
+      "credential",
+      "API key",
+      "Tavi",
+      "11 Labs"
+    ],
+    "analogies": "\"it's basically spinning it back up\"",
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [
+        "01/06/25"
+      ],
+      "named_tools": [
+        "Tavi",
+        "11 Labs"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "\"All right, so here is an article that Naden released last week\"",
+        "\"And what we're able to do now with the community nodes\"",
+        "\"So first thing I do is I'd want to create a credential\"",
+        "\"And then when it comes to triggers\""
+      ],
+      "slows": [
+        "\"And as you can see down here, they're starting with just 25 nodes that are some of the most used community-built packages and partner supported integrations.\"",
+        "\"So, now we're in my self-hosted version of Niten and I'm going to do the same thing\"",
+        "\"So according to Naden's documentation, what you need to do is if you want to manually install the community node using npm\""
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": []
+  }
+}

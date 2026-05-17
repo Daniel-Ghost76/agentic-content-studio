@@ -1,0 +1,69 @@
+{
+  "num": 153,
+  "title": "This AI Agent Can Scrape and Screenshot the Web with No Code (n8n tutorial)",
+  "date": "03/06/25",
+  "word_count": 4218,
+  "char_count": 21884,
+  "chunks": 1,
+  "extracted": {
+    "hook": "So, this one AI agent right here can search the web for anything using just one tool and one API call.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "Okay, so I'm going to ask this agent to help me find three articles on reddit.com where the following words are all in the title, which should be AI, automation, and help.",
+      "And as always, no coding background is necessary. Okay, so I'm going to ask this agent to help me find three articles on reddit.com where the following words are all in the title, which should be AI, automation, and help.",
+      "Okay, so we just got those results.",
+      "So, let's take a look at the next one.",
+      "Cool. And the last one, of course, powerful AI tools to help you in your daily life."
+    ],
+    "cta": "\"if you enjoyed this style of video and you want a more hands-on approach with learning n, then definitely check out my paid community.\"",
+    "vocabulary": [
+      "AI agent",
+      "Firecrol Search",
+      "markdown format",
+      "screenshot",
+      "Reddit",
+      "web scraping",
+      "natural language"
+    ],
+    "analogies": "\"it's super powerful\"",
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollars": [],
+      "percentages": [],
+      "subscribers": [],
+      "times": [],
+      "tools": [
+        "Firecrawl"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the agent's capabilities and demo"
+      ],
+      "slows": [
+        "explaining search query operators in detail"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

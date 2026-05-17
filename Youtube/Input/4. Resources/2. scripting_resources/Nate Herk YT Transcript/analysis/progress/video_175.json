@@ -1,0 +1,96 @@
+{
+  "num": 175,
+  "title": "Build Anything with Lovable + n8n AI Agents (beginner's guide)",
+  "date": "02/04/25",
+  "word_count": 5099,
+  "char_count": 25917,
+  "chunks": 2,
+  "extracted": {
+    "hook": "Today we're going to be talking about how you can build anything with lovable and naden.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "\"So, as you can see, now we have that logo right up there. And let's say we didn't like this, all we'd have to do is come up to a previous version, hit on these three dots, and hit restore. And then it would just basically remove those changes it just made.\""
+      ],
+      "slow": [
+        "\"So, as you can see, now we have that logo right up there. And let's say we didn't like this, all we'd have to do is come up to a previous version, hit on these three dots, and hit restore. And then it would just basically remove those changes it just made.\""
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "If you learned something new or if you enjoyed, please give it a like. Definitely helps me out a ton.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So right here is lovable.",
+      "Okay, so this is all I'm going to start with just to show you guys how simple this is.",
+      "Cool. So, we're seeing it's going to spin up a preview.",
+      "And then on the lefthand side is where we're going to have that back and forth chat window to talk to lovable in order to make changes for us.",
+      "So, now that we know that our active new web hook is working, let's just do one more query and let's earn our level two status.",
+      "Okay, so nothing crazy. We could have worked in like, hey, you know, make some confetti pop up."
+    ],
+    "vocabulary": [
+      "web app",
+      "problem-solving",
+      "landing page",
+      "hero section",
+      "submission form",
+      "feature section",
+      "code",
+      "interface",
+      "logo",
+      "button",
+      "automations",
+      "web hook",
+      "executions",
+      "custom domain",
+      "live build style",
+      "prompt",
+      "automation",
+      "publish"
+    ],
+    "analogies": [
+      "\"think of it like\"",
+      "\"it's basically dynamic. It moved and it did promote us to level two\""
+    ],
+    "curiosity_gaps": [
+      "\"So, as you can see, now we have that logo right up there. And let's say we didn't like this, all we'd have to do is come up to a previous version, hit on these three dots, and hit restore. And then it would just basically remove those changes it just made.\"",
+      "\"So, as you can see, now we have that logo right up there. And let's say we didn't like this, all we'd have to do is come up to a previous version, hit on these three dots, and hit restore. And then it would just basically remove those changes it just made.\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"you guys\"",
+      "those of you",
+      "OGs",
+      "if you've been with me"
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "num": 130,
+  "title": "Turn Your AI Agent Into a Voice Assistant in Minutes (n8n & ElevenLabs)",
+  "date": "31/07/25",
+  "word_count": 4925,
+  "char_count": 24713,
+  "chunks": 2,
+  "extracted": {
+    "hook": "Today I'm going to be talking about the easiest way that we can connect voice to our Naden workflows or agents for a better experience for the user.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "discussing the workflow steps and their implementation"
+      ],
+      "slow": [
+        "explaining each step in detail"
+      ]
+    },
+    "vulnerability": "\"NONE FOUND\"",
+    "cta": "If you enjoyed or you learned something new, please give it a like. Definitely helps me out a ton.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"honestly\""
+    ],
+    "transitions": [
+      "So let's get started.",
+      "The first scenario that we're going to walk through is one where we can send an AI agent a voice file and then it will process information and then send us back another voice file.",
+      "For the sake of the demo, I'm just going to leave it here because that was perfectly fine.",
+      "And by the way, once you have an active workflow and an active web hook,",
+      "So, that's going to do it for this one."
+    ],
+    "vocabulary": [
+      "workflows",
+      "agents",
+      "voice file",
+      "audio",
+      "transcribe",
+      "Naden",
+      "Telegram",
+      "node",
+      "API key",
+      "webhook",
+      "workflow",
+      "web hook",
+      "NADN",
+      "automation",
+      "community"
+    ],
+    "analogies": [
+      "\"think of it like\""
+    ],
+    "curiosity_gaps": [
+      "NOT FOUND",
+      "\"And by the way, once you have an active workflow and an active web hook, you're going to want to check out this video up here where I talk about how you can protect those so that someone isn't abusing your tokens or accessing your data if they shouldn't be. So, that's going to do it for this one.\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"you guys\"",
+      "if you're looking for more hands-on experience and you want to take your learning a little bit farther, then definitely check out my paid community.",
+      "We've got a great community of members who are always sharing what they're doing with Naden every single day."
+    ],
+    "frameworks": [
+      "\"The way I'm going to do this today is going to be through Telegram. So, the first thing I'm going to do is add a Telegram node, which is going to be our trigger, which is going to be on message received.\""
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "num": 203,
+  "title": "The Ultimate n8n Starter Kit (2025) (Free)",
+  "date": "20/01/25",
+  "word_count": 845,
+  "char_count": 4539,
+  "chunks": 1,
+  "extracted": {
+    "parse_error": true,
+    "raw": "{\n\"hook\": \"hey guys today I'm really excited to share something that I've been working on for a while now the ultimate NN starter kit\",\n\"hook_type\": \"Curiosity-Gap\",\n\"credential_drop\": \"NOT FOUND\",\n\"signature_phrases\": [\n    \"\\\"you guys\\\"\",\n    \"\\\"here we go\\\"\",\n    \"\\\"what's really cool\\\"\",\n    \"\\\"let me hit you with\\\"\",\n    \"\\\"literally insane\\\"\",\n    \"\\\"let's not waste any time\\\"\",\n    \"\\\"honestly\\\"\",\n    \"\\\"crazy\\\"\",\n    \"\\\"insane\\\"\",\n    \"\\\"wild\\\"\"\n],\n\"transitions\": [\n    \"so as you can see"
+  }
+}

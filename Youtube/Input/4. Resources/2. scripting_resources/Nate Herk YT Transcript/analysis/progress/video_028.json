@@ -1,0 +1,76 @@
+{
+  "num": 28,
+  "title": "Claude Code Just Gave Everyone Virtual Pets (April Fools?)",
+  "date": "01/04/26",
+  "word_count": 1729,
+  "char_count": 8954,
+  "chunks": 1,
+  "extracted": {
+    "hook": "Yesterday, Claude Code's entire source code was leaked and people started digging through it and we saw little teasers of a buddy system.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, I'm gonna show you guys exactly how to set this up",
+      "Now, let's just hop into this doc so I can explain to you guys exactly how this works and what it is.",
+      "The last thing I wanted to do here is I wanted to just shoot it off on kind of a longer task and see if Vortex says or does anything as it's coding."
+    ],
+    "cta": "\"if you learned something new or you enjoyed, please give it a like. It helps me out a ton.\"",
+    "vocabulary": [
+      "leaked",
+      "buddy system",
+      "hatch",
+      "rarity",
+      "pet",
+      "coding buddy",
+      "terminal",
+      "user ID"
+    ],
+    "analogies": "\"think of it like\"",
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [
+        "60%",
+        "25%",
+        "10%",
+        "4%",
+        "1%"
+      ],
+      "time_references": [
+        "April 1st",
+        "version 2.1.89"
+      ],
+      "named_tools": [
+        "VS Code"
+      ]
+    },
+    "vulnerability": "\"NONE FOUND\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "discussing the different types of characters and rarities"
+      ],
+      "slow": [
+        "explaining the process of hatching a pet"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

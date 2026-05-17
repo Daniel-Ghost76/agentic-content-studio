@@ -1,0 +1,89 @@
+{
+  "num": 9,
+  "title": "How to Never Hit Your Claude Session Limit Again",
+  "date": "20/04/26",
+  "word_count": 5825,
+  "char_count": 31062,
+  "chunks": 2,
+  "extracted": {
+    "hook": "If you use Claude, this video is going to save you money today.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "when explaining token compaction and manual vs. auto"
+      ],
+      "slows": [
+        "during detailed explanations of token usage and context rot"
+      ]
+    },
+    "vulnerability": "\"I do think that there's an argument to be made about the fact that if you leave stuff like that, it's able to read through and it's able to learn and it's able to not make the same mistake again\"",
+    "cta": "\"if you enjoyed this one and you learned something new, please give it a like. It helps me out a ton.\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, let's get back to the video.",
+      "Okay. Then we have sub agents.",
+      "So, for example, if I want to open up this project right here, and I can open up this prompt and go to the session, we can see everything that I actually did in here.",
+      "And then also a tip section. Now I haven't really worked too much AI into here, but that would kind of be the goal.",
+      "So before we get into some bigger philosophy stuff about why I don't even think you need to use the 1 million token window model, I want to drop some stats on you guys."
+    ],
+    "vocabulary": [
+      "session limits",
+      "tokens",
+      "context window",
+      "claude code",
+      "prompt management",
+      "tokens",
+      "sessions",
+      "prompt",
+      "tool calls",
+      "projects",
+      "skills",
+      "context management",
+      "token habits",
+      "session chaining"
+    ],
+    "analogies": [
+      "\"think of it like Claude's current working memory\"",
+      "\"imagine you're packing for a trip\"",
+      "\"it's basically AI dementia but context rot\"",
+      "\"It's kind of like an assembly line. Each session has a specialized task.\""
+    ],
+    "curiosity_gaps": [
+      "I'll come back to this",
+      "here's where it gets interesting",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"after every single time that Claude responds to you, you basically have five options\"",
+      "\"the rule of thumb kind of from like a documentation standpoint would be if you're starting a new task do/clear and if you're continuing the same task do /compact\"",
+      "\"So before we get into some bigger philosophy stuff about why I don't even think you need to use the 1 million token window model, I want to drop some stats on you guys.\""
+    ]
+  }
+}

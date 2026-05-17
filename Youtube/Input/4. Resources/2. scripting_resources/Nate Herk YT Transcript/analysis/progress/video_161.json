@@ -1,0 +1,106 @@
+{
+  "num": 161,
+  "title": "APIs for AI Agents: The Only Beginner�s Guide You�ll Ever Need (n8n)",
+  "date": "10/05/25",
+  "word_count": 6197,
+  "char_count": 31584,
+  "chunks": 2,
+  "extracted": {
+    "hook": "If you're building AI agents, but you don't really understand what an API is or how to use them, don't worry. You're not alone. I was in that exact same spot not too long ago.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NOT FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "discussing the importance of APIs in building AI agents"
+      ],
+      "slow": [
+        "explaining the concept of API and its components"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "All right, so that's going to do it for this video. Hopefully, this has left you feeling a lot more comfortable with diving into API documentation, walking through it just step by step, using those curl commands, and really just understanding.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So the purpose of this video is to understand how to set up your own requests so you can access any API because that's where the power truly comes in.",
+      "And so now a little bit more of a technical example of how this works in NN.",
+      "Okay, so here we have two examples where we're accessing a service called open weather map which basically just lets us grab the weather data from anywhere in the world.",
+      "So I'm just going to create a new header off and all we have to do is the exact same thing that we had down in the request that we just sent over which means",
+      "Now, we can see that we can basically add a variable in here.",
+      "And so now the agent will be reading this and say, okay, whenever the user interacts with me and I know I need to search the internet, I'm just going to fill this whole thing in with the search term."
+    ],
+    "vocabulary": [
+      "APIs",
+      "agent",
+      "workflow",
+      "native integration",
+      "HTTP request",
+      "filter",
+      "parameter",
+      "endpoint",
+      "key value pair",
+      "curl command",
+      "API",
+      "agent",
+      "Perplexity",
+      "bearer token",
+      "HTTP request",
+      "curl command"
+    ],
+    "analogies": [
+      "\"So, keeping it relevant to us, it's our Naden AI agent and whatever we want it to interact with. Okay, so I said we're going to make this as simple as possible. So, let's do it. What we have here is just a scenario where we go to a restaurant\"",
+      "\"And then we're basically going to feed this back down the line through the waiter all the way back to the person who ordered it in the first place. And so that's how you can see we use an HTTP request to talk to the API endpoint and receive the data that we want.\"",
+      "\"think of it like\"",
+      "\"imagine\"",
+      "\"it's basically O, a bearer O, all this kind of stuff\""
+    ],
+    "curiosity_gaps": [
+      "\"And so now a little bit more of a technical example of how this works in NN\"",
+      "\"So, I said we're going to make this as simple as possible. So, let's do it. What we have here is just a scenario where we go to a restaurant\"",
+      "\"And then we're basically going to feed this back down the line through the waiter all the way back to the person who ordered it in the first place. And so that's how you can see we use an HTTP request to talk to the API endpoint and receive the data that we want.\"",
+      "I also did a full video breaking this down. So if you want to see that, I'll tag it right up here.",
+      "And then real quick before we wrap up here I just wanted to talk about some common responses that you can get from your HTTP requests."
+    ],
+    "specificity": [
+      "\"open weather map\"",
+      "\"API documentation\"",
+      "\"HTTP request\"",
+      "\"curl command\"",
+      "\"Perplexity\"",
+      "\"100 billion and 400 billion stars\""
+    ],
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\"",
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\""
+    ],
+    "frameworks": [
+      "\"So, I said we're going to make this as simple as possible. So, let's do it. What we have here is just a scenario where we go to a restaurant\"",
+      "\"All we're doing is we're saying, okay, I want to access server X. When I access server X, I need to tell it basically, what do I want from you?\"",
+      "\"So the first thing to notice is that there's a few things that are required and then some things that are not.\""
+    ]
+  }
+}

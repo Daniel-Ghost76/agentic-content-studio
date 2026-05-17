@@ -1,0 +1,80 @@
+{
+  "num": 208,
+  "title": "Having an Actual Conversation with Data Using an ElevenLabs Voice Agent and n8n",
+  "date": "13/01/25",
+  "word_count": 3153,
+  "char_count": 16089,
+  "chunks": 1,
+  "extracted": {
+    "hook": "hey there I'm Eric what information are you looking for today",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "so there was a quick demo of the project manager conversational voice agent that we're going to be breaking down today",
+      "back to the agent so so um it's a super simple build as you can see within my AI agent here",
+      "now let's look at what's actually going on within 11 Labs"
+    ],
+    "cta": "if this one helped please leave a like um comment what other use cases you want to see with some voice agents and I really appreciate you guys making it all the way to the end I will see you guys in the next one thanks",
+    "vocabulary": [
+      "project manager",
+      "voice agent",
+      "vector database",
+      "web hooks",
+      "NADN",
+      "11 Labs",
+      "AI chapot project"
+    ],
+    "analogies": [
+      "\"it's really not too complicated when you really break down and when you understand the fact that you could probably take this rag system that you already had built out this rag AI agent system and all you're doing is changing the input and changing the output and then you know exactly you're changing what's going on right here um what the agent's actually looking at as far as the input but that's really as simple as it needs to be\"",
+      "\"it's like I said the same way that you would text it with telegram it would get your text it would search through the vector database it would think about how to respond it would create a response and then it would telegram you back it's the exact same process except for we're getting a query from 11 labs and then the agent is responding back to 11 Labs so that's how this is going to work\"",
+      "\"you could hook up knowledge base but it would be a little bit more static so we want to use a vector database that it's going to be called through n at end because then we can update the vector database with some sort of automated pipeline rather than just having like um certain files in here right\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollars": [],
+      "percentages": [],
+      "subscribers": [],
+      "times": [],
+      "tools": [
+        "Pine Cone",
+        "NADN"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "\"it's really not too complicated when you really break down and when you understand the fact that you could probably take this rag system\"",
+        "\"you could hook up knowledge base but it would be a little bit more static so we want to use a vector database that it's going to be called through n at end because then we can update the vector database with some sort of automated pipeline rather than just having like um certain files in here right\""
+      ],
+      "slow": [
+        "\"so there was a quick demo of the project manager conversational voice agent that we're going to be breaking down today\"",
+        "\"back to the agent so so um it's a super simple build as you can see within my AI agent here\"",
+        "\"now let's look at what's actually going on within 11 Labs\""
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": []
+  }
+}

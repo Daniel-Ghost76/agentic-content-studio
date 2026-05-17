@@ -1,0 +1,67 @@
+{
+  "num": 148,
+  "title": "Locally Host n8n AI Agents for FREE (step by step)",
+  "date": "17/06/25",
+  "word_count": 1978,
+  "char_count": 10398,
+  "chunks": 1,
+  "extracted": {
+    "hook": "By the end of this video, you'll be able to run AI agents on NN for completely free.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NOT FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, now that that finished up, we're able to open up Docker and see what's going on.",
+      "And then finally of course we have our volumes which we talked about was kind of like the storage."
+    ],
+    "cta": "If you enjoyed this one and you learned something new, please give it a like. It definitely helps me out a ton.",
+    "vocabulary": [
+      "self-hosted",
+      "starter kit",
+      "containerized environment",
+      "open-source code repositories",
+      "volume"
+    ],
+    "analogies": [
+      "\"So all of these are going to be going on within our self-hosted starter kit container. Now where volume comes into play is this is basically like the persistent storage of memory.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll show you guys that once we get into Docker, but basically that's it\"",
+      "\"All right. So, now that that finished up, we're able to open up Docker and see what's going on. And we can also go ahead and access our local Nad.\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [
+        "17/06/25"
+      ],
+      "named_tools": [
+        "Docker Desktop"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "When explaining the Docker setup process and its components."
+      ],
+      "slows": [
+        "During detailed explanations of technical terms like 'containerized environment' and 'volume'."
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

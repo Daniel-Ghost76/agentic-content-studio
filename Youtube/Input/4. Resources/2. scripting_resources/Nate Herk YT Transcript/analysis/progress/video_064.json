@@ -1,0 +1,70 @@
+{
+  "num": 64,
+  "title": "Is n8n Dead?",
+  "date": "01/02/26",
+  "word_count": 1221,
+  "char_count": 6331,
+  "chunks": 1,
+  "extracted": {
+    "hook": "Is NADN dead? This has been the biggest question that I've been getting over the past couple weeks.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So a little over a year ago when I started making YouTube videos about NINN, it was in hyperrowth mode and it was blowing up and videos were going viral left and right about NAND AI agents.",
+      "But is Naden dead?",
+      "The other question I'm getting is I'm a beginner. I'm getting into AI. Which one do I go for?",
+      "And so basically my promise to you guys is that I don't know where the AI space is going."
+    ],
+    "cta": "\"if you enjoyed the video or you learned something new, please give a like. Definitely helps me out a ton.\"",
+    "vocabulary": [
+      "hyperrowth",
+      "blowing up",
+      "going viral",
+      "search interest",
+      "barrier to entry",
+      "deploying",
+      "web hooks",
+      "execution data",
+      "VPS"
+    ],
+    "analogies": "\"think of this as me expanding my tool set and hopefully expanding your guys' skills and knowledge onto different tools as well\"",
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [
+        "10 bucks a month"
+      ],
+      "time_references": [
+        "a little over a year ago",
+        "over the past 3 months",
+        "about a year ago"
+      ]
+    },
+    "vulnerability": "\"I was pretty confused\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "discussing views and value association"
+      ],
+      "slow": [
+        "explaining cloud code deployment challenges"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

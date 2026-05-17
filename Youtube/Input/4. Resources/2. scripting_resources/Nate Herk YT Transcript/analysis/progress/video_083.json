@@ -1,0 +1,74 @@
+{
+  "num": 83,
+  "title": "n8n 2.0 is Here (What You Need to Know)",
+  "date": "08/12/25",
+  "word_count": 2833,
+  "char_count": 14687,
+  "chunks": 1,
+  "extracted": {
+    "hook": "NN version 2 is finally here and I've spent multiple hours comparing version one with version two.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NOT FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So let's not waste any time and get straight into the video.",
+      "Now, one thing to keep in mind on the lefth hand side I'm on edit and cloud and on the right hand side I'm on my self-hosted version with Hostinger.",
+      "But anyways, you guys have probably been seeing when you go into your end, you have this little bar at the top that says get ready for V2, learn more."
+    ],
+    "cta": "\"I hope you guys enjoyed or you learned something new. If you did, please give it a like. It definitely helps me out a ton.\"",
+    "vocabulary": [
+      "version two",
+      "nodes",
+      "workflow",
+      "AI agent",
+      "spinny circle",
+      "processing animation",
+      "perplexity node",
+      "self-hosted version",
+      "autosave feature",
+      "subworkflows"
+    ],
+    "analogies": "\"So, in this new version, when you hover over the connectors, they kind of like pop out and they're just kind of white outlined\"",
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [
+        "December 8th",
+        "15th"
+      ],
+      "named_tools": [
+        "Slack tool",
+        "Plexity tool"
+      ]
+    },
+    "vulnerability": "\"I'm really glad that the majority of the actual foundation of how anin works is pretty much the exact same\"",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "pace_accelerates": [
+        "When discussing new features and changes between versions"
+      ],
+      "pace_slows": [
+        "During detailed explanations of specific UI elements"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

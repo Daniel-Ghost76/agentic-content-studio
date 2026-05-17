@@ -1,0 +1,92 @@
+{
+  "num": 97,
+  "title": "I Built the Ultimate UGC Content System with AI Agents (free template)",
+  "date": "04/11/25",
+  "word_count": 6230,
+  "char_count": 32409,
+  "chunks": 2,
+  "extracted": {
+    "hook": "There are all of these amazing models dropping. So, I figured why not just build a system where we can use all of them.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "discussing different AI models and their features"
+      ],
+      "slows": [
+        "explaining the workflow in detail"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "\"All you have to do is join my free school community.\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, the first product we tried was creatine gummies.",
+      "And then what happens in the workflow is it takes that and we have different AI agents here that are trained to prompt in different ways and that's how we're optimizing you know the features and ICP and the setting to actually go into this UGC content.",
+      "On average, I have been seeing that V3 fast is finishing in anywhere from a minute to 2 minutes.",
+      "There you go. It looks like it just finished up.",
+      "Let's go back into the Google sheet.",
+      "And we have our file. So, let's take a look at the Sora 2 output.",
+      "All right, so the final one for this example is V3.1.",
+      "So, I'm going to go ahead and zoom out a little bit, hit execute workflow, and it should shoot it up this top branch now.",
+      "And then another thing I noticed is this is the V3.1 example, and I explicitly told it to not change anything about the reference image itself, but we can see the creatine gummies is a jar and then in the video it's a bag."
+    ],
+    "vocabulary": [
+      "UGC",
+      "AI agents",
+      "prompting",
+      "model",
+      "Google sheet",
+      "nanobanana",
+      "V3 fast",
+      "Sora 2",
+      "Google V3",
+      "Google sheet",
+      "video prompt",
+      "source image",
+      "AI agents"
+    ],
+    "analogies": [
+      "\"What we're starting with is a picture of our product because we need to make sure that the product image looks actually good in our final copy. Otherwise, we're not going to be able to sell any of that.\"",
+      "\"think of it like\""
+    ],
+    "curiosity_gaps": [
+      "\"And so notice that we have false branch or true branch, and it's true when it's done. So what we do is if it's false, we have this line that goes back to the wait. So this is why you can see it waited three times, which means this took about 15 seconds to generate.\"",
+      "\"And so after that, we get this output. You can see it starts off with a natural selfie style 9x6 vertical video, 8 seconds long. friendly middle-aged woman, gardener. She's filming on her phone. She's wearing a light blue shirt. And then down here is where you can see what the dialogue says.\"",
+      "I'll come back to this",
+      "stay till the end",
+      "here's where it gets interesting"
+    ],
+    "specificity": [
+      "\"So, I figured why not just build a system where we can use all of them\"",
+      "\"The first one we'll look at is Nano Banana Plus Google V3.1\"",
+      "\"All you have to do is join my free school community\"",
+      "\"The link for that is down in the description\""
+    ],
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"you guys\""
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

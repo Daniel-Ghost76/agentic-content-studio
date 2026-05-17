@@ -1,0 +1,22 @@
+Create a 3-second cinematic HUD motion graphic using 00-start-background.png as the start image and 05-analytics-gap.png as the final reference.
+
+The animation starts from the blank soft teal HUD background only. No analytics panel is visible at frame 0. Keep the background lighter dark teal, soft, and atmospheric with subtle blurred UI depth.
+
+The analytics dashboard panel should slide in gently from the lower-left with light motion blur, then settle near the center. Avoid a hard bounce. The frosted-glass fill, muted cyan border, and dotted HUD texture become clearer as the panel lands.
+
+Once the panel is centered, draw the chart elements on in sequence:
+
+First, the faint axis lines and tick marks appear.
+Second, the bar chart grows upward softly from the baseline.
+Third, the line graph draws from left to right.
+Fourth, the visual gap area activates with a small soft cyan pulse/ring indicator.
+
+The text and labels should remain readable where present, but do not invent extra words. Keep all chart details clean and uncluttered.
+
+By the final frame, match 05-analytics-gap.png: calm frosted-glass analytics dashboard, soft bar chart and line graph, one clearly highlighted low/missing gap area, visible dotted texture, muted teal palette.
+
+Style: soft premium AI-tech HUD, low-to-medium contrast, lighter dark teal background, muted glow, no intense neon, no harsh black, no bright white blowout.
+
+Do not add extra text, logos, humans, real objects, floor, horizon, reflections, explosions, or glitch effects.
+
+Duration: 3 seconds. Aspect ratio: 16:9.

@@ -1,0 +1,72 @@
+{
+  "num": 125,
+  "title": "I Built 3 Lead Gen AI Agents Using ONLY My Words (beginner tutorial)",
+  "date": "11/08/25",
+  "word_count": 3955,
+  "char_count": 20355,
+  "chunks": 1,
+  "extracted": {
+    "hook": "Today I'm going to be building a lead generation and outreach system right here in front of you guys just using my natural words.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, the first thing you'll notice over here is that the agent builder asks us some follow-up questions to make sure that it's going to build the system exactly like we want it to.",
+      "Okay, so I think it's finished up.",
+      "All right, so I told it that it worked, but it only added five of the leads to the sheet, not all 10.",
+      "So, let's move on to the second agent that we need to build for this system."
+    ],
+    "cta": "\"if you guys enjoyed or learned something new, please give it a like. It definitely helps me out a ton.\"",
+    "vocabulary": [
+      "lead generation",
+      "outreach system",
+      "natural language",
+      "Google sheet",
+      "AI agent",
+      "node",
+      "flow editor",
+      "trigger"
+    ],
+    "analogies": "\"I think that natural language to workflow building is super super cool\"",
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [
+        "11/08/25"
+      ],
+      "named_tools": [
+        "Lindy",
+        "People Data Labs"
+      ]
+    },
+    "vulnerability": "\"I am worried about the false sense of security that it may bring to people\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the lead generation and outreach system"
+      ],
+      "slows": [
+        "explaining the agent builder process in detail"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

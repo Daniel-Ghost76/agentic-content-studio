@@ -1,0 +1,76 @@
+{
+  "num": 38,
+  "title": "How to Build Claude Agent Teams Better Than 99% of People",
+  "date": "23/03/26",
+  "word_count": 4252,
+  "char_count": 22243,
+  "chunks": 2,
+  "extracted": {
+    "hook": "I just pasted in this message and I'm shooting it off to Claude and it says create a team called Neuroflow of three teammates using sonnet.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "discussing the benefits and setup of agent teams, around minute 10-15"
+      ],
+      "slow": [
+        "explaining the differences between sub agents and agent teams, around minute 6-8"
+      ]
+    },
+    "vulnerability": "\"NONE FOUND\"",
+    "cta": "If you enjoyed or you learned something new, please give it a like. It definitely helps me out a ton.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"I appreciate you guys\"",
+      "\"Thanks everyone\""
+    ],
+    "transitions": [
+      "So, let's talk about prompting.",
+      "Now what you'll notice is we were kind of able to see what was going on, but not really under the hood.",
+      "Okay, now that we've seen some cool demos, let's talk about how do we actually make these things better and better and understand a little bit more about what's going on."
+    ],
+    "vocabulary": [
+      "cloud code",
+      "agent teams",
+      "sub agents",
+      "task list",
+      "QA",
+      "master reference guide",
+      "full stack app",
+      "REST API",
+      "React front end",
+      "running app",
+      "end of the video",
+      "appreciate",
+      "next one"
+    ],
+    "analogies": [
+      "\"think of it like\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll show you exactly what I mean by that when we go in here and spin up a new agent team.\"",
+      "\"Now, if you do this in your terminal and specifically if you have T-Mox installed, you can actually see the different agents working and thinking and you can individually send messages to them because right here we're kind of only communicating through the main session and the main session sends messages to the other ones. But one of the value props of agent teams is that I could individually message a sub agent if I wanted to.\"",
+      "\"So, let me show you guys that this is possible.\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\"",
+      "\"Thanks everyone\""
+    ],
+    "frameworks": [
+      "\"Here are three key rules.\"",
+      "\"The first one is that each of these agents has their own territory. So, they should have their own file and they should be working on their own deliverables.\""
+    ]
+  }
+}

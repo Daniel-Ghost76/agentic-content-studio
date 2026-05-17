@@ -1,0 +1,99 @@
+{
+  "num": 62,
+  "title": "How I�d Teach a 10 Year Old to Build Agentic Workflows (Claude Code)",
+  "date": "07/02/26",
+  "word_count": 8148,
+  "char_count": 42333,
+  "chunks": 2,
+  "extracted": {
+    "hook": "Agendic workflows are changing everything for AI automations. These workflows fix themselves and can be made 10 times faster than normal step-by-step automations without writing a single line of code.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NOT FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the benefits and simplicity of agentic workflows compared to traditional automation"
+      ],
+      "slows": [
+        "explaining the WAT framework in detail"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "\"If you guys enjoyed the video, please give it a like. It definitely helps me out a ton.\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So that's why in this video I'm going to explain what agentic workflows are in the simplest way possible so that even a 10-year-old can understand it.",
+      "And then I'm going to build one right here in front of you guys so that you can see how simple it really is.",
+      "So let's get into it.",
+      "All right, so even if you don't know how to code or if you've never touched an IDE before, you're going to be just fine.",
+      "So, that's kind of my overall plan.",
+      "So, here we are with our first round of questions.",
+      "All right, that just finished up.",
+      "But let's go ahead and take a look at the output."
+    ],
+    "vocabulary": [
+      "agentic workflows",
+      "traditional workflow automation",
+      "API calls",
+      "nodes",
+      "canvas",
+      "IDE",
+      "Claude Code",
+      "WAT framework",
+      "scrape",
+      "Excel sheet",
+      "job listings",
+      "workflow",
+      "tool"
+    ],
+    "analogies": [
+      "\"Think about it like you're ordering food. Traditional automation is like cooking dinner for yourself based on a recipe. So you follow step one, you make sure you have the ingredients, you follow step two, step three, you grab everything you need, you measure it out, you set up your own API calls. You're the one who's mapping out pretty much every single step.\"",
+      "\"Agentic workflows, on the other hand, are like walking into a restaurant and just telling the waiter, 'I want a delicious steak dinner.'\"",
+      "\"So, let's go back to our analogy of like, you know, food and maybe making a cake. So, when you want to make a cake, you've got a recipe and then you've got a bunch of ingredients and you have to figure out what to do with them.\"",
+      "\"It's going to do a lot of thinking. It's going to reason about like the way that we should actually do this.\""
+    ],
+    "curiosity_gaps": [
+      "\"So that's why in this video I'm going to explain what agentic workflows are in the simplest way possible so that even a 10-year-old can understand it. And then I'm going to build one right here in front of you guys so that you can see how simple it really is.\"",
+      "\"And by the end, you'll know exactly how to apply this to any workflow you want to build. So let's get into it.\"",
+      "\"I'm just going to go ahead and do a local in the temporary folder, which we've created right over here. So I'll choose that.\"",
+      "\"So, basically meaning next time we ask it to scrape jobs, it's going to be able to do it better and it has more direction because it's already done it.\""
+    ],
+    "specificity": [
+      "\"17 bucks a month\"",
+      "\"50 dentists in Chicago\"",
+      "\"21 pages of these jobs\""
+    ],
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"The agent itself is cloud code. That's what we talk with. That's what the AI brain uses to build workflows and tools.\"",
+      "\"The workflows are going to come in a format called markdown, which just looks like this. It's natural language. It has headers and it has bullet points and bold font just to make it easier to read, but it's literally just a natural language document.\"",
+      "\"And then the tools come in Python. So, this is the logo. It'll be a py file, which I'll show you guys. And this is the ugly stuff. This is where we actually have code that I don't really want to look at. You guys don't want to look at.\"",
+      "\"So, what's the difference between these workflows and tools? Well, workflows are processes and tools are actions to take.\""
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "num": 58,
+  "title": "Building Beautiful Websites with Claude Code Is Too Easy",
+  "date": "19/02/26",
+  "word_count": 6825,
+  "char_count": 35396,
+  "chunks": 2,
+  "extracted": {
+    "hook": "Today I'm going to be showing you guys five simple hacks that you can use to make sure that Cloud Code is building you websites that don't look like they were AI vibe coded, but they actually feel professional and branded.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "when explaining the front-end design skill and its benefits"
+      ],
+      "slows": [
+        "during detailed explanations of steps"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "If you guys enjoyed the video or you learned something new, please give it a like. Definitely helps me out a ton. And as always, I appreciate you guys making it to the end of the video. I'll see you on the next one. Thanks everyone.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "Now, the way that this works when you're using Cloud Code in Visual Studio Code or really wherever you use it is you have files on the lefth hand side and then you have your agent on the right hand side.",
+      "So, let's get started going through these five hacks.",
+      "And so now we can just start to integrate our own colors and logos and copy right into this template.",
+      "But let's say we're at a spot where we like the overall feel and vibe of the website.",
+      "So, I'm just going to go ahead and shoot this off and we will see.",
+      "All right, that just finished up.",
+      "And you can see that that looks much, much better.",
+      "Awesome. So, it now says that our site is live on GitHub.",
+      "Okay. So this is our local version."
+    ],
+    "vocabulary": [
+      "cloud code",
+      "front-end design skill",
+      "brand assets",
+      "claw.md",
+      "Puppeteer",
+      "screenshot loop",
+      "reference site",
+      "cloud code",
+      "GitHub",
+      "Verscell",
+      "commit",
+      "screenshot",
+      "animation",
+      "background element",
+      "pixelated"
+    ],
+    "analogies": [
+      "\"Think of it as a system prompt.\"",
+      "\"So, what we can do is we can go to a website called 21st.dev, which has some of the best website components you might be able to find. It's got shaders. It's got backgrounds. It's got home screens. It's got buttons. It's got, you know, mouse highlights. It's got so many different things that you can do.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "\"So, I'm just going to go ahead and shoot this off and we will see. Actually, one thing that I forgot to mention is in this case, because we're working with an animation, the screenshot might not always work the best. So, sometimes you might want to tell it not to do the screenshot flow.\"",
+      "\"So what happens is here's the local host. I'll refresh that. Now we can see the little glow behind the join the community button and here is the web app version. I refresh this and we don't have that change yet, which is great because we don't want to push changes if they're not good, right?\"",
+      "\"All right, so those are the five hacks that I wanted to cover today.\""
+    ],
+    "specificity": [
+      "$0",
+      "%0",
+      "21st.dev",
+      "cloud code",
+      "GitHub",
+      "Verscell",
+      "ais-est website.verell.app"
+    ],
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"The first thing that you need to do is you need to go download Visual Studio Code. So go to a browser and type in VS Code and download this for your operating system.\"",
+      "\"So, the first one is actually number zero. And the reason that I did this is because the first one is a claw.md file. And I put this as number zero because it's kind of a prerequisite, but also a lot of times near the end, even after 1 2 3 and four, you might have to rego back and update your claw.md file or just have claw do it itself.\"",
+      "\"So, I'm just going to go ahead and shoot this off and we will see. Actually, one thing that I forgot to mention is in this case, because we're working with an animation, the screenshot might not always work the best. So, sometimes you might want to tell it not to do the screenshot flow.\""
+    ]
+  }
+}

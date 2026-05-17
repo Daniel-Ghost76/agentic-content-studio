@@ -1,0 +1,90 @@
+{
+  "num": 14,
+  "title": "Claude + HeyGen Just Changed Content Creation Forever",
+  "date": "15/04/26",
+  "word_count": 4955,
+  "char_count": 25666,
+  "chunks": 2,
+  "extracted": {
+    "hook": "Today, I'm going to show you how I was able to automate hours of recording content using Cloud Code and HeyGen.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "when discussing the automation process"
+      ],
+      "slows": [
+        "during detailed explanations of each tool"
+      ]
+    },
+    "vulnerability": "\"I have generated over 100, maybe even 200 of these clips, and I've tweaked things\"",
+    "cta": "If you guys enjoyed the video or you learned something new, please give it a like, it helps me out a ton. And as always, I appreciate you guys making it to the end of the video, and I'll see you in the next one.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, let's talk about some of the other stuff.",
+      "Um this document will be attached for completely free in my free school community.",
+      "So, the production stack.",
+      "And then we do have a different cost for the HeyGen API."
+    ],
+    "vocabulary": [
+      "automation",
+      "avatar clone",
+      "voice cloning",
+      "motion graphics",
+      "Cloud Code",
+      "HeyGen",
+      "11 Labs",
+      "avatar",
+      "generation",
+      "pipeline",
+      "cloud code",
+      "freelance video editor",
+      "hourly rate",
+      "time back",
+      "buyback matrix"
+    ],
+    "analogies": [
+      "\"because it's not just lip syncing, it's actually learning how you gesture and how you move, and it feels way more like you\"",
+      "\"And then for Cloud Code, you know, 20 to 200 bucks a month, which orchestrates the entire pipeline. You can also do this in something like Co-work, and maybe even Claude if you put the right connectors in.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "I'll come back to this",
+      "stay till the end",
+      "here's where it gets interesting"
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"The first one is that the avatar has crossed the uncanny valley\"",
+      "\"The next one is that AI can orchestrate the entire production pipeline\""
+    ]
+  }
+}

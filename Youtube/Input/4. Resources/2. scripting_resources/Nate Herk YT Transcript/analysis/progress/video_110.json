@@ -1,0 +1,86 @@
+{
+  "num": 110,
+  "title": "Stop Selling AI Agents, Sell AI Solutions Instead",
+  "date": "24/09/25",
+  "word_count": 3377,
+  "char_count": 18897,
+  "chunks": 1,
+  "extracted": {
+    "hook": "If you want to make money with AI, you need to stop selling AI agents and workflows and start selling AI solutions.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "\"When I was working full-time at Goldman Sachs in business intelligence, automation was my entire role. And that job had existed for years.\" (early)",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "And here's the truth.",
+      "That leads us right into the next section.",
+      "So, you know why selling AI doesn't work and that you need to sell AI solutions, but how do you actually do this for yourself step by step? That's what we're going to cover now in a few simple steps."
+    ],
+    "cta": "\"if you enjoyed the video or you learned something new, please give it a like. Definitely helps me out a ton.\"",
+    "vocabulary": [
+      "AIcentric",
+      "pain points",
+      "ROI",
+      "reselling",
+      "diagnose, then solve, then value, then price"
+    ],
+    "analogies": [
+      "\"Think of it like medicine\"",
+      "\"Think of it like a taxi ride\"",
+      "\"Think of it like a home renovation\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [
+        "$1,200",
+        "$5,000 a month",
+        "$200",
+        "$3K",
+        "$10,000 annually",
+        "$1,000 a month",
+        "$12,000 annually"
+      ],
+      "percentages": [
+        "60%",
+        "80%"
+      ],
+      "time_references": [
+        "15 minutes",
+        "4 weeks",
+        "one up in an hour and a half",
+        "2 hours"
+      ]
+    },
+    "vulnerability": "\"The food hasn't changed. It's nothing new, but suddenly people are noticing it.\" (early)",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "When I was working full-time at Goldman Sachs in business intelligence, automation was my entire role.",
+        "And that job had existed for years."
+      ],
+      "slow": [
+        "So the framework we're going to be talking about today is to diagnose, then solve, then value, then price. And it's a simple process that I use every time."
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": [
+      "\"Diagnose means find the pain point.\"",
+      "\"Solve means build the system that fixes that exact pain.\"",
+      "\"Value. Translate that fix into numbers.\"",
+      "\"Price. Anchor your offer around that value.\""
+    ]
+  }
+}

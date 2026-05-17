@@ -1,0 +1,80 @@
+{
+  "num": 31,
+  "title": "Gemini 3.1 Flash Live Just Changed Voice Agents Forever",
+  "date": "28/03/26",
+  "word_count": 4270,
+  "char_count": 22345,
+  "chunks": 2,
+  "extracted": {
+    "hook": "Hey, so I think that these scissors are broken. These two different pieces came apart.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the benefits of Gemini 3.1 flash live"
+      ],
+      "slows": [
+        "explaining how to use Google AI Studio"
+      ]
+    },
+    "vulnerability": "\"I don't really care about how you're doing. Can you just tell me a little bit more about the voice model?\"",
+    "cta": "If you guys learned something new or if you enjoyed, please give it a like. It helps me out a ton.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys learned something new\"",
+      "\"you guys enjoyed\"",
+      "\"I appreciate you guys making it to the end of the video\""
+    ],
+    "transitions": [
+      "Now this first benchmark is about multi-step function calling, which it has outperformed the previous Gemini 2.5 flash model by about 19% here as you can see.",
+      "And I think it's really cool because I could definitely see a world where at some point our operating systems basically just work with voice.",
+      "Now there are some other things you can do in here."
+    ],
+    "vocabulary": [
+      "Gemini",
+      "flash live",
+      "voice model",
+      "upgrades",
+      "speech to speech",
+      "latency",
+      "natural interactions",
+      "multi-step function calling",
+      "audio multi challenge",
+      "noise",
+      "production",
+      "keys",
+      "connections",
+      "transfer",
+      "think of it like",
+      "basically"
+    ],
+    "analogies": [
+      "\"it's basically like you've got your asynchronous or synchronous\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\"",
+      "\"you guys\"",
+      "\"I appreciate you guys\""
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

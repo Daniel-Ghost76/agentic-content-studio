@@ -1,0 +1,86 @@
+{
+  "num": 50,
+  "title": "Claude Code Skills Just Got Even Better",
+  "date": "05/03/26",
+  "word_count": 4069,
+  "char_count": 21369,
+  "chunks": 1,
+  "extracted": {
+    "hook": "Cloud skills just got 10 times easier to build and stronger to use.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, real quick",
+      "Now, we can actually evaluate them.",
+      "Here's a quick example that Enthropic actually ran with this eval.",
+      "What I think is really cool and how I want to end off this section before we get into a live demo is where this is going."
+    ],
+    "cta": "\"if you enjoyed, please leave a like.\"",
+    "vocabulary": [
+      "skills",
+      "recipe",
+      "prompt",
+      "agent",
+      "cloud code"
+    ],
+    "analogies": [
+      "\"it's basically just text. It's just text instructions. It's like a prompt\"",
+      "\"think of it like good fonts, good color schemes, you know, good background elements, good layouts\"",
+      "\"imagine if you had a recipe for making a LinkedIn post\"",
+      "\"it's the one we're talking about\"",
+      "\"it's going to be able to figure out all of that and get there with a spec\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollars": [],
+      "percentages": [],
+      "subscribers": [],
+      "time_references": [
+        "05/03/26"
+      ],
+      "named_tools": [
+        "VS Code",
+        "Cloud Code"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "\"So, in today's video\"",
+        "\"And now what I would do is just keep running it\""
+      ],
+      "slows": [
+        "\"So the first thing I need you to understand is that there are two different types of skills\"",
+        "\"And then we can also run benchmarks. So when a model updates or when you make an iteration and you change your skill, just run all the evals and run a benchmark which will give you stuff like a pass rate, a time and also how many tokens are being used\""
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": [
+      "\"So the first thing I need you to understand is that there are two different types of skills\"",
+      "\"And this basically means that today when we're telling our agent to build skills for us or maybe just giving it an SOP, we're giving it steps, rules, and format. But what's going to happen in the future is we're going to be able to just tell it in way more high-level natural language what we want and it's going to be able to figure out all of that and get there with a spec\"",
+      "\"So I'm going to talk about what each of these little elements mean\""
+    ]
+  }
+}

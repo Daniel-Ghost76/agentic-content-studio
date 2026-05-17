@@ -1,0 +1,73 @@
+{
+  "num": 34,
+  "title": "STOP Using Bypass Permissions, Use This New Feature Instead",
+  "date": "24/03/26",
+  "word_count": 958,
+  "char_count": 5135,
+  "chunks": 1,
+  "extracted": {
+    "hook": "Well, I'm back with another Claude code update.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, right here you can see that it's able to read things, but now when it wants to actually make changes,",
+      "And as you can see, it's popping it up again and stopping my session because it has to make two edits.",
+      "So, the fix that I had been using for a long time is within my .claude folder,",
+      "But with Claude code's new release of auto mode,",
+      "And right here you can see that it says auto mode let's Claude handle permissions automatically."
+    ],
+    "cta": "\"if you learned something new or you enjoyed the video, please give it a like. Definitely helps me out a ton.\"",
+    "vocabulary": [
+      "Claude code update",
+      "auto mode",
+      "permission mode",
+      "ask before edits",
+      "web fetch",
+      "bash command",
+      "allow list",
+      "deny list",
+      "risky actions",
+      "prompt injection"
+    ],
+    "analogies": "\"So, the fix that I had been using for a long time is within my .claude folder\"",
+    "curiosity_gaps": [
+      "\"And so, this gave me a lot more control over what Claude code does and what it can't do. And in some cases, I still think that this is the actual best option to use because you can change these per project and you could also set this globally if you'd like\"",
+      "\"So, auto mode is the middle path that lets you run longer tasks with fewer interruptions while introducing less risk than skipping all permissions.\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [
+        "24/03/26"
+      ],
+      "named_tools": [
+        "Claude code"
+      ]
+    },
+    "vulnerability": "\"NONE FOUND\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the new auto mode feature"
+      ],
+      "slows": [
+        "explaining the old bypass permissions method in detail"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

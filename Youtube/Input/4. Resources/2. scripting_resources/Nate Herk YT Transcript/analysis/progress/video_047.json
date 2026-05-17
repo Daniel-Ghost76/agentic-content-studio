@@ -1,0 +1,73 @@
+{
+  "num": 47,
+  "title": "Claude Code 2.0 Is Finally Here",
+  "date": "07/03/26",
+  "word_count": 2561,
+  "char_count": 13287,
+  "chunks": 1,
+  "extracted": {
+    "hook": "So listen to this.",
+    "hook_type": "Curiosity-Gap",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So here I am in cloud code in the cloud desktop app.",
+      "Now right now you do need to be using the desktop app in order to access these scheduled tasks.",
+      "The first major gotcha is the fact that your laptop has to be on or your computer has to be on and the desktop app has to be open.",
+      "Now, what are some other things to think about?",
+      "So, here's how I imagine the self-improving loop working."
+    ],
+    "cta": "\"What you need to do now is go learn how to set up your project and create your own executive assistant to become way more productive and start to schedule some stuff. Go ahead and watch this video right up here.\"",
+    "vocabulary": [
+      "247 AI employee",
+      "nerdiest thing I've ever said",
+      "10 times more powerful",
+      "self-healing",
+      "stateless",
+      "permissions",
+      "append log"
+    ],
+    "analogies": "\"So, that's what my brain immediately went to, but I wanted to see what Cloud Code thought. So, I asked it what it thought the most optimal strategy was to make these improve and make sure they have the right context.\"",
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [
+        "about a week or two ago",
+        "every single morning I would open up my cloud code and I would say, 'Hey, run morning coffee.' Which would help me plan my day.",
+        "6:00 a.m. every morning"
+      ],
+      "named_tools": [
+        "Cloud Code"
+      ]
+    },
+    "vulnerability": "\"NONE FOUND\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the benefits of scheduled tasks and their automation"
+      ],
+      "slows": [
+        "explaining the limitations of the feature, such as needing to have a computer on for it to run"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

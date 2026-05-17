@@ -1,0 +1,75 @@
+{
+  "num": 236,
+  "title": "How to Build a Google Scraping AI Agent with n8n (Step By Step Tutorial)",
+  "date": "06/10/24",
+  "word_count": 4123,
+  "char_count": 20384,
+  "chunks": 1,
+  "extracted": {
+    "hook": "so today I'm going to be walking through step by step how to build this Google scraping AI agent in n8n (Step By Step Tutorial)",
+    "hook_type": "Demonstration",
+    "credential_drop": "NOT FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "so let's hop into a quick demo real quick so we can see how the agent works before we actually see how to build this thing",
+      "now that we've seen a demo of how we chat with the agent and how it actually works let's move into what we need in order to build this thing",
+      "okay so here's our information the next step is to connect an open AI node so we're going to go grab an open AI and message a model",
+      "now the last thing we need to do is we need to add a set node which we're going to name this field response with the value of done"
+    ],
+    "cta": "\"please leave a like if you've enjoyed and definitely let me know in the comments what else you guys want to see so I can continue to add to my list of videos that I want to make and stuff to learn about so that I can sort of help all you guys out\"",
+    "vocabulary": [
+      "walk through",
+      "step by step",
+      "workflow",
+      "agent",
+      "tool"
+    ],
+    "analogies": "\"imagine\"",
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollars": [],
+      "percentages": [],
+      "subscribers": [],
+      "time_references": [],
+      "named_tools": [
+        "n8n"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "\"so today I'm going to be walking through step by step how to build this Google scraping AI agent in n8n\"",
+        "\"so here's the agent it's super simple we've only got these three tools here\""
+      ],
+      "slow": [
+        "\"so let's hop into a quick demo real quick so we can see how the agent works before we actually see how to build this thing\"",
+        "\"now that we've seen a demo of how we chat with the agent and how it actually works let's move into what we need in order to build this thing\""
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": [
+      "\"so the first one is going to be the tool that scrapes Google for the URLs and then the second one is the actual agent that we can interact with so that's all for the prep stage let's hop back into n8n and let's start a new workflow and start building this thing\"",
+      "\"okay so here's our information the next step is to connect an open AI node so we're going to go grab an open AI and message a model\""
+    ]
+  }
+}

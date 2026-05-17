@@ -1,0 +1,88 @@
+{
+  "num": 75,
+  "title": "I Built a Voice Agent That Calls Every New Lead (n8n + Vapi)",
+  "date": "12/01/26",
+  "word_count": 6445,
+  "char_count": 33733,
+  "chunks": 2,
+  "extracted": {
+    "hook": "Today I'm going to be showing you guys how we can build an AI agent that can make phone calls for you while you sleep.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NOT FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the workflow and templates for free"
+      ],
+      "slows": [
+        "explaining the system works before demo"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "\"if you guys enjoyed the video or you learned something new, please give it a like. It definitely helps me out a ton.\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "All right, so what we're looking at right here is the entire NADN automation.",
+      "So, let's just give this a sec.",
+      "Okay. Richard hung up or not Richard. um his name was Elliot. Elliot hung up on us.",
+      "So, the first thing I'm doing is I'm waiting.",
+      "Now the next thing is which phone number are we actually calling?",
+      "And that's how the agent that calls this prospect actually knows what their name is and that type of information.",
+      "Finally, here's where the magic really happens."
+    ],
+    "vocabulary": [
+      "automation",
+      "lead qualification",
+      "outbound calling",
+      "webhook",
+      "NADN",
+      "Vappy",
+      "Twilio",
+      "Vappy",
+      "outbound agent",
+      "call logs",
+      "phone number ID",
+      "form submission",
+      "system prompt",
+      "assistant overrides section",
+      "structured output",
+      "Google sheet"
+    ],
+    "analogies": [
+      "\"think of it like\"",
+      "\"think of it like\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\""
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

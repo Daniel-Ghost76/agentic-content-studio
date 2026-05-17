@@ -1,0 +1,83 @@
+{
+  "num": 200,
+  "title": "Best Model for RAG? GPT-4o vs Claude 3.5 vs Gemini Flash 2.0 (n8n Experiment Results)",
+  "date": "30/01/25",
+  "word_count": 4400,
+  "char_count": 22472,
+  "chunks": 2,
+  "extracted": {
+    "hook": "wow flash was 6.7 seconds GPT was 11 seconds and then open AI or anthropic CLA was almost 21 seconds so that's that's kind of a big jump here",
+    "hook_type": "Result-First",
+    "credential_drop": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "wow flash was 6.7 seconds GPT was 11 seconds and then open AI or anthropic CLA was almost 21 seconds so that's that's kind of a big jump here"
+      ],
+      "slow": [
+        "so the r is retrieval it's going out to retrieve the information the a is augmented it pretty much takes that information that gets back from the vector database or whatever database you're sort of having it access it augments that data and information with other stuff that came through in the query and the prompt and then finally it's handing that off to the large language model to create to generate the response that makes sense to the human based on the context of its role and also the query that originally came in"
+      ]
+    },
+    "vulnerability": "\"I'm not like a scientist or an experiment expert but I just thought that this would be a cool way to keep things consistent and leave it less up to my own inter interpretation\"",
+    "cta": "definitely found a like if you found this one helpful or interesting or funny in some way I always appreciate you guys making it to the end of these videos and I'll see you guys in the next one",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"I'll see you guys in the next one\""
+    ],
+    "transitions": [
+      "so let's hop in NN",
+      "so the first section here is information recall",
+      "okay so we got the response back",
+      "let's quickly look at the way that Gemini did it and as you can see",
+      "for round two we got 798 it's a pretty tight race",
+      "okay so that one just finished up we'll click at executions"
+    ],
+    "vocabulary": [
+      "retrieval augmented generation",
+      "vector database",
+      "prompt",
+      "tool calling",
+      "earnings report",
+      "financial and earnings information",
+      "open AI model",
+      "consistent",
+      "different models",
+      "prompt"
+    ],
+    "analogies": [
+      "\"it's basically just the process of your agents going out to get information that it doesn't already have in its sort of training data or it's prompt\"",
+      "\"the r is retrieval it's going out to retrieve the information the a is augmented it pretty much takes that information that gets back from the vector database or whatever database you're sort of having it access it augments that data and information with other stuff that came through in the query and the prompt and then finally it's handing that off to the large language model to create to generate the response that makes sense to the human based on the context of its role and also the query that originally came in\"",
+      "\"the idea of this EXP experiment is to keep everything as consistent as possible we're going to limit the variability as much as we can by doing the following things\"",
+      "\"it's like a cool way to keep things consistent and leave it less up to my own inter interpretation\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "\"so we're going to be answering this question by putting these three popular models to the test\"",
+      "\"let me hit you with\"",
+      "\"it's basically what it looks like\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\"",
+      "\"you guys\"",
+      "\"I'll see you guys in the next one\""
+    ],
+    "frameworks": [
+      "\"the idea of this EXP experiment is to keep everything as consistent as possible we're going to limit the variability as much as we can by doing the following things\"",
+      "\"we'll hop into nadn and you'll see the three different agents we have and we'll actually run through this process it'll make a lot more sense\""
+    ]
+  }
+}

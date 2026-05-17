@@ -1,0 +1,93 @@
+{
+  "num": 166,
+  "title": "How I Automated Product Videography with AI (Step by Step n8n Tutorial)",
+  "date": "28/04/25",
+  "word_count": 6710,
+  "char_count": 33901,
+  "chunks": 2,
+  "extracted": {
+    "hook": "Okay. So, all I have to do in this form submission is enter in a picture of a product, enter in the product name, the product description, and my email address.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the workflow setup"
+      ],
+      "slows": [
+        "explaining Google Drive connection steps"
+      ]
+    },
+    "vulnerability": "\"The reason I got the error is because I don't have any more credits. So if you get this error, go add some credits.\"",
+    "cta": "If you enjoyed this or you learned something new, please give it a like. Helps me out a ton.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, anyways, it just finished up.",
+      "So, let's go look at our finished products.",
+      "So now you guys have seen a demo.",
+      "And that way we can start to build this workflow and you guys will have the prompts to plug right in.",
+      "So, real quick, I'm just going to change this to get URL.",
+      "And then we're going to hit test step, which is going to send over that binary data to imageb.",
+      "So that's exactly our next step.",
+      "Okay, so that should be configured.",
+      "But before we test it out, I want to show you guys how I set up the polling flow like this that you saw in the demo."
+    ],
+    "vocabulary": [
+      "workflow",
+      "trigger",
+      "form submission",
+      "Google Drive",
+      "AI agent",
+      "chat model",
+      "binary data",
+      "HTTP request",
+      "binary",
+      "form data",
+      "input data field name",
+      "URL",
+      "Runway API key",
+      "curl command",
+      "HTTP request",
+      "video from image",
+      "prompt text",
+      "Gen 4 Turbo"
+    ],
+    "analogies": [
+      "\"So, the first thing we see is we're going to be making a post request to this endpoint. So, the first thing I'm going to do is copy this endpoint.\""
+    ],
+    "curiosity_gaps": [
+      "\"And then what's next is we need to send over the image in a field called image. So I'm going to go back in here. I'm going to send over a body because this allows us to actually send over n binary fields.\"",
+      "\"I'm going to be using the middle one that's just called URL because it's like the best size and everything. You can look at the other ones if you want on your end\"",
+      "\"So, first things first, what image are we sending over to get turned into a video?\"",
+      "\"And then the last one was ratio, and I'm just going to make the square.\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

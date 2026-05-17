@@ -1,0 +1,86 @@
+{
+  "num": 89,
+  "title": "Gemini's New File Search Just Leveled Up RAG Agents (10x Cheaper)",
+  "date": "23/11/25",
+  "word_count": 4696,
+  "char_count": 24066,
+  "chunks": 2,
+  "extracted": {
+    "hook": "So Gemini's new file search API is awesome because it allows you to drop in a document. It generates those embeddings and then you're right away able to just chat with it and ask it questions and get answers back.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "So Gemini's new file search API is awesome because it allows you to drop in a document. It generates those embeddings and then you're right away able to just chat with it and ask it questions and get answers back."
+      ],
+      "slow": [
+        "And so, of course, we actually want to test this. So, what I'm going to do is I'm going to upload one more file using this flow right here, and then I'm going to run this evaluation where we're testing this agent on these 10 different questions, and we're going to see how accurate it's able to answer them."
+      ]
+    },
+    "vulnerability": "\"it's not completely magic. So everything that we're doing today, I'm going to try to be as honest as I can about it\"",
+    "cta": "\"if you enjoyed or you learned something new, please give it a like. It definitely helps me out a ton.\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"let me hit you with\"",
+      "\"literally insane\""
+    ],
+    "transitions": [
+      "So today I'm going to be talking about how we can use it in Naden for our rag agents without having to build a huge massive data pipeline that looks like this because we're able to just drop in a file and get answers back.",
+      "All right, so here's what it looks like in NN.",
+      "Okay, so I already have all of this built out for you guys.",
+      "But of course, if I asked about the last rule, which is rule 28, it would get it right.",
+      "And then finally, just about security and privacy, your documents are being uploaded and stored on Google's servers."
+    ],
+    "vocabulary": [
+      "awesome",
+      "embedding",
+      "chat with it",
+      "answers back",
+      "nitni agents",
+      "knowledge",
+      "PG vector extension",
+      "storage and searching",
+      "file API",
+      "tokens",
+      "chunked up",
+      "sensitive information",
+      "PII",
+      "Google's servers",
+      "GDPR",
+      "HIPPA",
+      "CCPA"
+    ],
+    "analogies": [
+      "\"it's super super similar except for once again we're cutting out basically all of this data pipeline processing where we have to understand the file type, add metadata, maybe add context, split it up, run it through an embeddings model, and then put it into our vector store\"",
+      "\"\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back and just do a little bit of some final considerations and things to think about\"",
+      "\"when we get into any end, there's going to be four HTTP requests that you guys will be looking at, and I'm going to walk through exactly how I set them up\"",
+      "\"So the way this works is we're setting up our HTTP requests\"",
+      "\"And so I've got my header content type in here. And then the most important thing that you need to do in this request is choose the name for your file store\"",
+      "\"\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"The way that this works is we're setting up our HTTP requests.\""
+    ]
+  }
+}

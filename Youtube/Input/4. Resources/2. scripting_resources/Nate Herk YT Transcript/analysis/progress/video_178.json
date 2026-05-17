@@ -1,0 +1,76 @@
+{
+  "num": 178,
+  "title": "AI Agents: What 99% of Beginners Get Wrong",
+  "date": "27/03/25",
+  "word_count": 3324,
+  "char_count": 17482,
+  "chunks": 1,
+  "extracted": {
+    "hook": "Everyone is talking about AI agents right now, but the truth is most people are using them completely wrong and admittedly myself included.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "\"For a while now, I've been running an agency where we deliver AI solutions to clients. And I've also been teaching people from any background how to build out these things practically and apply them to their business through deep dive courses as well as live calls.\" (mid)",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "\"So, if that sounds interesting to you, definitely check out the community with the link in the description.\" (intro→tutorial)",
+      "\"But let's get into the video.\" (body→CTA)",
+      "\"Okay, so the first example I want to share with you guys is a typical sort of rag agent.\" (step→step)"
+    ],
+    "cta": "\"If you want to watch that, I'll link it up here. But let's hop into Naden and take a look at some real examples.\"",
+    "vocabulary": [
+      "AI agents",
+      "workflow",
+      "system prompt",
+      "guardrails",
+      "linearly"
+    ],
+    "analogies": "\"it's going to be easier to build, it's going to be more cost effective and also more reliable in the long run\"",
+    "curiosity_gaps": [
+      "\"I'll show you guys that in a sec, but real quick, let's talk about the pros of AI workflows over AI agents.\"",
+      "\"Anyways, I've made a video that talks a little bit more about this stuff as well as other things I've learned over the first 6 months of building agents. If you want to watch that, I'll link it up here.\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [
+        "\"100K\" (milestone)"
+      ],
+      "time_references": [
+        "\"a few months back\"",
+        "\"the first 6 months of building agents\""
+      ],
+      "named_tools": [
+        "Google Gemini 2.0",
+        "Telegram",
+        "Pine Cone",
+        "OpenAI"
+      ]
+    },
+    "vulnerability": "\"I've been using them completely wrong and admittedly myself included.\" (early)",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the pros of AI workflows over agents"
+      ],
+      "slows": [
+        "explaining the basics of chat GBT"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": [
+      "\"The first one is reliability and consistency\"",
+      "\"Number three is easier debugging and maintenance\"",
+      "\"And then the final one is scalability\""
+    ]
+  }
+}

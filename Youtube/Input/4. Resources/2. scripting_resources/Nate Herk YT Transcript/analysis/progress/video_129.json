@@ -1,0 +1,76 @@
+{
+  "num": 129,
+  "title": "How to Build a WhatsApp Agent with n8n (credential tutorial)",
+  "date": "05/08/25",
+  "word_count": 1926,
+  "char_count": 9887,
+  "chunks": 1,
+  "extracted": {
+    "hook": "Today I'm going to show you guys the quickest and easiest way to set up any end with WhatsApp so that when someone messages our business account, we can have an AI agent on the back end responding to them, booking in a meeting, whatever we want them to do.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "So if I click on that, it prompts us for a client ID and a secret. So we have to head over to business.fas.com in order to set this up. So this is what the page should look like. I'm going to go ahead and log in with my Facebook account.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So right now you can see I have a WhatsApp trigger and if I click into this,",
+      "And now that we've got to this screen, what we want to do is set up the WhatsApp.",
+      "Okay. Okay, so now we have the trigger set up, but we need to make sure we set up like a number that it's going to text from and that we can respond back to it.",
+      "So, let's set that up real quick."
+    ],
+    "cta": "And if you're looking for some support when you're setting up this type of automation on the back end with NAND, definitely check out my paid community. The link for that will be down in the description.",
+    "vocabulary": [
+      "WhatsApp",
+      "credential",
+      "trigger",
+      "node",
+      "AI agent",
+      "Open Router",
+      "business portfolio",
+      "app ID",
+      "secret",
+      "access token"
+    ],
+    "analogies": [],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollars": [],
+      "percentages": [],
+      "subscribers": [],
+      "time_references": [],
+      "named_tools": [
+        "Open Router"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "when explaining the steps to set up WhatsApp credentials"
+      ],
+      "slows": [
+        "during detailed explanations of each step in the process"
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": []
+  }
+}

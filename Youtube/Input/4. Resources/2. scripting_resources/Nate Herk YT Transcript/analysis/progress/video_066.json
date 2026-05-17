@@ -1,0 +1,86 @@
+{
+  "num": 66,
+  "title": "100 Hours Testing Clawdbot vs Claude Code (honest results)",
+  "date": "28/01/26",
+  "word_count": 5539,
+  "char_count": 29485,
+  "chunks": 2,
+  "extracted": {
+    "hook": "So, in about 5 hours and 80 million tokens later, I've built myself a full executive assistant. His name is Klouse. He has his own email account, his own ClickUp account, and I treat him like I would treat a regular employee.",
+    "hook_type": "Personal-Moment",
+    "credential_drop": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "NONE FOUND"
+      ],
+      "slow": [
+        "NONE FOUND"
+      ]
+    },
+    "vulnerability": "\"I remember when I was switching over from using NIN basically only to wanting to learn cloud code, I was intimidated as well\"",
+    "cta": "\"if you guys enjoyed or if you learned something new, then please give it a like. It definitely helps me out a ton.\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So today we're doing an analysis of Cloudbot versus Cloud Code.",
+      "Now, let me explain why.",
+      "Now, of course, to be fair,",
+      "And I just think it's cool that in about 5 hours,",
+      "So Cloud Code comes in at an 8.5 out of 10 with Claudebot coming in at a six.",
+      "The reason is Cloud Code has been around for about a year now and Claudebot is like 3 weeks old."
+    ],
+    "vocabulary": [
+      "tokens",
+      "assistant",
+      "dashboard",
+      "AI",
+      "coding sidekick",
+      "24/7",
+      "server",
+      "running on a server",
+      "checking his emails",
+      "monitoring social media",
+      "UX",
+      "slash commands",
+      "proactive",
+      "assistant",
+      "VPS"
+    ],
+    "analogies": [
+      "\"it's basically someone that you could treat like an employee, which is why I gave mine, you know, its own login credentials for different things. And I can just forward it emails or CC it on emails and have it just do things for me. and come back and let me know when it's done.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"here's where it gets interesting\"",
+      "\"I'll come back to this\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"So the categories that we're going to be looking at today are out of the box ability, setup friction and risk, cost, power and access, security, everyday usability, actual ROI, and the ICP. So I think that this gives a pretty holistic understanding of like the differences between the two tools, especially when we isolate these different factors and look at just that element.\""
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "num": 98,
+  "title": "How I'd Become an AI Consultant If I Had To Start Over (2 Paths)",
+  "date": "31/10/25",
+  "word_count": 3798,
+  "char_count": 21428,
+  "chunks": 1,
+  "extracted": {
+    "hook": "I made $231,000 in 30 days as an AI consultant.",
+    "hook_type": "Result-First",
+    "credential_drop": "\"My name's Nate. I'm a co-founder of True Horizon AI, an AI consultancy that helps business implement AI.\" (early)",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "\"So, first things first, [music] what even is an AI consultant?\"",
+      "\"Now, I want to be super clear about this. When I say I made $231,000 in a month, the majority of that revenue came from my B TOC side.\"",
+      "\"And here's the key. Most people reach out to me and they say the same thing. I know I need to start using AI, but I don't know how.\"",
+      "\"So, let's start with path one, which is the B TOC route.\"",
+      "\"Now, let's talk about path two, which is B2B, working with businesses directly.\""
+    ],
+    "cta": "\"If you enjoyed the video or you learned something new, please give it a like. It definitely helps me out a ton.\" (outro)",
+    "vocabulary": [
+      "AI consultant",
+      "educational side",
+      "implementation work",
+      "B TOC",
+      "B2B"
+    ],
+    "analogies": "\"Think of it like, you're not just handing them a pre-built workflow. You're helping them figure out what to build and why.\" (hook)",
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [
+        "$231,000",
+        "$600 million",
+        "$2 billion"
+      ],
+      "time_references": [
+        "30 days",
+        "a single month"
+      ],
+      "named_tools": [
+        "NN"
+      ]
+    },
+    "vulnerability": "\"I was working as a freelancer doing builds and consulting projects, helping companies figure out how to use AI in their own workflows. But over time, I started to realize that my biggest leverage was an education because I could help thousands of people learn how to do this for themselves.\" (early)",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "\"So, first things first, [music] what even is an AI consultant?\"",
+        "\"Now, I want to be super clear about this. When I say I made $231,000 in a month, the majority of that revenue came from my B TOC side.\""
+      ],
+      "slow": [
+        "\"So, let's break down the two main paths that you can take to make money as an AI consultant because I've done both. So, path one is B TOC, educating the market. Path two, B2B, working directly with businesses.\" (body)"
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": [
+      "\"The first step is to focus on problems, not tools. And this is the biggest mindset shift that you can make.\" (hook)"
+    ]
+  }
+}

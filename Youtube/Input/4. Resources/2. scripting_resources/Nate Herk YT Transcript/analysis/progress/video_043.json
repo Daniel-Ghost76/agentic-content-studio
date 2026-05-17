@@ -1,0 +1,71 @@
+{
+  "num": 43,
+  "title": "Google's New Model + Claude Code Just Changed RAG Forever",
+  "date": "11/03/26",
+  "word_count": 3813,
+  "char_count": 19744,
+  "chunks": 1,
+  "extracted": {
+    "hook": "Google just dropped Gemini embedding 2, which is their very first natively multimodal embedding model, and it is already blowing my mind.",
+    "hook_type": "Result-First",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, let's scale it up a little bit.",
+      "And I could ask a follow-up.",
+      "Okay. So I just opened up a folder called embedding demo."
+    ],
+    "cta": "If you guys enjoyed the video or you learned something new, please give a like. It helps me out a ton.",
+    "vocabulary": [
+      "multimodal",
+      "embedding",
+      "pinecone",
+      "cloud code",
+      "nade",
+      "nan"
+    ],
+    "analogies": [
+      "\"it's basically the concept of your AI agent only knows so much in its training data. So if you ask it a question and it doesn't have that information, it has to go grab it in order to generate a better answer.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollars": [],
+      "percentages": [],
+      "subscribers": [],
+      "time_references": [
+        "11/03/26"
+      ],
+      "named_tools": [
+        "Google AI Studio",
+        "Open Router.AI"
+      ]
+    },
+    "vulnerability": "\"I didn't try with audio yet, but that would be very similar to the way you do your videos and images.\"",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the capabilities of Gemini embedding 2"
+      ],
+      "slows": [
+        "explaining the process in detail"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "num": 11,
+  "title": "I Turned Claude Opus 4.7 Into a 24?7 Trader",
+  "date": "17/04/26",
+  "word_count": 8415,
+  "char_count": 42982,
+  "chunks": 2,
+  "extracted": {
+    "hook": "So, Claude Opus 4.6 is finally here. And it got me thinking because as I was scrolling down and I started looking at the benchmarks, I noticed right here we have Agentic Financial Analysis and we have about a 4% jump from Opus 4.6.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "So, that's exactly what I want to cover with you guys today.",
+        "Okay, so how to get started with these different tools that we need for this video."
+      ],
+      "slow": [
+        "And then on certain days, like on Fridays, he's doing a weekly review. So, this is the way I currently have mine set up."
+      ]
+    },
+    "vulnerability": "\"I'm just using the endpoints. I honestly like to use endpoints a lot more\"",
+    "cta": "\"if you enjoyed the video or you learned something new, please give it a like. It helps me out a ton.\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, that's exactly what I want to cover with you guys today.",
+      "Okay, so how to get started with these different tools that we need for this video.",
+      "And now that you know how to get these keys, just hold on to them. We're going to actually plug them in later in the video.",
+      "So, all you need to do to use the claw desktop app is just type in cloud desktop app download and you should be able to install it right here.",
+      "So, after this change has been made, we should be ready to start migrating over to setting up the routines.",
+      "All right, so while all of that still getting set up, let's talk about step three, which is guard rails.",
+      "And now that we've talked about all that, we will get to the routines and the deployment."
+    ],
+    "vocabulary": [
+      "trading",
+      "agent",
+      "AI",
+      "cloud code",
+      "routines",
+      "paper trading",
+      "ClickUp",
+      "Alpaca API",
+      "Perplexity API",
+      "context budget",
+      "migrate",
+      "permissions",
+      "cron jobs",
+      "remote routines",
+      "cloud code"
+    ],
+    "analogies": [
+      "\"So, think of this like you're teaching a kid to ride a bike. You have to explain how to balance before you go.\"",
+      "\"it's going to put the files in here into the memory and then we're going to be able to prompt our routines to always check the memory first and update the memory.\""
+    ],
+    "curiosity_gaps": [
+      "\"And then on certain days, like on Fridays, he's doing a weekly review. So, this is the way I currently have mine set up\"",
+      "\"So that is pretty much the tech stack that we're going to be using today to get all of this set up\"",
+      "\"And let's not waste any time getting started\"",
+      "\"I'm going to come down here to the bottom of the plan and I'm going to say, yeah, this all looks pretty much good to go, but one thing I forgot to tell you is that we want to use perplexity for research rather than just the native cloud code web search and web fetch function.\"",
+      "\"And then one other important thing that you have to do is inside of your actual um routine, what you want to do is go to permissions and you want to turn on allow unrestricted branch pushes. This removes the branch push restrictions and Claude will be able to actually push to any branch, not just the clawed/branches.\"",
+      "\"So, I'm coming back into this session that set up these five and I'm just going to say hey remember all of the API keys are going to be stored in the environment variables. So all of the prompts must explicitly state that.\""
+    ],
+    "specificity": [
+      "\"9859\"",
+      "\"6 a.m., our 8:30 a.m. We've got our noon and our 3 p.m. And then on Fridays, we have our actual weekly review as well.\"",
+      "\"I'm going to be giving away this document and it's going to have way more information in there about basically about everything that we've gone over today\"",
+      "\"And I'll drop that in my free school community. The link for that is down in the description\"",
+      "\"The hidden lesson is that files aren't just memory, but they're essentially the agent's full personality and discipline.\""
+    ],
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"So, understand this before you write anything. The trading strategy is a piece of the work, but the memory architecture that you're going to use is going to be huge.\""
+    ]
+  }
+}

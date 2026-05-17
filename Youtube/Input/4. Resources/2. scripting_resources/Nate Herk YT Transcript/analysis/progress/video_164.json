@@ -1,0 +1,69 @@
+{
+  "num": 164,
+  "title": "How I Auto Track AI Agent Actions and Token Usage (n8n tutorial)",
+  "date": "03/05/25",
+  "word_count": 2507,
+  "char_count": 12745,
+  "chunks": 1,
+  "extracted": {
+    "hook": "LLM observability is such a big deal when we're talking about AI agents because unlike traditional software, these systems can be a little bit unpredictable. They can hallucinate and they can become expensive, especially at scale. So, it's important to monitor their usage.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "All right, here's the agent we're going to be looking at today",
+      "So now let's just make this workflow error so we can see what happens if we do an error log",
+      "Okay, so the key to this system is within your AI agent you have to add an option called return immediate steps and turn it on",
+      "Okay. So the first thing is we're sending over a time stamp"
+    ],
+    "cta": "\"if you guys want to set this up on your own agentic workflows, all you have to do is go to my free school community\"",
+    "vocabulary": [
+      "observability",
+      "hallucinate",
+      "predictable",
+      "expensive",
+      "token usage",
+      "cost associated"
+    ],
+    "analogies": "\"think of it like\"",
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollars": [],
+      "percentages": [],
+      "subscribers": [],
+      "time_references": [
+        "03/05/25"
+      ],
+      "named_tools": [
+        "open router so chatbt 4.1 mini"
+      ]
+    },
+    "vulnerability": "\"sometimes your agents will error, but it will still go down the success branch\"",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the importance of observability"
+      ],
+      "slows": [
+        "explaining the system in detail"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

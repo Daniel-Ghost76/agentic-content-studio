@@ -1,0 +1,130 @@
+{
+  "num": 96,
+  "title": "Learn Voice Agents Now, Thank Me Later (Full Beginner's Guide)",
+  "date": "06/11/25",
+  "word_count": 9550,
+  "char_count": 50032,
+  "chunks": 3,
+  "extracted": {
+    "hook": "In this video, I'm going to take you from zero to building your very first voice AI agent.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NOT FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the anatomy of a voice agent and its components"
+      ],
+      "slows": [
+        "explaining the different types of voice agents (inbound, outbound, website widget)"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "If you enjoyed this one or you learned something new, please give it a like. It definitely helps me out a ton.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, let's not waste any time and get straight into the video.",
+      "Now I know when you hop into a new platform it can be a little overwhelming.",
+      "Okay. So, for the first example, we're going to go ahead and create a new one.",
+      "And now we have this in our Vappy dashboard.",
+      "And so now, what I want to show you guys is what we can do with the structured data.",
+      "But before we can actually finish this up,",
+      "So, I'm going to go ahead and hit publish.",
+      "Okay, so I didn't want this video to go super super long, but let's sort of wrap up what we covered today.",
+      "As you can see here, and we talked about how in the analysis tab,",
+      "The last thing I wanted to talk about is if you wanted to connect this to an actual phone number,",
+      "Now, the last thing I wanted to talk about was pricing."
+    ],
+    "vocabulary": [
+      "voice agents",
+      "NAND",
+      "Vappy",
+      "large language model",
+      "appointment scheduling",
+      "customer support",
+      "sales calls",
+      "phone calls",
+      "appointments",
+      "system prompt",
+      "voice agent",
+      "calendar",
+      "appointments",
+      "tool providers",
+      "Niden",
+      "Vappy",
+      "Google calendar",
+      "voice agents",
+      "NADN",
+      "Vappy",
+      "knowledge base",
+      "system prompts",
+      "iterating upon them with your testing",
+      "end of call report",
+      "pay as you go model"
+    ],
+    "analogies": [
+      "\"So the only thing we're actually changing here is the input and output. So the voice agent will take our speech, turn it into text. The large language model will process it and it will output a text response. But then the agent will just turn that text response into speech and it happens real time with minimal latency.\"",
+      "\"it's basically today's date and time\"",
+      "\"think of it like\"",
+      "\"imagine\"",
+      "\"it's basically X but Y\""
+    ],
+    "curiosity_gaps": [
+      "\"And then we have the actual voice. So, you can choose from tons of different voice models. You can use 11 Labs, other providers, stuff like that. This can be male, female, young, old, British, American, whatever you want.\"",
+      "\"So why would you want to connect them together? Because you can of course supercharge your agents and have them do anything that's possible with automation because in any you can connect to essentially anything.\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "I'll come back to this",
+      "stay till the end",
+      "here's where it gets interesting"
+    ],
+    "specificity": [
+      "\"2026\"",
+      "\"lots of opportunities\"",
+      "\"very clear ROI\"",
+      "\"you can have a lot of impact if you know how to build voice agents\""
+    ],
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\"",
+      "\"Hey, this is Nate from Hercules Detailing\"",
+      "\"Okay, had to go ahead and end the call\"",
+      "\"So, I'm glad that I told it to confirm that\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"Essentially, there are three core components that go into voice agents. We have speech to text, we have the large language model, and we have text to speech.\"",
+      "\"So, real quick example, let's say you're going into a dentist and you are building them a voice agent system.\"",
+      "We talked about some of the ways that you can use system prompts and what to look for when you're building one, as well as how you need to constantly be iterating upon them with your testing to make sure that your voice agents are actually getting better and better."
+    ]
+  }
+}

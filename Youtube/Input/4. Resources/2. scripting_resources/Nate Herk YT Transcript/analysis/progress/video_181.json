@@ -1,0 +1,58 @@
+{
+  "num": 181,
+  "title": "Ultimate No Code MCP Setup Guide (Self-Host, Installation, Common Issues)",
+  "date": "17/03/25",
+  "word_count": 6495,
+  "char_count": 32240,
+  "chunks": 2,
+  "extracted": {
+    "hook": "NOT FOUND",
+    "hook_type": "NOT FOUND",
+    "credential_drop": "NOT FOUND",
+    "script_type": "NOT FOUND",
+    "energy_notes": "NOT FOUND",
+    "vulnerability": "NOT FOUND",
+    "cta": "\"if this one helped out please give it a like it definitely helps me out a ton\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "so now we have um two functions for airbn B",
+      "now it's going back to the brave search tools",
+      "now on the second try back to the tool",
+      "so if we were to come back in here and say get me one article on dogs let's see what it would do"
+    ],
+    "vocabulary": [
+      "mCP",
+      "Brave web search",
+      "execute tool",
+      "tool name",
+      "parameters",
+      "API key",
+      "Airtable",
+      "records"
+    ],
+    "analogies": [
+      "\"imagine\""
+    ],
+    "curiosity_gaps": [
+      "I'll come back to this",
+      "stay till the end",
+      "here's where it gets interesting"
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\""
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

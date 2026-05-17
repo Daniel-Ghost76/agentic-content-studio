@@ -1,0 +1,91 @@
+{
+  "num": 190,
+  "title": "How to Set up Supabase and Postgres for RAG Agent with Memory in n8n (2025)",
+  "date": "22/02/25",
+  "word_count": 2873,
+  "char_count": 14297,
+  "chunks": 1,
+  "extracted": {
+    "hook": "so today I'm going to be showing you guys how to connect postgress SQL and superbase to naden so what I'm going to be doing today is walking through signing up for an account creating a project and then connecting them both to Ed in",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "so today I'm going to be showing you guys how to connect postgress SQL and superbase to naden so what I'm going to be doing today is walking through signing up for an account creating a project and then connecting them both to Ed in",
+      "but real quick postgress is an open source relational database management system that you're able to use plugins like PG Vector if you want Vector similarity search in this case we're just going to be using postgress as the memory for our agent and then superbase is a backend as a service that's kind of built on top of postgress",
+      "so here we are at nadn and what we know we're going to do here for our agent is give it memory with postgress and access to a vector database and superbase so for memory I'm going to click on this plus and click on postgress chat memory and then we'll set up this credential",
+      "so now that we have postgress chat memory set up let's hook up our superbase Vector store so we're going to drag it in and then now we need to go up here and connect our credentials so I'm going to create new credential and we we can see that we need two things a host and a service R secret",
+      "so if you are setting this up what you want to do is you know explain its role and you want to tell it you know you have access to a vector database it is called X it has information about X Y and Z and you should use it when a client asks about X Y and Z anyways that's going to be it for this one SB Bas and postgress are super super powerful tools to use to connect up as a database for your agents whether it's going to be relational or vector databases and you've got lots of options with you know self-hosting and some good options for security and scalability there so anyways hope this one was helpful if you learned something new please give it a like it definitely helps me out a lot and appreciate you guys as always so thanks see you in the next one"
+    ],
+    "cta": "\"if you learned something new please give it a like it definitely helps me out a lot\"",
+    "vocabulary": [
+      "open source",
+      "relational database management system",
+      "Vector similarity search",
+      "backend as a service",
+      "vector database",
+      "credential",
+      "host",
+      "service R secret",
+      "database for your agents",
+      "self-hosting"
+    ],
+    "analogies": [
+      "\"imagine you have a memory that's stored in a relational database and then you have a vector database that's like a fancy search engine\"",
+      "\"think of it like a chatbot that has access to both a traditional database for storing conversations and a vector database for searching through those conversations efficiently\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [
+        "22/02/25"
+      ],
+      "named_tools": [
+        "n8n",
+        "postgress",
+        "superbase"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "\"so here we are at nadn and what we know we're going to do here for our agent is give it memory with postgress and access to a vector database and superbase\"",
+        "\"so now that we have postgress chat memory set up let's hook up our superbase Vector store so we're going to drag it in and then now we need to go up here and connect our credentials\""
+      ],
+      "slow": [
+        "\"so today I'm going to be showing you guys how to connect postgress SQL and superbase to naden so what I'm going to be doing today is walking through signing up for an account creating a project and then connecting them both to Ed in\"",
+        "\"but real quick postgress is an open source relational database management system that you're able to use plugins like PG Vector if you want Vector similarity search in this case we're just going to be using postgress as the memory for our agent and then superbase is a backend as a service that's kind of built on top of postgress\"",
+        "\"so now that we have postgress chat memory set up let's hook up our superbase Vector store so we're going to drag it in and then now we need to go up here and connect our credentials so I'm going to create new credential and we we can see that we need two things a host and a service R secret\"",
+        "\"so if you are setting this up what you want to do is you know explain its role and you want to tell it you know you have access to a vector database it is called X it has information about X Y and Z and you should use it when a client asks about X Y and Z anyways that's going to be it for this one SB Bas and postgress are super super powerful tools to use to connect up as a database for your agents whether it's going to be relational or vector databases and you've got lots of options with you know self-hosting and some good options for security and scalability there so anyways hope this one was helpful if you learned something new please give it a like it definitely helps me out a lot and appreciate you guys as always so thanks see you in the next one\""
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": [
+      "\"so today I'm going to be showing you guys how to connect postgress SQL and superbase to naden so what I'm going to be doing today is walking through signing up for an account creating a project and then connecting them both to Ed in\"",
+      "\"so now that we have postgress chat memory set up let's hook up our superbase Vector store so we're going to drag it in and then now we need to go up here and connect our credentials so I'm going to create new credential and we we can see that we need two things a host and a service R secret\"",
+      "\"so if you are setting this up what you want to do is you know explain its role and you want to tell it you know you have access to a vector database it is called X it has information about X Y and Z and you should use it when a client asks about X Y and Z anyways that's going to be it for this one SB Bas and postgress are super super powerful tools to use to connect up as a database for your agents whether it's going to be relational or vector databases and you've got lots of options with you know self-hosting and some good options for security and scalability there so anyways hope this one was helpful if you learned something new please give it a like it definitely helps me out a lot and appreciate you guys as always so thanks see you in the next one\""
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "num": 115,
+  "title": "n8n's Agent Builder Somehow Made Building Agents Even Easier (text to workflow)",
+  "date": "10/09/25",
+  "word_count": 4694,
+  "char_count": 24829,
+  "chunks": 2,
+  "extracted": {
+    "hook": "All right, here we are in Nitn and we're looking at this chat GBT- like interface and I'm just going to tell it to create this workflow.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "\"So, let me hit you with this first one that we're going to do, like I said, super vague\"",
+        "\"All right, so for the last test that we're going to do today, I'm just going to try to throw a pretty complex system at it.\""
+      ],
+      "slows": [
+        "\"And then after it updates that row in our CRM, it uses this set node to create an email subject, an email body. All of these have variables once again, and I didn't even tell it to do this.\"",
+        "\"So, let's dive in real quick to see what it did.\""
+      ]
+    },
+    "vulnerability": "\"I'm definitely going to leverage it as well. But what's going to be really important is after you get your initial workflow generated that you can dive into it and understand why it's doing what it's doing and how to fix it, how to improve it, stuff like that.\"",
+    "cta": "But if that sounds like something that you're interested in, then definitely check it out. The link for that is down in the description.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"let me hit you with\"",
+      "\"literally insane\""
+    ],
+    "transitions": [
+      "So, it thought about it. It searched through all the nodes that it has access to and then it gave us a little outline.",
+      "And so quick disclaimer, if you're opening up your NDN and you don't see this GPT- like interface, don't worry.",
+      "Now that that's out of the way, what we're going to do today is talk about how this works and how to make your results better.",
+      "And you need to understand how AI workflows actually work fundamentally because the more context you can feed in and the more information you have about like where does my data come from, what do I want to do with the data, what fields am I looking for, what type of AI analysis am I going to do? All of that information is going to make your job a lot easier. And that's going to be super valuable because I'm aware of like sometimes you get in here and you don't know which nodes to use or where to start.",
+      "So you guys can see with a workflow like this, I'm assuming that all of these variables are going to be pretty much perfectly mapped over."
+    ],
+    "vocabulary": [
+      "workflow",
+      "agent builder",
+      "chat GBT- like interface",
+      "CRM",
+      "ClickUp",
+      "Gmail notification",
+      "Slack notification",
+      "AI analysis",
+      "qualification level",
+      "set node",
+      "AI workflows",
+      "context",
+      "information",
+      "data",
+      "fields",
+      "AI analysis"
+    ],
+    "analogies": [
+      "\"it's giving us an AI analysis and a qualification level and also a score out of 100\""
+    ],
+    "curiosity_gaps": [
+      "\"I'm going to talk about what works well, how to approach using this, and also talk about some of the limitations. So, let's get into it.\"",
+      "\"So, that is just to show you guys a very very vague prompt. It works but then there's going to be a lot more to configure.\""
+    ],
+    "specificity": [
+      "\"every morning\"",
+      "\"7 a.m.\"",
+      "\"five to seven top stories\"",
+      "\"professional summary with key highlights\"",
+      "\"Tavi and Perplexity\"",
+      "\"Enthropic Cloud 3.5 Sonnet\"",
+      "\"Tableau API key\"",
+      "\"Perplexi\"",
+      "\"TechCrunch AI article\"",
+      "\"Cloud Sonnet 3.7\""
+    ],
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"One prompt that's pretty vague, one prompt that is detailed and specific with text stack and stuff like that, and then we're going to do one that's kind of like a really agentic sub agent type of system, and we'll just break down like what worked well and what didn't.\""
+    ]
+  }
+}

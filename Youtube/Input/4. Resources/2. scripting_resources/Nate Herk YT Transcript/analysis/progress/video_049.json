@@ -1,0 +1,68 @@
+{
+  "num": 49,
+  "title": "Turn Claude Code Into Your Executive Assistant in 27 Mins",
+  "date": "05/03/26",
+  "word_count": 7022,
+  "char_count": 36706,
+  "chunks": 2,
+  "extracted": {
+    "hook": "This right here is my Claude Code executive assistant. Let me show you a few things that it can do.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NOT FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "So the first agent's done, which is our morning coffee, and we can see this is what is on the calendar for today. It's crazy that it said March 5th, it's actually the 4th, but still this is all correct."
+      ],
+      "slows": [
+        "And now it's able to just plan out my entire day and I can go ahead and say yes and it will just block off my whole calendar. And I really love doing this because if I don't have to have that decision fatigue of what should I do with my next 15 minutes, my next hour, and it's just done for me, I'm way more productive."
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "NOT FOUND",
+    "signature_phrases": [
+      "\"you guys got a little bit of a taste\"",
+      "\"let's not waste any time\"",
+      "\"what's really cool\"",
+      "\"here we go\"",
+      "\"literally insane\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So phase one, let's give this thing a home.",
+      "Now we are on phase two, which is the interview section."
+    ],
+    "vocabulary": [
+      "assistant",
+      "skills",
+      "projects",
+      "context",
+      "folders",
+      "files",
+      "prompt",
+      "markdown",
+      "token",
+      "file explorer"
+    ],
+    "analogies": [
+      "\"So the first agent's done, which is our morning coffee, and we can see this is what is on the calendar for today. It's crazy that it said March 5th, it's actually the 4th, but still this is all correct.\""
+    ],
+    "curiosity_gaps": [
+      "\"So the benefits are pretty clear here, you can save a lot of time, you never have to really repeat yourself, you scale your team, and you could potentially sell this skill. Because now you understand how to set up these frameworks with context management and, you know, memory.\"",
+      "\"And so on and so forth. So, that's how we're able to save tokens here, but still give CloudCode all the information that it needs.\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\""
+    ],
+    "frameworks": [
+      "So phase one is we need to give it a home.",
+      "So like I said, today I'm going to be showing you guys exactly how I built this thing and there's four main phases."
+    ]
+  }
+}

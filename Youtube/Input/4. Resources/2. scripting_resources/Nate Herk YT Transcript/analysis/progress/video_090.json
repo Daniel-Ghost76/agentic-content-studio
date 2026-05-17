@@ -1,0 +1,76 @@
+{
+  "num": 90,
+  "title": "How to Use the NEW Nano Banana 2 in n8n (cheaper & no watermark)",
+  "date": "21/11/25",
+  "word_count": 3196,
+  "char_count": 16295,
+  "chunks": 1,
+  "extracted": {
+    "hook": "All right, so we got the workflow ready. I'm going to open up this form and I'm going to drop in an image of myself.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "And so that's why we can look right here at the API documentation and create our tasks",
+      "Now, if you just want to get a feel for it and play around with it a little bit",
+      "Okay, so let's move on to the second example where we're getting an image and we're turning it into a different image"
+    ],
+    "cta": "\"if you enjoyed the video or you learned something new, please give it a like\"",
+    "vocabulary": [
+      "workflow",
+      "API key",
+      "image prompt",
+      "hyperrealistic",
+      "Nano Banana Pro",
+      "Key AI",
+      "4K",
+      "automation"
+    ],
+    "analogies": "\"think of it like\"",
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [
+        "12 cents",
+        "20% cheaper"
+      ],
+      "time_references": [
+        "5 seconds",
+        "13 tries",
+        "35 times"
+      ],
+      "named_tools": [
+        "Key AI"
+      ]
+    },
+    "vulnerability": "\"I don't even know what to say. This is ridiculously good\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "All right, so we got the workflow ready.",
+        "And for the image prompt, I'm saying a hyperrealistic image of this man shaking hands with Adam Sandler."
+      ],
+      "slow": [
+        "And then one final one, that one's pretty cool, too. But anyways, what I'm going to be showing you guys today is how we can use Nano Banana Pro in end-to-end so we can power our automations with better images."
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": [
+      "\"First, we've got text to image, then we're going to be doing image to image, and then finally we'll do multiple images to an image.\""
+    ]
+  }
+}

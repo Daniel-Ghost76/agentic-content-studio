@@ -1,0 +1,69 @@
+{
+  "num": 69,
+  "title": "I Will Never Fix Another n8n Workflow (Claude Code)",
+  "date": "22/01/26",
+  "word_count": 3301,
+  "char_count": 17204,
+  "chunks": 1,
+  "extracted": {
+    "hook": "So last week I dropped this YouTube video where I showed you guys how you can use Cloud Code to build and workflows instantly.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So right here, I've got this workflow.",
+      "And what I did is I just triggered this workflow once again.",
+      "So you guys know that when I'm using Cloud Code, I'm going to try my best to stay out of the terminal, but to the best of my knowledge, this is the way to do it right now because of the fact that we had to set up some like tunnels and stuff.",
+      "Okay, so I know this is cool, but I'm going to talk about how this could actually be practical and we're going to show off a few more examples."
+    ],
+    "cta": "\"if you enjoyed the video or you learned something new, please give it a like. It definitely helps me out a ton.\"",
+    "vocabulary": [
+      "Cloud Code",
+      "Nen",
+      "ClickUp",
+      "MCP server",
+      "NN skills",
+      "Tunnel",
+      "structured output parser",
+      "JSON body"
+    ],
+    "analogies": [
+      "\"So, this is the best way to think about it. NN is like a grocery store. Anyone can go to it because everyone knows where it is. It's public. It's on the cloud.\""
+    ],
+    "curiosity_gaps": [
+      "\"And then I get a message in ClickUp that says, 'Hey, the workflow has been fixed. The test form responder email responder agent had an error in the structured output parser. It had invalid JSON in the actual schema. So I fixed it and now it should work.'\"",
+      "\"So, this stuff definitely isn't perfect, but it's cool to see where we're going, and it's cool to experiment to see how we can Frankenstein our own solutions so that when the models get smarter and smarter, we're already there.\""
+    ],
+    "specificity": [
+      "\"I've got an 18page PDF guide on exactly how I did this\"",
+      "\"we've got a great community of over 3,000 members who are building automations every day and building businesses with automations\"",
+      "\"We've got one live Q&amp;A every single week\""
+    ],
+    "vulnerability": "\"I was kind of confused about it, too.\"",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the workflow and its failure",
+        "explaining how Cloud Code fixes the issue"
+      ],
+      "slows": [
+        "describing the setup process for tunnels and Enro"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": [
+      "\"The way that we're doing this is we are using an error workflow. So, as soon as that previous workflow fails at all, it triggers off this new one which basically sends an HTTP request essentially to cla code.\""
+    ]
+  }
+}

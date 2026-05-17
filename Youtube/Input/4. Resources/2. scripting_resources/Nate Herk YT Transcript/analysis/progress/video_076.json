@@ -1,0 +1,90 @@
+{
+  "num": 76,
+  "title": "I Built a New AI System in 3 Hours (and got paid $1650)",
+  "date": "07/01/26",
+  "word_count": 8176,
+  "char_count": 42330,
+  "chunks": 2,
+  "extracted": {
+    "hook": "So, I built an AI workflow in just three hours, and someone actually paid me 1,650 bucks for it.",
+    "hook_type": "Result-First",
+    "credential_drop": "\"I've got an Excalibraw here, and we're going over kind of at a high level what the system does, and then we'll hop into Nitn and actually see how it works.\" (late)",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "discussing the AI workflow and its components"
+      ],
+      "slow": [
+        "explaining the system prompt in detail"
+      ]
+    },
+    "vulnerability": "\"if I rebuilt it today, it would probably take me 30 minutes max\"",
+    "cta": "But if you enjoyed and if you learned something new, please give a like. It definitely helps me out a ton.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "\"So, in this video, I'm not only going to build it in front of you, but we'll also walk through what the agent does, why someone paid me for it, what I'd do differently today, and how I'd sell my first AI workflow if I was starting from zero today.\"",
+      "\"Okay, so I'm not actually going to build out the inbox manager part because it's kind of a boring build and I've done like a full course on it before, which is kind of what we're looking at right here.\"",
+      "\"So, let's just get started with the get email tool. So at this point, we already have our chat model, we have our memory, and we have the actual kind of like interface.\"",
+      "So, I'm going to publish it real quick.",
+      "All right, now that that workflow is published, let's hook it up to our parent agent here."
+    ],
+    "vocabulary": [
+      "AI workflow",
+      "Slack DM",
+      "Naden",
+      "Herkbot",
+      "Gmail tool",
+      "Google contacts",
+      "writer agent",
+      "subworkflow",
+      "subflow",
+      "prompt",
+      "contact",
+      "AI agent",
+      "workflow"
+    ],
+    "analogies": [
+      "\"it's basically saying all emails from today and then all the way back to a week ago\"",
+      "\"it's just the fact that if I was starting right now and I didn't have any clients yet, I don't think that I would go try to sell this solution. And there's a few reasons for that.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"So, obviously one of the first things is every agent I always go ahead and throw in at the bottom. Here's the current date and time because why would you not want your agent to know the current date and time?\"",
+      "\"First, I would identify a real problem, not just a cool idea or flashy agent, but an actual pain point that is costing someone time or money.\"",
+      "\"Second, I would pick the right tool for the job. For me that has been end because it's super flexible\"",
+      "\"Third, I would prototype fast. Just don't overthink it. It does not need to be the most complex or doesn't need to be perfect. Just get something working as quickly as possible so that you can test it, the client can test it, and then you can expose it to a real environment so that you can get these quick feedback loops because the quicker you get those feedback loops, the better you become as a builder and the better the system becomes in the real world.\""
+    ]
+  }
+}

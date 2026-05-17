@@ -1,0 +1,74 @@
+{
+  "num": 29,
+  "title": "Codex Just 10x�d Claude Code Projects",
+  "date": "31/03/26",
+  "word_count": 3214,
+  "char_count": 16816,
+  "chunks": 1,
+  "extracted": {
+    "hook": "So today OpenAI released an official Codex plugin for Cloud Code.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So here you can see",
+      "Now, all of these are the benchmarks, right?",
+      "And it also breaks down all of the different functions that are in here.",
+      "So real quick example of what that may look like."
+    ],
+    "cta": "\"if you enjoyed the video or you learned something new, please give it a like. It helps me out a ton.\"",
+    "vocabulary": [
+      "plugin",
+      "benchmarks",
+      "adversarial review",
+      "POC",
+      "uncommitted changes"
+    ],
+    "analogies": "\"it's about the actual gameplay, and it's about the actual like functionality of the code\"",
+    "curiosity_gaps": [
+      "\"So that's kind of why they decided to do this. And the cool thing is, which I didn't actually know\"",
+      "\"And so naturally, that's why you've seen a lot of people on X talking about\"",
+      "\"Now, what this really makes me think about is just the fact that you should be trying different tools and understanding like where to use them together\"",
+      "\"So in a session, if you come over here and you do {slash} plugins, you would basically have to, you know, try to install that marketplace\"",
+      "\"And now you can see that that adversarial review has been complete. So let's take a look and see what we got here\""
+    ],
+    "specificity": {
+      "dollars": [],
+      "percentages": [],
+      "subscribers": [],
+      "time_references": [
+        "31/03/26",
+        "a few times",
+        "about a 5-minute workflow"
+      ],
+      "named_tools": [
+        "Cloud Code",
+        "Codex",
+        "ChatGPT",
+        "GitHub"
+      ]
+    },
+    "vulnerability": "\"I'm on Windows, and when I was using this, I've gotten a bug a few times\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "discussing benchmarks and comparisons between Opus and GPT-5.4"
+      ],
+      "slows": [
+        "explaining the setup process for the plugin"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

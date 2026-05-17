@@ -1,0 +1,123 @@
+{
+  "num": 187,
+  "title": "How to Build an Outlook Inbox Manager in n8n (Step-by-Step, No Code)",
+  "date": "02/03/25",
+  "word_count": 7292,
+  "char_count": 36380,
+  "chunks": 3,
+  "extracted": {
+    "hook": "today we're going to be walking through step- by-step how to build an inbox manager for Outlook yep you heard me right not Google today we're looking at Outlook",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NOT FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "\"so the first thing we need to set up is the trigger of this workflow so what has to happen for this workflow to execute\"",
+        "\"from there like I said we're going to try to clean up that that text coming through before we send it off just so it makes this tutorial easier to follow\""
+      ],
+      "slow": [
+        "\"so let's hop into it okay\""
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "if you guys enjoyed this sort of step-by-step style definitely check out the paid Community Link for that will be down in the description I do a ton of step-by-step builds in there and that whole Community is a ton of people dedicated towards building AI agents and learning sharing resources um all that kind of stuff so if you enjoy the video please give it a like definitely helps me out I really appreciate you guys making it to the end of this video and I really appreciate all the support as of lately",
+    "signature_phrases": [
+      "\"let's not waste any time\"",
+      "\"so let's hop into it okay\"",
+      "\"what's really cool\"",
+      "\"literally insane\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "\"so the first thing we need to set up is the trigger of this workflow so what has to happen for this workflow to execute\"",
+      "\"from there like I said we're going to try to clean up that that text coming through before we send it off just so it makes this tutorial easier to follow\"",
+      "\"now that it has its system message and instructions and it has the dynamically changing email that's coming in every different time we'll hit test up and on the right we'll see that it's cleaning up the email\"",
+      "\"so now I'm just going to change this node and say clean email just so we know what it's doing and next we're going to move into the routing aspect\"",
+      "so now that it knows what to look through",
+      "now if I hit play we'll see that it's going to Output this item as high priority because we have one item down this branch and if we click into it we can see high priority one item billing zero items promotion zero items so we know that this is working as it should cool so next what we want to do",
+      "back into out look this node's taken care of and now it's just about figuring out what logic do you want to happen after you get a high priority email in this case let's just say we want to get notified",
+      "so in the message description",
+      "now we're going to click clean email so it creates human readable",
+      "what do we want to do for it's a promotional email maybe we just we don't care if it's a draft because it's otion",
+      "let me hit you with this one",
+      "back into here let's look at what the agent's going to do which is we have to first Define the user message so once again we're going to do the same thing pretty much here is the incoming email we're going to drag it from the clean content node"
+    ],
+    "vocabulary": [
+      "walk through",
+      "step-by-step",
+      "tutorial",
+      "routing agent architecture",
+      "logic path",
+      "high priority customer support promotion finance and billing",
+      "customizable",
+      "agent",
+      "email",
+      "message",
+      "text classifier node",
+      "logic",
+      "AI brain",
+      "flash 2.0 model",
+      "message ID",
+      "automation",
+      "Telegram",
+      "draft",
+      "draft",
+      "outlook",
+      "promotional",
+      "email",
+      "folder",
+      "subject",
+      "message",
+      "automation"
+    ],
+    "analogies": [
+      "\"it's going to be changing every time we don't care about the text classifier node right now we don't care about cleaning email all we want to look in is the trigger and we want to grab the message ID of the message that we got that fired off this workflow\"",
+      "\"so as you can see I have them already set up so back in then and then I'm going to click on the plus after the high priority Branch I'm going to type Outlook and I'm going to go down to message actions and click on um move a message okay so this node is going to be moving this message into the high priority folder\"",
+      "\"so as you can see that is what it's getting to respond to cool so now we just want to set up the system message so I'm going to tell it you know here's an overview you are a billing assistant whatever that means your job is to respond to the incoming emails in a professional manner\"",
+      "\"think of it like\""
+    ],
+    "curiosity_gaps": [
+      "\"so we could either have the agent send us a message we could have the agent respond to the message we could have the agent create a draft you know whatever it is we're able to get in there and customize it\"",
+      "\"whether you've been building with naden for a while now or this is going to be one of your first builds don't worry we're going to break it down make it as simple as possible\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "\"I'll come back to this\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\"",
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "we're going to look at I just sent an email to myself in here so as you can see it's pretty promotional boost your workflow um there's not even a sign in or an introduction hey Nate um 20% off all this kind of stuff right"
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "num": 131,
+  "title": "I Built 204 AI Automations, Here�s What Actually Matters",
+  "date": "29/07/25",
+  "word_count": 5233,
+  "char_count": 28163,
+  "chunks": 2,
+  "extracted": {
+    "hook": "After building over 200 nocode AI automations, I've come to realize that context engineering is the most important thing in determining the quality and consistency of the AI systems.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "discussing context engineering and its importance"
+      ],
+      "slows": [
+        "explaining the different components of memory systems"
+      ]
+    },
+    "vulnerability": "\"This is probably the last video you'll see from me in this apartment as I'm transitioning to my new apartment\"",
+    "cta": "If you did or if you learned something new, please give it a like. It definitely helps me out a ton.",
+    "signature_phrases": [
+      "\"let's not waste any time\"",
+      "\"literally insane\"",
+      "\"what's really cool\"",
+      "\"you guys\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "All right, just to start off here with module one, intro to context engineering",
+      "So moving on to module two.",
+      "Moving on to module three, which is about using tool calling for rag.",
+      "So before you build that database, that source of truth, think about the way the agent is going to use it.",
+      "The second point would be about designing your data pipeline."
+    ],
+    "vocabulary": [
+      "nocode",
+      "AI automations",
+      "context engineering",
+      "system prompt",
+      "memory",
+      "context engineering",
+      "rag systems",
+      "vector databases",
+      "predictable inputs",
+      "predictable standardization"
+    ],
+    "analogies": [
+      "\"Prompt engineering is like studying for an exam, you know, the week before. But context engineering is showing up to the exam with a cheat sheet that you can look at every single time you're faced with a problem you don't know\"",
+      "\"It's basically like the difference between prompt engineering and context engineering\"",
+      "\"Think of it like an assembly line. Everyone does one thing and then they take that input, they do it, and then they pass it off to the next step.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"here's where it gets interesting\"",
+      "I'll come back to this",
+      "stay till the end",
+      "here's where it gets interesting"
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"So there's really these six main components of context engineering. So let me quickly break it down.\"",
+      "\"Point number four is to optimize context windows.\"",
+      "\"Number five, which I think is really important, is to embrace AI specialization. \""
+    ]
+  }
+}

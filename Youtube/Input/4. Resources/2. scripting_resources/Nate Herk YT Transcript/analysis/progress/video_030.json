@@ -1,0 +1,75 @@
+{
+  "num": 30,
+  "title": "I�ve Built 500 AI Workflows, This is What Businesses Want in 2026",
+  "date": "30/03/26",
+  "word_count": 3812,
+  "char_count": 21896,
+  "chunks": 1,
+  "extracted": {
+    "hook": "After building hundreds of AI workflows for real clients, and teaching thousands to do the same, I noticed something weird, which is that most people online are building the fancy stuff, but businesses don't actually want that.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "\"I've worked with coaches, real estate agents, dentists, HVAC, e-commerce, and more. And I've seen the same patterns across every business.\" (late)",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "\"So, let's get into the first workflow. So, this one is speed delete.\"",
+      "\"All right. So, before I get into this next one, I need you to understand something. I'm about to cover two workflows back-to-back that sound pretty similar on the surface, which are follow-up sequences and database reactivation, but they solve different problems\"",
+      "\"Okay, so that was follow-up sequences, which handle new leads that need nurturing. Database reactivation is a completely different animal.\"",
+      "\"So, the last one, and I saved this one for the end, because it might be one of the most underrated automations on the entire list, which is internal reporting and status notifications\"",
+      "\"Okay, so now that you know what the five best workflows are to sell, here's how to actually sell them.\""
+    ],
+    "cta": "\"if you want to see exactly how I started making money using this framework, then check out this video on screen right up here\"",
+    "vocabulary": [
+      "hundreds of AI workflows",
+      "real clients",
+      "service-based businesses",
+      "speed delete",
+      "document processing"
+    ],
+    "analogies": "\"imagine you're an accountant\"",
+    "curiosity_gaps": "\"I'll come back to this\"",
+    "specificity": {
+      "dollar_amounts": [
+        "$30 an hour",
+        "$78,000 a year",
+        "$20,000",
+        "$50 a month"
+      ],
+      "percentages": [
+        "12%",
+        "25%",
+        "80%",
+        "4%"
+      ],
+      "time_references": [
+        "two full days",
+        "15 minutes per invoice",
+        "45 hours a week",
+        "15 to 25 dollars each"
+      ]
+    },
+    "vulnerability": "\"I've worked with coaches, real estate agents, dentists, HVAC, e-commerce, and more. And I've seen the same patterns across every business\"",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "discussing speed delete automation"
+      ],
+      "slow": [
+        "explaining document processing workflow"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": [
+      "\"So, in this video, I'll show you what they are, why they sell, and how you can build and sell them, too.\""
+    ]
+  }
+}

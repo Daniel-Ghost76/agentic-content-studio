@@ -1,0 +1,108 @@
+{
+  "num": 104,
+  "title": "Build ANYTHING with Base44 and n8n AI Agents (beginner's guide)",
+  "date": "10/10/25",
+  "word_count": 6160,
+  "char_count": 31882,
+  "chunks": 2,
+  "extracted": {
+    "hook": "Today, we're going to be talking about how you can build anything with Base 44 and n8n AI agents.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NOT FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "\"So, the data that the client enters into our Base 44 app is going to be sent to an n8n AI agent\"",
+        "\"And so, when we combine Base 44 with n8n, we're then able to have our AI agents power the back end of our entire web app.\""
+      ],
+      "slow": [
+        "\"So, what we're building today is a lead magnet system. If you want to actually go ahead and follow along with this video, I'm going to do everything like I said live in front of you guys\"",
+        "\"And so, the data that the client enters into our Base 44 app is going to be sent to an n8n AI agent\"",
+        "\"So, what we're going to be doing today is a live build of an AI-powered lead magnet system.\""
+      ]
+    },
+    "vulnerability": "\"Super embarrassing. But anyways, this was all spun up in about 10 minutes of work and we've added some pretty cool custom animations and effects.\"",
+    "cta": "If this ever loads up, there it is, as you can see. So we were given a really, really tiny bit of information about a person, and we were able to directly to their inbox give them a lot of free value, and hopefully convince them to book in a full call.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "All right, so here we are in Base 44.",
+      "And then from n8n, it'll get sent straight to that client's inbox and it's going to be really professional looking and then at the bottom of that email, it's going to say, \"Hey, if you want more, book in a call and let's talk.\"",
+      "So, don't want to waste any time, so let's hop right into Base 44 and start building our front end.",
+      "All right, so we just got back our first iteration.",
+      "So we then move into the roadmap.",
+      "Now one thing here is take this with a grain of salt because our consultant agent made this data, and the consultant agent doesn't yet know how we would charge or, you know, what we would price the solution at. So this kind of stuff, these figures are a little bit made up.",
+      "In order to really do an ROI analysis, you'd need to prompt for more information about how much manual time it's really taking.",
+      "And I'll show you guys what I mean by that right now.",
+      "So we were given a really, really tiny bit of information about a person, and we were able to directly to their inbox give them a lot of free value, and hopefully convince them to book in a full call."
+    ],
+    "vocabulary": [
+      "live build",
+      "front end",
+      "web app",
+      "AI agents",
+      "custom integrations",
+      "workflows",
+      "prompt",
+      "visual edit",
+      "hero text",
+      "animation",
+      "quick win",
+      "MVP",
+      "pain point",
+      "context switching",
+      "knowledge fragmentation",
+      "ROI analysis",
+      "webhook",
+      "production URL",
+      "API credits"
+    ],
+    "analogies": [
+      "\"think of it like\""
+    ],
+    "curiosity_gaps": [
+      "\"So, the data that the client enters into our Base 44 app is going to be sent to an n8n AI agent that's going to be trained on how to conduct an AI implementation roadmap. And then from n8n, it'll get sent straight to that client's inbox and it's going to be really professional looking\"",
+      "\"And so, the main color for our brand is light blue.\"",
+      "\"All right, so there we go. It just basically blended that into the whole background and I think that looks a lot better than what it previously was.\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\"",
+      "you guys",
+      "those of you",
+      "OGs",
+      "if you've been with me"
+    ],
+    "frameworks": [
+      "\"So we start with phase A, which is a quick win or MVP in 1 to 2 days\"",
+      "\"Now we have essential knowledge base with all of the documents and stuff that we need. We have a unified email processor. We have a feedback loop and a dashboard.\"",
+      "\"And this is really cool. It then goes on to talk about the return on investment. So we have a daily time spend. We have monthly cost, as you can see, and then we have monthly savings, which can get up to $3,000\"",
+      "\"So, all you would need to do is create your own landing page and then create your own AI consultant and then you can start throwing this out there as a value add lead magnet.\""
+    ]
+  }
+}

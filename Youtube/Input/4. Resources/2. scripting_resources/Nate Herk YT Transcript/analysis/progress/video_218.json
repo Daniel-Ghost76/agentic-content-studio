@@ -1,0 +1,90 @@
+{
+  "num": 218,
+  "title": "Set up Google Credentials in n8n in 5 minutes (2025)",
+  "date": "29/11/24",
+  "word_count": 1279,
+  "char_count": 6245,
+  "chunks": 1,
+  "extracted": {
+    "hook": "this is how to set up your Google credentials in under 5 minutes so that you can connect to any Google app",
+    "hook_type": "Time-Bound",
+    "credential_drop": "NOT FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "so that you can connect to any Google app in",
+      "all right we're going to start with Google Drive",
+      "once that project has been created you'll click on select project so we can get in there and make that ooth and the client ID now make sure up here you've selected the right project then we can go into the navigation menu and click on apis and services and we're going to go down to ooth consent screen",
+      "once again right above ooth send screen click on credentials as you can see right now we have no API Keys No oo client IDs and no service accounts so we're going to click create credential and we're going to go to ooth client ID within here we're going to set up a web application and you can name it anything you want once again we'll call this one demo",
+      "now that we've done that a screen will pop up with with our client ID and our client secret so we're going to copy the ID paste the ID in there go back to Cloud copy the secret paste the secret in there and then we'll be prompted to sign in with Google click on this button it's going to pull up a screen over here where you're just going to choose the account you want to choose the one that you have yourself as a test user",
+      "so we have that credential connected but we're not fully done yet because you can see there's no information coming back so we're going to go back into Cloud we need to go to enabled apis and services and now we need to enable the certain things that we want to access in naden"
+    ],
+    "cta": "\"thanks for watching guys if you found this one helpful please leave a like it really helps me out and then go to my channel and watch a ton of other n tutorials that I've got on there\"",
+    "vocabulary": [
+      "credential",
+      "Google Cloud account",
+      "project",
+      "API Key",
+      "client ID",
+      "service account",
+      "authorized redirect URI",
+      "OAuth consent screen",
+      "web application",
+      "test user"
+    ],
+    "analogies": "\"think of it like\"",
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollars": "NOT FOUND",
+      "percentages": "NOT FOUND",
+      "subscribers": "NOT FOUND",
+      "time_references": [
+        "under 5 minutes"
+      ],
+      "named_tools": [
+        "n8n",
+        "Google Cloud",
+        "Google Drive",
+        "Google Docs",
+        "Google Sheets",
+        "Google Slides"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "how to set up your Google credentials in under 5 minutes so that you can connect to any Google app"
+      ],
+      "slows": [
+        "we're going to go into the navigation menu and click on apis and services and we're going to go down to ooth consent screen once we're in here we're going to click create we're basically just setting up that NN has permission to access stuff within our Google environment so we're going to name this one I'm going to call this one demo you need to add a support email so add an email there and then you can fill out more information but you don't need to just another email right here"
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\""
+    ],
+    "frameworks": [
+      "\"so that you can connect to any Google app in\"",
+      "\"all right we're going to start with Google Drive\"",
+      "\"once that project has been created you'll click on select project so we can get in there and make that ooth and the client ID now make sure up here you've selected the right project then we can go into the navigation menu and click on apis and services and we're going to go down to ooth consent screen\"",
+      "\"once again right above ooth send screen click on credentials as you can see right now we have no API Keys No oo client IDs and no service accounts so we're going to click create credential and we're going to go to ooth client ID within here we're going to set up a web application and you can name it anything you want once again we'll call this one demo\"",
+      "\"now that we've done that a screen will pop up with with our client ID and our client secret so we're going to copy the ID paste the ID in there go back to Cloud copy the secret paste the secret in there and then we'll be prompted to sign in with Google click on this button it's going to pull up a screen over here where you're just going to choose the account you want to choose the one that you have yourself as a test user\"",
+      "\"so we have that credential connected but we're not fully done yet because you can see there's no information coming back so we're going to go back into Cloud we need to go to enabled apis and services and now we need to enable the certain things that we want to access in naden\""
+    ]
+  }
+}

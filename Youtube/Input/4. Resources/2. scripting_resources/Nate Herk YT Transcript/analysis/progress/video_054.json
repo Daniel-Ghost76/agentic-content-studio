@@ -1,0 +1,69 @@
+{
+  "num": 54,
+  "title": "I Can Actually Watch My AI Agents Work Now",
+  "date": "25/02/26",
+  "word_count": 2945,
+  "char_count": 15522,
+  "chunks": 1,
+  "extracted": {
+    "hook": "All right. So, here I am in cloud code in the terminal right over here.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, in the first terminal, we can see here's the visual.",
+      "Okay, so the way that we are doing this is we are using Visual Studio Code and that's where I've been using Cloud Code as an extension."
+    ],
+    "cta": "\"if you guys enjoyed the video or you learned something new, please give it a like. It definitely helps me out a ton.\"",
+    "vocabulary": [
+      "cloud code",
+      "agents",
+      "terminal",
+      "sub agents",
+      "visual diagram"
+    ],
+    "analogies": "\"it's honestly a very similar flow if you watch the way I set up my OpenClaw personal assistant\"",
+    "curiosity_gaps": [
+      "\"I don't know where she's off to, but you can see now that both of these agents are done. They're idle. They're done working.\"",
+      "\"So, one monitor I'll be coding with stuff and the other monitor I'll be working on other things and I can just kind of easily glance back and forth.\""
+    ],
+    "specificity": {
+      "dollars": [],
+      "percentages": [],
+      "subscribers": [
+        "3000"
+      ],
+      "time_references": [
+        "\"25/02/26\"",
+        "\"a few days ago\""
+      ],
+      "tools": [
+        "Visual Studio Code",
+        "Pixel Agents"
+      ]
+    },
+    "vulnerability": "\"I had to learn that the hard way.\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "discussing the setup and benefits of Pixel Agents"
+      ],
+      "slow": [
+        "explaining the technical details of Cloud Code and Pixel Agents"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

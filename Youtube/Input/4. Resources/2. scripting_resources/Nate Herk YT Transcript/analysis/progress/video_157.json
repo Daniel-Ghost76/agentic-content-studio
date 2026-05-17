@@ -1,0 +1,105 @@
+{
+  "num": 157,
+  "title": "I Built a 24?7 Viral Shorts Machine with No-Code (free n8n template)",
+  "date": "19/05/25",
+  "word_count": 7434,
+  "char_count": 37959,
+  "chunks": 2,
+  "extracted": {
+    "hook": "I just built this AI system that 100% automates viral shorts like these while you sleep.",
+    "hook_type": "Result-First",
+    "credential_drop": "NOT FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the workflow steps and tools used"
+      ],
+      "slows": [
+        "explaining each step in detail"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "\"if you enjoyed this video and you learned something new or you enjoy this style of teaching and this style of video, definitely give this video a like. It helps me out a ton.\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, let's do a live run and then we'll walk through looking at every single node in detail so you guys can see exactly how I built this system.",
+      "And if we click into this node right here,",
+      "From there, what we do is we're basically just setting brands into one array.",
+      "Once we have those as four individual items,",
+      "So the first thing I want to call out is that in the user message,",
+      "Now we're going to start to create those elements.",
+      "And then the most important is we're sending over two fields in the body request.",
+      "So, the first thing we're doing is we're hitting that Google sheet and we're updating a row.",
+      "And the way we want to do that is through a platform called Blot,",
+      "Okay, so that's basically this entire workflow.",
+      "As you can see, it's not too complicated and I really want you guys to download this workflow, test it out, play with the prompts, and customize it for, you know, creating your own unique type of shorts."
+    ],
+    "vocabulary": [
+      "AI",
+      "automates",
+      "system",
+      "Google sheet",
+      "Flux",
+      "Cling",
+      "11 Labs",
+      "Creatmate",
+      "Botato",
+      "No-Code",
+      "free n8n template",
+      "Google sheet",
+      "Blotato",
+      "API key"
+    ],
+    "analogies": [
+      "\"think of it like\"",
+      "\"it's going to be 6 cents per image\""
+    ],
+    "curiosity_gaps": [
+      "\"So, as you can see, they were super cinematic. They had little people walking around. You could immediately tell which brand it was as soon as you saw the video.\"",
+      "\"And then we're going to be using Botato to auto post to Instagram, Tik Tok, and YouTube. As always, I'm giving away all the resources that you need for free. So later in the video, I'll talk about how you can access all those resources and how you can actually plug them in and what you need to set up on your end so you can have the system running in less than 10 minutes.\"",
+      "\"I'll come back to this\""
+    ],
+    "specificity": [
+      "\"6 cents per image\"",
+      "\"5 to 6 minutes\"",
+      "\"20 seconds long\"",
+      "\"4 times a day\""
+    ],
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"Step one is we're grabbing the main story from our Google sheet and we're feeding it into an AI agent to create those prompts.\"",
+      "\"Then step two is we're going to use Flux to create those images and they turn out super high quality.\"",
+      "\"Step three is we're going to feed those images into Cling to turn them into videos and these also turn out super high quality.\"",
+      "\"Then we're going to use 11 Labs to create one unique sound effect for each video.\"",
+      "\"Step five, we're going to use Creatmate to render all the video files and audio files together in one video.\"",
+      "\"The first thing you need to do is go to my free school community.\"",
+      "\"Next thing you're going to have to do is set up your file credential for all six of these nodes.\"",
+      "\"Then we get to create a mate down here. So the first thing that you need to do is when you're in that school post right here, you'll see like a PDF and it will look like this\"",
+      "\"The last part would just be in Botato. If you go to your settings, choose which ones you want to post to, and then once you log in, you'll have to link all of your own account IDs, you know, in those individual requests like I kind of talked about earlier.\""
+    ]
+  }
+}

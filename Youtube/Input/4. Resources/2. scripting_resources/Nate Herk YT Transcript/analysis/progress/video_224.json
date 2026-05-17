@@ -1,0 +1,72 @@
+{
+  "num": 224,
+  "title": "I Scraped, Researched, and Created Outreach for 16,846 Leads using Godmode HQ",
+  "date": "10/11/24",
+  "word_count": 2867,
+  "char_count": 15142,
+  "chunks": 1,
+  "extracted": {
+    "hook": "so I just scraped did research on and generated personalized Outreach messages for 16,826 second year I believe usai could optimize the CIA program to handle more participants efficiently improving quality and completion rates would this be useful to us a",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NOT FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "so the AI really did all the work for us here all we have to do is hit launch campaign and we're good to go",
+      "hey guys today we'll be exploring a new AI platform that I've recently been playing around with called God mode HQ",
+      "all right once we're in god mode HQ the first thing that you're going to want to do is set up your go to market profile",
+      "so this search just got us 16,849 so we're not double messaging we can see their domain company LinkedIn country and city stuff like that but now we can also add more data points that we want to see",
+      "now that we've done all that research about these companies we're going to switch this purpose to generate Outreach and this column is going to be our email Outreach so it's going to make the personalized message here's what we got for the prompt write an outbound email to at name which is just going to be the first name of the person rather than their full name start by greeting them and then write a specific one- sentence hook based on the information in research for hook this should be congratulating them on something from research for hook and it should not be generic or include any cliches",
+      "so as you can see we've got all the information that we need here we for these first five rows we research their company and the person to get information for a hook we then found out that the AI features that their company offers so that we could create specific pain points on how our company can help their company and then we were able to really quickly generate personalized emails as well as personalized LinkedIn messages",
+      "so now we're going to take these first five rows right here and we'll hit launch campaign and this is where we can set up the actual automated campaign"
+    ],
+    "cta": "if you guys enjoyed this video please definitely leave a like let me know what else you want to see within god mode I think it's definitely a super powerful platform that takes absolutely zero code just putting in a few variables",
+    "vocabulary": [
+      "Godmode HQ",
+      "lead list",
+      "personalized messages",
+      "AI research",
+      "Outreach",
+      "automation",
+      "campaign setup"
+    ],
+    "analogies": [],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "16,826": "number of leads scraped",
+      "3 days": "follow-up email wait time",
+      "4 hours": "LinkedIn message send delay after connection request acceptance",
+      "$0": "cost mentioned for using Godmode HQ"
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "exploring a new AI platform that I've recently been playing around with called God mode HQ and it is super powerful essentially you're able to talk to this platform using natural language"
+      ],
+      "slows": [
+        "so the AI really did all the work for us here all we have to do is hit launch campaign and we're good to go hey guys today we'll be exploring a new AI platform that I've recently been playing around with called God mode HQ and it is super powerful essentially you're able to talk to this platform using natural language"
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\""
+    ],
+    "frameworks": []
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "num": 107,
+  "title": "Build ANYTHING with Claude Sonnet 4.5 and n8n AI Agents",
+  "date": "01/10/25",
+  "word_count": 4440,
+  "char_count": 23389,
+  "chunks": 2,
+  "extracted": {
+    "hook": "So, Anthropic just released Cloud Sonnet 4.5, which is their newest AI model and their smartest AI model yet.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "NONE FOUND"
+      ],
+      "slow": [
+        "NONE FOUND"
+      ]
+    },
+    "vulnerability": "\"I'm curious if maybe that was an issue because of the tools rather than calling certain things like subworkflows.\"",
+    "cta": "\"If you enjoyed or you learned something new, please give it a like. It definitely helps me out a ton.\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"I'd love to see you guys in these calls and in this community\"",
+      "\"we've got a great community of over 2500 members who are building with nodn every day\"",
+      "\"let me hit you with\" the link for this is down in the description",
+      "\"you guys\"",
+      "\"I'll come back to this\"",
+      "\"here's where it gets interesting\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\""
+    ],
+    "transitions": [
+      "So, of course, I wanted to show you guys some stuff, too.",
+      "But before that, I think we just need to do a real quick overview of this new Sonnet 4.5 release.",
+      "Now, one thing I wanted to hit on real quick here is that the context window of this sonnet model.",
+      "And then I'll show you guys how much context we're going to shove into this agent and how 200,000 is still a lot of tokens.",
+      "So if you want to see the actual release doc from Anthropic, just look up Cloud Sonnet 4.5 release notes or I'll also put it in the description of this video.",
+      "Now, this one I thought was pretty interesting, which is also on the anthropic release doc",
+      "And then we're going to shove a ton of information in it and we're going to see how well it's able to pick out the right answers from that context.",
+      "So, that sounds good. Let's get into edit end.",
+      "So, it's hard to say that like, you know, Sonnet 4.5 is the new king of LLMs because every LLM is better at different things.",
+      "But the good news is if you want to be in a community where you can constantly have conversations like this and hear what other people are using for different use cases then definitely check out my plus community."
+    ],
+    "vocabulary": [
+      "AI agents",
+      "context window",
+      "coding",
+      "automation",
+      "tools",
+      "system prompt",
+      "use case",
+      "evaluations",
+      "LLMs",
+      "community",
+      "plus community",
+      "n8n",
+      "AI Agents",
+      "courses",
+      "foundations",
+      "scalable AI automation business"
+    ],
+    "analogies": [
+      "\"it's basically Enthropic's latest model\""
+    ],
+    "curiosity_gaps": [
+      "\"And if you've heard of Enthropic, you've heard of Claude, you've heard of Opus. They're all basically baked into Anthropic's Claude model family.\"",
+      "\"So why is Sonnet 4.5 better than the previous Sonnet models?\"",
+      "\"Now, one thing I wanted to hit on real quick here is that the context window of this sonnet model\"",
+      "\"And then we're going to shove a ton of information in it and we're going to see how well it's able to pick out the right answers from that context.\"",
+      "\"So, that sounds good. Let's get into edit end.\"",
+      "\"I'll come back to this\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\""
+    ],
+    "frameworks": [
+      "\"So, of course, I wanted to show you guys some stuff, too.\"",
+      "\"But before that, I think we just need to do a real quick overview of this new Sonnet 4.5 release.\"",
+      "\"Now, one thing I wanted to hit on real quick here is that the context window of this sonnet model.\"",
+      "\"And then we're going to shove a ton of information in it and we're going to see how well it's able to pick out the right answers from that context.\""
+    ]
+  }
+}

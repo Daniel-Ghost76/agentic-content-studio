@@ -1,0 +1,86 @@
+{
+  "num": 27,
+  "title": "Claude Code Source Code Just Leaked� 8 Things You Must Do",
+  "date": "01/04/26",
+  "word_count": 2880,
+  "char_count": 16571,
+  "chunks": 1,
+  "extracted": {
+    "hook": "So, Cloud Code's source code just got leaked to the internet. 2,000 files, over half a million lines of production code, the actual code base behind Cloud Code.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NOT FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, let's get into the stuff that actually matters here.",
+      "Next one, number three, we have the memory system, and it is way more important than you think.",
+      "All right, so number four, we have that permissions are why Claude might feel slow."
+    ],
+    "cta": "\"if you enjoyed the video or you learned something new, please give it a like. Definitely helps me out a ton.\"",
+    "vocabulary": [
+      "leaked",
+      "source code",
+      "production code",
+      "tool system",
+      "command system",
+      "memory system",
+      "permission engine",
+      "task manager",
+      "multi-agent coordinator",
+      "MCP client and server"
+    ],
+    "analogies": [
+      "\"If Claude Code is an employee, then claw.md is their onboarding document.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollars": "NOT FOUND",
+      "percentages": "NOT FOUND",
+      "subscribers": "NOT FOUND",
+      "time_references": "01/04/26",
+      "named_tools": [
+        "bun TypeScript and React",
+        "MPM package",
+        "GitHub",
+        "DMCA takedown notices",
+        "PNPM"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "\"So, Cloud Code's source code just got leaked to the internet. 2,000 files, over half a million lines of production code\"",
+        "\"The first thing this leak reveals is that Claude code is not what most people think it is\""
+      ],
+      "slow": [
+        "\"And someone at Enthropic got paid to write 187 of these. I just think, you know, that's the energy that I want from the people that are building my tools.\""
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": [
+      "\"The first thing this leak reveals is that Claude code is not what most people think it is.\"",
+      "\"Next one, number three, we have the memory system, and it is way more important than you think.\"",
+      "\"All right, so number four, we have that permissions are why Claude might feel slow.\""
+    ]
+  }
+}

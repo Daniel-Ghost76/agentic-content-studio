@@ -1,0 +1,79 @@
+{
+  "num": 55,
+  "title": "Claude Code Just Added What Everyone Wanted (Remote Control)",
+  "date": "25/02/26",
+  "word_count": 2001,
+  "char_count": 10440,
+  "chunks": 1,
+  "extracted": {
+    "hook": "Normally, when we want to use Claude code, we have to do so in a chat window like this on our local machine.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, that just finished up.",
+      "Now, one thing to keep in mind is the session URL.",
+      "As you can see, if they're disconnected, it won't let you chat."
+    ],
+    "cta": "If you enjoyed the video or you learned something new, please give it a like. Definitely helps me out a ton.",
+    "vocabulary": [
+      "remote control",
+      "Cloud Code",
+      "Herk 2.0 project",
+      "YouTube analyzer agent",
+      "research agent"
+    ],
+    "analogies": [
+      "\"So, if I go ahead and scan this QR code right here, it opens up my remote control session of my Herk 2.0 project.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [
+        "41%"
+      ],
+      "subscriber_counts": [
+        3000
+      ],
+      "time_references": [
+        "2.5 billion annualized run rate",
+        "29 million daily installs within Visual Studio Code"
+      ],
+      "named_tools": [
+        "Cloud Code"
+      ]
+    },
+    "vulnerability": "\"I tried logging in from like a different Claude account with a different email and it was taking a long time to connect and I am not convinced it would actually let me in. But I would still just say don't share that URL.\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the benefits of remote control"
+      ],
+      "slows": [
+        "explaining the setup process and requirements"
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": []
+  }
+}

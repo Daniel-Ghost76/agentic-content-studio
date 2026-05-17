@@ -1,0 +1,74 @@
+{
+  "num": 136,
+  "title": "Unlock the Next Evolution of Agents with Human-like Memory (n8n + zep)",
+  "date": "14/07/25",
+  "word_count": 4097,
+  "char_count": 21306,
+  "chunks": 1,
+  "extracted": {
+    "hook": "Today I'm going to be talking about the next evolution of AI agents, which is knowledge graphs for long-term memory.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, I'm going to show you guys how easy it is to get set up.",
+      "And another thing I wanted to say is that relational graphs like these can get very expensive very quick if you're not managing it.",
+      "If all that sounds good to you, let's get started.",
+      "The first time you set up memory for your AI agent, you probably did so with the simple memory, which just stores it in Nad,",
+      "So I'm going to send off a query.",
+      "All right, so I don't know why this is spinning. I think it's just a bug.",
+      "And if we want the agent to remember things about our business or about us personally, our preferences, stuff like that, then we want to set up some form of long-term memory.",
+      "So the way that we're going to be doing that today is with a user relational graph and we're going to be using Zep in order to do that.",
+      "And I'm not going to read all this, but basically, you know, automate your move using edit to simplify a relocation, top five a automation use cases for small businesses, all this kind of stuff that's very tailored towards me because it understands me as a person.",
+      "I can even click on myself, the user, and it will tell me a bit of a summary.",
+      "And just to show you guys what this looks like on the back end, I'm going to head over to Zep real quick.",
+      "All right, so I just deleted the user and I'm going to go back into my NAN here and we're going to start chatting with this agent and now it's going to have no memory about us and we're going to start from scratch."
+    ],
+    "cta": "\"if you want to take your learning even farther and discuss some of this stuff a little bit more in depth, then definitely check out my paid community.\"",
+    "vocabulary": [
+      "knowledge graphs",
+      "long-term memory",
+      "relational graphs",
+      "API credits",
+      "user relational graph",
+      "Zep",
+      "Telegram",
+      "context window",
+      "automation",
+      "business"
+    ],
+    "analogies": "\"think of it like\"",
+    "curiosity_gaps": [
+      "\"And if we want the agent to remember things about our business or about us personally, our preferences, stuff like that, then we want to set up some form of long-term memory.\"",
+      "\"So the way that we're going to be doing that today is with a user relational graph and we're going to be using Zep in order to do that.\""
+    ],
+    "specificity": {
+      "dollars": "",
+      "percentages": "",
+      "subscribers": "",
+      "time_references": "",
+      "named_tools": "Zep, Telegram"
+    },
+    "vulnerability": "\"I'm not going to read all this, but basically, you know, automate your move using edit to simplify a relocation, top five a automation use cases for small businesses, all this kind of stuff that's very tailored towards me because it understands me as a person.\"",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": "\"And if we want the agent to remember things about our business or about us personally, our preferences, stuff like that, then we want to set up some form of long-term memory.\"",
+      "slow": "\"So now I'm going to show you guys how easy it is to get set up. I'm going to explain what's going on. And another thing I wanted to say is that relational graphs like these can get very expensive very quick if you're not managing it.\""
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": [
+      "\"The first time you set up memory for your AI agent, you probably did so with the simple memory, which just stores it in Nad, which works fine because if I send off this message, the agent will basically check the memory, see if we've talked at all, and then it will also store our interaction in the memory.\""
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "num": 194,
+  "title": "This Trick Helps me Build Agents 3x Faster (as a beginner)",
+  "date": "12/02/25",
+  "word_count": 3610,
+  "char_count": 17807,
+  "chunks": 1,
+  "extracted": {
+    "hook": "today I'm going to be talking about the technique that I use to build the ultimate assistant workflow in under an hour now that won't include final testing and refining and airor handling but the point of this video is that if you don't know this method or if you kind of know about it but don't really understand it and you start to use it after this video it's going to help you build agents three times faster",
+    "hook_type": "Time-Bound",
+    "credential_drop": "NOT FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "so let's get back to the video",
+      "now let's do a different tool",
+      "if you come into here everything else is going to be pretty much the same",
+      "let me hit you with this one"
+    ],
+    "cta": "\"as always really appreciate you guys making it to the end of this one if you appreciated it if you learned something new please give it a like\"",
+    "vocabulary": [
+      "assistant workflow",
+      "ultimate assistant",
+      "AI agent",
+      "tools",
+      "node configuration",
+      "send email tool",
+      "Outlook Integrations",
+      "email body",
+      "prompting",
+      "current date and time"
+    ],
+    "analogies": "\"think of it like\"",
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar amounts": [],
+      "percentages": [],
+      "subscriber counts": [],
+      "time references": [
+        "under an hour"
+      ],
+      "named tools": [
+        "Outlook",
+        "Tavali"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "pace accelerates": [
+        "so what is the method that we're going to be talking about today"
+      ],
+      "slows down": [
+        "let's hop over to a quick visualization that I made and then we're going to look at some examples in nadn and I'll show you guys how quickly we can spin something up okay so here we are in excal draw and I have a visualization that I made which is going to explain this process hopefully really simply break it all down"
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": [
+      "\"today I'm going to be talking about the technique that I use to build the ultimate assistant workflow in under an hour now that won't include final testing and refining and airor handling but the point of this video is that if you don't know this method or if you kind of know about it but don't really understand it and you start to use it after this video it's going to help you build agents three times faster\"",
+      "\"so what is the method that we're going to be talking about today well when you're creating an AI agent and you want to give it access to tools you'll click on this plus and on the right you'll have a bunch of tools right here and what we're looking at are these Integrations where we have nodes as tools so in this case we would have clicked on Gmail tool and then we have these pop up and then within there we have to configure certain things so in this send email tool for example we have to configure who's the email going to what's the subject of the email and then what is the message of the email in order for the agent to actually be able to send it\"",
+      "\"so let's hop over to a quick visualization that I made and then we're going to look at some examples in nadn and I'll show you guys how quickly we can spin something up okay so here we are in excal draw and I have a visualization that I made which is going to explain this process hopefully really simply break it all down\"",
+      "\"so let's do a different tool so let's look at using Outlook again but this time we're going to be um creating a calendar event so I'm going to do event I'm going to do create and now you can see we have three Fields once again that we need to set up the functions so the AI can figure out how to populate these parameters\"",
+      "\"so let's say we want to do something in slack we would basically just send the message to um you know we could choose our Channel but when it actually comes to the message all I have to do is come in here um choose the dollar sign from AI function and then just to find the key so all of these nodes as tools are going to have different parameters to send across and all you have to do is basically tell the AI when you're you know filling out this section this is what you're looking for\"",
+      "\"so now that we understand how the from a function works and how quickly and easy it is to set up some of these different tools now it's just a matter of plugging them in testing them and adding more so we started off with something like a send email we test it out once we know it works we can start to add more and more and as you can see I was able to add all of these and then you obviously want to give it sort of a system prompt where you're in here and you're telling it what each tool does as you can see this prompt still isn't too long or complex at all but then from there it's just about manipulating the logic so that you can get what you need within each parameter\""
+    ]
+  }
+}

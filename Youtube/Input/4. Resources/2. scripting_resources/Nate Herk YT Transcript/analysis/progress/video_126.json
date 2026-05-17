@@ -1,0 +1,82 @@
+{
+  "num": 126,
+  "title": "So You�re Building AI Agents... Now What?",
+  "date": "09/08/25",
+  "word_count": 3159,
+  "char_count": 17309,
+  "chunks": 1,
+  "extracted": {
+    "hook": "So, you're building with AI, but now what?",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "\"Running an AI business with my co-founders called True Horizon and also running the largest school community for AI automation. I've always been very entrepreneurial in spirit\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "\"Now, I really started to look into how I could make myself more valuable at work. And that's when I fell into the rabbit hole of AI automation.\"",
+      "\"And because I felt pretty secure with my YouTube channel starting to grow, getting some inbound leads consistently for freelance work, I decided to make a relatively safe transition and become an AI freelancer full-time.\""
+    ],
+    "cta": "\"So now you know why monetization makes sense, but you still may be wondering which path you should take. So if building with AI is something that you're passionate about...\"",
+    "vocabulary": [
+      "monetize",
+      "entrepreneurial",
+      "hype",
+      "freelance",
+      "consultant"
+    ],
+    "analogies": "\"And because of all the hype and because of stuff you may be seeing online, it may seem like this space is a gold mine and that it's really easy to build a business that can run on autopilot. But don't just quit and take that gamble.\"",
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [
+        "1,200 bucks",
+        "$3,000",
+        "$6,000",
+        "$10,000"
+      ],
+      "percentages": [
+        "41%",
+        "26%",
+        "16%"
+      ],
+      "subscriber_counts": [
+        "500 subscribers",
+        "1500 views"
+      ],
+      "time_references": [
+        "after work",
+        "daydreaming about building AI automations"
+      ],
+      "named_tools": [
+        "YouTube"
+      ]
+    },
+    "vulnerability": "\"I wasn't some teenage mastermind that built a business overnight that just absolutely exploded\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "discussing the motivation behind building AI automations"
+      ],
+      "slow": [
+        "explaining his background and education"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": [
+      "\"There are different ways to think about monetization and I think that the way that you think about it depends on where you are in life.\"",
+      "\"If you're passionate about AI and you're starting to learn, monetization validates that you have a skill that people are willing to pay you for. And this money obviously will allow you to dedicate more time or resources to these passion projects\"",
+      "\"Now, if you're an aspiring entrepreneur...\"",
+      "\"And finally, if you're an employee...\""
+    ]
+  }
+}

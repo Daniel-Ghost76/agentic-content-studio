@@ -1,0 +1,79 @@
+{
+  "num": 182,
+  "title": "How MCPs Make Agents Smarter (for non-techies)",
+  "date": "16/03/25",
+  "word_count": 3893,
+  "char_count": 19825,
+  "chunks": 1,
+  "extracted": {
+    "hook": "all right so keep in mind there is zero prompting going on within the actual agent it just says you are a helpful assistant",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "so let's get into the breakdown okay",
+      "but before we do just want to cover one thing which which is you know the agent sending over a request to a server the server translates it in order to get all this information and get the tool calls all that kind of stuff um"
+    ],
+    "cta": "\"if you guys are wanting a step-by-step build of you know how we actually you know spin up a self-hosted environment install the community node right that we're looking at right here make sure everything's configured correctly and then you know actually connect to the different mCP servers that we want then definitely drop a like\"",
+    "vocabulary": [
+      "MCP",
+      "server",
+      "tool",
+      "parameters",
+      "execute",
+      "schema",
+      "action",
+      "resource"
+    ],
+    "analogies": [
+      "\"think of it like a universal translator that takes the information from the llm and it enriches that with all of the information that we need in order to hit the right tool with the right schema fill in the right parameters access the right resources\"",
+      "\"imagine you have this beautiful air table agent that we built out\"",
+      "\"it's basically nine tools wrapped into one\"",
+      "\"all 13 tools wrapped up in a one\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollars": [],
+      "percentages": [],
+      "subscribers": [],
+      "time_references": [
+        "16/03/25"
+      ],
+      "named_tools": [
+        "Airbnb",
+        "Chipotle",
+        "fir crawl"
+      ]
+    },
+    "vulnerability": "\"I was trying to connect to and it wasn't letting me\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the evolution of AI agents from LLMs to those with tools"
+      ],
+      "slows": [
+        "explaining the concept of mCP servers and their role in scaling agent capabilities"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": [
+      "\"model context protocol\"",
+      "\"let's break it down as simple as possible how it makes AI agents more intelligent okay so we're going to start with the basics here\""
+    ]
+  }
+}

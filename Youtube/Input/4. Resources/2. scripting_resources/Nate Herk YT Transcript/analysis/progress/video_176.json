@@ -1,0 +1,87 @@
+{
+  "num": 176,
+  "title": "How to Connect Slack to n8n (2025) (Step-by-Step)",
+  "date": "31/03/25",
+  "word_count": 1604,
+  "char_count": 7944,
+  "chunks": 1,
+  "extracted": {
+    "hook": "So, this is the quickest and easiest way to connect Slack to any event.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys know I'm walking through every single step\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, now that we have this connected",
+      "Okay. So, here we are",
+      "And now it may look like there's a lot going on",
+      "So, let's talk about we have two things that we're going to connect here",
+      "Now back in this page",
+      "And now we can click in here and see our channels",
+      "Okay, cool. So, that's sending messages",
+      "So, now let's talk about how we can set up this web hook over here so that we can have a workflow trigger from Slack"
+    ],
+    "cta": "\"If this video helped you out, please give it a like. Definitely helps me out a ton\"",
+    "vocabulary": [
+      "workspace",
+      "channel",
+      "app",
+      "credential",
+      "bot token",
+      "web hook",
+      "event subscription",
+      "trigger"
+    ],
+    "analogies": "\"it's going to have a message saying here is like what NADN wants to have permission to within your Slack workspace\"",
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [
+        "31/03/25"
+      ],
+      "named_tools": [
+        "n8n"
+      ]
+    },
+    "vulnerability": "\"NONE FOUND\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "discussing permissions and scopes"
+      ],
+      "slows": [
+        "explaining the configuration panel details"
+      ]
+    },
+    "audience_language": [
+      "\"you guys know I'm walking through every single step\"",
+      "\"those of you who have been with me\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": [
+      "\"So, here we are\"",
+      "\"And now it may look like there's a lot going on, but we're going to break it down\"",
+      "\"So, let's talk about we have two things that we're going to connect here\"",
+      "\"Now back in this page\"",
+      "\"And now we can click in here and see our channels\"",
+      "\"Okay, cool. So, that's sending messages\"",
+      "\"So, now let's talk about how we can set up this web hook over here so that we can have a workflow trigger from Slack\""
+    ]
+  }
+}

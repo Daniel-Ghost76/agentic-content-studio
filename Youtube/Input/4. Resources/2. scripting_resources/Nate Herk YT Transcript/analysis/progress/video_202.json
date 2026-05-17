@@ -1,0 +1,67 @@
+{
+  "num": 202,
+  "title": "Two Ways to Save 96% of Your Money Using DeepSeek R1 in n8n",
+  "date": "23/01/25",
+  "word_count": 3558,
+  "char_count": 17792,
+  "chunks": 1,
+  "extracted": {
+    "hook": "this is the riddle that we're going to send off to deep seek R1 and see if it can handle it you're in a room with three light switches each switch controls one of three light bulbs in a separate room but you can't see the light bulbs from where you are you can only enter the room with the light bulbs once how can you figure out which switch controls which bulb so we're going to send this riddle off to deep seek R1 right now it's thinking about the riddle it's going to assess its options and then it's going to tell us the result as well as all of the reasoning steps that it took in its brain to get to the answer",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you're in a room with three light switches each switch controls one of three light bulbs\"",
+      "\"so we're going to send this riddle off to deep seek R1 right now it's thinking about the riddle\"",
+      "\"what's really cool is\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "\"so let's jump into it\"",
+      "\"if you want to check out this report I will leave the link for that in the description\"",
+      "\"let me show you the way that right now I would start to implement deep seek R1 into my workflows\"",
+      "\"what we're going to be doing is accessing deep seek R1 through an HTTP request where in here we're able to access the model and we're able to give it sort of a system prompt as well as an actual user prompt\"",
+      "\"let's get back to the video\""
+    ],
+    "cta": "\"if you want to download this workflow you can do so for free by joining my fre School community that way you can just download it right away get this into your a into your NN environment and then you can just put in your API key and then you're good to go right away\"",
+    "vocabulary": [
+      "deep seek",
+      "riddle",
+      "light switches",
+      "light bulbs",
+      "reasoning model",
+      "n8n",
+      "open router",
+      "API key",
+      "HTTP request",
+      "model parameter"
+    ],
+    "analogies": "\"it's going to be super super simple you're going to go to deep seek.com you want to click up in the top right click on API platform\"",
+    "curiosity_gaps": [
+      "\"so let's jump into it and if you want to check out this report I will leave the link for that in the description\"",
+      "\"if you've gotten there and you've you know con tried to connect open router to deep seek R1 or even deep seek V3 you you may have noticed some things about the way it's calling tools or the way that it's calling your vector database that maybe you weren't too happy with so let's talk about the right way to be using deep seek R1 in an\"",
+      "\"let me show you the way that right now I would start to implement deep seek R1 into my workflows\""
+    ],
+    "specificity": {
+      "dollars": "$60, $2.19",
+      "percentages": "96.4%",
+      "time_references": "23/01/25",
+      "named_tools": "open router, n8n"
+    },
+    "vulnerability": "\"I've also been experiencing this issue where I just want to say hello just to make sure that I'm actually connected\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": "discussing the riddle and solution, explaining how to set up deep seek R1 in n8n",
+      "slow": "explaining the reasoning behind DeepSeek R1's approach"
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": [
+      "\"as you can see we've got R1 01 another version of R1 that has different parameters 01 mini and then deep seek V3\""
+    ]
+  }
+}

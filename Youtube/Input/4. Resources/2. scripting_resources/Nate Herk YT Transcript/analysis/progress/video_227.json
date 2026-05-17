@@ -1,0 +1,139 @@
+{
+  "num": 227,
+  "title": "n8n AI Agent Masterclass | AI Nodes Made Simple",
+  "date": "04/11/24",
+  "word_count": 11187,
+  "char_count": 57319,
+  "chunks": 3,
+  "extracted": {
+    "hook": "all right everyone welcome to the nadn AI agents Master Class",
+    "hook_type": "Personal-Moment",
+    "credential_drop": "NOT FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "when explaining the different types of agents and their uses"
+      ],
+      "slows": [
+        "during detailed explanations of variables and functions"
+      ]
+    },
+    "vulnerability": "\"I remember being really confused on configuring certain nodes\"",
+    "cta": "\"if you're excited about building AI agents within nnn there's so much more to explore feel free to check out other videos on my channel\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "so for example a conversational agent could gather information from a user pass it to a planning and execute agent",
+      "now I wanted to talk about JavaScript variables and functions within NN because this is something that's super important to understand",
+      "okay now let's break down what we're seeing here",
+      "so this is the prompt for the main instruction or the question that the a agent is going to respond to so this is the direct command that that the agent is expected to look through and act on",
+      "so think of this as like you know giving it the personality and the job description down here",
+      "so let's just quickly talk about what a human message template does",
+      "now we have the settings tab and this one is pretty much the same for all different types of Agents conversational tool plan and execute",
+      "so we've got that and then we have um a system message",
+      "and so we'll do one where it has to reference that to show that but um then it finally just updates the response in the window buffer memory so you can see it this is what we asked what's capital Illinois and then it responded the capital of Illinois Springfield so then I could reference it again and just say like",
+      "so let's try um we'll try to get the calculator to involve so what what is 12 * um [Music] 52 we'll be able to look at the log of what it did so the result of 12 multiped 52 is 624 math can be so much fun can't it",
+      "so that's how that one work works with the log see if there's anything else that we could take a look at in here um I guess you can see right here so right here you know how it says take prompt from previous node automatically um it's looking for an input field called chat input so that's what's right here",
+      "so let me just show that real quick what is um Nvidia so we hit that and we can see it's hitting the brain it's up it updated this and now oh it actually answered just based on the model it didn't even go to Wikipedia um but this is the result we get so it pretty much gives us key areas where Nvidia excels um stuff like that"
+    ],
+    "vocabulary": [
+      "AI agents",
+      "workflows",
+      "nodes",
+      "tools",
+      "trigger",
+      "webhook",
+      "chatbot",
+      "APIs",
+      "prompt",
+      "system message",
+      "Max iterations",
+      "return immediate steps",
+      "binary images",
+      "automatically pass through binary images",
+      "require specific output format",
+      "output parsers",
+      "autof fixing item list",
+      "structured output parser",
+      "nodes",
+      "log",
+      "buffer memory",
+      "prompt",
+      "Wikipedia",
+      "calculator",
+      "response",
+      "tool",
+      "model",
+      "agent"
+    ],
+    "analogies": [
+      "\"think of an AI agent as an employee who has Perfect Memory follows exact instructions never sleeps cost a fraction of hiring a human\"",
+      "\"so think of this as like you know giving it the personality and the job description down here\"",
+      "\"it's going to take any binary image images like image files or um you know PDFs from a previous node and it's going to automatically pass through the AI agent node without being changed so this is going to allow you to keep your image files flowing through your workflow alongside other data without the AI agent trying to process it or interpret it as plain text\"",
+      "\"so the first thing we have is always output data this is going to ensure that um the node outputs data even if it didn't execute a specific action so you want to enable this if you want the workflow to keep flowing regardless of whether the AI agent returned a result or not\"",
+      "\"think of it like\""
+    ],
+    "curiosity_gaps": [
+      "NOT FOUND",
+      "\"I'll get back to this in one sec but first I just want to want to highlight how you know different agents have different options\"",
+      "\"now we're going to be doing just a live build of an AI agent in nadn we're just going to build out a really simple one give it access to a few tools and just to show some of the aspects of looking at the agent logs um looking at memory seeing the differences in prompting and how that's going to work\"",
+      "\"so this is sort of the NN builtin one it's super easy to configure because you don't even have to but we've got other options for memory we've got postgress um you can use all this other stuff but going to use window buffer memory here\"",
+      "I'll come back to this",
+      "stay till the end",
+      "here's where it gets interesting"
+    ],
+    "specificity": [
+      "\"Max iterations\"",
+      "\"return immediate steps\"",
+      "\"automatically pass through binary images\"",
+      "\"require specific output format\"",
+      "\"output parsers\"",
+      "\"autof fixing item list\"",
+      "\"structured output parser\"",
+      "\"five context window length\"",
+      "\"we'll leave it as tools and we will configure this stuff in a sec after we give it access to some other stuff\""
+    ],
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\""
+    ],
+    "frameworks": [
+      "\"so this is the prompt for the main instruction or the question that the a agent is going to respond to so this is the direct command that that the agent is expected to look through and act on\"",
+      "\"now we have the settings tab and this one is pretty much the same for all different types of Agents conversational tool plan and execute\"",
+      "\"so let's just quickly talk about what a human message template does\"",
+      "\"now we're going to be doing just a live build of an AI agent in nadn we're just going to build out a really simple one give it access to a few tools and just to show some of the aspects of looking at the agent logs um looking at memory seeing the differences in prompting and how that's going to work\""
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "num": 87,
+  "title": "How to Price AI Workflows (Without Losing Clients)",
+  "date": "30/11/25",
+  "word_count": 5252,
+  "char_count": 29849,
+  "chunks": 2,
+  "extracted": {
+    "hook": "Everyone's been asking how to actually price AI workflows. What's too cheap, what's too expensive, and how do you charge enough without losing clients?",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "\"I've tried almost every pricing model that you can think of. I've charged a fixed fee and delivered a JSON file. I've billed hourly. I've sold bundles of hours. I've done monthly retainers with no set scope. I've done retainers with strict scopes. I've literally experimented with tons of different models.\" (mid)",
+    "script_type": "LOOSE",
+    "energy_notes": "\"let's not waste any time\" - Pace accelerates when discussing the importance of value-based pricing and ROI. \"honestly\" - Slows down slightly when emphasizing trust and long-term partnerships.",
+    "vulnerability": "NONE FOUND",
+    "cta": "\"If you guys enjoyed and learned something new, please give it a like. It definitely helps me out a ton.\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"let me hit you with\"",
+      "\"literally insane\""
+    ],
+    "transitions": [
+      "\"So, let's get into it. Before we get into numbers or frameworks, you need the right mindset around pricing.\"",
+      "\"Now, I know it can feel awkward when you're new. There's always that weird dance of like who's going to throw out a number first. And realistically, of clients right now genuinely have no idea what this kind of stuff should cost. But, here's the part that you need to nail.\"",
+      "\"So, once you've got that mindset locked in, the next step is learning the actual pricing models that you can use. So, before we dive deeper, I want to be clear about something.\"",
+      "\"And then, once you deliver one or two projects, you build some trust, and you show that your systems work, this is where you start moving into longer-term engagements, which is the next model, monthly retainers.\"",
+      "\"So, the last thing I'll say is this. We're still early. Businesses need enablement, audits, education more than ever. They don't know what's possible and they don't know where AI fits into their operations, even though they know they need to start using it. So, if you're already that person who's been wrapped up in their ecosystem, delivered real value for them, they'll happily trust you to guide them through that process, too.\"",
+      "So, to make all of this easier to repeat, it helps to have a simple internal framework that you can follow every single time that you price a workflow.",
+      "So, to wrap this up, I wanted to show you guys a practical example of how this framework works in real life."
+    ],
+    "vocabulary": [
+      "value-based pricing",
+      "ROI",
+      "retainer",
+      "milestone-based retainer",
+      "opportunity cost",
+      "client's business",
+      "custom and bespoke",
+      "retainers",
+      "monthly fee",
+      "hourly maintenance package",
+      "percentage of the original project cost",
+      "recurring revenue",
+      "relationship building",
+      "value-based pricing",
+      "ROI",
+      "automation",
+      "maintenance and optimization plan"
+    ],
+    "analogies": [
+      "\"Think of it like, you're not charging for the inputs, you're charging for the return on their investment.\"",
+      "\"You're embedded. You're the one who knows how everything works under the hood. And that's leverage.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": [
+      "\"So, in this video, I'll break down exactly how to price your workflows step-by-step.\"",
+      "\"The first model is value-based pricing. If I were starting from scratch today, this is the model that I would start with.\"",
+      "\"A monthly retainer is when a client pays you a predictable monthly fee in exchange for ongoing access to your expertise and a defined level of service.\"",
+      "\"So, to make all of this easier to repeat, it helps to have a simple internal framework that you can follow every single time that you price a workflow. That's why I came up with the PRICE framework.\""
+    ]
+  }
+}

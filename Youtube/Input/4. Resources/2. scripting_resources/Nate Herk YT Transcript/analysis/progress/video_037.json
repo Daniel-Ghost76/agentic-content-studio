@@ -1,0 +1,73 @@
+{
+  "num": 37,
+  "title": "This $100M AI App Just Changed Software Forever",
+  "date": "23/03/26",
+  "word_count": 2324,
+  "char_count": 12724,
+  "chunks": 1,
+  "extracted": {
+    "hook": "It's also one of the top health and fitness apps in Apple's App Store and is projected to generate more than $30 million in revenue this year.",
+    "hook_type": "Result-First",
+    "credential_drop": "NOT FOUND",
+    "signature_phrases": [
+      "\"So today, I'm going to break down exactly how this simple app became a $100 million company\"",
+      "\"let's not waste any time\"",
+      "\"literally insane\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So let's get into it.",
+      "And this is the right way to start building an app.",
+      "So here's exactly what I'd do.",
+      "And that brings me into step two, which is the thing that made Cal AI grow so fast.",
+      "Okay, step three is to build predictable income."
+    ],
+    "cta": "\"You can download this for completely free. It's inside of my free school community where you can get more information about how to use AI tools like Cloud Code to build a business from scratch. You can join for free with the link in the description.\"",
+    "vocabulary": [
+      "coding camp",
+      "million-dollar app",
+      "core feature",
+      "reinvest almost all of the money that they made back into making sure that people knew about the app",
+      "friction"
+    ],
+    "analogies": "\"Think of it like this\"",
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [
+        "$100M",
+        "$30 million",
+        "multi-millions"
+      ],
+      "time_references": [
+        "2024",
+        "May of 2024",
+        "December 2025",
+        "2026"
+      ]
+    },
+    "vulnerability": "\"NONE FOUND\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "discussing the app's success and market impact"
+      ],
+      "slow": [
+        "explaining the initial idea and development process of Cal AI"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": [
+      "\"So let's get into it.\"",
+      "\"Step one, find your idea\"",
+      "\"Step two, which is the thing that made Cal AI grow so fast\"",
+      "\"Okay, step three is to build predictable income\""
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "num": 78,
+  "title": "How to Actually Deliver AI Projects (APIs, Hosting & Handover Explained)",
+  "date": "27/12/25",
+  "word_count": 5770,
+  "char_count": 32010,
+  "chunks": 2,
+  "extracted": {
+    "hook": "So, you guys are always asking me, Nate, how do I host workflows? What does the handover process look like? Should I host a workflow or the client? What about security? These types of questions come up all the time.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NOT FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "\"So, before you build anything, the first question that you have to answer is simple.\""
+      ],
+      "slow": [
+        "\"And since there's literally no good video covering all of it, I figured I'd make one. So, in this video, I'm going to walk you guys through the entire process of fulfilling an AI workflow or agent after a client pays you step by step.\""
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "\"if you enjoyed this one and you want to dive even deeper, then definitely check out my plus community. We've got over 3,000 members in there who are building businesses with NN every single day. So, it's a great environment to surround yourself with like-minded people.\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"you guys\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, before you build anything, the first question that you have to answer is simple.",
+      "And now that we've gone over that rule, we have three options for hosting workflows.",
+      "The next section I'm going to walk you guys through is about API key management and billing because that's another area where I get a ton of questions.",
+      "The next thing you want to do is about workflow hygiene.",
+      "Now, this is the part that people never really discuss online, and that's the legal and financial side of things.",
+      "So now that you know what to do in theory, let's take a look at a real life example of a workflow that I sold and the process I went through when handing it over."
+    ],
+    "vocabulary": [
+      "hosting",
+      "handover",
+      "workflow",
+      "NADn",
+      "commercial agreement",
+      "handover",
+      "workflow hygiene",
+      "API keys",
+      "maintenance retainer",
+      "definition of done",
+      "exit process"
+    ],
+    "analogies": [
+      "\"think of it like\"",
+      "\"think of it like\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "\"I'll come back to this\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"So now that we've gone over that rule, we have three options for hosting workflows. And honestly, I would pretty much always go with the first option and that's what I'm recommending to you all. But I'll still touch on the other two because it's still important to understand the difference.\"",
+      "workflow hygiene",
+      "legal and financial side of things",
+      "billing",
+      "maintenance retainer",
+      "service levels",
+      "exit process"
+    ]
+  }
+}

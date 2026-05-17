@@ -1,0 +1,73 @@
+{
+  "num": 146,
+  "title": "How to Set Up a Cloudflare Tunnel for Local n8n (2025)",
+  "date": "20/06/25",
+  "word_count": 2239,
+  "char_count": 11444,
+  "chunks": 1,
+  "extracted": {
+    "hook": "Today I'm going to show you guys how we can take our locally hosted instance of Naden and set up a Cloudflare tunnel so that we can actually talk to thirdparty apps and services like Google or Telegram.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NOT FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, let's get started.",
+      "And now what we need to do is set up that actual domain that we connected earlier in Cloudflare to this tunnel.",
+      "All right, so I close out of the NN instances and what we're going to do is we have to go to our docker compose file of this container."
+    ],
+    "cta": "\"if you learned something new or you appreciated this video, please give it a like. It definitely helps me out a ton\"",
+    "vocabulary": [
+      "self-hosted AI starter kit",
+      "Cloudflare tunnel",
+      "public URL",
+      "web hook",
+      "docker compose file",
+      "containerized environment"
+    ],
+    "analogies": "\"think of it like\"",
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [
+        "10 bucks for the year"
+      ],
+      "time_references": [
+        "25/06/2025"
+      ],
+      "named_tools": [
+        "Cloudflare",
+        "Docker"
+      ]
+    },
+    "vulnerability": "\"I'm not an expert at this. I have never like formally learned terminal commands\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "explaining how the tunnels work and how to set it all up"
+      ],
+      "slows": [
+        "going through each step of setting up the tunnel"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": [
+      "\"Today I'm going to show you guys\"",
+      "\"So, let's get started. All right, so like I mentioned, we're going to be setting up a tunnel on Cloudflare\"",
+      "\"And now what we need to do is set up that actual domain that we connected earlier in Cloudflare to this tunnel\""
+    ]
+  }
+}

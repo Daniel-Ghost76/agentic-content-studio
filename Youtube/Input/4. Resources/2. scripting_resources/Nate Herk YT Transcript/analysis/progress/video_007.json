@@ -1,0 +1,72 @@
+{
+  "num": 7,
+  "title": "OpenAI Image 2 is Nuts. Here are 10 Ways to Use it.",
+  "date": "22/04/26",
+  "word_count": 3381,
+  "char_count": 17487,
+  "chunks": 1,
+  "extracted": {
+    "hook": "So, OpenAI just dropped a new image model called CatchBT Images 2.0 and it is really good.",
+    "hook_type": "Result-First",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, let's not waste any time and just get straight into it.",
+      "Okay. A candid photo of a 35-year-old woman with light freckles sitting in a cafe.",
+      "Okay, same sort of thing here as the last product one.",
+      "Okay, 30 was a lot. I'm just going to click through these."
+    ],
+    "cta": "\"if you guys are curious how I built this whole deck right here and the one that you're going to see later in this video with all these different use cases, then you can download the repo for this Cloud Code project\"",
+    "vocabulary": [
+      "insanely",
+      "crazy",
+      "realism",
+      "premium",
+      "floating",
+      "color corrected",
+      "lighting",
+      "perfect"
+    ],
+    "analogies": "\"think of it like\"",
+    "curiosity_gaps": "\"I'll come back to this\"",
+    "specificity": {
+      "dollars": [
+        "4 cents",
+        "6 cents",
+        "9 cents"
+      ],
+      "percentages": [],
+      "time_references": [],
+      "named_tools": [
+        "Cloud Code",
+        "key.ai"
+      ]
+    },
+    "vulnerability": "\"I don't know what I'm looking at really\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "discussing the image quality and differences between models, accelerating when comparing multiple images quickly"
+      ],
+      "slow": [
+        "explaining each image comparison in detail"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": [
+      "30 different matchups",
+      "different categories: artistic styles, character consistency, complex scenes, diagrams, and UI"
+    ]
+  }
+}

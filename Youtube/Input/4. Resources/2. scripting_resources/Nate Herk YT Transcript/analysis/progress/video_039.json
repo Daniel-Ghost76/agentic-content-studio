@@ -1,0 +1,88 @@
+{
+  "num": 39,
+  "title": "Stop Learning n8n in 2026...Learn THIS Instead",
+  "date": "21/03/26",
+  "word_count": 5057,
+  "char_count": 27172,
+  "chunks": 2,
+  "extracted": {
+    "hook": "A new phase for a automations has begun.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "When explaining the shift from drag-and-drop to natural language workflows.",
+        "While discussing the value of AI automation."
+      ],
+      "slow": [
+        "During detailed explanations of building processes in traditional methods."
+      ]
+    },
+    "vulnerability": "\"I've built tons of systems like this in Naden and it's really not too difficult once you understand logic and workflow patterns and dduplication and stuff like that\"",
+    "cta": "\"And then in ClickUp, all I'd have to do is make a new task with a short description of a topic that I want a LinkedIn post about. And then in about two minutes, I would get a LinkedIn post and an infographic.\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So let's get into it.",
+      "Now, if this feels sudden, it's really not.",
+      "But here's the question.",
+      "So you can see here this conversation had to be compressed because it ran out of context.",
+      "Okay, so what it's doing right now is it's firing a test run in our trigger.",
+      "So back in here, we can see that the content creator agent is running once again, and this time it should be able to hopefully make that infographic for us."
+    ],
+    "vocabulary": [
+      "automation",
+      "AI",
+      "cloud code",
+      "trigger.dev",
+      "ClickUp",
+      "YouTube channel",
+      "API",
+      "Nate B Jones",
+      "trigger",
+      "content puller",
+      "content creator",
+      "ClickUp",
+      "infographic",
+      "web scraping"
+    ],
+    "analogies": [
+      "\"Think of it like giving someone instructions for an hour straight without letting them take any notes.\"",
+      "\"it's basically X but Y\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "\"I'll come back to this\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"So, let's say we wanted to build an automation that's going to check in on a specific AI news YouTube channel every 8 hours.\""
+    ]
+  }
+}

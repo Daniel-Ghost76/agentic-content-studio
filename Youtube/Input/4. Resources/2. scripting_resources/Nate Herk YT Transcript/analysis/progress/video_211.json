@@ -1,0 +1,93 @@
+{
+  "num": 211,
+  "title": "How I Built an AI Agent to Automate my Emails in n8n (Step by Step, No Code)",
+  "date": "12/12/24",
+  "word_count": 5204,
+  "char_count": 26088,
+  "chunks": 2,
+  "extracted": {
+    "hook": "hey guys today we're going to be going over this framework that's going to help you create different AI agents in order to automate your inbox in this workflow that we're going to be walking through step by step no code",
+    "hook_type": "Demonstration",
+    "credential_drop": "NOT FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "so as always the first step when you're creating a workflow is to set up the trigger"
+      ],
+      "slows": [
+        "and then we can go in there and approve it before you send it let's do a quick demo see this thing in action",
+        "we got a little summary about what just happened and then if we go into our email we can see that we got this email and then we also have a draft which was you know replying to this email and it has information about what the customer asked about so um that's how this workflow works"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "if you guys guys appreciated this one i would really appreciate if you could drop a like it really helps me out subscribe for more NAD and AI agent tutorials and i will see you guys in the next one thanks",
+    "signature_phrases": [
+      "\"hey guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "so as always the first step when you're creating a workflow is to set up the trigger",
+      "now what we want to do is we want to add a large language model to be able to look at the email content and determine if it's customer support related or not so we're going to come into here we're going to add a open AI node",
+      "all right now that we have that saying true or false what we're going to do in here is grab a switch node so we want two different things to take place if customer support is true then it's going to go off and it's going to create that draft for us in response to that email and if it's false then we want it to go down a different path which will either notify us that we got an email that's not customer support related or you know any other logic",
+      "so let's continue down the path of assuming that this is a customer support email we'll drag some logic out this way and in this case what we want to do is now we're going to add our AI agent so in here we are going to call this guy the customer support agent okay",
+      "so now to set up what happens if we get an email that's not Customer Support",
+      "now let me send off an email that's not customer support related and we'll see what the response is okay",
+      "so I pretty much just sent off an email um i've got my telegram pulled up the workflow is active we will be watching to see when this happens as far as when the draft gets created and when telegram message comes back"
+    ],
+    "vocabulary": [
+      "framework",
+      "AI agents",
+      "automate",
+      "inbox",
+      "workflow",
+      "customer support",
+      "draft",
+      "Vector database",
+      "Pine Cone",
+      "embedding",
+      "n8n",
+      "telegram",
+      "customer support",
+      "draft",
+      "vector database"
+    ],
+    "analogies": "NOT FOUND",
+    "curiosity_gaps": [
+      "\"let's do a quick demo see this thing in action\"",
+      "\"and then we can go in there and approve it before you send it let's do a quick demo see this thing in action\"",
+      "\"we got a little summary about what just happened and then if we go into our email we can see that we got this email and then we also have a draft which was you know replying to this email and it has information about what the customer asked about so um that's how this workflow works\"",
+      "\"and now if we come into here we'll go back into our drafts we can see we have um actually where is it there we go so there's the new one dear James and then it actually has the email which we could send off so you would pretty much just be able to check if you like the way that it looks if not you can make a quick change and then you can send it off\"",
+      "\"i'll come back to this\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"hey guys\"",
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "1. The first step when you're creating a workflow is to set up the trigger",
+      "2. Next, we want to add a large language model to be able to look at the email content and determine if it's customer support related or not",
+      "3. Then, we'll use a switch node so that if customer support is true, it will go off and create a draft for us in response to that email; if it's false, it will notify us that we got an email that's not customer support related or any other logic"
+    ]
+  }
+}

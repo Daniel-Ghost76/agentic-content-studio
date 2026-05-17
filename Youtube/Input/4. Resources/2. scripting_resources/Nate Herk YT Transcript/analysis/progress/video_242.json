@@ -1,0 +1,84 @@
+{
+  "num": 242,
+  "title": "How I Wish Someone Explained AI Agents To Me (as a beginner)",
+  "date": "20/09/24",
+  "word_count": 2421,
+  "char_count": 12506,
+  "chunks": 1,
+  "extracted": {
+    "hook": "so AI agents there's so much information out there it can be overwhelming trying to learn about them so I wanted to come in here and break it down simply just the way that I wish someone would have explained it to me when I first started learning about them",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NOT FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "so I wanted to start off by touching on the golden opportunity that I see and that a lot of people are starting to see in um the AI agent space",
+      "so here's kind of what we did in the past right",
+      "moving on to why you should care about agents and why you should care about this opportunity",
+      "that could be like a 30- minute topic there"
+    ],
+    "cta": "\"if it sounds like you and you want to dive into the AI agent space or AI automations in general definitely check out some videos in the future\"",
+    "vocabulary": [
+      "golden opportunity",
+      "skeptical",
+      "search interest",
+      "perfect memory",
+      "exact instructions",
+      "fraction of hiring an actual human being",
+      "advanced ai models",
+      "pluses",
+      "upsell",
+      "prompting"
+    ],
+    "analogies": [
+      "\"imagine having an employee who has Perfect Memory follows exact instructions doesn't sleep and costs a fraction of hiring an actual human being\"",
+      "\"think of it like they're going to be working 24/7 even if it's something as simple as customer support\"",
+      "\"it's just going to cost a fraction of hiring an actual human so um yeah it sounds too good to be true almost\"",
+      "\"like all of that's removed pretty much it'll do that all of that automatically for you\"",
+      "\"The Entity is just an AI agent with the ability to reason use logic to make decisions and access the tools that you give them in order to do exactly what it is that you're prompting them to do\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [
+        "20/09/24"
+      ],
+      "named_tools": [
+        "chat gbt",
+        "claw",
+        "n8n"
+      ]
+    },
+    "vulnerability": "\"I was definitely a little skeptical um about the hype\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "so I wanted to start off by touching on the golden opportunity that I see and that a lot of people are starting to see in um the AI agent space"
+      ],
+      "slow": [
+        "so here's kind of what we did in the past right",
+        "moving on to why you should care about agents and why you should care about this opportunity"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": [
+      "\"first things first what exactly are AI agents simply put um an AI agent is like having an employee who has Perfect Memory follows exact instructions doesn't sleep and costs a fraction of hiring an actual human being\""
+    ]
+  }
+}

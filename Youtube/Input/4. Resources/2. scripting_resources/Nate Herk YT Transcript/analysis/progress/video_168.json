@@ -1,0 +1,85 @@
+{
+  "num": 168,
+  "title": "OpenAI's Image API Just Changed the Game (save 10+ hours?week, n8n tutorial)",
+  "date": "23/04/25",
+  "word_count": 4411,
+  "char_count": 22919,
+  "chunks": 2,
+  "extracted": {
+    "hook": "So, this workflow right here, all I had to do was enter in ROI on AI automation and it was able to spit out this LinkedIn post for me.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "\"And as you can see down here, it's just a beautiful graphic\"",
+        "\"So, this workflow right here, all I had to do was enter in ROI on AI automation and it was able to spit out this LinkedIn post for me.\""
+      ],
+      "slow": [
+        "\"Anyways, as you can see here, this workflow is starting with a form submission. So, if I hit test workflow, it's going to pop up with a form where we have to enter in our email for the workflow to send us the results, topic of the post, and then also I threw in here a target audience. So, you could have these posts be kind of flavored towards a specific audience if you want to.\""
+      ]
+    },
+    "vulnerability": "\"Anyways, as you can see here, this workflow is starting with a form submission. So, if I hit test workflow, it's going to pop up with a form where we have to enter in our email for the workflow to send us the results, topic of the post, and then also I threw in here a target audience. So, you could have these posts be kind of flavored towards a specific audience if you want to.\"",
+    "cta": "If you enjoyed this one, if you found it helpful, please give it a like. Definitely helps me out a ton.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys want to see\"",
+      "\"let me know\"",
+      "\"that's going to do it\"",
+      "\"thanks for watching everyone\"",
+      "\"if you enjoyed this one\""
+    ],
+    "transitions": [
+      "And as you can see down here, it's just a beautiful graphic.",
+      "So, this workflow right here, all I had to do was enter in ROI on AI automation and it was able to spit out this LinkedIn post for me.",
+      "Okay, quick disclaimer though. I'm not actually going to post this to LinkedIn.",
+      "Anyways, as you can see here, this workflow is starting with a form submission.",
+      "But if you guys want to see a video sort of like this, let me know.",
+      "Or if you also want to see a more evolved version of the LinkedIn posting flow and how we can make it even more robust and even more automated, then definitely let me know about that as well."
+    ],
+    "vocabulary": [
+      "automation",
+      "post",
+      "graphic",
+      "research",
+      "API",
+      "template",
+      "JSON",
+      "Nitn",
+      "HTTP request",
+      "OpenAI",
+      "evolved",
+      "influencers",
+      "automation",
+      "API",
+      "HTTP request"
+    ],
+    "analogies": [
+      "\"it's insane\""
+    ],
+    "curiosity_gaps": [
+      "\"Anyways, as you can see here, this workflow is starting with a form submission. So, if I hit test workflow, it's going to pop up with a form where we have to enter in our email for the workflow to send us the results, topic of the post, and then also I threw in here a target audience. So, you could have these posts be kind of flavored towards a specific audience if you want to.\"",
+      "\"And as you can see down here, it's just a beautiful graphic, something that would probably take me 20 minutes in Canva.\"",
+      "\"I'll come back to this\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"you guys\"",
+      "\"let me know\"",
+      "\"definitely let me know about that as well\""
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

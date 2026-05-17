@@ -1,0 +1,91 @@
+{
+  "num": 45,
+  "title": "How to Build $10,000 Agentic Workflows (Claude Code Tutorial)",
+  "date": "08/03/26",
+  "word_count": 6852,
+  "char_count": 36384,
+  "chunks": 2,
+  "extracted": {
+    "hook": "Agentic workflows are not just a trend. They're the future of the AI industry.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "\"So in this video, I'm going to break down why you should be building aic workflows\"",
+        "\"And by the end, I'll show you how to actually sell these if you want to make some money with your skills.\""
+      ],
+      "slow": [
+        "\"Right now, the agentic AI market is sitting at around $8 billion. By 2030, that's expected to hit 40 to 50 billion.\""
+      ]
+    },
+    "vulnerability": "\"The people who are going to struggle with agentic workflows are the ones who completely skip those fundamentals and jump straight into cloud code, tell it to build something, and have no idea if what is being built is actually good.\"",
+    "cta": "If you guys enjoyed, you learned something new, please give a like. Definitely helps me out a ton.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So in this video, I'm going to break down why you should be building aic workflows and then I'm going to actually build one live in front of you so you can see exactly how it works.",
+      "And by the end, I'll show you how to actually sell these if you want to make some money with your skills.",
+      "So now your job at this point is just to watch it and to make sure it's doing everything right",
+      "At this point, it did a human review step.",
+      "Okay, now it fixed everything."
+    ],
+    "vocabulary": [
+      "agentic workflows",
+      "AI industry",
+      "Cloud Code",
+      "WAT framework",
+      "train track",
+      "agentic workflows",
+      "cloud code",
+      "AI",
+      "infographics",
+      "market growth",
+      "Gartner road map",
+      "impact metrics",
+      "key.AI"
+    ],
+    "analogies": [
+      "\"it's like you're just telling a construction crew, 'Hey, I need you to build a train track from here to there.' And then they build it for you.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "I'll come back to this",
+      "stay till the end",
+      "here's where it gets interesting"
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"So in this video, I'm going to break down why you should be building aic workflows and then I'm going to actually build one live in front of you so you can see exactly how it works.\"",
+      "\"And by the end, I'll show you how to actually sell these if you want to make some money with your skills.\""
+    ]
+  }
+}

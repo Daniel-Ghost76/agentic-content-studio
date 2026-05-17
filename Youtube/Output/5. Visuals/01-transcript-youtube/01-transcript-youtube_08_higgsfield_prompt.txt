@@ -1,0 +1,25 @@
+Create a 3-second cinematic HUD motion graphic using 00-start-background.png as the start image and 08-build-roadmap.png as the final reference.
+
+The animation starts from the blank soft teal HUD background only. No roadmap path or milestone nodes are visible at frame 0.
+
+Begin by drawing a thin glowing teal roadmap line from the lower-left toward the upper-right. The line should grow smoothly across the frame, with a few tiny teal particles traveling along it.
+
+As the line reaches each point, reveal the milestone nodes one by one:
+
+DAY 1 appears first and glows softly as the starting point.
+RESEARCH appears second.
+BUILD appears third.
+OFFER appears fourth.
+CLIENTS appears fifth.
+
+The DAY 1 node should be filled and slightly brighter, but still soft and restrained. The future nodes should appear as dim outlined HUD circles/chips. Labels should be readable and stable, not tiny dashboard text.
+
+After all nodes appear, add a gentle camera push-in and a soft pulse from DAY 1 toward RESEARCH to show early momentum. Keep the center clean and the background dim.
+
+By the final frame, match 08-build-roadmap.png: a calm curved milestone path with DAY 1 active, future milestones ahead, soft teal HUD styling, visible dotted texture, and blurred UI depth around the edges.
+
+Style: soft premium AI-tech HUD, low-to-medium contrast, lighter dark teal background, frosted glass, muted glow, cinematic blur, no dramatic lighting.
+
+Do not add extra text beyond the milestone labels, logos, humans, real objects, floor, horizon, reflections, explosions, or glitch effects.
+
+Duration: 3 seconds. Aspect ratio: 16:9.

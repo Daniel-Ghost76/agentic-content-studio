@@ -1,0 +1,91 @@
+{
+  "num": 232,
+  "title": "I Built an AI Agent that Automated my Inbox with n8n (No Code)",
+  "date": "15/10/24",
+  "word_count": 4871,
+  "char_count": 24957,
+  "chunks": 2,
+  "extracted": {
+    "hook": "so what you're looking at right here is an inbox management agent I was able to build this thing in about 25 to 30 minutes using absolutely no code so by the end of this video you guys should all understand what's taking place in this workflow and how you can get one of these things up and running within your own email to completely manage your inbox and almost completely remove yourself out of the process of emails",
+    "hook_type": "Time-Bound",
+    "credential_drop": "NOT FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "when explaining the workflow and actions"
+      ],
+      "slows": [
+        "during detailed explanations of nodes and paths"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "\"that's it for today's video so thanks guys\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "so for example",
+      "one thing I wanted to point out is that this section of the workflow",
+      "and it's also going to telegram us what happened and why it happened so we're going to break down each node each path so that everyone can understand what exactly is taking place here and we'll do a demo for each one too",
+      "back in N end",
+      "now we're going to open up a Gmail node that is to create a draft",
+      "so now we're going to go into this open AI node where we're actually creating the email",
+      "same as all the other ones came in triggered got labeled right away and then we're coming into another open AI node here"
+    ],
+    "vocabulary": [
+      "inbox management agent",
+      "classifier",
+      "draft",
+      "telegram notification",
+      "high priority emails",
+      "Nate herkelman",
+      "Gmail",
+      "model 40",
+      "variables",
+      "parameters",
+      "draft",
+      "telegram",
+      "node",
+      "Gmail",
+      "prompt",
+      "model",
+      "trigger",
+      "flow"
+    ],
+    "analogies": [
+      "\"it's going to save me a ton of time\"",
+      "\"think of it like\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\""
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

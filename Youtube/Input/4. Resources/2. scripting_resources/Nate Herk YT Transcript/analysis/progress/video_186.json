@@ -1,0 +1,104 @@
+{
+  "num": 186,
+  "title": "6 Months of Building AI Agents in 43 Minutes (without the hype)",
+  "date": "05/03/25",
+  "word_count": 9941,
+  "char_count": 52765,
+  "chunks": 3,
+  "extracted": {
+    "hook": "everyone is talking about AI agents right now and we are living in such a cool time because with zero coding background you can get in there and leverage these tools and build some really cool AI systems",
+    "hook_type": "Curiosity-Gap",
+    "credential_drop": "\"around 6 months ago I started experimenting with implementing AI into automations and today I'm running an AI automation agency where we help clients scale their business without increasing headcount\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "\"now the second thing is being able to understand the difference between AI agents and Ai workflows\""
+      ],
+      "slow": [
+        "\"the reality is that all of these pretty much are just going to be you know proof of Concepts\"",
+        "\"because everyone has different Integrations everyone's going to have different system prompted and different little tweaks that they need for an automation to be actually high value for them\""
+      ]
+    },
+    "vulnerability": "\"the reality is that all of these pretty much are just going to be you know proof of Concepts\"",
+    "cta": "NOT FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\""
+    ],
+    "transitions": [
+      "\"now the second thing is being able to understand the difference between AI agents and Ai workflows\"",
+      "\"okay but that's enough of the harsh truths let's get into the seven most important lessons I've learned over the 6 months of building AI agents as a non-programmer\"",
+      "so we have the aspect of the real real time context this is because there's some information that's just too dynamically changing or too large to fit within the actual system prompt of the agent so instead of relying on this predefined knowledge we can retrieve this context dynamically",
+      "now we're talking about Vector databases and when not to use a vector database so I think something similar happened here with Vector databases as the same way it happened with AI agents is that it was just some cool magic buzzword and it sounded like almost too good to be true so everyone just started overusing them and overusing the term",
+      "moving on to number five why prompting is critical for AI agents um we already talked about it a little bit I guess in the context is everything section because prompting is giving it more context but this should be a whole lesson in itself because it is truly an art and you have to find that fine line between you don't want over prompt it and you want to minimize your token usage but you also want to give it enough information",
+      "then it's just that Loop of test reprompt test again reprompt"
+    ],
+    "vocabulary": [
+      "proof of Concepts",
+      "production ready builds",
+      "no code tools",
+      "LLM call",
+      "human Loop",
+      "troubleshooting steps",
+      "user context specific memory",
+      "AI agents",
+      "Vector databases",
+      "structured and unstructured data",
+      "relational database",
+      "SQL querying",
+      "prompting",
+      "reactive prompting",
+      "scaling agents"
+    ],
+    "analogies": [
+      "\"think of it like\"",
+      "\"it's a multi-dimensional space where the data points that you were storing are stored as these little vectors these little dots everywhere\"",
+      "\"like I said it is sort of like that multi-dimensional data representation\"",
+      "\"so in this example we're looking at customer data and we have two different tables and this is relational data because over here we have a customer ID column so customer ID 101 is Alice and we have Alice's email right here customer ID 102 is Bob we have Bob's email and then we have a different table that is able to relate back to this customer lookup table\"",
+      "\"so in this case let's say the SQL query we're doing is based on the user question of can you check the status of my order for wireless mouse placed on January 10th\"",
+      "\"on the left we have product information about blankets and on the right we also have product information about blankets and we just decided on the right it's a vector database on the left it's a relational database\"",
+      "\"if you're creating a context creation agent you wouldn't need a tool section really if it's not if it doesn't have any tools You' just be prompting it about its output and about its role but anyways\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "\"I'll come back to this\"",
+      "\"here's where it gets interesting\"",
+      "\"let me hit you with\"",
+      "\"so in this example we're looking at customer data and we have two different tables and this is relational data because over here we have a customer ID column so customer ID 101 is Alice and we have Alice's email right here customer ID 102 is Bob we have Bob's email and then we have a different table that is able to relate back to this customer lookup table\"",
+      "\"so in this case let's say the SQL query we're doing is based on the user question of can you check the status of my order for wireless mouse placed on January 10th\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"if this kind of stuff sounds interesting to you\"",
+      "\"make sure to watch this video all the way to the end\"",
+      "\"definitely check out my community\"",
+      "\"the link for that will be down in the description\"",
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": [
+      "\"the first one is to build workflows first\"",
+      "\"lesson number two this is to wireframe before you actually get in there and start building\"",
+      "\"number three we have context is everything\"",
+      "\"the seven lessons that I've learned over the past six months building these things\"",
+      "\"troubleshooting steps that have been taken maybe information about the customer and without this user context specific memory the AI is going to ask the same questions over and over it's going to forget what's already been conversated about and it'll probably just annoy the end user with repetitive information and not very tailored information so we're able to store these past interactions so that the AI can see it before it responds and before it takes action\"",
+      "\"so in this example we're looking at customer data and we have two different tables and this is relational data because over here we have a customer ID column so customer ID 101 is Alice and we have Alice's email right here customer ID 102 is Bob we have Bob's email and then we have a different table that is able to relate back to this customer lookup table\"",
+      "\"so in this case let's say the SQL query we're doing is based on the user question of can you check the status of my order for wireless mouse placed on January 10th\""
+    ]
+  }
+}

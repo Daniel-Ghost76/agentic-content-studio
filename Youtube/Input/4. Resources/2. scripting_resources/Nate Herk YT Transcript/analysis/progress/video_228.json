@@ -1,0 +1,98 @@
+{
+  "num": 228,
+  "title": "Step By Step: Automating Lead Nurturing with No Code in n8n",
+  "date": "01/11/24",
+  "word_count": 5298,
+  "char_count": 26630,
+  "chunks": 2,
+  "extracted": {
+    "hook": "today I'm going to be walking through step by step how to build this super simple workflow that's going to capture leads information and then automatically email them update in the CRM and then notify your team about this new lead",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "when explaining the workflow steps"
+      ],
+      "slows": [
+        "during detailed explanations of setup processes"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "\"if you guys made it all the way to the end thank you really appreciate you guys watching\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "first things first",
+      "next it's going to go on to this wait step",
+      "then we have an open AI message and model node",
+      "finally after this step it will go into the slack node",
+      "so as you can see this workflow is currently active so that means anytime a form is actually submitted it will take place",
+      "all right the workflow just finished running",
+      "so here's the response",
+      "all right so this node is configured now we just need to set up that last one which is the slack notification okay",
+      "okay so here's the message we're sending new blank alert",
+      "let me go in here and submit another response and we'll make this one U maybe like a low value lead and we'll see that tag come through and we'll see what the emo looks like"
+    ],
+    "vocabulary": [
+      "workflow",
+      "Google Sheets trigger",
+      "wait step",
+      "open AI message and model node",
+      "slack node",
+      "CRM",
+      "lead form responses",
+      "client ID",
+      "client secret",
+      "API key",
+      "automate",
+      "lead nurturing",
+      "no code",
+      "n8n",
+      "Google Sheets",
+      "slack",
+      "node",
+      "workflow"
+    ],
+    "analogies": [
+      "\"think of it like\"",
+      "\"think of it like\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"let me hit you with\" a very simple use case of sort of capturing some sort of form from a lead magnet it's going to go through and it's going to email them update stuff notify your team but there's also definitely ways you could work off of this like you could have some sort of campaign off of here where you're monitoring This Thread"
+    ]
+  }
+}

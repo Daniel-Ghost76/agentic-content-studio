@@ -1,0 +1,94 @@
+{
+  "num": 16,
+  "title": "100 Hours Testing Claude Code vs Antigravity (honest results)",
+  "date": "13/04/26",
+  "word_count": 5839,
+  "char_count": 32274,
+  "chunks": 2,
+  "extracted": {
+    "hook": "Right now, there are two tools that are leading the market when it comes to building with AI. We've got Claude Code and Google Antigravity. And for the past few months, there's been a debate on which one of these tools is actually the best.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "\"After hundreds of hours testing both of these tools, the truth is that each one is better for different tasks. And even though the answer isn't super obvious, I still think there's one tool that you should learn over the other.\" (late)",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "\"So, let's get into it\"",
+        "\"All right, so before we get into the actual tests, you need to understand what these tools are and how they're actually different\""
+      ],
+      "slow": [
+        "\"The model you use inside the tool matters so much. If you're running Claude Code with Haiku, it's going to be a completely different experience than running Claude Code with Opus\"",
+        "\"Both of these coding tools support MCP, Model Context Protocol, the open standard that lets AI tools plug into external services\""
+      ]
+    },
+    "vulnerability": "\"Claude Code recently, in March of '26, had a caching bug that inflated token costs by maybe 10 to 20x. For max plan users, they were draining their entire session in under 2 hours.\"",
+    "cta": "If you guys enjoyed it and learned something new, please give it a like. It definitely helps me out a ton.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, let's get into it.",
+      "All right, so before we get into the actual tests, you need to understand what these tools are and how they're actually different.",
+      "Now, Antigravity has only one front door.",
+      "Now, let's actually get into what matters the most, which is the quality of what the tools produce.",
+      "Now, real-world results, Anthropic's engineering team reported that Claude Code gave them a 50% productivity gain and 67% more pull requests merged per engineer per day.",
+      "So, let me hit you with the results.",
+      "Now, over here on the Antigravity side,",
+      "All right, so Claude Code just came back.",
+      "Here what I asked it to do is to design a landing page for a premium AI automation course targeted at agency owners."
+    ],
+    "vocabulary": [
+      "agentic coding platforms",
+      "terminal first",
+      "CLI tool",
+      "purpose-built environment",
+      "primitives",
+      "harness shapes how the model works",
+      "model determines the ceiling",
+      "context loss",
+      "MCP, Model Context Protocol",
+      "open standard",
+      "honest results",
+      "implementation plan",
+      "PDF report",
+      "AI trends",
+      "small and medium-sized business market"
+    ],
+    "analogies": [
+      "\"Claude Code gives you the primitives and lets you work the way you already [music] work. Antigravity packages the whole agentic workflow thing into a purpose-built environment that you kind of move into.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "\"I'll come back to this\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"So, let's talk about what it actually feels like to use them, starting with getting set up.\"",
+      "\"Now, real-world results, Anthropic's engineering team reported that Claude Code gave them a 50% productivity gain and 67% more pull requests merged per engineer per day\"",
+      "\"Now, in terms of task speed, an independent test found that Claude Code completed a representative task in about 4 minutes versus Antigravity's 8 minutes\""
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "num": 118,
+  "title": "Beginner's Guide to Workflow Evaluation in n8n (Stop Guessing!)",
+  "date": "03/09/25",
+  "word_count": 4016,
+  "char_count": 21239,
+  "chunks": 1,
+  "extracted": {
+    "hook": "Today we're going to talk about something pretty boring but super super important and that is workflow evaluation.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So let's get started.",
+      "But real quick, I wanted to get some of the more boring stuff out of the way real quick, which is just kind of laying a good foundation about the mindset of AI workflow evaluation.",
+      "And now moving on to something that is probably the most important part of evaluations."
+    ],
+    "cta": "\"I hope you guys can see how this would be really helpful in creating a workflow and then basically deciding, okay, well, which model do I want to use. You just test like five of them, see which ones have the best accuracy and we're also the cheapest. And boom.\"",
+    "vocabulary": [
+      "evaluation",
+      "workflow",
+      "AI",
+      "prompt",
+      "accuracy",
+      "performance",
+      "variables",
+      "ground truth",
+      "statistical significance",
+      "node"
+    ],
+    "analogies": "\"Think back to when you were building an AI agent or workflow and you weren't happy with the results\"",
+    "curiosity_gaps": [
+      "\"And so obviously this is just a mistake of like wording. And the reason it did that is because this AI agent has no system prompt.\"",
+      "\"So, if I need to source a thousand examples. That would kind of suck. But if you're thinking about getting good data and collecting data over months so that when you're ready to test the system, you have it, that's going to obviously make the workload less\"",
+      "\"All right. All right, so now we're actually in Nitn and we're going to look at how we do an evaluation flow.\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [
+        "70%",
+        "85%"
+      ],
+      "subscriber_counts": [],
+      "time_references": [
+        "\"I'm not going to do 50 examples today. I'm going to do like six or 10\"",
+        "\"When you really are starting to think about pushing this into production readiness, you want to have upwards of 250 to 750 examples where you can actually get statistical significance and cover a wide range of scenarios\"",
+        "\"And then mission critical high-risisk systems, you want to go above a thousand. Get as much data as you can truly.\""
+      ],
+      "named_tools": [
+        "NITN",
+        "Google sheet"
+      ]
+    },
+    "vulnerability": "\"I'm going to clear this out\"",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "discussing the importance of evaluation and laying a foundation about AI workflow evaluation."
+      ],
+      "slow": [
+        "explaining the process in detail"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

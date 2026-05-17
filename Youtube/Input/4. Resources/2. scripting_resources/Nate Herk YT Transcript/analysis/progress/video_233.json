@@ -1,0 +1,90 @@
+{
+  "num": 233,
+  "title": "Build a No-Code AI Chatbot (Step-by-Step Tutorial)",
+  "date": "14/10/24",
+  "word_count": 4919,
+  "char_count": 24336,
+  "chunks": 2,
+  "extracted": {
+    "hook": "today I'm going to be walking through step- by-step how to build an AI chatbot with absolutely no code by the end of this video you'll be able to have this thing up and running on your website for free",
+    "hook_type": "Time-Bound",
+    "credential_drop": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "when explaining the benefits of AI chatbots"
+      ],
+      "slows": [
+        "during detailed explanations of the builder interface"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "\"if you're interested in maybe some more complicated builds please let me know in the comments what type of stuff you want to see on chatlink and I'll definitely be sure to make a video about it\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"let's not waste any time\"",
+      "\"literally insane\""
+    ],
+    "transitions": [
+      "so let's get straight into the next step of this video",
+      "now we're actually inside of catling as you can see on the left hand side",
+      "let's go in here into knowledge base because this is what we want to set up first",
+      "now we're in the Builder",
+      "so let's preview the bot and see how information is moving through",
+      "so super easy to put on the website that took no code took me about you know 30 seconds actually after I remembered to publish the app but now let's hop back into chatlink and just be able to make sure we can see this conversation come through okay",
+      "we're back in chatlink"
+    ],
+    "vocabulary": [
+      "No-Code",
+      "AI chatbot",
+      "Lead generation",
+      "Deploy",
+      "Conversation",
+      "FAQs",
+      "Knowledge base",
+      "Variables",
+      "AI configuration",
+      "Delay",
+      "No-Code",
+      "AI Chatbot",
+      "publish the app",
+      "conversations",
+      "sources"
+    ],
+    "analogies": [
+      "\"think of this as sort of the memory of a chatbot\"",
+      "\"\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "\"\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"one of the really cool things about chatlink is that you can either start from scratch or you can start from one of the templates they have\"",
+      "\"so let's break it down real quick\"",
+      "\"now we're going to create a chatbot so one of the really cool things about chatlink is that you can either start from scratch or you can start from one of the templates they have\"",
+      "\"let's preview the bot and see how information is moving through\"",
+      "\"so let's get into some of these blocks\"",
+      "\"\""
+    ]
+  }
+}

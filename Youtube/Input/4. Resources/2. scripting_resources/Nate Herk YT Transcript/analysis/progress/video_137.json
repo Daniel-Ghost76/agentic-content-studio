@@ -1,0 +1,86 @@
+{
+  "num": 137,
+  "title": "Build Anything With Grok 4 and n8n AI Agents",
+  "date": "10/07/25",
+  "word_count": 2624,
+  "char_count": 13678,
+  "chunks": 1,
+  "extracted": {
+    "hook": "Today we're going to be talking about the world's new best AI model, Gro 4. We're going to be breaking down what it is, why it's a big deal. We're going to look at the benchmarks and compare it to other models. And then finally, I'm going to show you guys how to actually connect it to Nitn to power your AI agents in your AI automations to make them even smarter.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NOT FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "And then finally, I'm going to show you guys how to actually connect it to Nitn to power your AI agents in your AI automations to make them even smarter.",
+      "But before we hop into Nitn, let's real quick talk about what is Grock 4 and why this is such a big deal.",
+      "So the first one we'll look at is how it performed on the HLE, which is humanity's last exam, which is a super tough test designed with questions of math, science, and humanities designed to be hard even for experts.",
+      "And then right here, we have another quote from Elon. Grock 4 is smarter than almost all graduate students in all disciplines simultaneously."
+    ],
+    "cta": "\"if you enjoyed the video or you learned something new, please give it a like. Definitely helps me out a ton.\"",
+    "vocabulary": [
+      "AI model",
+      "Nitn",
+      "Grok 4",
+      "XAI",
+      "Noden",
+      "Gro 4 0709",
+      "perplexity tool",
+      "Tavi",
+      "Perplexity",
+      "Open Router"
+    ],
+    "analogies": [
+      "\"you can kind of think of these as brain cells of the AI. And this makes it one of the largest and most complex AI models ever built.\""
+    ],
+    "curiosity_gaps": [
+      "\"And then right here, we have another quote from Elon. Grock 4 is smarter than almost all graduate students in all disciplines simultaneously. So, we're not going to dive into the politics of XAI and Elon. I'm just stating the facts for you guys.\"",
+      "\"So, tons of use cases. Excited to see what you guys come up with using Groc 4.\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [
+        "25%",
+        "44.4%",
+        "87 to 88%",
+        "95 out of 100",
+        "72 to 75%"
+      ],
+      "time_references": [
+        "July 9th of 2025"
+      ],
+      "named_tools": [
+        "Noden",
+        "Open Router",
+        "Perplexity",
+        "Tavi"
+      ]
+    },
+    "vulnerability": "\"I got a new mouse. It's like an ergonomic shape so it doesn't hurt my wrist. So, pretty pumped about that.\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "NOT FOUND"
+      ],
+      "slow": [
+        "NOT FOUND"
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\""
+    ],
+    "frameworks": []
+  }
+}

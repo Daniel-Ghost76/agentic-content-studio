@@ -1,0 +1,74 @@
+{
+  "num": 122,
+  "title": "I built this AI Agent in 2 hours (and got paid $1200)",
+  "date": "17/08/25",
+  "word_count": 2696,
+  "char_count": 14311,
+  "chunks": 1,
+  "extracted": {
+    "hook": "So, I built this agent in 2 hours, and someone actually paid me $1,200 for it.",
+    "hook_type": "Result-First",
+    "credential_drop": "\"I'm pretty sure all of you guys could build something just like this.\" (early)",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, what was the AI agent that I ended up selling?",
+      "And you can see here it's a very, very simple system.",
+      "Making an HTTP request, and then creating content, which was a really hot topic and still is when it came to AI powered systems.",
+      "And at this point in my life, you know, I was still working full-time and I was just building a lot of stuff with Naden for fun and really just trying to learn what was possible.",
+      "So, you guys see that workflow?",
+      "But the client wasn't paying for the workflow or wasn't paying for me on an hourly basis.",
+      "And now all he has to do is pay for his API credits which are pretty minimal."
+    ],
+    "cta": "\"if you enjoyed the video or you learned something new, please give it a like. It definitely helps me out a ton.\" (outro)",
+    "vocabulary": [
+      "AI agent",
+      "AI workflow",
+      "Naden",
+      "API credits",
+      "value-based pricing"
+    ],
+    "analogies": "\"And at this point in my life, you know, I was still working full-time and I was just building a lot of stuff with Naden for fun and really just trying to learn what was possible.\" (early)",
+    "curiosity_gaps": [
+      "\"So, what's the value that you're adding?\"",
+      "\"And then there's also tons of other intangible benefits of AI automation as well. Of course, at the time, I was insanely happy about making a quick $1,200, but if I really started to think about it, the value of this system in my mind was way more than $1,200.\""
+    ],
+    "specificity": {
+      "dollar_amounts": [
+        "$1,200",
+        "$600 an hour",
+        "$3,000 a month",
+        "$1,000 a month ongoing"
+      ],
+      "time_references": [
+        "2 hours",
+        "8, nine months ago"
+      ]
+    },
+    "vulnerability": "\"I was still working full-time and I was just building a lot of stuff with Naden for fun and really just trying to learn what was possible.\" (early)",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "And at this point, AI agent was kind of a buzzword and everyone was calling everything agents, myself included.",
+        "But more realistically, this was an AI workflow that I sold."
+      ],
+      "slow": [
+        "So, in this video, I'm going to walk through what the agent does, why someone paid me for it, what this means for anyone trying to get started, and how I'd sell my first AI agent if I was starting from zero today."
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": [
+      "\"So, in this video, I'm going to walk through what the agent does, why someone paid me for it, what this means for anyone trying to get started, and how I'd sell my first AI agent if I was starting from zero today.\""
+    ]
+  }
+}

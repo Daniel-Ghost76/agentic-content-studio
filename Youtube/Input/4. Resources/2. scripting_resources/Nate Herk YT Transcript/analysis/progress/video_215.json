@@ -1,0 +1,81 @@
+{
+  "num": 215,
+  "title": "Vector Database Optimization with n8n: Metadata, Text Splitting, & Embeddings",
+  "date": "04/12/24",
+  "word_count": 4303,
+  "char_count": 21497,
+  "chunks": 1,
+  "extracted": {
+    "hook": "when building out AI agents the number one most important foundational aspect is having a good knowledge base and if your knowledge base is a vector database you really need to understand how you can get your information into that knowledge base optimally so your agents are able to search through it and give you accurate answers through rag or other functions in this video we'll be using nadn and pine cone to go over essential Concepts like metadata embeddings and text splitting",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys find this one helpful please consider giving it a like\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "if you haven't set up pine cone you're going to want to do that",
+      "so now we got that out the way let's just run this first workflow",
+      "hey everyone just wanted to mention that the workflow that you see in this video with all these examples will be available for download in my free school Community Link for that will be down in the description",
+      "let me get rid of this Vector now we will test out one more example over here which is the wrong embedding",
+      "now we're moving on to an example where we are getting putting all the content in so similar to this first one where all the content was going through after we extracted it from text"
+    ],
+    "cta": "\"if you guys find this one helpful please consider giving it a like\"",
+    "vocabulary": [
+      "vector database",
+      "metadata",
+      "embeddings",
+      "text splitting",
+      "Pine Cone",
+      "NADN",
+      "RAG",
+      "workflow",
+      "index",
+      "embedding"
+    ],
+    "analogies": "\"think of it like\"",
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [
+        "04/12/24"
+      ],
+      "named_tools": [
+        "Pine Cone",
+        "NADN"
+      ]
+    },
+    "vulnerability": "\"as you can see we've got all these workflow set up and each one is going to do something different so hopefully they'll all make sense by the end\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "pace_accelerates": [
+        "when building out AI agents the number one most important foundational aspect is having a good knowledge base"
+      ],
+      "pace_slows": [
+        "if you haven't set up pine cone you're going to want to do that so you'll hop into pine cone um Pine cone. you'll create an index you will um set up your embedding so just really easy to set up I would just go with serverless and I would go with embedding three small and then you'll just grab an API key and hook up to Pine Cone you'll be good to go it's super easy super cheap and fast to set up"
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": [
+      "\"basically the principles are you're going to download some sort of file and end at end so we're downloading that file right here and then you're going to put it into pine cone and when you're putting it into pine cone you need to make sure your embedding is correct so right here we have text embedding three small because in Pine Cone we set up our embedding as text embedding three small you have to make sure that matches I'll show an example of what happens if it doesn't match and then from there you're going to make sure you're loading in your data you can load it in using Json or binary again we'll show examples of all this and then finally you need to split up that text or split it up whatever it is you need to split it up somehow um and right here we're showing recursive character text splitting um as you can see there are different options and we'll go over uh scenario where we use each one but that's pretty much what's going to be going on in every example download and Ed load split"
+    ]
+  }
+}

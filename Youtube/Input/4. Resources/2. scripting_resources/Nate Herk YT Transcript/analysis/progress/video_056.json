@@ -1,0 +1,101 @@
+{
+  "num": 56,
+  "title": "From Zero to Your First Agentic AI Workflow in 26 Minutes (Claude Code)",
+  "date": "23/02/26",
+  "word_count": 7458,
+  "char_count": 39675,
+  "chunks": 2,
+  "extracted": {
+    "hook": "Aentic workflows are changing how we build AI automations, but not only that, they're also changing the entire industry with more businesses investing in Aentic AI to improve their workflows.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NOT FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "NONE FOUND"
+      ],
+      "slow": [
+        "\"So, that's why in this video, I'll be telling you everything you need to know, and then I'm going to show you how to build your first agentic workflow from absolutely zero.\""
+      ]
+    },
+    "vulnerability": "\"So, that's why in this video, I'll be telling you everything you need to know, and then I'm going to show you how to build your first agentic workflow from absolutely zero.\"",
+    "cta": "So, as you can see, building your first agentic workflow is actually so simple. But if you still have doubts about what you need to do or where to start, you can always join my community.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\" - For branding, it says can I use the existing branding assets I found in your YouTube analysis project?",
+      "\"here we go\" - So here we are getting some questions.",
+      "\"what's really cool\" - It's asking us how often do we want to run this. I'm just going to go with monthly for now.",
+      "\"let me hit you with\" - And then all I have to do is grab my API key from right here. Paste it into this section.",
+      "\"literally insane\" - So, the workflow is ready.",
+      "\"let's not waste any time\" - Now, we do have to go get two API keys to start.",
+      "\"honestly\" - So, I am a little confused why it hasn't asked about that, but we will see what happens.",
+      "\"crazy\" - Well, the thing is as you use it more and more, it gets smarter and smarter because each time you use it, you know, it has more information and you you give it feedback.",
+      "\"insane\" - So, the initial setup may seem like a lot, but think about the questions it's asking and think about how good it's going to get now that it has all this info.",
+      "\"wild\" - All right. So, here we are getting some questions."
+    ],
+    "transitions": [
+      "So, let's get into it.",
+      "All right. So, before we actually build anything,",
+      "Now I do believe that traditional automation with a tool like NN isn't going anywhere.",
+      "So, here's a really simple way to think about that evolution.",
+      "Let me just show you how this connects.",
+      "So, I'm going to choose all of it.",
+      "And this is pretty cool because it said I have all the information I need.",
+      "Let me launch a plan agent to actually design the implementation approach.",
+      "For the output, it asks if we want anything else besides a PDF. That's pretty cool.",
+      "So, at this point, it actually finished the plan.",
+      "Now, one thing I noticed is it has a brand configuration file, and this basically made up our brand information, and it would probably want us to come in here and choose, you know, a name and maybe a logo path.",
+      "And now, since that has been changed, we're going to go ahead and auto accept the plan."
+    ],
+    "vocabulary": [
+      "Aentic",
+      "workflows",
+      "agent",
+      "tools",
+      "Cloud Code",
+      "WAT",
+      "markdown",
+      "claude code",
+      "agentic",
+      "workflow",
+      "competitor analysis",
+      "PDF report",
+      "API key"
+    ],
+    "analogies": [
+      "\"Think of it like hiring a really talented developer\"",
+      "\"You're basically building the whole thing manually. and if it breaks again later, you're the one who has to go back in there and fix it yourself.\"",
+      "\"Traditional automation is like using a paper map and a compass and you're looking at the street names and you're trying to figure out your own routes\"",
+      "\"With Agentic workflows, that's just like pulling out your phone, googling for the carnival, and then it basically gives you this blue line, and all you have to do is follow it.\"",
+      "\"it's going to be doing subsequent runs on a 30-day cycle, which will be a huge cost savings because it's going to cache some of the data. And then if you're adding some new competitors, it'll be maybe another 50ents.\" - So, think of it like caching data for future use."
+    ],
+    "curiosity_gaps": [
+      "\"So, let me hit you with what's really cool about agentic workflows\"",
+      "\"Here's a really simple way to think about that evolution\"",
+      "\"Now I do believe that traditional automation with a tool like NN isn't going anywhere. It's still perfect for repetitive, predictable tasks.\"",
+      "\"So, I am a little confused why it hasn't asked about that, but we will see what happens.\"",
+      "\"All right. So, here's the thing. It said the PDF generator has several problems and listed those out. And now it's going to go ahead and fix those issues.\" - Here's where it gets interesting."
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"you guys\" - For branding, it says can I use the existing branding assets I found in your YouTube analysis project?"
+    ],
+    "frameworks": [
+      "\"All right. So, before we actually build anything, let's make sure that we're on the same page about what agentic workflows actually are.\"",
+      "\"So, here's a really simple way to think about that evolution.\"",
+      "\"Let me just show you how this connects.\""
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "num": 214,
+  "title": "This AI Agent Extracts Text From Images in n8n",
+  "date": "05/12/24",
+  "word_count": 2650,
+  "char_count": 13257,
+  "chunks": 1,
+  "extracted": {
+    "hook": "we got telegram open I'm just going to drag over an invoice here drop it in to telegram hit send and now we will see",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "so let's um walk through a live example where we actually trigger this workflow and we'll go through no by node",
+      "all right I'm going to be using the same example invoice from the demo so we'll hit test step",
+      "this workflow that you see right here will be available for download in the free school Community Link for that will be down in the description"
+    ],
+    "cta": "\"if you guys enjoyed this one please give it a like definitely helps me out\"",
+    "vocabulary": [
+      "telegram",
+      "invoice",
+      "OCR",
+      "Google Drive",
+      "binary",
+      "prompting",
+      "tools agent",
+      "conversational agent"
+    ],
+    "analogies": "\"it's basically just a better way of getting text from an image\"",
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [
+        "05/12/24"
+      ],
+      "named_tools": [
+        "telegram",
+        "OCR"
+      ]
+    },
+    "vulnerability": "\"NONE FOUND\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "when explaining the workflow steps and live example"
+      ],
+      "slows": [
+        "during detailed explanations of each node's function"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

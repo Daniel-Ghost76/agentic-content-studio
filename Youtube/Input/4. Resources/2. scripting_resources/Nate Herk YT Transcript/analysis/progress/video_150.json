@@ -1,0 +1,77 @@
+{
+  "num": 150,
+  "title": "This AI Workflow Analyzes Videos for FREE (n8n + Google Gemini)",
+  "date": "12/06/25",
+  "word_count": 3054,
+  "char_count": 15729,
+  "chunks": 1,
+  "extracted": {
+    "hook": "Okay. So, I'm going to go ahead and hit test workflow, which is going to open up this form that's going to prompt us to insert a video that we want to get analyzed.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, now that I've chosen my MP4 file, I'm going to submit that.",
+      "And let's go take a look at what it says.",
+      "So, the video presents a series of artistic renderings where well-known beverage containers are reimagined as buildings or structures.",
+      "As you can see, four different drinks.",
+      "All right. So, now that you've seen a demo of how this works, let's actually dive into what's going on within each step.",
+      "So, if you want to follow along, click the link in the description for my free school community.",
+      "And then we're going to be able to see how we can use Gemini to understand videos and YouTube videos."
+    ],
+    "cta": "\"if you enjoyed, you learned something new, please give it a like. Definitely helps me out a ton.\"",
+    "vocabulary": [
+      "workflow",
+      "analyze",
+      "API key",
+      "Niten",
+      "Google Gemini"
+    ],
+    "analogies": [
+      "\"it's basically running on Google Gemini servers right now\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollars": [],
+      "percentages": [],
+      "subscribers": [
+        "1.8,000 members"
+      ],
+      "time_references": [
+        "5 seconds",
+        "12/06/25"
+      ],
+      "tools": [
+        "Niten"
+      ]
+    },
+    "vulnerability": "\"NONE FOUND\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "discussing the analysis of different drinks in the video"
+      ],
+      "slow": [
+        "explaining the process of setting up API key and making HTTP requests"
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": []
+  }
+}

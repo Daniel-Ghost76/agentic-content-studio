@@ -1,0 +1,69 @@
+{
+  "num": 42,
+  "title": "I Taught Claude Code to Play Tetris... It Broke the World Record",
+  "date": "11/03/26",
+  "word_count": 1948,
+  "char_count": 9807,
+  "chunks": 1,
+  "extracted": {
+    "hook": "Did you guys know that I'm actually a Tetris world champion? No, I'm just kidding.",
+    "hook_type": "Contrarian",
+    "credential_drop": "NOT FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "Okay, so here is the first game that it built me.",
+      "Okay, so game number two is a classic.",
+      "All right, guys. I think I cracked it.",
+      "So it's going to start up the game server and then it's going to launch the checkers bot."
+    ],
+    "cta": "if you want to play around with it, go tell it to figure out how to install the Playright CLI, and it will just do it for you.",
+    "vocabulary": [
+      "Cloud Code",
+      "browser automation",
+      "Tetris world record score",
+      "selfcorrection",
+      "block runner game"
+    ],
+    "analogies": [],
+    "curiosity_gaps": [
+      "\"I'm going to go ahead and call it a day. We're going to close out of those sessions and they definitely crushed the 80,000 mark.\"",
+      "\"All right, so I am gold and the AI is red. I haven't played checkers in I don't even know how long. So I have no strategy going into this, but we're just going to go ahead and get started here.\""
+    ],
+    "specificity": {
+      "dollars": [],
+      "percentages": [],
+      "subscribers": [],
+      "time_references": [
+        "\"11/03/26\"",
+        "\"I haven't played checkers in I don't even know how long. So I have no strategy going into this, but we're just going to go ahead and get started here.\""
+      ],
+      "named_tools": [
+        "Playright's CLI"
+      ]
+    },
+    "vulnerability": "\"I'm clearly having way too much fun with cloud code.\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the block game and bot attempts",
+        "showing the Tetris game play and scores"
+      ],
+      "slows": [
+        "explaining the process of building games for the AI to play"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

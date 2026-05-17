@@ -1,0 +1,69 @@
+{
+  "num": 199,
+  "title": "How to Locally Host DeepSeek R1 for FREE in Under 10 Minutes in n8n",
+  "date": "31/01/25",
+  "word_count": 2353,
+  "char_count": 11883,
+  "chunks": 1,
+  "extracted": {
+    "hook": "today I'm going to show you guys the quickest and easiest way to get deep seek set up locally so you can use it within NN",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "now the fun stuff",
+      "hey guys just wanted to say real quick",
+      "let's get back to the video okay"
+    ],
+    "cta": "if this kind of stuff interests you please check the communities out with the links in the description",
+    "vocabulary": [
+      "self-hosted",
+      "API calls",
+      "data security and privacy",
+      "N8n",
+      "DeepSeek R1",
+      "Llama"
+    ],
+    "analogies": [],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollars": "",
+      "percentages": "",
+      "subscribers": "",
+      "time_references": "31/01/25",
+      "named_tools": "N8n, Docker, GitHub, AMA"
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the privacy policy and API usage"
+      ],
+      "slows": [
+        "explaining the setup process in detail"
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": []
+  }
+}

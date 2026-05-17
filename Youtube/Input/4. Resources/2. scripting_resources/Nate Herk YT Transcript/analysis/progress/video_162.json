@@ -1,0 +1,70 @@
+{
+  "num": 162,
+  "title": "The Secret to Making AI Agents 100% Reliable - Human in the Loop (n8n)",
+  "date": "08/05/25",
+  "word_count": 4250,
+  "char_count": 21791,
+  "chunks": 1,
+  "extracted": {
+    "hook": "Okay, our workflow is actively listening for us in Telegram and I'm going to ask it to make an expost about coffee at night.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, here we go.",
+      "And now that we've seen this workflow in action, let's break it down.",
+      "So I'm going to click on executions.",
+      "Okay, so I'm about to fire off make me an expost about crocodiles."
+    ],
+    "cta": "\"if you guys enjoyed this style of video and you want to take your learning a bit deeper with NAND, then definitely check out my paid community.\"",
+    "vocabulary": [
+      "workflow",
+      "Telegram",
+      "expost",
+      "human in the loop",
+      "approval",
+      "revision agent"
+    ],
+    "analogies": "\"it's basically sending and waiting for a response operation\"",
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [
+        "08/05/25"
+      ],
+      "named_tools": [
+        "Tavly",
+        "Telegram"
+      ]
+    },
+    "vulnerability": "\"it's kind of tough to do this when you're actually giving an agent a tool that's supposed to be waiting for human approval\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "When explaining the workflow process and its steps."
+      ],
+      "slow": [
+        "During detailed explanations of each step in the workflow."
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

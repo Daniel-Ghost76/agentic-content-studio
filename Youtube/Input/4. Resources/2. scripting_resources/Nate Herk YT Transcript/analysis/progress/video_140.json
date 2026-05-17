@@ -1,0 +1,82 @@
+{
+  "num": 140,
+  "title": "Build Your First Research AI Agent in 12 mins (No Code)",
+  "date": "02/07/25",
+  "word_count": 3362,
+  "char_count": 17067,
+  "chunks": 1,
+  "extracted": {
+    "hook": "By the end of this video, you'll have built your very own research AI agent without writing a single line of code.",
+    "hook_type": "Time-Bound",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, if that sounds good to you, let's get started.",
+      "Okay, so now that that's out of the way, let's go into our Nitn.",
+      "But real quick, let's hop back into Open Router so I can just explain something.",
+      "All right, so what I'm going to do is get rid of this chat message trigger.",
+      "So, if you're interested in learning about different use cases and how you can actually get a process from your mind onto an edit in Canvas like this, then definitely check out my community."
+    ],
+    "cta": "\"if you enjoyed this style of teaching, then definitely hit that subscribe button.\"",
+    "vocabulary": [
+      "research AI agent",
+      "Open Router",
+      "Perplexity",
+      "AI model",
+      "API key",
+      "chat message",
+      "NITN",
+      "system prompt",
+      "Google sheet",
+      "competitors"
+    ],
+    "analogies": "\"think of it like\"",
+    "curiosity_gaps": [
+      "\"I'm going to walk through the entire process with you guys step by step. All of the connections, all the credentials, all the tough stuff like that.\"",
+      "\"So there's the brain for the AI agent. There's the tool the AI agent's going to use.\"",
+      "\"And now we're going to communicate with the AI agent?\"",
+      "\"But the cool thing is the trigger and the output don't have to be like this. Once we have built this agent, we could hook it up to whatever process we want.\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [
+        "\"02/07/25\"",
+        "\"12 mins\""
+      ],
+      "named_tools": [
+        "Open Router",
+        "Perplexity",
+        "NITN"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": "\"So, if that sounds good to you, let's get started.\"",
+      "slow": "\"And I'm going to stick with that for now. Cool. So, we have our brain set up.\""
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": [
+      "\"So there are two services that we're going to have to access. The first one is Open Router. The second one is Perplexity.\"",
+      "\"Okay, so what I'm going to do is go ahead and click on this button in the middle that says add first step.\""
+    ]
+  }
+}

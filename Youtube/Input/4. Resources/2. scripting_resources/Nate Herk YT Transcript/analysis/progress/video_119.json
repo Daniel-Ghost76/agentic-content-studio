@@ -1,0 +1,97 @@
+{
+  "num": 119,
+  "title": "How I Sold These 4 AI Agents for $23,000 (as a beginner)",
+  "date": "31/08/25",
+  "word_count": 3337,
+  "char_count": 18849,
+  "chunks": 1,
+  "extracted": {
+    "hook": "So, we built these four AI agents and got paid $23,000 total by four separate businesses, and they weren't anything too complex or advanced.",
+    "hook_type": "Result-First",
+    "credential_drop": "NOT FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "All right, let's start with the first agent I sold",
+      "Now, how did I actually sell this?",
+      "So that was the first agent.",
+      "Soon after that, things started moving a lot faster.",
+      "And this was a big turning point because up until then",
+      "Looking back, we definitely didn't have our processes nailed down yet.",
+      "But this is where our growing pains really showed because in order to deliver this build",
+      "Finally, the fourth agent we sold was a full AI concierge."
+    ],
+    "cta": "\"if you guys enjoyed or you learned something new, please give it a like\"",
+    "vocabulary": [
+      "AI agents",
+      "personalized outreach agent",
+      "sales agent",
+      "personal assistant",
+      "full AI concierge",
+      "MCP servers"
+    ],
+    "analogies": [
+      "\"The value prop here was all about productivity, centralizing data retrieval, automating routine admin tasks, and enabling faster communication without switching between tools.\""
+    ],
+    "curiosity_gaps": [
+      "\"All right, let's start with the first agent I sold\"",
+      "\"Now, how did I actually sell this?\"",
+      "\"So that was the first agent. Soon after that, things started moving a lot faster. I'd quit my job. I started getting more inbound traction and I realized I couldn't keep doing everything solo. That's when I decided to team up with my co-founders and we started building what's now our AI business, True Horizon AI\"",
+      "\"And because the company was launching a new offer, our AI concierge was critical in helping them get it off the ground quickly without hiring more staff\"",
+      "\"So this project wasn't just a win because of the $12,000 price tag. It was proof that we had gone from scrappy freelancers to consultants, then to building a business with real systems that could handle bigger and more valuable clients, and now looking to scale our operations\""
+    ],
+    "specificity": {
+      "dollar_amounts": [
+        "$23,000",
+        "$1,650",
+        "$4,000",
+        "$6,000",
+        "$12,000",
+        "$25,000"
+      ],
+      "percentages": [],
+      "time_references": [
+        "a few months after starting out",
+        "around the time that MCP servers started to become a big deal online"
+      ],
+      "named_tools": [
+        "Naden",
+        "vector databases"
+      ]
+    },
+    "vulnerability": "\"I was clearly a beginner, and I wasn't even thinking about ROI back then\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "NOT FOUND"
+      ],
+      "slow": [
+        "NOT FOUND"
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\""
+    ],
+    "frameworks": [
+      "\"Step one, diagnose the problem. Prescribe a solution.\"",
+      "\"Number two, pick simple tools.\"",
+      "\"Number three is to multiply the hours saved by the hourly rate by 4 weeks, and that's how you get to monthly savings, and then just times that by 12 to get to annual savings\"",
+      "\"Number four is to package and anchor your offers.\"",
+      "\"Number five, avoid the traps.\"",
+      "\"Number six, we have prototype and QA.\"",
+      "\"Number seven, building long-term partnerships. Finally, just remember this\""
+    ]
+  }
+}

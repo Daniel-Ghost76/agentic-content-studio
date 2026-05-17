@@ -1,0 +1,84 @@
+{
+  "num": 35,
+  "title": "Claude Code Just Got Another Huge Upgrade",
+  "date": "24/03/26",
+  "word_count": 2030,
+  "char_count": 10454,
+  "chunks": 1,
+  "extracted": {
+    "hook": "Enthropic just dropped another new feature which lets Claude Code actually control your computer which means it can natively use your mouse, your keyboard and take screenshots and do things for you.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NOT FOUND",
+    "signature_phrases": [
+      "\"you can see here\"",
+      "\"So, let's not waste any time\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"here we go\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, today I'm going to show you guys a few demos, talk about when it's useful, and then I'm going to talk about the limitations as well.",
+      "Now the only way right now is within the desktop app, which is not a huge deal.",
+      "And now that I've already allowed those certain tools like Finder and ClickUp in this session, next time it uses them, it won't have to ask me again for permission."
+    ],
+    "cta": "\"If you enjoyed, if you learned something new, please give it a like. Helps me out a ton.\"",
+    "vocabulary": [
+      "research preview",
+      "dispatch feature",
+      "computer use",
+      "local computer",
+      "cloud desktop app",
+      "ClickUp",
+      "DM",
+      "ROI calculator"
+    ],
+    "analogies": "\"So, you can literally reach your desktop from your pocket\"",
+    "curiosity_gaps": [
+      "\"And now that I've already allowed those certain tools like Finder and ClickUp in this session, next time it uses them, it won't have to ask me again for permission. So, let's not waste any time\"",
+      "\"So, you can use this in co-work and in cloud code. So today I'm going to be showing how you use it in cloud code.\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [
+        "4 million views"
+      ],
+      "time_references": [
+        "\"2 hours ago\"",
+        "\"a few demos\"",
+        "\"when it's time to check the build, but you're on the train\"",
+        "\"in just a few weeks here\""
+      ],
+      "named_tools": [
+        "OBS",
+        "ClickUp",
+        "ROICalculator PDF",
+        "Safari",
+        "Google Chrome extension",
+        "Playright CLI"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "\"And now, it took control of the computer\"",
+        "\"So, you can use this in co-work and in cloud code. So today I'm going to be showing how you use it in cloud code.\""
+      ],
+      "slows": [
+        "\"The recording was started by claude code. So once again, you can use this in co-work and in cloud code\"",
+        "\"And now that I've already allowed those certain tools like Finder and ClickUp in this session, next time it uses them, it won't have to ask me again for permission.\""
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": []
+  }
+}

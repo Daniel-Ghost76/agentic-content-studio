@@ -1,0 +1,98 @@
+{
+  "num": 24,
+  "title": "Andrej Karpathy Just 10x�d Everyone�s Claude Code",
+  "date": "05/04/26",
+  "word_count": 4338,
+  "char_count": 22830,
+  "chunks": 2,
+  "extracted": {
+    "hook": "What you're looking at right here is 36 of my most recent YouTube videos organized into an actual knowledge system that makes sense.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "And the crazy part is I said, 'Hey, Cloud Code, go grab the transcripts from my recent videos and organize everything. I literally didn't have to do any manual relationship building here. It just figured it all out on its own.'"
+      ],
+      "slow": [
+        "So, for example, this is one of my videos",
+        "And then right here, I have a much smaller one, but this is more of my personal brain"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "And if you did, please give it a like. It helps me out a ton.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys learned something new\"",
+      "\"you guys\"",
+      "\"let me hit you with\"",
+      "\"literally insane\""
+    ],
+    "transitions": [
+      "So, for example, this is one of my videos",
+      "And then right here, I have a much smaller one, but this is more of my personal brain",
+      "Something I've been finding very useful recently is using LLM to build personal knowledge bases for various topics of research interest",
+      "Okay, so this was the original tweet I just showed you guys and then he followed up and said, \"Hey, this one went viral\"",
+      "So, we're going to go to Obsidian and download it",
+      "So that is going to do it for today."
+    ],
+    "vocabulary": [
+      "knowledge system",
+      "nodes",
+      "patterns",
+      "back links",
+      "LLM",
+      "Cloud Code",
+      "Obsidian",
+      "vault",
+      "markdown files",
+      "index",
+      "fine",
+      "millions of documents",
+      "current models",
+      "everything we know right now"
+    ],
+    "analogies": [
+      "\"it's literally just a folder with markdown files\""
+    ],
+    "curiosity_gaps": [
+      "\"And I can just query it in a really efficient way now that we have this actual system set up\"",
+      "\"It's super super easy\"",
+      "\"So, for example, this is one of my videos\"",
+      "\"And the crazy part is I said, 'Hey, Cloud Code, go grab the transcripts from my recent videos and organize everything. I literally didn't have to do any manual relationship building here. It just figured it all out on its own.'\"",
+      "\"So right now he's doing about 100 articles and about half a million words\"",
+      "\"And then there's a Q&amp;A phase where you basically can ask questions about YouTube or about the research and it can look through the entire wiki in a much more efficient way and it can give you answers that are super intelligent\""
+    ],
+    "specificity": [
+      "\"36 of my most recent YouTube videos\"",
+      "\"100 articles\"",
+      "\"half a million words\"",
+      "\"5 minutes\"",
+      "\"obsidian\"",
+      "\"cloud code\"",
+      "\"Claude\"",
+      "\"Obsidian Web Clipper\"",
+      "\"4 folders\"",
+      "\"23 wiki pages\""
+    ],
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\"",
+      "\"if you did\""
+    ],
+    "frameworks": [
+      "\"The first part is data ingest\"",
+      "\"He uses Obsidian as the IDE\"",
+      "\"There's a Q&amp;A phase where you basically can ask questions about YouTube or about the research and it can look through the entire wiki in a much more efficient way and it can give you answers that are super intelligent\""
+    ]
+  }
+}

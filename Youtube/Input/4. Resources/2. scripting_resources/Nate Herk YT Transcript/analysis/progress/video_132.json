@@ -1,0 +1,99 @@
+{
+  "num": 132,
+  "title": "Building an AI Agent Swarm in n8n Just Got So Easy",
+  "date": "25/07/25",
+  "word_count": 6236,
+  "char_count": 32038,
+  "chunks": 2,
+  "extracted": {
+    "hook": "Today I'm going to show you guys how you can automate anything with NADN agent swarms.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NOT FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "\"So if you've seen my channel before, you may have come across this video where I built an ultimate personal assistant\"",
+        "\"All right, so our agent's listening. I'm going to send it another message in Telegram\"",
+        "\"Okay, so here's our sent email to mike@cratescott.com\""
+      ],
+      "slow": [
+        "\"So that's the power of an agent swarm\"",
+        "\"And now what we're going to do is step by step build one together, just a really mini version of this one so that you guys can get a taste of how you can come in here and build your own executive agent swarm.\""
+      ]
+    },
+    "vulnerability": "\"The email agent isn't messing up. the main agent's messing up because what happens is the main agent is getting this message that says to send an email to nate@acample.com and if we click on the logs we can see what it does and we can see here that it basically calls on the email agent tool and it passes in as the input hi Nate I just wanted to check in so what happened here is the main agent decided I want to make the email rather than saying okay Mr. email agent, you do all this work.\"",
+    "cta": "\"if you enjoyed the video or you learned something new, please give it a like. Definitely helps me out a ton.\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "All right, so I've got Telegram pulled up on my phone and I'm going to go ahead and send our agent a message.",
+      "So if you've seen my channel before, you may have come across this video where I built an ultimate personal assistant, which is kind of similar to what we're looking at today.",
+      "Let's do one more example that's even a little more complex to show you guys how the agent handles it.",
+      "So, that's exactly what I'm going to do with you guys.",
+      "And now we can go ahead and check our calendar.",
+      "Real quick guys, while I'm editing this video,",
+      "But that is going to do it for today."
+    ],
+    "vocabulary": [
+      "agent swarms",
+      "orchestrator delegator agent",
+      "web agent",
+      "contact agent",
+      "YouTube agent",
+      "email agent",
+      "memory",
+      "session ID",
+      "sub workflow",
+      "Google sheet",
+      "orchestrator agent",
+      "email agent",
+      "calendar agent",
+      "mini agent swarm",
+      "system prompt",
+      "live variable",
+      "from AI functions"
+    ],
+    "analogies": [
+      "\"So, we're able to split up all the system prompts and make each agent's job very specific and increase the quality of their outputs. It also gives us the flexibility to have different chat models for different agents.\"",
+      "\"think of it like\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"So, if the user wants something to do with email, I'm not going to worry about which tools. I'm just going to send it to the email agent and the email agent will figure it all out because as you can see here, every single agent has its own brain.\""
+    ]
+  }
+}

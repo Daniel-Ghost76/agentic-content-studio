@@ -1,0 +1,75 @@
+{
+  "num": 5,
+  "title": "I Tested GPT 5.5 vs Opus 4.7: What You Need to Know",
+  "date": "23/04/26",
+  "word_count": 4233,
+  "char_count": 22257,
+  "chunks": 2,
+  "extracted": {
+    "hook": "So, OpenAI just dropped GPT 5.5 and it is really solid.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "discussing the model efficiency and cost comparison"
+      ],
+      "slow": [
+        "explaining the terminal bench results"
+      ]
+    },
+    "vulnerability": "\"I'm not exactly sure why I decided to do VS Code just cuz it's so natural to me\"",
+    "cta": "It helps me out a ton. And as always, I appreciate you guys making it to the end of the video and I will see you all in the next one. Thanks everyone.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys appreciate\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\""
+    ],
+    "transitions": [
+      "So, we'll come back here to the results and to the experiments that I ran in just a sec",
+      "Now, let's see where it pulls ahead a little bit",
+      "And then finally, we have super app positioning",
+      "All right. So what is no longer here in the lineup?",
+      "Okay, so four quick things that really do matter"
+    ],
+    "vocabulary": [
+      "benchmark",
+      "token",
+      "autonomous",
+      "context window",
+      "prompt",
+      "iteration",
+      "simulation",
+      "ecosystem",
+      "tools",
+      "enjoyed",
+      "learned something new"
+    ],
+    "analogies": [
+      "\"it's faster, sharper, and it uses fewer tokens compared to something like GBT 5.4\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\"",
+      "\"I appreciate you guys\""
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

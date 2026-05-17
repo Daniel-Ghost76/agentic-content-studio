@@ -1,0 +1,83 @@
+{
+  "num": 95,
+  "title": "How to Build Workflows 10x Faster with n8n's AI Builder",
+  "date": "10/11/25",
+  "word_count": 4448,
+  "char_count": 23608,
+  "chunks": 2,
+  "extracted": {
+    "hook": "Naden's AI workflow builder. This is a feature in Naden that allows you to turn your ideas into workflows using AI.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "\"And so, when a workflow builder or even a human tries to build anything in one fell swoop, not all the variables are going to be mapped correctly. And that's just the truth.\""
+      ],
+      "slows": [
+        "\"So, if I was building this manually is I'd build this, run it, and then I'd pin that data, and then I'd add the next step, and I'd run it, and I'd pin the data, and I would just take it step by step, and continuously add on more blocks to the right after I know that everything that I currently have works.\""
+      ]
+    },
+    "vulnerability": "\"I'm going to show you guys an example like this is because you can see this is really nice. It understood our query and it laid out a really good skeleton and a really good template for us\"",
+    "cta": "If you enjoyed the video or you learned something new, please give it a like. It definitely helps me out a ton.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"let's not waste any time\"",
+      "\"literally insane\""
+    ],
+    "transitions": [
+      "So, if that sounds good to you, let's get into the video.",
+      "All right. So, here I am in a blank workflow and you can see you can either add a first step or we have the option now to build with AI which lets us put a prompt in here and then the Niten AI builder will turn that into a workflow.",
+      "So, we didn't get any errors. Let's go ahead and head over to email to see what that output looks like.",
+      "All right. So, now we're in a fresh workflow. I'm going to click build with AI.",
+      "Awesome. So it finished up. It actually used the Plexity tool three times.",
+      "But that's going to do it for today.",
+      "If you enjoyed the video or you learned something new, please give it a like."
+    ],
+    "vocabulary": [
+      "workflow",
+      "AI builder",
+      "nodes",
+      "variables",
+      "prompt",
+      "configuration",
+      "insanely",
+      "wins",
+      "community",
+      "projects",
+      "calls"
+    ],
+    "analogies": [
+      "\"it's trying to predict what the output of this Tavly node looks like. And sometimes you just don't know\""
+    ],
+    "curiosity_gaps": [
+      "\"So, I'm going to close out of this tab so we can just dive a little deeper into the actual workflow.\"",
+      "\"And then for the motivational quote, we got when you arrive in the morning, think of what a precious privilege it is to be alive, to breathe, to think, to enjoy, and to love. But we have to go understand why we didn't get our food industry trends.\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\"",
+      "\"you guys\"",
+      "those of you",
+      "OGs",
+      "if you've been with me"
+    ],
+    "frameworks": [
+      "\"One, be as detailed as you can when you're actually prompting the AI builder in this little panel right here.\"",
+      "\"Two, don't expect the first iteration to work the same way as if a human was building an entire workflow out without testing at once. It wouldn't work. But you can use this AI as a thought partner and as a troubleshoot helper when you run into issues there.\"",
+      "\"Three would be workflows, workflows, workflows. AI workflows are so much easier to build. They're more predictable. They're easier to troubleshoot and they're going to lead to higher quality results.\""
+    ]
+  }
+}

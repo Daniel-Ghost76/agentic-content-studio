@@ -1,0 +1,3 @@
+Use 00-start-background.png as the shared start image for clips 01-07.
+
+This is the blank soft teal HUD background. In Higgsfield, pair it with each numbered final image as the end reference so the visual animates from an empty interface into the final composition.

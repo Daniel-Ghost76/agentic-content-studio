@@ -1,0 +1,91 @@
+{
+  "num": 121,
+  "title": "Watch Me Build a Multi-Agent Newsletter System in n8n (step-by-step)",
+  "date": "21/08/25",
+  "word_count": 6837,
+  "char_count": 35175,
+  "chunks": 2,
+  "extracted": {
+    "hook": "Today, we're going to be building this AI system that automates newsletter creation.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "when explaining the workflow process and steps"
+      ],
+      "slows": [
+        "during detailed explanations of setup processes"
+      ]
+    },
+    "vulnerability": "\"NONE FOUND\"",
+    "cta": "\"if you enjoyed the video or you learned something new, please give it a like. It definitely helps me out a ton.\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, this is what the finished product will look like.",
+      "But this is going to cut down all the time of actually doing like the research and now that you have this draft here,",
+      "And because we're going to be building this together, I wanted to show you the tech stack is really lean.",
+      "Now that we understand what the system is that we're going to be building, let's head over to a fresh workflow in Naden and get started.",
+      "So in order to get everything back together, we're going to do another data transformation node, which is called an aggregate.",
+      "Now, I'm going to add another AI agent, which is our final AI agent."
+    ],
+    "vocabulary": [
+      "AI",
+      "newsletter",
+      "agents",
+      "research",
+      "topics",
+      "sections",
+      "editor",
+      "draft",
+      "newsletter",
+      "agent",
+      "HTML",
+      "GPT5 Mini",
+      "GBT5"
+    ],
+    "analogies": [
+      "\"think of it like\"",
+      "\"So in order to get everything back together, we're going to do another data transformation node, which is called an aggregate. And this is going to bring our three items over here back into one.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"This first thing that we're going to do is grab a schedule trigger. And because I want mine to go off once a week, I'm going to change the interval to weeks.\"",
+      "\"The next thing to do is use AI to create titles and topics out of that initial research.\"",
+      "\"So now what we're going to do now is we're going to use a node called split out. What this is going to do is it's going to take this list of topics.\""
+    ]
+  }
+}

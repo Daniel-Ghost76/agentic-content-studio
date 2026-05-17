@@ -1,0 +1,97 @@
+{
+  "num": 206,
+  "title": "How I Built A Technical Analyst AI Agent in n8n With No Code",
+  "date": "17/01/25",
+  "word_count": 4047,
+  "char_count": 20230,
+  "chunks": 1,
+  "extracted": {
+    "hook": "okay we have our AI agent right here ready to go waiting for an event in telegram so we're going to send off this text that asks it to analyze Apple",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you're able to download this workflow for free\"",
+      "\"let me hit you with\"",
+      "\"what's really cool\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "okay so as far as the actual agent itself super super simple build",
+      "now let's talk about how do we actually set up these post requests or sorry the one post request and the one get request because really that's the most difficult part of this workflow and still even that is not too difficult",
+      "so now let's talk about how do we actually set up these post requests or sorry the one post request and the one get request because really that's the most difficult part of this workflow and still even that is not too difficult"
+    ],
+    "cta": "\"if you enjoy this one and it helps you out in some way you learned something new please give it a like definitely helps me out a lot\"",
+    "vocabulary": [
+      "workflow",
+      "telegram",
+      "chart",
+      "bearish",
+      "macd",
+      "candlestick",
+      "analysis",
+      "technical",
+      "sentiment",
+      "resistance"
+    ],
+    "analogies": "\"it's going into a little more detail about the patterns doesn't appear to be any strong reverse reversal Candlestick patterns like a hammer or dogee currently visible\"",
+    "curiosity_gaps": [
+      "\"so that's super cool and then finally it gives us some key takeaways and interpretation um we've got a bearish trend apple is currently in a short-term bearish Trend the consecutive red candlesticks and lack of reversal pattern suggests that this downward momentum might continue in the near term\"",
+      "\"this analysis provides a snapshot of current market conditions but shouldn't be considered as Financial advice um this isn't really a financial adviser it's more of just giving a brief um financial analysis as well as a technical analysis on whatever stock you enter in there so I know I went over that feedback or sorry the analysis really really quick\"",
+      "\"so now let's talk about how do we actually set up these post requests or sorry the one post request and the one get request because really that's the most difficult part of this workflow and still even that is not too difficult\""
+    ],
+    "specificity": {
+      "dollars": [],
+      "percentages": [],
+      "subscribers": [],
+      "time_references": [
+        "\"17/01/25\"",
+        "\"back in NN\"",
+        "\"so now let's talk about how do we actually set up these post requests or sorry the one post request and the one get request because really that's the most difficult part of this workflow and still even that is not too difficult\""
+      ],
+      "named_tools": [
+        "\"telegram\"",
+        "\"chart image.com\"",
+        "\"n8n\"",
+        "\"anthropic 3.5\"",
+        "\"git chart\"",
+        "\"open AI analyze and image node\"",
+        "\"nend\"",
+        "\"my free school Community\"",
+        "\"paid Community\"",
+        "\"API key\""
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "\"so now let's talk about how do we actually set up these post requests or sorry the one post request and the one get request because really that's the most difficult part of this workflow and still even that is not too difficult\"",
+        "\"so now let's talk about how do we actually set up these post requests or sorry the one post request and the one get request because really that's the most difficult part of this workflow and still even that is not too difficult\""
+      ],
+      "slow": [
+        "\"okay so as far as the actual agent itself super super simple build\"",
+        "\"so now let's talk about how do we actually set up these post requests or sorry the one post request and the one get request because really that's the most difficult part of this workflow and still even that is not too difficult\""
+      ]
+    },
+    "audience_language": [
+      "\"you're able to download this workflow for free\"",
+      "\"let me hit you with\"",
+      "\"what's really cool\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "frameworks": [
+      "\"so as far as the actual agent itself super super simple build we've only got one tool which is the one that we created called get chart where we'll break that down after we talk about this initial agent but what's going on in here is we're communicating it with this agent through telegram so if I click into this trigger you can see that it's going to be on message received and all you need to get out of here is the telegram chat ID because when you're able to um link that ID to your window buffer memory you can see we we use that right here as well as um when we're actually sending information back both here and in the other workflow when we're sending that photo back into our telegram you need to reference that chat ID so that the um node knows what you know where to send this actual information so that's all we're doing as far as communication\"",
+      "\"so now let's talk about how do we actually set up these post requests or sorry the one post request and the one get request because really that's the most difficult part of this workflow and still even that is not too difficult\""
+    ]
+  }
+}

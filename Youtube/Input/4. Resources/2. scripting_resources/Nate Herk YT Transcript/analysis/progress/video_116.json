@@ -1,0 +1,98 @@
+{
+  "num": 116,
+  "title": "How I Sold a $6000 AI Workflow to a Business (Live Sales Call)",
+  "date": "07/09/25",
+  "word_count": 9639,
+  "char_count": 50671,
+  "chunks": 3,
+  "extracted": {
+    "hook": "In this video, you're about to watch me sell a $6,000 AI agent. This close took place over three separate calls back in December of 2024.",
+    "hook_type": "Result-First",
+    "credential_drop": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "So, it's funny actually. Um when I sent our own, I meant literally we uh this is different. This is a separate conversation, but my company, we actually are launching our own uh"
+      ],
+      "slow": [
+        "And now what we're doing is we spend that last minute coordinating our schedules and booking in a time."
+      ]
+    },
+    "vulnerability": "\"I should have done here, I should have just not answered the question\"",
+    "cta": "\"if you learned something new or you enjoyed the video, please give it a like. It definitely helps me out a ton.\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"what's really cool\"",
+      "\"honestly\"",
+      "\"you guys\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, that's kind of how I wrap this one up.",
+      "And now I have some information to head into the next one with",
+      "But that's kind of the way that we like to work as a you know a very custom agency is we really like to understand the the operations of the business, the goals of the business and then um not just help you solve like one pain point.",
+      "On a personal basis, probably is that's where I think reality is going.",
+      "For the most part, it's Dropbox, Notion, Slack, Gmail.",
+      "So, a lot of stuff happened in those three calls, and I obviously couldn't show you guys everything, but what I wanted to do is now kind of just recap with six key lessons from what we just looked at.",
+      "And that's going to do it for this one."
+    ],
+    "vocabulary": [
+      "discovery call",
+      "LRP",
+      "custom agency",
+      "personal assistant",
+      "AI integration",
+      "vector databases",
+      "bottleneck",
+      "personal assistant",
+      "data ingestion",
+      "automation",
+      "value",
+      "ROI",
+      "trust",
+      "build strategy",
+      "discovery calls"
+    ],
+    "analogies": [
+      "\"think of it like\"",
+      "\"imagine\"",
+      "\"it's basically LRP but you listen to everything he was saying. I repeated everything back and then I asked more questions.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "\"I'll come back to this\"",
+      "\"here's where it gets interesting\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": [
+      "\"listen, repeat, poke\"",
+      "\"the first one is something that I didn't do great in these three calls, which is to prove the value with ROI. Collect your data before and after. Without this baseline data, you cannot actually prove ROI.\"",
+      "\"So, the first one is something that I didn't do great in these three calls\"",
+      "\"And through the other calls where we had kind of bonded and we talked about kind of passion projects and other use cases of AI, we got to this place where trust had been established. So, a lot of stuff happened in those three calls\"",
+      "\"So, the first one is something that I didn't do great in these three calls\""
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "num": 167,
+  "title": "I Built a Marketing Team with 1 AI Agent and No Code (free n8n template)",
+  "date": "26/04/25",
+  "word_count": 8444,
+  "char_count": 43687,
+  "chunks": 2,
+  "extracted": {
+    "hook": "Today I'm going to be showing you guys how I built this AI marketing team with just one AI agent.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NOT FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the workflow processes and tools"
+      ],
+      "slows": [
+        "explaining the technical details of the image generation model"
+      ]
+    },
+    "vulnerability": "\"it's going to error right here\"",
+    "cta": "\"if you enjoyed this one or you learned something new, definitely give it a like. Helps me out a ton.\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, as you can see, we communicate with our agent here through Telegram, and that can be either voice or text.",
+      "Okay, so the agent just finished up.",
+      "And of course, I'll also touch on pricing and what it actually costs to run this whole system.",
+      "Okay, cool. Let's just keep chugging along here.",
+      "The prompting is just a little different.",
+      "And let's click into the execution we saw in the demo.",
+      "So, very similar.",
+      "Anyways, let's look at the blog posting one."
+    ],
+    "vocabulary": [
+      "AI agent",
+      "workflows",
+      "Telegram",
+      "image database",
+      "flyer",
+      "cat food",
+      "flash sale",
+      "blog post",
+      "LinkedIn post",
+      "video",
+      "workflow",
+      "agent",
+      "prompting",
+      "API",
+      "HTTP request",
+      "binary data"
+    ],
+    "analogies": [
+      "\"it's calling the video workflow, which looks like this\"",
+      "\"it's basically the exact same thing\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "\"I'll come back to this\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "num": 177,
+  "title": "Research ANYTHING and Get a PDF Report (free n8n template)",
+  "date": "30/03/25",
+  "word_count": 7044,
+  "char_count": 37156,
+  "chunks": 2,
+  "extracted": {
+    "hook": "All right. So, all we have to do is hit test workflow and this form will pop up and we just have to enter a search topic for a deep research report.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "\"And now the workflow has started.\""
+      ],
+      "slow": [
+        "\"So, as you can see, we're just firing off to this first branch, which is chapter 1. We're doing our research with Tavi on five different topics within that chapter.\"",
+        "\"Now, we have an agent writing it all together.\""
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "Okay, so the chapter 5 writer is finishing up right now.",
+      "Now that we've done all this structuring and planning,",
+      "So quick disclaimer,",
+      "Cool. So, we start off with doing our Tavi request.",
+      "So, as you can see, this run's already finished up, but we're putting everything in here.",
+      "And then really the last thing to do is to create the table of contents."
+    ],
+    "vocabulary": [
+      "workflow",
+      "agent",
+      "chapter",
+      "source",
+      "API call",
+      "join",
+      "sections",
+      "content",
+      "merge node",
+      "Google sheet",
+      "PDF",
+      "API template.io"
+    ],
+    "analogies": [
+      "\"So what's going on here is we're feeding it in a search topic. So in this case, it is exactly what we just typed in, which is the importance of sleep for young adults.\"",
+      "\"So, as you can see, this run's already finished up, but we're putting everything in here.\""
+    ],
+    "curiosity_gaps": [
+      "\"And as you can see, this is chapter one. And it's going to start to break down morning sugar rush. And what you'll notice is that every section has a source. So if we open up this link, we can see it brings us to an article about the association between sugar at breakfast and energy.\"",
+      "\"And then as we continue to scroll down into the different sections, you can see the link numbers are changing, representing a unique source.\"",
+      "\"So, here's one with um an actual experiment. We can open this one up and you can see this source talks about an actual study they did and what they found.\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\"",
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": [
+      "\"So what I did in Nadn is I tried to break down this workflow to encompass all of those different elements.\"",
+      "\"Okay, so if you ask chat GBT what is deep research? There's six key aspects which are diverse sources, critical analysis, comparative review, datadriven insights, iterative process, and long-term investigation.\"",
+      "\"So, like I said, chapter 2, 3, 4, and 5, the logic is the exact same. All the writers are using the same.\""
+    ]
+  }
+}

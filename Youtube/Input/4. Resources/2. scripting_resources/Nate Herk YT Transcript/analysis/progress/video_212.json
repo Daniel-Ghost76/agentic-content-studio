@@ -1,0 +1,81 @@
+{
+  "num": 212,
+  "title": "Understanding APIs in n8n (as a beginner)",
+  "date": "11/12/24",
+  "word_count": 3649,
+  "char_count": 19100,
+  "chunks": 1,
+  "extracted": {
+    "hook": "apis may sound like Tech jargon but they're really the secret sauce behind everything that you do on the internet every day in this video I'm breaking down apis so simply that anyone can understand them",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "so today we're going to be understanding apis and we're going to have a specific tailor towards understanding apis within naden",
+      "moving on to api methods this stuff may look like it's going to get a little technical but it's really not you've got different methods here and I wanted to point out that get and post are underlined this is because 99% of the time that you are accessing some sort of API endpoint you're going to be using a git or a post um",
+      "so this inner connectedness allows for efficient automation integrating different services and really removing the manual touch point out of that process so like I said understanding apis is very fundamental for creating effective workflows"
+    ],
+    "cta": "\"if you want to get in here and just play around with these examples I made the workflow will be available for download in the free schol Community Linked In the description\"",
+    "vocabulary": [
+      "secret sauce",
+      "Tech jargon",
+      "break down apis so simply that anyone can understand them",
+      "real world analogy",
+      "seamless integration"
+    ],
+    "analogies": [
+      "\"think of this guy right here is you and you want to order food at a restaurant\"",
+      "\"so an action for this could be like give me the current weather when you're reaching out to a weather API and an analogy for this is just reading a book you're just getting information\"",
+      "\"then we have a post which is you're sending data to um you know create something or get something back you're sending information so an action would be here's policy information and an analogy for this would be you're sending a letter\"",
+      "\"then we've got put which is if you want to update existing data so you would be replacing this completely and that would be like replacing Pages within a book\"",
+      "\"then we've got patch which is partially updating data you know just kind of patching it you'd be tweaking this part and that would be like editing a single word within a book or within a page\"",
+      "\"then we've got delete which is to remove data obviously the action here would just be erase this it would be like tearing out a page out of a book\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [],
+      "named_tools": [
+        "naden",
+        "open weather map API",
+        "Json placeholder API",
+        "Tavali"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "\"so a quick real world analogy because everything's better with a real world analogy\"",
+        "\"then we have social media sharing so when you share a news article directly to Facebook or X from a website you're using that social media platform's API the API allows the website to communicate with the social media platform to post on your behalf\""
+      ],
+      "slow": [
+        "\"apis enable seamless integration between different software systems like we talked about and this allows them to share data and functionalities between each other so this is important for Building Systems or applications because it allows us to leverage existing Services rather than having to build things from scratch\"",
+        "\"so what I did was I grabbed the units it's a parameter that we're putting in and I wanted the units to be shown Imperial so in here you can see we have um here actually let me just make this a little bigger so we have lat right there 41 we have longitude which is 87 we have units which I put Imperial and then we have our app ID which is just our API key\""
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": []
+  }
+}

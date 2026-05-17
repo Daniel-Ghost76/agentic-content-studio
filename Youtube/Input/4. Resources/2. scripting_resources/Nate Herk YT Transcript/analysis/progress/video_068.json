@@ -1,0 +1,108 @@
+{
+  "num": 68,
+  "title": "Agentic Workflows Just Changed AI Automation Forever! (Claude Code)",
+  "date": "25/01/26",
+  "word_count": 5774,
+  "char_count": 31627,
+  "chunks": 2,
+  "extracted": {
+    "hook": "AI automation is about to change forever.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NOT FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "\"So now that we've talked about those big shifts and you've seen me build one right in front of you guys, let's talk about what the future's going to look like with this stuff.\""
+      ],
+      "slows": [
+        "\"So, here's the thing.\"",
+        "\"Now something else I think is really cool is that you can have multiple agents running simultaneously. [music]\"",
+        "\"All right. Fourth is instant API and MCP integrations. So if you've built workflows in Naden, you know the pain of API authentication, headers, JSON bodies, query parameters.\""
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "if you enjoyed or you learned something new, please give it a like. It definitely helps me out a ton.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here's where it gets interesting\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, let's first take a look at the difference between the new Aentic tech versus the old way of doing things.",
+      "So, here's the thing.",
+      "Number two is natural language control, but for real this time.",
+      "Now something else I think is really cool is that you can have multiple agents running simultaneously.",
+      "All right. Fourth is instant API and MCP integrations.",
+      "So, there's a vending bench",
+      "Now, we're not fully there yet, of course.",
+      "But my mission hasn't changed."
+    ],
+    "vocabulary": [
+      "agentic",
+      "self-healing",
+      "natural language control",
+      "security obsessed developer",
+      "MCP",
+      "WAT framework",
+      "agents",
+      "process decomposition",
+      "cloud code",
+      "anti-gravity",
+      "IDE based tools",
+      "end to end"
+    ],
+    "analogies": [
+      "\"So you explain where the data is coming from, what needs to happen, and then where it should end up. The agent then figures out the rest. So just think of it like you're hiring an actual human developer\"",
+      "\"Imagine every time your workflow broke, a smart assistant was sitting right there next to you just reading the error, testing a fix, and only calling you in if it was really, really stuck.\"",
+      "\"So, if I asked 10 of the best AI engineers that I knew to build me a solution, I'd probably get 10 different versions even though all 10 of them work. And sometimes the only way to know which one's best is just by testing them all out.\"",
+      "\"think of it like an actual human\"",
+      "\"it's basically a vending machine business over a long simulated period\""
+    ],
+    "curiosity_gaps": [
+      "\"So now we have our full plan done. Chicago dentist for UPAI. We've got an objective. We have our preferences. It goes through the full architecture as you can see. So, it's basically going to create a Chicago dentist leads workflow and that will be shown over here in the workflows folder.\"",
+      "\"So the last thing that I need to do here is give it my actual API keys so that it can use Google places, use OpenAI and then use my Google Sheets.\"",
+      "I'll come back to this",
+      "stay till the end",
+      "here's where it gets interesting"
+    ],
+    "specificity": [
+      "25% of enterprises using generative AI will deploy agentic pilots this year, jumping to 50% by 2027.",
+      "The AI agent market is projected to grow from roughly 8 billion in 2025 to high 40 or low 50 billion range by 2030, which is a 43% compound annual growth rate."
+    ],
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\"",
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": [
+      "\"So the first one is self-healing. This is probably the biggest and one of the coolest ones because if you build something in Nitn when the workflow breaks you read the error message you tweak the node you test it again and if it breaks again you repeat.\"",
+      "\"Number two is natural language control, but for real this time.\"",
+      "\"Now something else I think is really cool is that you can have multiple agents running simultaneously. [music]\"",
+      "\"All right. Fourth is instant API and MCP integrations. So if you've built workflows in Naden, you know the pain of API authentication, headers, JSON bodies, query parameters.\"",
+      "\"process decomposition\"",
+      "\"agent harnesses with shift based work\"",
+      "\"cloud code, anti-gravity, and more IDE based tools as they come out\""
+    ]
+  }
+}

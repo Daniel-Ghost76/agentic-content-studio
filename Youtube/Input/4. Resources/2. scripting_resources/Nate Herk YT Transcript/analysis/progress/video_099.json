@@ -1,0 +1,106 @@
+{
+  "num": 99,
+  "title": "From Zero to Inbox Agent (Full Beginner's Course, No-Code)",
+  "date": "29/10/25",
+  "word_count": 8953,
+  "char_count": 45731,
+  "chunks": 3,
+  "extracted": {
+    "hook": "By the end of this video, you'll have your own inbox agent that is classifying and labeling all of your incoming emails.",
+    "hook_type": "Result-First",
+    "credential_drop": "\"You can get started on a 14-day free trial using the link in the description and then after that it's like 25 bucks a month.\" (late)",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "pace_accelerates": [
+        "discussing the steps of building the system (mid)"
+      ],
+      "pace_slows": [
+        "explaining the AI classifier node in detail (mid)"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "If you enjoyed the video or you learned something new, please give it a like. It definitely helps me out a ton.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"I'd love to see you guys\"",
+      "\"I'd love to see you in these communities\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "\"So, I don't want to waste any time. Let's get straight into the video.\" (intro→tutorial)",
+      "\"All right, so the first thing we're going to do is actually wireframe this out just so we're all completely aligned on the way that this system is going to work before we actually hop into NIDN and start building.\" (step→step)",
+      "\"So now that we've seen a wireframe and we understand the system that we're building, let's actually hop over to end, open up a new workflow, and go ahead and get started here.\" (body→CTA)",
+      "So now I'm just going to real quick pin this so we don't lose that data.",
+      "And the last thing we have to do on this customer support branch is",
+      "All right, so here's the moment of truth.",
+      "Okay, so I just sent myself a new email.",
+      "So, what I'm going to do is in this workflow, I'm going to hit execute.",
+      "And now in our inbox, this should change to finance and billing any second now.",
+      "Maybe for finance and billing emails, we just want to notify the finance and billing team.",
+      "Okay. So, hopefully you guys are starting to understand the pattern here.",
+      "Let's do high priority.",
+      "And once again, if you're really still interested in making the system better and you want to master NAND automations, then definitely check out my plus community.",
+      "On top of that, we have one live call per week where I answer all your guys' questions."
+    ],
+    "vocabulary": [
+      "inbox agent",
+      "wireframe",
+      "NIDN",
+      "AI classifier node",
+      "Gmail trigger",
+      "customer support",
+      "AI agent",
+      "Gmail trigger",
+      "message ID",
+      "thread ID",
+      "tons and tons",
+      "Free School community",
+      "NAND automations",
+      "Agent Zero",
+      "AI automation agency"
+    ],
+    "analogies": [
+      "\"think of it like\"",
+      "\"think of it like\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\"",
+      "you guys",
+      "those of you",
+      "OGs",
+      "if you've been with me"
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

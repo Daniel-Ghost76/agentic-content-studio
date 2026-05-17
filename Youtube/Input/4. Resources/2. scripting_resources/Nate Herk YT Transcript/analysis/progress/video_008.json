@@ -1,0 +1,114 @@
+{
+  "num": 8,
+  "title": "Claude Design Builds Beautiful 3D Websites Instantly (full tutorial)",
+  "date": "21/04/26",
+  "word_count": 8814,
+  "char_count": 44780,
+  "chunks": 3,
+  "extracted": {
+    "hook": "So, in just 20 minutes, I was able to transform my AI Automation Society website from this to this where now, as I start to scroll, we go on this journey.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NOT FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "discussing the transformation of websites in just 20 minutes"
+      ],
+      "slow": [
+        "explaining the process step by step"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "give it a like if it helped",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"I'll see you guys over there\"",
+      "\"give it a like if it helped\""
+    ],
+    "transitions": [
+      "Okay, so let's get back to the video.",
+      "All right, so I'm about to show you guys everything you need to do step by step",
+      "Okay, so our tweaks are here.",
+      "Now, one thing I noticed is",
+      "So let's say we have this that we love and maybe down here we want to have like maybe a video of someone sleeping.",
+      "And now what's awesome is you have this project set up.",
+      "Whether you're doing this in cloud design or in cloud code, you can keep iterating because you understand the idea of how do you get a dynamic element like this or how do you do one of those scroll things where you just tell it that as you're scrolling you want it to, you know, play the frames backwards or forwards.",
+      "So, don't worry. What we're going to do first is",
+      "Okay, so now that we are in here, we're going to open up Cloud Code and we're going to get started.",
+      "that is going to do it for today",
+      "Now, what you can do next is watch this video right up here where I talk about other website hacks and specifically in cloud code."
+    ],
+    "vocabulary": [
+      "transform",
+      "journey",
+      "scroll",
+      "interactive",
+      "polished",
+      "prototype",
+      "video",
+      "background",
+      "prompt",
+      "animation",
+      "zip file",
+      "cloud code",
+      "GitHub repository",
+      "Verscell",
+      "local host",
+      "community",
+      "tutorial",
+      "cloud design",
+      "cloud code",
+      "iterating"
+    ],
+    "analogies": [
+      "\"it's basically just a mug with some sort of liquid. This is where we put the hero text and the subtext, which is nice\"",
+      "\"imagine this is the background of a website when you've got text over here. Could look pretty nice\"",
+      "\"So, if I'm on my local host here, you know, and I'm working inside of claude code and I'm doing things, basically what happens is I can make changes and I can iterate, but only I will see these changes. So if I wanted to change the copy or if I wanted to change the background video, but then once we're good with those changes, I come back into here and I say, 'Hey, cloud code, push all of these changes to GitHub.' And then when the changes come to GitHub and they come over here, forcel automatically grabs that and deploys it to the live site. So you have a very clean separation between what you're practicing with and changes that you might want to make and then saying, 'Hey, cool. We love this. Push that public and then Verscell will grab it and then it will be live in like 30 seconds later.'\"",
+      "\"So if I go back into my usage, you can see you have a current session for your plan. You have all models, you have sonnet only, and you have your own claw design usage.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "\"And now what's awesome is you have this project set up. Whether you're doing this in cloud design or in cloud code, you can keep iterating because you understand the idea of how do you get a dynamic element like this or how do you do one of those scroll things where you just tell it that as you're scrolling you want it to, you know, play the frames backwards or forwards.\"",
+      "\"So back here, you can already see the website is now rendering properly. And if I also click on deployments, we can see once again that we have a change that was made 1 minute ago, which was renaming to index.html.\""
+    ],
+    "specificity": [
+      "\"404 not found\"",
+      "\"localhost 3000\"",
+      "\"5 minutes\""
+    ],
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\"",
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"First of all, if you do every single thing with 4.7, then you're obviously going to be eating more tokens than if you were on Sonnet or even Haiku for some very minor changes.\"",
+      "\"Also setting up a design system without a URL in general though design systems will eat a lot.\""
+    ]
+  }
+}

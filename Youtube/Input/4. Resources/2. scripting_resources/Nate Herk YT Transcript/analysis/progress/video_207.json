@@ -1,0 +1,88 @@
+{
+  "num": 207,
+  "title": "ElevenLabs Voice Agents Are So Easy to Build (No Code!)",
+  "date": "15/01/25",
+  "word_count": 3783,
+  "char_count": 19032,
+  "chunks": 1,
+  "extracted": {
+    "hook": "hey there I'm Archer what can I do for you",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "so now that we've seen a quick demo",
+      "let's take a quick look at what's going on in the super simple agent setup here",
+      "first of all just within nadn whenever you're building an AI agent as you guys should know there's going to be an input and then that input's going to be fed into the agent",
+      "so let's hop into 11 labs and start playing around with this stuff also a quick side note if you want to hop into this workflow check out the prompts play around with how I configured things",
+      "back to the video so in 11 labs this is the email agent this is just the test environment where we're going to be talking to it to try things out"
+    ],
+    "cta": "\"as always if this one helped please leave a like definitely helps me out um I always really appreciate it and thanks for making it to the end of the video\"",
+    "vocabulary": [
+      "super cool",
+      "lunch tomorrow",
+      "post request",
+      "web hook node",
+      "Google Sheets",
+      "send email tool",
+      "GPT 40",
+      "AI agent",
+      "email address",
+      "subject and a body"
+    ],
+    "analogies": [
+      "\"it's basically Archer but with a different voice\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollars": [],
+      "percentages": [],
+      "subscribers": [],
+      "time_references": [
+        "15/01/25"
+      ],
+      "named_tools": [
+        "11 Labs",
+        "N8n"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "\"so you want to send an email to Phil asking about a project update no problem I'll handle that\"",
+        "\"all done it's been sent to Phil he'll be getting that email any minute\"",
+        "\"could you actually go ahead and help me send another one of course I'm always happy to lend a hand or rather an email address who is this email for and what's it about just give me the details and I'll Whip It Up\"",
+        "\"gotcha the email is on its way to Phil he'll be sure to see your invitation for lunch tomorrow\""
+      ],
+      "slows": [
+        "\"so you want to send an email to Phil asking about a project update no problem I'll handle that\"",
+        "\"all done it's been sent to Phil he'll be getting that email any minute\"",
+        "\"could you actually go ahead and help me send another one of course I'm always happy to lend a hand or rather an email address who is this email for and what's it about just give me the details and I'll Whip It Up\"",
+        "\"gotcha the email is on its way to Phil he'll be sure to see your invitation for lunch tomorrow\""
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": []
+  }
+}

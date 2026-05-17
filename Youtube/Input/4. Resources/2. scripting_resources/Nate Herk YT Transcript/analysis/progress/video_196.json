@@ -1,0 +1,93 @@
+{
+  "num": 196,
+  "title": "I Built a Human In The Loop Sales Team That Waits for Feedback and Approval in n8n",
+  "date": "05/02/25",
+  "word_count": 4752,
+  "char_count": 24847,
+  "chunks": 2,
+  "extracted": {
+    "hook": "today I'm going to be breaking down this awesome team of sales agents that uses humanin thee Loop functionality for feedback and approval so every time a lead form is submitted and captured an air table it's going to send that to this sales agent that's going to write an email and then send it off to us the human not only just for approval but also for feedback if the email gets approved it's going to be sent off to that lead but if it's not it's going to get sent to the revision agent so the revision agent is then going to take the email that the sales agent made it's going to take the feedback from the human and it's going to revise that email and create a new one then as you can see it Loops right back to the human for another round of feedback and approval",
+    "hook_type": "Demonstration",
+    "credential_drop": "NOT FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "so let's show off a quick demo then I'm going to show you guys how you can download this workflow for free and then we'll get in there and break down every single node that you see right here"
+      ],
+      "slows": [
+        "so now what we're going to do is click on respond and it's going to open up this tab where we can actually give feedback so what I'm saying in the feedback is make it more concise because this email is pretty wordy and then I said also don't mention 23% in reduction time right up here and propose that we meet on Thursday so I'm going to hit submit"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "\"if you guys enjoy this one or learn something new please give it a like it really really helps me out and I really appreciate you guys making it to the end of the video\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "so let's show off a quick demo",
+      "so on the left screen we've got my email as you can see I've been doing a lot of testing and on the right we have the sales agent team so let's hit test workflow",
+      "now what we're going to do is click on respond and it's going to open up this tab where we can actually give feedback",
+      "so now that email got sent off so let's go check on that real quick",
+      "let's break down what's going on within the revision agent",
+      "now let's say it revises it again it comes through and then",
+      "what I want to do now is Show an example where we make like three or four revisions so you can see that it's going to come through every single time"
+    ],
+    "vocabulary": [
+      "humanin thee Loop",
+      "air table",
+      "sales agent",
+      "revision agent",
+      "Cloud 3.5 sonnet",
+      "human in the loop",
+      "feedback",
+      "approval",
+      "revision agent",
+      "structured output parser",
+      "set email node",
+      "get feedback note",
+      "sales agent"
+    ],
+    "analogies": [
+      "\"think of it like\"",
+      "\"imagine\" it's basically a process but with human oversight and input"
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": [
+      "\"let's break down what's going on within the revision agent\""
+    ]
+  }
+}

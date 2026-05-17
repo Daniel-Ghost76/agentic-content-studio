@@ -1,0 +1,93 @@
+{
+  "num": 70,
+  "title": "Master 95% of Claude Code in 36 Mins (as a beginner)",
+  "date": "21/01/26",
+  "word_count": 9285,
+  "char_count": 48665,
+  "chunks": 3,
+  "extracted": {
+    "hook": "NOT FOUND",
+    "hook_type": "NOT FOUND",
+    "credential_drop": "NOT FOUND",
+    "script_type": "NOT FOUND",
+    "energy_notes": "NOT FOUND",
+    "vulnerability": "NOT FOUND",
+    "cta": "\"if you enjoyed or you learned something new, please give it a like. It definitely helps me out a ton.\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, let's go take a look at all that.",
+      "Okay, so here's the email that I got.",
+      "We've also got top videos.",
+      "So, we have this laid out by title and by views.",
+      "We can see nice that Nate Herk AI automation did make it in this scrape.",
+      "And then we get a weekly summary.",
+      "Okay, so let's recap what we've done.",
+      "So to start off superpowers MCP servers.",
+      "Now, what I did want to talk about a little bit more was the idea of claude skills because this is a little bit newer.",
+      "So what I did is I came into this other workflow that I built the other day which is a very simple lead web hook notification.",
+      "And so this is really just to show that once you have your stuff up and running in modal, it will work.",
+      "The more you start to use it, the more you'll realize that you don't have to actually switch around to a bunch of different Chrome tabs and different apps on your desktop."
+    ],
+    "vocabulary": [
+      "automation",
+      "channels",
+      "videos",
+      "engagement",
+      "charts",
+      "PowerPoint",
+      "Sheets",
+      "email",
+      "scrape",
+      "API",
+      "modal",
+      "web hook",
+      "lead web hook notification",
+      "research the company with perplexity",
+      "cron"
+    ],
+    "analogies": [
+      "\"think of an MCP server as an app store\"",
+      "\"think of it like\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "\"I'll come back to this\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"So, let's go take a look at all that.\"",
+      "\"Okay, so here's the email that I got.\"",
+      "\"We've also got top videos.\"",
+      "\"So, we have this laid out by title and by views.\"",
+      "\"We can see nice that Nate Herk AI automation did make it in this scrape.\"",
+      "\"And then we get a weekly summary.\""
+    ]
+  }
+}

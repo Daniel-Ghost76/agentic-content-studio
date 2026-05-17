@@ -1,0 +1,100 @@
+{
+  "num": 108,
+  "title": "How to Automate ANY Content with Poppy and n8n (no code)",
+  "date": "30/09/25",
+  "word_count": 5071,
+  "char_count": 26458,
+  "chunks": 2,
+  "extracted": {
+    "hook": "Today, we're going to be talking about how you can automate any content with Poppy and N 8 N.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NOT FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "\"So, I'm going to go ahead and copy the link to my latest YouTube video, open up a new Poppy and I just hit paste.\""
+      ],
+      "slows": [
+        "\"And so, if I just want to grab this 8 minutes of content, I could basically copy the link to this video, head into my Poppy and once I paste in this YouTube video, now it's going to have access of Alex Hormozi's knowledge about selling.\""
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "If you learned something new or you enjoyed, please give it a like. Definitely helps me out a ton.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys can see the possibilities are endless\"",
+      "\"so, use the link down below or code Nate25\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, I'm going to go ahead and copy the link to my latest YouTube video, open up a new Poppy and I just hit paste.",
+      "And so, if I just want to grab this 8 minutes of content, I could basically copy the link to this video, head into my Poppy and once I paste in this YouTube video, now it's going to have access of Alex Hormozi's knowledge about selling.",
+      "So, let me get into a real example and show you guys how we can set up an N 8 N workflow to talk to Poppy and how we can train our Poppy assistant to do something awesome.",
+      "So, we're going to start to wrap up the video here.",
+      "Of course, you can paste in things like Instagram Reels."
+    ],
+    "vocabulary": [
+      "automate",
+      "content",
+      "Poppy",
+      "N 8 N",
+      "AI",
+      "assistant",
+      "data sources",
+      "transcripts",
+      "YouTube",
+      "website",
+      "AI assistant",
+      "automation",
+      "Poppy",
+      "n8n",
+      "email responding agent",
+      "style guide",
+      "TED Talk",
+      "LinkedIn post",
+      "YouTube video",
+      "content creation"
+    ],
+    "analogies": [
+      "\"it's a simple as connecting a block to an AI assistant\"",
+      "\"So, this TED Talk is about the catastrophic risks of AI and a safer path. So, let's say I was really inspired by this video and I wanted to make a LinkedIn post and maybe even YouTube video about it\"",
+      "\"And then we have some YouTube video ideas off the topic as well.\""
+    ],
+    "curiosity_gaps": [
+      "\"So, I'm going to go ahead and copy the link to my latest YouTube video, open up a new Poppy and I just hit paste. And now what it's doing is it's already transcribed this video and it's analyzed the thumbnail and it knows what's going on in here\"",
+      "\"And so, if I just want to grab this 8 minutes of content, I could basically copy the link to this video, head into my Poppy and once I paste in this YouTube video, now it's going to have access of Alex Hormozi's knowledge about selling.\"",
+      "NONE FOUND"
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"you guys\"",
+      "those of you",
+      "OGs",
+      "if you've been with me"
+    ],
+    "frameworks": [
+      "\"So, what we're going to do today is we are going to build a newsletter automation system and I'm going to show you guys how quick and easy we're going to be able to spin up a really good newsletter.\"",
+      "\"So, we're going to start to wrap up the video here. I don't want it to go too long and if I try to show you guys all of the Poppy use cases, it would go way too long.\""
+    ]
+  }
+}

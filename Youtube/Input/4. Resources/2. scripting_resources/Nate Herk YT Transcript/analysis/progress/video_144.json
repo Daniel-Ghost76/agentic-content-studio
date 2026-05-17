@@ -1,0 +1,89 @@
+{
+  "num": 144,
+  "title": "I Built a YT Strategist AI Agent That Makes Me $6k?mo (free template n8n)",
+  "date": "24/06/25",
+  "word_count": 6581,
+  "char_count": 34642,
+  "chunks": 2,
+  "extracted": {
+    "hook": "Today I'm going to be showing you guys this AI system that I built that I actually use every single day.",
+    "hook_type": "Personal-Moment",
+    "credential_drop": "\"As always, I'm giving you all the resources that you need to set the system up completely for free. So, by the end of this video, you'll have this exact system running for you as a YouTube strategist.\" (late)",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "discussing the AI system's benefits and how to set it up (0:00 - 1:30)"
+      ],
+      "slow": [
+        "explaining the process of scraping YouTube videos and analyzing titles and thumbnails (2:45 - 6:00)"
+      ]
+    },
+    "vulnerability": "\"I knew that every once in a while I would go look at other channels in my niche. I would see what was performing well for them and then I would try to put my own spin on it\"",
+    "cta": "\"if you want to download this template for free, all you got to do is go to my free school community. The link for that will be in the description and in the pinned comment\"",
+    "signature_phrases": [
+      "\"keep killing it, guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "\"So, let's go ahead and do a live demo. I'm going to run the system. We'll take a look at the results and then we'll break down every single node so that you guys can see how I built this thing.\"",
+      "\"All right, there we go. Just finished up and we're writing back to Google Sheets. So, I'm going over to that tab and we'll take a look. Okay, here we are on the first tab of this Google sheet\"",
+      "\"So now we'll move on to phase two, which is one automation in itself. And this one runs every single week on Sunday.\"",
+      "\"Okay, so now we'll move on to phase 3, four, and five, which are all linked up together in one workflow. All three of these phases will run every single day at 6:00 a.m. So, let me just go ahead and kick it off.\"",
+      "\"So, hope it's not too repetitive, but we analyze those titles, we analyze those thumbnails. Once again, packaging is so important.\"",
+      "\"And now we move on to the actual fun stuff, which is phase four and phase five, comments analysis, and ideation.\"",
+      "\"All right. And finally, we move on to probably the best part, which is the ideation because it basically is going to take into account what this agent found, what this agent found, and then help us come up with some new ideas.\""
+    ],
+    "vocabulary": [
+      "AI",
+      "YouTube strategist",
+      "packaging",
+      "power words",
+      "thumbnail analysis",
+      "YT Strategist",
+      "AI Agent",
+      "n8n",
+      "Google sheet",
+      "Apify actor",
+      "YouTube channel URL",
+      "comments analysis",
+      "ideation",
+      "power words",
+      "thumbnail styles"
+    ],
+    "analogies": [
+      "\"think of it like\"",
+      "\"it's basically telling the AI agent to output these three different fields\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"I'll come back to this\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"So, let's start with phase one, which is niche outliers. The idea here is that you pop up this form submission, and you're prompted to enter in three YouTube channels that are in your niche.\"",
+      "\"So first thing to call out is we have a user message where I'm giving it the comments. So I basically just dragged in this array of comments and then I use this join function just to split every comment.\"",
+      "\"And then, of course, down here, I have to give it the description of the channel that it's working for\"",
+      "\"So, if I click into this agent, we can see first of all the user message that I give it. I'm giving it all of the titles from today, all of the power words from today, all of the different thumbnail analysises, however you say that plural, and then what the audience is looking for from our comments.\""
+    ]
+  }
+}

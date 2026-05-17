@@ -1,0 +1,73 @@
+{
+  "num": 10,
+  "title": "Claude Just Destroyed Every Video Editing Tool",
+  "date": "18/04/26",
+  "word_count": 7634,
+  "char_count": 39170,
+  "chunks": 2,
+  "extracted": {
+    "hook": "Today I'm going to show you guys how Claude can be a complete game changer for editing videos.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the time it would take to edit manually vs. using Claude"
+      ],
+      "slows": [
+        "explaining the limitations of Claw Design and Hyperframes"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "NOT FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, real quick before we do that, let's just start with a taste.",
+      "Okay, now let me show you one called the first agent promo."
+    ],
+    "vocabulary": [
+      "game changer",
+      "motion graphics",
+      "prompt",
+      "render",
+      "cloud code",
+      "hyperframes",
+      "sizzle",
+      "terminal style",
+      "scrolling banner",
+      "AI Automation Society"
+    ],
+    "analogies": [
+      "\"It's actually crazy. Now one thing I want to put into perspective real quick is if you've never edited videos yourself, if you've never like used key frames and animated motion graphics and things like that, you may not realize how long this 23 second clip would have taken you to edit manually.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll show you guys a few different examples of what's happened here. So, obviously you guys already saw that Clawude Edit intro, but let's look at one that I made called the Hyperframe Sizzle, which just basically shows off the power of what hyperframes could really do.\"",
+      "\"Okay, now let me show you one called the first agent promo. And we actually made this one in claw design. So in here you can see that I basically the other day I made this thing called the first agent promo. So it basically made me a website.\""
+    ],
+    "specificity": [
+      "\"2 hours\"",
+      "\"30, 45 an hour\"",
+      "\"30-ish second clip\"",
+      "\"May 4th through 6, just $20, 500 seats\"",
+      "\"over 500 AI workflows\"",
+      "\"$500\""
+    ],
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\""
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "num": 79,
+  "title": "AI Agents Are Overused. Here�s What to Build Instead",
+  "date": "19/12/25",
+  "word_count": 2461,
+  "char_count": 12859,
+  "chunks": 1,
+  "extracted": {
+    "hook": "So, I've built hundreds of AI agents and AI workflows, which means I've made hundreds of mistakes building my AI agents and my AI workflows.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "\"I've built hundreds of AI agents and AI workflows, which means I've made hundreds of mistakes building my AI agents and my AI workflows.\" (early)",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\""
+    ],
+    "transitions": [
+      "So here is the pyramid that I was referring to where you can see we have four different layers.",
+      "Now, just one more step up from that is an AI workflow, which basically holds the same principle of a set amount of steps or a set sequence of steps in the same order every single time."
+    ],
+    "cta": "\"if you enjoyed the video or you learned something new, then please give it a like. It definitely helps me out a ton.\"",
+    "vocabulary": [
+      "pyramid",
+      "custom GPTs",
+      "cloud projects",
+      "AI agents",
+      "root of this problem"
+    ],
+    "analogies": "\"So, you can almost think of it as an intern who knows your company because you give it a prompt, you give it data, and then you ask it to help you out with things.\"",
+    "curiosity_gaps": [
+      "\"And the defining characteristic here is that it's entirely reactive, meaning it doesn't scale a ton because it only actually works when you trigger it or when you initiate a conversation with it. And so there's a lot of use cases where people are telling me about how they do something manually and typically they will be triggered by a certain event and they will need to do something and they might need some sort of like back and forth loop or the ability to iterate.\"",
+      "\"But this is still a workflow because there's no full autonomy and decision-m. It's basically just one very narrow use case of AI and then we go right back into our traditional sequence of steps.\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [
+        "3,000 members who are building businesses and automations with Naden every single day."
+      ],
+      "time_references": [
+        "\"19/12/25\"",
+        "\"every time I make an end YouTube tutorial\"",
+        "\"every morning at 6 a.m.\""
+      ],
+      "named_tools": [
+        "Telegram",
+        "content creation tools",
+        "image creation tools",
+        "database tool"
+      ]
+    },
+    "vulnerability": "\"So, in this video, I'm going to be talking about the four different layers of the AI systems pyramid. And for each layer, I'll talk about when you would actually use it and a real example that I either use or have built in the past.\"",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "\"So here is the pyramid that I was referring to where you can see we have four different layers. We have custom GPTs or cloud projects or things similar to those at the bottom as the foundation and we move all the way up to the top with our AI agents.\""
+      ],
+      "slow": [
+        "\"And so there's a lot of use cases where people are telling me about how they do something manually and typically they will be triggered by a certain event and they will need to do something and they might need some sort of like back and forth loop or the ability to iterate.\""
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": [
+      "\"So here is the pyramid that I was referring to where you can see we have four different layers. We have custom GPTs or cloud projects or things similar to those at the bottom as the foundation and we move all the way up to the top with our AI agents.\""
+    ]
+  }
+}

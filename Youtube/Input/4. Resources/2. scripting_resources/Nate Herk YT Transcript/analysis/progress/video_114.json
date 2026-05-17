@@ -1,0 +1,81 @@
+{
+  "num": 114,
+  "title": "The TRUTH About Selling AI Automations to Businesses",
+  "date": "14/09/25",
+  "word_count": 3144,
+  "char_count": 17419,
+  "chunks": 1,
+  "extracted": {
+    "hook": "So, nobody's buying your AI agents or your AI workflows.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "\"I've spoken to hundreds of business owners.\" (late)",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, let's get started and take a look at the first reason why no one is buying from you.",
+      "Reason number two, no one cares about the AI.",
+      "The third reason no one's buying your AI agents is because you've got a massive misconception about what business owners value.",
+      "Fourth reason no one is buying your AI agents is because you're trying to be everything to everyone.",
+      "The fifth reason no one is buying your AI agents is because you're trying to sell like everyone else."
+    ],
+    "cta": "\"So, if you want to stand out, don't sell like everyone else. Execute differently, price differently, and think long-term.\" (mid)",
+    "vocabulary": [
+      "pain points",
+      "value proposition",
+      "ROI",
+      "automation",
+      "client"
+    ],
+    "analogies": [
+      "\"Think of yourself like a doctor. Patients don't show up to a hospital saying, 'I need ibuprofen.'\"",
+      "\"It's the same thing here. The free templates, all those random agents online, those are the over-the-counter ibuprofens.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [
+        "$10,000",
+        "$5K",
+        "$100,000"
+      ],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [
+        "a few months",
+        "years",
+        "weeks",
+        "months"
+      ],
+      "named_tools": []
+    },
+    "vulnerability": "\"I was a 22-year-old kid who just quit his job and was hopping on calls with business owners and I had no idea how to speak their language.\" (late)",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the importance of selling time, money, and focus"
+      ],
+      "slows": [
+        "explaining the concept of ROI in detail"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": [
+      "Reason number one, no one's buying your AI agents is because you're focusing too much on the what, not the how.",
+      "Reason number two, no one cares about the AI.",
+      "The third reason no one's buying your AI agents is because you've got a massive misconception about what business owners value.",
+      "Fourth reason no one is buying your AI agents is because you're trying to be everything to everyone.",
+      "The fifth reason no one is buying your AI agents is because you're trying to sell like everyone else."
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "num": 240,
+  "title": "How to Create an RAG Chatbot AI Agent with n8n (No Code, Step-by-Step Tutorial)",
+  "date": "23/09/24",
+  "word_count": 3315,
+  "char_count": 16644,
+  "chunks": 1,
+  "extracted": {
+    "hook": "today I'm going to be walking through step by step how to build this super simple question and answer AI agent like it says right there no code basically this agent is going to take information you give it so information about a company large database whatever it might be and then you're going to be able to chat with it to get the answers you need quicker than if you were to manually have to search through a document or multiple documents",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "so let's just get into the rest of this video",
+      "let's see how we're going to build this thing",
+      "the first workflow I said that we were going to be doing is um pushing the DAT into pine cone so we're just going to call this one push data",
+      "now we're going to add in the actual entity of the agent"
+    ],
+    "cta": "\"if you enjoyed you know please let me know what what else you want to see\"",
+    "vocabulary": [
+      "super simple",
+      "quickly",
+      "concise",
+      "vector database",
+      "large language model",
+      "pine cone",
+      "Google Drive",
+      "Open AI API"
+    ],
+    "analogies": "\"it's basically a way for agents to search through large amount of data much quicker than with a traditional relational database\"",
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollars": [],
+      "percentages": [],
+      "subscribers": [],
+      "time_references": [
+        "23/09/24"
+      ],
+      "named_tools": [
+        "Pine Cone",
+        "Google Drive",
+        "Open AI API"
+      ]
+    },
+    "vulnerability": "\"I'm not going to do that cuz I already have one like I said\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the workflow steps and tools"
+      ],
+      "slows": [
+        "explaining credentials setup for Google Drive"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

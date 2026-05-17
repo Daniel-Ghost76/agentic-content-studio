@@ -1,0 +1,70 @@
+{
+  "num": 142,
+  "title": "n8n Just Leveled Up RAG Agents (Reranking & Metadata)",
+  "date": "28/06/25",
+  "word_count": 3670,
+  "char_count": 18791,
+  "chunks": 1,
+  "extracted": {
+    "hook": "This new feature in NAD instantly makes your rag agent so much smarter and it takes almost no time to set up.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NOT FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So the first step with rag obviously is we want to get our text document into a vector database.",
+      "And now let's hop back into nitn and take a look at how we set this up."
+    ],
+    "cta": "If you're looking for a more hands-on experience when you're experimenting with Rag and building stuff with NN, then definitely check out my plus community. The link for that will be down in the description.",
+    "vocabulary": [
+      "vector database",
+      "reranker",
+      "metadata",
+      "chunk",
+      "relevance score"
+    ],
+    "analogies": [
+      "\"So the first step with rag obviously is we want to get our text document into a vector database. And how that works is the document is split up into smaller manageable chunks.\""
+    ],
+    "curiosity_gaps": [
+      "\"And so as you can see, that's how we got all of this data back here with a rule number associated with each one. And so that's pretty cool. I was able to do that with zero AI.\"",
+      "\"So the agent is basically going to be forced to pull stuff back even if it's not that relevant.\"",
+      "\"And then finally the last query it changed it to rule 27 golf. Not sure how that really changes much, but apparently it does because now if we go to the reanker, we can see it got rule 27.\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [
+        "\"28/06/25\"",
+        "\"I'll have all of these agents and this exact workflow in the free school community. So if you want to download the JSON here, you can also download this PDF and you can just play around and experiment the same way that I just did here in front of you guys.\""
+      ],
+      "named_tools": [
+        "\"superbase\"",
+        "\"cohhere\""
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "pace_accelerates": [
+        "When explaining the process of vectorization and reranking."
+      ],
+      "pace_slows": [
+        "During detailed explanations like the metadata filtering example."
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

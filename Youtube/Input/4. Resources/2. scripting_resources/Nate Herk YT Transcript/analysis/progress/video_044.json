@@ -1,0 +1,67 @@
+{
+  "num": 44,
+  "title": "Google�s New Tool Just 10x�d Claude Code",
+  "date": "10/03/26",
+  "word_count": 3034,
+  "char_count": 15745,
+  "chunks": 1,
+  "extracted": {
+    "hook": "Google just dropped what some are already calling the most powerful workspace CLI on the internet.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, I just uninstalled this so I can walk you guys through step by step how this actually works.",
+      "Okay, so I just got this set up today and I've been playing around with it a ton in my executive assistant project and it's been awesome."
+    ],
+    "cta": "\"if you enjoyed, you learned something new, please give it a like. Definitely helps me out a ton.\"",
+    "vocabulary": [
+      "workspace CLI",
+      "Google doc",
+      "YouTube resource guide",
+      "multi-step workflow recipes",
+      "CLI"
+    ],
+    "analogies": "\"think of it like\"",
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [
+        "10/03/26"
+      ],
+      "named_tools": [
+        "Cloud Code",
+        "GitHub repository"
+      ]
+    },
+    "vulnerability": "\"NONE FOUND\"",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the benefits of the Workspace CLI"
+      ],
+      "slows": [
+        "explaining the setup process in detail"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

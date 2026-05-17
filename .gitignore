@@ -1,0 +1,42 @@
+# Credentials — never commit
+credentials.json
+token.json
+
+# Environment variables
+.env
+!.env.example
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# ML model files
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+*.safetensors
+
+# Video files
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.m4v
+*.webm
+*.wmv
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Python
+*.egg-info/
+dist/
+build/

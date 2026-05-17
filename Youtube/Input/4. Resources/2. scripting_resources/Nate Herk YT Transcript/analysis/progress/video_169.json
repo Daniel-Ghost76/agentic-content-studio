@@ -1,0 +1,63 @@
+{
+  "num": 169,
+  "title": "One n8n Workflow for Unlimited Error Handling (Step-by-Step)",
+  "date": "20/04/25",
+  "word_count": 2495,
+  "char_count": 12862,
+  "chunks": 1,
+  "extracted": {
+    "hook": "Today I'm going to be showing you guys how you can set up an error workflow in Naden so that you can log all of your errors as well as get notified every time one of your active workflows fails.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, let's get into the video.",
+      "Okay, so this workflow is active.",
+      "Now, what I'm going to do is go back out to my NAND.",
+      "And now we have our sample data."
+    ],
+    "cta": "\"if you enjoyed or learned something new, please give it a like. Definitely helps me out a ton.\"",
+    "vocabulary": [
+      "Naden",
+      "Ultimate Assistant",
+      "error workflow",
+      "Google sheet template",
+      "Telegram trigger"
+    ],
+    "analogies": "NONE FOUND",
+    "curiosity_gaps": "\"I'll come back to this\"",
+    "specificity": {
+      "dollars": "NONE FOUND",
+      "percentages": "NONE FOUND",
+      "subscribers": "NONE FOUND",
+      "time_references": "20/04/25",
+      "named_tools": [
+        "Telegram",
+        "Google sheet template"
+      ]
+    },
+    "vulnerability": "\"I'm just going to make this workflow active.\" \"I'm going to drag in my telegram and I'm just going to say, 'Hey.'\"",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the error logger workflow setup"
+      ],
+      "slows": [
+        "explaining the steps of setting up the workflows"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

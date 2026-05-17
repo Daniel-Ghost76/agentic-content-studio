@@ -1,0 +1,75 @@
+{
+  "num": 217,
+  "title": "5 n8n Tips You NEED to Know",
+  "date": "30/11/24",
+  "word_count": 4029,
+  "char_count": 20611,
+  "chunks": 1,
+  "extracted": {
+    "hook": "what's going on guys in today's video we'll be diving into these five tips that everyone needs to know if you plan on using NAD to automate workflows or build AI agents make sure you watch this one all the way through because at the end I'll be going over a bonus tip",
+    "hook_type": "Curiosity-Gap",
+    "credential_drop": "NOT FOUND",
+    "signature_phrases": [
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "let's not waste any time and get straight into tip number one",
+      "tip number two we're going to dive into how you can have agents talk to each other so that your workflows are smarter and more efficient",
+      "moving on to the next tip we're going to be looking at the difference between question marks or pipe operators within sort of a variable call",
+      "all right so the last tip before the bonus tip is using from AI when you're setting up AI agents and giving them tools"
+    ],
+    "cta": "if you're finding this video useful please consider giving it a like it really helps me out also wanted to mention to check out my school communities they will be linked down in the description",
+    "vocabulary": [
+      "NAD",
+      "workflows",
+      "agents",
+      "automation",
+      "tools"
+    ],
+    "analogies": "NOT FOUND",
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [
+        "30/11/24"
+      ],
+      "named_tools": [
+        "NAD"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "discussing NAD and its importance for automation workflows or building AI agents"
+      ],
+      "slow": [
+        "explaining the concept of continuing on error in detail with examples"
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\""
+    ],
+    "frameworks": [
+      "five tips",
+      "error workflows",
+      "difference between question marks or pipe operators within sort of a variable call",
+      "using from AI when you're setting up AI agents and giving them tools"
+    ]
+  }
+}

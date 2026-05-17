@@ -1,0 +1,76 @@
+{
+  "num": 48,
+  "title": "Cursor Automations Clearly Explained (worth learning?)",
+  "date": "06/03/26",
+  "word_count": 2192,
+  "char_count": 12050,
+  "chunks": 1,
+  "extracted": {
+    "hook": "So, Cursor just dropped something called cursor automations and they claim that this is to build always on agents.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "Okay, so what is cursor automations?",
+      "Now, what I think is really important to understand about this is that it is built for a very specific purpose.",
+      "What I was interested in and why I wanted to test it out is because if you've built in cloud code",
+      "So the cloud ecosystem does have similar components, but it's kind of spread."
+    ],
+    "cta": "\"if you enjoyed the video, please give it a like. It helps me out a ton.\"",
+    "vocabulary": [
+      "agents",
+      "cloudr run coding agents",
+      "triggers",
+      "sandbox",
+      "prompt design",
+      "orchestrating",
+      "evaluations",
+      "QAs",
+      "deployment",
+      "safety and guardrails"
+    ],
+    "analogies": "\"it's basically an IDE\"",
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [
+        "06/03/26"
+      ],
+      "named_tools": [
+        "trigger.dev",
+        "cloud code",
+        "GitHub actions",
+        "slack bots"
+      ]
+    },
+    "vulnerability": "\"NONE FOUND\"",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the evolution of AI coding"
+      ],
+      "slows": [
+        "explaining the setup and use of cursor automations"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

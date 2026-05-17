@@ -1,0 +1,78 @@
+{
+  "num": 19,
+  "title": "I Gave OpenClaw $10,000 to Trade Stocks",
+  "date": "09/04/26",
+  "word_count": 4312,
+  "char_count": 22419,
+  "chunks": 2,
+  "extracted": {
+    "hook": "Halfway through the day, I was up like 210 bucks, and I was like, \"This is awesome.\" Woke up on Monday morning and it was crashed. Just went down a little bit. Uh-oh.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "\"I actually spent 5 years working in JP Morgan, and I have a strategy that's personally made me quite a bit of money.\" (late)",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "When discussing the initial gains and losses of the bots"
+      ],
+      "slow": [
+        "During explanations of strategies and background information"
+      ]
+    },
+    "vulnerability": "\"I'm not financial adviser. I'm not giving you any legal advice and I'm not recommending that you give a clawbot $10,000.\" (early)",
+    "cta": "you enjoyed or you learned something new, please give it a like and we'll see you in the next",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"let's keep that going\"",
+      "\"you enjoyed or you learned something new, please give it a like\""
+    ],
+    "transitions": [
+      "\"So, let's see if this AI trading stuff actually works. So, what Nate doesn't know is that I was actually already thinking about this before he said anything.\"",
+      "\"All right, so as you just saw, Salmon and I made a wager.\"",
+      "\"So, here on Telegram, I've got my bot. His name is Bull.\"",
+      "\"Okay, so roughly day seven here and as you guys know, Salmon and I set up our bots so that they could email each other, which I just thought would be a nice little funny addition to this challenge.\"",
+      "\"Hey guys, real quick. I just wanted to tell you guys how many days you want me to keep my Clawbot running and make another video where I basically say, you know, I left it running and here's how it's doing after this many more days.\""
+    ],
+    "vocabulary": [
+      "Cloud Bots",
+      "AI trading stuff",
+      "wealth adviser",
+      "sub agents",
+      "cron job",
+      "hybrid momentum and option strategy",
+      "max 20% per stock",
+      "max 1k per options trade",
+      "S&amp;P",
+      "fun challenge",
+      "keep that going",
+      "enjoyed",
+      "learned something new",
+      "like"
+    ],
+    "analogies": [
+      "\"So, I know I used to work at Goldman Sachs, but what I decided to do for this challenge is I literally just said, 'Hey, you are a wealth adviser. Spin up a team of wealth advisers to help you out.' So, it's got all these different sub agents and they're all doing research together.\""
+    ],
+    "curiosity_gaps": [
+      "\"I've actually got two bots running right now. You can see in Discord that I can like monitor what's on going. And I've also been posting these updates on my community every day on how this experiment kind of goes. No idea if this is going to print or blow up, but that's kind of the point.\"",
+      "\"So, let me hit you with my strategy. It's pretty interesting because I really wanted to see just how good these AI models are.\"",
+      "\"I'm not financial adviser. I'm not giving you any legal advice and I'm not recommending that you give a clawbot $10,000. We are doing this in a controlled environment just as an experiment to show you guys what's possible and hopefully at the end of 30 days we both made money and we just keep these things running.\"",
+      "\"So, roughly day seven here and as you guys know, Salmon and I set up our bots so that they could email each other, which I just thought would be a nice little funny addition to this challenge. And Tradebot from Salmon emailed me and said Warren Buffett would never hold your bags. LMAO flipped Tesla, puts into Meta, calls it open, sitting at $10,890 now, which I highly doubt.\"",
+      "\"So, I'm pretty interested to seeing where it goes, if it can recover in 30 days or maybe even a longer time horizon because of the war. So, pretty interested to see what's going to happen.\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\"",
+      "\"we'll see you in the next\""
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

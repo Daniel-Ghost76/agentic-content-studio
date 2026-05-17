@@ -1,0 +1,98 @@
+{
+  "num": 101,
+  "title": "Create ANYTHING with Sora 2 + n8n AI Agents (Full Beginner's Guide)",
+  "date": "22/10/25",
+  "word_count": 6830,
+  "char_count": 35068,
+  "chunks": 2,
+  "extracted": {
+    "hook": "So, Sor 2 has been taking the internet by storm.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "So, Sor 2 has been taking the internet by storm.",
+        "But it's more than just having these funny, cool videos."
+      ],
+      "slow": [
+        "Not only does it create video, but it automatically creates the audio, too."
+      ]
+    },
+    "vulnerability": "\"you really can't expect to get a good output if you don't prompt it very well\"",
+    "cta": "\"if you enjoyed the video or you learned something new, please give it a like. It definitely helps me out a ton.\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, Sor 2 has been taking the internet by storm.",
+      "But it's more than just having these funny, cool videos.",
+      "Not only does it create video, but it automatically creates the audio, too.",
+      "Just look at this Starbucks example.",
+      "And then I'm also going to talk about prompting.",
+      "So anyways, today I'm going to be showing you guys step by step how to connect to SOR 2 in Naden over API",
+      "All right, so before we dive into these examples, I want to start from scratch and show you guys how I connect to Sora 2 in Naden.",
+      "And then what we have is the JSON body.",
+      "So, if I go ahead and execute this workflow.",
+      "So, what I'm actually going to do is I'm going to stop this generation because we will be able to check on that in our key dashboard right here.",
+      "All right, so this one finished up. It was a bigger prompt so it took a little longer."
+    ],
+    "vocabulary": [
+      "Sor 2",
+      "Naden",
+      "API",
+      "prompting",
+      "curl",
+      "HTTP request",
+      "task ID",
+      "video generation",
+      "model",
+      "callback URL",
+      "AI agents",
+      "storyboard",
+      "prompting",
+      "Sora 2",
+      "n8n AI Agents",
+      "key dashboard",
+      "JSON body request"
+    ],
+    "analogies": [
+      "\"it's basically like a marketplace for all of these image and video generation models\"",
+      "\"So, if you can just generate these scenes with good prompting, like I said, it's a really, really cool opportunity.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll talk a little bit later about prompting and how you can really get some cool outputs from Sora 2\"",
+      "\"The first example that we have here is turning text into video, which is kind of what we just did up here\"",
+      "\"But one thing you may notice with cameos is Sora 2 may be a little bit more restrictive\"",
+      "\"So I tried doing some crazier prompts or I tried throwing in some other cameos like Shaq and Mark Human and it was kind of rejecting my prompts\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\""
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

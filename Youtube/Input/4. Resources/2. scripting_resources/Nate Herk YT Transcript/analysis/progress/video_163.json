@@ -1,0 +1,83 @@
+{
+  "num": 163,
+  "title": "My Proven AI Agent Formula Explained",
+  "date": "05/05/25",
+  "word_count": 3875,
+  "char_count": 20898,
+  "chunks": 1,
+  "extracted": {
+    "hook": "These are the five steps I always use when building AI agents, and they've helped me generate over $240,000 in the past 6 months.",
+    "hook_type": "Result-First",
+    "credential_drop": "\"These are the five steps I always use when building AI agents, and they've helped me generate over $240,000 in the past 6 months.\" (early)",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "\"Okay. The second step is actually identifying high ROI opportunities.\"",
+      "\"Now that we've identified the process, the third step is process mapping.\"",
+      "\"Step number four is a really, really important one, which is workflows versus AI agents.\"",
+      "\"The fifth step is about PC, proof of concept, and guardrails. So there are three things that I like to say here.\""
+    ],
+    "cta": "\"if this sounds like something that you want to dive into and it interests you, then definitely check out my paid course and community using the link down in the description.\"",
+    "vocabulary": [
+      "foundations",
+      "automations",
+      "large language models",
+      "APIs",
+      "JSON",
+      "NADN",
+      "Pine Cone vector database",
+      "guardrails"
+    ],
+    "analogies": [
+      "\"And so diving into vector databases, it's definitely important to understand the way that we take a document, we chunk it up, we run it through an embedded model and those chunks are placed into the vector database based on the actual meaning of the words in the chunk.\"",
+      "\"So here's an example. Alice is a 25-year-old student. We have name Alice, age 25, is student true. And here's an example where we have an array. We have a shopping list with apples, bananas, and milk. And over here, we have the shopping list array with apples, bananas, and milk.\"",
+      "\"And so basically, our job here in the process mapping step is to build out the instruction manual.\""
+    ],
+    "curiosity_gaps": [
+      "\"So, that's going to do it for today's video. I hope you guys enjoyed and I hope you learned something new. If you did, please give it a like. Definitely helps me out a ton. And as always, I appreciate you guys sticking around to the end of the video.\"",
+      "\"And this is exactly why I created the course from 10 hours to 10 seconds, which is basically the exact methodology that I just covered with you guys, but in much more detail.\""
+    ],
+    "specificity": {
+      "dollar_amounts": [
+        "$240,000"
+      ],
+      "time_references": [
+        "6 months",
+        "7 months"
+      ],
+      "subscriber_counts": [],
+      "named_tools": [
+        "NADN",
+        "Pine Cone vector database"
+      ]
+    },
+    "vulnerability": "\"I see way too many people trying to build these systems when they don't understand how to read JSON.\" (early)",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "When explaining the foundational elements of JSON and APIs"
+      ],
+      "slow": [
+        "During detailed explanations like vector databases and large language models"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": [
+      "\"These are the five steps I always use when building AI agents, and they've helped me generate over $240,000 in the past 6 months.\"",
+      "\"Okay. The second step is actually identifying high ROI opportunities.\"",
+      "\"Now that we've identified the process, the third step is process mapping.\"",
+      "\"Step number four is a really, really important one, which is workflows versus AI agents.\"",
+      "\"The fifth step is about PC, proof of concept, and guardrails. So there are three things that I like to say here.\""
+    ]
+  }
+}

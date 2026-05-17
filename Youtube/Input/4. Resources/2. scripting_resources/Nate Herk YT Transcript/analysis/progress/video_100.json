@@ -1,0 +1,76 @@
+{
+  "num": 100,
+  "title": "This n8n Sales Automation Won $5,000 in Just 14 days",
+  "date": "27/10/25",
+  "word_count": 5337,
+  "char_count": 27801,
+  "chunks": 2,
+  "extracted": {
+    "hook": "So, I just hopped off a call with the winner of our September hackathon who won $5,000 for building this sales system.",
+    "hook_type": "Result-First",
+    "credential_drop": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "discussing the $5,000 prize and Brett's background"
+      ],
+      "slow": [
+        "explaining the problem of missed calls"
+      ]
+    },
+    "vulnerability": "\"NONE FOUND\"",
+    "cta": "Thanks so much Brett. It was great to great to chat with you today.",
+    "signature_phrases": [
+      "\"let's not waste any time\"",
+      "\"what's really cool\"",
+      "\"literally insane\"",
+      "\"honestly\"",
+      "you guys did a great job on this one",
+      "let me hit you with",
+      "what's really cool is"
+    ],
+    "transitions": [
+      "So, let's not waste any time and get straight into the video.",
+      "Now I'm here with Brett to showcase his winning solution, dive into the tech stack he used, and why he ended up winning the $5,000 prize.",
+      "And then do we have a phase seven down here for that sort of extra piece where it's doing the lookup?",
+      "So, um, this system helps convert missed calls into booked appointments so you can stay focused in the important things in your day and let this fill your calendar without lifting a finger.",
+      "But Brett, as we're sort of wrapping up here, wanted to give you a chance to to tell everyone if they want to work with you, if they're curious about learning more about you, where can they find you?"
+    ],
+    "vocabulary": [
+      "hacked",
+      "sales system",
+      "lead genen",
+      "NAN",
+      "automation",
+      "phase",
+      "template",
+      "address validator",
+      "zip code",
+      "links",
+      "formatted email",
+      "text confirmation",
+      "fallback",
+      "offline",
+      "build"
+    ],
+    "analogies": [
+      "\"it's like if a phone number is there and they can call or text it, you need to be prepared to be able to receive that or else somebody's going to go elsewhere\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you're going to notice some interesting things\"",
+      "\"so that's how it started\"",
+      "\"I'm not a coder\"",
+      "\"I made a joke earlier\"",
+      "\"it really just kind of like completely blew my mind\"",
+      "you guys did a great job on this one",
+      "if you've been with me"
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

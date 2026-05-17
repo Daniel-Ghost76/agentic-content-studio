@@ -1,0 +1,23 @@
+Create a 3-second cinematic HUD motion graphic using 00-start-background.png as the start image and 02-good-bad-ugly.png as the final reference.
+
+The timing order is strict: GOOD must appear first, then BAD, then UGLY. Do not show BAD or UGLY before GOOD has landed.
+
+The animation starts from the blank soft teal HUD background only. No cards are visible at frame 0. The blurred background UI panels are already present and drift very subtly with soft parallax.
+
+Animate the three frosted-glass HUD cards into place one by one from left to right.
+
+GOOD enters first from 0.2s to 1.0s. It slides in from off-screen left with smooth motion blur and a slight 3D Y-axis rotation, then lands on the left side. As it settles, the dotted texture inside the card becomes clearer and the soft green accent glow turns on gently.
+
+BAD enters second from 1.0s to 1.8s. It slides in from off-screen left and lands in the center. It should feel a little more front-facing and stable than the side cards. As it settles, the amber accent glow appears softly.
+
+UGLY enters third from 1.8s to 2.6s. It slides in from off-screen left and lands on the right side with a slight mirrored 3D tilt toward the center. As it settles, the soft coral/red accent glow appears.
+
+The cards should feel like premium digital glass cards being dealt into a HUD interface, not flat rectangles. Use elegant easing, subtle motion blur, and a tiny overshoot before each card settles. No hard bounce, no dramatic spin, no cartoon movement.
+
+By the final frame, match 02-good-bad-ugly.png exactly: three separate frosted-glass HUD cards, soft dark teal UI-panel background, visible dotted texture inside each card, muted neon borders, GOOD with restrained green accent, BAD with restrained amber accent, UGLY with restrained coral/red accent.
+
+Keep the background calm and consistent. Add only very subtle teal haze movement and slight parallax in the blurred UI panels. Do not add extra text, logos, humans, real objects, floor, horizon, reflections, explosions, glitch effects, or harsh neon.
+
+Style: soft premium AI-tech HUD, low-to-medium contrast, frosted glass, muted neon, visible dotted texture, dark teal background, cinematic blur, clean and aesthetic.
+
+Duration: 3 seconds. Aspect ratio: 16:9.

@@ -1,0 +1,99 @@
+{
+  "num": 210,
+  "title": "Everything I Learned About AI Agents in 2024 in 19 Minutes",
+  "date": "14/12/24",
+  "word_count": 4305,
+  "char_count": 24163,
+  "chunks": 2,
+  "extracted": {
+    "hook": "imagine having a team of workers that never sleeps handles repetitive tasks with precision and costs a fraction of hiring a human welcome to the world of AI agents this year I discovered their potential and it changed everything for me",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "if you guys don't know me my name is Nate I've been working in automation for a while now but when I started learning about AI agents earlier this year something clicked and I knew I had to throw myself at it completely so I quit my full-time job to throw myself entirely at mastering and building AI agents because I saw how these tools could cut costs transform workflows and unlock potential in ways that tradition automation never could",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "imagine having a team of workers that never sleeps handles repetitive tasks with precision and costs a fraction of hiring a human welcome to the world of AI agents this year I discovered their potential and it changed everything for me"
+      ],
+      "slow": [
+        "so let's not waste any time and hop into the key components of AI agents real quick I just wanted to break down the difference between an assistant and an agent",
+        "this is where Vector databases come into play these tools allow us to store and retrieve data in a way that's both fast and contextually aware"
+      ]
+    },
+    "vulnerability": "\"I knew I had to throw myself at it completely so I quit my full-time job\"",
+    "cta": "if you're looking to have this sort of stuff built out for you or for your business or you're looking for AI consultancy Services then book a call using the link to my website in the description",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"let me hit you with\"",
+      "\"literally insane\""
+    ],
+    "transitions": [
+      "so let's not waste any time and hop into the key components of AI agents",
+      "moving on to something that I've realized over the past months is so so important the foundation which is data and context",
+      "this leads gr into the point of architecture and why architecture matters it matters because we want to build out agents that are scalable",
+      "here are a few trends that I think we need to keep our eyes on within the next few years",
+      "number two enhanced collaboration multi-agent systems will become more common with agents working together to handle these more complex workflows",
+      "so the takeaway here is that AI agents are not just the future they're the present"
+    ],
+    "vocabulary": [
+      "AI agents",
+      "core agent",
+      "memory",
+      "tools",
+      "prompt",
+      "advanced problem solving",
+      "self-reflection and improvement",
+      "tool utilization",
+      "collaborative multi-agent Frameworks",
+      "Vector databases",
+      "autonomy",
+      "collaboration",
+      "integration",
+      "everyday tools",
+      "CRM"
+    ],
+    "analogies": [
+      "\"think of this as the brain of the operation\"",
+      "\"the memory is what allows the agent to store and retrieve information so that it can maintain context and continuity over time which means that the agent doesn't have to start from scratch every time it wants to tackle a new task\"",
+      "\"imagine you have an assistant that can remember every single detail of your last conversation and previous conversations so that's what the memory is going to do\"",
+      "\"it's like when you do a Google Search\""
+    ],
+    "curiosity_gaps": [
+      "I'll come back to this",
+      "stay till the end",
+      "here's where it gets interesting",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "you guys",
+      "those of you",
+      "if you've been with me"
+    ],
+    "frameworks": [
+      "core agent",
+      "memory",
+      "tools",
+      "prompt",
+      "Advanced problem solving",
+      "self-reflection and improvement",
+      "tool utilization",
+      "collaborative multi-agent Frameworks",
+      "Vector databases"
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "num": 74,
+  "title": "Claude Code is Better at n8n than I am (Beginner's Guide)",
+  "date": "14/01/26",
+  "word_count": 6865,
+  "char_count": 35404,
+  "chunks": 2,
+  "extracted": {
+    "hook": "All right, so I just brain dumped a manual process into chatbt and it spit this out for me.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NOT FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "discussing the brain dump process and workflow creation (0:00 - 1:30)"
+      ],
+      "slow": [
+        "explaining the system prompt setup (4:30 - 5:00)"
+      ]
+    },
+    "vulnerability": "\"I'm going to make it super super simple\"",
+    "cta": "\"if you enjoyed the video or if you learned something new, please give it a like. It definitely helps me out a ton.\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "Okay, so that took about 3 minutes and you can see now that the workflow has finished.",
+      "So let me open up this link.",
+      "And just a real quick breakdown what actually happened here.",
+      "So I'm going to show you exactly how we set this up today.",
+      "All right, so you guys know that my job is to make complicated and intimidating things as simple as possible.",
+      "And the way that you do that is on the top right, you'll see this little extension button.",
+      "Okay, so that is our request.",
+      "All right. So it's a little bit darker but it says I have a good understanding of the requirements.",
+      "So, let me real quick just connect all these credentials.",
+      "Okay, now that that's set up, we're going to go ahead and run this."
+    ],
+    "vocabulary": [
+      "brain dump",
+      "manual process",
+      "workflow",
+      "nodes",
+      "parameters",
+      "configuration",
+      "permissions",
+      "installation",
+      "templates",
+      "validation",
+      "cloud code",
+      "workflow",
+      "AI agent",
+      "research",
+      "newsletter",
+      "Perplexity",
+      "open router",
+      "MCP servers",
+      "nodes",
+      "schedule trigger"
+    ],
+    "analogies": [
+      "\"it's going to be pretty simple and I'll show you guys how\"",
+      "\"it's basically making these prompts pretty nice for us\""
+    ],
+    "curiosity_gaps": [
+      "\"And the cool thing about Cloud Code is when it runs into issues, it literally figures out why it went wrong and then it fixes it. Right here, you can see there are some issues with the code node parameters and Slack node configuration.\"",
+      "\"So I'm going to show you exactly how we set this up today\"",
+      "\"And so if you've never heard of like a claude skill, basically just think of them like system instructions\"",
+      "\"And then it's also going to clone those NN skills for us. You can see there's the to-do list.\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\""
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

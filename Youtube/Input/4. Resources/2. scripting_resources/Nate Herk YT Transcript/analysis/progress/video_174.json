@@ -1,0 +1,87 @@
+{
+  "num": 174,
+  "title": "How I 100% Automated Long Form Content with n8n (free template)",
+  "date": "03/04/25",
+  "word_count": 5657,
+  "char_count": 29445,
+  "chunks": 2,
+  "extracted": {
+    "hook": "Okay, so I'm going to go ahead and hit test workflow.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the workflow and its components"
+      ],
+      "slows": [
+        "explaining the Google sheet setup"
+      ]
+    },
+    "vulnerability": "\"NONE FOUND\"",
+    "cta": "\"if you enjoyed the video, please give it a like. Helps me out a ton.\"",
+    "signature_phrases": [
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you're going to get a message here that says error\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, I'll dive into what that looks like.",
+      "And this basically takes a few minutes to render.",
+      "So, let's head over to the channel I just spun up and take a look at a previous example.",
+      "So, there we go. Workflow just finished up.",
+      "And then we'll go ahead and check the actual Google sheet where our ideas are coming from.",
+      "But the posting status at this point would still be to-do because we have that coming in later over here.",
+      "Anyways, what's next is we have to download the video as binary data so we can actually pass it into YouTube."
+    ],
+    "vocabulary": [
+      "workflow",
+      "Google sheet",
+      "JSON to video",
+      "API",
+      "voice over",
+      "workflow",
+      "template",
+      "Google Sheets",
+      "JSON the Video",
+      "API key"
+    ],
+    "analogies": [
+      "\"So, this one's basically creating an introduction and an outro.\"",
+      "\"And then we're going to hit a ranker agent that's actually going to be taking the initial idea and it's going to be creating that top 10 ranking list as well as the image prompts for the video.\"",
+      "\"think of it like\"",
+      "\"it's basically V1 but we're going to do more in the future\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"you guys\""
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

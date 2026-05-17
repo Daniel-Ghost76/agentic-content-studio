@@ -1,0 +1,75 @@
+{
+  "num": 81,
+  "title": "n8n's New Chat Hub Release: What You Need to Know",
+  "date": "15/12/25",
+  "word_count": 2509,
+  "char_count": 12651,
+  "chunks": 1,
+  "extracted": {
+    "hook": "Naden just dropped their new chat hub which lets you talk to all the different chat models that you already know and love in one spot and it also lets you talk to and trigger your Naden AI agents.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NOT FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, there's a few things that I wanted to break down once you are in this environment.",
+      "But what I wanted to show you guys was the memory of basically this context window.",
+      "And now we have the ability to talk to our custom agents."
+    ],
+    "cta": "\"if you enjoyed the video or you learned something new, please give it a like. It definitely helps me out a ton.\"",
+    "vocabulary": [
+      "chat hub",
+      "Naden AI agents",
+      "API key",
+      "memory of basically this context window",
+      "tool section",
+      "Gina AAI",
+      "web search tool",
+      "custom GPT or project",
+      "data analyst agent",
+      "workflow executions"
+    ],
+    "analogies": [
+      "\"it's going to use that chat model in order to actually say something to us.\"",
+      "\"And now you can also see that we have the ability to talk to our custom agents. And you can see I have one right here called get agent logs tool.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [
+        "December 11th, 2025"
+      ],
+      "named_tools": [
+        "Gina AAI"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "pace_accelerates": [
+        "And now the model is responding to us. So, as you can see, as of December 11th, 2025, which is today, the Bears are 9 and4."
+      ],
+      "pace_slows": [
+        "So in today's video I'm going to be talking about what chat hub is and how you can start using it right away."
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "num": 147,
+  "title": "I Built an AI Agent that Builds Teams of Agents in n8n (free template)",
+  "date": "18/06/25",
+  "word_count": 5213,
+  "char_count": 27161,
+  "chunks": 2,
+  "extracted": {
+    "hook": "All right, so here we have our NEN developer AI agent and I'm just going to open up a chat, send off this message which says, \"Build me an AI agent that will receive a message in Slack, interpret the message, and decide if it needs to use its calendar or its Gmail tool, then log the results in Google Sheets, and send us a message back in Slack.\"",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "All right, so here we have our NEN developer AI agent"
+      ],
+      "slow": [
+        "So, as you can see, the workflow tells us how to get started."
+      ]
+    },
+    "vulnerability": "\"I've seen a lot of YouTube videos where people are using Claude Opus 4 and they're setting up a cloud project. They're giving Claude a ton of different readme files and ended documentation and the outputs are coming out pretty good. But, this is so cool to me because I'm hardly giving it anything\"",
+    "cta": "If you did, please leave a like. It helps me out a ton and I really appreciate you guys making it to the end of the video.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "All right, so it looks like that just finished up.",
+      "So, as you can see, the workflow tells us how to get started.",
+      "All right. So now let's break it down a little bit.",
+      "Now, from there, I'm basically just feeding in one Google doc to the AI agent as context",
+      "And then we're going to get a message back in Slack.",
+      "So, now let's quickly talk about pricing.",
+      "And then one other thing I wanted to note is if I were you and I was actually going to use this,",
+      "But anyways, if you want to download this workflow and play around with this for yourself,",
+      "Final final thing I wanted to touch on in this video is the future of AI automation"
+    ],
+    "vocabulary": [
+      "NEN developer AI agent",
+      "Slack trigger",
+      "AI agent",
+      "Google Sheets logger",
+      "structured output parser",
+      "sticky notes",
+      "credential mapping",
+      "JSON structure",
+      "API key",
+      "cloud account",
+      "AI agent",
+      "Google doc",
+      "workflow",
+      "nodes",
+      "vector DB",
+      "subscription"
+    ],
+    "analogies": [
+      "\"So, as you can see, the workflow tells us how to get started. We need to configure all the credentials, which is everything that's red. We need to set up the Google sheet with proper headers. We need to add the Slackbot to our channel, and then just start testing.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

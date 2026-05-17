@@ -1,0 +1,95 @@
+{
+  "num": 183,
+  "title": "How to Actually Scrape Twitter?X Data with n8n",
+  "date": "15/03/25",
+  "word_count": 4901,
+  "char_count": 24366,
+  "chunks": 2,
+  "extracted": {
+    "hook": "today I'm going to be showing you guys this n workflow that I built that helps me scrape unlimited amount of tweets from X",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "so the system is going to help you do all of that"
+      ],
+      "slow": [
+        "as always I'm giving away the workflow as well as the Google sheet template for free so all you need to do is download those things plug them in hit run and you'll be scraping Twitter",
+        "let's hop into a live demo and then I'll show you guys how to set up this API step by step"
+      ]
+    },
+    "vulnerability": "\"I don't know if this is optimal the way we have these different sets and code noes so if any of you guys are programmers please let me know I can um make this more efficient\"",
+    "cta": "\"I hope you guys enjoyed this one I hope you guys learned something new as always if you did please give it a like it definitely helps me out a ton\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "so the system is going to help you do all of that",
+      "as always I'm giving away the workflow as well as the Google sheet template for free so all you need to do is download those things plug them in hit run and you'll be scraping Twitter",
+      "let's hop into a live demo and then I'll show you guys how to set up this API step by step",
+      "so we're going to hop back into the workflow I'm going to hit test workflow and we'll see this happen live so right now it's hitting Twitter or X",
+      "we're going to do that and then I'll walk through this actual execution right here and we'll take a look what was going on all right",
+      "so if I hop back into the documentation we can see that right here we have a method which is G and then this is sort of the endpoint so if we were to copy this endpoint and come back into here and paste it it would give us that full endpoint",
+      "exact same code that we used in the step by step",
+      "what's going on over here when we're checking for the count is we basically just have a simple if and we're trying to check if the count is equal to three then we're going to basically end the process"
+    ],
+    "vocabulary": [
+      "workflow",
+      "scrape",
+      "Twitter",
+      "Google sheet",
+      "API call",
+      "query",
+      "cursor",
+      "counter node",
+      "Google sheet",
+      "API call",
+      "tweet"
+    ],
+    "analogies": [
+      "\"it's really not too bad as you can see it's sort of a pay as you go model\"",
+      "\"it's looking for whatever is the most immediate node coming beforehand and otherwise if you're doing something like right here where in this case we're referencing the counter node or we're referencing the get tweets node that's a lot different because it's like an absolute reference\""
+    ],
+    "curiosity_gaps": [
+      "\"I'm going to show you guys how to set up this API step by step as you can see here's the workflow that we're going over today\"",
+      "\"so if I was to scroll down we would see that we in fact have 58 tweets all of them have an ID along with the links so if we clicked into this one we can see this was on March 11th and it has almost 31,000 views\"",
+      "\"let's not waste any time let's hop into a live demo and then I'll show you guys how to set up this API step by step\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\"",
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\""
+    ],
+    "frameworks": [
+      "\"so we're going to walk through setting up that API call step by step so we're going to do that and then I'll walk through this actual execution right here and we'll take a look what was going on all right\"",
+      "\"the first thing I want to point out is whenever you're looking at API documentation if you see curl commands on the right which would look like this you're going to want to copy that and go into a new workflow type in HTTP request and all you're going to want to do is hit import curl paste that in there and when you click import it's going to populate the fields that you need so it's going to be really handy\""
+    ]
+  }
+}

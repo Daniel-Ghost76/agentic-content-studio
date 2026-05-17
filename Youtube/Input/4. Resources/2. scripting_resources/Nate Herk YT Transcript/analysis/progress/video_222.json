@@ -1,0 +1,84 @@
+{
+  "num": 222,
+  "title": "How to Build an AI Slack Assistant in 5 Minutes (Chatbase)",
+  "date": "14/11/24",
+  "word_count": 1147,
+  "char_count": 5906,
+  "chunks": 1,
+  "extracted": {
+    "hook": "today we're going to be using chatbase and absolutely zero code to build an AI assistant within your slack channel that you and your team can talk to in order to get questions answered fast",
+    "hook_type": "Time-Bound",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"let's not waste any time\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "so now we need to set up our data sources",
+      "now all we have to do is hit create chatbot and we can start testing this thing out",
+      "now that our assistant has been configured and trained on some initial data we can start to look around at the other options we have",
+      "before we start talking to our AI assistant I'm just going to update this prompts real quick so that it knows it's an internal AI slack chatbot and that it will be talking to employees from Nvidia",
+      "so as you can see it's getting information from Wikipedia and it's getting it back to us super quick",
+      "now we need to actually put this into our slack channel"
+    ],
+    "cta": "\"definitely let me know if you guys want to see more click the link in the description to go sign up for chat Bas\"",
+    "vocabulary": [
+      "slack",
+      "assistant",
+      "chatbase",
+      "GPT",
+      "Wikipedia",
+      "Nvidia"
+    ],
+    "analogies": "\"\"",
+    "curiosity_gaps": "\"\"",
+    "specificity": {
+      "dollars": "",
+      "percentages": "",
+      "subscribers": "",
+      "time_references": "14/11/24",
+      "named_tools": "chatbase"
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "\"today we're going to be using chatbase and absolutely zero code\"",
+        "\"so now we need to set up our data sources\"",
+        "\"now all we have to do is hit create chatbot and we can start testing this thing out\"",
+        "\"before we start talking to our AI assistant I'm just going to update this prompts real quick so that it knows it's an internal AI slack chatbot and that it will be talking to employees from Nvidia\"",
+        "\"so as you can see it's getting information from Wikipedia and it's getting it back to us super quick\"",
+        "\"now we need to actually put this into our slack channel\""
+      ],
+      "slows": [
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": [
+      "\"so now we need to set up our data sources which is just the information that the AI assistant is going to be having access to\"",
+      "\"now all we have to do is hit create chatbot and we can start testing this thing out\"",
+      "\"now that our assistant has been configured and trained on some initial data we can start to look around at the other options we have\"",
+      "\"before we start talking to our AI assistant I'm just going to update this prompts real quick so that it knows it's an internal AI slack chatbot and that it will be talking to employees from Nvidia\"",
+      "\"so as you can see it's getting information from Wikipedia and it's getting it back to us super quick\"",
+      "\"now we need to actually put this into our slack channel\""
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "num": 86,
+  "title": "OpenAI Just Leveled Up n8n AI Agents (here's how it works)",
+  "date": "03/12/25",
+  "word_count": 2655,
+  "char_count": 13599,
+  "chunks": 1,
+  "extracted": {
+    "hook": "So if we want to have an AI agent that can search through documents and search the web, we would have to give that agent access to tools.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So that way I can ask my AI agent what number is the rule about the flag stick and what is the Chicago Bears current record.",
+      "Now, real quick, let me just show off the actual domain thing."
+    ],
+    "cta": "If you enjoyed or you learned something new, please give it a like. It definitely helps me out a ton. And as always, I appreciate you guys making it to the end of the video. I'll see you on the next one.",
+    "vocabulary": [
+      "AI agent",
+      "web search",
+      "file search",
+      "vector store",
+      "OpenAI chat model",
+      "responses API",
+      "tool",
+      "built-in tools",
+      "API key",
+      "GPT"
+    ],
+    "analogies": [
+      "\"So that way I can ask my AI agent what number is the rule about the flag stick and what is the Chicago Bears current record. It's going to search perplexity for the Bears record. It's going to search its vector store for the rule about the pin.\""
+    ],
+    "curiosity_gaps": [
+      "\"So, if you haven't yet watched my video about Gemini file search, I will go ahead and tag that right up here. definitely give it a watch because it's basically the exact same thing that we're doing here with OpenAI's vector store file search except for Gemini's was so much cheaper\"",
+      "\"I just wanted to say cuz I know I'm going to get comments about that. I haven't explicitly tested it yet, but maybe a video is coming about that.\""
+    ],
+    "specificity": {
+      "dollars": [],
+      "percentages": [],
+      "subscribers": [],
+      "times": [],
+      "names": [
+        "perplexity",
+        "subbase vector store",
+        "Chicago Bears.com",
+        "upai.com",
+        "GPT 5 Mini"
+      ]
+    },
+    "vulnerability": "\"I just wanted to say cuz I know I'm going to get comments about that. I haven't explicitly tested it yet, but maybe a video is coming about that.\"",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "So if we want to have an AI agent that can search through documents and search the web, we would have to give that agent access to tools."
+      ],
+      "slow": [
+        "And then you can hook that up to your AI agents. We also have the ability for code interpretation and MCP servers, but right now I'm just going to be talking about these top two in today's video."
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

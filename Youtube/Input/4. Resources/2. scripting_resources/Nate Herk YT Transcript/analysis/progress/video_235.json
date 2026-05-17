@@ -1,0 +1,87 @@
+{
+  "num": 235,
+  "title": "How to Build a Client Onboarding AI Agent with n8n (Step-by-Step Tutorial, No Code)",
+  "date": "09/10/24",
+  "word_count": 4719,
+  "char_count": 24162,
+  "chunks": 2,
+  "extracted": {
+    "hook": "in this step-by-step tutorial I'm going to be walking through how to build this workflow where we're going to be utilizing two different agents in order to get rid of some of the tedious and time-consuming stuff that comes along with onboarding a new client by the end of this video you'll have this workflow up and running and you can do so with using absolutely zero code",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NOT FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "pace_accelerates": [
+        "\"and then the second one is that it's going to take their client profile give a nice summary and put it into a spreadsheet for us automatically so we can see all of our new clients in one Consolidated place\"",
+        "\"so with that being said the first step that we're going to do here is going to be an nadn form trigger\""
+      ],
+      "pace_slows": [
+        "\"and then at the end I just like to click on options add option append NAD n attribution and then just turn that off it just makes the form look a little cleaner\""
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "\"if you're interested in seeing how you could expand off of a client in boarding form trigger like this please let me know in the comments\"",
+    "signature_phrases": [
+      "\"let's not waste any time\"",
+      "\"literally insane\"",
+      "\"honestly\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "\"so with that being said the first step that we're going to do here is going to be an nadn form trigger\"",
+      "\"okay so we've got the fields filled out\"",
+      "\"and then at the end I just like to click on options add option append NAD n attribution and then just turn that off it just makes the form look a little cleaner\"",
+      "so next we're going to add our first AI agent",
+      "the next thing that we want to do here is we want to actually add the Gmail node",
+      "let's click on the plus button and we're going to add another AI agent",
+      "now let's move on to the next step"
+    ],
+    "vocabulary": [
+      "tutorial",
+      "step-by-step",
+      "client",
+      "onboarding",
+      "agents",
+      "form trigger",
+      "email",
+      "spreadsheet",
+      "automatically",
+      "required fields",
+      "pin",
+      "node",
+      "workflow",
+      "form submission",
+      "client onboarding",
+      "AI agent"
+    ],
+    "analogies": [
+      "\"think of it like\""
+    ],
+    "curiosity_gaps": [
+      "\"and then the second one is that it's going to take their client profile give a nice summary and put it into a spreadsheet for us automatically so we can see all of our new clients in one Consolidated place\"",
+      "\"so with that being said the first step that we're going to do here is going to be an nadn form trigger\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"in this step-by-step tutorial I'm going to be walking through how to build this workflow where we're going to be utilizing two different agents in order to get rid of some of the tedious and time-consuming stuff that comes along with onboarding a new client\"",
+      "\"so within this s in form trigger node we can see we've got the URL that's what you're going to be able to send to the client in order for them to fill it out\""
+    ]
+  }
+}

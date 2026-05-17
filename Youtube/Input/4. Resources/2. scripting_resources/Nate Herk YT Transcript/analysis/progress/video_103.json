@@ -1,0 +1,12 @@
+{
+  "num": 103,
+  "title": "You�re Doing AI Automation Wrong (Here�s How to Fix It)",
+  "date": "15/10/25",
+  "word_count": 2812,
+  "char_count": 15713,
+  "chunks": 1,
+  "extracted": {
+    "parse_error": true,
+    "raw": "{\n\"hook\": \"If you want to make money with AI automation, whether that's selling services to businesses or implementing systems into your own, I'm going to show you exactly how.\",\n\"hook_type\": \"Problem-Statement\",\n\"credential_drop\": \"\\\"I've sold AI workflows for thousands as a beginner freelancer. And I've scaled my own agency, True Horizon, to $2.5 million this year by building AI systems that make the company run smoother.\\\" (mid)\",\n\"signature_phrases\": [\n\"\\\"you guys\\\"\",\n\"\\\"let me hit you with\\"
+  }
+}

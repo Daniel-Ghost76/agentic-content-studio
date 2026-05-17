@@ -1,0 +1,86 @@
+{
+  "num": 33,
+  "title": "Claude Code + iMessage is Finally Here.",
+  "date": "26/03/26",
+  "word_count": 2300,
+  "char_count": 12005,
+  "chunks": 1,
+  "extracted": {
+    "hook": "All right, I'm in my Cloud Code and it says listening for channel messages from the plugin iMessage.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, let's get into it.",
+      "Now, one of the biggest downsides to this feature right now is that if that session closes out",
+      "The good news though is that there are some ways that you can have like sort of a Mac OS VPS",
+      "And so, that still might to you sound like it's all basically the same thing"
+    ],
+    "cta": "\"If you enjoyed it and learned something new, please give it a like. It helps me out a ton.\"",
+    "vocabulary": [
+      "Cloud Code",
+      "iMessage",
+      "channels",
+      "MCPs",
+      "API keys",
+      "YouTube analyzer skill"
+    ],
+    "analogies": "\"it basically allows us to talk to Cloud Code through some sort of third-party app like Telegram, Discord, or iMessage\"",
+    "curiosity_gaps": [
+      "\"There are obviously some fixes here. So, the purpose of this video is to show you guys how this works, how to set it up, and what you need to know.\"",
+      "\"And so, that still might to you sound like it's all basically the same thing\"",
+      "\"And if you really wanted to get rid of these double texts, then you would just want to text this number\""
+    ],
+    "specificity": {
+      "dollars": [],
+      "percentages": [],
+      "subscribers": [],
+      "time_references": [
+        "\"a week ago\"",
+        "\"about a week ago\"",
+        "\"today\"",
+        "\"right here on my terminal\"",
+        "\"right here in my iMessage\"",
+        "\"right away listening for channel messages at iMessage\"",
+        "\"right now\""
+      ],
+      "named_tools": [
+        "\"Cloud Code\"",
+        "\"VS Code\"",
+        "\"Visual Studio Code\"",
+        "\"tmux\"",
+        "\"bun\"",
+        "\"Telegram\"",
+        "\"Discord\"",
+        "\"iMessage\"",
+        "\"Cloud Code docs\"",
+        "\"claude.ai/code\"",
+        "\"macOS VPS\"",
+        "\"Mac Mini\""
+      ]
+    },
+    "vulnerability": "\"I burnt myself on my oven the other day\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "discussing how to set up channels and their benefits"
+      ],
+      "slows": [
+        "explaining the technical details of channels"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

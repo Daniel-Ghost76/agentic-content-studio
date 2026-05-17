@@ -1,0 +1,63 @@
+{
+  "num": 67,
+  "title": "Set Up Clawdbot on a VPS in Minutes (no mac mini)",
+  "date": "27/01/26",
+  "word_count": 3441,
+  "char_count": 17356,
+  "chunks": 1,
+  "extracted": {
+    "hook": "So, Claudebot has been taking the internet by storm, and you don't have to actually go buy a $600 Mac Mini in order to test it out.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, I'm going to be showing you guys step by step how you can actually deploy Claudebot onto a VPS, and we're going to be doing this with Hostinger.",
+      "Now is where we have to actually get into the terminal, unfortunately.",
+      "Okay. So, now that that is all set up, I'm going to go ahead and click on manage VPS, and that's just going to take us to our dashboard."
+    ],
+    "cta": "\"Anyways, that's going to do it for today. Hope you guys enjoyed. If you learned something new, please give it a like. It definitely helps me out a ton. and I'll see you guys in the next\"",
+    "vocabulary": [
+      "Mac Mini",
+      "VPS",
+      "Cloudbot",
+      "Hostinger",
+      "terminal commands",
+      "annual plan",
+      "10% off"
+    ],
+    "analogies": "\"think of this less like an AI agent, but more like a VA that has access to your email and your files\"",
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollars": "$600",
+      "percentages": "10%",
+      "time_references": "24 months",
+      "named_tools": "Hostinger, Cloudbot"
+    },
+    "vulnerability": "\"NONE FOUND\"",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "discussing the setup process and commands to be run in the terminal"
+      ],
+      "slow": [
+        "explaining the security aspects of Cloudbot"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "num": 111,
+  "title": "n8n's NEW Native Data Tables Just Made Building Agents So Much Easier",
+  "date": "22/09/25",
+  "word_count": 3372,
+  "char_count": 17348,
+  "chunks": 1,
+  "extracted": {
+    "hook": "All right. So, we've got our sales data AI agent right here and it's hooked up to all of these tools so that it can query through our sales database.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, let's get into the video.",
+      "All right. So, if I ask it this first question, which is how many products were sold on September 15th this year, what it should be doing is going to this date query tool, and it should only pull back rows where date equals September 15th."
+    ],
+    "cta": "\"All you have to do for that is join my free school community. The link for that's down in the description, completely free.\"",
+    "vocabulary": [
+      "sales data AI agent",
+      "data tables",
+      "NADN",
+      "Google Sheets",
+      "AI automation"
+    ],
+    "analogies": "\"think of it like\"",
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [
+        "2025, 9,15"
+      ],
+      "named_tools": [
+        "NADN"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "when explaining the use cases of data tables"
+      ],
+      "slows": [
+        "during detailed explanations of steps and processes"
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": []
+  }
+}

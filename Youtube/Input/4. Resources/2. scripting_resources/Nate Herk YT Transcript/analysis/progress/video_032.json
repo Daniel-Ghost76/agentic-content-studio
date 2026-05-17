@@ -1,0 +1,94 @@
+{
+  "num": 32,
+  "title": "Claude Code + Paperclip Just Destroyed OpenClaw",
+  "date": "28/03/26",
+  "word_count": 5211,
+  "char_count": 27073,
+  "chunks": 2,
+  "extracted": {
+    "hook": "What you're looking at right here is my mission control center.",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the pain point and solution"
+      ],
+      "slows": [
+        "explaining the setup process in detail"
+      ]
+    },
+    "vulnerability": "\"I'm not going to come in here and automate everything and go fire all my employees. But what I did here is I can automate a portion of it\"",
+    "cta": "The link for that's in the description, and you can get that for completely free. But, if you enjoyed the video or you learned something new, please give it a like. It helps me out a ton.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So the tool that we're talking about today is called Paperclip.",
+      "But what I'm going to do is set up an entire new company from scratch with you guys, so you can see exactly what it would look like on your end, what you need to click, and what you need to know.",
+      "So now it says,",
+      "And here you go,",
+      "Now that is how it's set up on default, but you can change this if you want.",
+      "So let me show you guys something that I think is really really cool and there's a lot of potential with this.",
+      "Now the final thing I wanted to talk about was secrets or API keys."
+    ],
+    "vocabulary": [
+      "mission control center",
+      "agents",
+      "tasks",
+      "board",
+      "AI business",
+      "Cloud Code",
+      "Paperclip",
+      "QA agent",
+      "security agent",
+      "secrets",
+      "cybersecurity attacks",
+      "hires",
+      "agent companies",
+      "G stack",
+      "superpowers",
+      "agency agents",
+      "AI agency"
+    ],
+    "analogies": [
+      "\"it's basically waking up with fresh context and fresh memory\""
+    ],
+    "curiosity_gaps": [
+      "\"But one of the founders of this, Dota, he basically explained a pain point, which was every day he would have 20 different terminals running, 20 different Cloud Code sessions running. And I've definitely been there. I'm sure you guys have been there.\"",
+      "\"And that's where maybe if you wanted to start up a new idea, then you would start a company for that\"",
+      "\"But what I notice now is that we don't have anyone kind of assuring the quality\"",
+      "\"All right, so while this is running, let's talk about skills, because you saw that we could give each agent individual skills, and you also see that we have a company skills section.\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"you guys\""
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

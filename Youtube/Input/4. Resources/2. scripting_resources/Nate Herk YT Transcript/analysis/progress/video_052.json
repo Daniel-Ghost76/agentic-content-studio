@@ -1,0 +1,80 @@
+{
+  "num": 52,
+  "title": "The NEW Nano Banana 2 + Antigravity Destroys Every AI Image Tool",
+  "date": "27/02/26",
+  "word_count": 3633,
+  "char_count": 19146,
+  "chunks": 1,
+  "extracted": {
+    "hook": "So, Google's new image model, Nano Banana 2, just dropped, and it's cheaper, faster, and smarter than Nano Banana Pro. And those are all good things.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, in this video, I'm going to show you guys exactly what I mean by that, and give you everything you need for free to copy this system.",
+      "All right, let's just start off by looking at some examples and appreciating how good this model truly is.",
+      "Now, all of these examples that we just looked at are things that would have normally taken time, equipment, money, and even good luck.",
+      "And so, I'm going to talk about why is Nano Banana 2 actually better.",
+      "Here's a quick example.",
+      "But this image came back in about 10 seconds.",
+      "Now, here are two examples that I saw on Twitter that I thought were really, really good.",
+      "Now, before you guys run to the comments and say,",
+      "Okay, so as you can see, I said,",
+      "And then we had this one, which was vintage, which I don't honestly love."
+    ],
+    "cta": "\"if you love nerding out about this kind of stuff, then you should definitely check out my paid community. The link for that is also in the description.\"",
+    "vocabulary": [
+      "Nano Banana 2",
+      "anti-gravity",
+      "infographics",
+      "thumbnails",
+      "diagrams",
+      "misspellings",
+      "JSON prompting",
+      "prompting structure",
+      "API",
+      "Google AI Studio"
+    ],
+    "analogies": "\"it's so much smarter\"",
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollars": [],
+      "percentages": [],
+      "subscribers": [],
+      "times": [],
+      "tools": [
+        "Gemini",
+        "anti-gravity"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "\"So, in this video, I'm going to show you guys exactly what I mean by that, and give you everything you need for free to copy this system.\""
+      ],
+      "slow": [
+        "\"And those are all good things. So, I've been obsessing over it since it's come out, and I found a way to pair it with anti-gravity to make the outputs more consistent, better, and cheaper.\""
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\""
+    ],
+    "frameworks": []
+  }
+}

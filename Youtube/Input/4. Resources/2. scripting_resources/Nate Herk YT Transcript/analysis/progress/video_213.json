@@ -1,0 +1,81 @@
+{
+  "num": 213,
+  "title": "The Best RAG System On YouTube (Steal This!)",
+  "date": "07/12/24",
+  "word_count": 4018,
+  "char_count": 20381,
+  "chunks": 1,
+  "extracted": {
+    "hook": "all right guys super excited to share this new rag system with you today it uses a combination of n8n superbase and postgress for memory and it is the best one that I've shown yet on this channel so it's going to be watching a Google drive folder and then when you upload a file it's automatically going to figure out what type of file it is the respective logic is going to take place for that type of file it's going to put it into your vector database with relevant metadata like file ID the name when it was created when it was last modified stuff like that",
+    "hook_type": "Demonstration",
+    "credential_drop": "NOT FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "okay this is the workflow we're going to be getting into today",
+      "real quick we're just going to chat with this guy ask um what projects do we have in the database and this is basically going to say we have nothing so this is kind of just proving that there's nothing in there",
+      "let's walk through what just happened um okay so first thing we're do we're doing is just setting our file ID and our file type so it's easier to reference um for later",
+      "from there it goes down this path because it's a text file we can see that when we're doing a text file all we're going to do is extract from text PDF extract from PDF and then Excel we're doing some aggregation summarizing and then for word docs and sort of Windows docs we are um going to convert them so from there we are uploading that into our Vector database the only thing really that's fancy going on here is that we are um setting the metadata",
+      "so as you can see this output two items so we should have two vectors in our super base if we go into check here we can see they just popped up so we have project brief project wheel"
+    ],
+    "cta": "if you enjoy this type of content please consider giving it a like it really helps me out but without further Ado let's get into the video okay",
+    "vocabulary": [
+      "rag system",
+      "vector database",
+      "superbase",
+      "postgress",
+      "Google drive folder",
+      "file ID",
+      "metadata",
+      "workflow",
+      "Google doc",
+      "text file"
+    ],
+    "analogies": [],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [],
+      "percentages": [],
+      "subscriber_counts": [],
+      "time_references": [
+        "07/12/24"
+      ],
+      "named_tools": [
+        "n8n",
+        "superbase",
+        "postgress"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "when explaining the workflow and its components"
+      ],
+      "slow": [
+        "during detailed explanations of specific nodes or processes"
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": []
+  }
+}

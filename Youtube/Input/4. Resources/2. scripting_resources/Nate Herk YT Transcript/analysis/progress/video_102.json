@@ -1,0 +1,89 @@
+{
+  "num": 102,
+  "title": "Build Your First RAG Pipeline for Better RAG (step-by-step)",
+  "date": "18/10/25",
+  "word_count": 3856,
+  "char_count": 19745,
+  "chunks": 1,
+  "extracted": {
+    "hook": "Today we're going to be talking about rag pipelines and the importance of keeping your database up to date.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NOT FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "All right, real quick before we hop into Nen",
+      "So, now that we got all of that boring stuff out of the way",
+      "Real quick before we build that next pipeline",
+      "Okay, so set that up real quick",
+      "And now the last thing we need to do is what happens if we actually just delete that file or we want to delete it"
+    ],
+    "cta": "\"As always though, you'll be able to download this exact workflow. I'll also have like sticky notes and a setup guide and stuff. All you have to do to get that for free is join my free school community\"",
+    "vocabulary": [
+      "rag",
+      "vector database",
+      "Google Drive",
+      "Superbase",
+      "PDF",
+      "metadata",
+      "embedding",
+      "OpenAI"
+    ],
+    "analogies": "\"So, a great example today is we're just going to be building a flow to handle PDFs. But later on, if we knew, okay, we might also need Word Docs and Excel files and stuff like that\"",
+    "curiosity_gaps": [
+      "\"I'm just going to build a really, really quick AI agent so we can validate that it is able to read this document\"",
+      "\"And then we're going to add an embedding. So, I'm going to choose OpenAI. I've already got this all set up\"",
+      "\"So, the next step is we now need to create a flow that when we update this file, it will also update in our subase factor database\"",
+      "\"So, what we do is we're going to go file created, but we're going to choose a different folder. We're going to choose a new one that we made called the recycling bin\""
+    ],
+    "specificity": {
+      "dollars": "NOT FOUND",
+      "percentages": "NOT FOUND",
+      "subscriber_counts": "200 members",
+      "time_references": [
+        "\"18/10/25\"",
+        "\"1 to 2 business days\"",
+        "\"3 to seven business days\""
+      ],
+      "named_tools": [
+        "Google Drive",
+        "Superbase",
+        "OpenAI"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "\"So, a great example today is we're just going to be building a flow to handle PDFs\"",
+        "\"And now the last thing we need to do is what happens if we actually just delete that file or we want to delete it\""
+      ],
+      "slows": [
+        "\"The idea of setting up a knowledge base that all of your agents can pull from is that the knowledge in there is accurate and up-to-date\"",
+        "\"So, I'm going to do a few slides about why data pipelines matter for the success of your AI agents\""
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\"",
+      "\"we're going to build out a data pipeline\"",
+      "\"All right, real quick before we hop into Nen\"",
+      "\"So I'm just going to do some camel case there\""
+    ],
+    "frameworks": [
+      "\"The idea of setting up a knowledge base that all of your agents can pull from is that the knowledge in there is accurate and up-to-date\"",
+      "\"So, a great example today is we're just going to be building a flow to handle PDFs\"",
+      "\"But later on, if we knew, okay, we might also need Word Docs and Excel files and stuff like that\""
+    ]
+  }
+}

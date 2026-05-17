@@ -1,0 +1,101 @@
+{
+  "num": 197,
+  "title": "I Built the Ultimate Team of AI Agents in n8n With No Code (Free Template)",
+  "date": "03/02/25",
+  "word_count": 5918,
+  "char_count": 30336,
+  "chunks": 2,
+  "extracted": {
+    "hook": "hey guys so what we're going to be looking at today is the ultimate personal assistant and I'm super excited to share this build with you guys as you can see the ultimate assistant has access to these four agents that we built out within nadn",
+    "hook_type": "Demonstration",
+    "credential_drop": "NOT FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "so right now telegram just sent over that audio file it's getting transcribed now",
+        "here we go in our caler invite you can see that Nate herkelman got added as a guest"
+      ],
+      "slows": [
+        "so the ultimate assistant framework is that as you can see this prompt is not very long or not very complex and similarly with all the other agents the prompts are not very long and not very complex so this is really cool because every agent sort of specializes in something rather than loading up one agent with a ton of tools and a huge prompt"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "\"thanks guys so much for watching if you enjoy this one if you liked it then please drop me a like definitely helps me out a lot and let me know in the comments what else you want to see but as always appreciate you guys making it to the end of this one i'll see you guys in the next video thanks\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "so right now telegram just sent over that audio file it's getting transcribed now",
+      "here we go in our caler invite you can see that Nate herkelman got added as a guest",
+      "let's quickly refresh our Gmail",
+      "here we go the blog about deep seek has been created and included in a draft email for Nate herkelman",
+      "there we go hitting the calendar agent right now it's getting availability as you can see we only have three meetings today so this is what we should get pulled back um as our sort of unavailable slots",
+      "so this is me signing off",
+      "that's going to be it for this one",
+      "thanks guys so much for watching if you enjoy this one if you liked it then please drop me a like definitely helps me out a lot and let me know in the comments what else you want to see but as always appreciate you guys making it to the end of this one i'll see you guys in the next video thanks"
+    ],
+    "vocabulary": [
+      "ultimate assistant",
+      "agents",
+      "n8n",
+      "telegram",
+      "Nate Herman",
+      "GPT 40",
+      "Claude 3.5 Sonet",
+      "web search functionality",
+      "ultimate team",
+      "AI agents",
+      "n8n",
+      "free template",
+      "from AI function",
+      "prompt",
+      "node",
+      "workflow",
+      "email agent",
+      "personal assistant"
+    ],
+    "analogies": [
+      "\"it's going to be aware of what we're talking about when we say can you push that back an hour as you can see it just hit the contact agent now it's hitting calendar and email agent so we're going to watch right here as the team sync gets bumped back an hour\"",
+      "\"so in this case if you're looking to send emails draft emails or create calendar events with attendees you need to get contact information first and then you use the email agent to send the email and you'll pass the tool a query like send Nate herman an email to ask what time he wants to leave\"",
+      "\"think of it like\""
+    ],
+    "curiosity_gaps": [
+      "\"I'm going to show you guys how you can download this workflow for completely free and then plug it into your nadn and get started\"",
+      "\"here we have our caler invite you can see that Nate herkelman got added as a guest\"",
+      "\"let's take a look at the draft real quick\"",
+      "I'll come back to this",
+      "stay till the end",
+      "here's where it gets interesting"
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\"",
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

@@ -1,0 +1,24 @@
+Create a 3-second cinematic HUD transition using 02-good-bad-ugly.png as the starting image and 03-day-one.png as the final image.
+
+The first frame must match 02-good-bad-ugly.png: three frosted-glass HUD cards reading GOOD, BAD, UGLY on the soft dark teal background with blurred UI depth and visible dotted texture.
+
+The final frame must match 03-day-one.png: the soft DAY 1 visual, same teal HUD style, calm background, visible dotted texture, and clean centered DAY 1 composition.
+
+Animation:
+
+Start with the GOOD, BAD, and UGLY cards already on screen. Do not start from a blank background.
+
+During the first second, the three cards begin to move apart and recede slightly in 3D space, like glass HUD cards being cleared from the interface. GOOD drifts left and slightly backward, UGLY drifts right and slightly backward, and BAD drops very slightly downward while fading. Keep the movement smooth and premium, not dramatic.
+
+As the cards move away, their colored accents dim and their text fades. The cards should not explode, glitch, shatter, or spin. They should feel like interface layers sliding out of the way.
+
+Around the middle of the clip, a soft teal haze passes across the screen and the background stays consistent. The DAY 1 panel begins to emerge from depth, slightly blurred at first, moving gently into the center with a small push-in. The dotted HUD texture becomes clearer as it settles.
+
+By the final second, the DAY 1 visual is fully formed. The DAY 1 text resolves cleanly, the muted teal border glow settles, and the whole frame eases into the final composition with a very subtle glow pulse.
+
+Style:
+Soft premium AI-tech HUD, low-to-medium contrast, frosted glass, muted teal glow, visible dotted texture, cinematic blur, smooth parallax. Keep the same visual world throughout the transition.
+
+Do not add extra text, logos, humans, real objects, floor, horizon, reflections, explosions, glitches, harsh neon, or bright white blowout.
+
+Duration: 3 seconds. Aspect ratio: 16:9.

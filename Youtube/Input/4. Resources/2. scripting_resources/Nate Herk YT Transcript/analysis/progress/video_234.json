@@ -1,0 +1,102 @@
+{
+  "num": 234,
+  "title": "I Built a Personal Assistant AI Agent with No Code in n8n",
+  "date": "12/10/24",
+  "word_count": 5764,
+  "char_count": 29066,
+  "chunks": 2,
+  "extracted": {
+    "hook": "I'm super excited to share this AI agent build with you guys today I definitely think that it's going to change the way that I do my business especially anything personal Administration related",
+    "hook_type": "Curiosity-Gap",
+    "credential_drop": "NOT FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "pace_accelerates": [
+        "so this is the build right here as you can tell the way that we're interacting with our agent is through telegram so I can pull that up on my phone or on my desktop and all I have to do is ask it to do something for me it's going to run through through this logic and then it's going to Output either a result to me or it's going to tell me that hey I went in the back end and I did that for you you know updated the database or set a calendar event whatever it may be so I'm going to walk through exactly what's going on in each step and we'll jump into each of these sub tools"
+      ],
+      "pace_slows": [
+        "so this first node is an open AI node and as you can see the first thing that we wanted to do was give it a prompt so I said your job is to identify what date the user is asking for based on the Json query and what the current date is so I gave it the current date of now this is a JavaScript script code it just says you know dollar sign now and that Returns the date time of what is right now current so that's all that's happening right there and then I gave it two examples the first one is if the query asks for today you would return today's date and if the query asks for yesterday you would return the day before yesterday and sometimes you just have to outline that um it might seem self-explanatory but open AI doesn't always know that you know yesterday was the day before or two days ago was going to be today's date minus two so giving it examples in ensures that it's as consistent as possible"
+      ]
+    },
+    "vulnerability": "\"sometimes you just have to outline that\"",
+    "cta": "\"I hope all that makes sense and I hope that it was useful for you guys to see actual data moving through each of these steps so that's really about it for this video\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "so this is the build right here",
+      "now let's look at what's actually taking place within this agent workflow",
+      "since the demo we just did was forget emails we might as well hop into this one first",
+      "what I think makes the most sense when I'm showing you guys each of these little workflows is actually seeing live data move through",
+      "now let's hop into the execution of that workflow in order to see the data passing through all",
+      "so now we're going to do the send email workflow which is right here",
+      "now let's go into the actual execution of what just took place and look at the data moving through there too",
+      "okay so now we're in the workflow of the tool that gets calendar events and then spits them back out in a nice in a nice short summary",
+      "The Next Step here is taking this information into a calendar node",
+      "now we can see it output sort of some information for us",
+      "but at this point this note is done so we can move on to the last step which is just informing the agent that we did the task once again we do this with an edit Fields set node and this time we added a field called response and we put the response value to done so that the agent knows that we're done",
+      "let's hop into the actual execution of what we just asked telegram to do all right thank goodness for another four node workflow they're super simple and really it's just two nodes because the set and the trigger don't really count but as you can see it's another trigger and it's saying update the AI tool project status to complete and notes to complete so it split that up into two different things which was awesome because it knows that it wants to change the status and the notes not just one or the other",
+      "let's hop into um this database real quick so we can give a look at what's going on and then we will ask it to please um summarize our database"
+    ],
+    "vocabulary": [
+      "personal assistant",
+      "telegram",
+      "node",
+      "workflow",
+      "GPT",
+      "Pine Cone",
+      "embedding",
+      "database",
+      "calendar event",
+      "summary",
+      "node",
+      "workflow",
+      "calendar",
+      "event",
+      "Google Sheets",
+      "database",
+      "project",
+      "status",
+      "notes",
+      "AI"
+    ],
+    "analogies": [
+      "\"think of it like\"",
+      "\"it's basically just all the summaries of all of the projects that the openi node gave us\""
+    ],
+    "curiosity_gaps": [
+      "I'll come back to this",
+      "stay till the end",
+      "here's where it gets interesting",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"you guys\""
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

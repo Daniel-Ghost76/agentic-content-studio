@@ -1,0 +1,83 @@
+{
+  "num": 145,
+  "title": "This AI System Posts Viral ASMR Shorts Hourly (free template)",
+  "date": "22/06/25",
+  "word_count": 4412,
+  "char_count": 22389,
+  "chunks": 2,
+  "extracted": {
+    "hook": "Okay, so these types of shorts have been going viral all over social media, and they are completely generated with AI.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "discussing the workflow steps and API usage"
+      ],
+      "slow": [
+        "explaining the idea generation process"
+      ]
+    },
+    "vulnerability": "\"I'm going to break down how this works and show you guys how to set it up for yourselves\"",
+    "cta": "If you did, please give it a like. It definitely helps me out a ton.",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"I hope you guys enjoyed the video\"",
+      "\"It definitely helps me out a ton\"",
+      "\"And I will see you guys all in the next one\""
+    ],
+    "transitions": [
+      "So, right here, I've got it set up for YouTube, Tik Tok, and Instagram.",
+      "All right. So, I'm just going to go ahead and hit execute workflow.",
+      "And now we're moving on to a third part where it's going to update our sheet and then post to socials.",
+      "NOT FOUND"
+    ],
+    "vocabulary": [
+      "ASMR",
+      "generate",
+      "video",
+      "prompt",
+      "Google V3",
+      "API",
+      "workflow",
+      "automation",
+      "socials",
+      "post",
+      "step-by-step",
+      "builds",
+      "YouTube",
+      "live",
+      "enjoyed the video",
+      "helps me out a ton",
+      "next one"
+    ],
+    "analogies": [
+      "\"it's the exact same video. It just now exists on Blot servers\""
+    ],
+    "curiosity_gaps": [
+      "\"I'm going to break down how this works and show you guys how to set it up for yourselves.\"",
+      "\"So, right here, I've got it set up for YouTube, Tik Tok, and Instagram. So, we're going to hop into a live demo\"",
+      "\"And so today, not only am I going to give you the prompts that I've used to get thousands of views on this type of short form content, but I'm also going to give you this exact system so that you can plug it in and set it and forget it\"",
+      "\"So, at a high level, what happens is we pull in the past seven objects that we've used in the videos. The idea agent will look at the past seven and give us another idea that hasn't been used yet\"",
+      "\"And here's one of the first outputs I tested. I threw it up on YouTube and Instagram, and it ended up getting like 35,000 views in one day\"",
+      "\"So, the cool thing about this workflow is you can literally set the trigger to go off however many times you want it to per day.\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\"",
+      "\"It definitely helps me out a ton\"",
+      "\"And I will see you guys all in the next one\""
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "num": 20,
+  "title": "Claude Just Told Us to Stop Using Their Best Model",
+  "date": "09/04/26",
+  "word_count": 3552,
+  "char_count": 18932,
+  "chunks": 1,
+  "extracted": {
+    "hook": "So, Enthropic just gave us the adviser strategy. This lets you pair Opus as an adviser with a cheaper model like Sonnet or Haiku as the executor.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, let's get on to the fun stuff.",
+      "Okay, we're going to try another one.",
+      "Okay, pretty much same response."
+    ],
+    "cta": "The question now is how do you do something like this? How do you take this strategy and use it in cloud code to make sure you're not hitting your session?",
+    "vocabulary": [
+      "advisor",
+      "strategic advisor",
+      "cloud code",
+      "messages API",
+      "token",
+      "cost per agentic task"
+    ],
+    "analogies": [
+      "\"it's basically a way of saying that the adviser strategy is like having a cheaper model handle the easy work and calling in the expert only when it matters. Same quality on hard problems, a fraction of the cost overall.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollar_amounts": [
+        "$5 per million input and $25 per million output",
+        "$3 for input, $15 for output",
+        "$1 for input, $5 for output",
+        "2.7 percentage point increase on the SWE bench",
+        "almost 12% reduction in cost per agentic task"
+      ],
+      "percentages": [
+        "2.7 percentage point increase",
+        "almost 12% reduction"
+      ],
+      "time_references": [],
+      "named_tools": [
+        "messages API",
+        "cloud code",
+        "agent SDK",
+        "managed agents"
+      ]
+    },
+    "vulnerability": "\"I apologize\"",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "pace_accelerates": [
+        "So, let's not waste any time and get straight into the video."
+      ],
+      "pace_slows": [
+        "The first thing I want to talk about is the difference between the messages API and claude code because the actual advisor strategy function is something that only exists in the messages API."
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": [
+      "\"So, there's a few things that I wanted to show you guys before we jump into it.\""
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "num": 205,
+  "title": "How I'd Teach a 10 Year Old to Build AI Agents (No Code, n8n)",
+  "date": "17/01/25",
+  "word_count": 4506,
+  "char_count": 22362,
+  "chunks": 2,
+  "extracted": {
+    "hook": "today I'm going to be walking through the simplest way to understand what an AI agent is the different components how they actually take action and do things and then I'm going to show you guys how to build a super simple one in minutes",
+    "hook_type": "Demonstration",
+    "credential_drop": "NOT FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "\"so as you can see we have the input right here which is um on chat message received\"",
+        "\"now that we have memory connected I'm going to say hi my name is Nate and it will say Hello nice to meet you Nate\"",
+        "\"and then for two we're going to come in here and make this an expression this basically just means um rather than putting in a fixed email that would every single time this tool ran it would go to that email we want this to be dynamic so we're going to click on expression\""
+      ],
+      "slow": [
+        "\"so as you can see right here we're looking at an AI agent sort of diagram with the different aspects\"",
+        "\"then we also have instructions so instructions within an AI agent basically just to fine this is your role this is what you should be doing this is how you act these are the tools you have this is how you take action it's just it's commonly known known as a system prompt within a AI agent or a system message um not to be confused by user messages which is more of the actual input going in\"",
+        "\"so we're going to chat with our agent in the naden environment so that's the user message coming through to the agent the agent uses the user message um along with its system message to understand um what do I need to do here\""
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "let me know in the comments what else you guys want to see and I really appreciate you guys making it see on this video so I'll see you guys in the next one",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys definitely helps me out\"",
+      "\"let me know in the comments what else you guys want to see\"",
+      "\"I really appreciate you guys making it see on this video\""
+    ],
+    "transitions": [
+      "so once we get into NN and we're looking at the agent I'll break this down it'll make a little more sense",
+      "finally of course it outputs something to us",
+      "now if we go over here this is pretty much the agent we're going to be building today",
+      "now that we see that the brain is working let's try to add some memory first",
+      "now we need to add the tool and then after we add the tool we can configure the system message"
+    ],
+    "vocabulary": [
+      "AI agent",
+      "system prompt",
+      "memory",
+      "tool options",
+      "large language model",
+      "chat model",
+      "session ID",
+      "API key",
+      "credential",
+      "Google credentials",
+      "really cool stuff",
+      "basics",
+      "enjoyed",
+      "comments"
+    ],
+    "analogies": [
+      "\"so in the blue here we're looking at the actual AI agent and you can just think of this as kind of an entity a human um an employee anything that you can pretty much talk to\"",
+      "\"the user message is the actual input this is how we're talking to the agent\"",
+      "\"and then when you start to introduce tools this is where the magic really happens because now the large language model has the ability to actually take action\"",
+      "\"so as far as this section of this little diagram input AI agent with a large language model memory system prompt and then outputting something this is like just kind of like a chat gbt thing that you would do um on your laptop or whatever and you're talking to it that's chat PT but then when you start to introduce tools this is where the magic really happens\"",
+      "\"so as far as this section of this little diagram input AI agent with a large language model memory system prompt and then outputting something this is like just kind of like a chat gbt thing that you would do um on your laptop or whatever and you're talking to it that's chat PT but then when you start to introduce tools this is where the magic really happens\"",
+      "\"so as far as this section of this little diagram input AI agent with a large language model memory system prompt and then outputting something this is like just kind of like a chat gbt thing that you would do um on your laptop or whatever and you're talking to it that's chat PT but then when you start to introduce tools this is where the magic really happens\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"if you've been with me\"",
+      "\"you guys\"",
+      "\"what else you guys want to see\"",
+      "\"I really appreciate you guys making it see on this video\""
+    ],
+    "frameworks": [
+      "\"today I'm going to be walking through the simplest way to understand what an AI agent is the different components how they actually take action and do things and then I'm going to show you guys how to build a super simple one in minutes\"",
+      "\"so as far as this section of this little diagram input AI agent with a large language model memory system prompt and then outputting something\""
+    ]
+  }
+}

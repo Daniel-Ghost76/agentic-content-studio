@@ -1,0 +1,93 @@
+{
+  "num": 191,
+  "title": "I Built a Human in the Loop Calendar Agent in n8n with No Code",
+  "date": "19/02/25",
+  "word_count": 5168,
+  "char_count": 26883,
+  "chunks": 2,
+  "extracted": {
+    "hook": "what we'll be looking at today is a human in- thee Loop calendar agent this thing is super intelligent it's going to make sure you don't have any conflicting events it's going to make sure you're scheduling events at the right time with the right attendees and it's not going to do anything until you personally say okay I'm good to go with that",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerates": [
+        "when explaining the workflow process"
+      ],
+      "slows": [
+        "during detailed explanations of nodes and tools"
+      ]
+    },
+    "vulnerability": "\"NONE FOUND\"",
+    "cta": "\"as always really appreciate you guys making it to the end of this one if you enjoyed this video if you learn something new please give it a like definitely helps me out a ton and I will see you guys in the next video thanks everyone\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "so now we're able to click on respond and it's going to open up this page where we can leave feedback",
+      "now that I've said yes we go back into this workflow",
+      "let's get into each node and see what's going on here",
+      "so we'll send this off",
+      "now we can see that that got denied so it went to the correction agent and um before we we respond to the agent let's just go in here real quick",
+      "cool so the first first thing I want to do is hop into the set intent node",
+      "let me hit you with this one's not as long all we said was you know the overview is you're a correction agent your job is to look at original output and then correct it based on the human feedback"
+    ],
+    "vocabulary": [
+      "human in- thee Loop",
+      "intent agent",
+      "correction agent",
+      "calendar agent",
+      "telegram trigger",
+      "get events",
+      "air table tool",
+      "contact database",
+      "human in the loop",
+      "workflow",
+      "telegram",
+      "intent agent",
+      "correction agent",
+      "contact database"
+    ],
+    "analogies": [
+      "\"think of it like\"",
+      "\"it's basically X but Y\""
+    ],
+    "curiosity_gaps": [
+      "I'll come back to this",
+      "stay till the end",
+      "here's where it gets interesting",
+      "\"I'll come back to this\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"the best way to break this down I think is going to be we're going to send through an example that's going to be a very simple one creating an event\"",
+      "\"let's take a look at the tools the first one is a get events tool so all that's happening in here is we're doing a get many operation looking for events within our Google Calendar\"",
+      "\"the first time it ran the original message that we got in telegram which was saying hey which email address do we use once we responded it came through and took our feedback and then it said hey okay we understand we want to use the personal email address so same exact thing with the telegram human in the loop node\""
+    ]
+  }
+}

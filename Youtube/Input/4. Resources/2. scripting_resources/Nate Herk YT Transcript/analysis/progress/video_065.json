@@ -1,0 +1,99 @@
+{
+  "num": 65,
+  "title": "I Turned Clawdbot Into the Ultimate Personal Assistant",
+  "date": "30/01/26",
+  "word_count": 6694,
+  "char_count": 34564,
+  "chunks": 2,
+  "extracted": {
+    "hook": "Last night, I was laying in bed and I texted Klouse to build me a YouTube dashboard.",
+    "hook_type": "Personal-Moment",
+    "credential_drop": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "So, the reason that I'm actually so excited by this and I've been having so much fun with it is because it's like the end ultimate assistant except for it is 15 times more powerful."
+      ],
+      "slow": [
+        "And then when I woke up and I opened up my computer, I had this.",
+        "So hopping back into my Cloud dashboard, if I now go to the log, I can see everything that he does."
+      ]
+    },
+    "vulnerability": "\"I'm still impressed that it built this while I was sleeping. Super cool.\"",
+    "cta": "\"if you guys enjoyed or you learned something new, please give it a like. It definitely helps me out a ton\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, the first thing, of course, you want to do is set up Cloudbot.",
+      "And then, like I said, prompt the AI to ask you questions and be proactive about it.",
+      "So ask your AI, \"What currently takes me 20 plus minutes that you could turn into a two-minute review?\"",
+      "And then we got to the point where I was like okay I want to build a dashboard and I know that a lot of you guys in the last video I showed the dashboard asked about how I built it",
+      "So, this is a really nice segue into the hacks that I wanted to talk about because as I have been obviously playing around with Cloudbot for days now, I've learned a lot of things about the way you can communicate with it to actually make it do what you want to do"
+    ],
+    "vocabulary": [
+      "Clawdbot",
+      "YouTube dashboard",
+      "Cloud dashboard",
+      "speclist",
+      "backlog",
+      "daily pull stuff",
+      "sub agent",
+      "inrogress task",
+      "heartbeat functionalities",
+      "SWAT analysis",
+      "Cloudbot",
+      "dashboard",
+      "automation",
+      "proactivity",
+      "memory",
+      "subagents"
+    ],
+    "analogies": [
+      "\"it's like the end ultimate assistant except for it is 15 times more powerful\"",
+      "\"it's not super intuitive\"",
+      "\"like I said, that's something that's really frustrating\"",
+      "\"the tough part can be actually getting it to remember to do things specifically like updating the Camban board or logging things\""
+    ],
+    "curiosity_gaps": [
+      "\"I'm still impressed that it built this while I was sleeping. Super cool.\"",
+      "\"All right, so before we actually break down exactly what I've done and how you can replicate this, let's just go over a few more features in this dashboard so you can get a feeling of what I've actually built here with Klouse.\"",
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": [
+      "\"The first thing, of course, you want to do is set up Cloudbot.\"",
+      "\"So the first one right here is plan first. This one is so important\"",
+      "\"The next thing is discipline. So, it's going to make a ton of mistakes\"",
+      "\"And then the fifth one was about memory. So all of these hacks kind of, you know, flow into memory\""
+    ]
+  }
+}

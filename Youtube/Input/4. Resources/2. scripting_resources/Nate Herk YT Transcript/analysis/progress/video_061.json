@@ -1,0 +1,83 @@
+{
+  "num": 61,
+  "title": "Turn Any Website Into LLM Ready Data INSTANTLY",
+  "date": "11/02/26",
+  "word_count": 2964,
+  "char_count": 15049,
+  "chunks": 1,
+  "extracted": {
+    "hook": "Today I'm going to show you guys how you can take any website and turn it into LLM ready data in seconds.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So within Firecrawl, there's a lot of different things that we can do.",
+      "Now, the thing about this is there are a lot of different endpoints to hit if you were doing this through traditional like API calls.",
+      "So I'm going to go to Upai and I'm going to copy this URL. paste that in here and I'm going to run a scrape.",
+      "And now we can see API key."
+    ],
+    "cta": "\"if you enjoyed the video or you learned something new, please give it a like\"",
+    "vocabulary": [
+      "LLM",
+      "scraper",
+      "cloud code",
+      "firecrawl",
+      "mcp server"
+    ],
+    "analogies": [
+      "\"So just to start off with a quick example, I'm going to use Firecrawl in the playground which is just on the web on firecrawl.dev\"",
+      "\"And now it's trying out the firewall agent. So just super cool the way that it's able to, you know, run into an issue and then fix it.\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": {
+      "dollars": [],
+      "percentages": [
+        "10%"
+      ],
+      "subscribers": [
+        3000
+      ],
+      "time_references": [
+        "11/02/26"
+      ],
+      "named_tools": [
+        "Firecrawl",
+        "VS Code"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "script_type": "TIGHT",
+    "energy_notes": {
+      "accelerate": [
+        "\"Today I'm going to show you guys how you can take any website and turn it into LLM ready data in seconds\"",
+        "\"So, the thing about this is there are a lot of different endpoints to hit if you were doing this through traditional like API calls.\""
+      ],
+      "slow": [
+        "\"And now we can see all of this data. So, that just finished up. We can see first of all, we have markdown\"",
+        "\"So, the next thing I want to do is give our project a little bit more context as to what it's actually doing in here.\""
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"if you've been with me\""
+    ],
+    "frameworks": []
+  }
+}

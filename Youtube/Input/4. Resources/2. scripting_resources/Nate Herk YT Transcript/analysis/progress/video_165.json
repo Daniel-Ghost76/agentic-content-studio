@@ -1,0 +1,79 @@
+{
+  "num": 165,
+  "title": "This AI Agent Picks Its Own Brain (10x Cheaper, n8n)",
+  "date": "30/04/25",
+  "word_count": 3530,
+  "char_count": 18277,
+  "chunks": 1,
+  "extracted": {
+    "hook": "If you've ever wondered which AI model to use for your agents and you're tired of wasting credits or overpaying for basic tasks, then this video is for you because today I'm going to be showing you a system where the AI agent picks its brain dynamically based on the task.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "So, the first things first,",
+      "Cool. So let's first take a look at the model selector.",
+      "And of course, we can see the tokens, the cost, and the breakdown of different models we've used."
+    ],
+    "cta": "\"All you have to do is go to YouTube resources or search for the title of this video and when you click on the post associated with this video, you'll have the JSON which is the end workflow to download as well as you'll see this Google sheet template somewhere in that post so that you can just basically copy it over and then you can plug everything into your environment.\"",
+    "vocabulary": [
+      "slack",
+      "dynamic agent",
+      "model selector",
+      "Open Router",
+      "Tavly",
+      "Google Gemini's 2.0 Flash",
+      "Claude 3.7 sonnet",
+      "GPT 4.1 Mini",
+      "research",
+      "web research"
+    ],
+    "analogies": [
+      "\"So, if you're trying to get it set up in Slack, um it can be a little bit frustrating, but I have a video right up here where I walk through exactly how to do that.\""
+    ],
+    "curiosity_gaps": [
+      "\"And then of course the actual dynamic brain part. We looked at this a little bit, but basically all I did is I pulled in the output of the previous agent, the model selector agent. And then, like I said, we had to just trim up the end because if you just drag this in and Open Router was trying to reference a model that had a new line character after it, it would basically just fail and say this model isn't available.\"",
+      "\"And of course, we can see the tokens, the cost, and the breakdown of different models we've used. From there, we're feeding the output into a Google sheet template, which by the way, you can download this workflow as well as these other ones down here that we'll look at in a sec.\""
+    ],
+    "specificity": [
+      "\"300 plus models\"",
+      "\"Gemini 2.0 Flash\"",
+      "\"Claude 3.7 sonnet\"",
+      "\"GPT 4.1 Mini\"",
+      "\"Open Router\"",
+      "\"Tavly\"",
+      "\"Google Gemini's 2.0 Flash\"",
+      "\"Claude 3.7 sonnet\"",
+      "\"GPT 4.1 Mini\"",
+      "April 17th",
+      "30th"
+    ],
+    "vulnerability": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "When explaining the model selection process and dynamic brain part."
+      ],
+      "slow": [
+        "During detailed explanations of each step in the workflow setup."
+      ]
+    },
+    "audience_language": "\"you guys\"",
+    "frameworks": [
+      "\"So, the first things first, we're talking to it in Slack and we're getting a response back in Slack.\"",
+      "\"And then in the system message here, this is where we actually can configure the different models that the AI agent has access to. So I said, 'You're an agent responsible for selecting the most suitable large language model to handle a given user request. Choose only one model from the list below based strictly on each model's strengths.'\"",
+      "\"So in this one, we're giving it the same user message as the previous agent where we're just basically coming to our Slack trigger and we're dragging in the text from Slack.\"",
+      "\"And then of course the actual dynamic brain part. We looked at this a little bit, but basically all I did is I pulled in the output of the previous agent, the model selector agent.\""
+    ]
+  }
+}

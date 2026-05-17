@@ -1,0 +1,87 @@
+{
+  "num": 185,
+  "title": "Store All Data Types with Agentic RAG in n8n",
+  "date": "08/03/25",
+  "word_count": 4644,
+  "char_count": 23554,
+  "chunks": 2,
+  "extracted": {
+    "hook": "today I want to talk about a gentic rag the conversation around rag seems to be shifting so fast with you know different models releasing larger context Windows where does the future of rag really lie we've heard KAG we've heard graph rag we've also heard atic rag so just wanted to come in here and break it down and make sure you stick around to the end of this one because I'm going to be hopping into end at end and looking at a super cool template for agentic rag",
+    "hook_type": "Curiosity-Gap",
+    "credential_drop": "NOT FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "when explaining the process of rag and vector databases"
+      ],
+      "slows": [
+        "during detailed explanations of the template setup"
+      ]
+    },
+    "vulnerability": "\"it's going to be a lot more efficient it's going to be a lot more relevant and we need to understand why\"",
+    "cta": "\"thanks guys I really appreciate you making it to the end of this video if this was helpful if you learned something new then definitely hit that like button let me know what else you guys want to see it definitely helps me out\"",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\"",
+      "\"you guys\"",
+      "\"here's what's really cool\"",
+      "\"let me hit you with\"",
+      "\"what's really cool\"",
+      "\"literally insane\""
+    ],
+    "transitions": [
+      "so before we start talking about agentic rag real quick just got to understand what rag is",
+      "now when it comes to a gentic rag there's just a little more reasoning involved and it's maybe not always just a one shot process",
+      "let's look at these other visualizations why does this actually matter at this point",
+      "so if we click in here in the logs",
+      "um and it's hard to make the AI do that without like an actual error over here but as you can see that's the way it was able to like look through projects grab those IDs and then get everything back so that's going to be it for this one",
+      "like I said super super cool template he even has a full rag pipeline down here that handles PDFs text or any tabular data and it will create those rows and it will aggregate it and still push it in um so super super cool template here"
+    ],
+    "vocabulary": [
+      "rag",
+      "vector database",
+      "embedding",
+      "llm",
+      "chunking",
+      "sales data",
+      "SQL query",
+      "superbase",
+      "automation",
+      "implementation proposal",
+      "projects",
+      "IDs",
+      "document",
+      "pipeline",
+      "tabular data"
+    ],
+    "analogies": [
+      "\"think of it like let's say someone asks you a question like what's the capital of Illinois and you don't know you'll take that query that they asked you you'll do something like you'll Google it look at the results and then you'll answer them\"",
+      "\"it's basically just the process of you know giving your agent access to some sort of database in order to retrieve information based on the query that you ask it it's going to get back that context augment it with the original query and then generate an answer that is detailed and specific to what you asked\"",
+      "\"\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "\"\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\"",
+      "\"you guys\""
+    ],
+    "frameworks": [
+      "\"\""
+    ]
+  }
+}

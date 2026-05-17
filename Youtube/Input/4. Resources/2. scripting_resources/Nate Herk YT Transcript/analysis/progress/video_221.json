@@ -1,0 +1,63 @@
+{
+  "num": 221,
+  "title": "Step by Step: Scrape UNLIMITED Emails for FREE with n8n",
+  "date": "15/11/24",
+  "word_count": 6022,
+  "char_count": 29763,
+  "chunks": 2,
+  "extracted": {
+    "hook": "all right what we have here is a trigger workflow that's going to take all 97 of these search queries which are looking for sub regions in California and looking for dentists and it's going to run them through this workflow which is going in and scraping them in Google getting their emails and then putting it into a Google sheet for us",
+    "hook_type": "Demonstration",
+    "credential_drop": "NONE FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "let's let this finish up and I will just sort of speed this up so you guys can see that it's actually happening um in this workflow"
+      ],
+      "slows": [
+        "all right what we have here is a trigger workflow that's going to take all 97 of these search queries which are looking for sub regions in California and looking for dentists and it's going to run them through this workflow which is going in and scraping them in Google getting their emails and then putting it into a Google sheet for us so let's test out this workflow and we can see it take place"
+      ]
+    },
+    "vulnerability": "NONE FOUND",
+    "cta": "NOT FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "I will also pull up the Google sheet that it is populating this information into and we can see this happen in real time",
+      "all right just checking back in",
+      "now to actually build this workflow flow we need to understand a few things",
+      "so now we will hop into Ann here is a new workflow I created for the purpose of building out this workflow and then we'll also build out that trigger workflow as well"
+    ],
+    "vocabulary": [
+      "queries",
+      "sub regions",
+      "Google Maps",
+      "emails",
+      "Google sheet"
+    ],
+    "analogies": [
+      "\"it's going to keep going and it's going to keep scraping emails\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\""
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "num": 184,
+  "title": "How I Automated Faceless Shorts with AI in n8n (free template)",
+  "date": "12/03/25",
+  "word_count": 8590,
+  "char_count": 42945,
+  "chunks": 2,
+  "extracted": {
+    "hook": "today I'm really excited to share this end workflow that I built with you guys that's going to help you generate and publish faceless AI shorts on autopilot once you have this thing up and running you can generate as many shorts as you want per day so you're basically going to be able to grow a YouTube channel while you sleep",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NOT FOUND",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerate": [
+        "discussing the workflow process"
+      ],
+      "slow": [
+        "explaining each node in detail"
+      ]
+    },
+    "vulnerability": "\"the only reason I switched away from clling is because we were accessing clling through an API and we were just running into issues with rate limiting\"",
+    "cta": "NOT FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "\"cool so this is what the workf looks like um\"",
+      "\"now that we go back into ended end let's hit test workflow\"",
+      "\"okay so those images just finished up as you can see\"",
+      "\"now we're downloading the videos back in Ed end and we're sending it off this way to create that audio\"",
+      "\"let's hop back into the actual workflow here and break it down\""
+    ],
+    "vocabulary": [
+      "end workflow",
+      "faceless AI shorts",
+      "generate and publish",
+      "autopilot",
+      "YouTube channel",
+      "Google sheet",
+      "image prompt agent",
+      "text to image API",
+      "image to video generator",
+      "merge works"
+    ],
+    "analogies": [
+      "\"imagine you have a bunch of ideas\"",
+      "\"think of it like a recipe\"",
+      "\"it's basically like having a template\"",
+      "\"you know sound effect audio whatever you want to call it\""
+    ],
+    "curiosity_gaps": [
+      "\"I'll come back to this\"",
+      "\"stay till the end\"",
+      "\"here's where it gets interesting\"",
+      "\"let me hit you with some of these finished products\"",
+      "\"if you notice each video has a different audio so we have this sound agent down here kind of looking at the style and then creating a sound prompt that we're going to send over to 11 labs to generate that audio\""
+    ],
+    "specificity": "NOT FOUND",
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\""
+    ],
+    "frameworks": "NOT FOUND"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "num": 12,
+  "title": "Claude Design Just Became Unstoppable",
+  "date": "17/04/26",
+  "word_count": 3791,
+  "char_count": 19719,
+  "chunks": 1,
+  "extracted": {
+    "hook": "All right, so Claude just dropped Claude design by Anthropic Labs where you can make prototypes, slides, and one-pagers just by talking to Claude.",
+    "hook_type": "Problem-Statement",
+    "credential_drop": "NONE FOUND",
+    "signature_phrases": [
+      "\"you guys\"",
+      "\"here we go\"",
+      "\"what's really cool\"",
+      "\"let me hit you with\"",
+      "\"literally insane\"",
+      "\"let's not waste any time\"",
+      "\"honestly\"",
+      "\"crazy\"",
+      "\"insane\"",
+      "\"wild\""
+    ],
+    "transitions": [
+      "All right, so this is the main page.",
+      "Now a lot of people might be saying that this is going to kill Canva, but it looks like they're actually working together here.",
+      "Okay, so at this point it really is just pulling everything from our website to understand the brand feel."
+    ],
+    "cta": "\"if you enjoyed the video, or you learned something new, please give it a like. Helps me out a ton.\"",
+    "vocabulary": [
+      "prototype",
+      "slides",
+      "one-pagers",
+      "lovable style interface",
+      "GitHub",
+      "Canva",
+      "subdomain",
+      "AI Automation Society"
+    ],
+    "analogies": "\"it's basically taking your ability to build a Claude code design project or website project inside of, you know, your own folders and files and they just basically put this onto a lovable style interface\"",
+    "curiosity_gaps": [
+      "\"I'm not going to mess with that because it has our typography and that looked fine. It went through a ton here.\"",
+      "\"Okay, so let's go back home. That's kind of what we can do with slide decks or presentations. Let's see what it can do with an actual landing page.\""
+    ],
+    "specificity": {
+      "dollars": [],
+      "percentages": [
+        "82%",
+        "91%",
+        "69%",
+        "84.7%"
+      ],
+      "time_references": [
+        "\"about 15 minutes\"",
+        "\"30 to 45 seconds\"",
+        "\"a few times\"",
+        "\"gradually throughout the day\""
+      ],
+      "tools": [
+        "Claude design",
+        "Claude code",
+        "Canva",
+        "GitHub",
+        "Vercel"
+      ]
+    },
+    "vulnerability": "\"real quick. In this video my computer was freaking out a little bit. So there's like a few times where my face cam super laggy\"",
+    "script_type": "LOOSE",
+    "energy_notes": {
+      "accelerates": [
+        "discussing the visual reasoning benchmark jump"
+      ],
+      "slows": [
+        "explaining the design system setup process"
+      ]
+    },
+    "audience_language": [
+      "\"you guys\"",
+      "\"those of you\"",
+      "\"OGs\""
+    ],
+    "frameworks": []
+  }
+}
