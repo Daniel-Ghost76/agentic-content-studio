@@ -32,6 +32,12 @@ __pycache__/
 *.webm
 *.wmv
 
+# Agent tool links and workspaces
+.hermes-linked
+.ollama-linked
+.openclaw/
+hermes
+
 # macOS
 .DS_Store
 .AppleDouble

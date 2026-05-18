@@ -137,9 +137,14 @@ If Daniel asks to delete a scheduled test video:
 1. Identify the exact target using the upload log and/or YouTube Studio.
 2. Confirm the title, video ID, URL, and scheduled date if there is any ambiguity.
 3. Delete only the requested test video.
-4. Refresh YouTube Studio every 10 seconds for up to 1 minute.
-5. Stop early once deletion is confirmed.
-6. Add a friendly Apple Notes status message.
+4. After deletion is confirmed, move the local publish pair back to the matching Review folder so the test can be run again from the start:
+   - From: `Youtube/Output/7. Publishing/{project_id}/published/{project_id}_publish.mp4`
+   - From: `Youtube/Output/7. Publishing/{project_id}/published/{project_id}_metadata.yaml`
+   - To: `Youtube/Output/6. Review  /{project_id}/`
+5. Move both files together. Do not leave one file in `published/` and one file in Review.
+6. Refresh YouTube Studio every 10 seconds for up to 1 minute.
+7. Stop early once deletion is confirmed.
+8. Add a friendly Apple Notes status message.
 
 Use the local helper when appropriate:
 
@@ -149,6 +154,8 @@ Use the local helper when appropriate:
 ```
 
 Confirm deletion with an API check when possible. `FOUND=0` means the video is gone.
+
+After a successful test deletion, the local pair should end in Review, not in Publishing or `published/`.
 
 ## Tone
 

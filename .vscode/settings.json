@@ -1,0 +1,19 @@
+{
+  "files.exclude": {
+    ".vscode": true,
+    ".gitignore": true,
+    ".hermes-linked": true,
+    ".ollama-linked": true,
+    ".openclaw": true,
+    "hermes": true,
+    "AGENTS.md": true,
+    "HEARTBEAT.md": true,
+    "IDENTITY.md": true,
+    "MEMORY.md": true,
+    "SOUL.md": true,
+    "TOOLS.md": true,
+    "USER.md": true,
+    ".claude/.commands": true,
+    ".claude/.settings.json": true
+  }
+}

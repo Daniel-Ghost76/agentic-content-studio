@@ -9,6 +9,12 @@ YouTube (free value) -> Skool community (low-ticket) -> AI implementation servic
 ## Folder Structure
 
 ```text
+Orchestrator/
+├── Astra/
+├── Claudella/
+├── Codex/
+└── Vera/
+
 Youtube/
 ├── Input/              ← agents, SOPs, tools, resources needed TO DO the work
 │   ├── 1. Sub-agents/
@@ -63,11 +69,11 @@ Youtube/
 | 5 | Visuals / Overlays | Codex |
 | 5a | Overlay Compositing | Codex |
 | 6 | Review | Claude |
-| 7 | Publishing | Claude by default; Codex may orchestrate from mobile |
+| 7 | Publishing | Claude by default; OpenClaw (Astra) orchestrates from mobile via Telegram |
 | 8 | Distribution | Claude |
 | 9 | Analytics | Claude |
 
-Codex also owns mobile orchestration through `.claude/codex.md`, especially when Daniel is coordinating agents from the Codex mobile app.
+**OpenClaw (Astra)** is the primary mobile orchestrator. Daniel triggers stages by messaging Astra on Telegram. **Hermes (Vera)** is the secondary assistant — passive, Telegram-triggered only, no background work. **Clodella** is the Claude Code routine runner — executes specific tasks and task-completion updates from within the workspace.
 
 ---
 
