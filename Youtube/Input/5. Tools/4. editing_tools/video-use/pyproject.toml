@@ -10,10 +10,16 @@ dependencies = [
     "matplotlib",
     "pillow",
     "numpy",
+    "tqdm",
 ]
 
 [project.optional-dependencies]
 animations = ["manim"]
+analysis = [
+    "opencv-python-headless>=4.8",
+    "pytesseract>=0.3",
+    "mediapipe>=0.10",
+]
 
 [build-system]
 requires = ["setuptools>=61.0"]

@@ -4,6 +4,7 @@
 
 - **Root path:** `/Users/danieldanut/Desktop/Agentic Workspace`
 - **YouTube pipeline:** `Youtube/Input/` (agents, tools, resources) + `Youtube/Output/` (content produced)
+- **Visual Production Library:** `Youtube/Input/4. Resources/0. visual_production_library/` — master capsule library for pre-production visuals, overlays, Higgsfield clips, emphasis words, CTA visuals, and thumbnails
 - **API keys:** All in `~/.claude/.env` — never hardcode, never ask Daniel inline
 
 ## Telegram

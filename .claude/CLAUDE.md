@@ -64,10 +64,14 @@ Youtube/
 | 1 | Ideation | Claude |
 | 2 | Scripts | Claude |
 | 3 | Pre-production Materials | Codex |
-| 4 | Editing | Claude |
-| 4a | Cut Edit | Claude |
+| 4 | Editing | Codex + Claude Code |
+| 4a | Prep (ingest, normalize, sync, audio enhance) | Codex + Claude Code |
+| 4b | Cut Edit (filler/silence removal, take selection) | Codex + Claude Code |
+| 4c | Overlay Identifier (maps all visual events — captions, zooms, HyperFrames, Higgsfield) | Codex + Claude Code |
+| 4d | Grade + Zoom (color grade + zoom keyframes, one render pass) | Codex + Claude Code |
 | 5 | Visuals / Overlays | Codex |
-| 5a | Overlay Compositing | Codex |
+| 5a | Overlays (screen rec cleanup + build all overlays + composite) | Codex |
+| 5b | Finish (branded intro/outro + optional music + auto QC) | Codex |
 | 6 | Review | Claude |
 | 7 | Publishing | Claude by default; OpenClaw (Astra) orchestrates from mobile via Telegram |
 | 8 | Distribution | Claude |
@@ -164,13 +168,21 @@ Brief format: voice_reference pointer · Core Idea · Hook Type · The One Thing
 
 ## Editing And Visuals Stages
 
-**Stage 4 — Editing:** Claude takes raw footage and produces clean cut edits. Output -> `Youtube/Output/4. Editing/{project_id}/`
+**Stage 4 — Editing:** Claude runs four sequential sub-agents to take raw footage to a graded, zoomed, overlay-mapped cut. Output -> `Youtube/Output/4. Editing/{project_id}/`
 
-**Stage 4a — Cut Edit:** Claude removes filler words, silences, and bad takes from raw footage.
+**Stage 4a — Prep:** Claude ingests `originals/`, normalizes footage to spec, syncs multi-source (face cam + screen recording), enhances audio with DeepFilterNet. Outputs: `normalized/`, `audio/`, `manifest.json`, `sync.json`.
 
-**Stage 5 — Visuals / Overlays:** Codex handles post-production visual overlays, motion graphics, compositing, and visual polish after a cut edit exists. Output -> `Youtube/Output/5. Visuals/{project_id}/`
+**Stage 4b — Cut Edit:** Claude transcribes (ElevenLabs Scribe), proposes cut strategy (Daniel approves), removes filler words/silences/bad takes, renders `{project_id}_cut.mp4`.
 
-**Stage 5a — Overlay Compositing:** Codex composites motion graphic overlays onto a cut video from Stage 4.
+**Stage 4c — Overlay Identifier:** Claude reads the transcript and cut video once, maps all visual events as stubs — captions (glass panel overlays, 10–15% of words), zoom keyframes, HyperFrames motion graphics, Higgsfield full-screen clips, additional materials. Daniel approves the overlay map before Stage 5 builds anything.
+
+**Stage 4d — Grade + Zoom:** Claude applies color grade and bakes zoom keyframes into the footage in a single render pass. Outputs `{project_id}_cut_final.mp4` — the base video Agent 5 composites onto.
+
+**Stage 5 — Visuals / Overlays:** Codex runs two sequential sub-agents to build all overlays and finish the video. Output -> `Youtube/Output/5. Visuals/{project_id}/`
+
+**Stage 5a — Overlays:** Codex reads the overlay map from 4c, cleans up the screen recording, builds all overlay slots in parallel (HyperFrames for captions/motion graphics, Higgsfield for full-screen clips), and composites everything onto `cut_final.mp4`.
+
+**Stage 5b — Finish:** Codex adds branded intro/outro (cached, rendered once per brand version), optional background music (ducks under speech automatically), and runs automatic QC verification. Outputs `{project_id}_final.mp4` + `{project_id}_qc_report.md` → Stage 6.
 
 ---
 

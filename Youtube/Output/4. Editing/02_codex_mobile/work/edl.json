@@ -1,0 +1,134 @@
+{
+  "sources": {
+    "raw": "/Users/danieldanut/Agentic Workspace/Youtube/Output/4. Editing/02_codex_mobile/originals/2026-05-18 23-40-35.mov"
+  },
+  "grade": "auto",
+  "ranges": [
+    {
+      "source": "raw",
+      "start": 1907.04,
+      "end": 1938.44,
+      "beat": "beat_1_hook"
+    },
+    {
+      "source": "raw",
+      "start": 2409.90,
+      "end": 2451.92,
+      "beat": "beat_2a_what_is_it"
+    },
+    {
+      "source": "raw",
+      "start": 2698.79,
+      "end": 2725.12,
+      "beat": "beat_2b_what_can_it_do"
+    },
+    {
+      "source": "raw",
+      "start": 2975.18,
+      "end": 3004.28,
+      "beat": "beat_2c_thesis"
+    },
+    {
+      "source": "raw",
+      "start": 3150.68,
+      "end": 3161.70,
+      "beat": "beat_3_setup"
+    },
+    {
+      "source": "raw",
+      "start": 3558.87,
+      "end": 3593.00,
+      "beat": "beat_3c_qr_code"
+    },
+    {
+      "source": "raw",
+      "start": 3700.32,
+      "end": 3728.00,
+      "beat": "beat_3d_permissions"
+    },
+    {
+      "source": "raw",
+      "start": 4092.08,
+      "end": 4098.54,
+      "beat": "beat_4_setup"
+    },
+    {
+      "source": "raw",
+      "start": 4133.44,
+      "end": 4139.46,
+      "beat": "beat_4_prompt1"
+    },
+    {
+      "source": "raw",
+      "start": 4147.04,
+      "end": 4169.26,
+      "beat": "beat_4_scan"
+    },
+    {
+      "source": "raw",
+      "start": 4278.50,
+      "end": 4323.69,
+      "beat": "beat_4_results_prompt2"
+    },
+    {
+      "source": "raw",
+      "start": 4330.37,
+      "end": 4354.59,
+      "beat": "beat_4_desc_check"
+    },
+    {
+      "source": "raw",
+      "start": 4407.15,
+      "end": 4427.73,
+      "beat": "beat_4_confirm"
+    },
+    {
+      "source": "raw",
+      "start": 5233.83,
+      "end": 5252.95,
+      "beat": "beat_4_prompt3"
+    },
+    {
+      "source": "raw",
+      "start": 5257.85,
+      "end": 5334.77,
+      "beat": "beat_4_demo_running"
+    },
+    {
+      "source": "raw",
+      "start": 5338.01,
+      "end": 5399.77,
+      "beat": "beat_4_result"
+    },
+    {
+      "source": "raw",
+      "start": 5628.90,
+      "end": 5647.44,
+      "beat": "beat_5_personal"
+    },
+    {
+      "source": "raw",
+      "start": 6043.76,
+      "end": 6055.82,
+      "beat": "beat_6a_remote_control"
+    },
+    {
+      "source": "raw",
+      "start": 6163.51,
+      "end": 6174.33,
+      "beat": "beat_6b_either_way"
+    },
+    {
+      "source": "raw",
+      "start": 6281.01,
+      "end": 6294.43,
+      "beat": "beat_6c_ui"
+    },
+    {
+      "source": "raw",
+      "start": 7374.36,
+      "end": 7407.56,
+      "beat": "beat_7_cta"
+    }
+  ]
+}

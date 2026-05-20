@@ -7,6 +7,14 @@ This workflow creates a repeatable thumbnail package for approved videos in the 
 Default review root:
 `Youtube/Output/6. Review  /`
 
+Before generating concepts, read:
+
+```text
+Youtube/Input/4. Resources/0. visual_production_library/README.md
+Youtube/Input/4. Resources/0. visual_production_library/selection_matrix.md
+Youtube/Input/4. Resources/0. visual_production_library/07_thumbnails/
+```
+
 If no target is provided, use the newest subfolder in the review root.
 
 Input priority inside the target folder:
@@ -30,6 +38,7 @@ Never overwrite an existing thumbnail unless the user explicitly asks for replac
 Create three concepts. Each concept must include:
 
 - short hook text, 2-5 words
+- chosen Visual Production Library thumbnail capsule
 - visual metaphor
 - face placement
 - background idea

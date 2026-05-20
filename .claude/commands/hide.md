@@ -17,7 +17,9 @@ Write the following content to `/Users/danieldanut/Agentic Workspace/.vscode/set
     "TOOLS.md": true,
     "USER.md": true,
     ".claude/.commands": true,
-    ".claude/.settings.json": true
+    ".claude/.settings.json": true,
+    ".claude/settings.local.json": true,
+    ".claude/commands": true
   }
 }
 ```
