@@ -19,7 +19,12 @@ Write the following content to `/Users/danieldanut/Agentic Workspace/.vscode/set
     ".claude/.commands": true,
     ".claude/.settings.json": true,
     ".claude/settings.local.json": true,
-    ".claude/commands": true
+    ".claude/commands": true,
+    ".agents": true,
+    ".claude/skills": true,
+    "docs": true,
+    "scripts": true,
+    "skills-lock.json": true
   }
 }
 ```

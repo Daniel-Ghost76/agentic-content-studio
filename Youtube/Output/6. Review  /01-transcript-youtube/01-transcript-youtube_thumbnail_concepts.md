@@ -1,36 +1,42 @@
 # 01-transcript-youtube Thumbnail Concepts
 
-Source: `/Users/danieldanut/Desktop/Desktop/Agentic Workspace/Youtube/Output/6. Review  /01-transcript-youtube/01-transcript-youtube_review_transcript.txt`
-Style reference: `/Users/danieldanut/Downloads/www.youtube.com_@nateherk_videos.png`
+Source: `/Users/danieldanut/Agentic Workspace/Youtube/Output/6. Review  /01-transcript-youtube/01-transcript-youtube_review_transcript.txt`
+Style source: `Youtube/Input/4. Resources/6. review_resources/reference_thumbnails/pattern_analysis.md`
 
-Recommended: **Copy The Transcript System** (`COPY THIS SYSTEM`)
+Recommended: **502 Videos 1 Command** (`502 VIDEOS 1 COMMAND`)
 
-## 1. Copy The Transcript System
+## 1. 502 Videos 1 Command
 
+- Archetype: LARGE NUMBER + CLEAN TOOL MOCKUP
+- Hook: `502 VIDEOS 1 COMMAND`
+- Chosen capsule: `07_thumbnails`
+- Visual metaphor: A terminal command turns a stack of YouTube videos into a transcript export.
+- Face placement: No face; no usable Daniel portrait was available.
+- Background: Dark charcoal grid with controlled teal depth and orange accents.
+- Supporting elements: YouTube cards, `yt-dlp` terminal, transcript document, orange arrow, green completion bar.
+- Scores: curiosity: 9 / clarity: 10 / emotion: 8 / readability: 10
+- Total: 37/40
+
+## 2. Copy This System
+
+- Archetype: SLASH COMMAND / CLEAN ICON CARD
 - Hook: `COPY THIS SYSTEM`
-- Visual metaphor: YouTube videos flowing into a clean transcript file, with a big green check.
-- Face placement: Daniel on the right, confident expression, pointing toward the workflow.
-- Background: Dark YouTube interface grid with bright teal arrows and orange app badges.
+- Chosen capsule: `07_thumbnails`
+- Visual metaphor: A reusable transcript system shown as a simple command window.
+- Face placement: No face.
+- Background: Dark YouTube interface grid.
 - Supporting elements: YouTube icon, CSV sheet, terminal, transcript document, ChatGPT badge.
-- Scores: curiosity: 9 / clarity: 9 / emotion: 7 / readability: 9
-- Total: 34/40
-
-## 2. 500 Videos To Data
-
-- Hook: `500 VIDEOS`
-- Visual metaphor: A stack of YouTube cards compressed into one glowing data document.
-- Face placement: Daniel cropped on the lower right with surprised/this-is-easy expression.
-- Background: Black background, teal document glow, orange count badge.
-- Supporting elements: Video cards, document icon, terminal prompt, progress bar.
-- Scores: curiosity: 8 / clarity: 8 / emotion: 8 / readability: 10
-- Total: 34/40
+- Scores: curiosity: 8 / clarity: 9 / emotion: 7 / readability: 9
+- Total: 33/40
 
 ## 3. Stop Guessing
 
+- Archetype: COMPARISON SPLIT
 - Hook: `STOP GUESSING`
-- Visual metaphor: Messy creator research on the left, clean transcript database on the right.
-- Face placement: Daniel centered-right, holding the viewer's attention between both sides.
-- Background: Before/after split: red messy side, teal clean side.
+- Chosen capsule: `07_thumbnails`
+- Visual metaphor: Messy creator research on the left becomes clean transcript data on the right.
+- Face placement: No face.
+- Background: Split red messy side / teal clean side.
 - Supporting elements: Red X, green check, transcript rows, search icon.
-- Scores: curiosity: 8 / clarity: 8 / emotion: 9 / readability: 9
-- Total: 34/40
+- Scores: curiosity: 8 / clarity: 8 / emotion: 8 / readability: 9
+- Total: 33/40

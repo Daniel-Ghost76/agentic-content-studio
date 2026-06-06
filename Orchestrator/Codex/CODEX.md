@@ -121,21 +121,12 @@ Stage ownership is explicit:
 For any stage-specific task, read the matching files before acting:
 
 ```text
-Youtube/Input/1. Sub-agents/{stage}.md
-Youtube/Input/2. Skills/{stage}.md
-Youtube/Input/3. Rules/{stage}.md
+Youtube/Input/1. Sub-agents/{N}. {Stage}/{stage}_sub-agent.md
+Youtube/Input/2. Skills/{N}. {Stage}/{stage}_skill.md  (folder may contain multiple skill files — read all)
+Youtube/Input/3. Rules/{N}. {Stage}/{stage}_rules.md
 Youtube/Input/4. Resources/{stage}_resources/
 Youtube/Input/5. Tools/{stage}_tools/
 ```
-
-Use the actual filenames in the repo. A few names contain legacy quirks, for example:
-
-- `Youtube/Input/1. Sub-agents/7. publishing_sub-agent.md`
-- `Youtube/Input/1. Sub-agents/9. analytics_sub-agent.md`
-- `Youtube/Input/2. Skills/2. scripting_skill..md`
-- `Youtube/Input/2. Skills/9. analytics_skill.md`
-
-Do not rename these unless Daniel explicitly asks. Existing automation may depend on them.
 
 ## Codex Core Responsibilities
 
@@ -164,9 +155,9 @@ Codex owns Stage 3.
 Read:
 
 ```text
-Youtube/Input/1. Sub-agents/3. pre-production_materials_sub-agent.md
-Youtube/Input/2. Skills/3. pre-production_materials_skill.md
-Youtube/Input/3. Rules/3. pre-production_materials_rules.md
+Youtube/Input/1. Sub-agents/3. Pre-production Materials/3. pre-production_materials_sub-agent.md
+Youtube/Input/2. Skills/3. Pre-production Materials/3. pre-production_materials_skill.md
+Youtube/Input/3. Rules/3. Pre-production Materials/3. pre-production_materials_rules.md
 Youtube/Input/4. Resources/3. pre-production_materials_resources/
 Youtube/Input/5. Tools/3. pre-production_materials_tools/
 ```
@@ -184,11 +175,11 @@ Codex owns Stage 5 and Stage 5a.
 Read:
 
 ```text
-Youtube/Input/1. Sub-agents/5. visuals_sub-agent.md
-Youtube/Input/1. Sub-agents/5a. overlay_sub-agent.md
-Youtube/Input/2. Skills/5. visuals_skill.md
-Youtube/Input/2. Skills/5a. overlay_skill.md
-Youtube/Input/3. Rules/5. visuals_rules.md
+Youtube/Input/1. Sub-agents/5. Visuals/5. visuals_sub-agent.md
+Youtube/Input/1. Sub-agents/5. Visuals/5a. overlays_sub-agent.md
+Youtube/Input/2. Skills/5. Visuals/5. visuals_skill.md
+Youtube/Input/2. Skills/5. Visuals/5a. overlays_skill.md
+Youtube/Input/3. Rules/5. Visuals/5. visuals_rules.md
 ```
 
 Final overlaid outputs go to:
@@ -239,7 +230,7 @@ Publishing must always be scheduled, never immediate.
 
 Core rules:
 
-- Read `Youtube/Input/3. Rules/7. publishing_rules.md` before publishing.
+- Read `Youtube/Input/3. Rules/7. Publishing/7. publishing_rules.md` before publishing.
 - Confirm title, metadata summary, and schedule with Daniel before upload.
 - Move selected `.mp4` + matching `.yaml` into `Youtube/Output/7. Publishing/{project_id}/`.
 - Do not move files into `published/` manually until the YouTube API returns a successful video ID.
@@ -310,10 +301,10 @@ Claude Code owns cut editing. Codex owns overlay workflows after the cut edit is
 Before any editing work, read:
 
 ```text
-Youtube/Input/1. Sub-agents/4. editing_sub-agent.md
-Youtube/Input/1. Sub-agents/4a. cut_edit_sub-agent.md
-Youtube/Input/2. Skills/4a. cut_edit_skill.md
-Youtube/Input/3. Rules/4. editing_rules.md
+Youtube/Input/1. Sub-agents/4. Editing/4. editing_sub-agent.md
+Youtube/Input/1. Sub-agents/4. Editing/4b. cut_edit_sub-agent.md
+Youtube/Input/2. Skills/4. Editing/4b. cut_edit_skill.md
+Youtube/Input/3. Rules/4. Editing/4. editing_rules.md
 ```
 
 Hard editing rules:

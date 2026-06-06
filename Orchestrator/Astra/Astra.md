@@ -77,17 +77,17 @@ Root-level files (`AGENTS.md`, `SOUL.md`, etc.) are hidden symlinks pointing to 
 
 | Stage | Name | Executor | Input Path | Output Path |
 |-------|------|----------|-----------|-------------|
-| 1 | Ideation | Claude Code | `Input/1. Sub-agents/1. ideation_sub-agent.md` | `Output/1. Ideation/{project_id}/` |
-| 2 | Scripts | Claude Code | `Input/1. Sub-agents/2. scripting_sub-agent.md` | `Output/2. Scripts/{project_id}/` |
-| 3 | Pre-production Materials | Codex | `Input/1. Sub-agents/3. pre-production_materials_sub-agent.md` | `Output/3. Pre-production Materials/{project_id}/` |
-| 4 | Editing | Claude Code | `Input/1. Sub-agents/4. editing_sub-agent.md` | `Output/4. Editing/{project_id}/` |
-| 4a | Cut Edit | Claude Code | `Input/1. Sub-agents/4a. cut_edit_sub-agent.md` | `Output/4. Editing/{project_id}/{project_id}_cut.mp4` |
-| 5 | Visuals / Overlays | Codex | `Input/1. Sub-agents/5. visuals_sub-agent.md` | `Output/5. Visuals/{project_id}/` |
-| 5a | Overlay Compositing | Codex | `Input/1. Sub-agents/5a. overlay_sub-agent.md` | `Output/5. Visuals/{project_id}/{project_id}_overlaid.mp4` |
-| 6 | Review | Claude Code | `Input/1. Sub-agents/6. review_sub-agent.md` | `Output/6. Review  /{project_id}/` |
-| 7 | Publishing | Claude Code / Codex mobile | `Input/1. Sub-agents/7. publishing_sub-agent.md` | `Output/7. Publishing/{project_id}/` |
-| 8 | Distribution | Claude Code | `Input/1. Sub-agents/8. distribution_sub-agent.md` | `Output/8. Distribution/{project_id}/` |
-| 9 | Analytics | Claude Code | `Input/1. Sub-agents/9. analytics_sub-agent.md` | `Output/9. Analytics/{project_id}/` |
+| 1 | Ideation | Claude Code | `Input/1. Sub-agents/1. Ideation/1. ideation_sub-agent.md` | `Output/1. Ideation/{project_id}/` |
+| 2 | Scripts | Claude Code | `Input/1. Sub-agents/2. Scripting/2. scripting_sub-agent.md` | `Output/2. Scripts/{project_id}/` |
+| 3 | Pre-production Materials | Codex | `Input/1. Sub-agents/3. Pre-production Materials/3. pre-production_materials_sub-agent.md` | `Output/3. Pre-production Materials/{project_id}/` |
+| 4 | Editing | Claude Code | `Input/1. Sub-agents/4. Editing/4. editing_sub-agent.md` | `Output/4. Editing/{project_id}/` |
+| 4a | Cut Edit | Claude Code | `Input/1. Sub-agents/4. Editing/4b. cut_edit_sub-agent.md` | `Output/4. Editing/{project_id}/{project_id}_cut.mp4` |
+| 5 | Visuals / Overlays | Codex | `Input/1. Sub-agents/5. Visuals/5. visuals_sub-agent.md` | `Output/5. Visuals/{project_id}/` |
+| 5a | Overlay Compositing | Codex | `Input/1. Sub-agents/5. Visuals/5a. overlays_sub-agent.md` | `Output/5. Visuals/{project_id}/{project_id}_overlaid.mp4` |
+| 6 | Review | Claude Code | `Input/1. Sub-agents/6. Review/6. review_sub-agent.md` | `Output/6. Review  /{project_id}/` |
+| 7 | Publishing | Claude Code / Codex mobile | `Input/1. Sub-agents/7. Publishing/7. publishing_sub-agent.md` | `Output/7. Publishing/{project_id}/` |
+| 8 | Distribution | Claude Code | `Input/1. Sub-agents/8. Distribution/8. distribution_sub-agent.md` | `Output/8. Distribution/{project_id}/` |
+| 9 | Analytics | Claude Code | `Input/1. Sub-agents/9. Analytics/9. analytics_sub-agent.md` | `Output/9. Analytics/{project_id}/` |
 
 All paths are relative to `/Users/danieldanut/Agentic Workspace/Youtube/`.
 

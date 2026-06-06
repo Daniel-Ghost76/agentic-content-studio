@@ -69,3 +69,23 @@ Every stage that uses this library must name the capsule it used in its output n
 - Stage 5: `{project_id}_overlay_check.md`
 - Stage 6: `{project_id}_thumbnail_concepts.md`
 
+## Seeding Capsules from Reference Videos
+
+Use `/reverse-engineer` to analyze a finished YouTube video and propose new capsules based on what you observe. When a new draft capsule is proposed from a reference video:
+
+1. Review the `_reverse_analysis.md` — confirm the pattern is genuinely reusable, not specific to that one video
+2. Confirm the proposed design tokens fit or intentionally extend the channel design system (`_channel_design_system.md`)
+3. Accept the draft capsule as-is — it starts at 0 tests
+4. Run 3 test outputs + 1 fresh-session test before changing status to approved
+5. Never promote a reference-seeded capsule to approved in the same session it was created
+
+Reference-seeded capsules carry this marker in `notes.md`:
+```
+Status: draft — seeded from {VIDEO_ID}
+```
+
+Analyzed reference videos are stored at:
+```
+Youtube/Output/4. Editing/reference_videos/{VIDEO_ID}/
+```
+

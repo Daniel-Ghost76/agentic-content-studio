@@ -64,14 +64,8 @@ Youtube/
 | 1 | Ideation | Claude |
 | 2 | Scripts | Claude |
 | 3 | Pre-production Materials | Codex |
-| 4 | Editing | Codex + Claude Code |
-| 4a | Prep (ingest, normalize, sync, audio enhance) | Codex + Claude Code |
-| 4b | Cut Edit (filler/silence removal, take selection) | Codex + Claude Code |
-| 4c | Overlay Identifier (maps all visual events — captions, zooms, HyperFrames, Higgsfield) | Codex + Claude Code |
-| 4d | Grade + Zoom (color grade + zoom keyframes, one render pass) | Codex + Claude Code |
-| 5 | Visuals / Overlays | Codex |
-| 5a | Overlays (screen rec cleanup + build all overlays + composite) | Codex |
-| 5b | Finish (branded intro/outro + optional music + auto QC) | Codex |
+| 4 | Editing (4a Prep · 4b Cut Edit · 4c Overlay Identifier · 4d Grade+Zoom) | Codex + Claude Code |
+| 5 | Visuals / Overlays (5a Overlays · 5b Finish) | Codex |
 | 6 | Review | Claude |
 | 7 | Publishing | Claude by default; OpenClaw (Astra) orchestrates from mobile via Telegram |
 | 8 | Distribution | Claude |
@@ -133,11 +127,13 @@ Youtube/Output/9. Analytics/{project_id}/
 ## Agent Instructions
 
 **Before performing any task, read your stage's Input files:**
-- Sub-agent: `Youtube/Input/1. Sub-agents/{N}. {stage}_sub-agent.md`
-- Skill: `Youtube/Input/2. Skills/{N}. {stage}_skill.md`
-- Rules: `Youtube/Input/3. Rules/{N}. {stage}_rules.md`
+- Sub-agent: `Youtube/Input/1. Sub-agents/{N}. {Stage}/{stage}_sub-agent.md`
+- Skill: `Youtube/Input/2. Skills/{N}. {Stage}/{stage}_skill.md` (folder may contain multiple skill files — read all)
+- Rules: `Youtube/Input/3. Rules/{N}. {Stage}/{stage}_rules.md`
 - Resources: `Youtube/Input/4. Resources/{N}. {stage}_resources/`
 - Tools: `Youtube/Input/5. Tools/{N}. {stage}_tools/`
+
+Sub-stages 4a/4b/4c/4d live inside `4. Editing/`; sub-stages 5a/5b live inside `5. Visuals/`. There are exactly 9 stage folders in Sub-agents, Skills, and Rules.
 
 **Save files to the right place:**
 - Workflow SOPs, agent MD files, tools -> `Youtube/Input/` in the relevant stage folder

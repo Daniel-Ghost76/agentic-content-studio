@@ -1,0 +1,2555 @@
+{
+  "video": {
+    "path": "/Users/danieldanut/.claude/video_analyst_cache/vfWTyEreOEc.mp4",
+    "duration": 1214.264308,
+    "fps": 30.0,
+    "resolution": [
+      1280,
+      720
+    ]
+  },
+  "transcript_source": "elevenlabs",
+  "summary": {
+    "total_events": 152,
+    "by_type": {
+      "face_visible": 2,
+      "scene_change": 30,
+      "zoom_out": 87,
+      "motion_high": 30,
+      "zoom_in": 3
+    },
+    "density": {
+      "overlays_per_minute": 0.0,
+      "zooms_per_minute": 4.45,
+      "cuts_per_minute": 1.48
+    },
+    "speech_visual_alignment": {
+      "overlays_during_key_words": 0.0,
+      "zooms_at_sentence_end": 0.422
+    }
+  },
+  "events": [
+    {
+      "id": 1,
+      "timestamp": 0.0,
+      "type": "face_visible",
+      "duration": 318.0,
+      "confidence": 0.75,
+      "properties": {},
+      "transcript_context": {
+        "word": "So",
+        "word_start": 0.14,
+        "sentence": "So I've spent well over 500 hours inside of Claude's ecosystem; Chat, Cowork, Claude Code.",
+        "sentence_start": 0.14,
+        "sentence_end": 4.48,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 2,
+      "timestamp": 1.0,
+      "type": "scene_change",
+      "duration": 12.0,
+      "confidence": 0.117,
+      "properties": {
+        "kind": "dissolve",
+        "scd_score": 0.93
+      },
+      "transcript_context": {
+        "word": "over",
+        "word_start": 0.94,
+        "sentence": "So I've spent well over 500 hours inside of Claude's ecosystem; Chat, Cowork, Claude Code.",
+        "sentence_start": 0.14,
+        "sentence_end": 4.48,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 3,
+      "timestamp": 3.0,
+      "type": "zoom_out",
+      "duration": 0.5,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "ecosystem;",
+        "word_start": 2.56,
+        "sentence": "So I've spent well over 500 hours inside of Claude's ecosystem; Chat, Cowork, Claude Code.",
+        "sentence_start": 0.14,
+        "sentence_end": 4.48,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 4,
+      "timestamp": 4.0,
+      "type": "motion_high",
+      "duration": 1.0,
+      "confidence": 0.7,
+      "properties": {},
+      "transcript_context": {
+        "word": "Cowork,",
+        "word_start": 3.62,
+        "sentence": "So I've spent well over 500 hours inside of Claude's ecosystem; Chat, Cowork, Claude Code.",
+        "sentence_start": 0.14,
+        "sentence_end": 4.48,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 5,
+      "timestamp": 4.0,
+      "type": "zoom_in",
+      "duration": 0.0,
+      "confidence": 0.97,
+      "properties": {},
+      "transcript_context": {
+        "word": "Cowork,",
+        "word_start": 3.62,
+        "sentence": "So I've spent well over 500 hours inside of Claude's ecosystem; Chat, Cowork, Claude Code.",
+        "sentence_start": 0.14,
+        "sentence_end": 4.48,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 6,
+      "timestamp": 9.0,
+      "type": "zoom_out",
+      "duration": 1.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "to",
+        "word_start": 8.88,
+        "sentence": "So what I wanted to do today is break down all of these features, rank them from D all the way up to S tier, and walking you guys through my top 12 in order and telling you why.",
+        "sentence_start": 4.74,
+        "sentence_end": 12.9,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 7,
+      "timestamp": 12.5,
+      "type": "zoom_out",
+      "duration": 1.5,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "why.",
+        "word_start": 12.4,
+        "sentence": "So what I wanted to do today is break down all of these features, rank them from D all the way up to S tier, and walking you guys through my top 12 in order and telling you why.",
+        "sentence_start": 4.74,
+        "sentence_end": 12.9,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 8,
+      "timestamp": 15.0,
+      "type": "scene_change",
+      "duration": 66.0,
+      "confidence": 0.212,
+      "properties": {
+        "kind": "dissolve",
+        "scd_score": 1.7
+      },
+      "transcript_context": {
+        "word": "right.",
+        "word_start": 14.94,
+        "sentence": "All right.",
+        "sentence_start": 14.88,
+        "sentence_end": 15.0,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 9,
+      "timestamp": 19.5,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "in",
+        "word_start": 19.48,
+        "sentence": "Every Claude feature ranked, not literally every single one, but there's a lot of them in here.",
+        "sentence_start": 15.64,
+        "sentence_end": 19.7,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 10,
+      "timestamp": 109.0,
+      "type": "scene_change",
+      "duration": 12.0,
+      "confidence": 0.817,
+      "properties": {
+        "kind": "dissolve",
+        "scd_score": 6.54
+      },
+      "transcript_context": {
+        "word": "until",
+        "word_start": 108.78,
+        "sentence": "Custom themes is something that you can do, and actually didn't even know about this until this video.",
+        "sentence_start": 105.8,
+        "sentence_end": 109.69,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 11,
+      "timestamp": 111.0,
+      "type": "zoom_out",
+      "duration": 1.5,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "themes.",
+        "word_start": 110.89,
+        "sentence": "You can see here I just tried out themes.",
+        "sentence_start": 109.69,
+        "sentence_end": 111.26,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 12,
+      "timestamp": 116.5,
+      "type": "zoom_in",
+      "duration": 0.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "friendly,",
+        "word_start": 116.34,
+        "sentence": "You can do colorblind friendly, and you can even set up your own custom themes.",
+        "sentence_start": 115.5,
+        "sentence_end": 118.54,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 13,
+      "timestamp": 117.0,
+      "type": "zoom_out",
+      "duration": 1.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "can",
+        "word_start": 116.92,
+        "sentence": "You can do colorblind friendly, and you can even set up your own custom themes.",
+        "sentence_start": 115.5,
+        "sentence_end": 118.54,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 14,
+      "timestamp": 119.0,
+      "type": "motion_high",
+      "duration": 2.0,
+      "confidence": 0.7,
+      "properties": {},
+      "transcript_context": {
+        "word": "threw",
+        "word_start": 118.92,
+        "sentence": "I threw the IDE extension in here, because in Claude Code and VS Code where I like to use it, I typically like to work in the terminal, but you can also use the extension, which is where I started off when I was first learning Claude Code.",
+        "sentence_start": 118.84,
+        "sentence_end": 128.88,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 15,
+      "timestamp": 120.5,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 0.552,
+      "properties": {},
+      "transcript_context": {
+        "word": "because",
+        "word_start": 120.28,
+        "sentence": "I threw the IDE extension in here, because in Claude Code and VS Code where I like to use it, I typically like to work in the terminal, but you can also use the extension, which is where I started off when I was first learning Claude Code.",
+        "sentence_start": 118.84,
+        "sentence_end": 128.88,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 16,
+      "timestamp": 125.0,
+      "type": "scene_change",
+      "duration": 25.0,
+      "confidence": 0.278,
+      "properties": {
+        "kind": "dissolve",
+        "scd_score": 2.22
+      },
+      "transcript_context": {
+        "word": "also",
+        "word_start": 124.78,
+        "sentence": "I threw the IDE extension in here, because in Claude Code and VS Code where I like to use it, I typically like to work in the terminal, but you can also use the extension, which is where I started off when I was first learning Claude Code.",
+        "sentence_start": 118.84,
+        "sentence_end": 128.88,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 17,
+      "timestamp": 128.5,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 0.592,
+      "properties": {},
+      "transcript_context": {
+        "word": "Claude",
+        "word_start": 128.4,
+        "sentence": "I threw the IDE extension in here, because in Claude Code and VS Code where I like to use it, I typically like to work in the terminal, but you can also use the extension, which is where I started off when I was first learning Claude Code.",
+        "sentence_start": 118.84,
+        "sentence_end": 128.88,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 18,
+      "timestamp": 129.0,
+      "type": "motion_high",
+      "duration": 2.0,
+      "confidence": 0.7,
+      "properties": {},
+      "transcript_context": {
+        "word": "Code.",
+        "word_start": 128.64,
+        "sentence": "I threw the IDE extension in here, because in Claude Code and VS Code where I like to use it, I typically like to work in the terminal, but you can also use the extension, which is where I started off when I was first learning Claude Code.",
+        "sentence_start": 118.84,
+        "sentence_end": 128.88,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 19,
+      "timestamp": 130.5,
+      "type": "zoom_out",
+      "duration": 0.5,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "D.",
+        "word_start": 130.24,
+        "sentence": "So anyways, that is my tier D.",
+        "sentence_start": 129.06,
+        "sentence_end": 130.42,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 20,
+      "timestamp": 141.0,
+      "type": "motion_high",
+      "duration": 1.0,
+      "confidence": 0.7,
+      "properties": {},
+      "transcript_context": {
+        "word": "Claude",
+        "word_start": 140.92,
+        "sentence": "So starting off here with voice mode, you can come into Claude and you can do a /voice, and this lets you basically just talk.",
+        "sentence_start": 138.8,
+        "sentence_end": 144.28,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 21,
+      "timestamp": 141.0,
+      "type": "zoom_out",
+      "duration": 0.5,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "Claude",
+        "word_start": 140.92,
+        "sentence": "So starting off here with voice mode, you can come into Claude and you can do a /voice, and this lets you basically just talk.",
+        "sentence_start": 138.8,
+        "sentence_end": 144.28,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 22,
+      "timestamp": 157.0,
+      "type": "scene_change",
+      "duration": 64.0,
+      "confidence": 0.617,
+      "properties": {
+        "kind": "dissolve",
+        "scd_score": 4.94
+      },
+      "transcript_context": {
+        "word": "we",
+        "word_start": 156.96,
+        "sentence": "Then we also have Cowork.",
+        "sentence_start": 156.86,
+        "sentence_end": 157.92,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 23,
+      "timestamp": 193.5,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 0.404,
+      "properties": {},
+      "transcript_context": {
+        "word": "you're",
+        "word_start": 193.36,
+        "sentence": "When you're in Claude and you're doing things like, you know, in your chat or Cowork or wherever you are, and you want to just throw in connectors, it's really easy to just be able to log into something and automatically have all of the tool calls available rather than having to maybe try to play with setting them up in the terminal.",
+        "sentence_start": 193.24,
+        "sentence_end": 207.36,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 24,
+      "timestamp": 194.0,
+      "type": "motion_high",
+      "duration": 3.0,
+      "confidence": 0.7,
+      "properties": {},
+      "transcript_context": {
+        "word": "Claude",
+        "word_start": 193.74,
+        "sentence": "When you're in Claude and you're doing things like, you know, in your chat or Cowork or wherever you are, and you want to just throw in connectors, it's really easy to just be able to log into something and automatically have all of the tool calls available rather than having to maybe try to play with setting them up in the terminal.",
+        "sentence_start": 193.24,
+        "sentence_end": 207.36,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 25,
+      "timestamp": 197.5,
+      "type": "zoom_out",
+      "duration": 0.5,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "are,",
+        "word_start": 197.14,
+        "sentence": "When you're in Claude and you're doing things like, you know, in your chat or Cowork or wherever you are, and you want to just throw in connectors, it's really easy to just be able to log into something and automatically have all of the tool calls available rather than having to maybe try to play with setting them up in the terminal.",
+        "sentence_start": 193.24,
+        "sentence_end": 207.36,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 26,
+      "timestamp": 202.5,
+      "type": "zoom_out",
+      "duration": 1.0,
+      "confidence": 0.987,
+      "properties": {},
+      "transcript_context": {
+        "word": "have",
+        "word_start": 202.34,
+        "sentence": "When you're in Claude and you're doing things like, you know, in your chat or Cowork or wherever you are, and you want to just throw in connectors, it's really easy to just be able to log into something and automatically have all of the tool calls available rather than having to maybe try to play with setting them up in the terminal.",
+        "sentence_start": 193.24,
+        "sentence_end": 207.36,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 27,
+      "timestamp": 209.5,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 0.748,
+      "properties": {},
+      "transcript_context": {
+        "word": "still",
+        "word_start": 209.32,
+        "sentence": "It's still very useful, but I just don't use that as much.",
+        "sentence_start": 209.18,
+        "sentence_end": 212.22,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 28,
+      "timestamp": 210.0,
+      "type": "motion_high",
+      "duration": 10.0,
+      "confidence": 0.7,
+      "properties": {},
+      "transcript_context": {
+        "word": "useful,",
+        "word_start": 209.76,
+        "sentence": "It's still very useful, but I just don't use that as much.",
+        "sentence_start": 209.18,
+        "sentence_end": 212.22,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 29,
+      "timestamp": 219.5,
+      "type": "zoom_out",
+      "duration": 0.5,
+      "confidence": 0.894,
+      "properties": {},
+      "transcript_context": {
+        "word": "So",
+        "word_start": 219.42,
+        "sentence": "So now let's move on to our B tier, which are the ones that I think are super, super useful but didn't make my top 30.",
+        "sentence_start": 219.42,
+        "sentence_end": 224.96,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 30,
+      "timestamp": 274.0,
+      "type": "scene_change",
+      "duration": 116.0,
+      "confidence": 0.719,
+      "properties": {
+        "kind": "dissolve",
+        "scd_score": 5.75
+      },
+      "transcript_context": {
+        "word": "ultrareview,",
+        "word_start": 273.36,
+        "sentence": "And then we also have ultrareview, which is another slash command you can do, where you come in here, you type ultrareview, as you can see, which will spin up sort of like a code review in the cloud.",
+        "sentence_start": 272.68,
+        "sentence_end": 281.62,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 31,
+      "timestamp": 282.0,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 0.79,
+      "properties": {},
+      "transcript_context": {
+        "word": "do",
+        "word_start": 281.8,
+        "sentence": "I do wish, though, you could type it in and it would give you that sort of, like, color thing, the way that you do with like ultrathink or some of these other things.",
+        "sentence_start": 281.76,
+        "sentence_end": 288.6,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 32,
+      "timestamp": 293.5,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 0.46,
+      "properties": {},
+      "transcript_context": {
+        "word": "feature.",
+        "word_start": 293.42,
+        "sentence": "But either way, it's still a great feature.",
+        "sentence_start": 292.32,
+        "sentence_end": 293.7,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 33,
+      "timestamp": 294.0,
+      "type": "motion_high",
+      "duration": 38.0,
+      "confidence": 0.7,
+      "properties": {},
+      "transcript_context": {
+        "word": "the",
+        "word_start": 294.0,
+        "sentence": "Some of the other things I threw in here was like the interactive charts.",
+        "sentence_start": 293.86,
+        "sentence_end": 296.2,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 34,
+      "timestamp": 304.5,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 0.489,
+      "properties": {},
+      "transcript_context": {
+        "word": "we're",
+        "word_start": 304.38,
+        "sentence": "I also love the whole recap feature, where if we're in Claude Code, you can see if you've been idle for a while, it basically shows you what this session has been working on.",
+        "sentence_start": 301.82,
+        "sentence_end": 309.72,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 35,
+      "timestamp": 310.5,
+      "type": "zoom_out",
+      "duration": 0.5,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "of",
+        "word_start": 310.44,
+        "sentence": "So if you've got a bunch of tabs open like I do a lot, you get a recap down to the bottom which shows you exactly what was taking place in that terminal.",
+        "sentence_start": 309.78,
+        "sentence_end": 317.04,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 36,
+      "timestamp": 321.0,
+      "type": "face_visible",
+      "duration": 894.0,
+      "confidence": 0.75,
+      "properties": {},
+      "transcript_context": {
+        "word": "Claude",
+        "word_start": 320.82,
+        "sentence": "So for example, here, I can see that we were building a slide deck for Claude Code hooks, which is a video that I'll be working on and coming soon.",
+        "sentence_start": 317.18,
+        "sentence_end": 323.68,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 37,
+      "timestamp": 323.0,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 0.548,
+      "properties": {},
+      "transcript_context": {
+        "word": "coming",
+        "word_start": 323.0,
+        "sentence": "So for example, here, I can see that we were building a slide deck for Claude Code hooks, which is a video that I'll be working on and coming soon.",
+        "sentence_start": 317.18,
+        "sentence_end": 323.68,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 38,
+      "timestamp": 331.5,
+      "type": "zoom_out",
+      "duration": 0.5,
+      "confidence": 0.648,
+      "properties": {},
+      "transcript_context": {
+        "word": "to",
+        "word_start": 331.36,
+        "sentence": "But let's go ahead and move on to the A tier.",
+        "sentence_start": 330.2,
+        "sentence_end": 332.64,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 39,
+      "timestamp": 388.0,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 0.466,
+      "properties": {},
+      "transcript_context": {
+        "word": "nice",
+        "word_start": 387.856,
+        "sentence": "And it's nice to be able to be in the desktop app specifically for routines, because I can manage my cloud and my local routines right from this app, which is pretty nice.",
+        "sentence_start": 387.576,
+        "sentence_end": 395.895,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 40,
+      "timestamp": 389.0,
+      "type": "motion_high",
+      "duration": 1.0,
+      "confidence": 0.7,
+      "properties": {},
+      "transcript_context": {
+        "word": "be",
+        "word_start": 388.916,
+        "sentence": "And it's nice to be able to be in the desktop app specifically for routines, because I can manage my cloud and my local routines right from this app, which is pretty nice.",
+        "sentence_start": 387.576,
+        "sentence_end": 395.895,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 41,
+      "timestamp": 391.0,
+      "type": "scene_change",
+      "duration": 39.0,
+      "confidence": 0.139,
+      "properties": {
+        "kind": "dissolve",
+        "scd_score": 1.11
+      },
+      "transcript_context": {
+        "word": "routines,",
+        "word_start": 390.976,
+        "sentence": "And it's nice to be able to be in the desktop app specifically for routines, because I can manage my cloud and my local routines right from this app, which is pretty nice.",
+        "sentence_start": 387.576,
+        "sentence_end": 395.895,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 42,
+      "timestamp": 416.5,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 0.853,
+      "properties": {},
+      "transcript_context": {
+        "word": "conversation",
+        "word_start": 416.216,
+        "sentence": "Because also, when you're having a conversation with Claude code in something like the desktop app or even the VS Code extension, you can copy and paste the text way better, because it doesn't wrap weird in the terminal.",
+        "sentence_start": 415.036,
+        "sentence_end": 425.736,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 43,
+      "timestamp": 417.0,
+      "type": "motion_high",
+      "duration": 9.0,
+      "confidence": 0.7,
+      "properties": {},
+      "transcript_context": {
+        "word": "with",
+        "word_start": 416.896,
+        "sentence": "Because also, when you're having a conversation with Claude code in something like the desktop app or even the VS Code extension, you can copy and paste the text way better, because it doesn't wrap weird in the terminal.",
+        "sentence_start": 415.036,
+        "sentence_end": 425.736,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 44,
+      "timestamp": 429.5,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "spacing.",
+        "word_start": 429.176,
+        "sentence": "Whereas if I'm in the terminal and I try to, like, copy this, it just has weird spacing.",
+        "sentence_start": 425.756,
+        "sentence_end": 429.616,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 45,
+      "timestamp": 433.0,
+      "type": "scene_change",
+      "duration": 59.0,
+      "confidence": 0.476,
+      "properties": {
+        "kind": "dissolve",
+        "scd_score": 3.81
+      },
+      "transcript_context": {
+        "word": "extension",
+        "word_start": 432.596,
+        "sentence": "So sometimes, for those use cases, it's better to just open up the extension like this or to use the Claude desktop app.",
+        "sentence_start": 429.836,
+        "sentence_end": 436.496,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 46,
+      "timestamp": 434.0,
+      "type": "zoom_out",
+      "duration": 2.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "this",
+        "word_start": 433.576,
+        "sentence": "So sometimes, for those use cases, it's better to just open up the extension like this or to use the Claude desktop app.",
+        "sentence_start": 429.836,
+        "sentence_end": 436.496,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 47,
+      "timestamp": 435.0,
+      "type": "motion_high",
+      "duration": 57.0,
+      "confidence": 0.7,
+      "properties": {},
+      "transcript_context": {
+        "word": "use",
+        "word_start": 434.556,
+        "sentence": "So sometimes, for those use cases, it's better to just open up the extension like this or to use the Claude desktop app.",
+        "sentence_start": 429.836,
+        "sentence_end": 436.496,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 48,
+      "timestamp": 482.0,
+      "type": "zoom_out",
+      "duration": 0.5,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "now",
+        "word_start": 481.816,
+        "sentence": "So now let's get into my top 12.",
+        "sentence_start": 481.716,
+        "sentence_end": 484.116,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 49,
+      "timestamp": 488.0,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "Let's",
+        "word_start": 487.936,
+        "sentence": "Let's start with number 12, which is /goal.",
+        "sentence_start": 487.936,
+        "sentence_end": 490.816,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 50,
+      "timestamp": 490.5,
+      "type": "zoom_out",
+      "duration": 1.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "/goal.",
+        "word_start": 490.396,
+        "sentence": "Let's start with number 12, which is /goal.",
+        "sentence_start": 487.936,
+        "sentence_end": 490.816,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 51,
+      "timestamp": 493.0,
+      "type": "scene_change",
+      "duration": 40.0,
+      "confidence": 0.057,
+      "properties": {
+        "kind": "dissolve",
+        "scd_score": 0.45
+      },
+      "transcript_context": {
+        "word": "Claude,",
+        "word_start": 492.836,
+        "sentence": "So /goal basically lets you tell Claude, \"Hey, I want you to do this, and you're not going to stop until you hit that condition.\" So a really, really simple example, \"Hey, Claude, go ahead and do some research on the best riddles and don't stop until you can pull back three riddles that you would consider very hard to solve.\" So in this case, the objective that it's going for is finding those three riddles.",
+        "sentence_start": 490.856,
+        "sentence_end": 514.516,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 52,
+      "timestamp": 509.5,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "solve.\"",
+        "word_start": 507.956,
+        "sentence": "So /goal basically lets you tell Claude, \"Hey, I want you to do this, and you're not going to stop until you hit that condition.\" So a really, really simple example, \"Hey, Claude, go ahead and do some research on the best riddles and don't stop until you can pull back three riddles that you would consider very hard to solve.\" So in this case, the objective that it's going for is finding those three riddles.",
+        "sentence_start": 490.856,
+        "sentence_end": 514.516,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 53,
+      "timestamp": 528.0,
+      "type": "motion_high",
+      "duration": 2.0,
+      "confidence": 0.7,
+      "properties": {},
+      "transcript_context": {
+        "word": "And",
+        "word_start": 527.896,
+        "sentence": "And the thing about this /goal is, when this came out, I think a lot of people were trying to do the demos where it's like, \"Wow, my agent's been doing /goal for 24 hours or 48 hours.\" And yes, that's very cool, but I've never done that and I don't really need to.",
+        "sentence_start": 527.896,
+        "sentence_end": 540.636,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 54,
+      "timestamp": 528.0,
+      "type": "zoom_out",
+      "duration": 1.5,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "And",
+        "word_start": 527.896,
+        "sentence": "And the thing about this /goal is, when this came out, I think a lot of people were trying to do the demos where it's like, \"Wow, my agent's been doing /goal for 24 hours or 48 hours.\" And yes, that's very cool, but I've never done that and I don't really need to.",
+        "sentence_start": 527.896,
+        "sentence_end": 540.636,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 55,
+      "timestamp": 547.0,
+      "type": "scene_change",
+      "duration": 30.0,
+      "confidence": 0.354,
+      "properties": {
+        "kind": "dissolve",
+        "scd_score": 2.83
+      },
+      "transcript_context": {
+        "word": "bed",
+        "word_start": 546.816,
+        "sentence": "What I like about /goal is I can shoot off a goal, I can give it a very clear definition of done, and I can go to bed or I can go make lunch.",
+        "sentence_start": 540.856,
+        "sentence_end": 548.576,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 56,
+      "timestamp": 551.0,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "actually",
+        "word_start": 550.856,
+        "sentence": "And I can have pretty high confidence that when I come back, it actually will be done, because it has verification in there.",
+        "sentence_start": 548.836,
+        "sentence_end": 553.496,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 57,
+      "timestamp": 554.5,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 0.7,
+      "properties": {},
+      "transcript_context": {
+        "word": "43",
+        "word_start": 554.396,
+        "sentence": "You can see this goal took 43 seconds.",
+        "sentence_start": 553.516,
+        "sentence_end": 555.106,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 58,
+      "timestamp": 557.5,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 0.722,
+      "properties": {},
+      "transcript_context": {
+        "word": "me",
+        "word_start": 557.456,
+        "sentence": "And the output isn't anything phenomenal, but it just gives me a little bit of confidence.",
+        "sentence_start": 555.396,
+        "sentence_end": 558.346,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 59,
+      "timestamp": 579.0,
+      "type": "scene_change",
+      "duration": 21.0,
+      "confidence": 0.056,
+      "properties": {
+        "kind": "dissolve",
+        "scd_score": 0.45
+      },
+      "transcript_context": {
+        "word": "the",
+        "word_start": 578.916,
+        "sentence": "But when I first built this, the globe took like a second every time to load in.",
+        "sentence_start": 577.816,
+        "sentence_end": 581.695,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 60,
+      "timestamp": 590.5,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "now",
+        "word_start": 590.436,
+        "sentence": "So I said, \"Hey, /goal, look at the globe element and don't stop optimizing this page until the user would refresh and the globe appears instantly.\" And now it's basically instant.",
+        "sentence_start": 581.736,
+        "sentence_end": 591.556,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 61,
+      "timestamp": 600.0,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "for.",
+        "word_start": 599.836,
+        "sentence": "So that's just a good example of something that you can use /goal for.",
+        "sentence_start": 597.156,
+        "sentence_end": 599.956,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 62,
+      "timestamp": 601.0,
+      "type": "scene_change",
+      "duration": 45.0,
+      "confidence": 0.227,
+      "properties": {
+        "kind": "dissolve",
+        "scd_score": 1.82
+      },
+      "transcript_context": {
+        "word": "to",
+        "word_start": 600.956,
+        "sentence": "Okay, moving on to number 11, we have Ultra Plan.",
+        "sentence_start": 600.196,
+        "sentence_end": 602.836,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 63,
+      "timestamp": 606.5,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "love",
+        "word_start": 606.336,
+        "sentence": "And I love using this Ultra Plan thing when I need to really, really put some effort into a big task and I want to plan first.",
+        "sentence_start": 606.056,
+        "sentence_end": 612.876,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 64,
+      "timestamp": 607.0,
+      "type": "motion_high",
+      "duration": 19.0,
+      "confidence": 0.7,
+      "properties": {},
+      "transcript_context": {
+        "word": "love",
+        "word_start": 606.336,
+        "sentence": "And I love using this Ultra Plan thing when I need to really, really put some effort into a big task and I want to plan first.",
+        "sentence_start": 606.056,
+        "sentence_end": 612.876,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 65,
+      "timestamp": 613.5,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "because",
+        "word_start": 613.456,
+        "sentence": "And this one's cool, because you can just type Ultra Plan and it does the whole little rainbow color.",
+        "sentence_start": 612.916,
+        "sentence_end": 616.076,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 66,
+      "timestamp": 626.0,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "super,",
+        "word_start": 625.776,
+        "sentence": "And at this point, that's a super, super ambiguous thing, right?",
+        "sentence_start": 624.906,
+        "sentence_end": 627.596,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 67,
+      "timestamp": 633.0,
+      "type": "zoom_out",
+      "duration": 1.5,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "I",
+        "word_start": 632.956,
+        "sentence": "So I can click on this link right here, open this up, and then what happens is, after it clones the repo and it does all of this, you know, the compute in the cloud, we're able to just basically bring that back into the terminal, or we could start executing upon the plan right here in Claude on the web.",
+        "sentence_start": 632.816,
+        "sentence_end": 645.836,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 68,
+      "timestamp": 634.0,
+      "type": "motion_high",
+      "duration": 12.0,
+      "confidence": 0.7,
+      "properties": {},
+      "transcript_context": {
+        "word": "link",
+        "word_start": 633.856,
+        "sentence": "So I can click on this link right here, open this up, and then what happens is, after it clones the repo and it does all of this, you know, the compute in the cloud, we're able to just basically bring that back into the terminal, or we could start executing upon the plan right here in Claude on the web.",
+        "sentence_start": 632.816,
+        "sentence_end": 645.836,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 69,
+      "timestamp": 653.0,
+      "type": "scene_change",
+      "duration": 18.0,
+      "confidence": 0.621,
+      "properties": {
+        "kind": "dissolve",
+        "scd_score": 4.97
+      },
+      "transcript_context": {
+        "word": "still",
+        "word_start": 652.896,
+        "sentence": "And right here, we're able to actually keep working while the cloud version is still planning.",
+        "sentence_start": 649.776,
+        "sentence_end": 653.396,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 70,
+      "timestamp": 656.5,
+      "type": "zoom_out",
+      "duration": 0.5,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "I'm",
+        "word_start": 656.456,
+        "sentence": "So what I'm able to do is come into here, I can type a /insights, and it generates a report on the past 30 days of how we've been using Claude Code.",
+        "sentence_start": 656.276,
+        "sentence_end": 663.116,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 71,
+      "timestamp": 657.0,
+      "type": "motion_high",
+      "duration": 1.0,
+      "confidence": 0.7,
+      "properties": {},
+      "transcript_context": {
+        "word": "do",
+        "word_start": 656.836,
+        "sentence": "So what I'm able to do is come into here, I can type a /insights, and it generates a report on the past 30 days of how we've been using Claude Code.",
+        "sentence_start": 656.276,
+        "sentence_end": 663.116,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 72,
+      "timestamp": 670.0,
+      "type": "motion_high",
+      "duration": 1.0,
+      "confidence": 0.7,
+      "properties": {},
+      "transcript_context": {
+        "word": "build.\"",
+        "word_start": 669.716,
+        "sentence": "Here's maybe some skills you should build.\" So when it gives you that HTML report, this is what it looks like.",
+        "sentence_start": 668.716,
+        "sentence_end": 672.436,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 73,
+      "timestamp": 670.5,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "gives",
+        "word_start": 670.416,
+        "sentence": "Here's maybe some skills you should build.\" So when it gives you that HTML report, this is what it looks like.",
+        "sentence_start": 668.716,
+        "sentence_end": 672.436,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 74,
+      "timestamp": 673.0,
+      "type": "scene_change",
+      "duration": 30.0,
+      "confidence": 0.068,
+      "properties": {
+        "kind": "dissolve",
+        "scd_score": 0.55
+      },
+      "transcript_context": {
+        "word": "went",
+        "word_start": 672.956,
+        "sentence": "You can see it went over 1,500 messages across 153 sessions, and these are the dates that it ran it from.",
+        "sentence_start": 672.476,
+        "sentence_end": 678.576,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 75,
+      "timestamp": 691.0,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "workflows.",
+        "word_start": 690.836,
+        "sentence": "But anyways, we get to see what's working, what's hindering you, quick wins to try, and ambitious workflows.",
+        "sentence_start": 686.056,
+        "sentence_end": 691.335,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 76,
+      "timestamp": 693.5,
+      "type": "zoom_out",
+      "duration": 5.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "jump",
+        "word_start": 693.416,
+        "sentence": "And we have this kind of like table of contents where you can jump around to where things go wrong or, you know, different features and things like that.",
+        "sentence_start": 691.556,
+        "sentence_end": 698.216,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 77,
+      "timestamp": 694.0,
+      "type": "motion_high",
+      "duration": 9.0,
+      "confidence": 0.7,
+      "properties": {},
+      "transcript_context": {
+        "word": "around",
+        "word_start": 693.616,
+        "sentence": "And we have this kind of like table of contents where you can jump around to where things go wrong or, you know, different features and things like that.",
+        "sentence_start": 691.556,
+        "sentence_end": 698.216,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 78,
+      "timestamp": 704.0,
+      "type": "scene_change",
+      "duration": 48.0,
+      "confidence": 0.298,
+      "properties": {
+        "kind": "dissolve",
+        "scd_score": 2.38
+      },
+      "transcript_context": {
+        "word": "number",
+        "word_start": 703.956,
+        "sentence": "Okay, so number nine, we have Auto Memory.",
+        "sentence_start": 703.536,
+        "sentence_end": 705.776,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 79,
+      "timestamp": 708.5,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "basically,",
+        "word_start": 708.456,
+        "sentence": "But basically, this is just the idea that Claude is auto-improving the memory without you prompting to do stuff.",
+        "sentence_start": 708.276,
+        "sentence_end": 713.016,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 80,
+      "timestamp": 709.0,
+      "type": "motion_high",
+      "duration": 18.0,
+      "confidence": 0.7,
+      "properties": {},
+      "transcript_context": {
+        "word": "is",
+        "word_start": 708.976,
+        "sentence": "But basically, this is just the idea that Claude is auto-improving the memory without you prompting to do stuff.",
+        "sentence_start": 708.276,
+        "sentence_end": 713.016,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 81,
+      "timestamp": 724.0,
+      "type": "zoom_out",
+      "duration": 2.5,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "And",
+        "word_start": 723.916,
+        "sentence": "And yeah, by the way, I canceled all of the, uh, Ultra Plan.",
+        "sentence_start": 723.916,
+        "sentence_end": 726.496,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 82,
+      "timestamp": 737.5,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "right,",
+        "word_start": 737.48,
+        "sentence": "All right, so number eight, we have agent teams.",
+        "sentence_start": 737.4,
+        "sentence_end": 739.58,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 83,
+      "timestamp": 751.0,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "do",
+        "word_start": 750.92,
+        "sentence": "It is token intensive, but whenever I realize, \"Okay, my session's gonna end, my five-hour window's gonna end in 30 minutes and I have 50% of my session left, let me spin up some agent teams and just do some fun stuff.\" So what I love to do, and what you can actually see right down here with these agents that are just sitting and waiting, is I love to create panels.",
+        "sentence_start": 741.56,
+        "sentence_end": 757.96,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 84,
+      "timestamp": 782.0,
+      "type": "scene_change",
+      "duration": 16.0,
+      "confidence": 0.054,
+      "properties": {
+        "kind": "dissolve",
+        "scd_score": 0.43
+      },
+      "transcript_context": {
+        "word": ".Claude",
+        "word_start": 781.6,
+        "sentence": "And the way that you have to do this is in your .Claude inside of your settings, you have to enable the Claude Code agent teams, because right now it is an experimental feature.",
+        "sentence_start": 780.1,
+        "sentence_end": 789.1,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 85,
+      "timestamp": 784.0,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "you",
+        "word_start": 784.0,
+        "sentence": "And the way that you have to do this is in your .Claude inside of your settings, you have to enable the Claude Code agent teams, because right now it is an experimental feature.",
+        "sentence_start": 780.1,
+        "sentence_end": 789.1,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 86,
+      "timestamp": 792.0,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "to",
+        "word_start": 791.98,
+        "sentence": "So if you put this into your settings, then you will be able to actually use it.",
+        "sentence_start": 789.14,
+        "sentence_end": 792.56,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 87,
+      "timestamp": 793.0,
+      "type": "motion_high",
+      "duration": 3.0,
+      "confidence": 0.7,
+      "properties": {},
+      "transcript_context": {
+        "word": "can",
+        "word_start": 792.88,
+        "sentence": "And you can pretty much invoke the agent team creation with completely natural language.",
+        "sentence_start": 792.73,
+        "sentence_end": 796.35,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 88,
+      "timestamp": 796.0,
+      "type": "zoom_out",
+      "duration": 0.5,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "natural",
+        "word_start": 795.78,
+        "sentence": "And you can pretty much invoke the agent team creation with completely natural language.",
+        "sentence_start": 792.73,
+        "sentence_end": 796.35,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 89,
+      "timestamp": 803.0,
+      "type": "scene_change",
+      "duration": 23.0,
+      "confidence": 0.535,
+      "properties": {
+        "kind": "dissolve",
+        "scd_score": 4.28
+      },
+      "transcript_context": {
+        "word": "checkpoint.",
+        "word_start": 802.54,
+        "sentence": "Okay, number seven, we have /rewind, which lets you roll back code and your conversation to an earlier checkpoint.",
+        "sentence_start": 796.58,
+        "sentence_end": 802.98,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 90,
+      "timestamp": 815.0,
+      "type": "zoom_out",
+      "duration": 3.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "instead.\"",
+        "word_start": 814.72,
+        "sentence": "Do it this way instead.\" And you literally can just do a /rewind, and then you can choose the exact prompt, the exact point in this conversation on where you need to actually do it.",
+        "sentence_start": 814.25,
+        "sentence_end": 823.46,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 91,
+      "timestamp": 816.0,
+      "type": "motion_high",
+      "duration": 1.0,
+      "confidence": 0.7,
+      "properties": {},
+      "transcript_context": {
+        "word": "literally",
+        "word_start": 815.7,
+        "sentence": "Do it this way instead.\" And you literally can just do a /rewind, and then you can choose the exact prompt, the exact point in this conversation on where you need to actually do it.",
+        "sentence_start": 814.25,
+        "sentence_end": 823.46,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 92,
+      "timestamp": 823.0,
+      "type": "motion_high",
+      "duration": 3.0,
+      "confidence": 0.7,
+      "properties": {},
+      "transcript_context": {
+        "word": "actually",
+        "word_start": 822.36,
+        "sentence": "Do it this way instead.\" And you literally can just do a /rewind, and then you can choose the exact prompt, the exact point in this conversation on where you need to actually do it.",
+        "sentence_start": 814.25,
+        "sentence_end": 823.46,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 93,
+      "timestamp": 823.0,
+      "type": "zoom_out",
+      "duration": 3.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "actually",
+        "word_start": 822.36,
+        "sentence": "Do it this way instead.\" And you literally can just do a /rewind, and then you can choose the exact prompt, the exact point in this conversation on where you need to actually do it.",
+        "sentence_start": 814.25,
+        "sentence_end": 823.46,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 94,
+      "timestamp": 827.0,
+      "type": "scene_change",
+      "duration": 43.0,
+      "confidence": 0.116,
+      "properties": {
+        "kind": "dissolve",
+        "scd_score": 0.93
+      },
+      "transcript_context": {
+        "word": "six,",
+        "word_start": 826.82,
+        "sentence": "All right, so number six, we have sub-agents.",
+        "sentence_start": 826.1,
+        "sentence_end": 827.92,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 95,
+      "timestamp": 843.5,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "invoked",
+        "word_start": 843.18,
+        "sentence": "They only talk to the main terminal session that invoked them.",
+        "sentence_start": 840.98,
+        "sentence_end": 843.72,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 96,
+      "timestamp": 851.5,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 0.917,
+      "properties": {},
+      "transcript_context": {
+        "word": "can",
+        "word_start": 851.5,
+        "sentence": "So you can create these markdown files of agents that get invoked the same way a skill does pretty much, and you're customizing what that agent does and what tools it may use, and any skills that live inside of an agent.",
+        "sentence_start": 851.34,
+        "sentence_end": 861.34,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 97,
+      "timestamp": 857.5,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 0.905,
+      "properties": {},
+      "transcript_context": {
+        "word": "does",
+        "word_start": 857.5,
+        "sentence": "So you can create these markdown files of agents that get invoked the same way a skill does pretty much, and you're customizing what that agent does and what tools it may use, and any skills that live inside of an agent.",
+        "sentence_start": 851.34,
+        "sentence_end": 861.34,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 98,
+      "timestamp": 858.0,
+      "type": "motion_high",
+      "duration": 12.0,
+      "confidence": 0.7,
+      "properties": {},
+      "transcript_context": {
+        "word": "does",
+        "word_start": 857.5,
+        "sentence": "So you can create these markdown files of agents that get invoked the same way a skill does pretty much, and you're customizing what that agent does and what tools it may use, and any skills that live inside of an agent.",
+        "sentence_start": 851.34,
+        "sentence_end": 861.34,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 99,
+      "timestamp": 865.0,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 0.475,
+      "properties": {},
+      "transcript_context": {
+        "word": "favorite",
+        "word_start": 864.8,
+        "sentence": "So I use sub-agents a lot, and it's one of my favorite features.",
+        "sentence_start": 861.62,
+        "sentence_end": 865.42,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 100,
+      "timestamp": 869.5,
+      "type": "zoom_out",
+      "duration": 1.5,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "have",
+        "word_start": 869.48,
+        "sentence": "This is basically the ability to just have a prompt in your terminal repeat.",
+        "sentence_start": 867.66,
+        "sentence_end": 871.32,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 101,
+      "timestamp": 872.0,
+      "type": "scene_change",
+      "duration": 28.0,
+      "confidence": 0.345,
+      "properties": {
+        "kind": "dissolve",
+        "scd_score": 2.76
+      },
+      "transcript_context": {
+        "word": "come",
+        "word_start": 871.98,
+        "sentence": "So I could come in here and I could do a /loop and say, \"Every minute, just remind me to use the restroom.\" And then when I kick that off, it basically will use a cron create tool, and it will set up that local cron to remind me to use the restroom.",
+        "sentence_start": 871.68,
+        "sentence_end": 885.36,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 102,
+      "timestamp": 878.5,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "off,",
+        "word_start": 878.22,
+        "sentence": "So I could come in here and I could do a /loop and say, \"Every minute, just remind me to use the restroom.\" And then when I kick that off, it basically will use a cron create tool, and it will set up that local cron to remind me to use the restroom.",
+        "sentence_start": 871.68,
+        "sentence_end": 885.36,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 103,
+      "timestamp": 900.0,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "you",
+        "word_start": 899.96,
+        "sentence": "But you also don't have to do /loop to invoke it.",
+        "sentence_start": 899.88,
+        "sentence_end": 901.92,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 104,
+      "timestamp": 913.0,
+      "type": "scene_change",
+      "duration": 19.0,
+      "confidence": 0.108,
+      "properties": {
+        "kind": "dissolve",
+        "scd_score": 0.86
+      },
+      "transcript_context": {
+        "word": "days.",
+        "word_start": 912.88,
+        "sentence": "You can just say, \"Hey, set up a recurring loop to do this every 10 minutes, every 20 minutes, every hour.\" And they should run for, like, seven days and then they'll automatically shut down if the terminal's been open for longer than seven days.",
+        "sentence_start": 902.44,
+        "sentence_end": 913.14,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 105,
+      "timestamp": 916.0,
+      "type": "zoom_out",
+      "duration": 0.5,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "reminders.",
+        "word_start": 915.9,
+        "sentence": "So there you go, it just got kicked off again, and now I got two reminders.",
+        "sentence_start": 913.38,
+        "sentence_end": 916.52,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 106,
+      "timestamp": 922.5,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "web.",
+        "word_start": 922.14,
+        "sentence": "All right, so number four, we have remote control, the ability to drive your local Claude Code session from your phone or the web.",
+        "sentence_start": 916.54,
+        "sentence_end": 922.6,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 107,
+      "timestamp": 923.0,
+      "type": "motion_high",
+      "duration": 7.0,
+      "confidence": 0.7,
+      "properties": {},
+      "transcript_context": {
+        "word": "love",
+        "word_start": 922.84,
+        "sentence": "And I love this one.",
+        "sentence_start": 922.62,
+        "sentence_end": 923.51,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 108,
+      "timestamp": 929.0,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "it",
+        "word_start": 928.98,
+        "sentence": "So I come in here and I can just, like, let's say I'm working on this project and I wanna go take a walk or go down to the gym or whatever it is.",
+        "sentence_start": 923.52,
+        "sentence_end": 929.28,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 109,
+      "timestamp": 931.0,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 0.7,
+      "properties": {},
+      "transcript_context": {
+        "word": "remote",
+        "word_start": 930.88,
+        "sentence": "I can just go ahead and do a remote control command, and I can say enable remote control, and then it gives me this link, which if I open that up from my phone or I even just go into the Claude app on my phone, go to Code, and then I hit it up top, I can control it.",
+        "sentence_start": 929.76,
+        "sentence_end": 942.36,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 110,
+      "timestamp": 934.0,
+      "type": "scene_change",
+      "duration": 15.0,
+      "confidence": 0.14,
+      "properties": {
+        "kind": "dissolve",
+        "scd_score": 1.12
+      },
+      "transcript_context": {
+        "word": "control,",
+        "word_start": 933.84,
+        "sentence": "I can just go ahead and do a remote control command, and I can say enable remote control, and then it gives me this link, which if I open that up from my phone or I even just go into the Claude app on my phone, go to Code, and then I hit it up top, I can control it.",
+        "sentence_start": 929.76,
+        "sentence_end": 942.36,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 111,
+      "timestamp": 942.0,
+      "type": "zoom_out",
+      "duration": 1.5,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "control",
+        "word_start": 941.78,
+        "sentence": "I can just go ahead and do a remote control command, and I can say enable remote control, and then it gives me this link, which if I open that up from my phone or I even just go into the Claude app on my phone, go to Code, and then I hit it up top, I can control it.",
+        "sentence_start": 929.76,
+        "sentence_end": 942.36,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 112,
+      "timestamp": 944.0,
+      "type": "motion_high",
+      "duration": 5.0,
+      "confidence": 0.7,
+      "properties": {},
+      "transcript_context": {
+        "word": "phone,",
+        "word_start": 943.9,
+        "sentence": "So I'm not sure if you guys will be able to see this, but on my phone, you can basically see that it gives me those bathroom reminders, right?",
+        "sentence_start": 942.38,
+        "sentence_end": 947.08,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 113,
+      "timestamp": 944.0,
+      "type": "zoom_in",
+      "duration": 3.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "phone,",
+        "word_start": 943.9,
+        "sentence": "So I'm not sure if you guys will be able to see this, but on my phone, you can basically see that it gives me those bathroom reminders, right?",
+        "sentence_start": 942.38,
+        "sentence_end": 947.08,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 114,
+      "timestamp": 949.0,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 0.97,
+      "properties": {},
+      "transcript_context": {
+        "word": "the",
+        "word_start": 948.94,
+        "sentence": "Like, \"Hey, um, time to use the restroom.\" And I can say, \"Thank you\" on my phone after it's running another one of those loops.",
+        "sentence_start": 947.36,
+        "sentence_end": 953.7,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 115,
+      "timestamp": 951.0,
+      "type": "scene_change",
+      "duration": 30.0,
+      "confidence": 0.103,
+      "properties": {
+        "kind": "dissolve",
+        "scd_score": 0.82
+      },
+      "transcript_context": {
+        "word": "you\"",
+        "word_start": 950.82,
+        "sentence": "Like, \"Hey, um, time to use the restroom.\" And I can say, \"Thank you\" on my phone after it's running another one of those loops.",
+        "sentence_start": 947.36,
+        "sentence_end": 953.7,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 116,
+      "timestamp": 958.5,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "basically",
+        "word_start": 958.3,
+        "sentence": "So this is basically completely synced locally from my phone to what's going on there.",
+        "sentence_start": 957.66,
+        "sentence_end": 961.74,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 117,
+      "timestamp": 959.0,
+      "type": "motion_high",
+      "duration": 9.0,
+      "confidence": 0.7,
+      "properties": {},
+      "transcript_context": {
+        "word": "completely",
+        "word_start": 958.68,
+        "sentence": "So this is basically completely synced locally from my phone to what's going on there.",
+        "sentence_start": 957.66,
+        "sentence_end": 961.74,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 118,
+      "timestamp": 967.5,
+      "type": "zoom_out",
+      "duration": 0.5,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "things.",
+        "word_start": 967.5,
+        "sentence": "So I love doing this, like I said, when I just wanna go take a quick walk, but I wanna keep that session going and keep brainstorming or keep building things.",
+        "sentence_start": 962.0,
+        "sentence_end": 967.8,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 119,
+      "timestamp": 977.5,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 0.989,
+      "properties": {},
+      "transcript_context": {
+        "word": "scheduling",
+        "word_start": 977.14,
+        "sentence": "You're scheduling your Claude Code terminal the exact same way that you would talk to it right here.",
+        "sentence_start": 977.02,
+        "sentence_end": 980.72,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 120,
+      "timestamp": 978.0,
+      "type": "motion_high",
+      "duration": 3.0,
+      "confidence": 0.7,
+      "properties": {},
+      "transcript_context": {
+        "word": "Code",
+        "word_start": 977.96,
+        "sentence": "You're scheduling your Claude Code terminal the exact same way that you would talk to it right here.",
+        "sentence_start": 977.02,
+        "sentence_end": 980.72,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 121,
+      "timestamp": 981.0,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 0.669,
+      "properties": {},
+      "transcript_context": {
+        "word": "And",
+        "word_start": 980.88,
+        "sentence": "And you can literally just do, like, a /schedule in order to create some sort of r- uh, routine, but that's why I like to use the desktop app, is because I just like to create them in here.",
+        "sentence_start": 980.88,
+        "sentence_end": 989.459,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 122,
+      "timestamp": 982.0,
+      "type": "scene_change",
+      "duration": 11.0,
+      "confidence": 0.191,
+      "properties": {
+        "kind": "dissolve",
+        "scd_score": 1.53
+      },
+      "transcript_context": {
+        "word": "a",
+        "word_start": 981.96,
+        "sentence": "And you can literally just do, like, a /schedule in order to create some sort of r- uh, routine, but that's why I like to use the desktop app, is because I just like to create them in here.",
+        "sentence_start": 980.88,
+        "sentence_end": 989.459,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 123,
+      "timestamp": 988.0,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 0.821,
+      "properties": {},
+      "transcript_context": {
+        "word": "is",
+        "word_start": 987.94,
+        "sentence": "And you can literally just do, like, a /schedule in order to create some sort of r- uh, routine, but that's why I like to use the desktop app, is because I just like to create them in here.",
+        "sentence_start": 980.88,
+        "sentence_end": 989.459,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 124,
+      "timestamp": 990.0,
+      "type": "zoom_out",
+      "duration": 3.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "is",
+        "word_start": 990.0,
+        "sentence": "And this is where I can view them, I can view it on a calendar, I can view it based on a list, I can set up a local routine or I can set up a cloud routine, and it's just really cool because you get, like, an actual agent on a routine rather than just getting sort of, like, AI calls or API calls.",
+        "sentence_start": 989.8,
+        "sentence_end": 1003.76,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 125,
+      "timestamp": 991.0,
+      "type": "motion_high",
+      "duration": 2.0,
+      "confidence": 0.7,
+      "properties": {},
+      "transcript_context": {
+        "word": "can",
+        "word_start": 990.959,
+        "sentence": "And this is where I can view them, I can view it on a calendar, I can view it based on a list, I can set up a local routine or I can set up a cloud routine, and it's just really cool because you get, like, an actual agent on a routine rather than just getting sort of, like, AI calls or API calls.",
+        "sentence_start": 989.8,
+        "sentence_end": 1003.76,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 126,
+      "timestamp": 994.0,
+      "type": "scene_change",
+      "duration": 39.0,
+      "confidence": 0.076,
+      "properties": {
+        "kind": "dissolve",
+        "scd_score": 0.61
+      },
+      "transcript_context": {
+        "word": "set",
+        "word_start": 993.98,
+        "sentence": "And this is where I can view them, I can view it on a calendar, I can view it based on a list, I can set up a local routine or I can set up a cloud routine, and it's just really cool because you get, like, an actual agent on a routine rather than just getting sort of, like, AI calls or API calls.",
+        "sentence_start": 989.8,
+        "sentence_end": 1003.76,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 127,
+      "timestamp": 1003.5,
+      "type": "zoom_out",
+      "duration": 1.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "calls.",
+        "word_start": 1003.44,
+        "sentence": "And this is where I can view them, I can view it on a calendar, I can view it based on a list, I can set up a local routine or I can set up a cloud routine, and it's just really cool because you get, like, an actual agent on a routine rather than just getting sort of, like, AI calls or API calls.",
+        "sentence_start": 989.8,
+        "sentence_end": 1003.76,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 128,
+      "timestamp": 1008.0,
+      "type": "zoom_out",
+      "duration": 1.5,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "of",
+        "word_start": 1007.94,
+        "sentence": "This is probably one of the most slept-on things ever, and it's what you guys notice down here at the bottom of my screen.",
+        "sentence_start": 1006.94,
+        "sentence_end": 1011.86,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 129,
+      "timestamp": 1009.0,
+      "type": "motion_high",
+      "duration": 3.0,
+      "confidence": 0.7,
+      "properties": {},
+      "transcript_context": {
+        "word": "things",
+        "word_start": 1008.96,
+        "sentence": "This is probably one of the most slept-on things ever, and it's what you guys notice down here at the bottom of my screen.",
+        "sentence_start": 1006.94,
+        "sentence_end": 1011.86,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 130,
+      "timestamp": 1032.0,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 0.498,
+      "properties": {},
+      "transcript_context": {
+        "word": "it's",
+        "word_start": 1031.92,
+        "sentence": "But it's the easiest fix ever.",
+        "sentence_start": 1031.84,
+        "sentence_end": 1033.04,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 131,
+      "timestamp": 1037.0,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 0.854,
+      "properties": {},
+      "transcript_context": {
+        "word": "what",
+        "word_start": 1036.86,
+        "sentence": "You literally can just do /status_line, as you see, and you can just say exactly what you want.",
+        "sentence_start": 1033.16,
+        "sentence_end": 1037.42,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 132,
+      "timestamp": 1038.0,
+      "type": "scene_change",
+      "duration": 22.0,
+      "confidence": 0.496,
+      "properties": {
+        "kind": "dissolve",
+        "scd_score": 3.97
+      },
+      "transcript_context": {
+        "word": "could",
+        "word_start": 1037.84,
+        "sentence": "You could give your Claude Code a screenshot of this and say, \"Hey, I want this to be shown on my status line.\" It's so nice to be able to see the model, the effort level, and obviously the context so I know when I need to run my session handoff skill and when I need to clear and when I need to compact and stuff like that.",
+        "sentence_start": 1037.78,
+        "sentence_end": 1052.8,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 133,
+      "timestamp": 1046.0,
+      "type": "zoom_out",
+      "duration": 0.5,
+      "confidence": 0.744,
+      "properties": {},
+      "transcript_context": {
+        "word": "obviously",
+        "word_start": 1045.94,
+        "sentence": "You could give your Claude Code a screenshot of this and say, \"Hey, I want this to be shown on my status line.\" It's so nice to be able to see the model, the effort level, and obviously the context so I know when I need to run my session handoff skill and when I need to clear and when I need to compact and stuff like that.",
+        "sentence_start": 1037.78,
+        "sentence_end": 1052.8,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 134,
+      "timestamp": 1053.5,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 0.617,
+      "properties": {},
+      "transcript_context": {
+        "word": "features",
+        "word_start": 1053.32,
+        "sentence": "And two of the features we talked about earlier, one of them was /context.",
+        "sentence_start": 1052.96,
+        "sentence_end": 1055.96,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 135,
+      "timestamp": 1055.5,
+      "type": "zoom_out",
+      "duration": 3.5,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "/context.",
+        "word_start": 1055.14,
+        "sentence": "And two of the features we talked about earlier, one of them was /context.",
+        "sentence_start": 1052.96,
+        "sentence_end": 1055.96,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 136,
+      "timestamp": 1058.0,
+      "type": "motion_high",
+      "duration": 2.0,
+      "confidence": 0.7,
+      "properties": {},
+      "transcript_context": {
+        "word": "window",
+        "word_start": 1057.86,
+        "sentence": "So we can visualize what's actually gone into this window and what might be silently eating up tokens, and then the other one was /usage, which lets us actually see, um, you know, our session and our week and some other stats like what models we use and how many tokens, and just gives us some visibility into some of the stuff.",
+        "sentence_start": 1056.08,
+        "sentence_end": 1072.08,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 137,
+      "timestamp": 1061.0,
+      "type": "scene_change",
+      "duration": 11.0,
+      "confidence": 0.113,
+      "properties": {
+        "kind": "dissolve",
+        "scd_score": 0.9
+      },
+      "transcript_context": {
+        "word": "one",
+        "word_start": 1060.88,
+        "sentence": "So we can visualize what's actually gone into this window and what might be silently eating up tokens, and then the other one was /usage, which lets us actually see, um, you know, our session and our week and some other stats like what models we use and how many tokens, and just gives us some visibility into some of the stuff.",
+        "sentence_start": 1056.08,
+        "sentence_end": 1072.08,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 138,
+      "timestamp": 1063.0,
+      "type": "zoom_out",
+      "duration": 3.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "lets",
+        "word_start": 1062.98,
+        "sentence": "So we can visualize what's actually gone into this window and what might be silently eating up tokens, and then the other one was /usage, which lets us actually see, um, you know, our session and our week and some other stats like what models we use and how many tokens, and just gives us some visibility into some of the stuff.",
+        "sentence_start": 1056.08,
+        "sentence_end": 1072.08,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 139,
+      "timestamp": 1064.0,
+      "type": "motion_high",
+      "duration": 4.0,
+      "confidence": 0.7,
+      "properties": {},
+      "transcript_context": {
+        "word": "see,",
+        "word_start": 1063.94,
+        "sentence": "So we can visualize what's actually gone into this window and what might be silently eating up tokens, and then the other one was /usage, which lets us actually see, um, you know, our session and our week and some other stats like what models we use and how many tokens, and just gives us some visibility into some of the stuff.",
+        "sentence_start": 1056.08,
+        "sentence_end": 1072.08,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 140,
+      "timestamp": 1070.0,
+      "type": "zoom_out",
+      "duration": 1.5,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "and",
+        "word_start": 1069.42,
+        "sentence": "So we can visualize what's actually gone into this window and what might be silently eating up tokens, and then the other one was /usage, which lets us actually see, um, you know, our session and our week and some other stats like what models we use and how many tokens, and just gives us some visibility into some of the stuff.",
+        "sentence_start": 1056.08,
+        "sentence_end": 1072.08,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 141,
+      "timestamp": 1076.0,
+      "type": "scene_change",
+      "duration": 33.0,
+      "confidence": 0.169,
+      "properties": {
+        "kind": "dissolve",
+        "scd_score": 1.35
+      },
+      "transcript_context": {
+        "word": "exactly",
+        "word_start": 1075.82,
+        "sentence": "And then, last but not least, number one, a lot of you guys will probably guess exactly what this is, and this is skills.",
+        "sentence_start": 1072.1,
+        "sentence_end": 1077.88,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 142,
+      "timestamp": 1089.5,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 0.89,
+      "properties": {},
+      "transcript_context": {
+        "word": "And",
+        "word_start": 1089.44,
+        "sentence": "And the cool thing about skills is, not only can you build your own, but you can pull in a bunch of skills from other people.",
+        "sentence_start": 1089.44,
+        "sentence_end": 1094.2,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 143,
+      "timestamp": 1121.0,
+      "type": "scene_change",
+      "duration": 31.0,
+      "confidence": 0.097,
+      "properties": {
+        "kind": "dissolve",
+        "scd_score": 0.78
+      },
+      "transcript_context": {
+        "word": "bunch",
+        "word_start": 1120.904,
+        "sentence": "And so now that we've given our agent a bunch of these recipes, it knows exactly how I like to do Excalibur presentations, or to make thumbnails, or to trim videos, or whatever it is.",
+        "sentence_start": 1119.514,
+        "sentence_end": 1127.564,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 144,
+      "timestamp": 1141.5,
+      "type": "zoom_out",
+      "duration": 1.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "skill,",
+        "word_start": 1140.984,
+        "sentence": "They could be as simple as the session handoff skill, which is literally, it just invokes a prompt.",
+        "sentence_start": 1139.604,
+        "sentence_end": 1144.033,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 145,
+      "timestamp": 1145.0,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "four-sentence",
+        "word_start": 1144.564,
+        "sentence": "It's like a four-sentence prompt that I found myself saying a lot, and now I have just turned that into one quick slash command, and it's just super easy.",
+        "sentence_start": 1144.264,
+        "sentence_end": 1151.504,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 146,
+      "timestamp": 1163.0,
+      "type": "scene_change",
+      "duration": 32.0,
+      "confidence": 0.869,
+      "properties": {
+        "kind": "dissolve",
+        "scd_score": 6.95
+      },
+      "transcript_context": {
+        "word": "Claude",
+        "word_start": 1162.804,
+        "sentence": "They don't have to be complex, but they can be, and it is, like I said, just the number one feature that I'm using on the day-to-day inside of Claude, because it's not only Claude Code, but you can also use them in Claude Chat or Claude CoWork.",
+        "sentence_start": 1152.504,
+        "sentence_end": 1163.624,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 147,
+      "timestamp": 1164.0,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "that",
+        "word_start": 1163.794,
+        "sentence": "And that is gonna do it for this one.",
+        "sentence_start": 1163.664,
+        "sentence_end": 1164.944,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 148,
+      "timestamp": 1188.5,
+      "type": "zoom_out",
+      "duration": 4.0,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "you",
+        "word_start": 1188.464,
+        "sentence": "So if you guys want to review the slide deck, I will attach this whole thing in my free school community.",
+        "sentence_start": 1188.164,
+        "sentence_end": 1191.744,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 149,
+      "timestamp": 1193.0,
+      "type": "motion_high",
+      "duration": 2.0,
+      "confidence": 0.7,
+      "properties": {},
+      "transcript_context": {
+        "word": "description.",
+        "word_start": 1192.584,
+        "sentence": "The link for that is down in the description.",
+        "sentence_start": 1191.764,
+        "sentence_end": 1193.044,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 150,
+      "timestamp": 1194.5,
+      "type": "zoom_out",
+      "duration": 0.0,
+      "confidence": 0.858,
+      "properties": {},
+      "transcript_context": {
+        "word": "You'll",
+        "word_start": 1194.494,
+        "sentence": "You'll come in here, click on Classroom, hit All YouTube Resources, and then you'll be able to see all of the resource guides, skills, GitHub repos, anything that I've ever dropped in here completely free.",
+        "sentence_start": 1194.494,
+        "sentence_end": 1203.944,
+        "is_emphasis_word": false
+      }
+    },
+    {
+      "id": 151,
+      "timestamp": 1204.0,
+      "type": "scene_change",
+      "duration": 2.0,
+      "confidence": 1.0,
+      "properties": {
+        "kind": "cut",
+        "scd_score": 9.26
+      },
+      "transcript_context": {
+        "word": "free.",
+        "word_start": 1203.764,
+        "sentence": "You'll come in here, click on Classroom, hit All YouTube Resources, and then you'll be able to see all of the resource guides, skills, GitHub repos, anything that I've ever dropped in here completely free.",
+        "sentence_start": 1194.494,
+        "sentence_end": 1203.944,
+        "is_emphasis_word": true
+      }
+    },
+    {
+      "id": 152,
+      "timestamp": 1205.0,
+      "type": "zoom_out",
+      "duration": 0.5,
+      "confidence": 1.0,
+      "properties": {},
+      "transcript_context": {
+        "word": "for",
+        "word_start": 1204.964,
+        "sentence": "But that is gonna do it for today, so if you guys enjoyed or you learned something new, please give a like.",
+        "sentence_start": 1204.124,
+        "sentence_end": 1208.084,
+        "is_emphasis_word": false
+      }
+    }
+  ]
+}

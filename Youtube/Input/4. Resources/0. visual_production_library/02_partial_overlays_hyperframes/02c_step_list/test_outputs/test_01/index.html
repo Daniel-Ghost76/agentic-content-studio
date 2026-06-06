@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html
+  data-composition-variables='[
+    {"id":"title","type":"string","label":"Title (optional)","default":"THE PROCESS"},
+    {"id":"steps","type":"string","label":"Steps (pipe-separated, 2-4 items)","default":"Connect your tools|Write the prompt|Review output"},
+    {"id":"position","type":"enum","label":"Position","default":"right-centre","options":[
+      {"value":"right-centre","label":"Right Centre"},
+      {"value":"bottom-right","label":"Bottom Right"}
+    ]},
+    {"id":"stagger_ms","type":"number","label":"Stagger Between Steps ms","default":500},
+    {"id":"hold_ms","type":"number","label":"Hold After Final Step ms","default":2000}
+  ]'
+>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      width: 1920px;
+      height: 1080px;
+      background: #09090b;
+      overflow: hidden;
+      font-family: 'Space Grotesk', system-ui, sans-serif;
+    }
+
+    /* Anchor handles positioning — GSAP animates anchor, not the card */
+    .anchor {
+      position: absolute;
+    }
+
+    .anchor.right-centre {
+      right: 160px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .anchor.bottom-right {
+      right: 160px;
+      bottom: 160px;
+    }
+
+    /* Hero-frame layout: card at full height, all steps rendered */
+    .step-list {
+      min-width: 380px;
+      max-width: 480px;
+      padding: 20px 24px;
+
+      /* Glass recipe — footage overlay variant */
+      background: rgba(255, 255, 255, 0.10);
+      backdrop-filter: blur(12px) saturate(180%);
+      -webkit-backdrop-filter: blur(12px) saturate(180%);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 12px;
+      box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.40),
+        inset 0 1px 0 rgba(255, 255, 255, 0.08);
+    }
+
+    .list-title {
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.10em;
+      text-transform: uppercase;
+      color: #a1a1aa;
+      margin-bottom: 12px;
+    }
+
+    .step-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+    }
+
+    .step-row + .step-row {
+      margin-top: 14px;
+    }
+
+    .step-num {
+      font-size: 13px;
+      font-weight: 600;
+      color: #a1a1aa;
+      min-width: 20px;
+      line-height: 1.55;
+      flex-shrink: 0;
+    }
+
+    .step-text {
+      font-size: 18px;
+      font-weight: 500;
+      color: #ffffff;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+  <div
+    data-composition-id="step-list"
+    data-width="1920"
+    data-height="1080"
+    data-start="0"
+    data-duration="5"
+    data-track-index="0"
+  >
+    <!-- Anchor positioned right-centre by default; GSAP animates the anchor -->
+    <div class="anchor right-centre" id="anchor">
+      <div class="step-list" id="card">
+        <div class="list-title" id="list-title">THE PROCESS</div>
+        <div id="steps-container"></div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <script>
+      const vars = (window.__hyperframes && window.__hyperframes.getVariables)
+        ? window.__hyperframes.getVariables()
+        : {
+            title: 'THE PROCESS',
+            steps: 'Connect your tools|Write the prompt|Review output',
+            position: 'right-centre',
+            stagger_ms: 500,
+            hold_ms: 2000
+          };
+
+      const stepsArr    = (vars.steps || '').split('|').filter(s => s.trim()).slice(0, 4);
+      const staggerSec  = Math.max(0.08, (vars.stagger_ms || 500) / 1000);
+      const holdSec     = Math.max(0.5, (vars.hold_ms || 2000) / 1000);
+      const hasTitle    = vars.title && vars.title.trim().length > 0;
+
+      // Position
+      const anchor = document.getElementById('anchor');
+      anchor.className = 'anchor ' + (vars.position === 'bottom-right' ? 'bottom-right' : 'right-centre');
+
+      // Title
+      const titleEl = document.getElementById('list-title');
+      if (hasTitle) {
+        titleEl.textContent = vars.title;
+      } else {
+        titleEl.style.display = 'none';
+      }
+
+      // Build step rows
+      const container = document.getElementById('steps-container');
+      stepsArr.forEach((step, i) => {
+        const row = document.createElement('div');
+        row.className = 'step-row';
+        row.id = 'step-row-' + i;
+        row.innerHTML =
+          '<span class="step-num">0' + (i + 1) + '</span>' +
+          '<span class="step-text">' + step.trim() + '</span>';
+        container.appendChild(row);
+      });
+
+      // Timing
+      const panelStart    = 0.1;
+      const panelDur      = 0.3;
+      const titleStart    = panelStart + 0.1;
+      const firstStepAt   = panelStart + panelDur;              // 0.4s
+      const lastStepAt    = firstStepAt + (stepsArr.length - 1) * staggerSec;
+      const exitAt        = lastStepAt + 0.25 + holdSec;
+      const totalDur      = exitAt + 0.3;
+
+      document.querySelector('[data-composition-id="step-list"]')
+        .setAttribute('data-duration', totalDur.toFixed(2));
+
+      const tl = gsap.timeline({ paused: true });
+
+      // Panel entrance — animate anchor (handles right-centre transform safely)
+      tl.from('#anchor', {
+        y: 8,
+        opacity: 0,
+        duration: panelDur,
+        ease: 'power3.out'
+      }, panelStart);
+
+      // Title fade in
+      if (hasTitle) {
+        tl.from('#list-title', {
+          opacity: 0,
+          x: 6,
+          duration: 0.2,
+          ease: 'power2.out'
+        }, titleStart);
+      }
+
+      // Steps — sequential reveal
+      stepsArr.forEach((_, i) => {
+        tl.from('#step-row-' + i, {
+          opacity: 0,
+          x: 8,
+          duration: 0.25,
+          ease: 'power2.out'
+        }, firstStepAt + i * staggerSec);
+      });
+
+      // Exit
+      tl.to('#anchor', {
+        opacity: 0,
+        duration: 0.2,
+        ease: 'power2.in',
+        overwrite: 'auto'
+      }, exitAt);
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines['step-list'] = tl;
+    </script>
+  </div>
+</body>
+</html>

@@ -350,17 +350,126 @@ def draw_badge(draw: ImageDraw.ImageDraw, x: int, y: int, label: str, fill: tupl
     draw.text((x + 20, y + 16), label, font=font(24), fill=(255, 255, 255))
 
 
-def render_thumbnail(path: Path, concept: Concept, face_path: Path | None, allow_placeholder: bool) -> None:
+def draw_base(draw: ImageDraw.ImageDraw) -> None:
+    draw.rectangle((0, 0, W, H), fill=(8, 12, 14, 255))
+    draw.ellipse((-260, -210, 860, 930), fill=(4, 56, 54, 255))
+    draw.ellipse((660, -180, 1540, 900), fill=(20, 26, 30, 255))
+    draw.ellipse((260, 260, 940, 920), fill=(7, 28, 31, 255))
+    for x in range(0, W, 64):
+        draw.line((x, 0, x, H), fill=(255, 255, 255, 18), width=1)
+    for y in range(0, H, 64):
+        draw.line((0, y, W, y), fill=(255, 255, 255, 14), width=1)
+
+
+def draw_headline(draw: ImageDraw.ImageDraw, text: str, x: int, y: int, max_width: int, primary=(255, 255, 255), accent=(255, 112, 40)) -> None:
+    headline = text.upper()
+    parts = headline.split()
+    if len(parts) >= 3:
+        line1 = " ".join(parts[: math.ceil(len(parts) / 2)])
+        line2 = " ".join(parts[math.ceil(len(parts) / 2) :])
+    else:
+        line1, line2 = headline, ""
+    f1 = fit_text(draw, line1, max_width, 102)
+    stroke = 5
+    draw.text((x, y), line1, font=f1, fill=primary, stroke_width=stroke, stroke_fill=(0, 0, 0))
+    if line2:
+        f2 = fit_text(draw, line2, max_width, 102)
+        draw.text((x, y + 94), line2, font=f2, fill=accent, stroke_width=stroke, stroke_fill=(0, 0, 0))
+
+
+def render_transcript_thumbnail(path: Path, concept: Concept) -> None:
+    base = Image.new("RGBA", (W, H), (8, 12, 14, 255))
+    draw = ImageDraw.Draw(base)
+    draw_base(draw)
+
+    draw_headline(draw, concept.hook, 62, 58, 650)
+
+    terminal = (64, 292, 676, 628)
+    draw_glow(base, terminal, 30, (0, 235, 215), 22)
+    rounded_rect(draw, terminal, 30, (8, 31, 34, 248), outline=(0, 235, 215, 230), width=4)
+    for i, color in enumerate([(255, 92, 92), (255, 192, 76), (64, 204, 108)]):
+        draw.ellipse((94 + i * 36, 324, 112 + i * 36, 342), fill=color + (255,))
+    draw.text((94, 372), "$ yt-dlp --write-auto-subs", font=font(30), fill=(225, 255, 252))
+    draw.text((94, 418), "502 videos found", font=font(34), fill=(0, 235, 215))
+    draw.text((94, 468), "clean transcripts exported", font=font(30), fill=(225, 255, 252))
+    rounded_rect(draw, (94, 540, 640, 582), 12, (16, 163, 74, 255))
+    draw.text((118, 548), "DONE IN UNDER 60 MIN", font=font(24), fill=(255, 255, 255))
+
+    for i, (x, y) in enumerate([(745, 90), (858, 174), (716, 280), (890, 392)]):
+        rounded_rect(draw, (x, y, x + 220, y + 130), 22, (250, 250, 250, 255), outline=(255, 112, 40, 255), width=5)
+        draw.rectangle((x + 22, y + 22, x + 104, y + 80), fill=(220, 32, 32, 255))
+        draw.polygon([(x + 54, y + 38), (x + 54, y + 66), (x + 78, y + 52)], fill=(255, 255, 255))
+        draw.line((x + 122, y + 36, x + 195, y + 36), fill=(24, 24, 24), width=8)
+        draw.line((x + 122, y + 60, x + 188, y + 60), fill=(96, 96, 96), width=6)
+        draw.text((x + 22, y + 94), f"VIDEO {i + 1}", font=font(22), fill=(16, 16, 16))
+
+    doc = (800, 520, 1168, 652)
+    draw_glow(base, doc, 24, (255, 112, 40), 18)
+    rounded_rect(draw, doc, 24, (247, 250, 246, 255), outline=(255, 112, 40, 255), width=5)
+    draw.text((832, 548), "TRANSCRIPTS", font=font(38), fill=(12, 20, 20))
+    draw.text((832, 598), "502 FILES", font=font(38), fill=(255, 112, 40))
+
+    draw.line((684, 460, 800, 570), fill=(255, 112, 40), width=10)
+    draw.polygon([(800, 570), (770, 562), (790, 540)], fill=(255, 112, 40))
+
+    out = base.convert("RGB")
+    out.save(path, quality=95)
+
+
+def render_mobile_thumbnail(path: Path, concept: Concept) -> None:
+    base = Image.new("RGBA", (W, H), (8, 12, 14, 255))
+    draw = ImageDraw.Draw(base)
+    draw_base(draw)
+
+    draw_headline(draw, concept.hook, 62, 58, 600, accent=(0, 235, 215))
+
+    phone = (720, 72, 1050, 662)
+    draw_glow(base, phone, 56, (0, 235, 215), 26)
+    rounded_rect(draw, phone, 56, (16, 18, 20, 255), outline=(255, 255, 255, 60), width=3)
+    rounded_rect(draw, (746, 106, 1024, 628), 38, (242, 246, 246, 255), outline=(0, 0, 0, 255), width=2)
+    draw.text((784, 144), "Codex Mobile", font=font(28), fill=(12, 18, 18))
+    rounded_rect(draw, (782, 198, 988, 258), 18, (0, 184, 204, 255))
+    draw.text((812, 214), "VOICE PROMPT", font=font(22), fill=(255, 255, 255))
+    for y, label in [(304, "Message client"), (378, "Open library"), (452, "Schedule video")]:
+        rounded_rect(draw, (782, y, 988, y + 48), 14, (230, 236, 236, 255), outline=(200, 208, 208, 255), width=2)
+        draw.text((806, y + 12), label, font=font(19), fill=(22, 28, 28))
+    draw.ellipse((875, 548, 929, 602), fill=(255, 112, 40, 255))
+    draw.polygon([(894, 564), (894, 586), (914, 575)], fill=(255, 255, 255))
+
+    window = (64, 304, 642, 620)
+    draw_glow(base, window, 28, (255, 112, 40), 18)
+    rounded_rect(draw, window, 28, (12, 25, 30, 248), outline=(255, 112, 40, 230), width=4)
+    for i, color in enumerate([(255, 92, 92), (255, 192, 76), (64, 204, 108)]):
+        draw.ellipse((94 + i * 34, 334, 112 + i * 34, 352), fill=color + (255,))
+    draw.text((98, 386), "YouTube Studio", font=font(42), fill=(255, 255, 255))
+    rounded_rect(draw, (98, 452, 334, 528), 18, (225, 30, 30, 255))
+    draw.text((130, 470), "SCHEDULED", font=font(28), fill=(255, 255, 255))
+    draw.text((372, 456), "No keyboard.", font=font(34), fill=(0, 235, 215))
+    draw.text((372, 502), "No clicking.", font=font(34), fill=(0, 235, 215))
+
+    draw.line((640, 456, 720, 360), fill=(255, 112, 40), width=10)
+    draw.polygon([(720, 360), (690, 370), (710, 392)], fill=(255, 112, 40))
+
+    rounded_rect(draw, (1080, 260, 1226, 418), 28, (255, 112, 40, 255))
+    draw.text((1114, 292), "2", font=font(76), fill=(255, 255, 255))
+    draw.text((1102, 370), "PROMPTS", font=font(24), fill=(255, 255, 255))
+
+    out = base.convert("RGB")
+    out.save(path, quality=95)
+
+
+def render_thumbnail(path: Path, concept: Concept, face_path: Path | None, allow_placeholder: bool, no_face: bool = False) -> None:
+    if no_face:
+        if "PHONE" in concept.hook.upper() or "MOBILE" in concept.hook.upper():
+            render_mobile_thumbnail(path, concept)
+        else:
+            render_transcript_thumbnail(path, concept)
+        return
+
     base = Image.new("RGBA", (W, H), (8, 12, 14, 255))
     draw = ImageDraw.Draw(base)
 
-    for i in range(24):
-        alpha = int(100 * (1 - i / 24))
-        draw.ellipse((120 - i * 18, 60 - i * 15, 740 + i * 28, 820 + i * 22), fill=(0, 120, 110, max(alpha, 0)))
-    for x in range(0, W, 64):
-        draw.line((x, 0, x, H), fill=(255, 255, 255, 10), width=1)
-    for y in range(0, H, 64):
-        draw.line((0, y, W, y), fill=(255, 255, 255, 8), width=1)
+    draw_base(draw)
 
     panel = (52, 102, 704, 608)
     draw_glow(base, panel, 34, (0, 235, 215), 22)
@@ -416,7 +525,9 @@ def parse_args(argv: Iterable[str]) -> argparse.Namespace:
     parser.add_argument("--face", type=Path, help="Path to Daniel face/photo reference for final thumbnail.")
     parser.add_argument("--concepts-only", action="store_true", help="Write concept markdown but skip final PNG rendering.")
     parser.add_argument("--allow-placeholder", action="store_true", help="Render a setup-test thumbnail without a real face photo.")
+    parser.add_argument("--no-face", action="store_true", help="Render a no-face thumbnail for cases where no usable portrait is available.")
     parser.add_argument("--overwrite", action="store_true", help="Overwrite existing output files.")
+    parser.add_argument("--hook", type=str, default=None, help="Override the hook text used for rendering (bypasses auto-generated concepts).")
     parser.add_argument("--list", action="store_true", help="List review folders and exit.")
     return parser.parse_args(list(argv))
 
@@ -438,6 +549,16 @@ def main(argv: Iterable[str] = sys.argv[1:]) -> int:
     source, text = read_source(folder)
     concepts = generate_concepts(text)
     recommended = max(concepts, key=lambda c: c.total)
+    if args.hook:
+        recommended = Concept(
+            name="Custom Hook",
+            hook=args.hook,
+            metaphor="",
+            face="right",
+            background="dark",
+            supporting="",
+            scores={"curiosity": 9, "clarity": 9, "emotion": 9, "readability": 9},
+        )
 
     concepts_path = folder / f"{video_name}_thumbnail_concepts.md"
     thumb_path = folder / f"{video_name}_thumbnail.png"
@@ -457,7 +578,7 @@ def main(argv: Iterable[str] = sys.argv[1:]) -> int:
 
     if args.face and not args.face.exists():
         raise SystemExit(f"Face image not found: {args.face}")
-    render_thumbnail(thumb_path, recommended, args.face, args.allow_placeholder)
+    render_thumbnail(thumb_path, recommended, args.face, args.allow_placeholder, args.no_face)
     with Image.open(thumb_path) as check:
         if check.size != (W, H):
             raise SystemExit(f"Thumbnail rendered at wrong size: {check.size}")

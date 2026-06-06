@@ -1,0 +1,11 @@
+Daniel Danut AI
+
+OpenAI just dropped Codex Mobile and I used it to schedule a YouTube video from my phone with 2 voice prompts. I never touched the computer.
+
+You'll see it send a WhatsApp message to a client, pull up my video library, and publish a scheduled post to YouTube Studio — all from the Codex Mobile app on your phone. No keyboard. No clicking. Your machine does the work. You just direct it from your phone.
+
+This is an AI automation workflow that lets you run your business from your phone. The ChatGPT Codex Mobile app connects to your Mac via QR code. You give it voice commands and it executes Python code on your computer remotely. You can automate anything — send messages, schedule YouTube videos, manage files, run scripts.
+
+I compared Codex Mobile to Claude Code Remote Control for phone-based AI automation. Both are powerful AI agent tools for business automation. The workflow is simple: open the phone app, say what you want, the AI agent does it. No code, no keyboard, no computer. Just voice prompts to your AI assistant.
+
+This is the future of AI business automation. Mobile AI agents running your workflow while you're anywhere.

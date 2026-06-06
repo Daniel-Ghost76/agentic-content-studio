@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html
+  data-composition-variables='[
+    {"id":"label","type":"string","label":"Label","default":"TOOL"},
+    {"id":"value","type":"string","label":"Value","default":"Claude Code"},
+    {"id":"position","type":"enum","label":"Position","default":"bottom-right","options":[
+      {"value":"bottom-right","label":"Bottom Right"},
+      {"value":"bottom-left","label":"Bottom Left"}
+    ]},
+    {"id":"entrance_from","type":"enum","label":"Entrance From","default":"right","options":[
+      {"value":"right","label":"Right"},
+      {"value":"left","label":"Left"},
+      {"value":"bottom","label":"Bottom"}
+    ]},
+    {"id":"hold_ms","type":"number","label":"Hold Duration ms","default":2500}
+  ]'
+>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      width: 1920px;
+      height: 1080px;
+      background: #09090b;
+      overflow: hidden;
+      font-family: 'Space Grotesk', system-ui, sans-serif;
+    }
+
+    /* Hero-frame end state — card fully visible, correctly positioned */
+    .callout-card {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      padding: 16px 20px;
+
+      /* Glass recipe — footage overlay variant (stronger fill, lighter blur) */
+      background: rgba(255, 255, 255, 0.10);
+      backdrop-filter: blur(12px) saturate(180%);
+      -webkit-backdrop-filter: blur(12px) saturate(180%);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 12px;
+      box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.40),
+        inset 0 1px 0 rgba(255, 255, 255, 0.08);
+
+      max-width: 420px;
+      min-width: 240px;
+    }
+
+    .callout-card.bottom-right { bottom: 160px; right: 160px; }
+    .callout-card.bottom-left  { bottom: 160px; left: 160px; }
+
+    .card-label {
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #a1a1aa;
+      line-height: 1;
+    }
+
+    .card-value {
+      font-size: 36px;
+      font-weight: 600;
+      color: #ffffff;
+      line-height: 1.15;
+      white-space: nowrap;
+    }
+  </style>
+</head>
+<body>
+  <div
+    data-composition-id="callout-card"
+    data-width="1920"
+    data-height="1080"
+    data-start="0"
+    data-duration="3.2"
+    data-track-index="0"
+  >
+    <!-- Hero-frame end state: card fully visible at bottom-right -->
+    <div class="callout-card bottom-right" id="card">
+      <span class="card-label" id="card-label">TOOL</span>
+      <span class="card-value" id="card-value">Claude Code</span>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <script>
+      const vars = (window.__hyperframes && window.__hyperframes.getVariables)
+        ? window.__hyperframes.getVariables()
+        : { label: 'TOOL', value: 'Claude Code', position: 'bottom-right', entrance_from: 'right', hold_ms: 2500 };
+
+      document.getElementById('card-label').textContent = vars.label;
+      document.getElementById('card-value').textContent = vars.value;
+
+      const card = document.getElementById('card');
+      card.classList.remove('bottom-right', 'bottom-left');
+      card.classList.add(vars.position || 'bottom-right');
+
+      const from        = vars.entrance_from || 'right';
+      const enterX      = from === 'right' ? 40 : from === 'left' ? -40 : 0;
+      const enterY      = from === 'bottom' ? 16 : 0;
+      const holdSeconds = Math.max(0.5, (vars.hold_ms || 2500) / 1000);
+      const exitAt      = 0.1 + 0.3 + holdSeconds;
+
+      document.querySelector('[data-composition-id="callout-card"]')
+        .setAttribute('data-duration', (exitAt + 0.3).toFixed(2));
+
+      const tl = gsap.timeline({ paused: true });
+
+      // Entrance — gsap.from() per layout-before-animation rule
+      tl.from('#card', {
+        x: enterX,
+        y: enterY,
+        opacity: 0,
+        duration: 0.3,
+        ease: 'power3.out'
+      }, 0.1);
+
+      // Exit — separate opacity-only tween, no property overlap with entrance x/y
+      tl.to('#card', {
+        opacity: 0,
+        duration: 0.2,
+        ease: 'power2.in',
+        overwrite: 'auto'
+      }, exitAt);
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines['callout-card'] = tl;
+    </script>
+  </div>
+</body>
+</html>

@@ -7,9 +7,11 @@ This workflow creates a repeatable thumbnail package for approved videos in the 
 Default review root:
 `Youtube/Output/6. Review  /`
 
-Before generating concepts, read:
+Before generating concepts, read **in this order**:
 
 ```text
+Youtube/Input/2. Skills/6. Review/thumbnail_skill.md            ← primary skill (step 0)
+Youtube/Input/4. Resources/6. review_resources/reference_thumbnails/pattern_analysis.md
 Youtube/Input/4. Resources/0. visual_production_library/README.md
 Youtube/Input/4. Resources/0. visual_production_library/selection_matrix.md
 Youtube/Input/4. Resources/0. visual_production_library/07_thumbnails/
