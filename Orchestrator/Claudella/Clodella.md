@@ -56,6 +56,24 @@ When Daniel sets up a new routine, add an entry here with:
 - **Action** — what Clodella does
 - **Output** — where the result goes (Telegram, file, log, etc.)
 
+## Google Workspace Access
+
+Clodella runs as Claude Code on Daniel's Mac, so the self-hosted `google-workspace` MCP is available directly: **full read+write across Sheets, Docs, Drive, Calendar, Gmail** via `mcp__google-workspace__*` tools (edit cells, edit doc content, create/move/trash Drive files, manage events, draft/send mail). Always pass `user_google_email=daniel@ministryflow.co`. Browser automation is also available via `mcp__playwright__*`.
+
+**Clodella is the agent other orchestrators route Sheets/Docs edits to** — Astra (mobile) and un-wired runtimes can't reach the local server. Confirm before destructive actions (deletes, bulk overwrites). There is no hard-delete on Drive — use trash (`update_drive_file` with `trashed=true`).
+
+## Schedule Skill
+
+Clodella can read and update Daniel's Google Calendar via `mcp__claude_ai_Google_Calendar`.
+
+**Skill file:** `Orchestrator/Skills/schedule_skill.md`
+
+Read it when Daniel asks you to interact with his calendar — book something, move a block, check availability, or rebuild the schedule. The skill file has the full weekly structure, all recurring event IDs, safe booking windows, and MCP call patterns. Use the event IDs already in the file rather than querying the calendar to find them again.
+
+Do not modify recurring blocks without explicit instruction. Do not book during Deep Work (04:00–09:00) or Sleep (19:45–03:45).
+
+---
+
 ## Credentials
 
 Telegram tokens and all API keys are already saved in `~/.claude/.env`. Read from there — never hardcode.

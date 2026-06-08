@@ -17,7 +17,7 @@ Orchestrator/
 
 Youtube/
 ├── Input/              ← agents, SOPs, tools, resources needed TO DO the work
-│   ├── 1. Sub-agents/
+│   ├── 1. SOPs/
 │   ├── 2. Skills/
 │   ├── 3. Rules/
 │   ├── 4. Resources/
@@ -127,13 +127,13 @@ Youtube/Output/9. Analytics/{project_id}/
 ## Agent Instructions
 
 **Before performing any task, read your stage's Input files:**
-- Sub-agent: `Youtube/Input/1. Sub-agents/{N}. {Stage}/{stage}_sub-agent.md`
+- SOP: `Youtube/Input/1. SOPs/{N}. {Stage}/{stage}_sop.md`
 - Skill: `Youtube/Input/2. Skills/{N}. {Stage}/{stage}_skill.md` (folder may contain multiple skill files — read all)
 - Rules: `Youtube/Input/3. Rules/{N}. {Stage}/{stage}_rules.md`
 - Resources: `Youtube/Input/4. Resources/{N}. {stage}_resources/`
 - Tools: `Youtube/Input/5. Tools/{N}. {stage}_tools/`
 
-Sub-stages 4a/4b/4c/4d live inside `4. Editing/`; sub-stages 5a/5b live inside `5. Visuals/`. There are exactly 9 stage folders in Sub-agents, Skills, and Rules.
+Sub-stages 4a/4b/4c/4d live inside `4. Editing/`; sub-stages 5a/5b live inside `5. Visuals/`. There are exactly 9 stage folders in SOPs, Skills, and Rules.
 
 **Save files to the right place:**
 - Workflow SOPs, agent MD files, tools -> `Youtube/Input/` in the relevant stage folder
@@ -164,7 +164,7 @@ Brief format: voice_reference pointer · Core Idea · Hook Type · The One Thing
 
 ## Editing And Visuals Stages
 
-**Stage 4 — Editing:** Claude runs four sequential sub-agents to take raw footage to a graded, zoomed, overlay-mapped cut. Output -> `Youtube/Output/4. Editing/{project_id}/`
+**Stage 4 — Editing:** Claude runs four sequential SOPs to take raw footage to a graded, zoomed, overlay-mapped cut. Output -> `Youtube/Output/4. Editing/{project_id}/`
 
 **Stage 4a — Prep:** Claude ingests `originals/`, normalizes footage to spec, syncs multi-source (face cam + screen recording), enhances audio with DeepFilterNet. Outputs: `normalized/`, `audio/`, `manifest.json`, `sync.json`.
 
@@ -174,11 +174,33 @@ Brief format: voice_reference pointer · Core Idea · Hook Type · The One Thing
 
 **Stage 4d — Grade + Zoom:** Claude applies color grade and bakes zoom keyframes into the footage in a single render pass. Outputs `{project_id}_cut_final.mp4` — the base video Agent 5 composites onto.
 
-**Stage 5 — Visuals / Overlays:** Codex runs two sequential sub-agents to build all overlays and finish the video. Output -> `Youtube/Output/5. Visuals/{project_id}/`
+**Stage 5 — Visuals / Overlays:** Codex runs two sequential SOPs to build all overlays and finish the video. Output -> `Youtube/Output/5. Visuals/{project_id}/`
 
 **Stage 5a — Overlays:** Codex reads the overlay map from 4c, cleans up the screen recording, builds all overlay slots in parallel (HyperFrames for captions/motion graphics, Higgsfield for full-screen clips), and composites everything onto `cut_final.mp4`.
 
 **Stage 5b — Finish:** Codex adds branded intro/outro (cached, rendered once per brand version), optional background music (ducks under speech automatically), and runs automatic QC verification. Outputs `{project_id}_final.mp4` + `{project_id}_qc_report.md` → Stage 6.
+
+---
+
+## Shared Tools (MCP)
+
+Two self-hosted MCP servers are registered in Claude Code user scope (`~/.claude.json`):
+
+- **`google-workspace`** — full read+write Google Workspace, authed as `daniel@ministryflow.co`. Tools prefixed `mcp__google-workspace__` cover Sheets, Docs, Drive, Calendar, Gmail (read/edit cells, edit doc content, create/move/trash files, manage events, send/draft mail). Always pass `user_google_email=daniel@ministryflow.co`. Setup: GCP project `claude-workspace-mcp-498804`, OAuth secret at `~/.claude/google_workspace_client_secret.json` (perms 600, never commit), callback port dynamic (8000–8003 registered).
+- **`playwright`** — browser automation (`mcp__playwright__*`): navigate, click, type, fill forms, snapshot, screenshot. Visible browser by default; starts logged-out.
+
+**Runtime reach (important):** both run as **local stdio servers on this Mac**, so only agents running as Claude Code here see them automatically (**Clodella** does). Other runtimes need the server added to their own config — **Codex** → `~/.codex/config.toml` `[mcp_servers.*]`; **Hermes/Vera** → `~/.hermes/config.yaml`. **Mobile OpenClaw/Astra cannot reach them remotely** (localhost-bound): Astra keeps Calendar/Drive/Gmail via the cloud `mcp__claude_ai_*` connectors, but **full Sheets/Docs editing is a Mac-only capability** — route those to a Mac-side Claude Code agent. Details in memory `project_google_workspace_mcp`.
+
+## Auto-suggest
+
+After responses where a natural next step exists — stage completed, output file created, task approved, or Daniel signals "done" / "what's next" — append:
+
+```
+---
+**Next:** `/command` — one sentence tied to current project context.
+```
+
+Do not append after conversational questions, mid-task troubleshooting, config changes, or when no command clearly fits. Full catalog and selection rules: `.claude/commands/suggest.md`.
 
 ---
 
@@ -197,9 +219,3 @@ Current keys registered:
 - `SKOOL_API_KEY` — Skool community
 
 ---
-
-## Voice Reference
-
-`Youtube/Input/4. Resources/2. scripting_resources/voice_reference/nate_herk_voice_reference.md` — style analysis of Nate Herk's channel. Use as pattern reference only; apply Daniel's own voice.
-
-Key sections: 1 (hooks) · 5 (credential drops) · 6 (transitions) · 8 (framework) · 9 (analogies) · 11 (vocabulary) · 13 (CTA) · 16 (pacing) · 17 (specificity)

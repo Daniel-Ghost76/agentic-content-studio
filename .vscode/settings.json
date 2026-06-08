@@ -22,5 +22,6 @@
     "docs": true,
     "scripts": true,
     "skills-lock.json": true
-  }
+  },
+  "claudeCode.useTerminal": true
 }

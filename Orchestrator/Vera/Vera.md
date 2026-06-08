@@ -88,6 +88,22 @@ Vera can look up any of the 9 stages but does not own or execute any of them:
 
 All input files live under `Youtube/Input/`. All produced assets live under `Youtube/Output/`.
 
+## Google Workspace Access
+
+Vera (Hermes) currently reaches Calendar via `mcp__claude_ai_Google_Calendar`. Full read+write Workspace (Sheets/Docs/Drive/Calendar/Gmail) lives in the self-hosted `google-workspace` MCP, which must be added to `~/.hermes/config.yaml` to use and is local to Daniel's Mac. Until that's wired, **defer Sheets/Docs edits to Clodella / Claude Code** and point Daniel there rather than guessing.
+
+## Schedule Skill
+
+Vera can read and update Daniel's Google Calendar via `mcp__claude_ai_Google_Calendar`.
+
+**Skill file:** `Orchestrator/Skills/schedule_skill.md`
+
+Read it when Daniel asks about his schedule, asks you to book something, or asks what time a block is. The skill file has the full weekly structure, recurring event IDs, and safe booking windows. Do not re-search for event IDs that are already listed in the skill file.
+
+Do not book anything during Deep Work (04:00–09:00) or Sleep (19:45–03:45) without explicit instruction.
+
+---
+
 ## API Keys
 
 All keys live in `~/.claude/.env`. Never ask Daniel for a key inline; read it from there.

@@ -1,0 +1,1044 @@
+- table [ref=e3]:
+  - rowgroup [ref=e4]:
+    - row "Hacker Newsnew | past | comments | ask | show | jobs | submit login" [ref=e5]:
+      - cell "Hacker Newsnew | past | comments | ask | show | jobs | submit login" [ref=e6]:
+        - table [ref=e7]:
+          - rowgroup [ref=e8]:
+            - row "Hacker Newsnew | past | comments | ask | show | jobs | submit login" [ref=e9]:
+              - cell [ref=e10]:
+                - link [ref=e11] [cursor=pointer]:
+                  - /url: https://news.ycombinator.com
+                  - img [ref=e12]
+              - cell "Hacker Newsnew | past | comments | ask | show | jobs | submit" [ref=e13]:
+                - generic [ref=e14]:
+                  - link "Hacker News" [ref=e16] [cursor=pointer]:
+                    - /url: news
+                  - link "new" [ref=e17] [cursor=pointer]:
+                    - /url: newest
+                  - text: "|"
+                  - link "past" [ref=e18] [cursor=pointer]:
+                    - /url: front
+                  - text: "|"
+                  - link "comments" [ref=e19] [cursor=pointer]:
+                    - /url: newcomments
+                  - text: "|"
+                  - link "ask" [ref=e20] [cursor=pointer]:
+                    - /url: ask
+                  - text: "|"
+                  - link "show" [ref=e21] [cursor=pointer]:
+                    - /url: show
+                  - text: "|"
+                  - link "jobs" [ref=e22] [cursor=pointer]:
+                    - /url: jobs
+                  - text: "|"
+                  - link "submit" [ref=e23] [cursor=pointer]:
+                    - /url: submit
+              - cell "login" [ref=e24]:
+                - link "login" [ref=e26] [cursor=pointer]:
+                  - /url: login?goto=news
+    - row [ref=e27]
+    - row [ref=e28]:
+      - cell [ref=e29]:
+        - table [ref=e30]:
+          - rowgroup [ref=e31]:
+            - row "1. upvote The Cypherpunk Library (cypherpunkbooks.com)" [ref=e32]:
+              - cell "1." [ref=e33]
+              - cell "upvote" [ref=e34]:
+                - link "upvote" [ref=e36] [cursor=pointer]:
+                  - /url: vote?id=48442725&how=up&goto=news
+                  - generic "upvote" [ref=e37]
+              - cell "The Cypherpunk Library (cypherpunkbooks.com)" [ref=e38]:
+                - generic [ref=e39]:
+                  - link "The Cypherpunk Library" [ref=e40] [cursor=pointer]:
+                    - /url: https://www.cypherpunkbooks.com
+                  - generic [ref=e41]:
+                    - text: (
+                    - link "cypherpunkbooks.com" [ref=e42] [cursor=pointer]:
+                      - /url: from?site=cypherpunkbooks.com
+                    - text: )
+            - row "39 points by yu3zhou4 1 hour ago | hide | 5 comments" [ref=e43]:
+              - cell [ref=e44]
+              - cell "39 points by yu3zhou4 1 hour ago | hide | 5 comments" [ref=e45]:
+                - generic [ref=e46]:
+                  - text: 39 points by
+                  - link "yu3zhou4" [ref=e47] [cursor=pointer]:
+                    - /url: user?id=yu3zhou4
+                  - generic "2026-06-08T08:32:52 1780907572" [ref=e48]:
+                    - link "1 hour ago" [ref=e49] [cursor=pointer]:
+                      - /url: item?id=48442725
+                  - text: "|"
+                  - link "hide" [ref=e50] [cursor=pointer]:
+                    - /url: hide?id=48442725&goto=news
+                  - text: "|"
+                  - link "5 comments" [ref=e51] [cursor=pointer]:
+                    - /url: item?id=48442725
+            - row [ref=e52]
+            - row "2. upvote OneDrive data now has an expiry date (ms365news.com)" [ref=e53]:
+              - cell "2." [ref=e54]
+              - cell "upvote" [ref=e55]:
+                - link "upvote" [ref=e57] [cursor=pointer]:
+                  - /url: vote?id=48442569&how=up&goto=news
+                  - generic "upvote" [ref=e58]
+              - cell "OneDrive data now has an expiry date (ms365news.com)" [ref=e59]:
+                - generic [ref=e60]:
+                  - link "OneDrive data now has an expiry date" [ref=e61] [cursor=pointer]:
+                    - /url: https://ms365news.com/blogs/f/your-onedrive-data-now-has-an-expiry-data
+                  - generic [ref=e62]:
+                    - text: (
+                    - link "ms365news.com" [ref=e63] [cursor=pointer]:
+                      - /url: from?site=ms365news.com
+                    - text: )
+            - row "27 points by taubek 1 hour ago | hide | 17 comments" [ref=e64]:
+              - cell [ref=e65]
+              - cell "27 points by taubek 1 hour ago | hide | 17 comments" [ref=e66]:
+                - generic [ref=e67]:
+                  - text: 27 points by
+                  - link "taubek" [ref=e68] [cursor=pointer]:
+                    - /url: user?id=taubek
+                  - generic "2026-06-08T08:11:24 1780906284" [ref=e69]:
+                    - link "1 hour ago" [ref=e70] [cursor=pointer]:
+                      - /url: item?id=48442569
+                  - text: "|"
+                  - link "hide" [ref=e71] [cursor=pointer]:
+                    - /url: hide?id=48442569&goto=news
+                  - text: "|"
+                  - link "17 comments" [ref=e72] [cursor=pointer]:
+                    - /url: item?id=48442569
+            - row [ref=e73]
+            - row "3. upvote Dopamine Fracking (igerman.cc)" [ref=e74]:
+              - cell "3." [ref=e75]
+              - cell "upvote" [ref=e76]:
+                - link "upvote" [ref=e78] [cursor=pointer]:
+                  - /url: vote?id=48440792&how=up&goto=news
+                  - generic "upvote" [ref=e79]
+              - cell "Dopamine Fracking (igerman.cc)" [ref=e80]:
+                - generic [ref=e81]:
+                  - link "Dopamine Fracking" [ref=e82] [cursor=pointer]:
+                    - /url: https://igerman.cc/blog/dopamine-fracking/
+                  - generic [ref=e83]:
+                    - text: (
+                    - link "igerman.cc" [ref=e84] [cursor=pointer]:
+                      - /url: from?site=igerman.cc
+                    - text: )
+            - row "306 points by igmn 7 hours ago | hide | 123 comments" [ref=e85]:
+              - cell [ref=e86]
+              - cell "306 points by igmn 7 hours ago | hide | 123 comments" [ref=e87]:
+                - generic [ref=e88]:
+                  - text: 306 points by
+                  - link "igmn" [ref=e89] [cursor=pointer]:
+                    - /url: user?id=igmn
+                  - generic "2026-06-08T02:42:24 1780886544" [ref=e90]:
+                    - link "7 hours ago" [ref=e91] [cursor=pointer]:
+                      - /url: item?id=48440792
+                  - text: "|"
+                  - link "hide" [ref=e92] [cursor=pointer]:
+                    - /url: hide?id=48440792&goto=news
+                  - text: "|"
+                  - link "123 comments" [ref=e93] [cursor=pointer]:
+                    - /url: item?id=48440792
+            - row [ref=e94]
+            - row "4. upvote 1k Data Breaches Later, the Disclosure Lag Is Worse (troyhunt.com)" [ref=e95]:
+              - cell "4." [ref=e96]
+              - cell "upvote" [ref=e97]:
+                - link "upvote" [ref=e99] [cursor=pointer]:
+                  - /url: vote?id=48440952&how=up&goto=news
+                  - generic "upvote" [ref=e100]
+              - cell "1k Data Breaches Later, the Disclosure Lag Is Worse (troyhunt.com)" [ref=e101]:
+                - generic [ref=e102]:
+                  - link "1k Data Breaches Later, the Disclosure Lag Is Worse" [ref=e103] [cursor=pointer]:
+                    - /url: https://www.troyhunt.com/1000-data-breaches-later-the-disclosure-lag-is-worse-than-ever/
+                  - generic [ref=e104]:
+                    - text: (
+                    - link "troyhunt.com" [ref=e105] [cursor=pointer]:
+                      - /url: from?site=troyhunt.com
+                    - text: )
+            - row "149 points by 882542F3884314B 6 hours ago | hide | 54 comments" [ref=e106]:
+              - cell [ref=e107]
+              - cell "149 points by 882542F3884314B 6 hours ago | hide | 54 comments" [ref=e108]:
+                - generic [ref=e109]:
+                  - text: 149 points by
+                  - link "882542F3884314B" [ref=e110] [cursor=pointer]:
+                    - /url: user?id=882542F3884314B
+                  - generic "2026-06-08T03:17:10 1780888630" [ref=e111]:
+                    - link "6 hours ago" [ref=e112] [cursor=pointer]:
+                      - /url: item?id=48440952
+                  - text: "|"
+                  - link "hide" [ref=e113] [cursor=pointer]:
+                    - /url: hide?id=48440952&goto=news
+                  - text: "|"
+                  - link "54 comments" [ref=e114] [cursor=pointer]:
+                    - /url: item?id=48440952
+            - row [ref=e115]
+            - row "5. upvote APC–2 – A professional record cutter for producing original playback discs (teenage.engineering)" [ref=e116]:
+              - cell "5." [ref=e117]
+              - cell "upvote" [ref=e118]:
+                - link "upvote" [ref=e120] [cursor=pointer]:
+                  - /url: vote?id=48440383&how=up&goto=news
+                  - generic "upvote" [ref=e121]
+              - cell "APC–2 – A professional record cutter for producing original playback discs (teenage.engineering)" [ref=e122]:
+                - generic [ref=e123]:
+                  - link "APC–2 – A professional record cutter for producing original playback discs" [ref=e124] [cursor=pointer]:
+                    - /url: https://teenage.engineering/products/apc-2
+                  - generic [ref=e125]:
+                    - text: (
+                    - link "teenage.engineering" [ref=e126] [cursor=pointer]:
+                      - /url: from?site=teenage.engineering
+                    - text: )
+            - row "203 points by vthommeret 8 hours ago | hide | 103 comments" [ref=e127]:
+              - cell [ref=e128]
+              - cell "203 points by vthommeret 8 hours ago | hide | 103 comments" [ref=e129]:
+                - generic [ref=e130]:
+                  - text: 203 points by
+                  - link "vthommeret" [ref=e131] [cursor=pointer]:
+                    - /url: user?id=vthommeret
+                  - generic "2026-06-08T01:27:22 1780882042" [ref=e132]:
+                    - link "8 hours ago" [ref=e133] [cursor=pointer]:
+                      - /url: item?id=48440383
+                  - text: "|"
+                  - link "hide" [ref=e134] [cursor=pointer]:
+                    - /url: hide?id=48440383&goto=news
+                  - text: "|"
+                  - link "103 comments" [ref=e135] [cursor=pointer]:
+                    - /url: item?id=48440383
+            - row [ref=e136]
+            - row "6. upvote Building from zero after addiction, prison, and a felony (gavinray97.github.io)" [ref=e137]:
+              - cell "6." [ref=e138]
+              - cell "upvote" [ref=e139]:
+                - link "upvote" [ref=e141] [cursor=pointer]:
+                  - /url: vote?id=48437406&how=up&goto=news
+                  - generic "upvote" [ref=e142]
+              - cell "Building from zero after addiction, prison, and a felony (gavinray97.github.io)" [ref=e143]:
+                - generic [ref=e144]:
+                  - link "Building from zero after addiction, prison, and a felony" [ref=e145] [cursor=pointer]:
+                    - /url: https://gavinray97.github.io/blog/building-from-zero-after-addiction-prison-felony
+                  - generic [ref=e146]:
+                    - text: (
+                    - link "gavinray97.github.io" [ref=e147] [cursor=pointer]:
+                      - /url: from?site=gavinray97.github.io
+                    - text: )
+            - row "630 points by gavinray 15 hours ago | hide | 275 comments" [ref=e148]:
+              - cell [ref=e149]
+              - cell "630 points by gavinray 15 hours ago | hide | 275 comments" [ref=e150]:
+                - generic [ref=e151]:
+                  - text: 630 points by
+                  - link "gavinray" [ref=e152] [cursor=pointer]:
+                    - /url: user?id=gavinray
+                  - generic "2026-06-07T18:33:07 1780857187" [ref=e153]:
+                    - link "15 hours ago" [ref=e154] [cursor=pointer]:
+                      - /url: item?id=48437406
+                  - text: "|"
+                  - link "hide" [ref=e155] [cursor=pointer]:
+                    - /url: hide?id=48437406&goto=news
+                  - text: "|"
+                  - link "275 comments" [ref=e156] [cursor=pointer]:
+                    - /url: item?id=48437406
+            - row [ref=e157]
+            - 'row "7. upvote The Smallest Brain You Can Build: A Perceptron in Python (ranpara.net)" [ref=e158]':
+              - cell "7." [ref=e159]
+              - cell "upvote" [ref=e160]:
+                - link "upvote" [ref=e162] [cursor=pointer]:
+                  - /url: vote?id=48440064&how=up&goto=news
+                  - generic "upvote" [ref=e163]
+              - 'cell "The Smallest Brain You Can Build: A Perceptron in Python (ranpara.net)" [ref=e164]':
+                - generic [ref=e165]:
+                  - 'link "The Smallest Brain You Can Build: A Perceptron in Python" [ref=e166] [cursor=pointer]':
+                    - /url: https://ranpara.net/posts/perceptron-explained-from-scratch/
+                  - generic [ref=e167]:
+                    - text: (
+                    - link "ranpara.net" [ref=e168] [cursor=pointer]:
+                      - /url: from?site=ranpara.net
+                    - text: )
+            - row "194 points by DevarshRanpara 9 hours ago | hide | 28 comments" [ref=e169]:
+              - cell [ref=e170]
+              - cell "194 points by DevarshRanpara 9 hours ago | hide | 28 comments" [ref=e171]:
+                - generic [ref=e172]:
+                  - text: 194 points by
+                  - link "DevarshRanpara" [ref=e173] [cursor=pointer]:
+                    - /url: user?id=DevarshRanpara
+                  - generic "2026-06-08T00:28:37 1780878517" [ref=e174]:
+                    - link "9 hours ago" [ref=e175] [cursor=pointer]:
+                      - /url: item?id=48440064
+                  - text: "|"
+                  - link "hide" [ref=e176] [cursor=pointer]:
+                    - /url: hide?id=48440064&goto=news
+                  - text: "|"
+                  - link "28 comments" [ref=e177] [cursor=pointer]:
+                    - /url: item?id=48440064
+            - row [ref=e178]
+            - row "8. upvote Richard Scolyer Has Died (bbc.com)" [ref=e179]:
+              - cell "8." [ref=e180]
+              - cell "upvote" [ref=e181]:
+                - link "upvote" [ref=e183] [cursor=pointer]:
+                  - /url: vote?id=48441242&how=up&goto=news
+                  - generic "upvote" [ref=e184]
+              - cell "Richard Scolyer Has Died (bbc.com)" [ref=e185]:
+                - generic [ref=e186]:
+                  - link "Richard Scolyer Has Died" [ref=e187] [cursor=pointer]:
+                    - /url: https://www.bbc.com/news/articles/c14yz5jg476o
+                  - generic [ref=e188]:
+                    - text: (
+                    - link "bbc.com" [ref=e189] [cursor=pointer]:
+                      - /url: from?site=bbc.com
+                    - text: )
+            - row "57 points by nicwilson 5 hours ago | hide | 13 comments" [ref=e190]:
+              - cell [ref=e191]
+              - cell "57 points by nicwilson 5 hours ago | hide | 13 comments" [ref=e192]:
+                - generic [ref=e193]:
+                  - text: 57 points by
+                  - link "nicwilson" [ref=e194] [cursor=pointer]:
+                    - /url: user?id=nicwilson
+                  - generic "2026-06-08T04:10:08 1780891808" [ref=e195]:
+                    - link "5 hours ago" [ref=e196] [cursor=pointer]:
+                      - /url: item?id=48441242
+                  - text: "|"
+                  - link "hide" [ref=e197] [cursor=pointer]:
+                    - /url: hide?id=48441242&goto=news
+                  - text: "|"
+                  - link "13 comments" [ref=e198] [cursor=pointer]:
+                    - /url: item?id=48441242
+            - row [ref=e199]
+            - row "9. upvote Playing with Vision Embeddings (prestonbjensen.com)" [ref=e200]:
+              - cell "9." [ref=e201]
+              - cell "upvote" [ref=e202]:
+                - link "upvote" [ref=e204] [cursor=pointer]:
+                  - /url: vote?id=48413366&how=up&goto=news
+                  - generic "upvote" [ref=e205]
+              - cell "Playing with Vision Embeddings (prestonbjensen.com)" [ref=e206]:
+                - generic [ref=e207]:
+                  - link "Playing with Vision Embeddings" [ref=e208] [cursor=pointer]:
+                    - /url: https://prestonbjensen.com/posts/playing-with-vision-embeddings
+                  - generic [ref=e209]:
+                    - text: (
+                    - link "prestonbjensen.com" [ref=e210] [cursor=pointer]:
+                      - /url: from?site=prestonbjensen.com
+                    - text: )
+            - row "49 points by prestoj 5 hours ago | hide | 4 comments" [ref=e211]:
+              - cell [ref=e212]
+              - cell "49 points by prestoj 5 hours ago | hide | 4 comments" [ref=e213]:
+                - generic [ref=e214]:
+                  - text: 49 points by
+                  - link "prestoj" [ref=e215] [cursor=pointer]:
+                    - /url: user?id=prestoj
+                  - generic "2026-06-05T14:54:37 1780671277" [ref=e216]:
+                    - link "5 hours ago" [ref=e217] [cursor=pointer]:
+                      - /url: item?id=48413366
+                  - text: "|"
+                  - link "hide" [ref=e218] [cursor=pointer]:
+                    - /url: hide?id=48413366&goto=news
+                  - text: "|"
+                  - link "4 comments" [ref=e219] [cursor=pointer]:
+                    - /url: item?id=48413366
+            - row [ref=e220]
+            - row "10. upvote DeepSeek V4 Pro beats GPT-5.5 Pro on precision (runtimewire.com)" [ref=e221]:
+              - cell "10." [ref=e222]
+              - cell "upvote" [ref=e223]:
+                - link "upvote" [ref=e225] [cursor=pointer]:
+                  - /url: vote?id=48440448&how=up&goto=news
+                  - generic "upvote" [ref=e226]
+              - cell "DeepSeek V4 Pro beats GPT-5.5 Pro on precision (runtimewire.com)" [ref=e227]:
+                - generic [ref=e228]:
+                  - link "DeepSeek V4 Pro beats GPT-5.5 Pro on precision" [ref=e229] [cursor=pointer]:
+                    - /url: https://runtimewire.com/article/deepseek-v4-pro-beats-gpt-5-5-pro-on-precision
+                  - generic [ref=e230]:
+                    - text: (
+                    - link "runtimewire.com" [ref=e231] [cursor=pointer]:
+                      - /url: from?site=runtimewire.com
+                    - text: )
+            - row "267 points by yogthos 8 hours ago | hide | 113 comments" [ref=e232]:
+              - cell [ref=e233]
+              - cell "267 points by yogthos 8 hours ago | hide | 113 comments" [ref=e234]:
+                - generic [ref=e235]:
+                  - text: 267 points by
+                  - link "yogthos" [ref=e236] [cursor=pointer]:
+                    - /url: user?id=yogthos
+                  - generic "2026-06-08T01:39:30 1780882770" [ref=e237]:
+                    - link "8 hours ago" [ref=e238] [cursor=pointer]:
+                      - /url: item?id=48440448
+                  - text: "|"
+                  - link "hide" [ref=e239] [cursor=pointer]:
+                    - /url: hide?id=48440448&goto=news
+                  - text: "|"
+                  - link "113 comments" [ref=e240] [cursor=pointer]:
+                    - /url: item?id=48440448
+            - row [ref=e241]
+            - row "11. upvote Algorithmic Monocultures in Hiring (algorithmichiring.github.io)" [ref=e242]:
+              - cell "11." [ref=e243]
+              - cell "upvote" [ref=e244]:
+                - link "upvote" [ref=e246] [cursor=pointer]:
+                  - /url: vote?id=48440549&how=up&goto=news
+                  - generic "upvote" [ref=e247]
+              - cell "Algorithmic Monocultures in Hiring (algorithmichiring.github.io)" [ref=e248]:
+                - generic [ref=e249]:
+                  - link "Algorithmic Monocultures in Hiring" [ref=e250] [cursor=pointer]:
+                    - /url: https://algorithmichiring.github.io/
+                  - generic [ref=e251]:
+                    - text: (
+                    - link "algorithmichiring.github.io" [ref=e252] [cursor=pointer]:
+                      - /url: from?site=algorithmichiring.github.io
+                    - text: )
+            - row "94 points by drchiu 7 hours ago | hide | 34 comments" [ref=e253]:
+              - cell [ref=e254]
+              - cell "94 points by drchiu 7 hours ago | hide | 34 comments" [ref=e255]:
+                - generic [ref=e256]:
+                  - text: 94 points by
+                  - link "drchiu" [ref=e257] [cursor=pointer]:
+                    - /url: user?id=drchiu
+                  - generic "2026-06-08T01:54:54 1780883694" [ref=e258]:
+                    - link "7 hours ago" [ref=e259] [cursor=pointer]:
+                      - /url: item?id=48440549
+                  - text: "|"
+                  - link "hide" [ref=e260] [cursor=pointer]:
+                    - /url: hide?id=48440549&goto=news
+                  - text: "|"
+                  - link "34 comments" [ref=e261] [cursor=pointer]:
+                    - /url: item?id=48440549
+            - row [ref=e262]
+            - row "12. upvote Do agents.md files help coding agents? (twitter.com/rasbt)" [ref=e263]:
+              - cell "12." [ref=e264]
+              - cell "upvote" [ref=e265]:
+                - link "upvote" [ref=e267] [cursor=pointer]:
+                  - /url: vote?id=48441589&how=up&goto=news
+                  - generic "upvote" [ref=e268]
+              - cell "Do agents.md files help coding agents? (twitter.com/rasbt)" [ref=e269]:
+                - generic [ref=e270]:
+                  - link "Do agents.md files help coding agents?" [ref=e271] [cursor=pointer]:
+                    - /url: https://twitter.com/rasbt/status/2063649136323252397
+                  - generic [ref=e272]:
+                    - text: (
+                    - link "twitter.com/rasbt" [ref=e273] [cursor=pointer]:
+                      - /url: from?site=twitter.com/rasbt
+                    - text: )
+            - row "32 points by smushback 4 hours ago | hide | 21 comments" [ref=e274]:
+              - cell [ref=e275]
+              - cell "32 points by smushback 4 hours ago | hide | 21 comments" [ref=e276]:
+                - generic [ref=e277]:
+                  - text: 32 points by
+                  - link "smushback" [ref=e278] [cursor=pointer]:
+                    - /url: user?id=smushback
+                  - generic "2026-06-08T05:21:56 1780896116" [ref=e279]:
+                    - link "4 hours ago" [ref=e280] [cursor=pointer]:
+                      - /url: item?id=48441589
+                  - text: "|"
+                  - link "hide" [ref=e281] [cursor=pointer]:
+                    - /url: hide?id=48441589&goto=news
+                  - text: "|"
+                  - link "21 comments" [ref=e282] [cursor=pointer]:
+                    - /url: item?id=48441589
+            - row [ref=e283]
+            - row "13. upvote Giant Floating Victorian Drydock (mastermariners.org.au)" [ref=e284]:
+              - cell "13." [ref=e285]
+              - cell "upvote" [ref=e286]:
+                - link "upvote" [ref=e288] [cursor=pointer]:
+                  - /url: vote?id=48425413&how=up&goto=news
+                  - generic "upvote" [ref=e289]
+              - cell "Giant Floating Victorian Drydock (mastermariners.org.au)" [ref=e290]:
+                - generic [ref=e291]:
+                  - link "Giant Floating Victorian Drydock" [ref=e292] [cursor=pointer]:
+                    - /url: https://mastermariners.org.au/stories-from-the-past/6481-the-world-s-largest-floating-dry-dock-was-towed-across-the-atlantic-to-bermuda-in-1869
+                  - generic [ref=e293]:
+                    - text: (
+                    - link "mastermariners.org.au" [ref=e294] [cursor=pointer]:
+                      - /url: from?site=mastermariners.org.au
+                    - text: )
+            - row "19 points by dtj1123 3 hours ago | hide | 6 comments" [ref=e295]:
+              - cell [ref=e296]
+              - cell "19 points by dtj1123 3 hours ago | hide | 6 comments" [ref=e297]:
+                - generic [ref=e298]:
+                  - text: 19 points by
+                  - link "dtj1123" [ref=e299] [cursor=pointer]:
+                    - /url: user?id=dtj1123
+                  - generic "2026-06-06T14:22:08 1780755728" [ref=e300]:
+                    - link "3 hours ago" [ref=e301] [cursor=pointer]:
+                      - /url: item?id=48425413
+                  - text: "|"
+                  - link "hide" [ref=e302] [cursor=pointer]:
+                    - /url: hide?id=48425413&goto=news
+                  - text: "|"
+                  - link "6 comments" [ref=e303] [cursor=pointer]:
+                    - /url: item?id=48425413
+            - row [ref=e304]
+            - row "14. upvote New drug 'functionally cures' many hepatitis B virus infections (science.org)" [ref=e305]:
+              - cell "14." [ref=e306]
+              - cell "upvote" [ref=e307]:
+                - link "upvote" [ref=e309] [cursor=pointer]:
+                  - /url: vote?id=48440463&how=up&goto=news
+                  - generic "upvote" [ref=e310]
+              - cell "New drug 'functionally cures' many hepatitis B virus infections (science.org)" [ref=e311]:
+                - generic [ref=e312]:
+                  - link "New drug 'functionally cures' many hepatitis B virus infections" [ref=e313] [cursor=pointer]:
+                    - /url: https://www.science.org/content/article/new-drug-functionally-cures-many-hepatitis-b-virus-infections?user_id=66c4bf745d78644b3aa57b08
+                  - generic [ref=e314]:
+                    - text: (
+                    - link "science.org" [ref=e315] [cursor=pointer]:
+                      - /url: from?site=science.org
+                    - text: )
+            - row "170 points by gmays 8 hours ago | hide | 27 comments" [ref=e316]:
+              - cell [ref=e317]
+              - cell "170 points by gmays 8 hours ago | hide | 27 comments" [ref=e318]:
+                - generic [ref=e319]:
+                  - text: 170 points by
+                  - link "gmays" [ref=e320] [cursor=pointer]:
+                    - /url: user?id=gmays
+                  - generic "2026-06-08T01:41:42 1780882902" [ref=e321]:
+                    - link "8 hours ago" [ref=e322] [cursor=pointer]:
+                      - /url: item?id=48440463
+                  - text: "|"
+                  - link "hide" [ref=e323] [cursor=pointer]:
+                    - /url: hide?id=48440463&goto=news
+                  - text: "|"
+                  - link "27 comments" [ref=e324] [cursor=pointer]:
+                    - /url: item?id=48440463
+            - row [ref=e325]
+            - row "15. upvote Spherical Voronoi Diagram (jasondavies.com)" [ref=e326]:
+              - cell "15." [ref=e327]
+              - cell "upvote" [ref=e328]:
+                - link "upvote" [ref=e330] [cursor=pointer]:
+                  - /url: vote?id=48385457&how=up&goto=news
+                  - generic "upvote" [ref=e331]
+              - cell "Spherical Voronoi Diagram (jasondavies.com)" [ref=e332]:
+                - generic [ref=e333]:
+                  - link "Spherical Voronoi Diagram" [ref=e334] [cursor=pointer]:
+                    - /url: https://www.jasondavies.com/maps/voronoi/
+                  - generic [ref=e335]:
+                    - text: (
+                    - link "jasondavies.com" [ref=e336] [cursor=pointer]:
+                      - /url: from?site=jasondavies.com
+                    - text: )
+            - row "9 points by marysminefnuf 2 hours ago | hide | 1 comment" [ref=e337]:
+              - cell [ref=e338]
+              - cell "9 points by marysminefnuf 2 hours ago | hide | 1 comment" [ref=e339]:
+                - generic [ref=e340]:
+                  - text: 9 points by
+                  - link "marysminefnuf" [ref=e341] [cursor=pointer]:
+                    - /url: user?id=marysminefnuf
+                  - generic "2026-06-03T15:32:12 1780500732" [ref=e342]:
+                    - link "2 hours ago" [ref=e343] [cursor=pointer]:
+                      - /url: item?id=48385457
+                  - text: "|"
+                  - link "hide" [ref=e344] [cursor=pointer]:
+                    - /url: hide?id=48385457&goto=news
+                  - text: "|"
+                  - link "1 comment" [ref=e345] [cursor=pointer]:
+                    - /url: item?id=48385457
+            - row [ref=e346]
+            - row "16. upvote Making peace with your unlived dreams (2023) (nik.art)" [ref=e347]:
+              - cell "16." [ref=e348]
+              - cell "upvote" [ref=e349]:
+                - link "upvote" [ref=e351] [cursor=pointer]:
+                  - /url: vote?id=48437290&how=up&goto=news
+                  - generic "upvote" [ref=e352]
+              - cell "Making peace with your unlived dreams (2023) (nik.art)" [ref=e353]:
+                - generic [ref=e354]:
+                  - link "Making peace with your unlived dreams (2023)" [ref=e355] [cursor=pointer]:
+                    - /url: https://nik.art/making-peace-with-your-unlived-dreams/
+                  - generic [ref=e356]:
+                    - text: (
+                    - link "nik.art" [ref=e357] [cursor=pointer]:
+                      - /url: from?site=nik.art
+                    - text: )
+            - row "226 points by herbertl 15 hours ago | hide | 133 comments" [ref=e358]:
+              - cell [ref=e359]
+              - cell "226 points by herbertl 15 hours ago | hide | 133 comments" [ref=e360]:
+                - generic [ref=e361]:
+                  - text: 226 points by
+                  - link "herbertl" [ref=e362] [cursor=pointer]:
+                    - /url: user?id=herbertl
+                  - generic "2026-06-07T18:15:47 1780856147" [ref=e363]:
+                    - link "15 hours ago" [ref=e364] [cursor=pointer]:
+                      - /url: item?id=48437290
+                  - text: "|"
+                  - link "hide" [ref=e365] [cursor=pointer]:
+                    - /url: hide?id=48437290&goto=news
+                  - text: "|"
+                  - link "133 comments" [ref=e366] [cursor=pointer]:
+                    - /url: item?id=48437290
+            - row [ref=e367]
+            - row "17. upvote Tiny hackable CUDA language model implementation (github.com/markusheimerl)" [ref=e368]:
+              - cell "17." [ref=e369]
+              - cell "upvote" [ref=e370]:
+                - link "upvote" [ref=e372] [cursor=pointer]:
+                  - /url: vote?id=48415828&how=up&goto=news
+                  - generic "upvote" [ref=e373]
+              - cell "Tiny hackable CUDA language model implementation (github.com/markusheimerl)" [ref=e374]:
+                - generic [ref=e375]:
+                  - link "Tiny hackable CUDA language model implementation" [ref=e376] [cursor=pointer]:
+                    - /url: https://github.com/markusheimerl/gpt
+                  - generic [ref=e377]:
+                    - text: (
+                    - link "github.com/markusheimerl" [ref=e378] [cursor=pointer]:
+                      - /url: from?site=github.com/markusheimerl
+                    - text: )
+            - row "27 points by markusheimerl 5 hours ago | hide | 2 comments" [ref=e379]:
+              - cell [ref=e380]
+              - cell "27 points by markusheimerl 5 hours ago | hide | 2 comments" [ref=e381]:
+                - generic [ref=e382]:
+                  - text: 27 points by
+                  - link "markusheimerl" [ref=e383] [cursor=pointer]:
+                    - /url: user?id=markusheimerl
+                  - generic "2026-06-05T17:41:58 1780681318" [ref=e384]:
+                    - link "5 hours ago" [ref=e385] [cursor=pointer]:
+                      - /url: item?id=48415828
+                  - text: "|"
+                  - link "hide" [ref=e386] [cursor=pointer]:
+                    - /url: hide?id=48415828&goto=news
+                  - text: "|"
+                  - link "2 comments" [ref=e387] [cursor=pointer]:
+                    - /url: item?id=48415828
+            - row [ref=e388]
+            - 'row "18. upvote Show HN: I Derived a Pancake (absurdlyoptimized.com)" [ref=e389]':
+              - cell "18." [ref=e390]
+              - cell "upvote" [ref=e391]:
+                - link "upvote" [ref=e393] [cursor=pointer]:
+                  - /url: vote?id=48408854&how=up&goto=news
+                  - generic "upvote" [ref=e394]
+              - 'cell "Show HN: I Derived a Pancake (absurdlyoptimized.com)" [ref=e395]':
+                - generic [ref=e396]:
+                  - 'link "Show HN: I Derived a Pancake" [ref=e397] [cursor=pointer]':
+                    - /url: https://www.absurdlyoptimized.com/recipes/pancakes/
+                  - generic [ref=e398]:
+                    - text: (
+                    - link "absurdlyoptimized.com" [ref=e399] [cursor=pointer]:
+                      - /url: from?site=absurdlyoptimized.com
+                    - text: )
+            - row "232 points by bkazez 12 hours ago | hide | 91 comments" [ref=e400]:
+              - cell [ref=e401]
+              - cell "232 points by bkazez 12 hours ago | hide | 91 comments" [ref=e402]:
+                - generic [ref=e403]:
+                  - text: 232 points by
+                  - link "bkazez" [ref=e404] [cursor=pointer]:
+                    - /url: user?id=bkazez
+                  - generic "2026-06-05T06:42:42 1780641762" [ref=e405]:
+                    - link "12 hours ago" [ref=e406] [cursor=pointer]:
+                      - /url: item?id=48408854
+                  - text: "|"
+                  - link "hide" [ref=e407] [cursor=pointer]:
+                    - /url: hide?id=48408854&goto=news
+                  - text: "|"
+                  - link "91 comments" [ref=e408] [cursor=pointer]:
+                    - /url: item?id=48408854
+            - row [ref=e409]
+            - row "19. upvote A Matter Wi-Fi Light Bulb in Rust on the Raspberry Pi Pico 2 W (github.com/melastmohican)" [ref=e410]:
+              - cell "19." [ref=e411]
+              - cell "upvote" [ref=e412]:
+                - link "upvote" [ref=e414] [cursor=pointer]:
+                  - /url: vote?id=48440008&how=up&goto=news
+                  - generic "upvote" [ref=e415]
+              - cell "A Matter Wi-Fi Light Bulb in Rust on the Raspberry Pi Pico 2 W (github.com/melastmohican)" [ref=e416]:
+                - generic [ref=e417]:
+                  - link "A Matter Wi-Fi Light Bulb in Rust on the Raspberry Pi Pico 2 W" [ref=e418] [cursor=pointer]:
+                    - /url: https://github.com/melastmohican/rust-rpico2-embassy-examples
+                  - generic [ref=e419]:
+                    - text: (
+                    - link "github.com/melastmohican" [ref=e420] [cursor=pointer]:
+                      - /url: from?site=github.com/melastmohican
+                    - text: )
+            - row "115 points by melastmohican 9 hours ago | hide | 13 comments" [ref=e421]:
+              - cell [ref=e422]
+              - cell "115 points by melastmohican 9 hours ago | hide | 13 comments" [ref=e423]:
+                - generic [ref=e424]:
+                  - text: 115 points by
+                  - link "melastmohican" [ref=e425] [cursor=pointer]:
+                    - /url: user?id=melastmohican
+                  - generic "2026-06-08T00:17:45 1780877865" [ref=e426]:
+                    - link "9 hours ago" [ref=e427] [cursor=pointer]:
+                      - /url: item?id=48440008
+                  - text: "|"
+                  - link "hide" [ref=e428] [cursor=pointer]:
+                    - /url: hide?id=48440008&goto=news
+                  - text: "|"
+                  - link "13 comments" [ref=e429] [cursor=pointer]:
+                    - /url: item?id=48440008
+            - row [ref=e430]
+            - row "20. upvote Trusted Computing Frequently Asked Questions (2003) (cam.ac.uk)" [ref=e431]:
+              - cell "20." [ref=e432]
+              - cell "upvote" [ref=e433]:
+                - link "upvote" [ref=e435] [cursor=pointer]:
+                  - /url: vote?id=48431889&how=up&goto=news
+                  - generic "upvote" [ref=e436]
+              - cell "Trusted Computing Frequently Asked Questions (2003) (cam.ac.uk)" [ref=e437]:
+                - generic [ref=e438]:
+                  - link "Trusted Computing Frequently Asked Questions (2003)" [ref=e439] [cursor=pointer]:
+                    - /url: https://www.cl.cam.ac.uk/archive/rja14/tcpa-faq-1.0.html
+                  - generic [ref=e440]:
+                    - text: (
+                    - link "cam.ac.uk" [ref=e441] [cursor=pointer]:
+                      - /url: from?site=cam.ac.uk
+                    - text: )
+            - row "12 points by userbinator 4 hours ago | hide | discuss" [ref=e442]:
+              - cell [ref=e443]
+              - cell "12 points by userbinator 4 hours ago | hide | discuss" [ref=e444]:
+                - generic [ref=e445]:
+                  - text: 12 points by
+                  - link "userbinator" [ref=e446] [cursor=pointer]:
+                    - /url: user?id=userbinator
+                  - generic "2026-06-07T04:45:56 1780807556" [ref=e447]:
+                    - link "4 hours ago" [ref=e448] [cursor=pointer]:
+                      - /url: item?id=48431889
+                  - text: "|"
+                  - link "hide" [ref=e449] [cursor=pointer]:
+                    - /url: hide?id=48431889&goto=news
+                  - text: "|"
+                  - link "discuss" [ref=e450] [cursor=pointer]:
+                    - /url: item?id=48431889
+            - row [ref=e451]
+            - row "21. upvote How's Linear so fast? A technical breakdown (performance.dev)" [ref=e452]:
+              - cell "21." [ref=e453]
+              - cell "upvote" [ref=e454]:
+                - link "upvote" [ref=e456] [cursor=pointer]:
+                  - /url: vote?id=48437609&how=up&goto=news
+                  - generic "upvote" [ref=e457]
+              - cell "How's Linear so fast? A technical breakdown (performance.dev)" [ref=e458]:
+                - generic [ref=e459]:
+                  - link "How's Linear so fast? A technical breakdown" [ref=e460] [cursor=pointer]:
+                    - /url: https://performance.dev/how-is-linear-so-fast-a-technical-breakdown
+                  - generic [ref=e461]:
+                    - text: (
+                    - link "performance.dev" [ref=e462] [cursor=pointer]:
+                      - /url: from?site=performance.dev
+                    - text: )
+            - row "410 points by howToTestFE 14 hours ago | hide | 187 comments" [ref=e463]:
+              - cell [ref=e464]
+              - cell "410 points by howToTestFE 14 hours ago | hide | 187 comments" [ref=e465]:
+                - generic [ref=e466]:
+                  - text: 410 points by
+                  - link "howToTestFE" [ref=e467] [cursor=pointer]:
+                    - /url: user?id=howToTestFE
+                  - generic "2026-06-07T19:01:37 1780858897" [ref=e468]:
+                    - link "14 hours ago" [ref=e469] [cursor=pointer]:
+                      - /url: item?id=48437609
+                  - text: "|"
+                  - link "hide" [ref=e470] [cursor=pointer]:
+                    - /url: hide?id=48437609&goto=news
+                  - text: "|"
+                  - link "187 comments" [ref=e471] [cursor=pointer]:
+                    - /url: item?id=48437609
+            - row [ref=e472]
+            - 'row "22. upvote Show HN: Lathe – Use LLMs to learn a new domain, not skip past it (github.com/devenjarvis)" [ref=e473]':
+              - cell "22." [ref=e474]
+              - cell "upvote" [ref=e475]:
+                - link "upvote" [ref=e477] [cursor=pointer]:
+                  - /url: vote?id=48433756&how=up&goto=news
+                  - generic "upvote" [ref=e478]
+              - 'cell "Show HN: Lathe – Use LLMs to learn a new domain, not skip past it (github.com/devenjarvis)" [ref=e479]':
+                - generic [ref=e480]:
+                  - 'link "Show HN: Lathe – Use LLMs to learn a new domain, not skip past it" [ref=e481] [cursor=pointer]':
+                    - /url: https://github.com/devenjarvis/lathe
+                  - generic [ref=e482]:
+                    - text: (
+                    - link "github.com/devenjarvis" [ref=e483] [cursor=pointer]:
+                      - /url: from?site=github.com/devenjarvis
+                    - text: )
+            - row "314 points by devenjarvis 22 hours ago | hide | 55 comments" [ref=e484]:
+              - cell [ref=e485]
+              - cell "314 points by devenjarvis 22 hours ago | hide | 55 comments" [ref=e486]:
+                - generic [ref=e487]:
+                  - text: 314 points by
+                  - link "devenjarvis" [ref=e488] [cursor=pointer]:
+                    - /url: user?id=devenjarvis
+                  - generic "2026-06-07T11:16:46 1780831006" [ref=e489]:
+                    - link "22 hours ago" [ref=e490] [cursor=pointer]:
+                      - /url: item?id=48433756
+                  - text: "|"
+                  - link "hide" [ref=e491] [cursor=pointer]:
+                    - /url: hide?id=48433756&goto=news
+                  - text: "|"
+                  - link "55 comments" [ref=e492] [cursor=pointer]:
+                    - /url: item?id=48433756
+            - row [ref=e493]
+            - row "23. upvote What is the purpose of the lost+found folder in Linux and Unix? (2014) (unix.stackexchange.com)" [ref=e494]:
+              - cell "23." [ref=e495]
+              - cell "upvote" [ref=e496]:
+                - link "upvote" [ref=e498] [cursor=pointer]:
+                  - /url: vote?id=48409474&how=up&goto=news
+                  - generic "upvote" [ref=e499]
+              - cell "What is the purpose of the lost+found folder in Linux and Unix? (2014) (unix.stackexchange.com)" [ref=e500]:
+                - generic [ref=e501]:
+                  - link "What is the purpose of the lost+found folder in Linux and Unix? (2014)" [ref=e502] [cursor=pointer]:
+                    - /url: https://unix.stackexchange.com/questions/18154/what-is-the-purpose-of-the-lostfound-folder-in-linux-and-unix
+                  - generic [ref=e503]:
+                    - text: (
+                    - link "unix.stackexchange.com" [ref=e504] [cursor=pointer]:
+                      - /url: from?site=unix.stackexchange.com
+                    - text: )
+            - row "191 points by tosh 17 hours ago | hide | 67 comments" [ref=e505]:
+              - cell [ref=e506]
+              - cell "191 points by tosh 17 hours ago | hide | 67 comments" [ref=e507]:
+                - generic [ref=e508]:
+                  - text: 191 points by
+                  - link "tosh" [ref=e509] [cursor=pointer]:
+                    - /url: user?id=tosh
+                  - generic "2026-06-05T08:08:33 1780646913" [ref=e510]:
+                    - link "17 hours ago" [ref=e511] [cursor=pointer]:
+                      - /url: item?id=48409474
+                  - text: "|"
+                  - link "hide" [ref=e512] [cursor=pointer]:
+                    - /url: hide?id=48409474&goto=news
+                  - text: "|"
+                  - link "67 comments" [ref=e513] [cursor=pointer]:
+                    - /url: item?id=48409474
+            - row [ref=e514]
+            - row "24. upvote The 29th International Obfuscated C Code Contest (IOCCC) 2025 Winners (ioccc.org)" [ref=e515]:
+              - cell "24." [ref=e516]
+              - cell "upvote" [ref=e517]:
+                - link "upvote" [ref=e519] [cursor=pointer]:
+                  - /url: vote?id=48432199&how=up&goto=news
+                  - generic "upvote" [ref=e520]
+              - cell "The 29th International Obfuscated C Code Contest (IOCCC) 2025 Winners (ioccc.org)" [ref=e521]:
+                - generic [ref=e522]:
+                  - link "The 29th International Obfuscated C Code Contest (IOCCC) 2025 Winners" [ref=e523] [cursor=pointer]:
+                    - /url: https://www.ioccc.org/2025/
+                  - generic [ref=e524]:
+                    - text: (
+                    - link "ioccc.org" [ref=e525] [cursor=pointer]:
+                      - /url: from?site=ioccc.org
+                    - text: )
+            - row "394 points by matt_d 1 day ago | hide | 89 comments" [ref=e526]:
+              - cell [ref=e527]
+              - cell "394 points by matt_d 1 day ago | hide | 89 comments" [ref=e528]:
+                - generic [ref=e529]:
+                  - text: 394 points by
+                  - link "matt_d" [ref=e530] [cursor=pointer]:
+                    - /url: user?id=matt_d
+                  - generic "2026-06-07T05:47:54 1780811274" [ref=e531]:
+                    - link "1 day ago" [ref=e532] [cursor=pointer]:
+                      - /url: item?id=48432199
+                  - text: "|"
+                  - link "hide" [ref=e533] [cursor=pointer]:
+                    - /url: hide?id=48432199&goto=news
+                  - text: "|"
+                  - link "89 comments" [ref=e534] [cursor=pointer]:
+                    - /url: item?id=48432199
+            - row [ref=e535]
+            - row "25. upvote A discovery about GCC's unidirectional rotation algorithm (devblogs.microsoft.com/oldnewthing)" [ref=e536]:
+              - cell "25." [ref=e537]
+              - cell "upvote" [ref=e538]:
+                - link "upvote" [ref=e540] [cursor=pointer]:
+                  - /url: vote?id=48394587&how=up&goto=news
+                  - generic "upvote" [ref=e541]
+              - cell "A discovery about GCC's unidirectional rotation algorithm (devblogs.microsoft.com/oldnewthing)" [ref=e542]:
+                - generic [ref=e543]:
+                  - link "A discovery about GCC's unidirectional rotation algorithm" [ref=e544] [cursor=pointer]:
+                    - /url: https://devblogs.microsoft.com/oldnewthing/20260603-00/?p=112378
+                  - generic [ref=e545]:
+                    - text: (
+                    - link "devblogs.microsoft.com/oldnewthing" [ref=e546] [cursor=pointer]:
+                      - /url: from?site=devblogs.microsoft.com/oldnewthing
+                    - text: )
+            - row "22 points by soheilpro 6 hours ago | hide | 10 comments" [ref=e547]:
+              - cell [ref=e548]
+              - cell "22 points by soheilpro 6 hours ago | hide | 10 comments" [ref=e549]:
+                - generic [ref=e550]:
+                  - text: 22 points by
+                  - link "soheilpro" [ref=e551] [cursor=pointer]:
+                    - /url: user?id=soheilpro
+                  - generic "2026-06-04T05:59:22 1780552762" [ref=e552]:
+                    - link "6 hours ago" [ref=e553] [cursor=pointer]:
+                      - /url: item?id=48394587
+                  - text: "|"
+                  - link "hide" [ref=e554] [cursor=pointer]:
+                    - /url: hide?id=48394587&goto=news
+                  - text: "|"
+                  - link "10 comments" [ref=e555] [cursor=pointer]:
+                    - /url: item?id=48394587
+            - row [ref=e556]
+            - row "26. upvote Man-Computer Symbiosis J. C. R. Licklider (1960) (csail.mit.edu)" [ref=e557]:
+              - cell "26." [ref=e558]
+              - cell "upvote" [ref=e559]:
+                - link "upvote" [ref=e561] [cursor=pointer]:
+                  - /url: vote?id=48405890&how=up&goto=news
+                  - generic "upvote" [ref=e562]
+              - cell "Man-Computer Symbiosis J. C. R. Licklider (1960) (csail.mit.edu)" [ref=e563]:
+                - generic [ref=e564]:
+                  - link "Man-Computer Symbiosis J. C. R. Licklider (1960)" [ref=e565] [cursor=pointer]:
+                    - /url: https://groups.csail.mit.edu/medg/people/psz/Licklider.html
+                  - generic [ref=e566]:
+                    - text: (
+                    - link "csail.mit.edu" [ref=e567] [cursor=pointer]:
+                      - /url: from?site=csail.mit.edu
+                    - text: )
+            - row "35 points by rballpug 8 hours ago | hide | 3 comments" [ref=e568]:
+              - cell [ref=e569]
+              - cell "35 points by rballpug 8 hours ago | hide | 3 comments" [ref=e570]:
+                - generic [ref=e571]:
+                  - text: 35 points by
+                  - link "rballpug" [ref=e572] [cursor=pointer]:
+                    - /url: user?id=rballpug
+                  - generic "2026-06-04T23:07:39 1780614459" [ref=e573]:
+                    - link "8 hours ago" [ref=e574] [cursor=pointer]:
+                      - /url: item?id=48405890
+                  - text: "|"
+                  - link "hide" [ref=e575] [cursor=pointer]:
+                    - /url: hide?id=48405890&goto=news
+                  - text: "|"
+                  - link "3 comments" [ref=e576] [cursor=pointer]:
+                    - /url: item?id=48405890
+            - row [ref=e577]
+            - row "27. upvote Texas grid flags risks as data centers, crypto sites fail voltage tests (reuters.com)" [ref=e578]:
+              - cell "27." [ref=e579]
+              - cell "upvote" [ref=e580]:
+                - link "upvote" [ref=e582] [cursor=pointer]:
+                  - /url: vote?id=48440610&how=up&goto=news
+                  - generic "upvote" [ref=e583]
+              - cell "Texas grid flags risks as data centers, crypto sites fail voltage tests (reuters.com)" [ref=e584]:
+                - generic [ref=e585]:
+                  - link "Texas grid flags risks as data centers, crypto sites fail voltage tests" [ref=e586] [cursor=pointer]:
+                    - /url: https://www.reuters.com/business/energy/texas-grid-flags-risks-data-centers-crypto-sites-fail-voltage-tests-2026-06-05/
+                  - generic [ref=e587]:
+                    - text: (
+                    - link "reuters.com" [ref=e588] [cursor=pointer]:
+                      - /url: from?site=reuters.com
+                    - text: )
+            - row "105 points by 1vuio0pswjnm7 7 hours ago | hide | 74 comments" [ref=e589]:
+              - cell [ref=e590]
+              - cell "105 points by 1vuio0pswjnm7 7 hours ago | hide | 74 comments" [ref=e591]:
+                - generic [ref=e592]:
+                  - text: 105 points by
+                  - link "1vuio0pswjnm7" [ref=e593] [cursor=pointer]:
+                    - /url: user?id=1vuio0pswjnm7
+                  - generic "2026-06-08T02:05:40 1780884340" [ref=e594]:
+                    - link "7 hours ago" [ref=e595] [cursor=pointer]:
+                      - /url: item?id=48440610
+                  - text: "|"
+                  - link "hide" [ref=e596] [cursor=pointer]:
+                    - /url: hide?id=48440610&goto=news
+                  - text: "|"
+                  - link "74 comments" [ref=e597] [cursor=pointer]:
+                    - /url: item?id=48440610
+            - row [ref=e598]
+            - 'row "28. upvote 1worldflag: A blue dot on a transparent background (1worldflag.com)" [ref=e599]':
+              - cell "28." [ref=e600]
+              - cell "upvote" [ref=e601]:
+                - link "upvote" [ref=e603] [cursor=pointer]:
+                  - /url: vote?id=48440435&how=up&goto=news
+                  - generic "upvote" [ref=e604]
+              - 'cell "1worldflag: A blue dot on a transparent background (1worldflag.com)" [ref=e605]':
+                - generic [ref=e606]:
+                  - 'link "1worldflag: A blue dot on a transparent background" [ref=e607] [cursor=pointer]':
+                    - /url: https://1worldflag.com/
+                  - generic [ref=e608]:
+                    - text: (
+                    - link "1worldflag.com" [ref=e609] [cursor=pointer]:
+                      - /url: from?site=1worldflag.com
+                    - text: )
+            - row "115 points by davidbarker 8 hours ago | hide | 99 comments" [ref=e610]:
+              - cell [ref=e611]
+              - cell "115 points by davidbarker 8 hours ago | hide | 99 comments" [ref=e612]:
+                - generic [ref=e613]:
+                  - text: 115 points by
+                  - link "davidbarker" [ref=e614] [cursor=pointer]:
+                    - /url: user?id=davidbarker
+                  - generic "2026-06-08T01:37:52 1780882672" [ref=e615]:
+                    - link "8 hours ago" [ref=e616] [cursor=pointer]:
+                      - /url: item?id=48440435
+                  - text: "|"
+                  - link "hide" [ref=e617] [cursor=pointer]:
+                    - /url: hide?id=48440435&goto=news
+                  - text: "|"
+                  - link "99 comments" [ref=e618] [cursor=pointer]:
+                    - /url: item?id=48440435
+            - row [ref=e619]
+            - row "29. upvote LLMs are eroding my software engineering career and I don't know what to do (human-in-the-loop.bearblog.dev)" [ref=e620]:
+              - cell "29." [ref=e621]
+              - cell "upvote" [ref=e622]:
+                - link "upvote" [ref=e624] [cursor=pointer]:
+                  - /url: vote?id=48434312&how=up&goto=news
+                  - generic "upvote" [ref=e625]
+              - cell "LLMs are eroding my software engineering career and I don't know what to do (human-in-the-loop.bearblog.dev)" [ref=e626]:
+                - generic [ref=e627]:
+                  - link "LLMs are eroding my software engineering career and I don't know what to do" [ref=e628] [cursor=pointer]:
+                    - /url: https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/
+                  - generic [ref=e629]:
+                    - text: (
+                    - link "human-in-the-loop.bearblog.dev" [ref=e630] [cursor=pointer]:
+                      - /url: from?site=human-in-the-loop.bearblog.dev
+                    - text: )
+            - row "965 points by poisonfountain 20 hours ago | hide | 929 comments" [ref=e631]:
+              - cell [ref=e632]
+              - cell "965 points by poisonfountain 20 hours ago | hide | 929 comments" [ref=e633]:
+                - generic [ref=e634]:
+                  - text: 965 points by
+                  - link "poisonfountain" [ref=e635] [cursor=pointer]:
+                    - /url: user?id=poisonfountain
+                  - generic "2026-06-07T12:49:29 1780836569" [ref=e636]:
+                    - link "20 hours ago" [ref=e637] [cursor=pointer]:
+                      - /url: item?id=48434312
+                  - text: "|"
+                  - link "hide" [ref=e638] [cursor=pointer]:
+                    - /url: hide?id=48434312&goto=news
+                  - text: "|"
+                  - link "929 comments" [ref=e639] [cursor=pointer]:
+                    - /url: item?id=48434312
+            - row [ref=e640]
+            - row "30. upvote Splash Is a Colour Format (todepond.com)" [ref=e641]:
+              - cell "30." [ref=e642]
+              - cell "upvote" [ref=e643]:
+                - link "upvote" [ref=e645] [cursor=pointer]:
+                  - /url: vote?id=48390269&how=up&goto=news
+                  - generic "upvote" [ref=e646]
+              - cell "Splash Is a Colour Format (todepond.com)" [ref=e647]:
+                - generic [ref=e648]:
+                  - link "Splash Is a Colour Format" [ref=e649] [cursor=pointer]:
+                    - /url: https://www.todepond.com/lab/splash/
+                  - generic [ref=e650]:
+                    - text: (
+                    - link "todepond.com" [ref=e651] [cursor=pointer]:
+                      - /url: from?site=todepond.com
+                    - text: )
+            - row "61 points by tobr 1 day ago | hide | 86 comments" [ref=e652]:
+              - cell [ref=e653]
+              - cell "61 points by tobr 1 day ago | hide | 86 comments" [ref=e654]:
+                - generic [ref=e655]:
+                  - text: 61 points by
+                  - link "tobr" [ref=e656] [cursor=pointer]:
+                    - /url: user?id=tobr
+                  - generic "2026-06-03T21:22:23 1780521743" [ref=e657]:
+                    - link "1 day ago" [ref=e658] [cursor=pointer]:
+                      - /url: item?id=48390269
+                  - text: "|"
+                  - link "hide" [ref=e659] [cursor=pointer]:
+                    - /url: hide?id=48390269&goto=news
+                  - text: "|"
+                  - link "86 comments" [ref=e660] [cursor=pointer]:
+                    - /url: item?id=48390269
+            - row [ref=e661]
+            - row [ref=e662]
+            - row "More" [ref=e663]:
+              - cell [ref=e664]
+              - cell "More" [ref=e665]:
+                - link "More" [ref=e666] [cursor=pointer]:
+                  - /url: "?p=2"
+    - row "Guidelines | FAQ | Lists | API | Security | Legal | Apply to YC | Contact Search:" [ref=e667]:
+      - cell "Guidelines | FAQ | Lists | API | Security | Legal | Apply to YC | Contact Search:" [ref=e668]:
+        - img
+        - table [ref=e669]:
+          - rowgroup [ref=e670]:
+            - row [ref=e671]:
+              - cell [ref=e672]
+        - generic [ref=e673]:
+          - generic [ref=e674]:
+            - link "Guidelines" [ref=e675] [cursor=pointer]:
+              - /url: newsguidelines.html
+            - text: "|"
+            - link "FAQ" [ref=e676] [cursor=pointer]:
+              - /url: newsfaq.html
+            - text: "|"
+            - link "Lists" [ref=e677] [cursor=pointer]:
+              - /url: lists
+            - text: "|"
+            - link "API" [ref=e678] [cursor=pointer]:
+              - /url: https://github.com/HackerNews/API
+            - text: "|"
+            - link "Security" [ref=e679] [cursor=pointer]:
+              - /url: security.html
+            - text: "|"
+            - link "Legal" [ref=e680] [cursor=pointer]:
+              - /url: https://www.ycombinator.com/legal/
+            - text: "|"
+            - link "Apply to YC" [ref=e681] [cursor=pointer]:
+              - /url: https://www.ycombinator.com/apply/
+            - text: "|"
+            - link "Contact" [ref=e682] [cursor=pointer]:
+              - /url: mailto:hn@ycombinator.com
+          - generic [ref=e683]:
+            - text: "Search:"
+            - textbox [ref=e684]

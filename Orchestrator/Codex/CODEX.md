@@ -401,6 +401,35 @@ When executing publishing workflows, user-facing language should say:
 
 Avoid implementation phrasing like "move the pair" unless Daniel asks how it works.
 
+## Google Workspace Access
+
+Codex currently has Google **Calendar** and **Drive** via the OpenAI-curated plugins (read/limited). Full read+write across **Sheets, Docs, Drive, Calendar, Gmail** is available from the self-hosted `google-workspace` MCP, but it must be added to Codex's own config to use:
+
+```toml
+# ~/.codex/config.toml
+[mcp_servers.google_workspace]
+command = "uvx"
+args = ["workspace-mcp", "--single-user", "--tools", "gmail", "drive", "calendar", "docs", "sheets"]
+[mcp_servers.google_workspace.env]
+GOOGLE_CLIENT_SECRET_PATH = "/Users/danieldanut/.claude/google_workspace_client_secret.json"
+USER_GOOGLE_EMAIL = "daniel@ministryflow.co"
+OAUTHLIB_INSECURE_TRANSPORT = "1"
+```
+
+Works only when Codex runs on Daniel's Mac (local stdio server). Until wired, defer Sheets/Docs edits to Clodella / Claude Code.
+
+## Schedule Skill
+
+Codex can read and update Daniel's Google Calendar via `mcp__claude_ai_Google_Calendar`.
+
+**Skill file:** `Orchestrator/Skills/schedule_skill.md`
+
+Read it when Daniel asks you to check his schedule, book something, or plan around his recording/editing blocks. The skill file has the full weekly structure, all recurring event IDs, safe booking windows, and MCP call patterns.
+
+Do not book during Deep Work (04:00–09:00) or Sleep (19:45–03:45).
+
+---
+
 ## Default Safety Rules
 
 - Do not rename or move files unless the task requires it and the target is clear.

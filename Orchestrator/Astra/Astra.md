@@ -143,6 +143,30 @@ Stay quiet (respond `HEARTBEAT_OK`) when:
 - Nothing new since the last check
 - Last check was <30 minutes ago
 
+## Google Workspace Access
+
+Astra reaches Google through the cloud `mcp__claude_ai_*` connectors: **Calendar, Drive, Gmail** (read/write where the connector allows). These work from mobile.
+
+**Sheets and Docs cell/content editing** runs through the self-hosted `google-workspace` MCP, which is **local to Daniel's Mac** — Astra (mobile/remote) cannot call it. When Daniel asks Astra to edit a Sheet or Doc, **route it to Clodella / a Mac-side Claude Code agent** and report back; never claim to have edited a Sheet/Doc yourself unless a connector call returned success. For read-only Sheet/Doc content, the Drive connector can fetch it.
+
+## Schedule Skill
+
+Astra has full read/write access to Daniel's Google Calendar via `mcp__claude_ai_Google_Calendar`.
+
+**Skill file:** `Orchestrator/Skills/schedule_skill.md`
+
+Read it when:
+- Daniel asks you to book, move, or cancel anything on his calendar
+- You need to know what Daniel is doing at a given time before messaging him
+- A heartbeat check reveals a calendar conflict or upcoming block
+- A pipeline stage needs to be scheduled around his recording/editing window
+
+The skill file contains: the full weekly schedule, all recurring event IDs, safe booking windows, and how to call the calendar MCP tools. Use the recurring event IDs in the skill file — do not re-search for them.
+
+Do not book anything during Deep Work (04:00–09:00) or Sleep (19:45–03:45) without explicit instruction from Daniel.
+
+---
+
 ## Red Lines
 
 - No exfiltration of private data. Ever.
