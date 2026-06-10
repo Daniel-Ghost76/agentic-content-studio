@@ -1,59 +1,19 @@
 # CLAUDE.md
 
-## The Business
-
-YouTube (free value) -> Skool community (low-ticket) -> AI implementation services
+## Business
+YouTube (free value) → Skool community (low-ticket) → AI implementation services
 
 ---
 
 ## Folder Structure
 
 ```text
-Orchestrator/
-├── Astra/
-├── Claudella/
-├── Codex/
-└── Vera/
-
 Youtube/
-├── Input/              ← agents, SOPs, tools, resources needed TO DO the work
-│   ├── 1. SOPs/
-│   ├── 2. Skills/
-│   ├── 3. Rules/
-│   ├── 4. Resources/
-│   │   ├── 1. ideation_resources/
-│   │   ├── 2. scripting_resources/
-│   │   ├── 3. pre-production_materials_resources/
-│   │   ├── 4. editing_resources/
-│   │   ├── 5. visuals_resources/
-│   │   ├── 6. review_resources/
-│   │   ├── 7. publishing_resources/
-│   │   ├── 8. distribution_resources/
-│   │   └── 9. analytics_resources/
-│   └── 5. Tools/
-│       ├── 1. ideation_tools/
-│       ├── 2. scripting_tools/
-│       ├── 3. pre-production_materials_tools/
-│       ├── 4. editing_tools/
-│       ├── 5. visuals_tools/
-│       ├── 6. review_tools/
-│       ├── 7. publishing_tools/
-│       ├── 8. distribution_tools/
-│       └── 9. analytics_tools/
-└── Output/             ← content produced by the system
-    ├── 1. Ideation/
-    ├── 2. Scripts/
-    ├── 3. Pre-production Materials/
-    ├── 4. Editing/
-    ├── 5. Visuals/
-    ├── 6. Review  /
-    ├── 7. Publishing/
-    ├── 8. Distribution/
-    └── 9. Analytics/
+├── Input/     ← SOPs · Skills · Rules · Resources · Tools (by stage number)
+└── Output/    ← content produced (by stage number)
 ```
 
-**Input** is where agents save MD files, tools, credentials, and anything needed to perform a workflow.
-**Output** is where the content produced by those workflows gets saved.
+**Input** = workflow assets. **Output** = episode content. Nothing gets created outside this structure.
 
 ---
 
@@ -64,158 +24,107 @@ Youtube/
 | 1 | Ideation | Claude |
 | 2 | Scripts | Claude |
 | 3 | Pre-production Materials | Codex |
-| 4 | Editing (4a Prep · 4b Cut Edit · 4c Overlay Identifier · 4d Grade+Zoom) | Codex + Claude Code |
-| 5 | Visuals / Overlays (5a Overlays · 5b Finish) | Codex |
+| 4 | Editing (4a Prep · 4b Cut Edit · 4c Overlay ID · 4d Grade+Zoom) | Codex + Claude Code |
+| 5 | Visuals (5a Overlays · 5b Finish) | Codex |
 | 6 | Review | Claude |
-| 7 | Publishing | Claude by default; OpenClaw (Astra) orchestrates from mobile via Telegram |
+| 7 | Publishing | Claude / OpenClaw (Astra) via Telegram |
 | 8 | Distribution | Claude |
 | 9 | Analytics | Claude |
 
-**OpenClaw (Astra)** is the primary mobile orchestrator. Daniel triggers stages by messaging Astra on Telegram. **Hermes (Vera)** is the secondary assistant — passive, Telegram-triggered only, no background work. **Clodella** is the Claude Code routine runner — executes specific tasks and task-completion updates from within the workspace.
-
----
-
-## Canonical Project Naming
-
-Every YouTube video has one permanent project ID. That ID is carried through every Output stage.
-
-Project folders:
-
-```text
-Youtube/Output/{stage}/{project_id}/
-```
-
-Artifact filenames:
-
-```text
-{project_id}_{purpose_suffix}.{ext}
-```
-
-Examples:
-
-- `02_codex_mobile`
-- `02_codex_mobile_idea.pdf`
-- `02_codex_mobile_script.pdf`
-- `02_codex_mobile_visuals_brief.md`
-- `02_codex_mobile_raw.mp4`
-- `02_codex_mobile_review.mp4`
-- `02_codex_mobile_publish.mp4`
-- `02_codex_mobile_analytics_d07.md`
-
-Current Episode 1 override: Daniel explicitly renamed the first project to `01-transcript-youtube`. Use that exact project ID for Episode 1. Do not rename it back to any previous Day 1 ID.
-
-The Stage 1 ideation PDF establishes the project ID. Later stages must read and reuse the upstream project ID instead of inventing a new folder or display name. Raw imported camera exports may keep original filenames only inside an `originals/` subfolder; normalized working copies must use the project ID prefix.
-
-Once an idea is accepted and Script Draft 1 has been created, the scripting agent must create empty project folders for that `project_id` in every Output stage. This gives the episode a complete lane from ideation through analytics even before later assets exist.
-
-Required folder set:
-
-```text
-Youtube/Output/1. Ideation/{project_id}/
-Youtube/Output/2. Scripts/{project_id}/
-Youtube/Output/3. Pre-production Materials/{project_id}/
-Youtube/Output/4. Editing/{project_id}/
-Youtube/Output/5. Visuals/{project_id}/
-Youtube/Output/6. Review  /{project_id}/
-Youtube/Output/7. Publishing/{project_id}/
-Youtube/Output/8. Distribution/{project_id}/
-Youtube/Output/9. Analytics/{project_id}/
-```
+**Astra** = primary mobile orchestrator (Telegram). **Vera/Hermes** = secondary, passive. **Clodella** = Claude Code routine runner.
 
 ---
 
 ## Agent Instructions
 
-**Before performing any task, read your stage's Input files:**
-- SOP: `Youtube/Input/1. SOPs/{N}. {Stage}/{stage}_sop.md`
-- Skill: `Youtube/Input/2. Skills/{N}. {Stage}/{stage}_skill.md` (folder may contain multiple skill files — read all)
-- Rules: `Youtube/Input/3. Rules/{N}. {Stage}/{stage}_rules.md`
-- Resources: `Youtube/Input/4. Resources/{N}. {stage}_resources/`
-- Tools: `Youtube/Input/5. Tools/{N}. {stage}_tools/`
-
-Sub-stages 4a/4b/4c/4d live inside `4. Editing/`; sub-stages 5a/5b live inside `5. Visuals/`. There are exactly 9 stage folders in SOPs, Skills, and Rules.
-
-**Save files to the right place:**
-- Workflow SOPs, agent MD files, tools -> `Youtube/Input/` in the relevant stage folder
-- Content outputs -> `Youtube/Output/` in the relevant stage folder
-- Nothing gets created outside the existing folder structure
+Before any stage task, read: `Youtube/Input/1. SOPs/{N}. {Stage}/{stage}_sop.md` · skill · rules · resources · tools.
+Sub-stages 4a/4b/4c/4d → `4. Editing/`; 5a/5b → `5. Visuals/`. Exactly 9 stage folders in each Input section.
+Save: workflow assets → Input/; content outputs → Output/.
 
 ---
 
-## Ideation Stage
-
-Approved idea PDFs go to:
+## Canonical Project Naming
 
 ```text
-Youtube/Output/1. Ideation/{project_id}/{project_id}_idea.pdf
+Youtube/Output/{stage}/{project_id}/          ← folder
+{project_id}_{purpose_suffix}.{ext}           ← filename
 ```
 
-The ideation agent creates the permanent project ID from the ordered idea number and title. That ID is passed to every later stage.
+Examples: `02_codex_mobile_script.pdf` · `02_codex_mobile_raw.mp4`
 
-Brief format: voice_reference pointer · Core Idea · Hook Type · The One Thing · Target Viewer · Value Proof · Build/Demo Steps · Personal Angle `[DANIEL TO FILL]` · Vulnerability Moment `[DANIEL TO FILL]` · Analogy Idea · CTA Direction · Constraints
+**Ep 1 override:** project_id = `01-transcript-youtube` — permanent, never rename.
 
----
-
-## Pre-production Materials Stage
-
-**Stage 3 — Pre-production Materials:** Input = Visuals Brief MD from scripting agent. Codex builds slides, diagrams, and presentation assets before Daniel records. Output -> `Youtube/Output/3. Pre-production Materials/{project_id}/`
+The Stage 1 ideation PDF sets the project ID. All later stages read and reuse it. On Script Draft 1, create empty folders for the project_id in every Output stage (1–9). Raw camera files may keep original names inside `originals/`; all working copies use the project_id prefix.
 
 ---
 
-## Editing And Visuals Stages
+## Subagents (token-saving delegation)
 
-**Stage 4 — Editing:** Claude runs four sequential SOPs to take raw footage to a graded, zoomed, overlay-mapped cut. Output -> `Youtube/Output/4. Editing/{project_id}/`
+Rule: delegate doing, keep thinking. Mechanical/API/file-ops → subagent. Creative judgment → main session.
 
-**Stage 4a — Prep:** Claude ingests `originals/`, normalizes footage to spec, syncs multi-source (face cam + screen recording), enhances audio with DeepFilterNet. Outputs: `normalized/`, `audio/`, `manifest.json`, `sync.json`.
+| Subagent | Model | Owns | Wired into |
+|----------|-------|------|-----------|
+| `researcher` | Sonnet | Stage 1: Perplexity saturation/stats/refs → digest | ideation_sop |
+| `editor-mech` | Haiku | Stage 4: transcribe / pack / render approved EDL / grade / gap-compress | cut_edit_sop |
+| `publisher` | Haiku | Stage 7: validate pairs+YAML, schedule slot, upload | publishing_sop |
+| `analyst` | Haiku | Stage 9: due-check, fetch analytics, rollup | analytics_sop |
 
-**Stage 4b — Cut Edit:** Claude transcribes (ElevenLabs Scribe), proposes cut strategy (Daniel approves), removes filler words/silences/bad takes, renders `{project_id}_cut.mp4`.
+Agents run in separate context windows on cheaper models; return short summaries only. `editor-mech` executes only an approved EDL — cut strategy stays in main session.
 
-**Stage 4c — Overlay Identifier:** Claude reads the transcript and cut video once, maps all visual events as stubs — captions (glass panel overlays, 10–15% of words), zoom keyframes, HyperFrames motion graphics, Higgsfield full-screen clips, additional materials. Daniel approves the overlay map before Stage 5 builds anything.
+---
 
-**Stage 4d — Grade + Zoom:** Claude applies color grade and bakes zoom keyframes into the footage in a single render pass. Outputs `{project_id}_cut_final.mp4` — the base video Agent 5 composites onto.
+## Orchestrator Personas
 
-**Stage 5 — Visuals / Overlays:** Codex runs two sequential SOPs to build all overlays and finish the video. Output -> `Youtube/Output/5. Visuals/{project_id}/`
+These are **not** Claude Code subagents — they are identity/routing guides read manually or via Telegram.
 
-**Stage 5a — Overlays:** Codex reads the overlay map from 4c, cleans up the screen recording, builds all overlay slots in parallel (HyperFrames for captions/motion graphics, Higgsfield for full-screen clips), and composites everything onto `cut_final.mp4`.
+| Persona | File | Platform | Role |
+|---------|------|----------|------|
+| Astra 🦞 | `Orchestrator/Astra/Astra.md` | Telegram (OpenClaw) | Primary mobile orchestrator |
+| Vera | `Orchestrator/Vera/Vera.md` | Passive / secondary | Monitoring |
+| Clodella | `Orchestrator/Claudella/Clodella.md` | Claude Code | Routine runner |
+| Codex | `Orchestrator/Codex/CODEX.md` | Codex CLI | Stage 3 + 5 production |
 
-**Stage 5b — Finish:** Codex adds branded intro/outro (cached, rendered once per brand version), optional background music (ducks under speech automatically), and runs automatic QC verification. Outputs `{project_id}_final.mp4` + `{project_id}_qc_report.md` → Stage 6.
+---
+
+## Official Plugins (Anthropic)
+
+| Plugin | What it adds |
+|--------|-------------|
+| `superpowers` 5.1.0 | Planning, debugging, TDD, code-review, git-worktrees, subagent-dev skills |
+| `claude-md-management` | `/revise-claude-md` command + `claude-md-improver` skill |
+| `code-review` | `/code-review` command with `--ultra` multi-agent mode |
+| `code-simplifier` | `code-simplifier` subagent — patched to `sonnet` (re-apply after plugin updates) |
+| `skill-creator` | `skill-creator` skill for building new skills |
+| `session-report` | `/session-report` command — structured session summary for handoffs |
+| `commit-commands` | `/commit`, `/commit-push-pr`, `/clean_gone` git shortcuts |
+| `feature-dev` | `code-architect`, `code-explorer`, `code-reviewer` subagents (all `sonnet`) |
 
 ---
 
 ## Shared Tools (MCP)
 
-Two self-hosted MCP servers are registered in Claude Code user scope (`~/.claude.json`):
-
-- **`google-workspace`** — full read+write Google Workspace, authed as `daniel@ministryflow.co`. Tools prefixed `mcp__google-workspace__` cover Sheets, Docs, Drive, Calendar, Gmail (read/edit cells, edit doc content, create/move/trash files, manage events, send/draft mail). Always pass `user_google_email=daniel@ministryflow.co`. Setup: GCP project `claude-workspace-mcp-498804`, OAuth secret at `~/.claude/google_workspace_client_secret.json` (perms 600, never commit), callback port dynamic (8000–8003 registered).
-- **`playwright`** — browser automation (`mcp__playwright__*`): navigate, click, type, fill forms, snapshot, screenshot. Visible browser by default; starts logged-out.
-
-**Runtime reach (important):** both run as **local stdio servers on this Mac**, so only agents running as Claude Code here see them automatically (**Clodella** does). Other runtimes need the server added to their own config — **Codex** → `~/.codex/config.toml` `[mcp_servers.*]`; **Hermes/Vera** → `~/.hermes/config.yaml`. **Mobile OpenClaw/Astra cannot reach them remotely** (localhost-bound): Astra keeps Calendar/Drive/Gmail via the cloud `mcp__claude_ai_*` connectors, but **full Sheets/Docs editing is a Mac-only capability** — route those to a Mac-side Claude Code agent. Details in memory `project_google_workspace_mcp`.
+- **`google-workspace`** — full read/write Google Workspace as `daniel@ministryflow.co`; local stdio (Mac-only). Pass `user_google_email=daniel@ministryflow.co`. Details: memory `project_google_workspace_mcp`.
+- **`playwright`** — browser automation; visible browser, starts logged-out.
+---
 
 ## Auto-suggest
 
-After responses where a natural next step exists — stage completed, output file created, task approved, or Daniel signals "done" / "what's next" — append:
+After task completions, output created, or stage approved — append:
 
 ```
 ---
 **Next:** `/command` — one sentence tied to current project context.
 ```
 
-Do not append after conversational questions, mid-task troubleshooting, config changes, or when no command clearly fits. Full catalog and selection rules: `.claude/commands/suggest.md`.
+Do not append after questions, mid-task troubleshooting, or config changes. Full catalog: `.claude/commands/suggest.md`.
 
 ---
 
 ## API Keys
 
-All API keys live in `~/.claude/.env` (`/Users/danieldanut/.claude/.env`).
+All keys in `~/.claude/.env` — never hardcode, never store elsewhere.
 
-**Any agent that needs an API key must read it from that file — never hardcode keys, never store them anywhere else.**
-
-Current keys registered:
-- `ELEVENLABS_API_KEY` — Scribe transcription (Stage 4 editing)
-- `YOUTUBE_DATA_API_KEY` — YouTube Data API v3 (Stages 7, 8, 9)
-- `OPENAI_API_KEY` — OpenAI / ChatGPT
-- `ANTHROPIC_API_KEY` — Anthropic Claude API
-- `TELEGRAM_BOT_TOKEN` — YouTube notification bot
-- `SKOOL_API_KEY` — Skool community
-
----
+- `PERPLEXITY_API_KEY` — Stage 1 research
+- `ELEVENLABS_API_KEY` — Stage 4 transcription
+- `YOUTUBE_DATA_API_KEY` — Stages 7, 8, 9
+- `OPENAI_API_KEY` · `ANTHROPIC_API_KEY` · `TELEGRAM_BOT_TOKEN` · `SKOOL_API_KEY`

@@ -38,6 +38,11 @@ __pycache__/
 .openclaw/
 hermes
 
+# Claude Code session artefacts
+.playwright-mcp/
+.claude/session_handoff.md
+.claude/worktrees/
+
 # macOS
 .DS_Store
 .AppleDouble
@@ -46,3 +51,8 @@ hermes
 *.egg-info/
 dist/
 build/
+
+# Obsidian (local visualization layer)
+.obsidian/
+.trash/
+Brain

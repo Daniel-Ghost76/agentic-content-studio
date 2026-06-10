@@ -34,6 +34,7 @@ When invoked as `/suggest`, read the conversation context and output exactly one
 | `/critique` | A plan is written and needs a brutal honest audit before executing |
 | `/hide` | About to share screen or record; internal workspace files should be invisible |
 | `/unhide` | Done recording; restore full file visibility in VS Code |
+| `/session-handoff` | Ending a session, OR context is visibly large (long session, many tool calls, Daniel mentions context/tokens/cost) |
 
 ### Built-in Claude Code
 

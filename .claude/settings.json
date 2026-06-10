@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -c \"\nimport json, os, time\nf = '.claude/session_handoff.md'\nif os.path.exists(f) and (time.time() - os.path.getmtime(f)) < 7200:\n    with open(f) as fh:\n        content = fh.read()\n    print(json.dumps({'hookSpecificOutput': {'hookEventName': 'SessionStart', 'additionalContext': 'Session handoff:\\n\\n' + content}}))\n\" 2>/dev/null || true",
+            "statusMessage": "Loading session handoff..."
+          }
+        ]
+      }
+    ]
+  }
+}
