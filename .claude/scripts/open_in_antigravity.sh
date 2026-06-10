@@ -1,11 +1,21 @@
 #!/bin/bash
-# open_in_antigravity.sh <url>
+# open_in_antigravity.sh [--external] <url>
 # Opens <url> in Antigravity's Simple Browser preview tab when the site allows
 # iframe embedding; otherwise (or if the palette automation fails) falls back to
 # the system default browser. Localhost URLs always go to the preview.
+# --external: skip the Simple Browser entirely and open in the default browser
+# (use for heavy pages like video previews that can freeze the editor).
 set -uo pipefail
 
-URL="${1:?usage: open_in_antigravity.sh <url>}"
+if [ "${1:-}" = "--external" ]; then
+  shift
+  URL="${1:?usage: open_in_antigravity.sh [--external] <url>}"
+  open "${URL}"
+  echo "Opened in external browser (forced --external): ${URL}"
+  exit 0
+fi
+
+URL="${1:?usage: open_in_antigravity.sh [--external] <url>}"
 
 open_in_simple_browser() {
   osascript <<EOF 2>/dev/null

@@ -8,17 +8,17 @@ Usage:
 ## How it works
 
 Everything is opened through the shared helper:
-`/Users/danieldanut/Agentic Workspace/.claude/scripts/open_in_antigravity.sh <url>`
-The helper auto-routes: localhost and iframe-friendly sites open **in the Simple Browser preview tab**; sites that block embedding (Google, etc.) or any palette-automation failure open in the **external browser** instead, and it tells you which happened. So you can throw any tool or URL at it and it does the sensible thing.
+`/Users/danieldanut/Agentic Workspace/.claude/scripts/open_in_antigravity.sh [--external] <url>`
+The helper auto-routes: localhost and iframe-friendly sites open **in the Simple Browser preview tab**; sites that block embedding (Google, etc.) or any palette-automation failure open in the **external browser** instead, and it tells you which happened. Pass `--external` to force the default browser and skip the Simple Browser entirely — required for heavy pages (video compositions) that can freeze the editor.
 
 ## Tool registry
 
 **Local dev servers** (start a server, then open localhost in the preview):
 
-| arg (aliases) | dir (under `Youtube/Input/5. Tools/5. visuals_tools/`) | start | url |
-|---|---|---|---|
-| `remotion` | `remotion-visuals` | `npm run dev` (→ `remotion studio`) | `http://localhost:3000` |
-| `hyperframes`, `hf` | `hyperframes` | `npx hyperframes preview` | parse `http://localhost:<port>` from its stdout |
+| arg (aliases) | dir (under `Youtube/Input/5. Tools/5. visuals_tools/`) | start | url | routing |
+|---|---|---|---|---|
+| `remotion` | `remotion-visuals` | `npm run dev` (→ `remotion studio`) | `http://localhost:3000` | preview |
+| `hyperframes`, `hf` | `hyperframes` | `npx hyperframes preview` | parse `http://localhost:<port>` from its stdout | **always external** — call the helper with `--external`. The 1080p video composition freezes Antigravity's Simple Browser. |
 
 **Web tools** (open the URL via the helper, which previews it or falls back to external):
 
