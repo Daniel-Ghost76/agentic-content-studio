@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    @font-face {
+      font-family: 'Space Grotesk';
+      font-style: normal;
+      font-weight: 400 700;
+      font-display: block;
+      src: url('fonts/SpaceGrotesk.woff2') format('woff2');
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 1920px; height: 1080px;
+      background: #09090b;
+      overflow: hidden;
+      font-family: 'Space Grotesk', system-ui, sans-serif;
+    }
+
+    #bg {
+      position: absolute; inset: 0;
+      width: 1920px; height: 1080px;
+      object-fit: cover; z-index: 0;
+    }
+
+    .hf-clip {
+      position: absolute; inset: 0;
+      width: 1920px; height: 1080px;
+      object-fit: cover; z-index: 20;
+      opacity: 0; pointer-events: none;
+    }
+
+    /* ═══════════════════════════════════════════════════
+       SECTION TAG  — top-left pill (small, persistent)
+    ═══════════════════════════════════════════════════ */
+    .sec-tag {
+      position: absolute;
+      top: 70px; left: 70px;
+      display: flex; align-items: center; gap: 10px;
+      height: 52px;
+      padding: 8px 20px 8px 8px;
+      background: rgba(13, 17, 30, 0.92);
+      border: 2px solid #00D4AA;
+      border-radius: 30px;
+      box-shadow: 0 0 22px rgba(0, 212, 170, 0.12), 0 4px 20px rgba(0,0,0,0.55);
+      opacity: 0;
+      z-index: 6;
+      pointer-events: none;
+    }
+    .sec-tag .t-icon {
+      width: 36px; height: 36px; border-radius: 50%;
+      background: rgba(0, 212, 170, 0.13);
+      border: 1.5px solid rgba(0, 212, 170, 0.38);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 16px; flex-shrink: 0;
+    }
+    .sec-tag .t-label {
+      font-size: 17px; font-weight: 700; letter-spacing: 0.08em;
+      text-transform: uppercase; color: #FFFFFF;
+    }
+
+    /* ═══════════════════════════════════════════════════
+       CALLOUT CARD  — teal border pill, icon + text
+    ═══════════════════════════════════════════════════ */
+    .callout {
+      position: absolute;
+      display: flex; align-items: center; gap: 14px;
+      min-height: 74px;
+      padding: 10px 26px 10px 10px;
+      background: rgba(13, 17, 30, 0.92);
+      border: 2.5px solid #00D4AA;
+      border-radius: 40px;
+      box-shadow: 0 0 28px rgba(0, 212, 170, 0.14), 0 6px 32px rgba(0,0,0,0.58);
+      opacity: 0;
+      z-index: 5;
+      pointer-events: none;
+    }
+    .callout .c-icon {
+      width: 52px; height: 52px; border-radius: 50%;
+      background: rgba(0, 212, 170, 0.12);
+      border: 1.5px solid rgba(0, 212, 170, 0.36);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 24px; flex-shrink: 0;
+    }
+    .callout .c-body {
+      display: flex; flex-direction: column; gap: 2px;
+    }
+    .callout .c-label {
+      font-size: 11px; font-weight: 700; letter-spacing: 0.14em;
+      text-transform: uppercase; color: #00D4AA; line-height: 1;
+    }
+    .callout .c-value {
+      font-size: 22px; font-weight: 700; letter-spacing: 0.02em;
+      color: #FFFFFF; line-height: 1.15; white-space: nowrap;
+    }
+    .callout .c-value.wrap {
+      white-space: normal; max-width: 420px;
+      font-size: 18px;
+    }
+
+    /* Error variant — red border */
+    .callout.error {
+      border-color: #FF4141;
+      background: rgba(28, 10, 10, 0.94);
+      box-shadow: 0 0 28px rgba(255, 65, 65, 0.16), 0 6px 32px rgba(0,0,0,0.58);
+    }
+    .callout.error .c-icon {
+      background: rgba(255, 65, 65, 0.12);
+      border-color: rgba(255, 65, 65, 0.4);
+    }
+    .callout.error .c-label { color: #FF6666; }
+
+    /* ═══════════════════════════════════════════════════
+       EMPHASIS WORD  — large text, no container
+    ═══════════════════════════════════════════════════ */
+    .emphasis {
+      position: absolute;
+      z-index: 4;
+      font-size: 100px; font-weight: 800; letter-spacing: 0.04em;
+      text-transform: uppercase; line-height: 1;
+      color: #00D4AA;
+      text-shadow: 0 4px 60px rgba(0,0,0,0.88), 0 0 80px rgba(0, 212, 170, 0.28);
+      opacity: 0; pointer-events: none;
+    }
+    .emphasis .red { color: #FF4141; }
+
+    /* ═══════════════════════════════════════════════════
+       STACKED ITEM  — smaller callout for columns
+    ═══════════════════════════════════════════════════ */
+    .stack-item {
+      position: absolute;
+      display: flex; align-items: center; gap: 12px;
+      height: 66px;
+      padding: 8px 22px 8px 8px;
+      background: rgba(13, 17, 30, 0.92);
+      border: 2px solid #00D4AA;
+      border-radius: 36px;
+      box-shadow: 0 0 22px rgba(0, 212, 170, 0.12), 0 4px 22px rgba(0,0,0,0.55);
+      opacity: 0; z-index: 5; pointer-events: none;
+    }
+    .stack-item .s-icon {
+      width: 48px; height: 48px; border-radius: 50%;
+      background: rgba(0, 212, 170, 0.12);
+      border: 1.5px solid rgba(0, 212, 170, 0.36);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 21px; flex-shrink: 0;
+    }
+    .stack-item .s-text {
+      font-size: 20px; font-weight: 700; letter-spacing: 0.04em;
+      text-transform: uppercase; color: #FFFFFF; white-space: nowrap;
+    }
+  </style>
+</head>
+<body>
+  <div data-hf-id="root" data-composition-id="full-video" data-width="1920" data-height="1080" data-start="0" data-duration="648.5" style="position:relative;width:1920px;height:1080px;overflow:hidden;">
+
+    <video data-hf-id="hf-sddl" id="bg" src="full.mp4" data-start="0" muted playsinline preload="auto"></video>
+
+    <!-- ── HIGGSFIELD CLIPS (keep — made specifically for this video) ── -->
+    <video data-hf-id="hf-20ds" class="hf-clip" id="hf-01" src="assets/higgsfield/overlay_01_day_one_single_shot_3s_desktop_to_written_notes.mp4" data-start="5.4" data-duration="3.041667" data-track-index="20" muted playsinline preload="auto" crossorigin="anonymous"></video>
+    <video data-hf-id="hf-rw72" class="hf-clip" id="hf-02" src="assets/higgsfield/overlay_02_transcript_market_research_5s_slow.mp4" data-start="16.0" data-duration="5.041667" data-track-index="21" muted playsinline preload="auto" crossorigin="anonymous"></video>
+    <video data-hf-id="hf-e1a7" class="hf-clip" id="hf-03" src="assets/higgsfield/overlay_03_transcripts_to_business_assets_3s.mp4" data-start="32.3" data-duration="3.041667" data-track-index="22" muted playsinline preload="auto" crossorigin="anonymous"></video>
+    <video data-hf-id="hf-x64c" class="hf-clip" id="hf-04" src="assets/higgsfield/overlay_04_company_videos_to_assets_3s.mp4" data-start="37.6" data-duration="3.041667" data-track-index="23" muted playsinline preload="auto" crossorigin="anonymous"></video>
+    <video data-hf-id="hf-ljty" class="hf-clip" id="hf-05" src="assets/higgsfield/overlay_05_build_roadmap_3s.mp4" data-start="635.0" data-duration="3.041667" data-track-index="24" muted playsinline preload="auto" crossorigin="anonymous"></video>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         SECTION TAGS  (top-left, persistent per section)
+    ═══════════════════════════════════════════════════════════════ -->
+
+    <div data-hf-id="hf-ocw3" class="sec-tag clip" id="sec-day-one" data-start="1.0" data-duration="73.0" data-track-index="5">
+      <div data-hf-id="hf-px8c" class="t-icon">📅</div>
+      <span data-hf-id="hf-su0w" class="t-label">Day One</span>
+    </div>
+
+    <div data-hf-id="hf-pui4" class="sec-tag clip" id="sec-live-demo" data-start="183.5" data-duration="167.0" data-track-index="5">
+      <div data-hf-id="hf-lgjk" class="t-icon">▶</div>
+      <span data-hf-id="hf-1reb" class="t-label">Live Demo</span>
+    </div>
+
+    <div data-hf-id="hf-z9uq" class="sec-tag clip" id="sec-results" data-start="600.0" data-duration="44.5" data-track-index="5">
+      <div data-hf-id="hf-n535" class="t-icon">📊</div>
+      <span data-hf-id="hf-pt78" class="t-label">Results</span>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         CALLOUT CARDS  — bottom-right by default (clear of face cam)
+    ═══════════════════════════════════════════════════════════════ -->
+
+    <!-- Use Case 1: Market Research — 21.5s (after HF-02 at 16–21s) -->
+    <div data-hf-id="hf-lmsi" class="callout clip" id="c-market" style="right:80px;bottom:80px;" data-start="21.5" data-duration="5.0" data-track-index="6">
+      <div data-hf-id="hf-ihxe" class="c-icon">📈</div>
+      <div data-hf-id="hf-q0ww" class="c-body">
+        <span data-hf-id="hf-twt3" class="c-label">Use Case 1</span>
+        <span data-hf-id="hf-r0g5" class="c-value">Market Research</span>
+      </div>
+    </div>
+
+    <!-- Use Case 2: Company Assets — 41.5s (after HF-04 at 37.6–40.6s) -->
+    <div data-hf-id="hf-5qcn" class="callout clip" id="c-company" style="right:80px;bottom:80px;" data-start="41.5" data-duration="5.0" data-track-index="6">
+      <div data-hf-id="hf-0ax5" class="c-icon">🏢</div>
+      <div data-hf-id="hf-b40o" class="c-body">
+        <span data-hf-id="hf-tii2" class="c-label">Use Case 2</span>
+        <span data-hf-id="hf-5qcg" class="c-value">Company Assets</span>
+      </div>
+    </div>
+
+    <!-- My Angle: build in public — 64s -->
+    <div data-hf-id="hf-m61i" class="callout clip" id="c-angle" style="right:80px;bottom:80px;" data-start="64.0" data-duration="6.0" data-track-index="6">
+      <div data-hf-id="hf-2fyy" class="c-icon">🎯</div>
+      <div data-hf-id="hf-9x3l" class="c-body">
+        <span data-hf-id="hf-ifl4" class="c-label">My Angle</span>
+        <span data-hf-id="hf-d7mo" class="c-value">Build in public</span>
+      </div>
+    </div>
+
+    <!-- Output overview — 111s -->
+    <div data-hf-id="hf-e4sy" class="callout clip" id="c-output" style="right:80px;bottom:80px;" data-start="111.0" data-duration="7.0" data-track-index="6">
+      <div data-hf-id="hf-cuq6" class="c-icon">📄</div>
+      <div data-hf-id="hf-abem" class="c-body">
+        <span data-hf-id="hf-qme0" class="c-label">Output</span>
+        <span data-hf-id="hf-fnuy" class="c-value">Creator · Stats · Full Transcript</span>
+      </div>
+    </div>
+
+    <!-- Tool: yt-dlp (first mention) — 134s -->
+    <div data-hf-id="hf-wz8t" class="callout clip" id="c-tool-1" style="right:80px;bottom:80px;" data-start="134.0" data-duration="6.0" data-track-index="6">
+      <div data-hf-id="hf-wghm" class="c-icon">🛠</div>
+      <div data-hf-id="hf-94hj" class="c-body">
+        <span data-hf-id="hf-agsz" class="c-label">Tool</span>
+        <span data-hf-id="hf-a3ug" class="c-value">yt-dlp</span>
+      </div>
+    </div>
+
+    <!-- Creator: Alex Hormozi — 185s -->
+    <div data-hf-id="hf-toql" class="callout clip" id="c-creator" style="right:80px;bottom:80px;" data-start="185.0" data-duration="6.0" data-track-index="6">
+      <div data-hf-id="hf-8hpq" class="c-icon">👤</div>
+      <div data-hf-id="hf-9isk" class="c-body">
+        <span data-hf-id="hf-5oyr" class="c-label">Creator</span>
+        <span data-hf-id="hf-s3yc" class="c-value">Alex Hormozi</span>
+      </div>
+    </div>
+
+    <!-- Tool: yt-dlp (folder confirmation) — 392s -->
+    <div data-hf-id="hf-ie54" class="callout clip" id="c-tool-2" style="right:80px;bottom:80px;" data-start="392.0" data-duration="6.0" data-track-index="6">
+      <div data-hf-id="hf-jzue" class="c-icon">✅</div>
+      <div data-hf-id="hf-8bvh" class="c-body">
+        <span data-hf-id="hf-7gh0" class="c-label">Downloaded</span>
+        <span data-hf-id="hf-pnf4" class="c-value">yt-dlp</span>
+      </div>
+    </div>
+
+    <!-- Error: No CSV file found — 480s (bottom-center, above face cam) -->
+    <div data-hf-id="hf-ro3t" class="callout error clip" id="c-error" style="left:0;right:0;margin:auto;width:fit-content;bottom:80px;" data-start="480.0" data-duration="8.5" data-track-index="7">
+      <div data-hf-id="hf-qr1v" class="c-icon">✖</div>
+      <div data-hf-id="hf-8q6i" class="c-body">
+        <span data-hf-id="hf-u0r9" class="c-label">Error</span>
+        <span data-hf-id="hf-jml7" class="c-value">No CSV file found</span>
+      </div>
+    </div>
+
+    <!-- Fix with ChatGPT — 485s -->
+    <div data-hf-id="hf-zkuj" class="callout clip" id="c-chatgpt" style="right:80px;bottom:80px;" data-start="485.0" data-duration="6.0" data-track-index="8">
+      <div data-hf-id="hf-m8k6" class="c-icon">💬</div>
+      <div data-hf-id="hf-dw5v" class="c-body">
+        <span data-hf-id="hf-ff38" class="c-label">Fix with</span>
+        <span data-hf-id="hf-3vcf" class="c-value">ChatGPT</span>
+      </div>
+    </div>
+
+    <!-- Prompt: best AI creators — 554s -->
+    <div data-hf-id="hf-onpg" class="callout clip" id="c-prompt" style="right:80px;bottom:80px;" data-start="554.0" data-duration="7.0" data-track-index="6">
+      <div data-hf-id="hf-3w6y" class="c-icon">💬</div>
+      <div data-hf-id="hf-eagw" class="c-body">
+        <span data-hf-id="hf-ypa7" class="c-label">Prompt</span>
+        <span data-hf-id="hf-zv7n" class="c-value wrap">Give me 10 URLs of the best AI creators</span>
+      </div>
+    </div>
+
+    <!-- Stats: video results — 603s -->
+    <div data-hf-id="hf-4jjv" class="callout clip" id="c-stats" style="right:80px;bottom:80px;" data-start="603.0" data-duration="8.0" data-track-index="6">
+      <div data-hf-id="hf-jajg" class="c-icon">📊</div>
+      <div data-hf-id="hf-rke0" class="c-body">
+        <span data-hf-id="hf-et1f" class="c-label">Video Stats</span>
+        <span data-hf-id="hf-4h34" class="c-value">36 min · 47K views · 1,600 likes</span>
+      </div>
+    </div>
+
+    <!-- CTA: Subscribe — 639s (after HF-05 ends at 638s) -->
+    <div data-hf-id="hf-9553" class="callout clip" id="c-sub" style="left:0;right:0;margin:auto;width:fit-content;bottom:80px;" data-start="639.0" data-duration="6.0" data-track-index="6">
+      <div data-hf-id="hf-pcta" class="c-icon">🔔</div>
+      <div data-hf-id="hf-r62z" class="c-body">
+        <span data-hf-id="hf-bajn" class="c-label">Follow the build</span>
+        <span data-hf-id="hf-rgkl" class="c-value">Subscribe for Day 2 →</span>
+      </div>
+    </div>
+
+    <!-- CTA: Comment — 644s -->
+    <div data-hf-id="hf-aaci" class="callout clip" id="c-comment" style="left:0;right:0;margin:auto;width:fit-content;bottom:80px;" data-start="644.0" data-duration="4.5" data-track-index="9">
+      <div data-hf-id="hf-h2kt" class="c-icon">💡</div>
+      <div data-hf-id="hf-qrry" class="c-body">
+        <span data-hf-id="hf-sahn" class="c-label">Comment below</span>
+        <span data-hf-id="hf-r76a" class="c-value">What will you build with this?</span>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         EMPHASIS WORDS  — large text directly on footage
+    ═══════════════════════════════════════════════════════════════ -->
+
+    <!-- "BLOWS MY MIND" — 239s (right side, above face cam) -->
+    <div data-hf-id="hf-tgrk" class="emphasis clip" id="em-mind" style="right:160px;top:450px;text-align:right;" data-start="239.0" data-duration="3.5" data-track-index="10">
+      BLOWS<br data-hf-id="hf-x5px">MY MIND
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         STACKED COLUMNS  — right side, staggered appearance
+    ═══════════════════════════════════════════════════════════════ -->
+
+    <!-- Tools overview stack — 84s, right side upper area -->
+    <div data-hf-id="hf-2yfq" class="stack-item clip" id="st-1" style="right:80px;top:280px;" data-start="84.0" data-duration="20.0" data-track-index="11">
+      <div data-hf-id="hf-w57j" class="s-icon">📋</div>
+      <span data-hf-id="hf-hdqs" class="s-text">Google Sheet</span>
+    </div>
+    <div data-hf-id="hf-6aoj" class="stack-item clip" id="st-2" style="right:80px;top:360px;" data-start="85.5" data-duration="18.5" data-track-index="12">
+      <div data-hf-id="hf-94hs" class="s-icon">⬇</div>
+      <span data-hf-id="hf-zpzq" class="s-text">yt-dlp (GitHub)</span>
+    </div>
+    <div data-hf-id="hf-wmp5" class="stack-item clip" id="st-3" style="right:80px;top:440px;" data-start="87.0" data-duration="17.0" data-track-index="13">
+      <div data-hf-id="hf-mdfd" class="s-icon">🐍</div>
+      <span data-hf-id="hf-6xwc" class="s-text">Python + ChatGPT</span>
+    </div>
+
+    <!-- Folder structure stack — 301s, right side mid area -->
+    <div data-hf-id="hf-yovj" class="stack-item clip" id="sf-1" style="right:80px;top:300px;" data-start="301.0" data-duration="22.0" data-track-index="11">
+      <div data-hf-id="hf-h1kh" class="s-icon">📥</div>
+      <span data-hf-id="hf-ainh" class="s-text">input/</span>
+    </div>
+    <div data-hf-id="hf-9u7s" class="stack-item clip" id="sf-2" style="right:80px;top:380px;" data-start="302.5" data-duration="20.5" data-track-index="12">
+      <div data-hf-id="hf-hfvi" class="s-icon">📤</div>
+      <span data-hf-id="hf-fl5m" class="s-text">output/</span>
+    </div>
+    <div data-hf-id="hf-gdjb" class="stack-item clip" id="sf-3" style="right:80px;top:460px;" data-start="304.0" data-duration="19.0" data-track-index="13">
+      <div data-hf-id="hf-9he3" class="s-icon">🔧</div>
+      <span data-hf-id="hf-iuqo" class="s-text">tools/</span>
+    </div>
+
+    <!-- Error fix steps stack — 487s, right side -->
+    <div data-hf-id="hf-ehua" class="stack-item clip" id="fix-1" style="right:80px;top:280px;" data-start="487.0" data-duration="12.5" data-track-index="14">
+      <div data-hf-id="hf-b3bx" class="s-icon">👁</div>
+      <span data-hf-id="hf-1ix5" class="s-text">Spot the error</span>
+    </div>
+    <div data-hf-id="hf-lojb" class="stack-item clip" id="fix-2" style="right:80px;top:360px;" data-start="489.0" data-duration="10.5" data-track-index="15">
+      <div data-hf-id="hf-ocf3" class="s-icon">📋</div>
+      <span data-hf-id="hf-p4cv" class="s-text">Paste into Chat</span>
+    </div>
+    <div data-hf-id="hf-q41q" class="stack-item clip" id="fix-3" style="right:80px;top:440px;" data-start="491.0" data-duration="8.5" data-track-index="16">
+      <div data-hf-id="hf-sucj" class="s-icon">▶</div>
+      <span data-hf-id="hf-ppaq" class="s-text">Run it again</span>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         GSAP TIMELINE
+    ═══════════════════════════════════════════════════════════════ -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+
+      /* ── HIGGSFIELD: hard cuts ─────────────────────────── */
+      tl.set('#hf-01', { opacity: 0 }, 0);
+      tl.set('#hf-01', { opacity: 1 }, 5.4);
+      tl.set('#hf-01', { opacity: 0 }, 8.441667);
+
+      tl.set('#hf-02', { opacity: 0 }, 0);
+      tl.set('#hf-02', { opacity: 1 }, 16.0);
+      tl.set('#hf-02', { opacity: 0 }, 21.041667);
+
+      tl.set('#hf-03', { opacity: 0 }, 0);
+      tl.set('#hf-03', { opacity: 1 }, 32.3);
+      tl.set('#hf-03', { opacity: 0 }, 35.341667);
+
+      tl.set('#hf-04', { opacity: 0 }, 0);
+      tl.set('#hf-04', { opacity: 1 }, 37.6);
+      tl.set('#hf-04', { opacity: 0 }, 40.641667);
+
+      tl.set('#hf-05', { opacity: 0 }, 0);
+      tl.set('#hf-05', { opacity: 1 }, 635.0);
+      tl.set('#hf-05', { opacity: 0 }, 638.041667);
+
+      /* ── SECTION TAGS ──────────────────────────────────── */
+      tl.fromTo('#sec-day-one',   { opacity:0, x:-16 }, { opacity:1, x:0, duration:0.4, ease:'power3.out' }, 1.0);
+      tl.to(    '#sec-day-one',   { opacity:0, duration:0.3, ease:'power2.in' }, 74.0);
+
+      tl.fromTo('#sec-live-demo', { opacity:0, x:-16 }, { opacity:1, x:0, duration:0.4, ease:'power3.out' }, 183.5);
+      tl.to(    '#sec-live-demo', { opacity:0, duration:0.3, ease:'power2.in' }, 350.0);
+
+      tl.fromTo('#sec-results',   { opacity:0, x:-16 }, { opacity:1, x:0, duration:0.4, ease:'power3.out' }, 600.0);
+      tl.to(    '#sec-results',   { opacity:0, duration:0.3, ease:'power2.in' }, 644.5);
+
+      /* ── CALLOUT CARDS (slide in from right) ───────────── */
+      const IN  = { opacity:0, x:28 };
+      const OUT = { opacity:0, duration:0.25, ease:'power2.in' };
+      const AIN = { opacity:1, x:0, duration:0.32, ease:'power3.out' };
+
+      tl.fromTo('#c-market',  IN, AIN, 21.5);   tl.to('#c-market',  OUT, 26.2);
+      tl.fromTo('#c-company', IN, AIN, 41.5);   tl.to('#c-company', OUT, 46.2);
+      tl.fromTo('#c-angle',   IN, AIN, 64.0);   tl.to('#c-angle',   OUT, 69.8);
+      tl.fromTo('#c-output',  IN, AIN, 111.0);  tl.to('#c-output',  OUT, 117.8);
+      tl.fromTo('#c-tool-1',  IN, AIN, 134.0);  tl.to('#c-tool-1',  OUT, 139.8);
+      tl.fromTo('#c-creator', IN, AIN, 185.0);  tl.to('#c-creator', OUT, 190.8);
+      tl.fromTo('#c-tool-2',  IN, AIN, 392.0);  tl.to('#c-tool-2',  OUT, 397.8);
+      tl.fromTo('#c-chatgpt', IN, AIN, 485.0);  tl.to('#c-chatgpt', OUT, 490.8);
+      tl.fromTo('#c-prompt',  IN, AIN, 554.0);  tl.to('#c-prompt',  OUT, 560.8);
+      tl.fromTo('#c-stats',   IN, AIN, 603.0);  tl.to('#c-stats',   OUT, 610.8);
+
+      /* Error badge (slide up from bottom, center) */
+      tl.fromTo('#c-error', { opacity:0, y:20 }, { opacity:1, y:0, duration:0.35, ease:'power3.out' }, 480.0);
+      tl.to(    '#c-error', { opacity:0, duration:0.3, ease:'power2.in' }, 488.2);
+
+      /* CTAs (slide up) */
+      tl.fromTo('#c-sub',     { opacity:0, y:20 }, { opacity:1, y:0, duration:0.4, ease:'power3.out' }, 639.0);
+      tl.to(    '#c-sub',     { opacity:0, duration:0.4, ease:'power2.in' }, 644.7);
+      tl.fromTo('#c-comment', { opacity:0, y:20 }, { opacity:1, y:0, duration:0.4, ease:'power3.out' }, 644.0);
+      tl.to(    '#c-comment', { opacity:0, duration:0.4, ease:'power2.in' }, 648.2);
+
+      /* ── EMPHASIS WORD ──────────────────────────────────── */
+      tl.fromTo('#em-mind', { opacity:0, scale:0.88 },
+                            { opacity:1, scale:1.0,  duration:0.28, ease:'back.out(1.5)' }, 239.0);
+      tl.to(    '#em-mind', { opacity:0, duration:0.28, ease:'power2.in' }, 242.3);
+
+      /* ── STACKED COLUMNS (stagger each item in from right) ─ */
+      /* Tools overview */
+      tl.fromTo('#st-1', IN, AIN, 84.0);
+      tl.fromTo('#st-2', IN, AIN, 85.5);
+      tl.fromTo('#st-3', IN, AIN, 87.0);
+      tl.to('#st-1', OUT, 103.8); tl.to('#st-2', OUT, 104.0); tl.to('#st-3', OUT, 104.2);
+
+      /* Folder structure */
+      tl.fromTo('#sf-1', IN, AIN, 301.0);
+      tl.fromTo('#sf-2', IN, AIN, 302.5);
+      tl.fromTo('#sf-3', IN, AIN, 304.0);
+      tl.to('#sf-1', OUT, 322.8); tl.to('#sf-2', OUT, 323.0); tl.to('#sf-3', OUT, 323.2);
+
+      /* Error fix steps */
+      tl.fromTo('#fix-1', IN, AIN, 487.0);
+      tl.fromTo('#fix-2', IN, AIN, 489.0);
+      tl.fromTo('#fix-3', IN, AIN, 491.0);
+      tl.to('#fix-1', OUT, 499.5); tl.to('#fix-2', OUT, 499.7); tl.to('#fix-3', OUT, 499.9);
+
+      /* ── ZOOMS (bg scale) ──────────────────────────────── */
+      tl.to('#bg', { scale:1.06, duration:0.7,  ease:'power2.out', transformOrigin:'50% 50%' }, 63.5);
+      tl.to('#bg', { scale:1.0,  duration:0.65, ease:'power2.in'                             }, 66.5);
+
+      tl.to('#bg', { scale:1.08, duration:0.6,  ease:'power2.out', transformOrigin:'50% 50%' }, 183.0);
+      tl.to('#bg', { scale:1.0,  duration:0.7,  ease:'power2.in'                             }, 186.7);
+
+      tl.to('#bg', { scale:1.07, duration:0.45, ease:'power2.out', transformOrigin:'50% 50%' }, 239.0);
+      tl.to('#bg', { scale:1.0,  duration:0.55, ease:'power2.in'                             }, 242.0);
+
+      tl.to('#bg', { scale:1.08, duration:0.5,  ease:'power2.out', transformOrigin:'50% 50%' }, 391.0);
+      tl.to('#bg', { scale:1.0,  duration:0.5,  ease:'power2.in'                             }, 393.5);
+
+      tl.to('#bg', { scale:1.08, duration:0.5,  ease:'power2.out', transformOrigin:'50% 50%' }, 602.0);
+      tl.to('#bg', { scale:1.0,  duration:0.5,  ease:'power2.in'                             }, 605.0);
+
+      window.__timelines['full-video'] = tl;
+    </script>
+  </div>
+</body>
+</html>

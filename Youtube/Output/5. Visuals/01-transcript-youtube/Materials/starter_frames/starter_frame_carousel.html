@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Starter Frame Carousel</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #09090b;
+        --panel: rgba(255, 255, 255, 0.08);
+        --border: rgba(255, 255, 255, 0.16);
+        --text: #f4f4f5;
+        --muted: #a1a1aa;
+        --accent: #f97316;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: var(--bg);
+        color: var(--text);
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        overflow: hidden;
+      }
+
+      .app {
+        display: grid;
+        grid-template-rows: 64px minmax(0, 1fr) 76px;
+        height: 100vh;
+      }
+
+      header,
+      footer {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        padding: 0 24px;
+        background: rgba(9, 9, 11, 0.9);
+        border-color: var(--border);
+      }
+
+      header {
+        border-bottom: 1px solid var(--border);
+      }
+
+      footer {
+        border-top: 1px solid var(--border);
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 16px;
+        font-weight: 650;
+        letter-spacing: 0;
+      }
+
+      .meta {
+        color: var(--muted);
+        font-size: 13px;
+        margin-left: auto;
+      }
+
+      .stage {
+        position: relative;
+        display: grid;
+        place-items: center;
+        min-height: 0;
+        padding: 24px;
+      }
+
+      .image-wrap {
+        display: grid;
+        place-items: center;
+        width: min(100%, calc((100vh - 180px) * 16 / 9));
+        aspect-ratio: 16 / 9;
+        background:
+          linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.01)),
+          #111113;
+        border: 1px solid var(--border);
+        box-shadow: 0 24px 80px rgba(0, 0, 0, 0.45);
+        overflow: hidden;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        display: block;
+        user-select: none;
+      }
+
+      button {
+        appearance: none;
+        border: 1px solid var(--border);
+        background: var(--panel);
+        color: var(--text);
+        border-radius: 8px;
+        min-width: 44px;
+        height: 44px;
+        padding: 0 14px;
+        font: inherit;
+        font-weight: 650;
+        cursor: pointer;
+      }
+
+      button:hover {
+        border-color: rgba(249, 115, 22, 0.55);
+        background: rgba(249, 115, 22, 0.14);
+      }
+
+      .caption {
+        min-width: 0;
+        flex: 1;
+      }
+
+      .name {
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-size: 14px;
+        font-weight: 650;
+      }
+
+      .path {
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        color: var(--muted);
+        font-size: 12px;
+        margin-top: 4px;
+      }
+
+      .dots {
+        display: flex;
+        gap: 6px;
+        max-width: 360px;
+        overflow: hidden;
+      }
+
+      .dot {
+        width: 8px;
+        min-width: 8px;
+        height: 8px;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.25);
+      }
+
+      .dot.active {
+        background: var(--accent);
+      }
+
+      .hint {
+        color: var(--muted);
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="app">
+      <header>
+        <h1>Starter Frames</h1>
+        <div class="hint">Use ← / → or buttons to slide</div>
+        <div class="meta" id="count"></div>
+      </header>
+
+      <section class="stage">
+        <div class="image-wrap">
+          <img id="frame" alt="Starter frame preview" />
+        </div>
+      </section>
+
+      <footer>
+        <button id="prev" type="button" aria-label="Previous frame">←</button>
+        <button id="next" type="button" aria-label="Next frame">→</button>
+        <div class="caption">
+          <span class="name" id="name"></span>
+          <span class="path" id="path"></span>
+        </div>
+        <div class="dots" id="dots" aria-hidden="true"></div>
+      </footer>
+    </main>
+
+    <script>
+      const frames = [
+        { name: "01 · Soft teal HUD blank", src: "../01-transcript-youtube_00_start_background.png" },
+        { name: "02 · Workflow roadmap blank", src: "01-transcript-youtube_starter_02_workflow_roadmap_blank.png" },
+        { name: "03 · Document workspace blank", src: "01-transcript-youtube_starter_03_document_workspace_blank.png" },
+        { name: "04 · Document constellation blank", src: "01-transcript-youtube_starter_04_document_constellation_blank.png" },
+        { name: "05 · Asset pipeline blank", src: "01-transcript-youtube_starter_05_asset_pipeline_blank.png" },
+        { name: "06 · Premium Glass OS blank", src: "01-transcript-youtube_starter_06_premium_glass_os_blank.png" },
+        { name: "07 · Premium glass command center", src: "01-transcript-youtube_starter_07_premium_glass_command_center_blank.png" },
+        { name: "08 · Premium glass window stack", src: "01-transcript-youtube_starter_08_premium_glass_window_stack_blank.png" },
+        { name: "09 · Premium glass spotlight", src: "01-transcript-youtube_starter_09_premium_glass_spotlight_blank.png" },
+        { name: "10 · Premium glass modular OS", src: "01-transcript-youtube_starter_10_premium_glass_modular_os_blank.png" },
+        { name: "11 · Blueprint system architecture", src: "01-transcript-youtube_starter_11_blueprint_system_architecture_blank.png" },
+        { name: "12 · Signal intelligence network", src: "01-transcript-youtube_starter_12_signal_intelligence_network_blank.png" },
+        { name: "13 · Lab experiment interface", src: "01-transcript-youtube_starter_13_lab_experiment_interface_blank.png" },
+        { name: "14 · Roadmap mission control", src: "01-transcript-youtube_starter_14_roadmap_mission_control_blank.png" },
+        { name: "15 · Warm dark glass terminal base", src: "01-transcript-youtube_starter_15_warm_dark_glass_terminal_base_blank.png" },
+        { name: "16 · Warm dark glass command workspace", src: "01-transcript-youtube_starter_16_warm_dark_glass_command_workspace_blank.png" },
+        { name: "17 · Warm dark glass diagonal stack", src: "01-transcript-youtube_starter_17_warm_dark_glass_diagonal_stack_blank.png" },
+        { name: "18 · Warm dark glass spotlight", src: "01-transcript-youtube_starter_18_warm_dark_glass_spotlight_blank.png" },
+        { name: "19 · Warm dark glass modular shell", src: "01-transcript-youtube_starter_19_warm_dark_glass_modular_shell_blank.png" },
+        { name: "20 · Claude Code workspace exact", src: "01-transcript-youtube_starter_20_claude_code_workspace_exact_yt.png" },
+        { name: "21 · Finder empty canvas", src: "01-transcript-youtube_starter_21_finder_empty_canvas_apple_desktop.png" },
+        { name: "22 · Claude desktop empty canvas", src: "01-transcript-youtube_starter_22_claude_desktop_empty_canvas.png" },
+        { name: "23 · Antigravity empty editor canvas", src: "01-transcript-youtube_starter_23_antigravity_empty_editor_canvas.png" },
+        { name: "24 · Notes empty canvas", src: "01-transcript-youtube_starter_24_notes_empty_canvas_apple_desktop.png" },
+        { name: "25 · Terminal Claude Code empty canvas", src: "01-transcript-youtube_starter_25_terminal_claude_code_empty_canvas.png" },
+        { name: "26 · Clean Apple wallpaper desktop", src: "01-transcript-youtube_starter_26_clean_apple_wallpaper_desktop.png" },
+      ];
+
+      let index = 0;
+      const frameEl = document.getElementById("frame");
+      const nameEl = document.getElementById("name");
+      const pathEl = document.getElementById("path");
+      const countEl = document.getElementById("count");
+      const dotsEl = document.getElementById("dots");
+
+      frames.forEach((_, dotIndex) => {
+        const dot = document.createElement("span");
+        dot.className = "dot";
+        dot.addEventListener("click", () => show(dotIndex));
+        dotsEl.appendChild(dot);
+      });
+
+      function show(nextIndex) {
+        index = (nextIndex + frames.length) % frames.length;
+        const current = frames[index];
+        frameEl.src = current.src;
+        nameEl.textContent = current.name;
+        pathEl.textContent = current.src;
+        countEl.textContent = `${index + 1} / ${frames.length}`;
+        [...dotsEl.children].forEach((dot, dotIndex) => {
+          dot.classList.toggle("active", dotIndex === index);
+        });
+      }
+
+      document.getElementById("prev").addEventListener("click", () => show(index - 1));
+      document.getElementById("next").addEventListener("click", () => show(index + 1));
+      window.addEventListener("keydown", (event) => {
+        if (event.key === "ArrowLeft") show(index - 1);
+        if (event.key === "ArrowRight") show(index + 1);
+      });
+
+      show(0);
+    </script>
+  </body>
+</html>
