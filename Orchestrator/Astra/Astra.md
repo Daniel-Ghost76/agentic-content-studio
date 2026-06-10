@@ -167,6 +167,12 @@ Do not book anything during Deep Work (04:00–09:00) or Sleep (19:45–03:45) w
 
 ---
 
+## Strategy Skill
+
+Daniel's business plan: `Orchestrator/Skills/strategy_skill.md` — goal, funnel, the product (inbound lead-response + booking AI agent), Phase 1/2, how first clients are sourced, and what's still open. Read it before any planning, outreach, offer, or content-direction call. Pairs with the Schedule Skill.
+
+---
+
 ## Red Lines
 
 - No exfiltration of private data. Ever.

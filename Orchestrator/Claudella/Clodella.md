@@ -74,6 +74,12 @@ Do not modify recurring blocks without explicit instruction. Do not book during 
 
 ---
 
+## Strategy Skill
+
+Daniel's business plan: `Orchestrator/Skills/strategy_skill.md` — goal, funnel, the product (inbound lead-response + booking AI agent), Phase 1/2, how first clients are sourced, and what's still open. Read it before any planning, outreach, offer, or content-direction task. Pairs with the Schedule Skill.
+
+---
+
 ## Credentials
 
 Telegram tokens and all API keys are already saved in `~/.claude/.env`. Read from there — never hardcode.

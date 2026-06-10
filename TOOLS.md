@@ -7,6 +7,15 @@
 - **Visual Production Library:** `Youtube/Input/4. Resources/0. visual_production_library/` — master capsule library for pre-production visuals, overlays, Higgsfield clips, emphasis words, CTA visuals, and thumbnails
 - **API keys:** All in `~/.claude/.env` — never hardcode, never ask Daniel inline
 
+## Higgsfield
+
+- **CLI:** `higgsfield` / `higgs` / `hf` from `@higgsfield/cli` (`npm install -g @higgsfield/cli skills`)
+- **Auth:** device login completed via `higgsfield auth login`; verify with `higgsfield account status --json`
+- **Agent skills:** installed with `npx skills add higgsfield-ai/skills`
+- **Installed skill paths:** `.agents/skills/higgsfield-generate/`, `.agents/skills/higgsfield-marketplace-cards/`, `.agents/skills/higgsfield-product-photoshoot/`, `.agents/skills/higgsfield-soul-id/`
+- **No-cost checks:** `higgsfield model list --video --json`, `higgsfield generate list --json`, `higgsfield account status --json`
+- **Credit safety:** check `higgsfield account status --json` before any generation; do not spend credits unless Daniel has asked for that generation.
+
 ## Telegram
 
 - **Daniel's user ID:** `6174417525`
