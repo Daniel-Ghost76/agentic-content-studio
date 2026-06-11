@@ -5,28 +5,28 @@
     {
       "id": "p1",
       "text": "Outreach system — build sender module skeleton + 1 dry-run LinkedIn DM batch",
-      "done": null,
+      "done": true,
       "actual": null,
       "carryFrom": null
     },
     {
       "id": "p2",
       "text": "YouTube pipeline — Stage 5b Visuals finish for 02_codex_mobile (1 complete final export)",
-      "done": null,
+      "done": true,
       "actual": null,
       "carryFrom": null
     },
     {
       "id": "p3",
       "text": "YouTube pipeline — record raw take for 07_claude_code_setup (full camera pass)",
-      "done": null,
+      "done": true,
       "actual": null,
       "carryFrom": null
     },
     {
       "id": "p4",
       "text": "Skool funnel — draft offer page outline + 1 onboarding step written",
-      "done": null,
+      "done": true,
       "actual": null,
       "carryFrom": null
     }
@@ -40,47 +40,47 @@
     {
       "time": "04:30",
       "taskId": "p1",
-      "done": false
+      "done": true
     },
     {
       "time": "05:00",
       "taskId": "p1",
-      "done": false
+      "done": true
     },
     {
       "time": "05:30",
       "taskId": "p1",
-      "done": false
+      "done": true
     },
     {
       "time": "06:00",
       "taskId": "p1",
-      "done": false
+      "done": true
     },
     {
       "time": "06:30",
       "taskId": "p1",
-      "done": false
+      "done": true
     },
     {
       "time": "07:00",
       "taskId": "p1",
-      "done": false
+      "done": true
     },
     {
       "time": "07:30",
       "taskId": "p1",
-      "done": false
+      "done": true
     },
     {
       "time": "08:00",
       "taskId": "p3",
-      "done": false
+      "done": true
     },
     {
       "time": "08:30",
       "taskId": "p3",
-      "done": false
+      "done": true
     },
     {
       "time": "09:00",
@@ -109,22 +109,22 @@
     {
       "time": "12:00",
       "taskId": "p3",
-      "done": false
+      "done": true
     },
     {
       "time": "12:30",
       "taskId": "p3",
-      "done": false
+      "done": true
     },
     {
       "time": "13:00",
       "taskId": "p3",
-      "done": false
+      "done": true
     },
     {
       "time": "13:30",
       "taskId": "p3",
-      "done": false
+      "done": true
     },
     {
       "time": "14:00",
@@ -133,37 +133,37 @@
     {
       "time": "14:30",
       "taskId": "p2",
-      "done": false
+      "done": true
     },
     {
       "time": "15:00",
       "taskId": "p2",
-      "done": false
+      "done": true
     },
     {
       "time": "15:30",
       "taskId": "p2",
-      "done": false
+      "done": true
     },
     {
       "time": "16:00",
       "taskId": "p2",
-      "done": false
+      "done": true
     },
     {
       "time": "16:30",
       "taskId": "p4",
-      "done": false
+      "done": true
     },
     {
       "time": "17:00",
       "taskId": "p4",
-      "done": false
+      "done": true
     },
     {
       "time": "17:30",
       "taskId": "p4",
-      "done": false
+      "done": true
     },
     {
       "time": "18:00",
@@ -187,8 +187,8 @@
   "callsBooked": null,
   "improve": "",
   "score": {
-    "rating": 5,
-    "hours": 0.5,
+    "rating": 100,
+    "hours": 10.5,
     "output": ""
   },
   "conflicts": []
