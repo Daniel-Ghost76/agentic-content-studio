@@ -56,3 +56,9 @@ build/
 .obsidian/
 .trash/
 Brain
+
+# War Room
+Planning/logs/
+Planning/app-data/
+warroom-app/node_modules/
+.firecrawl/

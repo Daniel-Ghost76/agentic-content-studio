@@ -107,6 +107,14 @@ These are **not** Claude Code subagents — they are identity/routing guides rea
 - **`playwright`** — browser automation; visible browser, starts logged-out.
 ---
 
+## War Room (daily planning)
+
+Source of truth: `Planning/Daily/YYYY-MM-DD.json`, served by `warroom-app/` (PWA, port 8787, Tailscale Funnel for phone).
+Automation: launchd — 03:30 build · 04:00 screen-pop · 19:00 evening sync · Sun 18:30 weekly review (`scripts/warroom/`).
+Rules: ranking in `Planning/goals.yaml`; ticks ONLY in the app (Apple Notes is a read-only mirror); never edit calendar events with attendees; outreach sends ≥13:00 UK; bot appends to War Map after " | ", never overwrites.
+
+---
+
 ## Auto-suggest
 
 After task completions, output created, or stage approved — append:
