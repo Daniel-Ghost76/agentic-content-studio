@@ -19,7 +19,7 @@
 * { box-sizing: border-box; margin: 0; }
 html { background: var(--bg); }
 body {
-  background: radial-gradient(140% 100% at 50% -5%, #0e1018 0%, #07080d 35%, #050507 100%);
+  background: radial-gradient(130% 100% at 50% -5%, #0b0b0c 0%, #050505 50%, #020203 100%);
   color: var(--fg);
   font: 16px/1.5 -apple-system, sans-serif;
   min-height: 100vh;
@@ -27,19 +27,8 @@ body {
   overflow-x: hidden;
 }
 
-/* living background */
+/* living background — the dune lines themselves move; nothing is layered on top */
 #aurora { position: fixed; inset: 0; z-index: 0; width: 100vw; height: 100vh; }
-#grain {
-  position: fixed; inset: -50%;
-  z-index: 1; pointer-events: none; opacity: .03;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.55' numOctaves='4'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-  animation: grain 9s steps(10) infinite;
-}
-@keyframes grain {
-  0%,100% { transform: translate(0,0); } 20% { transform: translate(-3%,2%); }
-  40% { transform: translate(2%,-3%); } 60% { transform: translate(-2%,-2%); }
-  80% { transform: translate(3%,3%); }
-}
 
 main {
   position: relative; z-index: 2;
@@ -199,7 +188,32 @@ h2 {
 .tl-row.work:hover { transform: translateX(2px); }
 .tl-row.work.done { background: rgba(255,255,255,.02); }
 .tl-row.work.done .ttext { opacity: .3; text-decoration: line-through; text-decoration-thickness: 1px; }
-.tl-row.routine { color: var(--faint); font-size: 14px; padding: 7px 14px; }
+/* routine panels — visually distinct, tickable, NEVER counted */
+.tl-row.rest {
+  background: rgba(255,255,255,.018);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.05), 0 0 0 1px rgba(255,255,255,.04);
+  backdrop-filter: blur(20px);
+  cursor: pointer;
+  color: var(--dim);
+}
+.tl-row.rest .tick { width: 20px; height: 20px; border-color: rgba(255,255,255,.16); margin-top: 2px; }
+.tl-row.rest.done .tick {
+  background: var(--faint); border-color: var(--faint);
+  box-shadow: none; animation: none;
+}
+.tl-row.rest.done .tick::after {
+  content: ''; position: absolute; left: 6px; top: 3px;
+  width: 5px; height: 9px;
+  border: solid #1a1a1e; border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.tl-row.rest.done .ttext { opacity: .35; }
+.tl-row.rest .ttext { font-family: -apple-system, sans-serif; font-size: 13.5px; color: var(--dim); }
+
+/* empty hour marks — the rest of the day, visible but silent */
+.tl-row.empty { padding: 3px 14px; margin-bottom: 4px; min-height: 16px; }
+.tl-row.empty .tl-time { top: 3px; font-size: 11px; color: rgba(255,255,255,.14); }
+.tl-dash { flex: 1; height: 1px; align-self: center; background: rgba(255,255,255,.035); }
 .tl-time {
   position: absolute; left: -86px; width: 64px;
   text-align: right;
@@ -273,16 +287,26 @@ h2 {
 #report:active { transform: scale(.97); }
 #report.sending { pointer-events: none; opacity: .55; }
 @media (max-width: 620px) { #report { width: 100%; text-align: center; } }
-#enable-push {
-  display: inline-block;
-  margin: 16px 0 0 10px;
-  background: transparent; color: var(--faint);
-  border: 1px solid var(--line-soft); border-radius: 8px;
-  padding: 13px 20px;
-  font: 500 11.5px/1 -apple-system, sans-serif;
-  letter-spacing: 1.5px; text-transform: uppercase;
+#improve-row { display: flex; gap: 10px; align-items: flex-start; }
+#improve-row textarea { flex: 1; }
+#mic {
+  flex: none;
+  width: 46px; height: 46px;
+  display: flex; align-items: center; justify-content: center;
+  background: transparent;
+  color: var(--dim);
+  border: 1px solid rgba(255,255,255,.14);
+  border-radius: 50%;
   cursor: pointer;
+  transition: border-color .25s, color .25s;
 }
+#mic:hover { border-color: rgba(255,255,255,.3); color: var(--fg); }
+#mic.recording {
+  color: #ff5d5d; border-color: rgba(255,93,93,.5);
+  animation: pulse 1.4s ease-in-out infinite;
+}
+#mic.busy { opacity: .45; pointer-events: none; animation: pulse 1s ease-in-out infinite; }
+@keyframes pulse { 0%,100% { box-shadow: 0 0 0 0 rgba(255,93,93,.25); } 50% { box-shadow: 0 0 0 8px rgba(255,93,93,0); } }
 
 /* report confirmation */
 #report-done {

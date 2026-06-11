@@ -11,32 +11,78 @@ async function api(path, body) {
   return res.json();
 }
 
-/* ---------- aurora canvas ---------- */
-(function aurora() {
+/* ---------- dune-grain background: black, white particle ridges, breathing + click shimmer ---------- */
+(function dunes() {
   const cv = document.getElementById('aurora');
   const ctx = cv.getContext('2d');
-  let w, h;
-  const resize = () => { w = cv.width = innerWidth * devicePixelRatio; h = cv.height = innerHeight * devicePixelRatio; };
-  resize(); addEventListener('resize', resize);
-  const blobs = [
-    { x: .25, y: .12, r: .55, sp: .00009, ph: 0,   amp: .16, op: .16 },
-    { x: .78, y: .30, r: .42, sp: .00012, ph: 2.1, amp: .20, op: .11 },
-    { x: .50, y: .85, r: .60, sp: .00007, ph: 4.4, amp: .13, op: .08 },
-    { x: .10, y: .65, r: .35, sp: .00014, ph: 1.2, amp: .22, op: .09 },
-  ];
+  const DPR = Math.min(devicePixelRatio || 1, 2);
+  let w, h, layer;
+
+  function bez(p0, p1, p2, p3, t) {
+    const u = 1 - t;
+    return {
+      x: u*u*u*p0.x + 3*u*u*t*p1.x + 3*u*t*t*p2.x + t*t*t*p3.x,
+      y: u*u*u*p0.y + 3*u*u*t*p1.y + 3*u*t*t*p2.y + t*t*t*p3.y,
+    };
+  }
+  // gaussian-ish via central limit
+  const g = () => (Math.random() + Math.random() + Math.random() + Math.random() - 2) / 2;
+
+  function paintRidge(c, curve, grains, spread, alpha) {
+    for (let i = 0; i < grains; i++) {
+      const t = Math.random();
+      const p = bez(curve[0], curve[1], curve[2], curve[3], t);
+      // tangent → normal
+      const p2 = bez(curve[0], curve[1], curve[2], curve[3], Math.min(t + .01, 1));
+      let nx = -(p2.y - p.y), ny = p2.x - p.x;
+      const len = Math.hypot(nx, ny) || 1;
+      nx /= len; ny /= len;
+      const d = g() * spread;                       // distance from crest
+      const fall = Math.exp(-(d * d) / (spread * spread * .5));
+      const a = alpha * fall * (0.25 + Math.random() * 0.75);
+      c.fillStyle = `rgba(255,255,255,${a})`;
+      const s = Math.random() < .92 ? 1 : 2;        // occasional brighter fleck
+      c.fillRect(p.x + nx * d, p.y + ny * d, s, s);
+    }
+  }
+
+  function build() {
+    w = cv.width = innerWidth * DPR;
+    h = cv.height = innerHeight * DPR;
+    layer = document.createElement('canvas');
+    layer.width = w * 1.06; layer.height = h * 1.06;   // bleed so breathing never shows edges
+    const c = layer.getContext('2d');
+    const W = layer.width, Hh = layer.height;
+    // main S-ridge, right of center — like the reference photo
+    paintRidge(c, [
+      { x: W * .72, y: -Hh * .08 }, { x: W * .38, y: Hh * .22 },
+      { x: W * .95, y: Hh * .55 }, { x: W * .55, y: Hh * 1.08 },
+    ], 26000 * DPR, 60 * DPR, .55);
+    // faint companion ridge, upper left
+    paintRidge(c, [
+      { x: -W * .05, y: Hh * .65 }, { x: W * .30, y: Hh * .38 },
+      { x: W * .12, y: Hh * .18 }, { x: W * .42, y: -Hh * .05 },
+    ], 9000 * DPR, 46 * DPR, .28);
+  }
+  build();
+  addEventListener('resize', () => { clearTimeout(window.__dn); window.__dn = setTimeout(build, 250); });
+
+  // The LINES move — nothing is layered on top. The pre-rendered ridge image is
+  // drawn in horizontal bands, each offset by a slow travelling sine, so the
+  // white grain lines undulate like fabric in slow air.
+  const BANDS = 36;
   function frame(t) {
     ctx.clearRect(0, 0, w, h);
-    ctx.globalCompositeOperation = 'lighter';
-    for (const b of blobs) {
-      const x = (b.x + Math.sin(t * b.sp + b.ph) * b.amp) * w;
-      const y = (b.y + Math.cos(t * b.sp * 1.3 + b.ph) * b.amp * .7) * h;
-      const r = b.r * Math.max(w, h) * (1 + Math.sin(t * b.sp * .8 + b.ph) * .12);
-      const g = ctx.createRadialGradient(x, y, 0, x, y, r);
-      g.addColorStop(0, `rgba(255,255,255,${b.op})`);
-      g.addColorStop(.4, `rgba(220,225,240,${b.op * .45})`);
-      g.addColorStop(1, 'rgba(255,255,255,0)');
-      ctx.fillStyle = g;
-      ctx.beginPath(); ctx.arc(x, y, r, 0, 7); ctx.fill();
+    const bandH = layer.height / BANDS;
+    const ox = (layer.width - w) / 2;
+    const oy = (layer.height - h) / 2;
+    for (let i = 0; i < BANDS; i++) {
+      const y = i * bandH;
+      const phase = y * .0016 / DPR;
+      const dx = Math.sin(t * .00018 + phase) * 4.5 * DPR
+               + Math.sin(t * .00007 + phase * 2.3) * 2.5 * DPR;
+      ctx.drawImage(layer, 0, y, layer.width, bandH,
+                    dx - ox, y - oy, layer.width, bandH);
     }
     requestAnimationFrame(frame);
   }
@@ -61,9 +107,8 @@ function render() {
   document.getElementById('rating').textContent = rating + '%';
   document.getElementById('hours').textContent =
     rating === 0 ? "let's go" : (day.score.hours ?? 0) + 'h focused';
-  const ringEl = document.getElementById('ring');
   document.getElementById('ring-fill').style.strokeDashoffset = 339.3 * (1 - rating / 100);
-  ringEl.classList.toggle('complete', rating >= 100);
+  document.getElementById('ring').classList.toggle('complete', rating >= 100);
 
   // priorities
   const pl = document.getElementById('prio-list');
@@ -78,7 +123,7 @@ function render() {
     pl.appendChild(el);
   });
 
-  // timeline: group work slots into runs, keep routine entries
+  // timeline — FULL day: work runs, routine panels (non-counting), empty hour marks
   const entries = [];
   day.slots.forEach((s) => {
     if (s.taskId) {
@@ -91,7 +136,9 @@ function render() {
         entries.push({ type: 'work', tid: s.taskId, start: s.time, end: endtime(s.time), done: !!s.done, times: [s.time] });
       }
     } else if (s.routine) {
-      entries.push({ type: 'routine', start: s.time, label: s.routine });
+      entries.push({ type: 'rest', start: s.time, label: s.routine, done: !!s.done });
+    } else {
+      entries.push({ type: 'empty', start: s.time });
     }
   });
 
@@ -108,9 +155,14 @@ function render() {
         for (const time of e.times) await api('tick', { date: day.date, time, done: !e.done });
         set(await api('day/today'));
       };
+    } else if (e.type === 'rest') {
+      el.className = 'tl-row rest' + (e.done ? ' done' : '');
+      el.innerHTML = `<span class="tl-time">${e.start}</span><span class="tl-dot"></span>` +
+        `<span class="tick"></span><span class="ttext">${e.label}</span>`;
+      el.onclick = () => api('tick', { date: day.date, time: e.start, done: !e.done }).then(set);
     } else {
-      el.className = 'tl-row routine';
-      el.innerHTML = `<span class="tl-time">${e.start}</span><span class="tl-dot"></span><span>${e.label}</span>`;
+      el.className = 'tl-row empty';
+      el.innerHTML = `<span class="tl-time">${e.start}</span><span class="tl-dash"></span>`;
     }
     el.dataset.start = e.start;
     el.dataset.end = e.end || endtime(e.start);
@@ -121,7 +173,7 @@ function render() {
   const imp = document.getElementById('improve');
   if (document.activeElement !== imp) imp.value = day.improve || '';
 
-  if (day.reported) hideReport();
+  if (day.reported) document.getElementById('report')?.remove();
 }
 
 function positionNowLine() {
@@ -129,8 +181,7 @@ function positionNowLine() {
   document.getElementById('now-line')?.remove();
   const now = new Date();
   const nowM = now.getHours() * 60 + now.getMinutes();
-  const rows = [...tl.children];
-  for (const row of rows) {
+  for (const row of tl.children) {
     const s = mins(row.dataset.start), e = mins(row.dataset.end);
     if (nowM >= s && nowM < e) {
       const frac = (nowM - s) / (e - s);
@@ -148,18 +199,54 @@ function set(d) { day = d; render(); }
 
 /* ---------- improve autosave ---------- */
 let metaTimer;
-document.getElementById('improve').addEventListener('input', () => {
+function saveImprove() {
   clearTimeout(metaTimer);
   metaTimer = setTimeout(() => api('meta', {
     date: day.date, improve: document.getElementById('improve').value,
   }).then((d) => { day = d; }), 600);
-});
+}
+document.getElementById('improve').addEventListener('input', saveImprove);
+
+/* ---------- voice input (server-side transcription) ---------- */
+(function voice() {
+  const btn = document.getElementById('mic');
+  let rec = null, chunks = [];
+  btn.onclick = async () => {
+    if (rec && rec.state === 'recording') { rec.stop(); return; }
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      const mime = MediaRecorder.isTypeSupported('audio/webm') ? 'audio/webm' : 'audio/mp4';
+      rec = new MediaRecorder(stream, { mimeType: mime });
+      chunks = [];
+      rec.ondataavailable = (e) => chunks.push(e.data);
+      rec.onstop = async () => {
+        stream.getTracks().forEach((t) => t.stop());
+        btn.classList.remove('recording');
+        btn.classList.add('busy');
+        try {
+          const blob = new Blob(chunks, { type: mime });
+          const r = await fetch('/api/transcribe', {
+            method: 'POST',
+            headers: { 'x-warroom-key': KEY, 'x-audio-type': mime, 'Content-Type': 'application/octet-stream' },
+            body: blob,
+          });
+          if (!r.ok) throw new Error(await r.text());
+          const { text } = await r.json();
+          if (text) {
+            const ta = document.getElementById('improve');
+            ta.value = (ta.value ? ta.value.trim() + ' ' : '') + text.trim();
+            saveImprove();
+          }
+        } catch (e) { alert('Transcription failed: ' + e.message); }
+        btn.classList.remove('busy');
+      };
+      rec.start();
+      btn.classList.add('recording');
+    } catch (e) { alert('Microphone unavailable: ' + e.message); }
+  };
+})();
 
 /* ---------- send report ---------- */
-function hideReport() {
-  const btn = document.getElementById('report');
-  if (btn) btn.remove();
-}
 document.getElementById('report').onclick = async function () {
   this.classList.add('sending');
   this.textContent = 'Sending…';
@@ -176,27 +263,6 @@ document.getElementById('report').onclick = async function () {
     alert('Failed: ' + e.message);
   }
 };
-
-/* ---------- push (only shown if this device hasn't granted) ---------- */
-(async function pushSetup() {
-  const btn = document.getElementById('enable-push');
-  if (!('Notification' in window) || Notification.permission === 'granted') return;
-  btn.hidden = false;
-  btn.onclick = async () => {
-    try {
-      const standalone = window.matchMedia('(display-mode: standalone)').matches || navigator.standalone;
-      if (!standalone && /iPhone|iPad/.test(navigator.userAgent)) {
-        alert('Open Daybreak from the home-screen icon first — iOS only allows notifications from the installed app.');
-        return;
-      }
-      const reg = await navigator.serviceWorker.ready;
-      const { publicKey } = await api('vapid-public-key');
-      const sub = await reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: publicKey });
-      await api('subscribe', sub.toJSON());
-      btn.hidden = true;
-    } catch (e) { alert('Notification setup failed: ' + e.message); }
-  };
-})();
 
 /* ---------- check-in deep link (?focus=taskId) ---------- */
 function maybeFocusTask() {

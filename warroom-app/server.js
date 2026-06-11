@@ -55,14 +55,15 @@ app.get('/api/day/:date', (req, res) => {
   res.json(day);
 });
 
-// tick a slot and/or a task; task.done cascades to its slots and vice versa
+// tick a slot and/or a task; task.done cascades to its slots and vice versa.
+// Routine slots are tickable too but NEVER counted (computeScore only counts taskId slots).
 app.post('/api/tick', (req, res) => {
   const { date, time, taskId, done, actual } = req.body;
   const day = loadDay(date || todayStr());
   if (!day) return res.status(404).json({ error: 'no plan' });
   if (time) {
-    const slot = day.slots.find((s) => s.time === time && s.taskId);
-    if (!slot) return res.status(400).json({ error: 'no work slot at ' + time });
+    const slot = day.slots.find((s) => s.time === time && (s.taskId || s.routine));
+    if (!slot) return res.status(400).json({ error: 'no tickable slot at ' + time });
     slot.done = !!done;
   }
   if (taskId) {
@@ -94,6 +95,29 @@ app.post('/api/meta', (req, res) => {
   }
   saveDay(day);
   res.json(day);
+});
+
+// voice → text for the improve field (ElevenLabs Scribe)
+function envKey(name) {
+  const env = fs.readFileSync(path.join(process.env.HOME, '.claude/.env'), 'utf8');
+  const m = env.match(new RegExp('^' + name + '=(.*)$', 'm'));
+  return m ? m[1].trim() : null;
+}
+app.post('/api/transcribe', express.raw({ type: () => true, limit: '25mb' }), async (req, res) => {
+  try {
+    const key = envKey('ELEVENLABS_API_KEY');
+    if (!key) return res.status(500).json({ error: 'no elevenlabs key' });
+    const mime = req.headers['x-audio-type'] || 'audio/webm';
+    const fd = new FormData();
+    fd.append('file', new Blob([req.body], { type: mime }), 'voice.' + (mime.includes('mp4') ? 'mp4' : 'webm'));
+    fd.append('model_id', 'scribe_v1');
+    const r = await fetch('https://api.elevenlabs.io/v1/speech-to-text', {
+      method: 'POST', headers: { 'xi-api-key': key }, body: fd,
+    });
+    if (!r.ok) return res.status(502).json({ error: 'stt failed: ' + (await r.text()).slice(0, 200) });
+    const out = await r.json();
+    res.json({ text: out.text || '' });
+  } catch (e) { res.status(500).json({ error: e.message }); }
 });
 
 // "Send report" — fires the day recap to Telegram immediately, marks day reported
