@@ -1,6 +1,7 @@
 # Machine-readable mirror of War Map 2026 — morning build reads this first.
 # NOTE: pre-June Warmap goals (2460 DMs/mo, ministry-leader niche) are OUTDATED — do not plan against them.
 warmap_sheet_id: 1zXZmuL8B55lXjrKfQhQt1Tc-tiGujkiKPAk2XS0-jx8
+warmap_tabs: {data: Data, dashboard: Dashboard 2.0}
 user_google_email: daniel@ministryflow.co
 timezone: Europe/London
 
