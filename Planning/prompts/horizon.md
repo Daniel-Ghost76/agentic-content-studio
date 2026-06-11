@@ -23,6 +23,12 @@ You maintain a rolling 7-day plan AND write it to the real calendar.
 - Days +2..+7: lighter — ≤4 priorities each from the quota distribution +
   known carry-overs.
 
+## STEP A — PURGE FIRST (deterministic, before any rebuild)
+For the whole window today+1..today+7: list events and DELETE every event whose
+summary starts with "⚔️" (single-instance). Then RE-LIST and confirm ZERO ⚔️
+events remain across the window; if any remain, delete them and re-check. LOOP
+until none remain. This prevents duplicate blocks from stacking across runs.
+
 ## For EACH of the next 7 days (date D = today+1 .. today+7)
 1. Read D's calendar 00:00–23:59 with attendees + recurringEventId. Classify:
    - MEETING = any attendee other than daniel@ministryflow.co → NEVER delete.
