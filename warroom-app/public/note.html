@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>War Room — Checklist</title>
+<style>
+  :root { --bg:#1c1c1e; --fg:#f2f2f7; --dim:#98989e; --line:#3a3a3c; --gold:#d4a72c; --green:#3fb950; }
+  * { box-sizing: border-box; margin: 0; }
+  body { background: var(--bg); color: var(--fg); font: 15px/1.5 -apple-system, sans-serif; padding: 18px 20px 40px; }
+  h1 { font-size: 21px; font-weight: 800; }
+  .date { color: var(--dim); font-size: 13px; margin: 2px 0 4px; }
+  .focus { font-size: 13px; color: var(--gold); margin-bottom: 12px; }
+  h2 { font-size: 12px; letter-spacing: 1.5px; color: var(--dim); margin: 16px 0 6px; text-transform: uppercase; }
+  .item { display: flex; gap: 10px; align-items: flex-start; padding: 7px 2px; cursor: pointer; border-bottom: 1px solid var(--line); }
+  .item:last-child { border-bottom: 0; }
+  .item .circle { width: 19px; height: 19px; border: 1.5px solid var(--dim); border-radius: 50%; flex: none; margin-top: 2px; }
+  .item.done .circle { background: var(--green); border-color: var(--green); }
+  .item.done span { opacity: .5; text-decoration: line-through; }
+  .item time { color: var(--dim); font-size: 13px; flex: none; width: 84px; margin-top: 1px; font-variant-numeric: tabular-nums; }
+</style>
+</head>
+<body>
+<h1>⚔️ War Room</h1>
+<div class="date" id="date"></div>
+<div class="focus" id="focus"></div>
+<h2>Priorities</h2>
+<div id="prios"></div>
+<h2>Schedule</h2>
+<div id="sched"></div>
+<script>
+const KEY = localStorage.warroomKey ||
+  (localStorage.warroomKey = new URLSearchParams(location.search).get('key') || '');
+const H = { 'x-warroom-key': KEY, 'Content-Type': 'application/json' };
+let day = null;
+
+async function api(path, body) {
+  const res = await fetch('/api/' + path,
+    body ? { method: 'POST', headers: H, body: JSON.stringify(body) } : { headers: H });
+  if (!res.ok) throw new Error(await res.text());
+  return res.json();
+}
+
+function endtime(t) {
+  let [h, m] = t.split(':').map(Number);
+  m += 30; return String(h + Math.floor(m / 60)).padStart(2, '0') + ':' + String(m % 60).padStart(2, '0');
+}
+
+function render() {
+  document.getElementById('date').textContent = new Date(day.date + 'T12:00')
+    .toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long' })
+    + ` · ${day.score.rating ?? 0}% · ${day.score.hours ?? 0}h`;
+  document.getElementById('focus').textContent = 'Focus: ' + day.focus;
+
+  const prios = document.getElementById('prios');
+  prios.innerHTML = '';
+  day.priorities.forEach((p) => {
+    const el = document.createElement('div');
+    el.className = 'item' + (p.done ? ' done' : '');
+    el.innerHTML = `<span class="circle"></span><span>${p.text}</span>`;
+    el.onclick = () => api('tick', { date: day.date, taskId: p.id, done: !p.done }).then(set);
+    prios.appendChild(el);
+  });
+
+  const runs = [];
+  day.slots.filter((s) => s.taskId).forEach((s) => {
+    const last = runs[runs.length - 1];
+    if (last && last.tid === s.taskId && last.end === s.time) {
+      last.end = endtime(s.time); last.done = last.done && !!s.done; last.times.push(s.time);
+    } else {
+      runs.push({ tid: s.taskId, start: s.time, end: endtime(s.time), done: !!s.done, times: [s.time] });
+    }
+  });
+  const sched = document.getElementById('sched');
+  sched.innerHTML = '';
+  runs.forEach((r) => {
+    const t = day.priorities.find((p) => p.id === r.tid);
+    const el = document.createElement('div');
+    el.className = 'item' + (r.done ? ' done' : '');
+    el.innerHTML = `<time>${r.start}–${r.end}</time><span class="circle"></span><span>${t ? t.text : r.tid}</span>`;
+    el.onclick = async () => {
+      for (const time of r.times) await api('tick', { date: day.date, time, done: !r.done });
+      set(await api('day/today'));
+    };
+    sched.appendChild(el);
+  });
+}
+
+function set(d) { day = d; render(); }
+api('day/today').then(set).catch((e) => { document.body.innerHTML = '<h1 style="padding:30px">' + e.message + '</h1>'; });
+setInterval(() => api('day/today').then(set).catch(() => {}), 15_000);
+</script>
+</body>
+</html>
