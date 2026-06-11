@@ -26,12 +26,15 @@ Build today's plan WITHOUT deleting any calendar events (additive only):
   month-rollover setup with Claude", alert, stop.
 - Read yesterday's file for carry-overs (progress < 100). Pick ≤4 priorities
   by goals.yaml ranking (04:00–08:00 deep-work; outreach sends ≥13:00).
-- Read today's calendar; ADD "⚔️ <task>" events (colorId 9) into open windows
-  around existing events — never delete. Log clashes to conflicts.
+- Read today's calendar; ADD "⚔️ <task>" events (colorId 9) tiling the whole
+  04:00–18:30 working window around existing events — never delete. Routine
+  from goals.yaml (03:45 brush; gym days 09:30 shower + 10:00 gym; 18:30
+  wind-down; 19:45 sleep). NO MEALS. Log clashes to conflicts.
 - Write Planning/Daily/<today>.json (schema: date, focus, priorities[
-  {id,text,done:null,actual:null,progress:0,carryFrom}], slots[] 04:00–19:30
-  /30min, callsConducted:null, callsBooked:null, improve:"", notes:"",
-  score:{rating:null,hours:null,output:""}, conflicts:[]).
+  {id,text,done:null,actual:null,progress:0,carryFrom}], slots[] covering 03:45
+  then 04:00–19:45 /30min — EVERY slot work {"time","taskId"} or routine
+  {"time","routine"}, NEVER bare. callsConducted:null, callsBooked:null,
+  improve:"", notes:"", score:{rating:null,hours:null,output:""}, conflicts:[]).
 - Re-arm check-ins (curl above). alert.sh "Horizon had failed — today rebuilt
   additively by morning fallback."
 Final message: "FALLBACK <today> OK" or "FAILED: <why>".

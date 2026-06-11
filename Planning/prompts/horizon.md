@@ -35,14 +35,19 @@ You maintain a rolling 7-day plan AND write it to the real calendar.
    BEFORE deleting. Delete each ONE INSTANCE AT A TIME (recurring → delete only
    D's instance, never the series). Never delete MEETING or PROTECTED events.
 3. REBUILD D around its meetings AND protected events (both are fixed rocks):
-   - Place routine (goals.yaml `routine`, filtered to D's weekday) as events.
-   - Lay the day's ≤4 work blocks into deep-work + open windows as
-     "⚔️ <task>" events, colorId 9. Deep-work 04:00–08:00 = build/creative;
-     outreach sends only ≥13:00. Move YOUR blocks around meetings, never the
-     reverse; log unresolved clashes to that day's conflicts array.
+   - Place routine (goals.yaml `routine`, filtered to D's weekday) as events:
+     03:45 brush (15m); on gym days 09:30 shower + 10:00 gym(90m); 18:30
+     wind-down/read (→19:45); 19:45 sleep; Sat 16:00 church. NO MEALS.
+   - TILE THE ENTIRE working window 04:00–18:30 with "⚔️ <task>" work events
+     (colorId 9), assigning slots to p1..p4 by ranking so EVERY 30-min slot is
+     filled — NO empty/unscheduled time. Deep-work 04:00–09:30 = build/creative;
+     outreach sends only ≥13:00. Work flows around the gym/shower and any
+     meeting; move YOUR blocks, never meetings; log clashes to conflicts.
 4. Write Planning/Daily/<D>.json (full schema: date, focus, priorities[
-   {id,text,done:null,actual:null,progress:0,carryFrom}], slots[] 04:00–19:30
-   /30min, callsConducted:null, callsBooked:null, improve:"", notes:"",
+   {id,text,done:null,actual:null,progress:0,carryFrom}], slots[] covering
+   03:45 then 04:00–19:45 in 30-min steps — EVERY slot is either a work slot
+   {"time","taskId"} or a routine slot {"time","routine"}; NEVER a bare slot.
+   callsConducted:null, callsBooked:null, improve:"", notes:"",
    score:{rating:null,hours:null,output:""}, conflicts:[], horizon:true).
 
 ## Output contract

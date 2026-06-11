@@ -1,38 +1,38 @@
 {
-  "date": "2026-06-12",
-  "focus": "Outreach system build + YouTube double-header (07 record + 02 finish)",
+  "date": "2026-06-18",
+  "focus": "Outreach v1 close + v2 start; YT 07 editing continues; Skool offer finalize",
   "priorities": [
     {
       "id": "p1",
-      "text": "Outreach system — build sender module skeleton + 1 dry-run LinkedIn DM batch",
+      "text": "Outreach system — v1 review doc + begin v2 build (reply handler skeleton)",
       "done": null,
       "actual": null,
       "progress": 0,
-      "carryFrom": "2026-06-11"
+      "carryFrom": "2026-06-17"
     },
     {
       "id": "p2",
-      "text": "YouTube pipeline — Stage 5b Visuals finish for 02_codex_mobile (1 complete final export)",
+      "text": "YouTube pipeline — Stage 4b cut edit for 07_claude_code_setup",
       "done": null,
       "actual": null,
       "progress": 0,
-      "carryFrom": "2026-06-11"
+      "carryFrom": "2026-06-17"
     },
     {
       "id": "p3",
-      "text": "YouTube pipeline — record raw take for 07_claude_code_setup (full camera pass)",
+      "text": "YouTube pipeline — Stage 9 analytics review for 02_codex_mobile",
       "done": null,
       "actual": null,
       "progress": 0,
-      "carryFrom": "2026-06-11"
+      "carryFrom": "2026-06-17"
     },
     {
       "id": "p4",
-      "text": "Skool funnel — draft offer page outline + 1 onboarding step written",
+      "text": "Skool funnel — finalize offer page (copy complete + page live)",
       "done": null,
       "actual": null,
       "progress": 0,
-      "carryFrom": "2026-06-11"
+      "carryFrom": "2026-06-17"
     }
   ],
   "slots": [
@@ -44,26 +44,26 @@
     {"time": "06:30", "taskId": "p1", "done": false},
     {"time": "07:00", "taskId": "p1", "done": false},
     {"time": "07:30", "taskId": "p1", "done": false},
-    {"time": "08:00", "taskId": "p3", "done": false},
-    {"time": "08:30", "taskId": "p3", "done": false},
+    {"time": "08:00", "taskId": "p2", "done": false},
+    {"time": "08:30", "taskId": "p2", "done": false},
     {"time": "09:00", "routine": "breakfast", "done": false},
     {"time": "09:30", "routine": "shower", "done": false},
     {"time": "10:00", "routine": "gym", "done": false},
     {"time": "10:30", "routine": "gym", "done": false},
     {"time": "11:00", "routine": "gym", "done": false},
     {"time": "11:30", "routine": "gym", "done": false},
-    {"time": "12:00", "taskId": "p3", "done": false},
-    {"time": "12:30", "taskId": "p3", "done": false},
-    {"time": "13:00", "taskId": "p3", "done": false},
-    {"time": "13:30", "taskId": "p3", "done": false},
+    {"time": "12:00", "taskId": "p2", "done": false},
+    {"time": "12:30", "taskId": "p2", "done": false},
+    {"time": "13:00", "taskId": "p2", "done": false},
+    {"time": "13:30", "taskId": "p2", "done": false},
     {"time": "14:00", "routine": "lunch", "done": false},
-    {"time": "14:30", "taskId": "p2", "done": false},
-    {"time": "15:00", "taskId": "p2", "done": false},
-    {"time": "15:30", "taskId": "p2", "done": false},
-    {"time": "16:00", "taskId": "p2", "done": false},
+    {"time": "14:30", "taskId": "p3", "done": false},
+    {"time": "15:00", "taskId": "p3", "done": false},
+    {"time": "15:30", "taskId": "p3", "done": false},
+    {"time": "16:00", "taskId": "p3", "done": false},
     {"time": "16:30", "taskId": "p4", "done": false},
     {"time": "17:00", "taskId": "p4", "done": false},
-    {"time": "17:30", "taskId": "p4", "done": false},
+    {"time": "17:30"},
     {"time": "18:00", "routine": "dinner", "done": false},
     {"time": "18:30"},
     {"time": "18:45", "routine": "devotional", "done": false},

@@ -223,6 +223,13 @@ function render() {
     }
   });
 
+  // derive each entry's end from the next entry's start → continuous, no gaps,
+  // correct heights for the 15-min brush slot and multi-hour work blocks
+  entries.forEach((e, i) => {
+    const next = entries[i + 1];
+    e.end = next ? next.start : (e.end || endtime(e.start));
+  });
+
   const tl = document.getElementById('tl');
   tl.innerHTML = '';
   entries.forEach((e) => {

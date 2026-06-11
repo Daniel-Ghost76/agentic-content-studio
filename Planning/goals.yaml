@@ -29,9 +29,11 @@ priority_ranking:
   - admin
 
 time_rules:
-  deep_work: "04:00-08:00"        # creative + build only; no sends, no admin
+  day_start: "03:45"              # brush teeth + water (15 min)
+  deep_work: "04:00-09:30"        # creative + build; no sends, no admin
   outreach_sends_after: "13:00"   # US avatar awake
-  work_end: "18:00"
+  clock_out: "18:30"             # work ends; 18:30–19:45 = wind-down / read Kindle
+  fill_rule: "EVERY 30-min slot 04:00–18:00 must be a WORK slot assigned to a priority (tile p1..p4 by ranking, no bare gaps). No meals are ever scheduled — eating is ad-hoc, that time is work."
 calendar_rules:
   authority: "FULL — owns the solo calendar. Each day wipes deletable events and rebuilds, EXCEPT protected ones (see below)."
   never_delete:
@@ -46,14 +48,13 @@ calendar_rules:
     coffee, dinner with, hangout, date]
   conflicts_go_to: "conflicts array of the day JSON"
 
-# canonical daily routine — the manager rebuilds these every morning, fitting them around meetings
+# canonical daily routine — rebuilt every day around meetings. NO MEALS (eating is ad-hoc).
+# All routine items render purple (non-counting). Everything else is work.
 routine:
   - {name: "Brush teeth + water", time: "03:45", mins: 15, days: all}
-  - {name: "Breakfast", time: "09:00", mins: 30, days: all}
-  - {name: "Shower", time: "09:30", mins: 30, days: all}
+  - {name: "Shower", time: "09:30", mins: 30, days: [Mon, Tue, Thu, Fri]}   # always 30 min before gym
   - {name: "Gym", time: "10:00", mins: 90, days: [Mon, Tue, Thu, Fri]}
-  - {name: "Dinner", time: "18:00", mins: 45, days: all}
-  - {name: "Devotional / Read", time: "18:45", mins: 60, days: all}
+  - {name: "Wind-down — Read Kindle", time: "18:30", mins: 75, days: all}   # clock out 18:30 → 19:45
   - {name: "Sleep", time: "19:45", mins: 480, days: all}
   - {name: "Church", time: "16:00", mins: 120, days: [Sat]}
 

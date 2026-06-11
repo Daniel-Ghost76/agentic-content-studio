@@ -1,0 +1,72 @@
+{
+  "date": "2026-06-17",
+  "focus": "Outreach v2 planning + YT 07 Stage 4a editing (no gym — long block)",
+  "priorities": [
+    {
+      "id": "p1",
+      "text": "Outreach system — v2 planning: reply-handling logic + automation improvements",
+      "done": null,
+      "actual": null,
+      "progress": 0,
+      "carryFrom": "2026-06-16"
+    },
+    {
+      "id": "p2",
+      "text": "YouTube pipeline — Stage 4a prep for 07: transcribe raw take + build EDL",
+      "done": null,
+      "actual": null,
+      "progress": 0,
+      "carryFrom": "2026-06-16"
+    },
+    {
+      "id": "p3",
+      "text": "YouTube pipeline — Stage 8 distribution for 02_codex_mobile (clip cut + post)",
+      "done": null,
+      "actual": null,
+      "progress": 0,
+      "carryFrom": "2026-06-16"
+    }
+  ],
+  "slots": [
+    {"time": "04:00", "taskId": "p1", "done": false},
+    {"time": "04:30", "taskId": "p1", "done": false},
+    {"time": "05:00", "taskId": "p1", "done": false},
+    {"time": "05:30", "taskId": "p1", "done": false},
+    {"time": "06:00", "taskId": "p1", "done": false},
+    {"time": "06:30", "taskId": "p1", "done": false},
+    {"time": "07:00", "taskId": "p1", "done": false},
+    {"time": "07:30", "taskId": "p1", "done": false},
+    {"time": "08:00", "taskId": "p2", "done": false},
+    {"time": "08:30", "taskId": "p2", "done": false},
+    {"time": "09:00", "routine": "breakfast", "done": false},
+    {"time": "09:30", "routine": "shower", "done": false},
+    {"time": "10:00", "taskId": "p2", "done": false},
+    {"time": "10:30", "taskId": "p2", "done": false},
+    {"time": "11:00", "taskId": "p2", "done": false},
+    {"time": "11:30", "taskId": "p2", "done": false},
+    {"time": "12:00", "taskId": "p2", "done": false},
+    {"time": "12:30", "taskId": "p2", "done": false},
+    {"time": "13:00", "taskId": "p3", "done": false},
+    {"time": "13:30", "taskId": "p3", "done": false},
+    {"time": "14:00", "routine": "lunch", "done": false},
+    {"time": "14:30", "taskId": "p3", "done": false},
+    {"time": "15:00", "taskId": "p3", "done": false},
+    {"time": "15:30", "taskId": "p1", "done": false},
+    {"time": "16:00", "taskId": "p1", "done": false},
+    {"time": "16:30", "taskId": "p2", "done": false},
+    {"time": "17:00", "taskId": "p2", "done": false},
+    {"time": "17:30"},
+    {"time": "18:00", "routine": "dinner", "done": false},
+    {"time": "18:30"},
+    {"time": "18:45", "routine": "devotional", "done": false},
+    {"time": "19:00"},
+    {"time": "19:30"}
+  ],
+  "callsConducted": null,
+  "callsBooked": null,
+  "improve": "",
+  "notes": "",
+  "score": {"rating": null, "hours": null, "output": ""},
+  "conflicts": [],
+  "horizon": true
+}
