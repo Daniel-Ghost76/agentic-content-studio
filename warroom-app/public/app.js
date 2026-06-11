@@ -217,7 +217,10 @@ function render() {
   const imp = document.getElementById('improve');
   if (document.activeElement !== imp) imp.value = day.improve || '';
 
-  if (day.reported) document.getElementById('report')?.remove();
+  const rep = document.getElementById('report');
+  if (rep && day.reported && !rep.classList.contains('sending') && rep.textContent !== 'Send again') {
+    rep.textContent = 'Send again';
+  }
 }
 
 function positionNowLine() {
@@ -290,23 +293,56 @@ document.getElementById('improve').addEventListener('input', saveImprove);
   };
 })();
 
-/* ---------- send report ---------- */
+/* ---------- send report: send → confirm animation → button returns as "Send again" ---------- */
 document.getElementById('report').onclick = async function () {
-  this.classList.add('sending');
-  this.textContent = 'Sending…';
+  const btn = this;
+  btn.classList.add('sending');
+  btn.textContent = 'Sending…';
   try {
-    await api('report', { date: day.date });
+    const d = await api('report', { date: day.date });
+    day = d;
     const done = document.createElement('div');
     done.id = 'report-done';
     done.innerHTML = '<div class="big-tick"></div><span>Report sent — day recorded</span>';
-    this.replaceWith(done);
-    setTimeout(() => done.remove(), 4000);
+    btn.style.display = 'none';
+    btn.after(done);
+    setTimeout(() => {
+      done.remove();
+      btn.style.display = '';
+      btn.classList.remove('sending');
+      btn.textContent = 'Send again';
+    }, 3000);
   } catch (e) {
-    this.classList.remove('sending');
-    this.textContent = 'Send report';
+    btn.classList.remove('sending');
+    btn.textContent = 'Send report';
     alert('Failed: ' + e.message);
   }
 };
+
+/* ---------- push: auto-resubscribe when granted; tiny bell pill for fresh installs ---------- */
+(async function pushKeepalive() {
+  if (!('Notification' in window) || !('serviceWorker' in navigator)) return;
+  const standalone = window.matchMedia('(display-mode: standalone)').matches || navigator.standalone;
+  async function subscribe() {
+    const reg = await navigator.serviceWorker.ready;
+    const { publicKey } = await api('vapid-public-key');
+    const sub = await reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: publicKey });
+    await api('subscribe', sub.toJSON());
+  }
+  if (Notification.permission === 'granted') {
+    subscribe().catch(() => {});                 // keep endpoint fresh on every launch
+  } else if (Notification.permission === 'default' && (standalone || !/iPhone|iPad/.test(navigator.userAgent))) {
+    const pill = document.createElement('button');
+    pill.id = 'bell-pill';
+    pill.textContent = '🔔';
+    pill.title = 'Enable check-ins on this device';
+    pill.onclick = async () => {
+      try { await subscribe(); pill.remove(); }
+      catch (e) { alert('Could not enable: ' + e.message); }
+    };
+    document.body.appendChild(pill);
+  }
+})();
 
 /* ---------- check-in deep link (?focus=taskId) ---------- */
 function maybeFocusTask() {
