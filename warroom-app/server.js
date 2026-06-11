@@ -11,7 +11,9 @@ const PORT = 8787;
 
 const app = express();
 app.use(express.json());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public'), {
+  setHeaders: (res) => res.setHeader('Cache-Control', 'no-cache'), // always revalidate — stale PWA assets cost more than the bytes
+}));
 
 // auth: ?key= once (frontend stores it), then x-warroom-key header
 app.use('/api', (req, res, next) => {
