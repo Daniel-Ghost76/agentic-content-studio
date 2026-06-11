@@ -187,7 +187,7 @@ app.post('/api/progress', (req, res) => {
 app.post('/api/meta', (req, res) => {
   const day = loadDay(req.body.date || todayStr());
   if (!day) return res.status(404).json({ error: 'no plan' });
-  ['callsConducted', 'callsBooked', 'improve'].forEach((k) => {
+  ['callsConducted', 'callsBooked', 'improve', 'notes'].forEach((k) => {
     if (req.body[k] !== undefined) day[k] = req.body[k];
   });
   if (req.body.output !== undefined) {
@@ -221,15 +221,30 @@ app.post('/api/transcribe', express.raw({ type: () => true, limit: '25mb' }), as
   } catch (e) { res.status(500).json({ error: e.message }); }
 });
 
-// "Submit" — saves the note for tomorrow's 03:30 build. Silent: NO Telegram here.
-// The single daily Telegram is the 19:30 evening sync.
-app.post('/api/report', (req, res) => {
-  const day = loadDay(req.body.date || todayStr());
-  if (!day) return res.status(404).json({ error: 'no plan' });
-  if (req.body.improve !== undefined) day.improve = req.body.improve;
-  day.reported = true;
-  saveDay(day);
-  res.json(day);
+/* ---- "Plan tomorrow today": runs the real planning engine for tomorrow, now ---- */
+let planJob = null;
+const tomorrowStr = () =>
+  new Date(Date.now() + 864e5).toLocaleDateString('en-CA', { timeZone: 'Europe/London' });
+app.post('/api/plan-tomorrow', (req, res) => {
+  if (planJob && planJob.running) return res.json({ running: true, date: planJob.date });
+  const target = tomorrowStr();
+  planJob = { running: true, startedAt: Date.now(), date: target, error: null };
+  execFile('/bin/zsh', [path.join(WS, 'scripts/warroom/plan_tomorrow.sh'), target],
+    { timeout: 15 * 60 * 1000 }, (err) => {
+      planJob.running = false;
+      planJob.error = err && !fs.existsSync(dayFile(target)) ? String(err.message).slice(0, 200) : null;
+    });
+  res.json({ running: true, date: target });
+});
+app.get('/api/plan-status', (_req, res) => {
+  const target = tomorrowStr();
+  res.json({
+    running: !!(planJob && planJob.running),
+    error: (planJob && planJob.error) || null,
+    exists: fs.existsSync(dayFile(target)),
+    date: target,
+    startedAt: planJob ? planJob.startedAt : null,
+  });
 });
 
 // history for dashboards/weekly review

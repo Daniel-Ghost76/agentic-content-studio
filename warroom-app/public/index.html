@@ -15,39 +15,58 @@
 <canvas id="aurora"></canvas>
 
 <main>
-  <section id="hero">
-    <div id="date"></div>
-    <div id="focus"></div>
-    <div id="ring-wrap">
-      <svg id="ring" viewBox="0 0 120 120">
-        <circle class="track" cx="60" cy="60" r="54"/>
-        <circle class="fill" cx="60" cy="60" r="54" id="ring-fill"/>
-      </svg>
-      <div id="ring-label"><b id="rating">0%</b><span id="hours">0h</span></div>
-    </div>
-  </section>
-
-  <section id="priorities">
-    <h2>Priorities</h2>
-    <div id="prio-list"></div>
-  </section>
-
-  <section id="timeline">
-    <h2>Today</h2>
-    <div id="tl-scroll"><div id="tl"></div></div>
-  </section>
-
-  <section id="closing">
-    <div id="improve-row">
-      <textarea id="improve" rows="2" placeholder="How can I improve?"></textarea>
-      <button id="mic" title="Speak your answer" aria-label="Voice input">
-        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
-          <rect x="9" y="3" width="6" height="11" rx="3"/>
-          <path d="M5 11a7 7 0 0 0 14 0M12 18v3"/>
+  <section id="left">
+    <div id="hero">
+      <div id="date"></div>
+      <div id="focus"></div>
+      <div id="ring-wrap">
+        <svg id="ring" viewBox="0 0 120 120">
+          <circle class="track" cx="60" cy="60" r="54"/>
+          <circle class="fill" cx="60" cy="60" r="54" id="ring-fill"/>
         </svg>
-      </button>
+        <div id="ring-label"><b id="rating">0%</b><span id="hours">0h</span></div>
+      </div>
     </div>
-    <button id="report">Submit</button>
+
+    <div id="inputs">
+      <label class="field-label" for="improve">How can I improve?</label>
+      <div id="improve-row">
+        <textarea id="improve" rows="2" placeholder="Feedback on today…"></textarea>
+        <button id="mic" title="Speak your answer" aria-label="Voice input">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+            <rect x="9" y="3" width="6" height="11" rx="3"/>
+            <path d="M5 11a7 7 0 0 0 14 0M12 18v3"/>
+          </svg>
+        </button>
+      </div>
+      <label class="field-label" for="notes">Notes</label>
+      <textarea id="notes" rows="3" placeholder="Instructions and thoughts for tomorrow…"></textarea>
+
+      <div id="plan-wrap">
+        <button id="plan-tmrw">Plan tomorrow today</button>
+        <div id="plan-progress" hidden>
+          <svg viewBox="0 0 80 80">
+            <circle class="track" cx="40" cy="40" r="34"/>
+            <circle class="fill" cx="40" cy="40" r="34" id="plan-fill"/>
+          </svg>
+          <span id="plan-pct">0%</span>
+        </div>
+        <div id="plan-msg" hidden>Building tomorrow — reading your notes, the workspace, and the calendar…</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="right">
+    <div id="view-toggle" hidden>
+      <button data-view="today" class="active">Today</button>
+      <button data-view="tomorrow">Tomorrow</button>
+    </div>
+    <div id="stream">
+      <h2>Priorities</h2>
+      <div id="prio-list"></div>
+      <h2>Timeline</h2>
+      <div id="tl"></div>
+    </div>
   </section>
 </main>
 <script src="app.js"></script>

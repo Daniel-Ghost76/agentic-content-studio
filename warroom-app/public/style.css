@@ -41,60 +41,132 @@ main {
 @media (min-width: 1200px) {
   main {
     display: grid;
-    grid-template-columns: 1fr 460px;   /* timeline LEFT, day controls RIGHT */
-    grid-template-rows: auto minmax(0, 1fr) auto;
+    grid-template-columns: 460px 1fr;   /* LEFT: hero + inputs · RIGHT: priorities→timeline stream */
     column-gap: 56px;
-    align-items: start;
+    align-items: stretch;
     height: 100dvh;
     overflow: hidden;                   /* the page itself never scrolls — one screen */
   }
-  #timeline   {
-    grid-column: 1; grid-row: 1 / span 3;
+  #left {
+    display: flex; flex-direction: column;
+    min-height: 0;
+    overflow-y: auto; scrollbar-width: none;
+  }
+  #left::-webkit-scrollbar { display: none; }
+  #inputs { margin-top: auto; padding-top: 28px; }
+  #right {
+    min-height: 0;
+    display: flex; flex-direction: column;
     background: linear-gradient(180deg,
       transparent 0%, var(--line-soft) 6%,
       var(--line-soft) 94%, transparent 100%)
-      no-repeat 100% 0 / 1px 100%;      /* hairline on the right edge now */
-    padding-right: 52px;
-    height: 100%;
-    display: flex; flex-direction: column;
-    min-height: 0;
+      no-repeat 0 0 / 1px 100%;
+    padding-left: 52px;
   }
-  #hero       { grid-column: 2; grid-row: 1; }
-  #priorities {
-    grid-column: 2; grid-row: 2;
-    min-height: 0;
-    overflow-y: auto;
-    scrollbar-width: none;
-    /* priorities dissolve as they scroll — they never hide behind the notes panel */
-    -webkit-mask-image: linear-gradient(180deg, #000 0, #000 calc(100% - 44px), transparent 100%);
-    mask-image: linear-gradient(180deg, #000 0, #000 calc(100% - 44px), transparent 100%);
-    padding-bottom: 24px;
-  }
-  #priorities::-webkit-scrollbar { display: none; }
-  #closing    { grid-column: 2; grid-row: 3; align-self: end; margin-top: 18px; }
-  #timeline > h2 { margin-top: 6px; flex: none; }
-  #tl-scroll {
+  #stream {
     flex: 1; min-height: 0;
-    overflow-y: auto;
-    scrollbar-width: none;
-    /* clean fade at both ends — no dark strip, content simply dissolves */
+    overflow-y: auto; scrollbar-width: none;
     -webkit-mask-image: linear-gradient(180deg, transparent 0, #000 42px, #000 calc(100% - 36px), transparent 100%);
     mask-image: linear-gradient(180deg, transparent 0, #000 42px, #000 calc(100% - 36px), transparent 100%);
-    padding-top: 10px;
+    padding: 10px 4px 30px 0;
   }
-  #tl-scroll::-webkit-scrollbar { display: none; }
+  #stream::-webkit-scrollbar { display: none; }
 }
 
-/* staggered entrance — fade-up with blur (SENTINEL-style) */
-main > section { opacity: 0; animation: fadeup .7s cubic-bezier(.16, 1, .3, 1) forwards; }
-#hero       { animation-delay: .15s; }
-#priorities { animation-delay: .3s; }
-#timeline   { animation-delay: .45s; }
-#closing    { animation-delay: .6s; }
+/* staggered entrance — fade-up with blur (on hero/inputs/right directly, so the
+   mobile display:contents reorder doesn't kill the animation) */
+#hero, #inputs, #right { opacity: 0; animation: fadeup .7s cubic-bezier(.16, 1, .3, 1) forwards; }
+#hero   { animation-delay: .15s; }
+#right  { animation-delay: .3s; }
+#inputs { animation-delay: .45s; }
 @keyframes fadeup {
   from { opacity: 0; transform: translateY(18px); filter: blur(5px); }
   to   { opacity: 1; transform: none; filter: none; }
 }
+
+/* ---- mobile: hero on top, stream in the middle, inputs at the BOTTOM ---- */
+@media (max-width: 1199px) {
+  main { display: flex; flex-direction: column; }
+  #left { display: contents; }            /* frees #hero and #inputs to be ordered */
+  #hero   { order: 0; }
+  #right  { order: 1; margin-top: 8px; }
+  #inputs { order: 2; margin-top: 40px; padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 24px); }
+  #view-toggle { margin: 0 auto 10px; }
+}
+
+/* ---- left-column inputs ---- */
+.field-label {
+  display: block;
+  font-size: 11px; text-transform: uppercase; letter-spacing: 3px;
+  color: var(--faint);
+  margin: 20px 0 8px 2px;
+}
+#notes {
+  width: 100%;
+  background: var(--card);
+  border: 1px solid var(--line-soft);
+  backdrop-filter: blur(20px);
+  color: var(--fg);
+  border-radius: 12px;
+  padding: 13px 16px;
+  font: 15px/1.5 -apple-system, sans-serif;
+  resize: none;
+}
+#notes::placeholder { color: var(--faint); }
+#notes:focus { outline: none; border-color: rgba(255,255,255,.22); }
+
+#plan-wrap { text-align: center; margin-top: 26px; }
+#plan-tmrw {
+  background: transparent;
+  color: rgba(255,255,255,.65);
+  border: 1px solid rgba(255,255,255,.16);
+  border-radius: 10px;
+  padding: 14px 32px;
+  font: 300 12.5px/1 var(--serif);
+  letter-spacing: 2.5px; text-transform: uppercase;
+  cursor: pointer;
+  transition: border-color .25s, color .25s, transform .15s;
+}
+#plan-tmrw:hover { border-color: rgba(255,255,255,.35); color: var(--fg); }
+#plan-tmrw:active { transform: scale(.97); }
+#plan-progress { position: relative; width: 84px; height: 84px; margin: 0 auto; }
+#plan-progress svg { width: 84px; height: 84px; transform: rotate(-90deg); }
+#plan-progress circle { fill: none; stroke-width: 4; }
+#plan-progress .track { stroke: rgba(255,255,255,.07); }
+#plan-progress .fill {
+  stroke: #fff; stroke-linecap: round;
+  stroke-dasharray: 213.6; stroke-dashoffset: 213.6;
+  transition: stroke-dashoffset .9s ease;
+  filter: drop-shadow(0 0 5px rgba(255,255,255,.35));
+}
+#plan-pct {
+  position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--serif); font-size: 16px; font-weight: 300;
+}
+#plan-msg { margin-top: 12px; font-size: 12.5px; color: var(--faint); font-style: italic; }
+
+/* ---- view toggle ---- */
+#view-toggle {
+  display: flex; gap: 4px;
+  background: var(--card);
+  border: 1px solid var(--line-soft);
+  border-radius: 100px;
+  padding: 4px;
+  width: max-content;
+  margin: 6px 0 4px;
+}
+#view-toggle button {
+  background: transparent; border: 0; color: var(--faint);
+  font: 600 12px/1 -apple-system, sans-serif;
+  letter-spacing: 1px; text-transform: uppercase;
+  padding: 8px 18px; border-radius: 100px; cursor: pointer;
+  transition: background .25s, color .25s;
+}
+#view-toggle button.active { background: rgba(255,255,255,.12); color: var(--fg); }
+
+.ro { cursor: default !important; }
+.ro:hover { transform: none !important; }
 
 /* ---- hero ---- */
 #hero { text-align: center; padding: 52px 0 30px; }

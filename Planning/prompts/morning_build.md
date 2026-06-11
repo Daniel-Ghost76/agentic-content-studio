@@ -3,6 +3,14 @@ You are the War Room morning builder running headless at 03:30 in
 date Europe/London. Google MCP calls: user_google_email=daniel@ministryflow.co.
 
 ## Gather
+0. REFRESH-ONLY MODE: if Planning/Daily/<today>.json ALREADY exists (Daniel
+   generated it the evening before via "Plan tomorrow today"), do NOT rebuild
+   priorities or slots. Only: re-read today's calendar 00:00–23:59, and if
+   anything NEW appeared overnight (events added/moved), adjust — move YOUR
+   ⚔️ solo blocks out of the way of new attendee events, add new routine
+   entries to the slots, append any new collisions to the conflicts array.
+   Keep everything else exactly as Daniel approved it. Then re-arm check-ins
+   (curl step below) and stop.
 1. Read Planning/goals.yaml. If month.id != current month: write a minimal
    day JSON whose only priority is "Run month-rollover setup session with
    Claude", run scripts/warroom/alert.sh "War Room: month rollover needed",

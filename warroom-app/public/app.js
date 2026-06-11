@@ -3,6 +3,8 @@ const KEY = localStorage.warroomKey ||
 caches.open('warroom-key').then((c) => c.put('key', new Response(KEY)));
 const H = { 'x-warroom-key': KEY, 'Content-Type': 'application/json' };
 let day = null;
+let view = 'today';                 // 'today' | 'tomorrow' (tomorrow is a read-only preview)
+let tomorrowDate = null;
 
 async function api(path, body) {
   const res = await fetch('/api/' + path,
@@ -10,6 +12,7 @@ async function api(path, body) {
   if (!res.ok) throw new Error(await res.text());
   return res.json();
 }
+const RO = () => view !== 'today';
 
 /* ---------- living dune line: fine dense grain, ridge + scatter halo, pointer-reactive ---------- */
 (function dunes() {
@@ -21,9 +24,7 @@ async function api(path, body) {
   const mouse = { x: -1e6, y: -1e6 };
   addEventListener('pointermove', (e) => { mouse.x = e.clientX * DPR; mouse.y = e.clientY * DPR; }, { passive: true });
   addEventListener('pointerleave', () => { mouse.x = -1e6; mouse.y = -1e6; });
-
   const g = () => (Math.random() + Math.random() + Math.random() + Math.random() - 2) / 2;
-
   const RIDGES = [
     { p: [[.72, -.08], [.38, .22], [.95, .55], [.55, 1.08]], n: 40000, spread: 38, alpha: .75 },
     { p: [[-.05, .65], [.30, .38], [.12, .18], [.42, -.05]], n: 14000, spread: 28, alpha: .42 },
@@ -33,7 +34,6 @@ async function api(path, body) {
     px: Math.random() * 6.28, py: Math.random() * 6.28,
     sx: .00005 + Math.random() * .00004, sy: .00004 + Math.random() * .00004,
   })));
-
   function setup() {
     w = cv.width = innerWidth * DPR;
     h = cv.height = innerHeight * DPR;
@@ -41,7 +41,6 @@ async function api(path, body) {
     const budget = innerWidth < 700 ? .28 : 1;
     RIDGES.forEach((r, ri) => {
       for (let i = 0; i < r.n * budget; i++) {
-        // fine dense core (the lit ridge) + sparse wide halo (the dust drifting off it)
         const tight = Math.random() < .78;
         const d = g() * r.spread * (tight ? .45 : 2.3);
         let a = tight
@@ -52,9 +51,8 @@ async function api(path, body) {
         if (a < .04) continue;
         parts.push({
           ri, idx: Math.floor(Math.random() * SAMPLES),
-          d: d * DPR,
-          a,
-          s: Math.random() < .98 ? 1 : 2,            // virtually all single-pixel grain
+          d: d * DPR, a,
+          s: Math.random() < .98 ? 1 : 2,
           ph: Math.random() * 6.28,
           wob: .4 + Math.random() * 1.1,
           ox: 0, oy: 0,
@@ -65,10 +63,8 @@ async function api(path, body) {
   }
   setup();
   addEventListener('resize', () => { clearTimeout(window.__dn); window.__dn = setTimeout(setup, 250); });
-
   const tableP = RIDGES.map(() => new Float32Array(SAMPLES * 2));
   const tableN = RIDGES.map(() => new Float32Array(SAMPLES * 2));
-
   function sampleCurves(time) {
     RIDGES.forEach((r, ri) => {
       const cp = r.p.map((pt, ci) => {
@@ -95,7 +91,6 @@ async function api(path, body) {
       }
     });
   }
-
   const R = 170, FORCE = 30;
   function frame(time) {
     ctx.clearRect(0, 0, w, h);
@@ -128,7 +123,7 @@ async function api(path, body) {
 })();
 
 /* ---------- helpers ---------- */
-const PX_PER_MIN = 1.15;            // true time-scale: 30 min ≈ 34px, 4h block = 8× a 30-min row
+const PX_PER_MIN = 1.15;
 function endtime(t) {
   let [h, m] = t.split(':').map(Number);
   m += 30;
@@ -136,13 +131,13 @@ function endtime(t) {
 }
 function mins(t) { const [h, m] = t.split(':').map(Number); return h * 60 + m; }
 
-/* ---------- hold-to-set-% (350ms hold → counts 0→100 over ~3s, release = your number) ---------- */
+/* ---------- hold-to-set-% ---------- */
 function attachHold(el, taskId) {
   let timer = null, raf = null, holding = false, pct = 0, suppressClick = false;
   const fill = el.querySelector('.prog-fill');
   const badge = el.querySelector('.prog-pct');
   function start(e) {
-    if (e.button > 0) return;
+    if (e.button > 0 || RO()) return;
     suppressClick = false;
     timer = setTimeout(() => {
       holding = true; suppressClick = true;
@@ -184,28 +179,30 @@ function render() {
   const rating = day.score.rating ?? 0;
   document.getElementById('rating').textContent = rating + '%';
   document.getElementById('hours').textContent =
-    rating === 0 ? "let's go" : (day.score.hours ?? 0) + 'h focused';
+    RO() ? 'planned' : rating === 0 ? "let's go" : (day.score.hours ?? 0) + 'h focused';
   document.getElementById('ring-fill').style.strokeDashoffset = 339.3 * (1 - rating / 100);
   document.getElementById('ring').classList.toggle('complete', rating >= 100);
 
-  // priorities (right column)
+  // priorities
   const pl = document.getElementById('prio-list');
   pl.innerHTML = '';
   day.priorities.forEach((p) => {
     const prog = p.progress ?? (p.done === true ? 100 : 0);
     const el = document.createElement('div');
-    el.className = 'prio' + (prog >= 100 ? ' done' : prog > 0 ? ' partial' : '');
+    el.className = 'prio' + (prog >= 100 ? ' done' : prog > 0 ? ' partial' : '') + (RO() ? ' ro' : '');
     el.innerHTML = `<div class="prog-fill" style="width:${prog}%"></div>` +
       `<span class="tick"></span><span class="ptext">${p.text}` +
       (p.actual != null ? ` <b>(${p.actual})</b>` : '') + '</span>' +
       `<span class="prog-pct" style="opacity:${prog > 0 && prog < 100 ? 1 : 0}">${prog}%</span>` +
       (p.carryFrom ? `<span class="carry">⟳ ${p.carryFrom}</span>` : '');
-    el.onclick = () => api('tick', { date: day.date, taskId: p.id, done: prog < 100 }).then(set);
-    attachHold(el, p.id);
+    if (!RO()) {
+      el.onclick = () => api('tick', { date: day.date, taskId: p.id, done: prog < 100 }).then(set);
+      attachHold(el, p.id);
+    }
     pl.appendChild(el);
   });
 
-  // timeline (left column) — true time-scale; work runs + grouped routine + empty marks
+  // timeline — true time-scale
   const entries = [];
   day.slots.forEach((s) => {
     const last = entries[entries.length - 1];
@@ -234,23 +231,27 @@ function render() {
     if (e.type === 'work') {
       const t = day.priorities.find((p) => p.id === e.tid);
       const prog = t ? (t.progress ?? (t.done === true ? 100 : 0)) : 0;
-      el.className = 'tl-row work' + (prog >= 100 ? ' done' : prog > 0 ? ' partial' : '');
+      el.className = 'tl-row work' + (prog >= 100 ? ' done' : prog > 0 ? ' partial' : '') + (RO() ? ' ro' : '');
       el.style.minHeight = (minutes * PX_PER_MIN) + 'px';
       el.innerHTML = `<div class="prog-fill" style="width:${prog}%"></div>` +
         `<span class="tl-time">${e.start}–${e.end}</span><span class="tl-dot"></span>` +
         `<span class="tick"></span><span class="ttext">${t ? t.text : e.tid}</span>` +
         `<span class="prog-pct" style="opacity:${prog > 0 && prog < 100 ? 1 : 0}">${prog}%</span>`;
-      el.onclick = () => api('tick', { date: day.date, taskId: e.tid, done: prog < 100 }).then(set);
-      if (t) attachHold(el, t.id);
+      if (!RO()) {
+        el.onclick = () => api('tick', { date: day.date, taskId: e.tid, done: prog < 100 }).then(set);
+        if (t) attachHold(el, t.id);
+      }
     } else if (e.type === 'rest') {
-      el.className = 'tl-row rest' + (e.done ? ' done' : '');
+      el.className = 'tl-row rest' + (e.done ? ' done' : '') + (RO() ? ' ro' : '');
       el.style.minHeight = (minutes * PX_PER_MIN) + 'px';
       el.innerHTML = `<span class="tl-time">${e.start}</span><span class="tl-dot"></span>` +
         `<span class="tick"></span><span class="ttext">${e.label}</span>`;
-      el.onclick = async () => {
-        for (const time of e.times) await api('tick', { date: day.date, time, done: !e.done });
-        set(await api('day/today'));
-      };
+      if (!RO()) {
+        el.onclick = async () => {
+          for (const time of e.times) await api('tick', { date: day.date, time, done: !e.done });
+          set(await api('day/today'));
+        };
+      }
     } else {
       el.className = 'tl-row empty';
       el.style.height = (minutes * PX_PER_MIN) + 'px';
@@ -262,13 +263,18 @@ function render() {
   });
   positionNowLine();
 
-  const imp = document.getElementById('improve');
-  if (document.activeElement !== imp) imp.value = day.improve || '';
+  if (!RO()) {
+    const imp = document.getElementById('improve');
+    const nts = document.getElementById('notes');
+    if (document.activeElement !== imp) imp.value = day.improve || '';
+    if (document.activeElement !== nts) nts.value = day.notes || '';
+  }
 }
 
 function positionNowLine() {
   const tl = document.getElementById('tl');
   document.getElementById('now-line')?.remove();
+  if (RO()) return;
   const now = new Date();
   const nowM = now.getHours() * 60 + now.getMinutes();
   for (const row of tl.children) {
@@ -286,41 +292,34 @@ function positionNowLine() {
 setInterval(positionNowLine, 60_000);
 
 function set(d) { day = d; render(); }
+function load() {
+  const target = view === 'today' ? 'today' : tomorrowDate;
+  return api('day/' + target).then(set);
+}
 
-/* ---------- notes: autosave while typing; Submit files them for tomorrow (silent) ---------- */
+/* ---------- view toggle ---------- */
+const toggleEl = document.getElementById('view-toggle');
+toggleEl.querySelectorAll('button').forEach((b) => {
+  b.onclick = () => {
+    view = b.dataset.view;
+    toggleEl.querySelectorAll('button').forEach((x) => x.classList.toggle('active', x === b));
+    load();
+  };
+});
+function showToggle() { toggleEl.hidden = false; }
+
+/* ---------- notes + improve autosave ---------- */
 let metaTimer;
-function saveImprove() {
+function saveMeta() {
   clearTimeout(metaTimer);
   metaTimer = setTimeout(() => api('meta', {
-    date: day.date, improve: document.getElementById('improve').value,
-  }).then((d) => { day = d; }), 600);
+    date: day.date,
+    improve: document.getElementById('improve').value,
+    notes: document.getElementById('notes').value,
+  }).then((d) => { if (view === 'today') day = d; }), 600);
 }
-document.getElementById('improve').addEventListener('input', saveImprove);
-
-document.getElementById('report').onclick = async function () {
-  const btn = this;
-  btn.classList.add('sending');
-  btn.textContent = 'Saving…';
-  try {
-    const d = await api('report', { date: day.date, improve: document.getElementById('improve').value });
-    day = d;
-    const done = document.createElement('div');
-    done.id = 'report-done';
-    done.innerHTML = '<div class="big-tick"></div><span>Noted — feeds tomorrow’s plan</span>';
-    btn.style.display = 'none';
-    btn.after(done);
-    setTimeout(() => {
-      done.remove();
-      btn.style.display = '';
-      btn.classList.remove('sending');
-      btn.textContent = 'Submit';
-    }, 2500);
-  } catch (e) {
-    btn.classList.remove('sending');
-    btn.textContent = 'Submit';
-    alert('Failed: ' + e.message);
-  }
-};
+document.getElementById('improve').addEventListener('input', saveMeta);
+document.getElementById('notes').addEventListener('input', saveMeta);
 
 /* ---------- voice input ---------- */
 (function voice() {
@@ -350,7 +349,7 @@ document.getElementById('report').onclick = async function () {
           if (text) {
             const ta = document.getElementById('improve');
             ta.value = (ta.value ? ta.value.trim() + ' ' : '') + text.trim();
-            saveImprove();
+            saveMeta();
           }
         } catch (e) { alert('Transcription failed: ' + e.message); }
         btn.classList.remove('busy');
@@ -361,7 +360,56 @@ document.getElementById('report').onclick = async function () {
   };
 })();
 
-/* ---------- push: auto-resubscribe when granted; tiny bell pill for fresh installs ---------- */
+/* ---------- Plan tomorrow today ---------- */
+const PLAN_CIRC = 213.6;   // 2π × 34
+const planBtn = document.getElementById('plan-tmrw');
+const planProg = document.getElementById('plan-progress');
+const planMsg = document.getElementById('plan-msg');
+const planFill = document.getElementById('plan-fill');
+const planPct = document.getElementById('plan-pct');
+let planTimer = null;
+
+function showPlanProgress(startedAt) {
+  planBtn.hidden = true;
+  planProg.hidden = false;
+  planMsg.hidden = false;
+  const t0 = startedAt || Date.now();
+  clearInterval(planTimer);
+  planTimer = setInterval(async () => {
+    const elapsed = (Date.now() - t0) / 1000;
+    const est = Math.min(92, Math.round((1 - Math.exp(-elapsed / 140)) * 100));  // smooth estimate
+    planFill.style.strokeDashoffset = PLAN_CIRC * (1 - est / 100);
+    planPct.textContent = est + '%';
+    if (elapsed % 10 < 5) {
+      const st = await api('plan-status').catch(() => null);
+      if (st && !st.running) {
+        clearInterval(planTimer);
+        if (st.exists) {
+          planFill.style.strokeDashoffset = 0;
+          planPct.textContent = '100%';
+          tomorrowDate = st.date;
+          showToggle();
+          setTimeout(() => {
+            planProg.hidden = true; planMsg.hidden = true;
+            planBtn.hidden = false; planBtn.textContent = 'Re-plan tomorrow';
+            toggleEl.querySelector('[data-view="tomorrow"]').click();
+          }, 900);
+        } else {
+          planProg.hidden = true; planMsg.hidden = true;
+          planBtn.hidden = false;
+          alert('Planning failed: ' + (st.error || 'unknown — check Telegram for the alert'));
+        }
+      }
+    }
+  }, 1000);
+}
+planBtn.onclick = async () => {
+  const st = await api('plan-tomorrow', {});
+  showPlanProgress(Date.now());
+  if (st.date) tomorrowDate = st.date;
+};
+
+/* ---------- push keepalive ---------- */
 (async function pushKeepalive() {
   if (!('Notification' in window) || !('serviceWorker' in navigator)) return;
   const standalone = window.matchMedia('(display-mode: standalone)').matches || navigator.standalone;
@@ -386,7 +434,7 @@ document.getElementById('report').onclick = async function () {
   }
 })();
 
-/* ---------- check-in deep link (?focus=taskId) ---------- */
+/* ---------- check-in deep link ---------- */
 function maybeFocusTask() {
   const id = new URLSearchParams(location.search).get('focus');
   if (!id || !day) return;
@@ -412,6 +460,7 @@ function maybeFocusTask() {
   document.body.appendChild(ov);
 }
 
+/* ---------- init ---------- */
 navigator.serviceWorker.register('sw.js');
 api('day/today').then((d) => { set(d); maybeFocusTask(); }).catch((e) => {
   if (!KEY || e.message.includes('bad key')) {
@@ -420,4 +469,9 @@ api('day/today').then((d) => { set(d); maybeFocusTask(); }).catch((e) => {
   }
   document.body.innerHTML = `<h1 style="padding:40px;font-family:ui-serif,Georgia,serif">No plan for today yet.</h1>`;
 });
-setInterval(() => api('day/today').then(set).catch(() => {}), 60_000);
+api('plan-status').then((st) => {
+  tomorrowDate = st.date;
+  if (st.exists) { showToggle(); planBtn.textContent = 'Re-plan tomorrow'; }
+  if (st.running) showPlanProgress(st.startedAt || Date.now());
+}).catch(() => {});
+setInterval(() => { if (view === 'today') api('day/today').then(set).catch(() => {}); }, 60_000);
