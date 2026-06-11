@@ -69,37 +69,32 @@ function mirrorToNotes(date) {
     (err) => { if (err) console.error('notes mirror:', err.message); });
 }
 
-/* ---- live Google Calendar merge (secret iCal URL, polled every 3 min) ---- */
-const ical = require('node-ical');
-const ICS_PATH = path.join(APPDATA, 'calendar-ics-url.txt');
+/* ---- live Google Calendar merge (direct API via the workspace token, every 3 min) ---- */
+const { google } = require('googleapis');
+const GTOKEN = `${process.env.HOME}/.google_workspace_mcp/credentials/daniel@ministryflow.co.json`;
 let calCache = { at: 0, events: [] };
+function gcal() {
+  const t = JSON.parse(fs.readFileSync(GTOKEN, 'utf8'));
+  const o = new google.auth.OAuth2(t.client_id, t.client_secret, t.token_uri);
+  o.setCredentials({ refresh_token: t.refresh_token });
+  return google.calendar({ version: 'v3', auth: o });
+}
 async function refreshCal() {
-  if (!fs.existsSync(ICS_PATH)) return;
-  const url = fs.readFileSync(ICS_PATH, 'utf8').trim();
-  if (!url) return;
   try {
-    const data = await ical.async.fromURL(url);
     const start = new Date(); start.setHours(0, 0, 0, 0);
     const end = new Date(start); end.setDate(end.getDate() + 1);
-    const evs = [];
-    for (const k in data) {
-      const ev = data[k];
-      if (ev.type !== 'VEVENT') continue;
-      const summary = String(ev.summary || '');
-      if (summary.startsWith('⚔️')) continue;            // our own blocks — already in the plan
-      const push = (s, e) => evs.push({ start: s, end: e, summary });
-      if (ev.rrule) {
-        const dur = (new Date(ev.end) - new Date(ev.start)) || 30 * 60000;
-        ev.rrule.between(start, end, true).forEach((d) => {
-          const ex = ev.exdate && Object.values(ev.exdate).some((x) => Math.abs(new Date(x) - d) < 60000);
-          if (!ex) push(new Date(d), new Date(+d + dur));
-        });
-      } else if (ev.start >= start && ev.start < end) {
-        push(new Date(ev.start), new Date(ev.end));
-      }
-    }
-    calCache = { at: Date.now(), events: evs };
-  } catch (e) { console.error('ics refresh:', e.message); }
+    const r = await gcal().events.list({
+      calendarId: 'daniel@ministryflow.co',
+      timeMin: start.toISOString(), timeMax: end.toISOString(),
+      singleEvents: true, orderBy: 'startTime', maxResults: 100,
+    });
+    calCache = {
+      at: Date.now(),
+      events: (r.data.items || [])
+        .filter((ev) => ev.start && ev.start.dateTime && !String(ev.summary || '').startsWith('⚔️'))
+        .map((ev) => ({ start: new Date(ev.start.dateTime), end: new Date(ev.end.dateTime), summary: ev.summary || 'Busy' })),
+    };
+  } catch (e) { console.error('cal refresh:', e.message); }
 }
 refreshCal();
 setInterval(refreshCal, 3 * 60 * 1000);
