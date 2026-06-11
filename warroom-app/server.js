@@ -79,13 +79,17 @@ app.post('/api/tick', (req, res) => {
   res.json(day);
 });
 
-// calls tally / improve text
+// calls tally / improve text / shipped-output line — never tick state
 app.post('/api/meta', (req, res) => {
   const day = loadDay(req.body.date || todayStr());
   if (!day) return res.status(404).json({ error: 'no plan' });
   ['callsConducted', 'callsBooked', 'improve'].forEach((k) => {
     if (req.body[k] !== undefined) day[k] = req.body[k];
   });
+  if (req.body.output !== undefined) {
+    day.score = day.score || {};
+    day.score.output = req.body.output;
+  }
   saveDay(day);
   res.json(day);
 });
