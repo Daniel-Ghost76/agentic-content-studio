@@ -1,7 +1,6 @@
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
-const { execFile } = require('child_process');
 
 const WS = '/Users/danieldanut/Agentic Workspace';
 const DAILY = path.join(WS, 'Planning/Daily');
@@ -40,13 +39,9 @@ function computeScore(day) {
 function saveDay(day) {
   computeScore(day);
   fs.writeFileSync(dayFile(day.date), JSON.stringify(day, null, 2));
-  mirrorToNotes(day.date); // fire-and-forget
-}
-
-function mirrorToNotes(date) {
-  execFile('/usr/bin/osascript',
-    [path.join(WS, 'scripts/warroom/notes_mirror.scpt'), dayFile(date)],
-    (err) => { if (err) console.error('notes mirror:', err.message); });
+  // Notes is no longer live-mirrored: the 4am job types REAL checkboxes into the
+  // note (open_plan.sh → notes_checklist.scpt), and a body rewrite would destroy
+  // them. The note is a hand-tick scratchpad; this app is the only score truth.
 }
 
 app.get('/api/day/:date', (req, res) => {
