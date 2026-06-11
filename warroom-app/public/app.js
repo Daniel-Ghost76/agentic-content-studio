@@ -11,26 +11,23 @@ async function api(path, body) {
   return res.json();
 }
 
-/* ---------- living dune line: real particle flow, pointer-reactive, nothing layered on top ---------- */
+/* ---------- living dune line: fine dense grain, ridge + scatter halo, pointer-reactive ---------- */
 (function dunes() {
   const cv = document.getElementById('aurora');
   const ctx = cv.getContext('2d');
   const DPR = Math.min(devicePixelRatio || 1, 2);
   let w, h, parts = [];
-  const SAMPLES = 220;
+  const SAMPLES = 240;
   const mouse = { x: -1e6, y: -1e6 };
   addEventListener('pointermove', (e) => { mouse.x = e.clientX * DPR; mouse.y = e.clientY * DPR; }, { passive: true });
   addEventListener('pointerleave', () => { mouse.x = -1e6; mouse.y = -1e6; });
 
-  // gaussian-ish via central limit
   const g = () => (Math.random() + Math.random() + Math.random() + Math.random() - 2) / 2;
 
-  // ridge definitions in unit space; control points drift slowly → the LINE flows
   const RIDGES = [
-    { p: [[.72, -.08], [.38, .22], [.95, .55], [.55, 1.08]], n: 30000, spread: 42, alpha: .85 },
-    { p: [[-.05, .65], [.30, .38], [.12, .18], [.42, -.05]], n: 11000, spread: 32, alpha: .5 },
+    { p: [[.72, -.08], [.38, .22], [.95, .55], [.55, 1.08]], n: 40000, spread: 38, alpha: .75 },
+    { p: [[-.05, .65], [.30, .38], [.12, .18], [.42, -.05]], n: 14000, spread: 28, alpha: .42 },
   ];
-  // per-control-point drift phases/amplitudes (unit-space, small)
   const DRIFT = RIDGES.map(() => [0, 1, 2, 3].map(() => ({
     ax: .015 + Math.random() * .02, ay: .012 + Math.random() * .018,
     px: Math.random() * 6.28, py: Math.random() * 6.28,
@@ -41,30 +38,29 @@ async function api(path, body) {
     w = cv.width = innerWidth * DPR;
     h = cv.height = innerHeight * DPR;
     parts = [];
-    const budget = innerWidth < 700 ? .3 : 1;    // lighter sim on phone
+    const budget = innerWidth < 700 ? .28 : 1;
     RIDGES.forEach((r, ri) => {
       for (let i = 0; i < r.n * budget; i++) {
-        // two-tier dust (Apple-event style): dense velvet core + wide sparse sparkle halo
-        const tight = Math.random() < .72;
-        const d = g() * r.spread * (tight ? .5 : 2.1);
+        // fine dense core (the lit ridge) + sparse wide halo (the dust drifting off it)
+        const tight = Math.random() < .78;
+        const d = g() * r.spread * (tight ? .45 : 2.3);
         let a = tight
-          ? r.alpha * (.4 + Math.random() * .6)
-          : r.alpha * Math.exp(-Math.abs(d) / (r.spread * 1.1)) * (.12 + Math.random() * .5);
-        if (Math.random() < .03) a = Math.min(a * 2.2, .95);   // rare bright sparkles
-        a = Math.round(Math.min(a, .95) * 18) / 18;   // quantize → few fillStyle switches per frame
+          ? r.alpha * (.3 + Math.random() * .7)
+          : r.alpha * Math.exp(-Math.abs(d) / (r.spread * 1.15)) * (.1 + Math.random() * .45);
+        if (Math.random() < .02) a = Math.min(a * 2.4, .95);
+        a = Math.round(Math.min(a, .95) * 18) / 18;
         if (a < .04) continue;
         parts.push({
           ri, idx: Math.floor(Math.random() * SAMPLES),
           d: d * DPR,
           a,
-          s: Math.random() < .94 ? 1 : 2,            // single-pixel grain, rare brighter fleck
+          s: Math.random() < .98 ? 1 : 2,            // virtually all single-pixel grain
           ph: Math.random() * 6.28,
-          wob: .4 + Math.random() * 1.2,
-          ox: 0, oy: 0,                              // pointer displacement (springs back)
+          wob: .4 + Math.random() * 1.1,
+          ox: 0, oy: 0,
         });
       }
     });
-    // bucket by alpha so we set fillStyle ~10× per frame, not 9000×
     parts.sort((p1, p2) => p1.a - p2.a);
   }
   setup();
@@ -100,7 +96,7 @@ async function api(path, body) {
     });
   }
 
-  const R = 170, FORCE = 30;                       // hover field (css px)
+  const R = 170, FORCE = 30;
   function frame(time) {
     ctx.clearRect(0, 0, w, h);
     sampleCurves(time);
@@ -109,11 +105,9 @@ async function api(path, body) {
     for (const p of parts) {
       const P = tableP[p.ri], N = tableN[p.ri];
       const i2 = p.idx * 2;
-      // breathing of the grain itself: soft per-particle wobble across the crest
       const wob = Math.sin(time * .00035 + p.ph) * p.wob * DPR;
-      let x = P[i2] + N[i2] * (p.d + wob);
-      let y = P[i2 + 1] + N[i2 + 1] * (p.d + wob);
-      // pointer field: particles ease away near the cursor, spring back smoothly
+      const x = P[i2] + N[i2] * (p.d + wob);
+      const y = P[i2 + 1] + N[i2 + 1] * (p.d + wob);
       const dx = x - mouse.x, dy = y - mouse.y;
       const dist2 = dx * dx + dy * dy;
       let tx = 0, ty = 0;
@@ -123,7 +117,7 @@ async function api(path, body) {
         const push = f * f * FORCE * DPR;
         tx = (dx / dist) * push; ty = (dy / dist) * push;
       }
-      p.ox += (tx - p.ox) * .07;                  // critically-damped feel
+      p.ox += (tx - p.ox) * .07;
       p.oy += (ty - p.oy) * .07;
       if (p.a !== lastA) { ctx.fillStyle = `rgba(255,255,255,${p.a})`; lastA = p.a; }
       ctx.fillRect(x + p.ox, y + p.oy, p.s, p.s);
@@ -134,12 +128,52 @@ async function api(path, body) {
 })();
 
 /* ---------- helpers ---------- */
+const PX_PER_MIN = 1.15;            // true time-scale: 30 min ≈ 34px, 4h block = 8× a 30-min row
 function endtime(t) {
   let [h, m] = t.split(':').map(Number);
   m += 30;
   return String(h + Math.floor(m / 60)).padStart(2, '0') + ':' + String(m % 60).padStart(2, '0');
 }
 function mins(t) { const [h, m] = t.split(':').map(Number); return h * 60 + m; }
+
+/* ---------- hold-to-set-% (350ms hold → counts 0→100 over ~3s, release = your number) ---------- */
+function attachHold(el, taskId) {
+  let timer = null, raf = null, holding = false, pct = 0, suppressClick = false;
+  const fill = el.querySelector('.prog-fill');
+  const badge = el.querySelector('.prog-pct');
+  function start(e) {
+    if (e.button > 0) return;
+    suppressClick = false;
+    timer = setTimeout(() => {
+      holding = true; suppressClick = true;
+      const t0 = performance.now();
+      const loop = (t) => {
+        if (!holding) return;
+        pct = Math.min(100, Math.round((t - t0) / 30));
+        if (fill) fill.style.width = pct + '%';
+        if (badge) { badge.textContent = pct + '%'; badge.style.opacity = 1; }
+        if (pct < 100) raf = requestAnimationFrame(loop);
+      };
+      raf = requestAnimationFrame(loop);
+    }, 350);
+  }
+  function finish() {
+    clearTimeout(timer);
+    if (holding) {
+      holding = false;
+      cancelAnimationFrame(raf);
+      api('progress', { date: day.date, taskId, progress: pct }).then(set);
+    }
+  }
+  el.addEventListener('pointerdown', start);
+  el.addEventListener('pointerup', finish);
+  el.addEventListener('pointercancel', finish);
+  el.addEventListener('pointerleave', finish);
+  el.addEventListener('contextmenu', (e) => e.preventDefault());
+  el.addEventListener('click', (e) => {
+    if (suppressClick) { e.stopImmediatePropagation(); e.preventDefault(); suppressClick = false; }
+  }, true);
+}
 
 /* ---------- render ---------- */
 function render() {
@@ -154,35 +188,41 @@ function render() {
   document.getElementById('ring-fill').style.strokeDashoffset = 339.3 * (1 - rating / 100);
   document.getElementById('ring').classList.toggle('complete', rating >= 100);
 
-  // priorities
+  // priorities (right column)
   const pl = document.getElementById('prio-list');
   pl.innerHTML = '';
   day.priorities.forEach((p) => {
+    const prog = p.progress ?? (p.done === true ? 100 : 0);
     const el = document.createElement('div');
-    el.className = 'prio' + (p.done ? ' done' : '');
-    el.innerHTML = `<span class="tick"></span><span class="ptext">${p.text}` +
+    el.className = 'prio' + (prog >= 100 ? ' done' : prog > 0 ? ' partial' : '');
+    el.innerHTML = `<div class="prog-fill" style="width:${prog}%"></div>` +
+      `<span class="tick"></span><span class="ptext">${p.text}` +
       (p.actual != null ? ` <b>(${p.actual})</b>` : '') + '</span>' +
+      `<span class="prog-pct" style="opacity:${prog > 0 && prog < 100 ? 1 : 0}">${prog}%</span>` +
       (p.carryFrom ? `<span class="carry">⟳ ${p.carryFrom}</span>` : '');
-    el.onclick = () => api('tick', { date: day.date, taskId: p.id, done: !p.done }).then(set);
+    el.onclick = () => api('tick', { date: day.date, taskId: p.id, done: prog < 100 }).then(set);
+    attachHold(el, p.id);
     pl.appendChild(el);
   });
 
-  // timeline — FULL day: work runs, routine panels (non-counting), empty hour marks
+  // timeline (left column) — true time-scale; work runs + grouped routine + empty marks
   const entries = [];
   day.slots.forEach((s) => {
+    const last = entries[entries.length - 1];
     if (s.taskId) {
-      const last = entries[entries.length - 1];
       if (last && last.type === 'work' && last.tid === s.taskId && last.end === s.time) {
-        last.end = endtime(s.time);
-        last.done = last.done && !!s.done;
-        last.times.push(s.time);
+        last.end = endtime(s.time); last.times.push(s.time);
       } else {
-        entries.push({ type: 'work', tid: s.taskId, start: s.time, end: endtime(s.time), done: !!s.done, times: [s.time] });
+        entries.push({ type: 'work', tid: s.taskId, start: s.time, end: endtime(s.time), times: [s.time] });
       }
     } else if (s.routine) {
-      entries.push({ type: 'rest', start: s.time, label: s.routine, done: !!s.done });
+      if (last && last.type === 'rest' && last.label === s.routine && last.end === s.time) {
+        last.end = endtime(s.time); last.done = last.done && !!s.done; last.times.push(s.time);
+      } else {
+        entries.push({ type: 'rest', start: s.time, end: endtime(s.time), label: s.routine, done: !!s.done, times: [s.time] });
+      }
     } else {
-      entries.push({ type: 'empty', start: s.time });
+      entries.push({ type: 'empty', start: s.time, end: endtime(s.time) });
     }
   });
 
@@ -190,37 +230,40 @@ function render() {
   tl.innerHTML = '';
   entries.forEach((e) => {
     const el = document.createElement('div');
+    const minutes = (mins(e.end) - mins(e.start) + 1440) % 1440 || 30;
     if (e.type === 'work') {
       const t = day.priorities.find((p) => p.id === e.tid);
-      el.className = 'tl-row work' + (e.done ? ' done' : '');
-      el.innerHTML = `<span class="tl-time">${e.start}–${e.end}</span><span class="tl-dot"></span>` +
-        `<span class="tick"></span><span class="ttext">${t ? t.text : e.tid}</span>`;
+      const prog = t ? (t.progress ?? (t.done === true ? 100 : 0)) : 0;
+      el.className = 'tl-row work' + (prog >= 100 ? ' done' : prog > 0 ? ' partial' : '');
+      el.style.minHeight = (minutes * PX_PER_MIN) + 'px';
+      el.innerHTML = `<div class="prog-fill" style="width:${prog}%"></div>` +
+        `<span class="tl-time">${e.start}–${e.end}</span><span class="tl-dot"></span>` +
+        `<span class="tick"></span><span class="ttext">${t ? t.text : e.tid}</span>` +
+        `<span class="prog-pct" style="opacity:${prog > 0 && prog < 100 ? 1 : 0}">${prog}%</span>`;
+      el.onclick = () => api('tick', { date: day.date, taskId: e.tid, done: prog < 100 }).then(set);
+      if (t) attachHold(el, t.id);
+    } else if (e.type === 'rest') {
+      el.className = 'tl-row rest' + (e.done ? ' done' : '');
+      el.style.minHeight = (minutes * PX_PER_MIN) + 'px';
+      el.innerHTML = `<span class="tl-time">${e.start}</span><span class="tl-dot"></span>` +
+        `<span class="tick"></span><span class="ttext">${e.label}</span>`;
       el.onclick = async () => {
         for (const time of e.times) await api('tick', { date: day.date, time, done: !e.done });
         set(await api('day/today'));
       };
-    } else if (e.type === 'rest') {
-      el.className = 'tl-row rest' + (e.done ? ' done' : '');
-      el.innerHTML = `<span class="tl-time">${e.start}</span><span class="tl-dot"></span>` +
-        `<span class="tick"></span><span class="ttext">${e.label}</span>`;
-      el.onclick = () => api('tick', { date: day.date, time: e.start, done: !e.done }).then(set);
     } else {
       el.className = 'tl-row empty';
+      el.style.height = (minutes * PX_PER_MIN) + 'px';
       el.innerHTML = `<span class="tl-time">${e.start}</span><span class="tl-dash"></span>`;
     }
     el.dataset.start = e.start;
-    el.dataset.end = e.end || endtime(e.start);
+    el.dataset.end = e.end;
     tl.appendChild(el);
   });
   positionNowLine();
 
   const imp = document.getElementById('improve');
   if (document.activeElement !== imp) imp.value = day.improve || '';
-
-  const rep = document.getElementById('report');
-  if (rep && day.reported && !rep.classList.contains('sending') && rep.textContent !== 'Send again') {
-    rep.textContent = 'Send again';
-  }
 }
 
 function positionNowLine() {
@@ -244,7 +287,7 @@ setInterval(positionNowLine, 60_000);
 
 function set(d) { day = d; render(); }
 
-/* ---------- improve autosave ---------- */
+/* ---------- notes: autosave while typing; Submit files them for tomorrow (silent) ---------- */
 let metaTimer;
 function saveImprove() {
   clearTimeout(metaTimer);
@@ -254,7 +297,32 @@ function saveImprove() {
 }
 document.getElementById('improve').addEventListener('input', saveImprove);
 
-/* ---------- voice input (server-side transcription) ---------- */
+document.getElementById('report').onclick = async function () {
+  const btn = this;
+  btn.classList.add('sending');
+  btn.textContent = 'Saving…';
+  try {
+    const d = await api('report', { date: day.date, improve: document.getElementById('improve').value });
+    day = d;
+    const done = document.createElement('div');
+    done.id = 'report-done';
+    done.innerHTML = '<div class="big-tick"></div><span>Noted — feeds tomorrow’s plan</span>';
+    btn.style.display = 'none';
+    btn.after(done);
+    setTimeout(() => {
+      done.remove();
+      btn.style.display = '';
+      btn.classList.remove('sending');
+      btn.textContent = 'Submit';
+    }, 2500);
+  } catch (e) {
+    btn.classList.remove('sending');
+    btn.textContent = 'Submit';
+    alert('Failed: ' + e.message);
+  }
+};
+
+/* ---------- voice input ---------- */
 (function voice() {
   const btn = document.getElementById('mic');
   let rec = null, chunks = [];
@@ -293,32 +361,6 @@ document.getElementById('improve').addEventListener('input', saveImprove);
   };
 })();
 
-/* ---------- send report: send → confirm animation → button returns as "Send again" ---------- */
-document.getElementById('report').onclick = async function () {
-  const btn = this;
-  btn.classList.add('sending');
-  btn.textContent = 'Sending…';
-  try {
-    const d = await api('report', { date: day.date });
-    day = d;
-    const done = document.createElement('div');
-    done.id = 'report-done';
-    done.innerHTML = '<div class="big-tick"></div><span>Report sent — day recorded</span>';
-    btn.style.display = 'none';
-    btn.after(done);
-    setTimeout(() => {
-      done.remove();
-      btn.style.display = '';
-      btn.classList.remove('sending');
-      btn.textContent = 'Send again';
-    }, 3000);
-  } catch (e) {
-    btn.classList.remove('sending');
-    btn.textContent = 'Send report';
-    alert('Failed: ' + e.message);
-  }
-};
-
 /* ---------- push: auto-resubscribe when granted; tiny bell pill for fresh installs ---------- */
 (async function pushKeepalive() {
   if (!('Notification' in window) || !('serviceWorker' in navigator)) return;
@@ -330,7 +372,7 @@ document.getElementById('report').onclick = async function () {
     await api('subscribe', sub.toJSON());
   }
   if (Notification.permission === 'granted') {
-    subscribe().catch(() => {});                 // keep endpoint fresh on every launch
+    subscribe().catch(() => {});
   } else if (Notification.permission === 'default' && (standalone || !/iPhone|iPad/.test(navigator.userAgent))) {
     const pill = document.createElement('button');
     pill.id = 'bell-pill';

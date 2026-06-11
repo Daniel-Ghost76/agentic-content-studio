@@ -28,13 +28,33 @@ const dayFile = (d) => path.join(DAILY, `${d}.json`);
 const loadDay = (d) =>
   fs.existsSync(dayFile(d)) ? JSON.parse(fs.readFileSync(dayFile(d), 'utf8')) : null;
 
+// progress model: each priority has progress 0–100 (tick = 100, hold = partial).
+// Rating/Hours are pro-rata: 45% of a 4h block contributes 1.8h and 45% of its weight.
 function computeScore(day) {
-  const work = day.slots.filter((s) => s.taskId);
-  const done = work.filter((s) => s.done);
+  const slotsOf = {};
+  day.slots.forEach((s) => { if (s.taskId) slotsOf[s.taskId] = (slotsOf[s.taskId] || 0) + 1; });
+  let weighted = 0, totalSlots = 0, hours = 0;
+  day.priorities.forEach((p) => {
+    const n = slotsOf[p.id] || 0;
+    if (p.progress == null) p.progress = p.done === true ? 100 : 0;
+    if (p.progress >= 100) p.done = true;
+    totalSlots += n;
+    weighted += n * p.progress;
+    hours += n * 0.5 * (p.progress / 100);
+  });
   day.score = day.score || {};
-  day.score.rating = work.length ? Math.round((done.length / work.length) * 100) : 0;
-  day.score.hours = done.length * 0.5;
+  day.score.rating = totalSlots ? Math.round(weighted / totalSlots) : 0;
+  day.score.hours = Math.round(hours * 10) / 10;
   return day;
+}
+
+// sync a task's slots to its progress (visual fill in the timeline)
+function syncSlots(day, taskId) {
+  const p = day.priorities.find((x) => x.id === taskId);
+  if (!p) return;
+  const slots = day.slots.filter((s) => s.taskId === taskId);
+  const doneCount = Math.round((p.progress / 100) * slots.length);
+  slots.forEach((s, i) => { s.done = i < doneCount; });
 }
 
 function saveDay(day) {
@@ -127,14 +147,38 @@ app.post('/api/tick', (req, res) => {
     const t = day.priorities.find((p) => p.id === taskId);
     if (t) {
       t.done = !!done;
+      t.progress = done ? 100 : 0;
       if (actual !== undefined) t.actual = actual;
-      day.slots.filter((s) => s.taskId === taskId).forEach((s) => (s.done = !!done));
+      syncSlots(day, taskId);
     }
   }
-  day.priorities.forEach((p) => {
-    const ss = day.slots.filter((s) => s.taskId === p.id);
-    if (ss.length && ss.every((s) => s.done) && p.done === null) p.done = true;
-  });
+  // slot-level ticks drive their task's progress
+  if (time && !taskId) {
+    const slot = day.slots.find((s) => s.time === time);
+    if (slot && slot.taskId) {
+      const t = day.priorities.find((p) => p.id === slot.taskId);
+      const ss = day.slots.filter((s) => s.taskId === slot.taskId);
+      const dn = ss.filter((s) => s.done).length;
+      if (t) {
+        t.progress = Math.round((dn / ss.length) * 100);
+        t.done = t.progress >= 100 ? true : (t.progress > 0 ? false : t.done === true ? false : t.done);
+      }
+    }
+  }
+  saveDay(day);
+  res.json(day);
+});
+
+// hold-to-set partial progress (0–100); <100 counts as answered (no more nags) and carries tomorrow
+app.post('/api/progress', (req, res) => {
+  const { date, taskId, progress } = req.body;
+  const day = loadDay(date || todayStr());
+  if (!day) return res.status(404).json({ error: 'no plan' });
+  const t = day.priorities.find((p) => p.id === taskId);
+  if (!t) return res.status(404).json({ error: 'no such task' });
+  t.progress = Math.max(0, Math.min(100, Math.round(progress)));
+  t.done = t.progress >= 100 ? true : (t.progress > 0 ? false : null);
+  syncSlots(day, taskId);
   saveDay(day);
   res.json(day);
 });
@@ -177,23 +221,15 @@ app.post('/api/transcribe', express.raw({ type: () => true, limit: '25mb' }), as
   } catch (e) { res.status(500).json({ error: e.message }); }
 });
 
-// "Send report" — fires the day recap to Telegram immediately, marks day reported
+// "Submit" — saves the note for tomorrow's 03:30 build. Silent: NO Telegram here.
+// The single daily Telegram is the 19:30 evening sync.
 app.post('/api/report', (req, res) => {
   const day = loadDay(req.body.date || todayStr());
   if (!day) return res.status(404).json({ error: 'no plan' });
-  const doneP = day.priorities.filter((p) => p.done === true).map((p) => p.text + (p.actual != null ? ` (${p.actual})` : ''));
-  const openP = day.priorities.filter((p) => p.done !== true).map((p) => p.text);
-  const msg = `Daybreak report — ${day.date}\n` +
-    `${day.score.rating ?? 0}% · ${day.score.hours ?? 0}h focused\n` +
-    `Shipped: ${doneP.length ? doneP.join(' · ') : 'nothing yet'}\n` +
-    `Open: ${openP.length ? openP.join(' · ') : 'nothing'}` +
-    (day.improve ? `\nImprove: ${day.improve}` : '');
-  execFile(path.join(WS, 'scripts/warroom/alert.sh'), [msg], (err) => {
-    if (err) return res.status(500).json({ error: 'telegram failed' });
-    day.reported = true;
-    saveDay(day);
-    res.json(day);
-  });
+  if (req.body.improve !== undefined) day.improve = req.body.improve;
+  day.reported = true;
+  saveDay(day);
+  res.json(day);
 });
 
 // history for dashboards/weekly review

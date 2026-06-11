@@ -2,14 +2,21 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>Label</key><string>com.warroom.evening</string>
-  <key>ProgramArguments</key>
-  <array>
-    <string>/bin/zsh</string>
-    <string>/Users/danieldanut/Agentic Workspace/scripts/warroom/evening_sync.sh</string>
-  </array>
-  <key>StartCalendarInterval</key>
-  <dict><key>Hour</key><integer>19</integer><key>Minute</key><integer>0</integer></dict>
-  <key>StandardErrorPath</key><string>/Users/danieldanut/Agentic Workspace/Planning/logs/launchd.evening.err</string>
+	<key>Label</key>
+	<string>com.warroom.evening</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/bin/zsh</string>
+		<string>/Users/danieldanut/Agentic Workspace/scripts/warroom/evening_sync.sh</string>
+	</array>
+	<key>StandardErrorPath</key>
+	<string>/Users/danieldanut/Agentic Workspace/Planning/logs/launchd.evening.err</string>
+	<key>StartCalendarInterval</key>
+	<dict>
+		<key>Hour</key>
+		<integer>19</integer>
+		<key>Minute</key>
+		<integer>30</integer>
+	</dict>
 </dict>
 </plist>

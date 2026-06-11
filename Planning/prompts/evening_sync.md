@@ -10,8 +10,9 @@ unforgivable failure of this system. You do not have permission to edit
 files in Planning/Daily/ — all your writes go through curl or Sheets.
 
 1. READ Planning/Daily/<today>.json. Use score.rating and score.hours
-   exactly as they are — the server computed them. Count priorities with
-   done == true (call it D) of total (T).
+   exactly as they are — the server computed them (pro-rata over each task's
+   progress 0–100). Count priorities with progress >= 100 (call it D) of
+   total (T). Partials (0 < progress < 100) are reported as e.g. "p2 45%".
 2. Compose two strings:
    - output: one line listing ONLY priorities with done == true, with their
      actual numbers if present. If none are done, output is "nothing shipped".
@@ -31,7 +32,10 @@ files in Planning/Daily/ — all your writes go through curl or Sheets.
       callsConducted (0 if null), callsBooked (0 if null), 0,
       active project's current stage number (from ls Youtube/Output/*/),
       sum of actual on outreach tasks (0 if none), improve text.
-4. Telegram (scripts/warroom/alert.sh): "Day <rating>% · <hours>h focused ·
-   shipped: <output> · tomorrow inherits: <not-done priorities or 'nothing'>".
+4. Telegram (scripts/warroom/alert.sh) — this is Daniel's ONE daily message,
+   sent at 19:30, so make it complete: "Day <rating>% · <hours>h focused ·
+   shipped: <output> · partials: <list with %s or 'none'> · tomorrow
+   inherits: <unfinished priorities or 'nothing'>" plus, if day.improve is
+   non-empty, a final line "Notes: <improve>".
 
 Final message: "SYNC <today> OK <rating>%" or "FAILED: <why>".

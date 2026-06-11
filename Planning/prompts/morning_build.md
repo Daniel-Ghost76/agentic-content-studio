@@ -8,9 +8,15 @@ date Europe/London. Google MCP calls: user_google_email=daniel@ministryflow.co.
    Claude", run scripts/warroom/alert.sh "War Room: month rollover needed",
    and stop.
 2. Read yesterday's Planning/Daily/<yesterday>.json if it exists. Priorities
-   with done != true are carry-overs (keep their original carryFrom date, or
-   set it to yesterday's date). Read yesterday's "improve" text — apply it to
-   today's plan design.
+   with progress < 100 are carry-overs (keep their original carryFrom date, or
+   set it to yesterday's date). For partials, note remaining effort in the new
+   task text, e.g. "(was 45% done — finish remaining)" and size today's block
+   for the REMAINDER, not the whole task.
+   Read yesterday's "improve" text — these are Daniel's NOTES for you. Treat
+   them as advisory input, never as gospel: priorities always come from
+   goals.yaml ranking + workspace state. If a note conflicts with the ranking,
+   the ranking wins, but reflect reasonable requests (timing, ordering,
+   specific tasks) in how you shape the day.
 3. Read today's calendar 00:00–23:59 (google-workspace get_events). Events
    with attendees other than Daniel are UNTOUCHABLE.
 4. Read the War Map month tab (sheet id in goals.yaml) for objectives and
