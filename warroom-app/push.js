@@ -28,6 +28,17 @@ module.exports = (app, { loadDay, todayStr, APPDATA }) => {
   }
 
   const timers = [];
+  // check-in that NAGS: re-sends every 15 min (max 3 repeats) until the task is answered
+  function checkin(taskId, title, attempt = 0) {
+    const d = loadDay(todayStr());
+    const t = d && d.priorities.find((p) => p.id === taskId);
+    if (!t || t.done !== null) return; // answered (✅ or ❌) — stop nagging
+    send({
+      title: attempt === 0 ? title : `Still open (${attempt + 1}×) — ${title}`,
+      body: t.text, taskId: t.id, date: d.date,
+    });
+    if (attempt < 3) timers.push(setTimeout(() => checkin(taskId, title, attempt + 1), 15 * 60 * 1000));
+  }
   function arm() {
     timers.splice(0).forEach(clearTimeout);
     const day = loadDay(todayStr());
@@ -45,24 +56,28 @@ module.exports = (app, { loadDay, todayStr, APPDATA }) => {
       if (!next || next.taskId !== s.taskId) {
         const [h, m] = s.time.split(':').map(Number);
         const end = `${String(m === 30 ? h + 1 : h).padStart(2, '0')}:${m === 30 ? '00' : '30'}`;
-        at(end, () => {
-          const d = loadDay(todayStr());
-          const t = d && d.priorities.find((p) => p.id === s.taskId);
-          if (t && t.done === null) send({ title: 'Block done?', body: t.text, taskId: t.id, date: d.date });
-        });
+        at(end, () => checkin(s.taskId, 'Block done?'));
       }
     });
-    // 18:30 day-close sweep
+    // 18:30 day-close sweep (nags too, so nothing dies unanswered before the 19:00 sync)
     at('18:30', () => {
       const d = loadDay(todayStr());
       if (!d) return;
       d.priorities.filter((p) => p.done === null)
-        .forEach((p) => send({ title: 'Day close — done?', body: p.text, taskId: p.id, date: d.date }));
+        .forEach((p) => checkin(p.id, 'Day close — done?'));
     });
   }
   arm();
   setInterval(arm, 30 * 60 * 1000); // re-arm half-hourly (survives plan rewrites + sleep/wake)
   app.post('/api/rearm', (_req, res) => { arm(); res.json({ ok: true }); });
+  // manual nudge — fire a real check-in for a task right now (testing / Astra integration)
+  app.post('/api/nudge', (req, res) => {
+    const d = loadDay(todayStr());
+    const t = d && d.priorities.find((p) => p.id === req.body.taskId);
+    if (!t) return res.status(404).json({ error: 'no such task' });
+    checkin(t.id, 'Check-in');
+    res.json({ ok: true, task: t.text });
+  });
   app.post('/api/test-push', (_req, res) => {
     send({ title: 'War Room test', body: 'Push pipeline works ⚔️', taskId: 'test', date: todayStr() });
     res.json({ ok: true });
