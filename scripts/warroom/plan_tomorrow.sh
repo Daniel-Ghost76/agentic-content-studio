@@ -2,7 +2,7 @@
 # Build TOMORROW's plan now (triggered from the app's "Plan tomorrow today" button)
 set -uo pipefail
 WS="/Users/danieldanut/Agentic Workspace"
-export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
+export PATH="$HOME/.local/bin:/opt/homebrew/bin:/usr/local/bin:$PATH"
 TARGET="${1:?target date required}"
 TODAY=$(date +%F)
 LOG="$WS/Planning/logs/plantomorrow_$TARGET.log"

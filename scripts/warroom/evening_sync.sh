@@ -1,7 +1,7 @@
 #!/bin/zsh
 set -uo pipefail
 WS="/Users/danieldanut/Agentic Workspace"
-export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
+export PATH="$HOME/.local/bin:/opt/homebrew/bin:/usr/local/bin:$PATH"
 LOG="$WS/Planning/logs/evening_$(date +%F).log"
 cd "$WS"
 {
