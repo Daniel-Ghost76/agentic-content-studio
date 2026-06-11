@@ -1,0 +1,43 @@
+# Machine-readable mirror of War Map 2026 — morning build reads this first.
+# NOTE: pre-June Warmap goals (2460 DMs/mo, ministry-leader niche) are OUTDATED — do not plan against them.
+warmap_sheet_id: 1zXZmuL8B55lXjrKfQhQt1Tc-tiGujkiKPAk2XS0-jx8
+user_google_email: daniel@ministryflow.co
+timezone: Europe/London
+
+year_goals:
+  - 50 paying clients by end of 2026
+  - First 10k/mo
+  - YouTube → Skool → AI implementation services engine running
+
+month:
+  id: 2026-06
+  objectives:
+    - Outreach system v1 fires its first automated DM batch (end-to-end, before June 30)
+    - YouTube pipeline shipping 2 videos/week
+    - Skool funnel ready to receive (offer + onboarding live)
+  quotas:
+    videos_per_week: 2
+    posts_per_day: 0          # short-form deferred until video + outreach are consistent
+  north_star: 1 video/day once editing is fully automated (Codex + Claude Code) — not yet
+
+priority_ranking:
+  - outreach_system_build    # building the automated DM machine (NOT manual DMs)
+  - youtube_pipeline         # next stage action for the active project(s)
+  - skool_funnel             # offer + onboarding
+  - distribution             # deferred — no short-form for now
+  - admin
+
+time_rules:
+  deep_work: "04:00-08:00"        # creative + build only; no sends, no admin
+  outreach_sends_after: "13:00"   # US avatar awake
+  work_end: "18:00"
+calendar_rules:
+  never_touch: "events with attendees other than Daniel"
+  editable: "solo blocks; meals/gym may shift max ±30min"
+  conflicts_go_to: "conflicts array of the day JSON"
+
+non_negotiables:
+  - No sugar, no eating outside the meal plan
+  - No YouTube / Hormozi / courses / random research
+  - No distractions 4–8am — do not NOT work on the priority
+  - No task switching / incompletion (90%+)
