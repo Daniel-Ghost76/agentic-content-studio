@@ -27,8 +27,8 @@ async function api(path, body) {
 
   // ridge definitions in unit space; control points drift slowly → the LINE flows
   const RIDGES = [
-    { p: [[.72, -.08], [.38, .22], [.95, .55], [.55, 1.08]], n: 6500, spread: 44, alpha: .8 },
-    { p: [[-.05, .65], [.30, .38], [.12, .18], [.42, -.05]], n: 2600, spread: 34, alpha: .42 },
+    { p: [[.72, -.08], [.38, .22], [.95, .55], [.55, 1.08]], n: 24000, spread: 40, alpha: .8 },
+    { p: [[-.05, .65], [.30, .38], [.12, .18], [.42, -.05]], n: 9000, spread: 30, alpha: .45 },
   ];
   // per-control-point drift phases/amplitudes (unit-space, small)
   const DRIFT = RIDGES.map(() => [0, 1, 2, 3].map(() => ({
@@ -41,22 +41,22 @@ async function api(path, body) {
     w = cv.width = innerWidth * DPR;
     h = cv.height = innerHeight * DPR;
     parts = [];
-    const budget = innerWidth < 700 ? .45 : 1;   // lighter sim on phone
+    const budget = innerWidth < 700 ? .3 : 1;    // lighter sim on phone
     RIDGES.forEach((r, ri) => {
       for (let i = 0; i < r.n * budget; i++) {
         const fall = Math.random();
         const d = g() * r.spread;
         let a = r.alpha * Math.exp(-(d * d) / (r.spread * r.spread * .5)) * (.25 + Math.random() * .75);
-        a = Math.round(Math.min(a, .9) * 14) / 14;   // quantize → few fillStyle switches per frame
-        if (a < .05) continue;
+        a = Math.round(Math.min(a, .9) * 18) / 18;   // quantize → few fillStyle switches per frame
+        if (a < .04) continue;
         parts.push({
           ri, idx: Math.floor(Math.random() * SAMPLES),
           d: d * DPR,
-          a: Math.min(a, .9),
-          s: Math.random() < .85 ? 1 : 2,
+          a,
+          s: Math.random() < .94 ? 1 : 2,            // single-pixel grain, rare brighter fleck
           ph: Math.random() * 6.28,
-          wob: .6 + Math.random() * 1.6,
-          ox: 0, oy: 0,                            // pointer displacement (springs back)
+          wob: .4 + Math.random() * 1.2,
+          ox: 0, oy: 0,                              // pointer displacement (springs back)
         });
       }
     });
@@ -106,7 +106,7 @@ async function api(path, body) {
       const P = tableP[p.ri], N = tableN[p.ri];
       const i2 = p.idx * 2;
       // breathing of the grain itself: soft per-particle wobble across the crest
-      const wob = Math.sin(time * .0006 + p.ph) * p.wob * DPR;
+      const wob = Math.sin(time * .00035 + p.ph) * p.wob * DPR;
       let x = P[i2] + N[i2] * (p.d + wob);
       let y = P[i2 + 1] + N[i2 + 1] * (p.d + wob);
       // pointer field: particles ease away near the cursor, spring back smoothly
