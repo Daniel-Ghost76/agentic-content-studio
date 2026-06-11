@@ -43,7 +43,7 @@
       <textarea id="notes" rows="3" placeholder="Instructions and thoughts for tomorrow…"></textarea>
 
       <div id="plan-wrap">
-        <button id="plan-tmrw">Plan tomorrow today</button>
+        <button id="plan-tmrw">Plan the week ahead</button>
         <div id="plan-progress" hidden>
           <svg viewBox="0 0 80 80">
             <circle class="track" cx="40" cy="40" r="34"/>
@@ -51,16 +51,13 @@
           </svg>
           <span id="plan-pct">0%</span>
         </div>
-        <div id="plan-msg" hidden>Building tomorrow — reading your notes, the workspace, and the calendar…</div>
+        <div id="plan-msg" hidden>Planning the week — reading your progress, notes, goals, and calendar…</div>
       </div>
     </div>
   </section>
 
   <section id="right">
-    <div id="view-toggle" hidden>
-      <button data-view="today" class="active">Today</button>
-      <button data-view="tomorrow">Tomorrow</button>
-    </div>
+    <div id="day-strip"></div>
     <div id="stream">
       <h2>Priorities</h2>
       <div id="prio-list"></div>

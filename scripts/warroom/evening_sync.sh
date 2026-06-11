@@ -10,4 +10,6 @@ cd "$WS"
     --model haiku --permission-mode bypassPermissions --max-turns 60
 } >> "$LOG" 2>&1
 [[ $? -ne 0 ]] && "$WS/scripts/warroom/alert.sh" "Evening sync FAILED. Log: $LOG"
+# after scoring today, rebuild the rolling 7-day horizon from accomplishments
+"$WS/scripts/warroom/horizon.sh"
 exit 0

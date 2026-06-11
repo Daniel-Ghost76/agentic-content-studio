@@ -292,21 +292,41 @@ function positionNowLine() {
 setInterval(positionNowLine, 60_000);
 
 function set(d) { day = d; render(); }
-function load() {
-  const target = view === 'today' ? 'today' : tomorrowDate;
-  return api('day/' + target).then(set);
-}
 
-/* ---------- view toggle ---------- */
-const toggleEl = document.getElementById('view-toggle');
-toggleEl.querySelectorAll('button').forEach((b) => {
-  b.onclick = () => {
-    view = b.dataset.view;
-    toggleEl.querySelectorAll('button').forEach((x) => x.classList.toggle('active', x === b));
-    load();
-  };
-});
-function showToggle() { toggleEl.hidden = false; }
+/* ---------- 7-day horizon strip ---------- */
+const stripEl = document.getElementById('day-strip');
+function ymd(offset) {
+  const d = new Date();
+  d.setDate(d.getDate() + offset);
+  return d.toLocaleDateString('en-CA', { timeZone: 'Europe/London' });
+}
+let selected = ymd(0);
+async function buildStrip() {
+  // probe which of the next 7 days have a plan
+  const days = [];
+  for (let i = 0; i <= 7; i++) {
+    const date = ymd(i);
+    const exists = i === 0 || await api('day/' + date).then(() => true).catch(() => false);
+    days.push({ date, i, exists });
+  }
+  stripEl.innerHTML = '';
+  days.forEach(({ date, i, exists }) => {
+    if (!exists) return;
+    const b = document.createElement('button');
+    const d = new Date(date + 'T12:00');
+    b.innerHTML = i === 0 ? 'Today'
+      : `<b>${d.toLocaleDateString('en-GB', { weekday: 'short' })}</b><span>${d.getDate()}</span>`;
+    b.classList.toggle('active', date === selected);
+    b.onclick = () => {
+      selected = date;
+      view = i === 0 ? 'today' : 'future';
+      stripEl.querySelectorAll('button').forEach((x) => x.classList.remove('active'));
+      b.classList.add('active');
+      api('day/' + date).then(set);
+    };
+    stripEl.appendChild(b);
+  });
+}
 
 /* ---------- notes + improve autosave ---------- */
 let metaTimer;
@@ -387,12 +407,12 @@ function showPlanProgress(startedAt) {
         if (st.exists) {
           planFill.style.strokeDashoffset = 0;
           planPct.textContent = '100%';
-          tomorrowDate = st.date;
-          showToggle();
+          await buildStrip();
           setTimeout(() => {
             planProg.hidden = true; planMsg.hidden = true;
-            planBtn.hidden = false; planBtn.textContent = 'Re-plan tomorrow';
-            toggleEl.querySelector('[data-view="tomorrow"]').click();
+            planBtn.hidden = false; planBtn.textContent = 'Re-plan the week';
+            const tmrw = [...stripEl.children].find((b) => b.textContent !== 'Today');
+            if (tmrw) tmrw.click();
           }, 900);
         } else {
           planProg.hidden = true; planMsg.hidden = true;
@@ -404,9 +424,8 @@ function showPlanProgress(startedAt) {
   }, 1000);
 }
 planBtn.onclick = async () => {
-  const st = await api('plan-tomorrow', {});
+  await api('plan-tomorrow', {});
   showPlanProgress(Date.now());
-  if (st.date) tomorrowDate = st.date;
 };
 
 /* ---------- push keepalive ---------- */
@@ -469,9 +488,9 @@ api('day/today').then((d) => { set(d); maybeFocusTask(); }).catch((e) => {
   }
   document.body.innerHTML = `<h1 style="padding:40px;font-family:ui-serif,Georgia,serif">No plan for today yet.</h1>`;
 });
+buildStrip();
 api('plan-status').then((st) => {
-  tomorrowDate = st.date;
-  if (st.exists) { showToggle(); planBtn.textContent = 'Re-plan tomorrow'; }
+  if (st.exists) planBtn.textContent = 'Re-plan the week';
   if (st.running) showPlanProgress(st.startedAt || Date.now());
 }).catch(() => {});
 setInterval(() => { if (view === 'today') api('day/today').then(set).catch(() => {}); }, 60_000);

@@ -147,24 +147,28 @@ main {
 }
 #plan-msg { margin-top: 12px; font-size: 12.5px; color: var(--faint); font-style: italic; }
 
-/* ---- view toggle ---- */
-#view-toggle {
-  display: flex; gap: 4px;
+/* ---- 7-day horizon strip ---- */
+#day-strip {
+  display: flex; gap: 6px; flex-wrap: wrap;
+  margin: 2px 0 12px;
+}
+#day-strip button {
   background: var(--card);
   border: 1px solid var(--line-soft);
-  border-radius: 100px;
-  padding: 4px;
-  width: max-content;
-  margin: 6px 0 4px;
+  color: var(--dim);
+  border-radius: 12px;
+  padding: 8px 12px;
+  min-width: 46px;
+  display: flex; flex-direction: column; align-items: center; gap: 1px;
+  font: 600 12px/1.1 -apple-system, sans-serif;
+  cursor: pointer;
+  transition: background .25s, color .25s, border-color .25s;
 }
-#view-toggle button {
-  background: transparent; border: 0; color: var(--faint);
-  font: 600 12px/1 -apple-system, sans-serif;
-  letter-spacing: 1px; text-transform: uppercase;
-  padding: 8px 18px; border-radius: 100px; cursor: pointer;
-  transition: background .25s, color .25s;
-}
-#view-toggle button.active { background: rgba(255,255,255,.12); color: var(--fg); }
+#day-strip button b { font-size: 10px; text-transform: uppercase; letter-spacing: 1px; color: var(--faint); font-weight: 600; }
+#day-strip button span { font-size: 15px; font-weight: 700; }
+#day-strip button.active { background: rgba(255,255,255,.13); color: var(--fg); border-color: rgba(255,255,255,.2); }
+#day-strip button.active b { color: var(--dim); }
+@media (min-width: 1200px) { #day-strip { margin-top: 6px; } }
 
 .ro { cursor: default !important; }
 .ro:hover { transform: none !important; }

@@ -229,8 +229,8 @@ app.post('/api/plan-tomorrow', (req, res) => {
   if (planJob && planJob.running) return res.json({ running: true, date: planJob.date });
   const target = tomorrowStr();
   planJob = { running: true, startedAt: Date.now(), date: target, error: null };
-  execFile('/bin/zsh', [path.join(WS, 'scripts/warroom/plan_tomorrow.sh'), target],
-    { timeout: 15 * 60 * 1000 }, (err) => {
+  execFile('/bin/zsh', [path.join(WS, 'scripts/warroom/horizon.sh')],
+    { timeout: 20 * 60 * 1000 }, (err) => {
       planJob.running = false;
       planJob.error = err && !fs.existsSync(dayFile(target)) ? String(err.message).slice(0, 200) : null;
     });

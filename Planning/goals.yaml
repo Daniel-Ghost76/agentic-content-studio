@@ -33,9 +33,29 @@ time_rules:
   outreach_sends_after: "13:00"   # US avatar awake
   work_end: "18:00"
 calendar_rules:
-  never_touch: "events with attendees other than Daniel"
-  editable: "solo blocks; meals/gym may shift max ±30min"
+  authority: "FULL — owns the solo calendar. Each day wipes deletable events and rebuilds, EXCEPT protected ones (see below)."
+  never_delete:
+    - "MEETINGS: any event with an attendee other than daniel@ministryflow.co"
+    - "PROTECTED: any event whose title contains a protect_keyword (a human commitment typed as a plain event, e.g. 'Call with Ana')"
+  deletable: "everything else solo — ⚔️ work blocks and the named routine anchors — these get wiped and rebuilt"
+  delete_mode: "single-instance only (recurring SERIES never cancelled — only that day's instance is replaced)"
+  audit: "every deleted event logged to Planning/logs/calendar-audit-<date>.json BEFORE deletion (restore trail)"
+  protect_keywords: [call, meet, meeting, appt, appointment, interview, sync, "1:1",
+    podcast, session, with, doctor, dentist, dr., birthday, anniversary, flight,
+    travel, trip, pickup, "pick up", "drop off", dropoff, viewing, visit, lunch with,
+    coffee, dinner with, hangout, date]
   conflicts_go_to: "conflicts array of the day JSON"
+
+# canonical daily routine — the manager rebuilds these every morning, fitting them around meetings
+routine:
+  - {name: "Brush teeth + water", time: "03:45", mins: 15, days: all}
+  - {name: "Breakfast", time: "09:00", mins: 30, days: all}
+  - {name: "Shower", time: "09:30", mins: 30, days: all}
+  - {name: "Gym", time: "10:00", mins: 90, days: [Mon, Tue, Thu, Fri]}
+  - {name: "Dinner", time: "18:00", mins: 45, days: all}
+  - {name: "Devotional / Read", time: "18:45", mins: 60, days: all}
+  - {name: "Sleep", time: "19:45", mins: 480, days: all}
+  - {name: "Church", time: "16:00", mins: 120, days: [Sat]}
 
 non_negotiables:
   - No sugar, no eating outside the meal plan
