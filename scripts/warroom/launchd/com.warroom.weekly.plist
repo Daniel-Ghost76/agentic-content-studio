@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.warroom.weekly</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/zsh</string>
+    <string>/Users/danieldanut/Agentic Workspace/scripts/warroom/weekly_review.sh</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <dict><key>Weekday</key><integer>0</integer><key>Hour</key><integer>18</integer><key>Minute</key><integer>30</integer></dict>
+  <key>StandardErrorPath</key><string>/Users/danieldanut/Agentic Workspace/Planning/logs/launchd.weekly.err</string>
+</dict>
+</plist>
