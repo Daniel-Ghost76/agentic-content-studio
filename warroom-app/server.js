@@ -49,10 +49,64 @@ function mirrorToNotes(date) {
     (err) => { if (err) console.error('notes mirror:', err.message); });
 }
 
+/* ---- live Google Calendar merge (secret iCal URL, polled every 3 min) ---- */
+const ical = require('node-ical');
+const ICS_PATH = path.join(APPDATA, 'calendar-ics-url.txt');
+let calCache = { at: 0, events: [] };
+async function refreshCal() {
+  if (!fs.existsSync(ICS_PATH)) return;
+  const url = fs.readFileSync(ICS_PATH, 'utf8').trim();
+  if (!url) return;
+  try {
+    const data = await ical.async.fromURL(url);
+    const start = new Date(); start.setHours(0, 0, 0, 0);
+    const end = new Date(start); end.setDate(end.getDate() + 1);
+    const evs = [];
+    for (const k in data) {
+      const ev = data[k];
+      if (ev.type !== 'VEVENT') continue;
+      const summary = String(ev.summary || '');
+      if (summary.startsWith('⚔️')) continue;            // our own blocks — already in the plan
+      const push = (s, e) => evs.push({ start: s, end: e, summary });
+      if (ev.rrule) {
+        const dur = (new Date(ev.end) - new Date(ev.start)) || 30 * 60000;
+        ev.rrule.between(start, end, true).forEach((d) => {
+          const ex = ev.exdate && Object.values(ev.exdate).some((x) => Math.abs(new Date(x) - d) < 60000);
+          if (!ex) push(new Date(d), new Date(+d + dur));
+        });
+      } else if (ev.start >= start && ev.start < end) {
+        push(new Date(ev.start), new Date(ev.end));
+      }
+    }
+    calCache = { at: Date.now(), events: evs };
+  } catch (e) { console.error('ics refresh:', e.message); }
+}
+refreshCal();
+setInterval(refreshCal, 3 * 60 * 1000);
+
+// read-time merge: live calendar overwrites routine/bare slots; the day FILE stays untouched
+function mergeCalendar(day) {
+  if (!calCache.events.length) return day;
+  const d = JSON.parse(JSON.stringify(day));
+  const byTime = {};
+  d.slots.forEach((s) => { byTime[s.time] = s; });
+  for (const ev of calCache.events) {
+    const t = new Date(ev.start);
+    t.setMinutes(t.getMinutes() < 30 ? 0 : 30, 0, 0);
+    for (let c = new Date(t); c < ev.end; c = new Date(+c + 30 * 60000)) {
+      const hh = String(c.getHours()).padStart(2, '0') + ':' + String(c.getMinutes()).padStart(2, '0');
+      const s = byTime[hh];
+      if (s && !s.taskId) s.routine = ev.summary;
+    }
+  }
+  return d;
+}
+
 app.get('/api/day/:date', (req, res) => {
-  const day = loadDay(req.params.date === 'today' ? todayStr() : req.params.date);
+  const wantToday = req.params.date === 'today';
+  const day = loadDay(wantToday ? todayStr() : req.params.date);
   if (!day) return res.status(404).json({ error: 'no plan for that day' });
-  res.json(day);
+  res.json(wantToday ? mergeCalendar(day) : day);
 });
 
 // tick a slot and/or a task; task.done cascades to its slots and vice versa.
@@ -62,8 +116,10 @@ app.post('/api/tick', (req, res) => {
   const day = loadDay(date || todayStr());
   if (!day) return res.status(404).json({ error: 'no plan' });
   if (time) {
-    const slot = day.slots.find((s) => s.time === time && (s.taskId || s.routine));
-    if (!slot) return res.status(400).json({ error: 'no tickable slot at ' + time });
+    // any slot is tickable (live-merged calendar rows tick onto bare file slots);
+    // only taskId slots ever count toward the score
+    const slot = day.slots.find((s) => s.time === time);
+    if (!slot) return res.status(400).json({ error: 'no slot at ' + time });
     slot.done = !!done;
   }
   if (taskId) {

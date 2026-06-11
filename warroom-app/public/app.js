@@ -11,78 +11,118 @@ async function api(path, body) {
   return res.json();
 }
 
-/* ---------- dune-grain background: black, white particle ridges, breathing + click shimmer ---------- */
+/* ---------- living dune line: real particle flow, pointer-reactive, nothing layered on top ---------- */
 (function dunes() {
   const cv = document.getElementById('aurora');
   const ctx = cv.getContext('2d');
   const DPR = Math.min(devicePixelRatio || 1, 2);
-  let w, h, layer;
+  let w, h, parts = [];
+  const SAMPLES = 220;
+  const mouse = { x: -1e6, y: -1e6 };
+  addEventListener('pointermove', (e) => { mouse.x = e.clientX * DPR; mouse.y = e.clientY * DPR; }, { passive: true });
+  addEventListener('pointerleave', () => { mouse.x = -1e6; mouse.y = -1e6; });
 
-  function bez(p0, p1, p2, p3, t) {
-    const u = 1 - t;
-    return {
-      x: u*u*u*p0.x + 3*u*u*t*p1.x + 3*u*t*t*p2.x + t*t*t*p3.x,
-      y: u*u*u*p0.y + 3*u*u*t*p1.y + 3*u*t*t*p2.y + t*t*t*p3.y,
-    };
-  }
   // gaussian-ish via central limit
   const g = () => (Math.random() + Math.random() + Math.random() + Math.random() - 2) / 2;
 
-  function paintRidge(c, curve, grains, spread, alpha) {
-    for (let i = 0; i < grains; i++) {
-      const t = Math.random();
-      const p = bez(curve[0], curve[1], curve[2], curve[3], t);
-      // tangent → normal
-      const p2 = bez(curve[0], curve[1], curve[2], curve[3], Math.min(t + .01, 1));
-      let nx = -(p2.y - p.y), ny = p2.x - p.x;
-      const len = Math.hypot(nx, ny) || 1;
-      nx /= len; ny /= len;
-      const d = g() * spread;                       // distance from crest
-      const fall = Math.exp(-(d * d) / (spread * spread * .5));
-      const a = alpha * fall * (0.25 + Math.random() * 0.75);
-      c.fillStyle = `rgba(255,255,255,${a})`;
-      const s = Math.random() < .92 ? 1 : 2;        // occasional brighter fleck
-      c.fillRect(p.x + nx * d, p.y + ny * d, s, s);
-    }
-  }
+  // ridge definitions in unit space; control points drift slowly → the LINE flows
+  const RIDGES = [
+    { p: [[.72, -.08], [.38, .22], [.95, .55], [.55, 1.08]], n: 6500, spread: 44, alpha: .8 },
+    { p: [[-.05, .65], [.30, .38], [.12, .18], [.42, -.05]], n: 2600, spread: 34, alpha: .42 },
+  ];
+  // per-control-point drift phases/amplitudes (unit-space, small)
+  const DRIFT = RIDGES.map(() => [0, 1, 2, 3].map(() => ({
+    ax: .015 + Math.random() * .02, ay: .012 + Math.random() * .018,
+    px: Math.random() * 6.28, py: Math.random() * 6.28,
+    sx: .00005 + Math.random() * .00004, sy: .00004 + Math.random() * .00004,
+  })));
 
-  function build() {
+  function setup() {
     w = cv.width = innerWidth * DPR;
     h = cv.height = innerHeight * DPR;
-    layer = document.createElement('canvas');
-    layer.width = w * 1.06; layer.height = h * 1.06;   // bleed so breathing never shows edges
-    const c = layer.getContext('2d');
-    const W = layer.width, Hh = layer.height;
-    // main S-ridge, right of center — like the reference photo
-    paintRidge(c, [
-      { x: W * .72, y: -Hh * .08 }, { x: W * .38, y: Hh * .22 },
-      { x: W * .95, y: Hh * .55 }, { x: W * .55, y: Hh * 1.08 },
-    ], 26000 * DPR, 60 * DPR, .55);
-    // faint companion ridge, upper left
-    paintRidge(c, [
-      { x: -W * .05, y: Hh * .65 }, { x: W * .30, y: Hh * .38 },
-      { x: W * .12, y: Hh * .18 }, { x: W * .42, y: -Hh * .05 },
-    ], 9000 * DPR, 46 * DPR, .28);
+    parts = [];
+    const budget = innerWidth < 700 ? .45 : 1;   // lighter sim on phone
+    RIDGES.forEach((r, ri) => {
+      for (let i = 0; i < r.n * budget; i++) {
+        const fall = Math.random();
+        const d = g() * r.spread;
+        let a = r.alpha * Math.exp(-(d * d) / (r.spread * r.spread * .5)) * (.25 + Math.random() * .75);
+        a = Math.round(Math.min(a, .9) * 14) / 14;   // quantize → few fillStyle switches per frame
+        if (a < .05) continue;
+        parts.push({
+          ri, idx: Math.floor(Math.random() * SAMPLES),
+          d: d * DPR,
+          a: Math.min(a, .9),
+          s: Math.random() < .85 ? 1 : 2,
+          ph: Math.random() * 6.28,
+          wob: .6 + Math.random() * 1.6,
+          ox: 0, oy: 0,                            // pointer displacement (springs back)
+        });
+      }
+    });
+    // bucket by alpha so we set fillStyle ~10× per frame, not 9000×
+    parts.sort((p1, p2) => p1.a - p2.a);
   }
-  build();
-  addEventListener('resize', () => { clearTimeout(window.__dn); window.__dn = setTimeout(build, 250); });
+  setup();
+  addEventListener('resize', () => { clearTimeout(window.__dn); window.__dn = setTimeout(setup, 250); });
 
-  // The LINES move — nothing is layered on top. The pre-rendered ridge image is
-  // drawn in horizontal bands, each offset by a slow travelling sine, so the
-  // white grain lines undulate like fabric in slow air.
-  const BANDS = 36;
-  function frame(t) {
+  const tableP = RIDGES.map(() => new Float32Array(SAMPLES * 2));
+  const tableN = RIDGES.map(() => new Float32Array(SAMPLES * 2));
+
+  function sampleCurves(time) {
+    RIDGES.forEach((r, ri) => {
+      const cp = r.p.map((pt, ci) => {
+        const dr = DRIFT[ri][ci];
+        return {
+          x: (pt[0] + Math.sin(time * dr.sx + dr.px) * dr.ax) * w,
+          y: (pt[1] + Math.cos(time * dr.sy + dr.py) * dr.ay) * h,
+        };
+      });
+      const P = tableP[ri], N = tableN[ri];
+      let px = 0, py = 0;
+      for (let i = 0; i < SAMPLES; i++) {
+        const t = i / (SAMPLES - 1), u = 1 - t;
+        const x = u*u*u*cp[0].x + 3*u*u*t*cp[1].x + 3*u*t*t*cp[2].x + t*t*t*cp[3].x;
+        const y = u*u*u*cp[0].y + 3*u*u*t*cp[1].y + 3*u*t*t*cp[2].y + t*t*t*cp[3].y;
+        P[i * 2] = x; P[i * 2 + 1] = y;
+        if (i > 0) {
+          let nx = -(y - py), ny = x - px;
+          const l = Math.hypot(nx, ny) || 1;
+          N[i * 2] = nx / l; N[i * 2 + 1] = ny / l;
+          if (i === 1) { N[0] = N[2]; N[1] = N[3]; }
+        }
+        px = x; py = y;
+      }
+    });
+  }
+
+  const R = 170, FORCE = 30;                       // hover field (css px)
+  function frame(time) {
     ctx.clearRect(0, 0, w, h);
-    const bandH = layer.height / BANDS;
-    const ox = (layer.width - w) / 2;
-    const oy = (layer.height - h) / 2;
-    for (let i = 0; i < BANDS; i++) {
-      const y = i * bandH;
-      const phase = y * .0016 / DPR;
-      const dx = Math.sin(t * .00018 + phase) * 4.5 * DPR
-               + Math.sin(t * .00007 + phase * 2.3) * 2.5 * DPR;
-      ctx.drawImage(layer, 0, y, layer.width, bandH,
-                    dx - ox, y - oy, layer.width, bandH);
+    sampleCurves(time);
+    const rad = R * DPR, rad2 = rad * rad;
+    let lastA = -1;
+    for (const p of parts) {
+      const P = tableP[p.ri], N = tableN[p.ri];
+      const i2 = p.idx * 2;
+      // breathing of the grain itself: soft per-particle wobble across the crest
+      const wob = Math.sin(time * .0006 + p.ph) * p.wob * DPR;
+      let x = P[i2] + N[i2] * (p.d + wob);
+      let y = P[i2 + 1] + N[i2 + 1] * (p.d + wob);
+      // pointer field: particles ease away near the cursor, spring back smoothly
+      const dx = x - mouse.x, dy = y - mouse.y;
+      const dist2 = dx * dx + dy * dy;
+      let tx = 0, ty = 0;
+      if (dist2 < rad2) {
+        const dist = Math.sqrt(dist2) || 1;
+        const f = (1 - dist / rad);
+        const push = f * f * FORCE * DPR;
+        tx = (dx / dist) * push; ty = (dy / dist) * push;
+      }
+      p.ox += (tx - p.ox) * .07;                  // critically-damped feel
+      p.oy += (ty - p.oy) * .07;
+      if (p.a !== lastA) { ctx.fillStyle = `rgba(255,255,255,${p.a})`; lastA = p.a; }
+      ctx.fillRect(x + p.ox, y + p.oy, p.s, p.s);
     }
     requestAnimationFrame(frame);
   }
