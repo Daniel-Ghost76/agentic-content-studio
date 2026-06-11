@@ -27,8 +27,8 @@ async function api(path, body) {
 
   // ridge definitions in unit space; control points drift slowly → the LINE flows
   const RIDGES = [
-    { p: [[.72, -.08], [.38, .22], [.95, .55], [.55, 1.08]], n: 24000, spread: 40, alpha: .8 },
-    { p: [[-.05, .65], [.30, .38], [.12, .18], [.42, -.05]], n: 9000, spread: 30, alpha: .45 },
+    { p: [[.72, -.08], [.38, .22], [.95, .55], [.55, 1.08]], n: 30000, spread: 42, alpha: .85 },
+    { p: [[-.05, .65], [.30, .38], [.12, .18], [.42, -.05]], n: 11000, spread: 32, alpha: .5 },
   ];
   // per-control-point drift phases/amplitudes (unit-space, small)
   const DRIFT = RIDGES.map(() => [0, 1, 2, 3].map(() => ({
@@ -44,10 +44,14 @@ async function api(path, body) {
     const budget = innerWidth < 700 ? .3 : 1;    // lighter sim on phone
     RIDGES.forEach((r, ri) => {
       for (let i = 0; i < r.n * budget; i++) {
-        const fall = Math.random();
-        const d = g() * r.spread;
-        let a = r.alpha * Math.exp(-(d * d) / (r.spread * r.spread * .5)) * (.25 + Math.random() * .75);
-        a = Math.round(Math.min(a, .9) * 18) / 18;   // quantize → few fillStyle switches per frame
+        // two-tier dust (Apple-event style): dense velvet core + wide sparse sparkle halo
+        const tight = Math.random() < .72;
+        const d = g() * r.spread * (tight ? .5 : 2.1);
+        let a = tight
+          ? r.alpha * (.4 + Math.random() * .6)
+          : r.alpha * Math.exp(-Math.abs(d) / (r.spread * 1.1)) * (.12 + Math.random() * .5);
+        if (Math.random() < .03) a = Math.min(a * 2.2, .95);   // rare bright sparkles
+        a = Math.round(Math.min(a, .95) * 18) / 18;   // quantize → few fillStyle switches per frame
         if (a < .04) continue;
         parts.push({
           ri, idx: Math.floor(Math.random() * SAMPLES),

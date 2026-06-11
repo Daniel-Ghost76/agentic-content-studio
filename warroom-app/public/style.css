@@ -142,7 +142,7 @@ h2 {
 @media (min-width: 1200px) { #prio-list { grid-template-columns: 1fr; } }
 .prio {
   position: relative;
-  background: linear-gradient(160deg, var(--card-hi), var(--card));
+  background: linear-gradient(160deg, rgba(255,255,255,.07), rgba(255,255,255,.015)), rgba(10,10,13,.82);
   box-shadow: var(--glass-shadow);
   backdrop-filter: blur(20px);
   border-radius: 18px;
@@ -199,7 +199,7 @@ h2 {
   border-radius: 14px;
 }
 .tl-row.work {
-  background: linear-gradient(160deg, var(--card-hi), var(--card));
+  background: linear-gradient(160deg, rgba(255,255,255,.07), rgba(255,255,255,.015)), rgba(10,10,13,.82);
   box-shadow: var(--glass-shadow);
   backdrop-filter: blur(20px);
   cursor: pointer;
@@ -210,7 +210,7 @@ h2 {
 .tl-row.work.done .ttext { opacity: .3; text-decoration: line-through; text-decoration-thickness: 1px; }
 /* routine panels — same size as work panels, tickable, NEVER counted; purple when done */
 .tl-row.rest {
-  background: rgba(255,255,255,.022);
+  background: linear-gradient(160deg, rgba(255,255,255,.035), rgba(255,255,255,.008)), rgba(8,8,10,.78);
   box-shadow: inset 0 1px 0 rgba(255,255,255,.05), 0 0 0 1px rgba(255,255,255,.045);
   backdrop-filter: blur(20px);
   cursor: pointer;
@@ -274,7 +274,7 @@ h2 {
 #closing {
   margin-top: 52px;
   padding: 26px 24px 28px;
-  background: linear-gradient(160deg, var(--card-hi), var(--card));
+  background: linear-gradient(160deg, rgba(255,255,255,.07), rgba(255,255,255,.015)), rgba(10,10,13,.82);
   box-shadow: var(--glass-shadow);
   backdrop-filter: blur(20px);
   border-radius: 22px;
