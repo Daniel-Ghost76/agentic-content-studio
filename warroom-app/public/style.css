@@ -87,6 +87,7 @@ main {
 /* ---- mobile: hero on top, stream in the middle, inputs at the BOTTOM ---- */
 @media (max-width: 1199px) {
   main { display: flex; flex-direction: column; }
+  #date { font-size: clamp(26px, 7.2vw, 44px); }
   #left { display: contents; }            /* frees #hero and #inputs to be ordered */
   #hero   { order: 0; }
   #right  { order: 1; margin-top: 8px; }
