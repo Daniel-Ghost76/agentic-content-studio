@@ -72,6 +72,11 @@ function metaChanged() {
 
 document.getElementById('enable-push').onclick = async () => {
   try {
+    const standalone = window.matchMedia('(display-mode: standalone)').matches || navigator.standalone;
+    if (!standalone && /iPhone|iPad/.test(navigator.userAgent)) {
+      alert('Open War Room from the home-screen icon first — iOS only allows check-ins from the installed app, not Safari.');
+      return;
+    }
     const reg = await navigator.serviceWorker.ready;
     const { publicKey } = await api('vapid-public-key');
     const sub = await reg.pushManager.subscribe({
