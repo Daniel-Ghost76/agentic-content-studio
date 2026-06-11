@@ -7,7 +7,7 @@ cd "$WS"
 {
   echo "=== morning build $(date) ==="
   claude -p "$(cat "$WS/Planning/prompts/morning_build.md")" \
-    --model sonnet --permission-mode bypassPermissions --max-turns 100
+    --model haiku --permission-mode bypassPermissions --max-turns 100
 } >> "$LOG" 2>&1
 RC=$?
 if [[ $RC -ne 0 || ! -f "$WS/Planning/Daily/$(date +%F).json" ]]; then

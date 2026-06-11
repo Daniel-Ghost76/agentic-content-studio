@@ -20,7 +20,7 @@ cd "$WS"
 {
   echo "=== plan-tomorrow ($TARGET) started $(date) ==="
   claude -p "$(cat "$PROMPT_FILE")" \
-    --model sonnet --permission-mode bypassPermissions --max-turns 100
+    --model haiku --permission-mode bypassPermissions --max-turns 100
   echo "=== exit $? $(date) ==="
 } >> "$LOG" 2>&1
 rm -f "$PROMPT_FILE"
