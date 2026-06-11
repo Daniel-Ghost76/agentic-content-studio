@@ -9,8 +9,11 @@ date Europe/London. Google MCP calls: user_google_email=daniel@ministryflow.co.
    anything NEW appeared overnight (events added/moved), adjust — move YOUR
    ⚔️ solo blocks out of the way of new attendee events, add new routine
    entries to the slots, append any new collisions to the conflicts array.
-   Keep everything else exactly as Daniel approved it. Then re-arm check-ins
-   (curl step below) and stop.
+   ALSO reconcile carries: for each carried priority, check its source task
+   in yesterday's file — if Daniel finished it (progress 100) AFTER tomorrow
+   was generated, remove the stale carry and give its slots to the next
+   -ranked open work. Keep everything else exactly as Daniel approved it.
+   Then re-arm check-ins (curl step below) and stop.
 1. Read Planning/goals.yaml. If month.id != current month: write a minimal
    day JSON whose only priority is "Run month-rollover setup session with
    Claude", run scripts/warroom/alert.sh "War Room: month rollover needed",
