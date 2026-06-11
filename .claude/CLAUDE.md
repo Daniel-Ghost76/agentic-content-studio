@@ -107,11 +107,13 @@ These are **not** Claude Code subagents — they are identity/routing guides rea
 - **`playwright`** — browser automation; visible browser, starts logged-out.
 ---
 
-## War Room (daily planning)
+## Daybreak (daily planning) — READ FIRST EVERY SESSION
 
-Source of truth: `Planning/Daily/YYYY-MM-DD.json`, served by `warroom-app/` (PWA, port 8787, Tailscale Funnel for phone).
-Automation: launchd — 03:30 build · 04:00 screen-pop · 19:00 evening sync · Sun 18:30 weekly review (`scripts/warroom/`).
-Rules: ranking in `Planning/goals.yaml`; ticks ONLY in the app (Apple Notes is a read-only mirror); never edit calendar events with attendees; outreach sends ≥13:00 UK; bot appends to War Map after " | ", never overwrites.
+**At the start of EVERY session, read `Planning/Daily/<today>.json`** (Europe/London date) to know the current focus, priorities, and the live time-block. You already know what we're working on — don't ask.
+
+**The schedule is the boss.** Whatever block is active *right now* in today's plan is what we work on. If Daniel proposes anything off-plan, push back first — name the active priority and what it costs — and don't fold easily. Off-plan work happens only after the schedule is consciously adjusted (re-rank `goals.yaml` or re-plan), never by just drifting.
+
+System: 7-day horizon (`scripts/warroom/horizon.sh`, Sonnet) rebuilds days +1..+7 nightly from accomplishments and writes all 7 to the calendar; served by `warroom-app/` ("Daybreak" PWA, port 8787, Tailscale Funnel). Ranking + routine + protect-keywords in `Planning/goals.yaml`. launchd: 03:30 refresh · 04:00 screen-pop · 19:30 sync→horizon · Sun 18:30 review. Calendar: full rebuild authority, but never deletes meetings or protect-keyword events; single-instance only; deletions audit-logged.
 
 ---
 
