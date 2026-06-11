@@ -83,6 +83,14 @@ document.getElementById('enable-push').onclick = async () => {
 
 navigator.serviceWorker.register('sw.js');
 api('day/today').then(set).catch((e) => {
+  if (!KEY || e.message.includes('bad key')) {
+    const k = prompt('Enter your War Room key:');
+    if (k && k.trim()) {
+      localStorage.warroomKey = k.trim();
+      location.reload();
+      return;
+    }
+  }
   document.body.innerHTML = `<h1 style="padding:40px">No plan for today yet.<br><small>${e.message}</small></h1>`;
 });
 setInterval(() => api('day/today').then(set).catch(() => {}), 60_000); // cross-device refresh
