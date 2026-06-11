@@ -241,7 +241,7 @@ function render() {
       el.className = 'tl-row work' + (prog >= 100 ? ' done' : prog > 0 ? ' partial' : '') + (RO() ? ' ro' : '');
       el.style.minHeight = (minutes * PX_PER_MIN) + 'px';
       el.innerHTML = `<div class="prog-fill" style="width:${prog}%"></div>` +
-        `<span class="tl-time">${e.start}–${e.end}</span><span class="tl-dot"></span>` +
+        `<span class="tl-dot"></span>` +
         `<span class="tick"></span><span class="ttext">${t ? t.text : e.tid}</span>` +
         `<span class="prog-pct" style="opacity:${prog > 0 && prog < 100 ? 1 : 0}">${prog}%</span>`;
       if (!RO()) {
@@ -251,7 +251,7 @@ function render() {
     } else if (e.type === 'rest') {
       el.className = 'tl-row rest' + (e.done ? ' done' : '') + (RO() ? ' ro' : '');
       el.style.minHeight = (minutes * PX_PER_MIN) + 'px';
-      el.innerHTML = `<span class="tl-time">${e.start}</span><span class="tl-dot"></span>` +
+      el.innerHTML = `<span class="tl-dot"></span>` +
         `<span class="tick"></span><span class="ttext">${e.label}</span>`;
       if (!RO()) {
         el.onclick = async () => {
@@ -268,6 +268,20 @@ function render() {
     el.dataset.end = e.end;
     tl.appendChild(el);
   });
+
+  // time ruler — hour labels bold, half-hours faded, full 03:45→19:45 axis
+  if (entries.length) {
+    const startM = mins(entries[0].start);
+    const endM = mins(entries[entries.length - 1].end);
+    for (let m = Math.ceil(startM / 30) * 30; m <= endM; m += 30) {
+      const isHour = m % 60 === 0;
+      const tick = document.createElement('div');
+      tick.className = 'tl-tick' + (isHour ? ' hour' : '');
+      tick.style.top = ((m - startM) * PX_PER_MIN) + 'px';
+      tick.textContent = `${String(Math.floor(m / 60)).padStart(2, '0')}:${String(m % 60).padStart(2, '0')}`;
+      tl.appendChild(tick);
+    }
+  }
   positionNowLine();
 
   if (!RO()) {

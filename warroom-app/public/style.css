@@ -341,14 +341,20 @@ h2 {
 .tl-row.empty { padding: 3px 14px; margin-bottom: 4px; min-height: 16px; }
 .tl-row.empty .tl-time { top: 3px; font-size: 11px; color: rgba(255,255,255,.14); }
 .tl-dash { flex: 1; height: 1px; align-self: center; background: rgba(255,255,255,.035); }
-.tl-time {
-  position: absolute; left: -86px; width: 64px;
+/* time ruler ticks — sit in the left gutter, hour bold / half-hour faded */
+.tl-tick {
+  position: absolute; left: 0; width: 56px;
   text-align: right;
-  font-size: 12.5px; color: var(--faint);
   font-variant-numeric: tabular-nums;
-  top: 13px;
+  transform: translateY(-50%);
+  pointer-events: none;
 }
-.tl-row.routine .tl-time { top: 9px; }
+.tl-tick { font-size: 10px; color: rgba(255,255,255,.16); }
+.tl-tick.hour { font-size: 12px; color: var(--dim); font-weight: 600; }
+.tl-tick.hour::after {
+  content: ''; position: absolute; right: -10px; top: 50%;
+  width: 6px; height: 1px; background: rgba(255,255,255,.18);
+}
 .tl-dot {
   position: absolute; left: -17.5px; top: 17px;
   width: 7px; height: 7px; border-radius: 50%;
