@@ -96,6 +96,25 @@ app.post('/api/meta', (req, res) => {
   res.json(day);
 });
 
+// "Send report" — fires the day recap to Telegram immediately, marks day reported
+app.post('/api/report', (req, res) => {
+  const day = loadDay(req.body.date || todayStr());
+  if (!day) return res.status(404).json({ error: 'no plan' });
+  const doneP = day.priorities.filter((p) => p.done === true).map((p) => p.text + (p.actual != null ? ` (${p.actual})` : ''));
+  const openP = day.priorities.filter((p) => p.done !== true).map((p) => p.text);
+  const msg = `Daybreak report — ${day.date}\n` +
+    `${day.score.rating ?? 0}% · ${day.score.hours ?? 0}h focused\n` +
+    `Shipped: ${doneP.length ? doneP.join(' · ') : 'nothing yet'}\n` +
+    `Open: ${openP.length ? openP.join(' · ') : 'nothing'}` +
+    (day.improve ? `\nImprove: ${day.improve}` : '');
+  execFile(path.join(WS, 'scripts/warroom/alert.sh'), [msg], (err) => {
+    if (err) return res.status(500).json({ error: 'telegram failed' });
+    day.reported = true;
+    saveDay(day);
+    res.json(day);
+  });
+});
+
 // history for dashboards/weekly review
 app.get('/api/history', (_req, res) => {
   const files = fs.readdirSync(DAILY).filter((f) => f.endsWith('.json')).sort();

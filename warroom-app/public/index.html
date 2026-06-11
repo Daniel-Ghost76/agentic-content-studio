@@ -9,48 +9,41 @@
 <link rel="apple-touch-icon" href="icon-192.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#050507">
 </head>
 <body>
-<header>
-  <h1>Daybreak</h1>
-  <div id="date"></div>
-  <div class="scorebar">
-    <span>Rating <b id="rating">–%</b></span>
-    <span>Hours <b id="hours">–</b></span>
-  </div>
-  <div class="focus">Focus: <span id="focus"></span></div>
-  <div class="output">Output: <span id="output">—</span></div>
-</header>
+<canvas id="aurora"></canvas>
+<div id="grain"></div>
 
-<section id="priorities">
-  <h2>Priority Tasks</h2>
-  <ul id="prio-list"></ul>
-</section>
+<main>
+  <section id="hero">
+    <div id="date"></div>
+    <div id="focus"></div>
+    <div id="ring-wrap">
+      <svg id="ring" viewBox="0 0 120 120">
+        <circle class="track" cx="60" cy="60" r="54"/>
+        <circle class="fill" cx="60" cy="60" r="54" id="ring-fill"/>
+      </svg>
+      <div id="ring-label"><b id="rating">0%</b><span id="hours">0h</span></div>
+    </div>
+  </section>
 
-<section id="schedule">
-  <h2>Schedule</h2>
-  <div id="grid"></div>
-</section>
+  <section id="priorities">
+    <h2>Priorities</h2>
+    <div id="prio-list"></div>
+  </section>
 
-<section id="meta">
-  <label>Calls Conducted / Booked:
-    <input id="callsC" type="number" min="0" inputmode="numeric"> /
-    <input id="callsB" type="number" min="0" inputmode="numeric">
-  </label>
-  <label>How can I improve?
-    <textarea id="improve" rows="2"></textarea>
-  </label>
-</section>
+  <section id="timeline">
+    <h2>Today</h2>
+    <div id="tl"></div>
+  </section>
 
-<footer>
-  <ol>
-    <li>No sugar, no eating outside the meal plan</li>
-    <li>No YouTube / Hormozi / courses / random research</li>
-    <li>No distractions 4–8am — do not <i>not</i> work on the priority</li>
-    <li>No task switching / incompletion (90%+)</li>
-  </ol>
-  <button id="enable-push">Enable check-ins</button>
-</footer>
+  <section id="closing">
+    <textarea id="improve" rows="2" placeholder="How can I improve?"></textarea>
+    <button id="report">Send report</button>
+    <button id="enable-push" hidden>Enable notifications</button>
+  </section>
+</main>
 <script src="app.js"></script>
 </body>
 </html>
