@@ -1,0 +1,195 @@
+{
+  "date": "2026-06-11",
+  "focus": "Outreach system v1 build + YouTube pipeline push",
+  "priorities": [
+    {
+      "id": "p1",
+      "text": "Outreach system — build sender module skeleton + 1 dry-run LinkedIn DM batch",
+      "done": null,
+      "actual": null,
+      "carryFrom": null
+    },
+    {
+      "id": "p2",
+      "text": "YouTube pipeline — Stage 5b Visuals finish for 02_codex_mobile (1 complete final export)",
+      "done": null,
+      "actual": null,
+      "carryFrom": null
+    },
+    {
+      "id": "p3",
+      "text": "YouTube pipeline — record raw take for 07_claude_code_setup (full camera pass)",
+      "done": null,
+      "actual": null,
+      "carryFrom": null
+    },
+    {
+      "id": "p4",
+      "text": "Skool funnel — draft offer page outline + 1 onboarding step written",
+      "done": null,
+      "actual": null,
+      "carryFrom": null
+    }
+  ],
+  "slots": [
+    {
+      "time": "04:00",
+      "taskId": "p1",
+      "done": true
+    },
+    {
+      "time": "04:30",
+      "taskId": "p1",
+      "done": false
+    },
+    {
+      "time": "05:00",
+      "taskId": "p1",
+      "done": false
+    },
+    {
+      "time": "05:30",
+      "taskId": "p1",
+      "done": false
+    },
+    {
+      "time": "06:00",
+      "taskId": "p1",
+      "done": false
+    },
+    {
+      "time": "06:30",
+      "taskId": "p1",
+      "done": false
+    },
+    {
+      "time": "07:00",
+      "taskId": "p1",
+      "done": false
+    },
+    {
+      "time": "07:30",
+      "taskId": "p1",
+      "done": false
+    },
+    {
+      "time": "08:00",
+      "taskId": "p3",
+      "done": false
+    },
+    {
+      "time": "08:30",
+      "taskId": "p3",
+      "done": false
+    },
+    {
+      "time": "09:00",
+      "routine": "breakfast"
+    },
+    {
+      "time": "09:30",
+      "routine": "shower"
+    },
+    {
+      "time": "10:00",
+      "routine": "gym"
+    },
+    {
+      "time": "10:30",
+      "routine": "gym"
+    },
+    {
+      "time": "11:00",
+      "routine": "gym"
+    },
+    {
+      "time": "11:30",
+      "routine": "gym"
+    },
+    {
+      "time": "12:00",
+      "taskId": "p3",
+      "done": false
+    },
+    {
+      "time": "12:30",
+      "taskId": "p3",
+      "done": false
+    },
+    {
+      "time": "13:00",
+      "taskId": "p3",
+      "done": false
+    },
+    {
+      "time": "13:30",
+      "taskId": "p3",
+      "done": false
+    },
+    {
+      "time": "14:00",
+      "routine": "lunch"
+    },
+    {
+      "time": "14:30",
+      "taskId": "p2",
+      "done": false
+    },
+    {
+      "time": "15:00",
+      "taskId": "p2",
+      "done": false
+    },
+    {
+      "time": "15:30",
+      "taskId": "p2",
+      "done": false
+    },
+    {
+      "time": "16:00",
+      "taskId": "p2",
+      "done": false
+    },
+    {
+      "time": "16:30",
+      "taskId": "p4",
+      "done": false
+    },
+    {
+      "time": "17:00",
+      "taskId": "p4",
+      "done": false
+    },
+    {
+      "time": "17:30",
+      "taskId": "p4",
+      "done": false
+    },
+    {
+      "time": "18:00",
+      "routine": "dinner"
+    },
+    {
+      "time": "18:30"
+    },
+    {
+      "time": "18:45",
+      "routine": "devotional"
+    },
+    {
+      "time": "19:00"
+    },
+    {
+      "time": "19:30"
+    }
+  ],
+  "callsConducted": null,
+  "callsBooked": null,
+  "improve": "",
+  "score": {
+    "rating": 5,
+    "hours": 0.5,
+    "output": ""
+  },
+  "conflicts": []
+}
