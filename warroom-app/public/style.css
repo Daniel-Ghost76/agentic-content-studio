@@ -360,13 +360,17 @@ h2 {
   width: 7px; height: 7px; border-radius: 50%;
   background: var(--faint);
 }
-.tl-row.done .tl-dot { background: var(--green); }
+/* spine dots colored by type: work = green, routine = purple */
+.tl-row.work .tl-dot { background: var(--green); box-shadow: 0 0 6px rgba(63,185,80,.35); }
+.tl-row.rest .tl-dot { background: var(--purple); box-shadow: 0 0 6px rgba(139,124,246,.35); }
 .ttext { font-family: var(--serif); font-size: 14.5px; line-height: 1.5; letter-spacing: .15px; }
 @media (max-width: 620px) {
-  #tl { padding-left: 58px; }
-  #tl::before { left: 46px; }
-  .tl-time { left: -58px; width: 42px; font-size: 11px; }
-  .tl-dot { left: -11.5px; }
+  #tl { padding-left: 66px; }
+  #tl::before { left: 56px; }
+  .tl-dot { left: -13.5px; }
+  .tl-tick { width: 40px; font-size: 9px; }
+  .tl-tick.hour { font-size: 10.5px; }
+  .tl-tick.hour::after { right: -8px; width: 5px; }
 }
 #now-line {
   position: absolute; left: 60px; right: 0;
