@@ -15,4 +15,10 @@ cd "$WS"
 } >> "$LOG" 2>&1
 # success = at least tomorrow's plan exists
 TOM=$(date -v+1d +%F 2>/dev/null || date -d "+1 day" +%F)
-[[ -f "$WS/Planning/Daily/$TOM.json" ]] || "$WS/scripts/warroom/alert.sh" "Horizon FAILED. Log: $LOG"
+if [[ -f "$WS/Planning/Daily/$TOM.json" ]]; then
+  # deterministic calendar push — code writes ⚔️ blocks, never the LLM
+  NODE_PATH="$WS/warroom-app/node_modules" node "$WS/scripts/warroom/calsync.js" --days 7 >> "$LOG" 2>&1 \
+    || "$WS/scripts/warroom/alert.sh" "Calendar sync FAILED. Log: $LOG"
+else
+  "$WS/scripts/warroom/alert.sh" "Horizon FAILED. Log: $LOG"
+fi

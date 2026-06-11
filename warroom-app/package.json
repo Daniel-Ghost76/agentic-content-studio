@@ -1,1 +1,1 @@
-{"name":"warroom","private":true,"main":"server.js","dependencies":{"express":"^4.19.0","node-ical":"^0.26.1","web-push":"^3.6.7"}}
+{"name":"warroom","private":true,"main":"server.js","dependencies":{"express":"^4.19.0","googleapis":"^173.0.0","node-ical":"^0.26.1","web-push":"^3.6.7"}}

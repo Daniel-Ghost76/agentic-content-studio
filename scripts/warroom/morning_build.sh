@@ -12,4 +12,8 @@ cd "$WS"
 RC=$?
 if [[ $RC -ne 0 || ! -f "$WS/Planning/Daily/$(date +%F).json" ]]; then
   "$WS/scripts/warroom/alert.sh" "Morning build FAILED (rc=$RC). Log: $LOG"
+else
+  # deterministic calendar sync for today (code writes ⚔️ blocks, never the LLM)
+  NODE_PATH="$WS/warroom-app/node_modules" node "$WS/scripts/warroom/calsync.js" --date "$(date +%F)" >> "$LOG" 2>&1 \
+    || "$WS/scripts/warroom/alert.sh" "Calendar sync FAILED (morning). Log: $LOG"
 fi
