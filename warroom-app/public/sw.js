@@ -24,6 +24,7 @@ self.addEventListener('notificationclick', (e) => {
       });
     })());
   } else {
-    e.waitUntil(clients.openWindow('/')); // tap body → open app (enter actual numbers there)
+    // iOS has no action buttons — tap opens the app focused on the task with big ✅/❌
+    e.waitUntil(clients.openWindow(d.taskId && d.taskId !== 'test' ? '/?focus=' + d.taskId : '/'));
   }
 });

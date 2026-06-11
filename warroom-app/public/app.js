@@ -57,6 +57,32 @@ function render() {
 
 function set(d) { day = d; render(); }
 
+// notification tap lands here with ?focus=<taskId> — show big answer buttons (iOS has none on the notification)
+function maybeFocusTask() {
+  const id = new URLSearchParams(location.search).get('focus');
+  if (!id || !day) return;
+  const t = day.priorities.find((p) => p.id === id);
+  if (!t || t.done !== null) return;
+  const ov = document.createElement('div');
+  ov.id = 'focus-overlay';
+  ov.innerHTML = `
+    <div class="sheet">
+      <p>${t.text}</p>
+      <button class="yes">✅ Done</button>
+      <button class="no">❌ Not yet</button>
+    </div>`;
+  ov.querySelector('.yes').onclick = () => answer(true);
+  ov.querySelector('.no').onclick = () => answer(false);
+  function answer(done) {
+    api('tick', { date: day.date, taskId: id, done }).then((d) => {
+      ov.remove();
+      history.replaceState(null, '', '/');
+      set(d);
+    });
+  }
+  document.body.appendChild(ov);
+}
+
 let metaTimer;
 function metaChanged() {
   clearTimeout(metaTimer);
@@ -87,7 +113,7 @@ document.getElementById('enable-push').onclick = async () => {
 };
 
 navigator.serviceWorker.register('sw.js');
-api('day/today').then(set).catch((e) => {
+api('day/today').then((d) => { set(d); maybeFocusTask(); }).catch((e) => {
   if (!KEY || e.message.includes('bad key')) {
     const k = prompt('Enter your War Room key:');
     if (k && k.trim()) {
