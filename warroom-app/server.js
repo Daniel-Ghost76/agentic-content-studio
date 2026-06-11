@@ -121,6 +121,7 @@ app.post('/api/tick', (req, res) => {
     const slot = day.slots.find((s) => s.time === time);
     if (!slot) return res.status(400).json({ error: 'no slot at ' + time });
     slot.done = !!done;
+    if (!slot.taskId) slot.manual = true;   // user's hand beats the auto-tick clock
   }
   if (taskId) {
     const t = day.priorities.find((p) => p.id === taskId);
@@ -200,6 +201,23 @@ app.get('/api/history', (_req, res) => {
   const files = fs.readdirSync(DAILY).filter((f) => f.endsWith('.json')).sort();
   res.json(files.slice(-31).map((f) => JSON.parse(fs.readFileSync(path.join(DAILY, f), 'utf8'))));
 });
+
+// auto-tick non-work items once their time has passed (manual unticks are respected)
+function autoTickRoutine() {
+  const day = loadDay(todayStr());
+  if (!day) return;
+  const now = new Date();
+  const nowM = now.getHours() * 60 + now.getMinutes();
+  let changed = false;
+  for (const s of day.slots) {
+    if (s.taskId || !s.routine || s.done || s.manual) continue;
+    const [h, m] = s.time.split(':').map(Number);
+    if (h * 60 + m + 30 <= nowM) { s.done = true; changed = true; }
+  }
+  if (changed) saveDay(day);
+}
+autoTickRoutine();
+setInterval(autoTickRoutine, 5 * 60 * 1000);
 
 require('./push')(app, { loadDay, saveDay, todayStr, APPDATA, SECRET });
 
